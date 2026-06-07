@@ -1,0 +1,486 @@
+{
+  "year": 2024,
+  "category": "MALUCH",
+  "problems": [
+    {
+      "id": "kangur-maluch-2024-1",
+      "source": "kangur-maluch-2024-1",
+      "year": 2024,
+      "number": 1,
+      "difficulty": "3pkt",
+      "topic": "geometria_plaska",
+      "subtopic": "rozciecie kwadratu na rozne czesci",
+      "statement": "Ktory kwadrat zostal rozciety wzdluz pogrubionych linii na dwie czesci o ROZNYCH ksztaltach?",
+      "hasImage": true,
+      "imageNote": "Piec kwadratow z roznymi liniami ciecia.",
+      "choices": {
+        "A": "kwadrat A",
+        "B": "kwadrat B",
+        "C": "kwadrat C",
+        "D": "kwadrat D",
+        "E": "kwadrat E"
+      },
+      "correct": "A"
+    },
+    {
+      "id": "kangur-maluch-2024-2",
+      "source": "kangur-maluch-2024-2",
+      "year": 2024,
+      "number": 2,
+      "difficulty": "3pkt",
+      "topic": "arytmetyka",
+      "subtopic": "porownanie sum",
+      "statement": "Ktora z sum jest najwieksza: A) 202+4, B) 20+24, C) 2+0+2+4, D) 20+2+4, E) 2+0+24?",
+      "hasImage": false,
+      "imageNote": null,
+      "choices": {
+        "A": "202 + 4",
+        "B": "20 + 24",
+        "C": "2 + 0 + 2 + 4",
+        "D": "20 + 2 + 4",
+        "E": "2 + 0 + 24"
+      },
+      "correct": "A"
+    },
+    {
+      "id": "kangur-maluch-2024-3",
+      "source": "kangur-maluch-2024-3",
+      "year": 2024,
+      "number": 3,
+      "difficulty": "3pkt",
+      "topic": "geometria_plaska",
+      "subtopic": "zliczanie pol po pokolorowaniu",
+      "statement": "Tabelka ma 28 pol (4 wiersze, 7 kolumn). Dominika pokolorowala wszystkie pola w dwoch wierszach i wszystkie w jednej kolumnie. Ile pol pozostalo niezamalowanych?",
+      "hasImage": true,
+      "imageNote": "Tabelka 4x7.",
+      "choices": {
+        "A": "8",
+        "B": "10",
+        "C": "12",
+        "D": "14",
+        "E": "16"
+      },
+      "correct": "C"
+    },
+    {
+      "id": "kangur-maluch-2024-4",
+      "source": "kangur-maluch-2024-4",
+      "year": 2024,
+      "number": 4,
+      "difficulty": "3pkt",
+      "topic": "geometria_plaska",
+      "subtopic": "liczenie plytek pod plakatem",
+      "statement": "Sciana wylozona naprzemiennie bialymi i szarymi plytkami. Marysia nakleila prostokatny plakat. Ile szarych plytek przykryl plakat?",
+      "hasImage": true,
+      "imageNote": "Sciana z szachownica plytek i prostokatny plakat.",
+      "choices": {
+        "A": "15",
+        "B": "21",
+        "C": "25",
+        "D": "30",
+        "E": "35"
+      },
+      "correct": "B"
+    },
+    {
+      "id": "kangur-maluch-2024-5",
+      "source": "kangur-maluch-2024-5",
+      "year": 2024,
+      "number": 5,
+      "difficulty": "3pkt",
+      "topic": "arytmetyka",
+      "subtopic": "kolejne liczby czterocyfrowe - zaslonięte cyfry",
+      "statement": "Stas zapisal trzy kolejne liczby czterocyfrowe i zaslonil niektore cyfry: '...7', '...898', '48...'. Co zostalo zakryte?",
+      "hasImage": true,
+      "imageNote": "Trzy kolejne liczby 4-cyfrowe z zasloniętymi czesciami.",
+      "choices": {
+        "A": "389, 3, 99",
+        "B": "489, 3, 96",
+        "C": "489, 4, 98",
+        "D": "488, 4, 99",
+        "E": "489, 4, 99"
+      },
+      "correct": "E"
+    },
+    {
+      "id": "kangur-maluch-2024-6",
+      "source": "kangur-maluch-2024-6",
+      "year": 2024,
+      "number": 6,
+      "difficulty": "3pkt",
+      "topic": "pieniadze",
+      "subtopic": "trzy rozne ceny calkowite",
+      "statement": "Za trzy rozne ciastka Helenka zaplacila 7 zlotych. Kazde ciastko kosztowalo calkowita liczbe zlotych i mialo inna cene. Ile kosztowalo najdrozsze ciastko?",
+      "hasImage": false,
+      "imageNote": null,
+      "choices": {
+        "A": "2 zlote",
+        "B": "3 zlote",
+        "C": "4 zlote",
+        "D": "5 zlotych",
+        "E": "6 zlotych"
+      },
+      "correct": "C"
+    },
+    {
+      "id": "kangur-maluch-2024-7",
+      "source": "kangur-maluch-2024-7",
+      "year": 2024,
+      "number": 7,
+      "difficulty": "3pkt",
+      "topic": "kombinatoryka",
+      "subtopic": "podawanie pilki w kregu",
+      "statement": "11 pilkarzy w kregu. Gracz 1 ma pilke i podaje ja do trzeciego gracza po swojej lewej stronie. Schemat sie powtarza, az pilka trafi do kogos po raz drugi. Jaki numer ma zawodnik, ktory ostatni podal pilke?",
+      "hasImage": true,
+      "imageNote": "11 graczy w kregu ponumerowanych 1-11.",
+      "choices": {
+        "A": "11",
+        "B": "9",
+        "C": "8",
+        "D": "6",
+        "E": "3"
+      },
+      "correct": "B"
+    },
+    {
+      "id": "kangur-maluch-2024-8",
+      "source": "kangur-maluch-2024-8",
+      "year": 2024,
+      "number": 8,
+      "difficulty": "3pkt",
+      "topic": "geometria_przestrzenna",
+      "subtopic": "budowla przed stracenem klocka",
+      "statement": "Ignas zbudowal konstrukcje z klockow. Kot stracil z niej jeden klocek. Jak mogla wygladac ta budowla PRZED straceniem klocka?",
+      "hasImage": true,
+      "imageNote": "Konstrukcja po straceniu klocka i 5 wariantow budowli przed.",
+      "choices": {
+        "A": "budowla A",
+        "B": "budowla B",
+        "C": "budowla C",
+        "D": "budowla D",
+        "E": "budowla E"
+      },
+      "correct": "C"
+    },
+    {
+      "id": "kangur-maluch-2024-9",
+      "source": "kangur-maluch-2024-9",
+      "year": 2024,
+      "number": 9,
+      "difficulty": "4pkt",
+      "topic": "logika",
+      "subtopic": "ruch pionka wedlug rzutow moneta",
+      "statement": "Reszka przesuwa pionek o 3 pola w prawo, orzel o 1 pole w lewo (lub pozostanie na START). Ela i Wladek zaczeli na START, kazdy rzucil 4 razy. Ela stanela na polu 4, Wladek na polu 8. Ile razy lacznie wyrzucili orla?",
+      "hasImage": true,
+      "imageNote": "Plansza z polami START, 1-12, META.",
+      "choices": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4",
+        "E": "5"
+      },
+      "correct": "C"
+    },
+    {
+      "id": "kangur-maluch-2024-10",
+      "source": "kangur-maluch-2024-10",
+      "year": 2024,
+      "number": 10,
+      "difficulty": "4pkt",
+      "topic": "logika",
+      "subtopic": "przyporzadkowanie owocow dzieciom",
+      "statement": "Na tacy 5 owocow: jablko, gruszka, wisnia, truskawka, banan. Franek lubi tylko wisnie. Tadzio lubi wisnie i banan. Kajtek lubi wisnie, truskawke, banan. Alicja lubi gruszke i truskawke. Jozek lubi wszystkie. Kazde dziecko dostalo owoc, ktory lubi. Co dostal Jozek?",
+      "hasImage": true,
+      "imageNote": "Piec owocow na tacy.",
+      "choices": {
+        "A": "jablko",
+        "B": "gruszka",
+        "C": "wisnia",
+        "D": "truskawka",
+        "E": "banan"
+      },
+      "correct": "A"
+    },
+    {
+      "id": "kangur-maluch-2024-11",
+      "source": "kangur-maluch-2024-11",
+      "year": 2024,
+      "number": 11,
+      "difficulty": "4pkt",
+      "topic": "geometria_plaska",
+      "subtopic": "bok kwadratowej plytki z wymiarow",
+      "statement": "Podloga wylozona plytkami: jasnymi prostokatnymi 23 cm x 11 cm i ciemnymi kwadratowymi. Jaka dlugosc ma bok plytki kwadratowej?",
+      "hasImage": true,
+      "imageNote": "Fragment podlogi z plytkami prostokatnymi i kwadratowymi.",
+      "choices": {
+        "A": "3 cm",
+        "B": "4 cm",
+        "C": "5 cm",
+        "D": "6 cm",
+        "E": "7 cm"
+      },
+      "correct": "D"
+    },
+    {
+      "id": "kangur-maluch-2024-12",
+      "source": "kangur-maluch-2024-12",
+      "year": 2024,
+      "number": 12,
+      "difficulty": "4pkt",
+      "topic": "arytmetyka",
+      "subtopic": "podzial ryb miedzy pisklenta",
+      "statement": "Pingwin przynosi 9 ryb dziennie dwojgu pisklatom: pierwszemu napotkanemu 5 ryb, drugiemu 4. Przez kilka dni jedno pisklę dostalo 26 ryb. Ile ryb dostalo w tym czasie drugie pisklę?",
+      "hasImage": false,
+      "imageNote": null,
+      "choices": {
+        "A": "19",
+        "B": "22",
+        "C": "25",
+        "D": "28",
+        "E": "31"
+      },
+      "correct": "D"
+    },
+    {
+      "id": "kangur-maluch-2024-13",
+      "source": "kangur-maluch-2024-13",
+      "year": 2024,
+      "number": 13,
+      "difficulty": "4pkt",
+      "topic": "kombinatoryka",
+      "subtopic": "liczba ulozeń gasienicy z puzzli",
+      "statement": "Julek ma 5 puzzli: glowe, ogon i 3 inne elementy. Buduje gasienice z glowa, ogonem i 1, 2 lub 3 elementami posrodku. Puzzli nie wolno odwracac. Na ile roznych sposobow moze zbudowac gasienice?",
+      "hasImage": true,
+      "imageNote": "Piec puzzli: glowa, 3 elementy srodkowe, ogon.",
+      "choices": {
+        "A": "3",
+        "B": "4",
+        "C": "5",
+        "D": "6",
+        "E": "7"
+      },
+      "correct": "D"
+    },
+    {
+      "id": "kangur-maluch-2024-14",
+      "source": "kangur-maluch-2024-14",
+      "year": 2024,
+      "number": 14,
+      "difficulty": "4pkt",
+      "topic": "logika",
+      "subtopic": "usuwanie zetonow z wiezy",
+      "statement": "Ada ma wieze z 8 zetonow. Usuwa kolejno: 2. zeton od dolu, potem 3. od dolu nowej wiezy, potem 4. od dolu, potem 5. od dolu. Jaka wieze otrzymala na koniec?",
+      "hasImage": true,
+      "imageNote": "Wieza z 8 zetonow w roznych kolorach i 5 wariantow koncowej wiezy.",
+      "choices": {
+        "A": "wieza A",
+        "B": "wieza B",
+        "C": "wieza C",
+        "D": "wieza D",
+        "E": "wieza E"
+      },
+      "correct": "B"
+    },
+    {
+      "id": "kangur-maluch-2024-15",
+      "source": "kangur-maluch-2024-15",
+      "year": 2024,
+      "number": 15,
+      "difficulty": "4pkt",
+      "topic": "lamiglowki",
+      "subtopic": "karty w okregach o rownej sumie",
+      "statement": "Siedem kart z liczbami 1-7 ulozono w czterech okregach. Odkryto karty 6 i 3. Suma liczb w kazdym okregu wynosi 10. Jaka liczba jest na karcie ze znakiem zapytania?",
+      "hasImage": true,
+      "imageNote": "Siedem kart w rzedzie objetych czterema okregami, odkryte 6 i 3.",
+      "choices": {
+        "A": "1",
+        "B": "2",
+        "C": "4",
+        "D": "5",
+        "E": "7"
+      },
+      "correct": "C"
+    },
+    {
+      "id": "kangur-maluch-2024-16",
+      "source": "kangur-maluch-2024-16",
+      "year": 2024,
+      "number": 16,
+      "difficulty": "4pkt",
+      "topic": "lamiglowki",
+      "subtopic": "liczby na dwoch stronach pocietej kartki",
+      "statement": "Ania zapisala 4 liczby (1,2,4,3) na zacieniowanej stronie kartki, odwrocila ja i zapisala 4 inne (6,7,8,5) na bialej. Pocieła kartke na 4 czesci. W rzedzie czesci widac 5 i 6, dwie inne maja znaki zapytania. Ile wynosi suma liczb ukrytych pod znakami zapytania?",
+      "hasImage": true,
+      "imageNote": "Kartka z liczbami po dwoch stronach, pocieta na 4 czesci.",
+      "choices": {
+        "A": "3",
+        "B": "4",
+        "C": "5",
+        "D": "6",
+        "E": "7"
+      },
+      "correct": "B"
+    },
+    {
+      "id": "kangur-maluch-2024-17",
+      "source": "kangur-maluch-2024-17",
+      "year": 2024,
+      "number": 17,
+      "difficulty": "5pkt",
+      "topic": "logika",
+      "subtopic": "suma trzech bryl z wazen parami",
+      "statement": "Ewa wazyla trzy rozne bryly po dwie. Wyniki to 200 g, 100 g i 240 g. Ile waza razem te trzy bryly?",
+      "hasImage": true,
+      "imageNote": "Trzy bryly wazone parami na wadze.",
+      "choices": {
+        "A": "270 g",
+        "B": "280 g",
+        "C": "290 g",
+        "D": "300 g",
+        "E": "310 g"
+      },
+      "correct": "A"
+    },
+    {
+      "id": "kangur-maluch-2024-18",
+      "source": "kangur-maluch-2024-18",
+      "year": 2024,
+      "number": 18,
+      "difficulty": "5pkt",
+      "topic": "lamiglowki",
+      "subtopic": "kryptarytm - suma zaslonięt­ych cyfr",
+      "statement": "Kostek dodal trzy liczby trzycyfrowe: 2_3 + 1_4 + 41_ = 782 (trzy cyfry zachlapane atramentem). Jaka jest suma cyfr pod trzema kleksami?",
+      "hasImage": true,
+      "imageNote": "Dzialanie z trzema zachlapanymi cyframi.",
+      "choices": {
+        "A": "8",
+        "B": "9",
+        "C": "10",
+        "D": "11",
+        "E": "12"
+      },
+      "correct": "D"
+    },
+    {
+      "id": "kangur-maluch-2024-19",
+      "source": "kangur-maluch-2024-19",
+      "year": 2024,
+      "number": 19,
+      "difficulty": "5pkt",
+      "topic": "kombinatoryka",
+      "subtopic": "przeciecie dwoch cykli kolorow",
+      "statement": "60 dzieci w szeregu. Kamizelki naprzemiennie: zolty, zielony, zolty, zielony... Plecaki cyklicznie: czerwony, brazowy, niebieski... Ilu uczniow w zoltej kamizelce mialo niebieski plecak?",
+      "hasImage": false,
+      "imageNote": null,
+      "choices": {
+        "A": "3",
+        "B": "4",
+        "C": "6",
+        "D": "8",
+        "E": "10"
+      },
+      "correct": "E"
+    },
+    {
+      "id": "kangur-maluch-2024-20",
+      "source": "kangur-maluch-2024-20",
+      "year": 2024,
+      "number": 20,
+      "difficulty": "5pkt",
+      "topic": "lamiglowki",
+      "subtopic": "uklad rownan z figurami - iloczyn",
+      "statement": "Pod taka sama figura ukryta jest ta sama cyfra. trojkat + trojkat = (kwadrat)(kolko), kolko + trojkat = (kwadrat)(kwadrat). Ile wynosi iloczyn trojkat razy kolko razy kwadrat?",
+      "hasImage": true,
+      "imageNote": "Diagram z trojkatami, kolkami i kwadratami w rownaniach.",
+      "choices": {
+        "A": "0",
+        "B": "15",
+        "C": "18",
+        "D": "28",
+        "E": "30"
+      },
+      "correct": "D"
+    },
+    {
+      "id": "kangur-maluch-2024-21",
+      "source": "kangur-maluch-2024-21",
+      "year": 2024,
+      "number": 21,
+      "difficulty": "5pkt",
+      "topic": "kombinatoryka",
+      "subtopic": "przeskoki zab z zachowaniem warunku",
+      "statement": "W siatce 3x3 w kazdym rzedzie i kolumnie sa dokladnie 2 zaby. Dwie zaby jednoczesnie przeskocza na sasiednie puste pola tak, by warunek nadal byl spelniony. Na ile sposobow zaby moga to zrobic?",
+      "hasImage": true,
+      "imageNote": "Siatka 3x3 z 6 zabami, 3 pola puste.",
+      "choices": {
+        "A": "5",
+        "B": "4",
+        "C": "3",
+        "D": "2",
+        "E": "1"
+      },
+      "correct": "C"
+    },
+    {
+      "id": "kangur-maluch-2024-22",
+      "source": "kangur-maluch-2024-22",
+      "year": 2024,
+      "number": 22,
+      "difficulty": "5pkt",
+      "topic": "logika",
+      "subtopic": "lamiglowka typu saper na plastrze",
+      "statement": "Plaster z 9 szesciokatnych komorek. Liczba w komorce mowi, w ilu sasiednich komorkach jest miod. W ilu komorkach jest miod?",
+      "hasImage": true,
+      "imageNote": "Plaster z 9 komorek, niektore z liczbami 1, 2, 3, 4.",
+      "choices": {
+        "A": "4",
+        "B": "5",
+        "C": "6",
+        "D": "7",
+        "E": "8"
+      },
+      "correct": "B"
+    },
+    {
+      "id": "kangur-maluch-2024-23",
+      "source": "kangur-maluch-2024-23",
+      "year": 2024,
+      "number": 23,
+      "difficulty": "5pkt",
+      "topic": "logika",
+      "subtopic": "podzial ciastek wedlug cech",
+      "statement": "Troje dzieci bralo ciastka. Jedno wzielo wszystkie serca, jedno wszystkie jasne, jedno wszystkie duze. Liczby wzietych ciastek to 3, 6 i 7. Ktory zestaw ciastek wzielo jedno z dzieci?",
+      "hasImage": true,
+      "imageNote": "Rzad ciastek roznego ksztaltu, koloru i wielkosci, 5 wariantow zestawow.",
+      "choices": {
+        "A": "zestaw A",
+        "B": "zestaw B",
+        "C": "zestaw C",
+        "D": "zestaw D",
+        "E": "zestaw E"
+      },
+      "correct": "D"
+    },
+    {
+      "id": "kangur-maluch-2024-24",
+      "source": "kangur-maluch-2024-24",
+      "year": 2024,
+      "number": 24,
+      "difficulty": "5pkt",
+      "topic": "geometria_przestrzenna",
+      "subtopic": "minimalna liczba bialych klockow",
+      "statement": "Slawek buduje maly szescian albo z 4 bialych klockow, albo z 1 bialego i 1 szarego. Z malych szescianow zbudowal wiekszy szescian. Jaka jest najmniejsza liczba bialych klockow, ktorych mogl uzyc?",
+      "hasImage": true,
+      "imageNote": "Duzy szescian zbudowany z malych szescianow bialych i szarych.",
+      "choices": {
+        "A": "8",
+        "B": "11",
+        "C": "13",
+        "D": "14",
+        "E": "23"
+      },
+      "correct": "D"
+    }
+  ]
+}

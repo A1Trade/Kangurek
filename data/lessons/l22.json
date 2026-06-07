@@ -1,0 +1,493 @@
+{
+  "id": "l22",
+  "number": 22,
+  "block": "Geometria przestrzenna",
+  "blockCode": "D",
+  "title": "Bryly: szescian i prostopadloscian",
+  "topic": "geometria_przestrzenna",
+  "estimatedMinutes": 14,
+  "theory": {
+    "intro": "Kostka do gry, pudelko po butach, lodowka - wszystko to bryly. Szescian ma 6 jednakowych kwadratowych scian. Prostopadloscian ma 6 prostokatnych scian (sasiednie sa rozne). Wokol nas pelno bryl - geometria przestrzenna uczy widziec je w trzech wymiarach.",
+    "tool": "Sztuczka 1: SZESCIAN MA 6 SCIAN, 12 KRAWEDZI, 8 WIERZCHOLKOW. Te liczby warto zapamietac. Sciany sa to plaskie kwadraty, krawedzie - linie miedzy scianami, wierzcholki - rogi.\n\nSztuczka 2: PRZECIWLEGLE SCIANY KOSTKI DO GRY DAJA SUME 7. Sciana 1 jest naprzeciw 6, 2 naprzeciw 5, 3 naprzeciw 4. To wzor 'kostki standardowej'.\n\nSztuczka 3: NA RYSUNKU WIDZISZ TYLKO 3 SCIANY. Bryla narysowana ma zawsze widoczne 3 sciany (gora, przod, bok). Pozostale 3 sa schowane. Sasiednie sciany maja wspolna krawedz.",
+    "trick": "Pulapka Kangurka: na standardowej kostce do gry uklady sa scisle okreslone. Jezeli widzisz oczka 1, 2, 3 w jednym wierzcholku, to istnieja TYLKO DWA mozliwe ulozenia (lustrzane). Sprawdzaj, czy obrazek to faktycznie standardowa kostka."
+  },
+  "versions": [
+    {
+      "versionId": "v1",
+      "label": "Wersja 1 (oryginalna)",
+      "warmup": [
+        {
+          "id": "gen-l22-v1-w1",
+          "source": "generated-l22-v1-w1",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "geometria_przestrzenna",
+          "subtopic": "liczba scian szescianu",
+          "statement": "Ile scian ma szescian?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "4",
+            "B": "5",
+            "C": "6",
+            "D": "8",
+            "E": "12"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "gen-l22-v1-w2",
+          "source": "generated-l22-v1-w2",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "geometria_przestrzenna",
+          "subtopic": "liczba wierzcholkow",
+          "statement": "Ile wierzcholkow (naroznikow) ma szescian?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "4",
+            "B": "6",
+            "C": "8",
+            "D": "10",
+            "E": "12"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "gen-l22-v1-w3",
+          "source": "generated-l22-v1-w3",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "geometria_przestrzenna",
+          "subtopic": "liczba krawedzi",
+          "statement": "Ile krawedzi (linii miedzy scianami) ma szescian?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "6",
+            "B": "8",
+            "C": "10",
+            "D": "12",
+            "E": "16"
+          },
+          "correct": "D"
+        },
+        {
+          "id": "kangur-maluch-2025-5",
+          "source": "kangur-maluch-2025-5",
+          "year": 2025,
+          "number": 5,
+          "difficulty": "3pkt",
+          "topic": "geometria_przestrzenna",
+          "subtopic": "standardowa kostka - suma 7 na przeciwleglych",
+          "statement": "Na standardowej kostce do gry suma oczek na przeciwleglych scianach wynosi 7. Ktory z 5 obrazkow przedstawia standardowa kostke?",
+          "hasImage": true,
+          "imageNote": "Piec kostek z roznymi oczkami na widocznych scianach.",
+          "choices": {
+            "A": "kostka A",
+            "B": "kostka B",
+            "C": "kostka C",
+            "D": "kostka D",
+            "E": "kostka E"
+          },
+          "correct": "A"
+        },
+        {
+          "id": "kangur-maluch-2020-7",
+          "source": "kangur-maluch-2020-7",
+          "year": 2020,
+          "number": 7,
+          "difficulty": "3pkt",
+          "topic": "geometria_przestrzenna",
+          "subtopic": "sciana naprzeciw na kostce",
+          "statement": "Na scianach kostki jest 6 obrazkow (kaczka, slon, mysz, biedronka, pies, mucha). Kostka pokazana w dwoch pozycjach. Ktory obrazek jest naprzeciw kaczki?",
+          "hasImage": true,
+          "imageNote": "Kostka z obrazkami pokazana w dwoch ujeciach.",
+          "choices": {
+            "A": "slon",
+            "B": "mysz",
+            "C": "biedronka",
+            "D": "pies",
+            "E": "mucha"
+          },
+          "correct": "C"
+        }
+      ],
+      "challenge": [
+        {
+          "id": "kangur-maluch-2021-1",
+          "source": "kangur-maluch-2021-1",
+          "year": 2021,
+          "number": 1,
+          "difficulty": "3pkt",
+          "topic": "geometria_przestrzenna",
+          "subtopic": "budowla z 4 klockow",
+          "statement": "Kajtek ma 4 prostopadlosc1enne klocki. Ktora z 5 ponizszych budowli mogl z nich zbudowac?",
+          "hasImage": true,
+          "imageNote": "Cztery klocki i 5 wariantow budowli.",
+          "choices": {
+            "A": "budowla A",
+            "B": "budowla B",
+            "C": "budowla C",
+            "D": "budowla D",
+            "E": "budowla E"
+          },
+          "correct": "A"
+        },
+        {
+          "id": "gen-l22-v1-c1",
+          "source": "generated-l22-v1-c1",
+          "year": null,
+          "number": null,
+          "difficulty": "4pkt",
+          "topic": "geometria_przestrzenna",
+          "subtopic": "prostopadloscian - liczba elementow",
+          "statement": "Prostopadloscian (pudelko po butach) ma tyle samo scian co szescian. Ile to scian?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "4",
+            "B": "6",
+            "C": "8",
+            "D": "10",
+            "E": "12"
+          },
+          "correct": "B"
+        }
+      ],
+      "solutions": [
+        {
+          "problemId": "gen-l22-v1-w1",
+          "observation": "Szescian ma 6 jednakowych scian.",
+          "strategy": "Pamietac liczbe scian.",
+          "steps": [
+            "Szescian to bryla o 6 kwadratowych scianach"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l22-v1-w2",
+          "observation": "Szescian ma 8 wierzcholkow (4 gora + 4 dol).",
+          "strategy": "Liczenie rogow.",
+          "steps": [
+            "4 wierzcholki gornej sciany + 4 dolnej = 8"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l22-v1-w3",
+          "observation": "Szescian ma 12 krawedzi.",
+          "strategy": "Liczenie linii.",
+          "steps": [
+            "4 krawedzie gornej sciany + 4 dolnej + 4 pionowe = 12"
+          ],
+          "answer": "D",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2025-5",
+          "observation": "Standardowa kostka - przeciwlegle sciany daja sume 7.",
+          "strategy": "Sprawdzanie ukladu oczek.",
+          "steps": [
+            "Suma przeciwleglych scian = 7",
+            "Sprawdzamy 5 kostek - poprawna to A"
+          ],
+          "answer": "A",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2020-7",
+          "observation": "Kostka z obrazkami - sciana naprzeciw kaczki.",
+          "strategy": "Identyfikacja przeciwleglej sciany z dwoch ujec.",
+          "steps": [
+            "Z dwoch widokow kostki ustalamy, ktora sciana jest naprzeciw kaczki",
+            "Naprzeciw kaczki jest biedronka"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2021-1",
+          "observation": "Budowla z 4 klockow.",
+          "strategy": "Sprawdzanie ulozenia z klockow.",
+          "steps": [
+            "Cztery prostopadlosc1enne klocki musza ulozyc okreslona budowle",
+            "Poprawna budowla to A"
+          ],
+          "answer": "A",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l22-v1-c1",
+          "observation": "Prostopadloscian tez ma 6 scian.",
+          "strategy": "Liczba scian.",
+          "steps": [
+            "Prostopadlosc1an ma 6 prostokatnych scian (jak szescian, tylko nie wszystkie kwadratowe)"
+          ],
+          "answer": "B",
+          "alternative": null
+        }
+      ]
+    },
+    {
+      "versionId": "v2",
+      "label": "Wersja 2 (powtorka)",
+      "warmup": [
+        {
+          "id": "gen-l22-v2-w1",
+          "source": "generated-l22-v2-w1",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "geometria_przestrzenna",
+          "subtopic": "ksztalt scian szescianu",
+          "statement": "Sciany szescianu sa:",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "Trojkatne",
+            "B": "Prostokatne",
+            "C": "Kwadratowe",
+            "D": "Okragle",
+            "E": "Pieciokatne"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "gen-l22-v2-w2",
+          "source": "generated-l22-v2-w2",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "geometria_przestrzenna",
+          "subtopic": "sciany prostopadloscianu",
+          "statement": "Sciany prostopadlosc1anu (pudelka) sa:",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "Trojkatne",
+            "B": "Prostokatne",
+            "C": "Kwadratowe",
+            "D": "Okragle",
+            "E": "Owalne"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "gen-l22-v2-w3",
+          "source": "generated-l22-v2-w3",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "geometria_przestrzenna",
+          "subtopic": "suma na kostce",
+          "statement": "Na standardowej kostce do gry suma oczek na dwoch przeciwleglych scianach to:",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "5",
+            "B": "6",
+            "C": "7",
+            "D": "8",
+            "E": "12"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "gen-l22-v2-w4",
+          "source": "generated-l22-v2-w4",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "geometria_przestrzenna",
+          "subtopic": "sasiednie sciany",
+          "statement": "Sasiednie sciany szescianu maja:",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "Wspolny wierzcholek",
+            "B": "Wspolna krawedz",
+            "C": "Wspolne pole",
+            "D": "Wspolny kat",
+            "E": "Nie maja nic wspolnego"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "gen-l22-v2-w5",
+          "source": "generated-l22-v2-w5",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "geometria_przestrzenna",
+          "subtopic": "liczba scian widocznych",
+          "statement": "Patrzac na szescian z jednego punktu, ile scian widzimy najwyzej?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "1",
+            "B": "2",
+            "C": "3",
+            "D": "4",
+            "E": "6"
+          },
+          "correct": "C"
+        }
+      ],
+      "challenge": [
+        {
+          "id": "gen-l22-v2-c1",
+          "source": "generated-l22-v2-c1",
+          "year": null,
+          "number": null,
+          "difficulty": "4pkt",
+          "topic": "geometria_przestrzenna",
+          "subtopic": "liczba widocznych krawedzi",
+          "statement": "Patrzac na szescian z naroznika, widzimy 3 sciany. Ile krawedzi widzimy lacznie (jako obrys i linie miedzy widocznymi scianami)?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "6",
+            "B": "7",
+            "C": "9",
+            "D": "10",
+            "E": "12"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "gen-l22-v2-c2",
+          "source": "generated-l22-v2-c2",
+          "year": null,
+          "number": null,
+          "difficulty": "5pkt",
+          "topic": "geometria_przestrzenna",
+          "subtopic": "liczenie scian kwadratowych prostopadloscianu",
+          "statement": "Prostopadlosc1an ma wymiary 3x3x5. Ile jego scian to KWADRATY?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "0",
+            "B": "2",
+            "C": "4",
+            "D": "5",
+            "E": "6"
+          },
+          "correct": "B"
+        }
+      ],
+      "solutions": [
+        {
+          "problemId": "gen-l22-v2-w1",
+          "observation": "Sciany szescianu - same kwadraty.",
+          "strategy": "Wlasnosc szescianu.",
+          "steps": [
+            "Szescian to bryla z 6 jednakowych kwadratowych scian"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l22-v2-w2",
+          "observation": "Prostopadlosc1an ma prostokatne sciany.",
+          "strategy": "Wlasnosc prostopadlosc1anu.",
+          "steps": [
+            "Sciany prostopadlosc1anu sa prostokatami"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l22-v2-w3",
+          "observation": "Standardowa kostka - przeciwlegle daja 7.",
+          "strategy": "Wlasnosc kostki.",
+          "steps": [
+            "1 i 6, 2 i 5, 3 i 4 - kazda para daje 7"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l22-v2-w4",
+          "observation": "Sasiednie sciany maja wspolna krawedz.",
+          "strategy": "Sasiedztwo scian.",
+          "steps": [
+            "Sciany sasiednie stykaja sie wzdluz krawedzi"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l22-v2-w5",
+          "observation": "Z jednego punktu widzimy 3 sciany szescianu.",
+          "strategy": "Patrzenie na bryle.",
+          "steps": [
+            "Patrzac na szescian widzimy gore, przod i jeden bok - razem 3 sciany"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l22-v2-c1",
+          "observation": "Z trzech widocznych scian powstaje 9 krawedzi.",
+          "strategy": "Liczenie krawedzi.",
+          "steps": [
+            "3 sciany maja po 4 krawedzie, ale wspolne sa liczone raz",
+            "6 zewnetrznych krawedzi obrysu + 3 wewnetrzne miedzy scianami = 9"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l22-v2-c2",
+          "observation": "Prostopadlosc1an 3x3x5 - sprawdzam ksztalty scian.",
+          "strategy": "Wymiary scian.",
+          "steps": [
+            "Sciany prostopadlosc1anu: dwie 3x3 (kwadraty), cztery 3x5 (prostokaty)",
+            "Kwadratowych jest 2"
+          ],
+          "answer": "B",
+          "alternative": null
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Ile scian ma szescian?",
+      "choices": {
+        "A": "4",
+        "B": "6",
+        "C": "8"
+      },
+      "correct": "B",
+      "explain": "Szescian ma 6 jednakowych kwadratowych scian."
+    },
+    {
+      "q": "Na standardowej kostce naprzeciw oczka 2 jest:",
+      "choices": {
+        "A": "3",
+        "B": "5",
+        "C": "6"
+      },
+      "correct": "B",
+      "explain": "Suma przeciwleglych = 7, czyli naprzeciw 2 jest 5."
+    },
+    {
+      "q": "Sasiednie sciany szescianu stykaja sie:",
+      "choices": {
+        "A": "Wzdluz krawedzi",
+        "B": "W wierzcholku",
+        "C": "Nie stykaja sie"
+      },
+      "correct": "A",
+      "explain": "Sasiednie sciany maja wspolna krawedz (linie)."
+    }
+  ]
+}

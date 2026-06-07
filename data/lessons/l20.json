@@ -1,0 +1,541 @@
+{
+  "id": "l20",
+  "number": 20,
+  "block": "Geometria plaska",
+  "blockCode": "C",
+  "title": "Symetria osiowa",
+  "topic": "geometria_plaska",
+  "estimatedMinutes": 14,
+  "theory": {
+    "intro": "Zloz kartke na pol i wytnij ksztalt - po rozlozeniu obie polowy sa takie same. To symetria osiowa. Linia zgiecia to os symetrii. Motyl, litera A, serce - wszystkie maja os symetrii. Jedna polowa jest lustrzanym odbiciem drugiej.",
+    "tool": "Sztuczka 1: OS SYMETRII TO LINIA ZGIECIA. Jezeli po zgieciu wzdluz linii obie czesci sie pokrywaja - to os symetrii. Kwadrat ma 4 osie, prostokat 2, kolo nieskonczenie wiele.\n\nSztuczka 2: ODBICIE ZAMIENIA PRAWO I LEWO. W lustrze (i przy odbiciu wzgledem osi) prawa strona staje sie lewa. Litera 'b' odbita to 'd'. Patrz na to, co bylo z prawej - bedzie z lewej.\n\nSztuczka 3: WYCINANKA Z ZLOZONEJ KARTKI. Gdy tniesz zlozona kartke, otwor pojawi sie symetrycznie po obu stronach osi. Zloz dwa razy - dziura powtorzy sie 4 razy.",
+    "trick": "Kangur uwielbia zadania z lustrem i skladaniem kartki. Klucz: odbicie NIE obraca figury - ono ja przerzuca jak strone w ksiazce. Litery i cyfry niesymetryczne (jak 3, 7, F) zmieniaja sie nie do poznania. Zawsze wyobraz sobie prawdziwe lustro."
+  },
+  "versions": [
+    {
+      "versionId": "v1",
+      "label": "Wersja 1 (oryginalna)",
+      "warmup": [
+        {
+          "id": "gen-l20-v1-w1",
+          "source": "generated-l20-v1-w1",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "geometria_plaska",
+          "subtopic": "os symetrii kwadratu",
+          "statement": "Ile osi symetrii ma kwadrat?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "1",
+            "B": "2",
+            "C": "3",
+            "D": "4",
+            "E": "8"
+          },
+          "correct": "D"
+        },
+        {
+          "id": "gen-l20-v1-w2",
+          "source": "generated-l20-v1-w2",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "geometria_plaska",
+          "subtopic": "os symetrii prostokata",
+          "statement": "Ile osi symetrii ma prostokat (nie bedacy kwadratem)?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "0",
+            "B": "1",
+            "C": "2",
+            "D": "3",
+            "E": "4"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "gen-l20-v1-w3",
+          "source": "generated-l20-v1-w3",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "geometria_plaska",
+          "subtopic": "litera symetryczna",
+          "statement": "Ktora z liter ma pionowa os symetrii?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "F",
+            "B": "A",
+            "C": "R",
+            "D": "L",
+            "E": "G"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "kangur-maluch-2018-5",
+          "source": "kangur-maluch-2018-5",
+          "year": 2018,
+          "number": 5,
+          "difficulty": "3pkt",
+          "topic": "geometria_plaska",
+          "subtopic": "symetria osiowa - rozlozenie kartki",
+          "statement": "Kasia zlozyla kartke papieru na pol i wycieła z niej pewien ksztalt. Ktory z rysunkow przedstawia kartke po rozlozeniu?",
+          "hasImage": true,
+          "imageNote": "Wycieta forma na zlozonej kartce i 5 wariantow po rozlozeniu (symetria osiowa).",
+          "choices": {
+            "A": "rysunek A",
+            "B": "rysunek B",
+            "C": "rysunek C",
+            "D": "rysunek D",
+            "E": "rysunek E"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "kangur-maluch-2019-4",
+          "source": "kangur-maluch-2019-4",
+          "year": 2019,
+          "number": 4,
+          "difficulty": "3pkt",
+          "topic": "geometria_plaska",
+          "subtopic": "symetria i odbicia, składanie",
+          "statement": "W okładce książeczki dla dzieci są dwa otwory - okienka. Otwarta książeczka to długi pasek: po lewej dwa wycięte okienka, po prawej rząd pięciu pojazdów (samochód, motocykl, ciężarówka, samochód, traktor). Które pojazdy zobaczy Sławek w okienkach po zamknięciu książeczki na pół?",
+          "hasImage": true,
+          "imageNote": "Pasek książeczki - okienka po lewej, 5 pojazdów po prawej. Po złożeniu okienka pokrywają pewne pojazdy.",
+          "choices": {
+            "A": "samochód, motocykl, ciężarówka",
+            "B": "samochód, motocykl, traktor",
+            "C": "motocykl, ciężarówka, traktor",
+            "D": "motocykl, samochód, traktor",
+            "E": "samochód, ciężarówka, traktor"
+          },
+          "correct": "E"
+        }
+      ],
+      "challenge": [
+        {
+          "id": "kangur-maluch-2019-14",
+          "source": "kangur-maluch-2019-14",
+          "year": 2019,
+          "number": 14,
+          "difficulty": "4pkt",
+          "topic": "geometria_plaska",
+          "subtopic": "odbicie wzoru na drugiej stronie",
+          "statement": "Z trzech jasnych i trzech ciemnych pasków Helenka wykonała plecioną podstawkę. Jak będzie wyglądać ta podstawka po odwróceniu na drugą stronę?",
+          "hasImage": true,
+          "imageNote": "Plecionka 3x3 z pasków. Po odwróceniu rozkład kolorów się odbija (lustrzane odbicie).",
+          "choices": {
+            "A": "wzór A",
+            "B": "wzór B",
+            "C": "wzór C",
+            "D": "wzór D",
+            "E": "wzór E"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "kangur-maluch-2015-23",
+          "source": "kangur-maluch-2015-23",
+          "year": 2015,
+          "number": 23,
+          "difficulty": "5pkt",
+          "topic": "geometria_plaska",
+          "subtopic": "nakladanie przezroczystych arkuszy",
+          "statement": "Trzy kwadratowe arkusze przezroczystej folii z zamalowanymi kwadracikami. Mozna je obracac (ale nie odwracac). Ukladamy jeden na drugim. Ile co najwyzej czarnych kwadracikow mozemy zobaczyc?",
+          "hasImage": true,
+          "imageNote": "Trzy arkusze 3x3 z roznie zamalowanymi czarnymi kwadracikami.",
+          "choices": {
+            "A": "4",
+            "B": "5",
+            "C": "6",
+            "D": "7",
+            "E": "8"
+          },
+          "correct": "D"
+        }
+      ],
+      "solutions": [
+        {
+          "problemId": "gen-l20-v1-w1",
+          "observation": "Kwadrat - 4 osie symetrii.",
+          "strategy": "Liczenie osi.",
+          "steps": [
+            "2 osie przez srodki bokow, 2 osie przez przekatne",
+            "Razem 4 osie"
+          ],
+          "answer": "D",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l20-v1-w2",
+          "observation": "Prostokat - 2 osie symetrii.",
+          "strategy": "Liczenie osi.",
+          "steps": [
+            "Osie przez srodki przeciwleglych bokow",
+            "Razem 2 osie (przekatne nie sa osiami)"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l20-v1-w3",
+          "observation": "Litera A ma pionowa os symetrii.",
+          "strategy": "Sprawdzanie symetrii liter.",
+          "steps": [
+            "Litera A zlozona w pionie - obie polowy sie pokrywaja"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2018-5",
+          "observation": "Kartka zlozona na pol, wyciety ksztalt.",
+          "strategy": "Symetria osiowa wycinanki.",
+          "steps": [
+            "Po rozlozeniu wyciety ksztalt jest symetryczny",
+            "Poprawny obraz to B"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2019-4",
+          "observation": "Ksiazeczka z okienkami zlozona na pol.",
+          "strategy": "Sledzenie pojazdow widocznych w okienkach.",
+          "steps": [
+            "Po zlozeniu okienka pokrywaja okreslone pojazdy",
+            "Widac samochod, ciezarowke i traktor"
+          ],
+          "answer": "E",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2019-14",
+          "observation": "Plecionka odwrocona na druga strone.",
+          "strategy": "Odbicie wzoru.",
+          "steps": [
+            "Po odwroceniu wzor plecionki sie odbija",
+            "Poprawny obraz to B"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2015-23",
+          "observation": "Nakladanie przezroczystych arkuszy.",
+          "strategy": "Obroty i nakladanie.",
+          "steps": [
+            "Arkusze mozna obracac, ale nie odwracac",
+            "Maksymalnie widac 7 czarnych kwadracikow"
+          ],
+          "answer": "D",
+          "alternative": null
+        }
+      ]
+    },
+    {
+      "versionId": "v2",
+      "label": "Wersja 2 (powtorka)",
+      "warmup": [
+        {
+          "id": "gen-l20-v2-w1",
+          "source": "generated-l20-v2-w1",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "geometria_plaska",
+          "subtopic": "os symetrii kola",
+          "statement": "Ile osi symetrii ma kolo?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "1",
+            "B": "2",
+            "C": "4",
+            "D": "8",
+            "E": "Nieskonczenie wiele"
+          },
+          "correct": "E"
+        },
+        {
+          "id": "gen-l20-v2-w2",
+          "source": "generated-l20-v2-w2",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "geometria_plaska",
+          "subtopic": "figura bez osi symetrii",
+          "statement": "Ktora figura zwykle NIE ma osi symetrii?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "Kwadrat",
+            "B": "Kolo",
+            "C": "Rownolegloboik pochylony",
+            "D": "Trojkat rownoboczny",
+            "E": "Prostokat"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "gen-l20-v2-w3",
+          "source": "generated-l20-v2-w3",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "geometria_plaska",
+          "subtopic": "odbicie cyfry",
+          "statement": "Cyfra odbita w pionowym lustrze - ktora wyglada tak samo?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "2",
+            "B": "3",
+            "C": "8",
+            "D": "7",
+            "E": "5"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "kangur-maluch-2023-6",
+          "source": "kangur-maluch-2023-6",
+          "year": 2023,
+          "number": 6,
+          "difficulty": "3pkt",
+          "topic": "geometria_plaska",
+          "subtopic": "zlozenie folii na pol",
+          "statement": "Kajtek zgial na pol przezroczysta folie z nadrukiem cyfr wzdluz poziomej linii, nakladajac gorna czesc na dolna. Jaki widok zobaczyl?",
+          "hasImage": true,
+          "imageNote": "Folia z cyframi wyswietlacza i 5 wariantow widoku po zlozeniu.",
+          "choices": {
+            "A": "widok A",
+            "B": "widok B",
+            "C": "widok C",
+            "D": "widok D",
+            "E": "widok E"
+          },
+          "correct": "D"
+        },
+        {
+          "id": "kangur-maluch-2023-8",
+          "source": "kangur-maluch-2023-8",
+          "year": 2023,
+          "number": 8,
+          "difficulty": "3pkt",
+          "topic": "geometria_plaska",
+          "subtopic": "nakladanie polkola i cwiartki na kolo",
+          "statement": "Na czarne kolo Ania polozyla szare polkole i bialа cwiartke kola (w dowolnej kolejnosci). Ktorego widoku NIE mogla zobaczyc?",
+          "hasImage": true,
+          "imageNote": "Czarne kolo, szare polkole, biala cwiartka i 5 wariantow widoku.",
+          "choices": {
+            "A": "widok A",
+            "B": "widok B",
+            "C": "widok C",
+            "D": "widok D",
+            "E": "widok E"
+          },
+          "correct": "E"
+        }
+      ],
+      "challenge": [
+        {
+          "id": "kangur-maluch-2022-22",
+          "source": "kangur-maluch-2022-22",
+          "year": 2022,
+          "number": 22,
+          "difficulty": "5pkt",
+          "topic": "geometria_plaska",
+          "subtopic": "zwijanie gasienicy",
+          "statement": "Gasienica Hulajkula sklada sie z kulek zielonych i bialych w okreslonej kolejnosci. Moze sie zwijac, ale kulki sasiednie w rozwinietej musza dotykac sie tez w zwinietej. Ktory obrazek przedstawia zwinieta Hulajkule?",
+          "hasImage": true,
+          "imageNote": "Rozwinieta gasienica z kulek w okreslonej kolejnosci kolorow + 5 wariantow zwijania.",
+          "choices": {
+            "A": "wariant A",
+            "B": "wariant B",
+            "C": "wariant C",
+            "D": "wariant D",
+            "E": "wariant E"
+          },
+          "correct": "A"
+        },
+        {
+          "id": "kangur-maluch-2020-9",
+          "source": "kangur-maluch-2020-9",
+          "year": 2020,
+          "number": 9,
+          "difficulty": "4pkt",
+          "topic": "geometria_plaska",
+          "subtopic": "kolorowanie obszarow trzema kolorami",
+          "statement": "Kasia pomalowala obrazek z koncentrycznymi pierscieniami trzema kolorami tak, by sasiednie obszary mialy rozne kolory. Zewnetrzny pierscien jest czerwony. Ile obszarow jest czerwonych?",
+          "hasImage": true,
+          "imageNote": "Obrazek z koncentrycznymi pierscieniami.",
+          "choices": {
+            "A": "1",
+            "B": "2",
+            "C": "3",
+            "D": "4",
+            "E": "5"
+          },
+          "correct": "C"
+        }
+      ],
+      "solutions": [
+        {
+          "problemId": "gen-l20-v2-w1",
+          "observation": "Kolo ma nieskonczenie wiele osi symetrii.",
+          "strategy": "Osie symetrii kola.",
+          "steps": [
+            "Kazda srednica kola jest osia symetrii",
+            "Jest ich nieskonczenie wiele"
+          ],
+          "answer": "E",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l20-v2-w2",
+          "observation": "Pochylony rownolegloboik nie ma osi symetrii.",
+          "strategy": "Sprawdzanie symetrii.",
+          "steps": [
+            "Kwadrat, kolo, trojkat rownoboczny i prostokat maja osie",
+            "Pochylony rownolegloboik - nie ma"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l20-v2-w3",
+          "observation": "Cyfra 8 jest symetryczna w pionie.",
+          "strategy": "Sprawdzanie symetrii cyfr.",
+          "steps": [
+            "Cyfra 8 po odbiciu w pionowym lustrze wyglada tak samo"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2023-6",
+          "observation": "Folia zlozona na pol - widok cyfr.",
+          "strategy": "Nakladanie polowek folii.",
+          "steps": [
+            "Po zlozeniu gornej czesci na dolna cyfry sie nakladaja",
+            "Poprawny widok to D"
+          ],
+          "answer": "D",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2023-8",
+          "observation": "Nakladanie polkola i cwiartki na czarne kolo.",
+          "strategy": "Eliminacja niemozliwego widoku.",
+          "steps": [
+            "Szare polkole i biala cwiartka na czarnym kole",
+            "Niemozliwy jest widok E"
+          ],
+          "answer": "E",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2022-22",
+          "observation": "Zwijanie gasienicy Hulajkula.",
+          "strategy": "Sledzenie sasiedztwa kulek.",
+          "steps": [
+            "Kulki sasiednie w rozwinietej musza sasiadowac w zwinietej",
+            "Poprawny obraz to A"
+          ],
+          "answer": "A",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2020-9",
+          "observation": "Kolorowanie obszarow trzema kolorami.",
+          "strategy": "Liczenie obszarow jednego koloru.",
+          "steps": [
+            "Sasiednie obszary musza miec rozne kolory",
+            "Zewnetrzny pierscien czerwony",
+            "Czerwonych obszarow jest 3"
+          ],
+          "answer": "C",
+          "alternative": null
+        }
+      ]
+    },
+    {
+      "versionId": "v3",
+      "label": "Wersja 3 (oryginaly Kangurka)",
+      "warmup": [
+        {
+          "id": "kangur-maluch-2016-6",
+          "source": "kangur-maluch-2016-6",
+          "year": 2016,
+          "number": 6,
+          "difficulty": "3pkt",
+          "topic": "geometria_plaska",
+          "subtopic": "ksztalt zaslonietej czesci prostokata",
+          "statement": "Czarny prostokat jest czesciowo przeslonięty kurtyna. Jaka figura jest zaslonieta przez kurtyne czesc czarnego prostokata?",
+          "hasImage": true,
+          "imageNote": "Czarny prostokat czesciowo zakryty kurtyna.",
+          "choices": {
+            "A": "Kwadratem",
+            "B": "Prostokatem",
+            "C": "Trojkatem",
+            "D": "Kolem",
+            "E": "Nie da sie rozstrzygnac"
+          },
+          "correct": "B"
+        }
+      ],
+      "challenge": [],
+      "solutions": [
+        {
+          "problemId": "kangur-maluch-2016-6",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Oryginalne zadanie Kangur Maluch 2016 nr 6.",
+          "steps": [
+            "Oryginalne zadanie Kangur Maluch 2016 nr 6.",
+            "Poprawna odpowiedz: B"
+          ],
+          "answer": "B",
+          "alternative": null
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Ile osi symetrii ma kwadrat?",
+      "choices": {
+        "A": "2",
+        "B": "4",
+        "C": "8"
+      },
+      "correct": "B",
+      "explain": "Kwadrat ma 4 osie: 2 przez boki, 2 przez przekatne."
+    },
+    {
+      "q": "Odbicie w lustrze zamienia:",
+      "choices": {
+        "A": "Gore z dolem",
+        "B": "Prawo z lewem",
+        "C": "Nic"
+      },
+      "correct": "B",
+      "explain": "Odbicie wzgledem pionowej osi zamienia prawa strone z lewa."
+    },
+    {
+      "q": "Prostokat (nie kwadrat) ma osi symetrii:",
+      "choices": {
+        "A": "2",
+        "B": "4",
+        "C": "0"
+      },
+      "correct": "A",
+      "explain": "Prostokat ma 2 osie - przez srodki przeciwleglych bokow."
+    }
+  ]
+}

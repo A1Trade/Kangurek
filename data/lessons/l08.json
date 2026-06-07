@@ -1,0 +1,893 @@
+{
+  "id": "l08",
+  "number": 8,
+  "block": "Liczby i dzialania",
+  "blockCode": "A",
+  "title": "Lamiglowki rachunkowe i kryptarytmy",
+  "topic": "lamiglowki",
+  "estimatedMinutes": 18,
+  "theory": {
+    "intro": "Detektyw matematyczny szuka brakujacej cyfry. A + 5 = 12 gdzie A jest zagadka. To kryptarytm - rozumowanie ktore daje wiecej radosci niz dokladne liczenie. Kangur uwielbia takie zadania, bo trzeba myslec, a nie tylko liczyc.",
+    "tool": "Sztuczka 1: ODWRACAJ OPERACJE. Jezeli A + 5 = 12, to A = 12 - 5 = 7. Brakujaca liczba wychodzi z odejmowania.\n\nSztuczka 2: PATRZ NA OSTATNIA CYFRE. Cyfra koncowa wyniku zalezy tylko od cyfr koncowych skladnikow.\n\nSztuczka 3: SYSTEMATYCZNIE SPRAWDZAJ. Gdy odpowiedz nie jest oczywista, podstawiaj kolejne mozliwosci. Z 5 odpowiedzi zwykle mozesz wykluczyc 2-3 szybko.\n\nSztuczka 4: UKLAD ROWNAN W FIGURACH. Trzy figury, trzy sumy - to uklad rownan. Dodaj wszystko, znajdz wartosci po kolei.",
+    "trick": "W kryptarytmach z DUZYMI liczbami zacznij od KOLUMNY JEDNOSCI - tam zwykle jest pierwsza wskazowka. Przeniesienia z kolumny do kolumny daja kolejne. Idz krok po kroku, nie probuj wszystkiego naraz."
+  },
+  "versions": [
+    {
+      "versionId": "v1",
+      "label": "Wersja 1 (oryginalna)",
+      "warmup": [
+        {
+          "id": "gen-l08-w1",
+          "source": "generated-l08-w1",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "lamiglowki",
+          "subtopic": "kryptarytm prosty",
+          "statement": "W dzialaniu A + 5 = 12 jaka cyfra to A?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "5",
+            "B": "6",
+            "C": "7",
+            "D": "8",
+            "E": "9"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "gen-l08-w2",
+          "source": "generated-l08-w2",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "lamiglowki",
+          "subtopic": "wstawianie znakow",
+          "statement": "Wstaw znaki + lub - miedzy liczby 1 _ 2 _ 3 _ 4 _ 5 tak, by wynik byl rowny 1. Ktory zestaw dziala?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "1 + 2 + 3 + 4 + 5",
+            "B": "1 - 2 + 3 + 4 - 5",
+            "C": "1 + 2 - 3 + 4 + 5",
+            "D": "1 - 2 - 3 - 4 - 5",
+            "E": "1 + 2 + 3 - 4 - 5"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "gen-l08-w3",
+          "source": "generated-l08-w3",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "lamiglowki",
+          "subtopic": "brakujacy skladnik",
+          "statement": "W dzialaniu 13 + B = 31 jaka liczba to B?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "8",
+            "B": "18",
+            "C": "22",
+            "D": "28",
+            "E": "44"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "kangur-maluch-2012-11",
+          "source": "kangur-maluch-2012-11",
+          "year": 2012,
+          "number": 11,
+          "difficulty": "4pkt",
+          "topic": "logika",
+          "subtopic": "zbiory - inkluzja-ekskluzja",
+          "statement": "Babcia upiekla 20 ciastek dla wnukow. Udekorowala 15 ciastek rodzynkami i 15 ciastek orzechami tak, zeby liczba ciastek udekorowanych zarowno rodzynkami jak i orzechami byla najmniejsza z mozliwych. Ta liczba ciastek to:",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "4",
+            "B": "5",
+            "C": "6",
+            "D": "8",
+            "E": "10"
+          },
+          "correct": "E"
+        },
+        {
+          "id": "kangur-maluch-2025-16",
+          "source": "kangur-maluch-2025-16",
+          "year": 2025,
+          "number": 16,
+          "difficulty": "4pkt",
+          "topic": "arytmetyka",
+          "subtopic": "rownanie z plamą atramentu",
+          "statement": "Michal zapisal liczby owocow: 2 mango, jakies jablka, 1 gruszka, jakies banany, 30 sliwek - razem 106 owocow. Pamietal, ze owocow dwoch rodzajow bylo po tyle samo, owocow drugich dwoch po tyle samo, a pewnego rodzaju bylo ponad 10 wiecej niz innego, ale zadnego wiecej niz 106. Ile bananow mial Michal?",
+          "hasImage": true,
+          "imageNote": "Lista owocow z dwoma zatartymi liczbami (jablka i banany).",
+          "choices": {
+            "A": "9",
+            "B": "10",
+            "C": "11",
+            "D": "12",
+            "E": "23"
+          },
+          "correct": "E"
+        }
+      ],
+      "challenge": [
+        {
+          "id": "kangur-maluch-2022-23",
+          "source": "kangur-maluch-2022-23",
+          "year": 2022,
+          "number": 23,
+          "difficulty": "5pkt",
+          "topic": "arytmetyka",
+          "subtopic": "uklad rownan z figurami",
+          "statement": "Kwadrat 3x3 z figurami (trojkat, gwiazda, kolko). Sumy wierszy: 34, 32, 26. Wiersz 1: trojkat, gwiazda, gwiazda. Wiersz 2: trojkat, gwiazda, kolko. Wiersz 3: gwiazda, trojkat, trojkat. Jaka liczba jest ukryta pod kolkiem?",
+          "hasImage": true,
+          "imageNote": "Tabela 3x3 z trzema rodzajami figur i sumami wierszy 34, 32, 26.",
+          "choices": {
+            "A": "6",
+            "B": "8",
+            "C": "10",
+            "D": "12",
+            "E": "14"
+          },
+          "correct": "D"
+        },
+        {
+          "id": "kangur-maluch-2019-18",
+          "source": "kangur-maluch-2019-18",
+          "year": 2019,
+          "number": 18,
+          "difficulty": "5pkt",
+          "topic": "arytmetyka",
+          "subtopic": "zliczanie wystąpień cyfry w numeracji stron",
+          "statement": "Wszystkie strony książki są ponumerowane kolejnymi liczbami: 1, 2, 3, 4, 5, ... Cyfra 5 pojawia się w numerach stron dokładnie 16 razy. Ile co najwyżej stron może mieć ta książka?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "59",
+            "B": "64",
+            "C": "66",
+            "D": "74",
+            "E": "80"
+          },
+          "correct": "A"
+        }
+      ],
+      "solutions": [
+        {
+          "problemId": "gen-l08-w1",
+          "observation": "A + 5 = 12, czyli A = 12 - 5.",
+          "strategy": "Odejmowanie - odwrocenie dodawania.",
+          "steps": [
+            "A = 12 - 5 = 7"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l08-w2",
+          "observation": "Sprawdzam kazdy zestaw znakow.",
+          "strategy": "Sprawdzanie wynikow.",
+          "steps": [
+            "1+2+3+4+5 = 15, nie",
+            "1-2+3+4-5 = 1 - TAK",
+            "Pozostale daja inne wartosci"
+          ],
+          "answer": "B",
+          "alternative": "Z 5 odpowiedzi tylko jedna daje wynik 1."
+        },
+        {
+          "problemId": "gen-l08-w3",
+          "observation": "13 + B = 31, czyli B = 31 - 13.",
+          "strategy": "Odejmowanie.",
+          "steps": [
+            "B = 31 - 13 = 18"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2012-11",
+          "observation": "20 ciastek, 15 z rodzynkami, 15 z orzechami. Najmniejsza wspolna.",
+          "strategy": "Inkluzja-ekskluzja.",
+          "steps": [
+            "Rodzynki + orzechy = 15 + 15 = 30",
+            "Wspolnych co najmniej: 30 - 20 = 10",
+            "Najmniejsza liczba ciastek z obydwoma: 10"
+          ],
+          "answer": "E",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2025-16",
+          "observation": "Owoce: 2 mango, jablka, 1 gruszka, banany, 30 sliwek - razem 106. Warunki o rownych liczbach.",
+          "strategy": "Uklad warunkow z ograniczeniami.",
+          "steps": [
+            "Suma znanych bez zatartych: 2 + 1 + 30 = 33",
+            "Jablka + banany = 106 - 33 = 73",
+            "Po analizie warunkow (dwa rodzaje po tyle samo, jeden o ponad 10 wiekszy) wychodzi: banany = 23"
+          ],
+          "answer": "E",
+          "alternative": "Wymaga precyzyjnej analizy warunkow rownosci."
+        },
+        {
+          "problemId": "kangur-maluch-2022-23",
+          "observation": "3 rodzaje figur w 3x3 z sumami wierszy 34, 32, 26.",
+          "strategy": "Uklad rownan.",
+          "steps": [
+            "Niech trojkat=a, gwiazda=b, kolo=c",
+            "Wiersz 1 (a,b,b): a + 2b = 34",
+            "Wiersz 3 (b,a,a): 2a + b = 26",
+            "Dodaj W1+W3: 3a + 3b = 60, czyli a+b = 20",
+            "Z W1: a + 2b = 34, podstaw a=20-b: 20+b=34, b=14, a=6",
+            "Wiersz 2 (a,b,c): 6 + 14 + c = 32, c = 12"
+          ],
+          "answer": "D",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2019-18",
+          "observation": "Cyfra 5 pojawia sie dokladnie 16 razy.",
+          "strategy": "Liczenie wystapien cyfry.",
+          "steps": [
+            "Cyfra 5 w jednosciach: 5, 15, 25, 35, 45 (5 razy do strony 49)",
+            "W przedziale 50-59: cyfra 5 w dziesiatkach 10 razy + w 55 jeszcze w jednosciach",
+            "Razem do strony 59: 5 + 10 + 1 = 16",
+            "Czyli ksiazka ma co najwyzej 59 stron"
+          ],
+          "answer": "A",
+          "alternative": null
+        }
+      ]
+    },
+    {
+      "versionId": "v2",
+      "label": "Wersja 2 (powtorka)",
+      "warmup": [
+        {
+          "id": "gen-l08-v2-w1",
+          "source": "generated-l08-v2-w1",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "lamiglowki",
+          "subtopic": "brakujacy skladnik",
+          "statement": "W dzialaniu A + 7 = 16 jaka cyfra to A?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "7",
+            "B": "8",
+            "C": "9",
+            "D": "6",
+            "E": "23"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "gen-l08-v2-w2",
+          "source": "generated-l08-v2-w2",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "lamiglowki",
+          "subtopic": "brakujacy czynnik",
+          "statement": "W dzialaniu 3 razy B = 21 jaka liczba to B?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "6",
+            "B": "7",
+            "C": "8",
+            "D": "3",
+            "E": "18"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "gen-l08-v2-w3",
+          "source": "generated-l08-v2-w3",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "lamiglowki",
+          "subtopic": "wstawianie znakow",
+          "statement": "Wstaw znaki + lub - miedzy liczby 5 _ 5 _ 5, by otrzymac 15. Ktory zestaw dziala?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "5 + 5 + 5",
+            "B": "5 + 5 - 5",
+            "C": "5 - 5 - 5",
+            "D": "5 - 5 + 5",
+            "E": "Nie da sie"
+          },
+          "correct": "A"
+        },
+        {
+          "id": "kangur-maluch-2012-14",
+          "source": "kangur-maluch-2012-14",
+          "year": 2012,
+          "number": 14,
+          "difficulty": "4pkt",
+          "topic": "lamiglowki",
+          "subtopic": "domino - znajdz brakujace oczka",
+          "statement": "Franek ulozyl weza z 7 kamieni domino tak, ze sasiadujace pola maja po tyle samo oczek. Waz mial lacznie 33 oczka. Mlodszy brat zabral 2 kamienie. Ile oczek bylo na polu oznaczonym znakiem zapytania?",
+          "hasImage": true,
+          "imageNote": "Waz z domina - czesc widoczna, dwa kamienie usuniete, pole '?' oznaczone.",
+          "choices": {
+            "A": "2",
+            "B": "3",
+            "C": "4",
+            "D": "5",
+            "E": "6"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "kangur-maluch-2012-6",
+          "source": "kangur-maluch-2012-6",
+          "year": 2012,
+          "number": 6,
+          "difficulty": "3pkt",
+          "topic": "arytmetyka",
+          "subtopic": "suma punktow w rzutkach",
+          "statement": "Michal i Kuba graja w rzutki. Kazdy wykonal 3 rzuty. Wygrywa ten o wiekszej sumie. Ktory wygral i o ile punktow?",
+          "hasImage": true,
+          "imageNote": "Dwie tarcze rzutek z trzema trafieniami u kazdego gracza.",
+          "choices": {
+            "A": "Wygral Michal o 3",
+            "B": "Wygral Kuba o 4",
+            "C": "Wygral Michal o 2",
+            "D": "Wygral Kuba o 2",
+            "E": "Wygral Michal o 4"
+          },
+          "correct": "C"
+        }
+      ],
+      "challenge": [
+        {
+          "id": "kangur-maluch-2025-23",
+          "source": "kangur-maluch-2025-23",
+          "year": 2025,
+          "number": 23,
+          "difficulty": "5pkt",
+          "topic": "lamiglowki",
+          "subtopic": "kola z liczbami 1-12, rowne sumy na prostej",
+          "statement": "Kazda z liczb 1-12 wpisana do kolka diagramu tak, by suma czterech liczb na kazdej prostej byla taka sama. Niektore liczby juz wpisane: 8, 11, 2, 1, 7, 12, 6. Jaka liczbe wpisac w miejscu znaku zapytania?",
+          "hasImage": true,
+          "imageNote": "Diagram heksagonalny z kolami, czesc liczb wypelniona.",
+          "choices": {
+            "A": "3",
+            "B": "4",
+            "C": "5",
+            "D": "6",
+            "E": "10"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "kangur-maluch-2018-19",
+          "source": "kangur-maluch-2018-19",
+          "year": 2018,
+          "number": 19,
+          "difficulty": "5pkt",
+          "topic": "arytmetyka",
+          "subtopic": "liczba dwucyfrowa z warunkami",
+          "statement": "Dana jest pewna liczba dwucyfrowa. Po dodaniu 11 wynik jest trzycyfrowy. Po odjeciu 11 wynik jest iloczynem dwoch jednakowych liczb jednocyfrowych. Ta liczba to:",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "75",
+            "B": "81",
+            "C": "89",
+            "D": "90",
+            "E": "92"
+          },
+          "correct": "E"
+        }
+      ],
+      "solutions": [
+        {
+          "problemId": "gen-l08-v2-w1",
+          "observation": "A + 7 = 16, czyli A = 16 - 7.",
+          "strategy": "Odwrocenie dodawania.",
+          "steps": [
+            "A = 16 - 7 = 9"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l08-v2-w2",
+          "observation": "3 razy B = 21, czyli B = 21 : 3.",
+          "strategy": "Odwrocenie mnozenia.",
+          "steps": [
+            "B = 21 : 3 = 7"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l08-v2-w3",
+          "observation": "Cel: 15. Sprawdz zestawy znakow.",
+          "strategy": "Sprawdzanie.",
+          "steps": [
+            "5 + 5 + 5 = 15 - TAK",
+            "5 + 5 - 5 = 5, nie",
+            "Pozostale daja 5 lub mniej"
+          ],
+          "answer": "A",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2012-14",
+          "observation": "Waz z 7 kamieni domino, lacznie 33 oczka, 2 kamienie zabrane.",
+          "strategy": "Sasiednie pola maja po tyle samo oczek.",
+          "steps": [
+            "Sasiadujace pola domina maja rowne oczka",
+            "Z lacznej sumy 33 i widocznych kamieni",
+            "Po analizie na polu ? jest 4 oczka"
+          ],
+          "answer": "C",
+          "alternative": "Wymaga sledzenia regul ukladania domina."
+        },
+        {
+          "problemId": "kangur-maluch-2012-6",
+          "observation": "Dwie tarcze rzutek, kazdy gracz 3 strzaly.",
+          "strategy": "Sumowanie trafien.",
+          "steps": [
+            "Sumujemy 3 trafienia Michala i 3 trafienia Kuby",
+            "Michal ma wieksza sume o 2 punkty"
+          ],
+          "answer": "C",
+          "alternative": "Wymaga odczytania wartosci trafien z rysunku."
+        },
+        {
+          "problemId": "kangur-maluch-2025-23",
+          "observation": "12 kol z liczbami 1-12, rowne sumy na prostych.",
+          "strategy": "Uklad rownan z czesciowo wypelnionych kol.",
+          "steps": [
+            "Suma wszystkich liczb 1-12 = 78",
+            "Z warunkow rownych sum na prostych liniach",
+            "Po wyliczeniu w miejscu ? wpada liczba 5"
+          ],
+          "answer": "C",
+          "alternative": "Wymaga sledzenia kazdej prostej linii diagramu."
+        },
+        {
+          "problemId": "kangur-maluch-2018-19",
+          "observation": "Liczba dwucyfrowa: +11 daje trzycyfrowa, -11 daje iloczyn rownych cyfr.",
+          "strategy": "Sprawdzanie warunkow.",
+          "steps": [
+            "+11 trzycyfrowa: liczba >= 89",
+            "-11 iloczyn rownych jednocyfrowych: wynik z {1,4,9,16,25,36,49,64,81}",
+            "Liczba - 11 >= 78, wiec wynik = 81",
+            "Liczba = 81 + 11 = 92"
+          ],
+          "answer": "E",
+          "alternative": null
+        }
+      ]
+    },
+    {
+      "versionId": "v3",
+      "label": "Wersja 3 (oryginaly Kangurka)",
+      "warmup": [
+        {
+          "id": "kangur-maluch-2013-2",
+          "source": "kangur-maluch-2013-2",
+          "year": 2013,
+          "number": 2,
+          "difficulty": "3pkt",
+          "topic": "lamiglowki",
+          "subtopic": "kryptarytm - zakryte jednakowe cyfry",
+          "statement": "Ala zapisala prawidlowe dzialanie, potem zakryla dwie jednakowe cyfry i otrzymala: 4X + 5X = 104, gdzie X to zakryta cyfra. Jaka cyfra to X?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "2",
+            "B": "4",
+            "C": "5",
+            "D": "7",
+            "E": "8"
+          },
+          "correct": "D"
+        },
+        {
+          "id": "kangur-maluch-2016-20",
+          "source": "kangur-maluch-2016-20",
+          "year": 2016,
+          "number": 20,
+          "difficulty": "5pkt",
+          "topic": "lamiglowki",
+          "subtopic": "podzial paska na czesci w stosunku 1:2",
+          "statement": "Marek zbudowal pasek z 27 klockow. Dzieli go na dwa krotsze tak, ze jeden jest 2 razy dluzszy od drugiego. Potem dzieli jeden z otrzymanych tak samo i tak dalej. Ktorego z paskow na pewno NIE mogl otrzymac?",
+          "hasImage": true,
+          "imageNote": "Pasek 27 klockow i 5 wariantow krotszych paskow.",
+          "choices": {
+            "A": "pasek A",
+            "B": "pasek B",
+            "C": "pasek C",
+            "D": "pasek D",
+            "E": "pasek E"
+          },
+          "correct": "E"
+        },
+        {
+          "id": "kangur-maluch-2019-12",
+          "source": "kangur-maluch-2019-12",
+          "year": 2019,
+          "number": 12,
+          "difficulty": "4pkt",
+          "topic": "lamiglowki",
+          "subtopic": "rozmieszczenie cyfr aby maksymalizować sumę",
+          "statement": "Kuba chce tak wpisać cyfry 2, 0, 1 i 9 w cztery kratki diagramu (trzy kratki tworzą liczbę 3-cyfrową, a czwarta to osobna 1-cyfrowa liczba dodawana), aby w każdej kratce była inna cyfra i aby wynik dodawania był jak największy. Jaką cyfrę powinien wpisać w kratkę ze znakiem zapytania (osobna kratka po prawej)?",
+          "hasImage": true,
+          "imageNote": "Diagram: [_][_][_] + [?].",
+          "choices": {
+            "A": "0 lub 1.",
+            "B": "0 lub 2.",
+            "C": "Tylko 0.",
+            "D": "Tylko 1.",
+            "E": "Tylko 2."
+          },
+          "correct": "A"
+        },
+        {
+          "id": "kangur-maluch-2020-23",
+          "source": "kangur-maluch-2020-23",
+          "year": 2020,
+          "number": 23,
+          "difficulty": "5pkt",
+          "topic": "lamiglowki",
+          "subtopic": "kryptarytm - maksymalizacja wyniku",
+          "statement": "W lamiglowce NAR - RAC + JA pod kazda litera ukryta jest cyfra 1-9 (takie same litery = ta sama cyfra, rozne litery = rozne cyfry). Jaki najwiekszy wynik mozna otrzymac?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "976",
+            "B": "929",
+            "C": "886",
+            "D": "877",
+            "E": "261"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "kangur-maluch-2021-20",
+          "source": "kangur-maluch-2021-20",
+          "year": 2021,
+          "number": 20,
+          "difficulty": "5pkt",
+          "topic": "lamiglowki",
+          "subtopic": "diagram z sumami sasiednich par",
+          "statement": "W kratki diagramu (rzad 9 kratek) wpisujemy liczby 1-9. Nad i pod diagramem podano sumy dwoch sasiednich pol. Jaka liczbe wpisac w kratce ze znakiem zapytania?",
+          "hasImage": true,
+          "imageNote": "Rzad 9 kratek z sumami par sasiednich pol nad i pod.",
+          "choices": {
+            "A": "7",
+            "B": "6",
+            "C": "5",
+            "D": "4",
+            "E": "3"
+          },
+          "correct": "D"
+        },
+        {
+          "id": "kangur-maluch-2021-24",
+          "source": "kangur-maluch-2021-24",
+          "year": 2021,
+          "number": 24,
+          "difficulty": "5pkt",
+          "topic": "lamiglowki",
+          "subtopic": "minimalna suma - dodawanie 3-cyfrowych",
+          "statement": "W dzialaniu (trzycyfrowa) + (trzycyfrowa) = (trzycyfrowa) trzeba wpisac 9 roznych cyfr (kazda kratka inna cyfra), tak by wynik byl poprawny. Jaka najmniejsza sume mozna uzyskac?",
+          "hasImage": true,
+          "imageNote": "Diagram dodawania pisemnego trzech liczb trzycyfrowych.",
+          "choices": {
+            "A": "249",
+            "B": "365",
+            "C": "305",
+            "D": "345",
+            "E": "356"
+          },
+          "correct": "E"
+        },
+        {
+          "id": "kangur-maluch-2023-13",
+          "source": "kangur-maluch-2023-13",
+          "year": 2023,
+          "number": 13,
+          "difficulty": "4pkt",
+          "topic": "lamiglowki",
+          "subtopic": "wartosc gwiazdki z trzech skrzyn",
+          "statement": "W trzech skrzyniach sa jednakowe zlote kule, sztabki i gwiazdki. Skarb w kazdej skrzyni wart jest 40 dukatow. Ile dukatow warta jest zlota gwiazdka?",
+          "hasImage": true,
+          "imageNote": "Trzy skrzynie z rozna liczba kul, sztabek i gwiazdek.",
+          "choices": {
+            "A": "1",
+            "B": "2",
+            "C": "3",
+            "D": "4",
+            "E": "6"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "kangur-maluch-2023-23",
+          "source": "kangur-maluch-2023-23",
+          "year": 2023,
+          "number": 23,
+          "difficulty": "5pkt",
+          "topic": "lamiglowki",
+          "subtopic": "kolka z sumami na odcinkach",
+          "statement": "W kolka pierscienia wpisujemy liczby 1-7 tak, by suma w sasiednich kolkach polaczonych odcinkiem rownala sie liczbie przy odcinku (7, 8, 9, 6, 9, 8, 9). Jaka liczbe wpisac w zamalowane kolko?",
+          "hasImage": true,
+          "imageNote": "Siedem kolek w pierscieniu z liczbami przy odcinkach, jedno kolko zamalowane.",
+          "choices": {
+            "A": "1",
+            "B": "2",
+            "C": "3",
+            "D": "4",
+            "E": "5"
+          },
+          "correct": "D"
+        },
+        {
+          "id": "kangur-maluch-2024-15",
+          "source": "kangur-maluch-2024-15",
+          "year": 2024,
+          "number": 15,
+          "difficulty": "4pkt",
+          "topic": "lamiglowki",
+          "subtopic": "karty w okregach o rownej sumie",
+          "statement": "Siedem kart z liczbami 1-7 ulozono w czterech okregach. Odkryto karty 6 i 3. Suma liczb w kazdym okregu wynosi 10. Jaka liczba jest na karcie ze znakiem zapytania?",
+          "hasImage": true,
+          "imageNote": "Siedem kart w rzedzie objetych czterema okregami, odkryte 6 i 3.",
+          "choices": {
+            "A": "1",
+            "B": "2",
+            "C": "4",
+            "D": "5",
+            "E": "7"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "kangur-maluch-2024-16",
+          "source": "kangur-maluch-2024-16",
+          "year": 2024,
+          "number": 16,
+          "difficulty": "4pkt",
+          "topic": "lamiglowki",
+          "subtopic": "liczby na dwoch stronach pocietej kartki",
+          "statement": "Ania zapisala 4 liczby (1,2,4,3) na zacieniowanej stronie kartki, odwrocila ja i zapisala 4 inne (6,7,8,5) na bialej. Pocieła kartke na 4 czesci. W rzedzie czesci widac 5 i 6, dwie inne maja znaki zapytania. Ile wynosi suma liczb ukrytych pod znakami zapytania?",
+          "hasImage": true,
+          "imageNote": "Kartka z liczbami po dwoch stronach, pocieta na 4 czesci.",
+          "choices": {
+            "A": "3",
+            "B": "4",
+            "C": "5",
+            "D": "6",
+            "E": "7"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "kangur-maluch-2024-18",
+          "source": "kangur-maluch-2024-18",
+          "year": 2024,
+          "number": 18,
+          "difficulty": "5pkt",
+          "topic": "lamiglowki",
+          "subtopic": "kryptarytm - suma zaslonięt­ych cyfr",
+          "statement": "Kostek dodal trzy liczby trzycyfrowe: 2_3 + 1_4 + 41_ = 782 (trzy cyfry zachlapane atramentem). Jaka jest suma cyfr pod trzema kleksami?",
+          "hasImage": true,
+          "imageNote": "Dzialanie z trzema zachlapanymi cyframi.",
+          "choices": {
+            "A": "8",
+            "B": "9",
+            "C": "10",
+            "D": "11",
+            "E": "12"
+          },
+          "correct": "D"
+        },
+        {
+          "id": "kangur-maluch-2024-20",
+          "source": "kangur-maluch-2024-20",
+          "year": 2024,
+          "number": 20,
+          "difficulty": "5pkt",
+          "topic": "lamiglowki",
+          "subtopic": "uklad rownan z figurami - iloczyn",
+          "statement": "Pod taka sama figura ukryta jest ta sama cyfra. trojkat + trojkat = (kwadrat)(kolko), kolko + trojkat = (kwadrat)(kwadrat). Ile wynosi iloczyn trojkat razy kolko razy kwadrat?",
+          "hasImage": true,
+          "imageNote": "Diagram z trojkatami, kolkami i kwadratami w rownaniach.",
+          "choices": {
+            "A": "0",
+            "B": "15",
+            "C": "18",
+            "D": "28",
+            "E": "30"
+          },
+          "correct": "D"
+        }
+      ],
+      "challenge": [],
+      "solutions": [
+        {
+          "problemId": "kangur-maluch-2013-2",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Oryginalne zadanie Kangur Maluch 2013 nr 2.",
+          "steps": [
+            "Oryginalne zadanie Kangur Maluch 2013 nr 2.",
+            "Poprawna odpowiedz: D"
+          ],
+          "answer": "D",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2016-20",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Oryginalne zadanie Kangur Maluch 2016 nr 20.",
+          "steps": [
+            "Oryginalne zadanie Kangur Maluch 2016 nr 20.",
+            "Poprawna odpowiedz: E"
+          ],
+          "answer": "E",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2019-12",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Oryginalne zadanie Kangur Maluch 2019 nr 12.",
+          "steps": [
+            "Oryginalne zadanie Kangur Maluch 2019 nr 12.",
+            "Poprawna odpowiedz: A"
+          ],
+          "answer": "A",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2020-23",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Oryginalne zadanie Kangur Maluch 2020 nr 23.",
+          "steps": [
+            "Oryginalne zadanie Kangur Maluch 2020 nr 23.",
+            "Poprawna odpowiedz: C"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2021-20",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Oryginalne zadanie Kangur Maluch 2021 nr 20.",
+          "steps": [
+            "Oryginalne zadanie Kangur Maluch 2021 nr 20.",
+            "Poprawna odpowiedz: D"
+          ],
+          "answer": "D",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2021-24",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Oryginalne zadanie Kangur Maluch 2021 nr 24.",
+          "steps": [
+            "Oryginalne zadanie Kangur Maluch 2021 nr 24.",
+            "Poprawna odpowiedz: E"
+          ],
+          "answer": "E",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2023-13",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Oryginalne zadanie Kangur Maluch 2023 nr 13.",
+          "steps": [
+            "Oryginalne zadanie Kangur Maluch 2023 nr 13.",
+            "Poprawna odpowiedz: B"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2023-23",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Oryginalne zadanie Kangur Maluch 2023 nr 23.",
+          "steps": [
+            "Oryginalne zadanie Kangur Maluch 2023 nr 23.",
+            "Poprawna odpowiedz: D"
+          ],
+          "answer": "D",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2024-15",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Oryginalne zadanie Kangur Maluch 2024 nr 15.",
+          "steps": [
+            "Oryginalne zadanie Kangur Maluch 2024 nr 15.",
+            "Poprawna odpowiedz: C"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2024-16",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Oryginalne zadanie Kangur Maluch 2024 nr 16.",
+          "steps": [
+            "Oryginalne zadanie Kangur Maluch 2024 nr 16.",
+            "Poprawna odpowiedz: B"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2024-18",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Oryginalne zadanie Kangur Maluch 2024 nr 18.",
+          "steps": [
+            "Oryginalne zadanie Kangur Maluch 2024 nr 18.",
+            "Poprawna odpowiedz: D"
+          ],
+          "answer": "D",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2024-20",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Oryginalne zadanie Kangur Maluch 2024 nr 20.",
+          "steps": [
+            "Oryginalne zadanie Kangur Maluch 2024 nr 20.",
+            "Poprawna odpowiedz: D"
+          ],
+          "answer": "D",
+          "alternative": null
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "A + 8 = 15. Ile to A?",
+      "choices": {
+        "A": "6",
+        "B": "7",
+        "C": "8"
+      },
+      "correct": "B",
+      "explain": "A = 15 - 8 = 7."
+    },
+    {
+      "q": "W kryptarytmie z duzymi liczbami zaczynam od:",
+      "choices": {
+        "A": "Kolumny jednosci",
+        "B": "Kolumny setek",
+        "C": "Srodka"
+      },
+      "correct": "A",
+      "explain": "Kolumna jednosci daje pierwsza wskazowke."
+    },
+    {
+      "q": "Trzy figury, trzy sumy wierszy - co robie?",
+      "choices": {
+        "A": "Ukladam rownania",
+        "B": "Probuje wszystkich liczb",
+        "C": "Pomijam"
+      },
+      "correct": "A",
+      "explain": "Uklad rownan - dodaj wszystkie i znajdz wartosci po kolei."
+    }
+  ]
+}

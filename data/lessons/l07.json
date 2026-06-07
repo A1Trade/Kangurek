@@ -1,0 +1,650 @@
+{
+  "id": "l07",
+  "number": 7,
+  "block": "Liczby i dzialania",
+  "blockCode": "A",
+  "title": "Zaokraglanie i szacowanie",
+  "topic": "arytmetyka",
+  "estimatedMinutes": 12,
+  "theory": {
+    "intro": "W sklepie widzisz cene 4 zl 87 gr. Pewnie myslisz - 'okolo 5 zl'. To zaokraglanie. Nie musisz znac dokladnej liczby, by miec wyobrazenie. W Kangurku zaokraglanie pomoze Ci ELIMINOWAC zle odpowiedzi w 5 sekund zamiast 5 minut.",
+    "tool": "Sztuczka 1: ZAOKRAGLAJ DO DZIESIATEK. Cyfra jednosci 0-4 w dol, 5-9 w gore. 47 -> 50, 23 -> 20.\n\nSztuczka 2: ZAOKRAGLAJ DO SETEK. Cyfra dziesiatek 0-4 w dol, 5-9 w gore. 347 -> 300, 165 -> 200.\n\nSztuczka 3: SZACUJ SUME LUB PRODUKT. 198 + 405 - zamiast liczyc, zrob 200 + 400 = 600.\n\nSztuczka 4: ELIMINACJA ODPOWIEDZI. Szybkie oszacowanie pozwala odrzucic odpowiedzi za duze lub za male.",
+    "trick": "Najprostsza sztuczka eliminacji: spojrz na cyfre koncowa wyniku. 17 razy 8 - cyfra koncowa to ostatnia cyfra 7*8=56, czyli 6. Z odpowiedzi szukaj tylko konczacych sie na 6."
+  },
+  "versions": [
+    {
+      "versionId": "v1",
+      "label": "Wersja 1 (oryginalna)",
+      "warmup": [
+        {
+          "id": "gen-l07-w1",
+          "source": "generated-l07-w1",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "arytmetyka",
+          "subtopic": "zaokraglanie do 10",
+          "statement": "Liczba 47 zaokraglona do dziesiatek to:",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "40",
+            "B": "45",
+            "C": "50",
+            "D": "47",
+            "E": "57"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "gen-l07-w2",
+          "source": "generated-l07-w2",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "arytmetyka",
+          "subtopic": "zaokraglanie do 100",
+          "statement": "Liczba 234 zaokraglona do setek to:",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "100",
+            "B": "200",
+            "C": "230",
+            "D": "240",
+            "E": "300"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "gen-l07-w3",
+          "source": "generated-l07-w3",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "arytmetyka",
+          "subtopic": "szacowanie sumy",
+          "statement": "Najszybciej oszacujesz 198 + 405 wybierajac:",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "200 + 400 = 600",
+            "B": "100 + 400 = 500",
+            "C": "200 + 500 = 700",
+            "D": "liczenie dokladne",
+            "E": "100 + 500 = 600"
+          },
+          "correct": "A"
+        },
+        {
+          "id": "gen-l07-w4",
+          "source": "generated-l07-w4",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "arytmetyka",
+          "subtopic": "eliminacja zlej odpowiedzi",
+          "statement": "Ola kupila 12 jablek po 3 zl. Bez dokladnego liczenia - ktora suma NIE moze byc poprawna?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "36 zl",
+            "B": "30 zl",
+            "C": "60 zl",
+            "D": "35 zl",
+            "E": "40 zl"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "kangur-maluch-2012-16",
+          "source": "kangur-maluch-2012-16",
+          "year": 2012,
+          "number": 16,
+          "difficulty": "4pkt",
+          "topic": "arytmetyka",
+          "subtopic": "rownanie z proporcjami plci",
+          "statement": "Krzys uczestniczyl w konkursie recytatorskim. Wsrod jego RYWALI bylo dwa razy wiecej dziewczat niz chlopcow. Ktora z liczb moze oznaczac liczbe WSZYSTKICH uczniow biorących udzial w konkursie?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "30",
+            "B": "20",
+            "C": "24",
+            "D": "25",
+            "E": "29"
+          },
+          "correct": "D"
+        }
+      ],
+      "challenge": [
+        {
+          "id": "gen-l07-c1",
+          "source": "generated-l07-c1",
+          "year": null,
+          "number": null,
+          "difficulty": "4pkt",
+          "topic": "arytmetyka",
+          "subtopic": "szacowanie i sprawdzenie",
+          "statement": "Filip pomnozyl 198 przez 5. Ktory z ponizszych wynikow jest najblizszy poprawnego?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "800",
+            "B": "950",
+            "C": "1000",
+            "D": "1500",
+            "E": "2000"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "kangur-maluch-2025-11",
+          "source": "kangur-maluch-2025-11",
+          "year": 2025,
+          "number": 11,
+          "difficulty": "4pkt",
+          "topic": "arytmetyka",
+          "subtopic": "rownanie z dwoma typami zwierzat",
+          "statement": "W ZOO jest 5 duzych owiec i jedna mala. Dzieci daly im 210 g karmy. Kazda duza owca dostala tyle samo, a mala dwa razy tyle co duza. Ile gramow karmy dostala mala owca?",
+          "hasImage": true,
+          "imageNote": "5 duzych i 1 mala owca.",
+          "choices": {
+            "A": "55",
+            "B": "60",
+            "C": "70",
+            "D": "75",
+            "E": "80"
+          },
+          "correct": "B"
+        }
+      ],
+      "solutions": [
+        {
+          "problemId": "gen-l07-w1",
+          "observation": "47 jest miedzy 40 a 50. Cyfra jednosci 7 (>=5) - w gore.",
+          "strategy": "Zasada zaokraglania.",
+          "steps": [
+            "Cyfra jednosci to 7 (>=5)",
+            "Zaokraglamy w gore: 47 -> 50"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l07-w2",
+          "observation": "234 jest miedzy 200 a 300. Cyfra dziesiatek 3 (<5) - w dol.",
+          "strategy": "Zaokraglenie do setek - patrz cyfre dziesiatek.",
+          "steps": [
+            "Cyfra dziesiatek to 3 (<5)",
+            "Zaokraglamy w dol: 234 -> 200"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l07-w3",
+          "observation": "Szacowanie - obie liczby do najblizszych setek.",
+          "strategy": "Zaokraglij oba.",
+          "steps": [
+            "198 ~ 200",
+            "405 ~ 400",
+            "Suma ~ 600"
+          ],
+          "answer": "A",
+          "alternative": "Dokladnie 198+405=603, oszacowanie 600 jest blisko."
+        },
+        {
+          "problemId": "gen-l07-w4",
+          "observation": "Sprawdz przyblizenie: 12 razy 3 = 36.",
+          "strategy": "Szacowanie i eliminacja.",
+          "steps": [
+            "12 razy 3 = 36",
+            "Odpowiedzi blisko 36: 30, 35, 36, 40",
+            "60 jest za duzo - to byloby 12 razy 5",
+            "Eliminuje 60"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2012-16",
+          "observation": "Rywale = chlopcy + dziewczyny = x + 2x = 3x. Wszyscy = 1 + 3x.",
+          "strategy": "Sprawdzanie ktora odpowiedz daje calkowite x.",
+          "steps": [
+            "Wszyscy = 1 (Krzys) + 3x",
+            "25: 1+3x=25, 3x=24, x=8 - TAK",
+            "Pozostale opcje nie daja calkowitego x",
+            "Odpowiedz: 25 osob"
+          ],
+          "answer": "D",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l07-c1",
+          "observation": "198 razy 5 ~ 200 razy 5 = 1000.",
+          "strategy": "Szacowanie i porownanie.",
+          "steps": [
+            "198 ~ 200",
+            "200 razy 5 = 1000",
+            "Najblizsza odpowiedz: 1000"
+          ],
+          "answer": "C",
+          "alternative": "Dokladnie: 198 razy 5 = 990."
+        },
+        {
+          "problemId": "kangur-maluch-2025-11",
+          "observation": "5 duzych + 1 mala = 210 g. Mala je 2x duza.",
+          "strategy": "Rownanie z proporcjami.",
+          "steps": [
+            "Niech duza = d, mala = 2d",
+            "5d + 2d = 210",
+            "7d = 210, d = 30",
+            "Mala = 2 razy 30 = 60 g"
+          ],
+          "answer": "B",
+          "alternative": null
+        }
+      ]
+    },
+    {
+      "versionId": "v2",
+      "label": "Wersja 2 (powtorka)",
+      "warmup": [
+        {
+          "id": "gen-l07-v2-w1",
+          "source": "generated-l07-v2-w1",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "arytmetyka",
+          "subtopic": "zaokraglanie do dziesiatek",
+          "statement": "Liczba 73 zaokraglona do dziesiatek to:",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "70",
+            "B": "80",
+            "C": "73",
+            "D": "75",
+            "E": "60"
+          },
+          "correct": "A"
+        },
+        {
+          "id": "gen-l07-v2-w2",
+          "source": "generated-l07-v2-w2",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "arytmetyka",
+          "subtopic": "zaokraglanie do setek",
+          "statement": "Liczba 651 zaokraglona do setek to:",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "600",
+            "B": "650",
+            "C": "700",
+            "D": "660",
+            "E": "651"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "gen-l07-v2-w3",
+          "source": "generated-l07-v2-w3",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "arytmetyka",
+          "subtopic": "szacowanie sumy",
+          "statement": "Najlepsze oszacowanie 312 + 589 to:",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "800",
+            "B": "900",
+            "C": "1000",
+            "D": "700",
+            "E": "850"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "gen-l07-v2-w4",
+          "source": "generated-l07-v2-w4",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "arytmetyka",
+          "subtopic": "ostatnia cyfra iloczynu",
+          "statement": "Jaka jest ostatnia cyfra liczby 23 razy 4?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "0",
+            "B": "2",
+            "C": "8",
+            "D": "6",
+            "E": "4"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "kangur-maluch-2022-6",
+          "source": "kangur-maluch-2022-6",
+          "year": 2022,
+          "number": 6,
+          "difficulty": "3pkt",
+          "topic": "arytmetyka",
+          "subtopic": "powtarzajacy sie zestaw skokow",
+          "statement": "Kangur wykonal skok 2 m, potem dwa skoki po 1 m (w tym samym kierunku). Kilkukrotnie powtarzal ten zestaw 3 skokow. Ile skokow wykonal, jezeli przebyl 16 m?",
+          "hasImage": true,
+          "imageNote": "Os liczbowa z kangurem skaczacym o 2, potem 1, potem 1.",
+          "choices": {
+            "A": "4",
+            "B": "7",
+            "C": "8",
+            "D": "9",
+            "E": "12"
+          },
+          "correct": "E"
+        }
+      ],
+      "challenge": [
+        {
+          "id": "gen-l07-v2-c1",
+          "source": "generated-l07-v2-c1",
+          "year": null,
+          "number": null,
+          "difficulty": "4pkt",
+          "topic": "arytmetyka",
+          "subtopic": "eliminacja przez ostatnia cyfre",
+          "statement": "Filip obliczyl 48 razy 7. Wie, ze 48 to okolo 50, wiec wynik to okolo 350. Ktora odpowiedz jest poprawna?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "296",
+            "B": "316",
+            "C": "336",
+            "D": "376",
+            "E": "406"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "kangur-maluch-2018-17",
+          "source": "kangur-maluch-2018-17",
+          "year": 2018,
+          "number": 17,
+          "difficulty": "5pkt",
+          "topic": "arytmetyka",
+          "subtopic": "dlugosc trasy ze skokami przod/tyl",
+          "statement": "Kangur Skoczek wykonuje skoki po 2 m: po kazdych 3 skokach do przodu wykonuje 1 skok do tylu. Pokonal trase wykonujac lacznie 14 skokow. Ile metrow liczyla ta trasa?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "8 metrow",
+            "B": "16 metrow",
+            "C": "15 metrow",
+            "D": "24 metry",
+            "E": "10 metrow"
+          },
+          "correct": "B"
+        }
+      ],
+      "solutions": [
+        {
+          "problemId": "gen-l07-v2-w1",
+          "observation": "Cyfra jednosci 3 (<5) - w dol.",
+          "strategy": "Zaokraglanie do dziesiatek.",
+          "steps": [
+            "Cyfra jednosci to 3 (<5)",
+            "Zaokraglamy w dol: 73 -> 70"
+          ],
+          "answer": "A",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l07-v2-w2",
+          "observation": "Cyfra dziesiatek 5 (>=5) - w gore.",
+          "strategy": "Zaokraglanie do setek.",
+          "steps": [
+            "Cyfra dziesiatek to 5 (>=5)",
+            "Zaokraglamy w gore: 651 -> 700"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l07-v2-w3",
+          "observation": "Zaokraglij oba skladniki.",
+          "strategy": "Szacowanie.",
+          "steps": [
+            "312 ~ 300",
+            "589 ~ 600",
+            "Suma ~ 900"
+          ],
+          "answer": "B",
+          "alternative": "Dokladnie 312+589=901 - blisko 900."
+        },
+        {
+          "problemId": "gen-l07-v2-w4",
+          "observation": "Ostatnia cyfra zalezy tylko od cyfr jednosci.",
+          "strategy": "Patrz ostatnia cyfre.",
+          "steps": [
+            "Ostatnia cyfra 23 to 3",
+            "3 razy 4 = 12, ostatnia cyfra 2"
+          ],
+          "answer": "B",
+          "alternative": "Dokladnie 23 razy 4 = 92."
+        },
+        {
+          "problemId": "kangur-maluch-2022-6",
+          "observation": "Zestaw 3 skokow: 2m + 1m + 1m = 4m.",
+          "strategy": "Liczba zestawow i skokow.",
+          "steps": [
+            "Jeden zestaw = 2 + 1 + 1 = 4 m, 3 skoki",
+            "16 m : 4 m = 4 zestawy",
+            "4 zestawy razy 3 skoki = 12 skokow"
+          ],
+          "answer": "E",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l07-v2-c1",
+          "observation": "48 razy 7 ~ 50 razy 7 = 350. Szukaj odpowiedzi blisko 350.",
+          "strategy": "Szacowanie + eliminacja.",
+          "steps": [
+            "48 ~ 50, czyli wynik okolo 350",
+            "Odpowiedzi: 296, 316, 336, 376, 406",
+            "Najblizej 350: 336 lub 376",
+            "Dokladnie: 48 razy 7 = 336"
+          ],
+          "answer": "C",
+          "alternative": "8 razy 7 = 56, ostatnia cyfra 6 - pasuje do 336."
+        },
+        {
+          "problemId": "kangur-maluch-2018-17",
+          "observation": "Po 3 skokach przod 1 skok tyl, kazdy skok 2m.",
+          "strategy": "Liczenie postepu na zestaw skokow.",
+          "steps": [
+            "14 skokow = 3 grupy po 4 skoki (3 przod + 1 tyl) + 2 dodatkowe przod",
+            "Kazda grupa: 3 przod - 1 tyl = 2 skoki postepu = 4 m",
+            "3 grupy razy 4 m = 12 m",
+            "2 dodatkowe skoki przod razy 2 m = 4 m",
+            "Razem 12 + 4 = 16 m"
+          ],
+          "answer": "B",
+          "alternative": null
+        }
+      ]
+    },
+    {
+      "versionId": "v3",
+      "label": "Wersja 3 (oryginaly Kangurka)",
+      "warmup": [
+        {
+          "id": "kangur-maluch-2012-13",
+          "source": "kangur-maluch-2012-13",
+          "year": 2012,
+          "number": 13,
+          "difficulty": "4pkt",
+          "topic": "arytmetyka",
+          "subtopic": "rownanie z liczby nog",
+          "statement": "W szkole zwierzat ucza sie 3 pieski, 4 kaczuszki, 2 gaski i kilka owieczek. Pani Sowa policzyla, ze wszyscy uczniowie maja lacznie 44 nogi. Ile owieczek uczy sie w tej szkole?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "6",
+            "B": "5",
+            "C": "4",
+            "D": "3",
+            "E": "2"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "kangur-maluch-2021-6",
+          "source": "kangur-maluch-2021-6",
+          "year": 2021,
+          "number": 6,
+          "difficulty": "3pkt",
+          "topic": "arytmetyka",
+          "subtopic": "rownanie z roznica grzybow",
+          "statement": "Dziadek zebral 20 grzybow: kozlarze i borowiki. Borowikow bylo o 6 wiecej niz kozlarzy. Ile borowikow zebral dziadek?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "9",
+            "B": "10",
+            "C": "12",
+            "D": "13",
+            "E": "15"
+          },
+          "correct": "D"
+        },
+        {
+          "id": "kangur-maluch-2021-18",
+          "source": "kangur-maluch-2021-18",
+          "year": 2021,
+          "number": 18,
+          "difficulty": "5pkt",
+          "topic": "arytmetyka",
+          "subtopic": "dzielniki i reszta",
+          "statement": "W pudelku jest mniej niz 50 ciastek. Mozna je podzielic rowno miedzy 2, 3 i 4 dzieci. Przy dzieleniu miedzy 7 dzieci brakuje 6 ciastek. Ile ciastek jest w pudelku?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "12",
+            "B": "24",
+            "C": "30",
+            "D": "36",
+            "E": "48"
+          },
+          "correct": "D"
+        },
+        {
+          "id": "kangur-maluch-2024-2",
+          "source": "kangur-maluch-2024-2",
+          "year": 2024,
+          "number": 2,
+          "difficulty": "3pkt",
+          "topic": "arytmetyka",
+          "subtopic": "porownanie sum",
+          "statement": "Ktora z sum jest najwieksza: A) 202+4, B) 20+24, C) 2+0+2+4, D) 20+2+4, E) 2+0+24?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "202 + 4",
+            "B": "20 + 24",
+            "C": "2 + 0 + 2 + 4",
+            "D": "20 + 2 + 4",
+            "E": "2 + 0 + 24"
+          },
+          "correct": "A"
+        }
+      ],
+      "challenge": [],
+      "solutions": [
+        {
+          "problemId": "kangur-maluch-2012-13",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Oryginalne zadanie Kangur Maluch 2012 nr 13.",
+          "steps": [
+            "Oryginalne zadanie Kangur Maluch 2012 nr 13.",
+            "Poprawna odpowiedz: B"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2021-6",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Oryginalne zadanie Kangur Maluch 2021 nr 6.",
+          "steps": [
+            "Oryginalne zadanie Kangur Maluch 2021 nr 6.",
+            "Poprawna odpowiedz: D"
+          ],
+          "answer": "D",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2021-18",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Oryginalne zadanie Kangur Maluch 2021 nr 18.",
+          "steps": [
+            "Oryginalne zadanie Kangur Maluch 2021 nr 18.",
+            "Poprawna odpowiedz: D"
+          ],
+          "answer": "D",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2024-2",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Oryginalne zadanie Kangur Maluch 2024 nr 2.",
+          "steps": [
+            "Oryginalne zadanie Kangur Maluch 2024 nr 2.",
+            "Poprawna odpowiedz: A"
+          ],
+          "answer": "A",
+          "alternative": null
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Zaokraglij 685 do setek.",
+      "choices": {
+        "A": "600",
+        "B": "700",
+        "C": "680"
+      },
+      "correct": "B",
+      "explain": "Cyfra dziesiatek 8 (>=5), w gore: 700."
+    },
+    {
+      "q": "Najszybciej oszacujesz 489 razy 6:",
+      "choices": {
+        "A": "500 razy 6 = 3000",
+        "B": "400 razy 6 = 2400",
+        "C": "500 razy 5 = 2500"
+      },
+      "correct": "A",
+      "explain": "489 ~ 500, czyli 3000. Dokladnie 2934."
+    },
+    {
+      "q": "Cyfra ostatnia 27 razy 4 to:",
+      "choices": {
+        "A": "6",
+        "B": "8",
+        "C": "4"
+      },
+      "correct": "B",
+      "explain": "Ostatnia cyfra 7*4=28, czyli 8."
+    }
+  ]
+}

@@ -1,0 +1,493 @@
+{
+  "id": "l29",
+  "number": 29,
+  "block": "Pomiary i jednostki",
+  "blockCode": "E",
+  "title": "Pojemnosc: ml, l",
+  "topic": "pomiary_jednostki",
+  "estimatedMinutes": 12,
+  "theory": {
+    "intro": "Butelka wody, sok, mleko. Pojemnosc to ile plynu miesci sie w naczyniu. Jednostki: mililitr (ml) i litr (l). 1 l = 1000 ml. Szklanka ma okolo 250 ml, butelka wody 500 ml lub 1.5 l, baniak na mleko 5 l.",
+    "tool": "Sztuczka 1: 1 LITR = 1000 ML. To podstawa. Zamiany jak w innych jednostkach: na wieksza dziel przez 1000, na mniejsza mnoz przez 1000.\n\nSztuczka 2: SZACUJ POJEMNOSCI. Szklanka ~250 ml = cwierc litra. 4 szklanki = 1 litr. Wanna ~150 l. Basen ogrodowy ~2000 l.\n\nSztuczka 3: ZADANIA Z PRZELEWANIEM. Mama nalala soku z duzej butelki 2 l do trzech szklanek po 250 ml. Ile zostalo? 2000 ml - 3 razy 250 ml = 2000 - 750 = 1250 ml.\n\nSztuczka 4: TA SAMA JEDNOSTKA. Porownujac 750 ml i 1 l, zamien oba na ml: 750 ml < 1000 ml.",
+    "trick": "Pulapka: czesto w zadaniach jest 'butelka' bez podanej pojemnosci - musisz zalozyc standard (np. 1 l) albo informacja jest na obrazku. Czytaj uwaznie - jezeli nie ma jednoznacznej miary, to nie ma rozwiazania."
+  },
+  "versions": [
+    {
+      "versionId": "v1",
+      "label": "Wersja 1 (oryginalna)",
+      "warmup": [
+        {
+          "id": "gen-l29-v1-w1",
+          "source": "generated-l29-v1-w1",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "pomiary_jednostki",
+          "subtopic": "zamiana l na ml",
+          "statement": "Ile mililitrow ma 2 litry?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "20",
+            "B": "200",
+            "C": "2000",
+            "D": "20000",
+            "E": "22"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "gen-l29-v1-w2",
+          "source": "generated-l29-v1-w2",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "pomiary_jednostki",
+          "subtopic": "zamiana ml na l",
+          "statement": "Ile litrow ma 3000 mililitrow?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "3",
+            "B": "30",
+            "C": "300",
+            "D": "0.3",
+            "E": "33"
+          },
+          "correct": "A"
+        },
+        {
+          "id": "gen-l29-v1-w3",
+          "source": "generated-l29-v1-w3",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "pomiary_jednostki",
+          "subtopic": "cwierc litra",
+          "statement": "Szklanka ma pojemnosc 250 ml. Ile to litra?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "Pol litra",
+            "B": "Cwierc litra",
+            "C": "Caly litr",
+            "D": "1/5 litra",
+            "E": "2 litry"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "gen-l29-v1-w4",
+          "source": "generated-l29-v1-w4",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "pomiary_jednostki",
+          "subtopic": "ile szklanek na litr",
+          "statement": "Ile szklanek po 250 ml miesci w sobie 1 litr?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "2",
+            "B": "3",
+            "C": "4",
+            "D": "5",
+            "E": "10"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "gen-l29-v1-w5",
+          "source": "generated-l29-v1-w5",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "pomiary_jednostki",
+          "subtopic": "praktyczna pojemnosc",
+          "statement": "Butelka wody mineralnej ma zwykle pojemnosc okolo:",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "50 ml",
+            "B": "500 ml",
+            "C": "5 l",
+            "D": "50 l",
+            "E": "500 l"
+          },
+          "correct": "B"
+        }
+      ],
+      "challenge": [
+        {
+          "id": "gen-l29-v1-c1",
+          "source": "generated-l29-v1-c1",
+          "year": null,
+          "number": null,
+          "difficulty": "4pkt",
+          "topic": "pomiary_jednostki",
+          "subtopic": "odejmowanie pojemnosci",
+          "statement": "Wiadro ma 8 litrow wody. Mama wziela 750 ml na podlewanie. Ile ml wody zostalo w wiadrze?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "7250",
+            "B": "7000",
+            "C": "7500",
+            "D": "8000",
+            "E": "6500"
+          },
+          "correct": "A"
+        },
+        {
+          "id": "gen-l29-v1-c2",
+          "source": "generated-l29-v1-c2",
+          "year": null,
+          "number": null,
+          "difficulty": "5pkt",
+          "topic": "pomiary_jednostki",
+          "subtopic": "ile butelek z duzej",
+          "statement": "Z 5-litrowego baniaka mleka napelniono male butelki po 250 ml. Ile butelek udalo sie napelnic?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "10",
+            "B": "15",
+            "C": "20",
+            "D": "25",
+            "E": "50"
+          },
+          "correct": "C"
+        }
+      ],
+      "solutions": [
+        {
+          "problemId": "gen-l29-v1-w1",
+          "observation": "1 l = 1000 ml.",
+          "strategy": "Mnozenie.",
+          "steps": [
+            "2 l = 2 razy 1000 = 2000 ml"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l29-v1-w2",
+          "observation": "Dziel przez 1000.",
+          "strategy": "Dzielenie.",
+          "steps": [
+            "3000 : 1000 = 3 l"
+          ],
+          "answer": "A",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l29-v1-w3",
+          "observation": "250 ml = 1/4 litra.",
+          "strategy": "Cwierc litra.",
+          "steps": [
+            "1 l = 1000 ml, 250 = 1000:4 = cwierc litra"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l29-v1-w4",
+          "observation": "4 razy 250 ml = 1000 ml.",
+          "strategy": "Liczenie szklanek.",
+          "steps": [
+            "1000 : 250 = 4 szklanki"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l29-v1-w5",
+          "observation": "Standardowa butelka ~500 ml.",
+          "strategy": "Praktyczna pojemnosc.",
+          "steps": [
+            "Typowa butelka mineralnej to 500 ml"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l29-v1-c1",
+          "observation": "Sprowadz wszystko na ml.",
+          "strategy": "Zamiana + odejmowanie.",
+          "steps": [
+            "8 l = 8000 ml",
+            "8000 - 750 = 7250 ml"
+          ],
+          "answer": "A",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l29-v1-c2",
+          "observation": "Sprowadz na ml i dziel.",
+          "strategy": "Dzielenie ilosci.",
+          "steps": [
+            "5 l = 5000 ml",
+            "5000 : 250 = 20 butelek"
+          ],
+          "answer": "C",
+          "alternative": null
+        }
+      ]
+    },
+    {
+      "versionId": "v2",
+      "label": "Wersja 2 (powtorka)",
+      "warmup": [
+        {
+          "id": "gen-l29-v2-w1",
+          "source": "generated-l29-v2-w1",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "pomiary_jednostki",
+          "subtopic": "zamiana l na ml",
+          "statement": "Ile mililitrow ma 1.5 litra?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "15",
+            "B": "150",
+            "C": "1500",
+            "D": "15000",
+            "E": "50"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "gen-l29-v2-w2",
+          "source": "generated-l29-v2-w2",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "pomiary_jednostki",
+          "subtopic": "pol litra",
+          "statement": "Pol litra to ile mililitrow?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "50",
+            "B": "250",
+            "C": "500",
+            "D": "5000",
+            "E": "1000"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "gen-l29-v2-w3",
+          "source": "generated-l29-v2-w3",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "pomiary_jednostki",
+          "subtopic": "wieksze",
+          "statement": "Co miesci WIECEJ wody: 700 ml czy 1 litr?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "700 ml",
+            "B": "1 litr",
+            "C": "Sa rowne",
+            "D": "Nie da sie ustalic",
+            "E": "Zalezy"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "gen-l29-v2-w4",
+          "source": "generated-l29-v2-w4",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "pomiary_jednostki",
+          "subtopic": "szklanki",
+          "statement": "Dzbanek 1.5 l wody. Ile szklanek po 250 ml mozna nim napelnic?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "4",
+            "B": "5",
+            "C": "6",
+            "D": "7",
+            "E": "8"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "gen-l29-v2-w5",
+          "source": "generated-l29-v2-w5",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "pomiary_jednostki",
+          "subtopic": "najwieksza pojemnosc",
+          "statement": "Co ma NAJWIEKSZA pojemnosc?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "Szklanka",
+            "B": "Lyzeczka",
+            "C": "Wiadro",
+            "D": "Butelka 0.5 l",
+            "E": "Filizanka"
+          },
+          "correct": "C"
+        }
+      ],
+      "challenge": [
+        {
+          "id": "gen-l29-v2-c1",
+          "source": "generated-l29-v2-c1",
+          "year": null,
+          "number": null,
+          "difficulty": "4pkt",
+          "topic": "pomiary_jednostki",
+          "subtopic": "wlewanie wody",
+          "statement": "Akwarium miesci 50 litrow. Wlano 23 l wody. Ile litrow potrzeba dolac, by je napelnic?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "23",
+            "B": "25",
+            "C": "27",
+            "D": "30",
+            "E": "73"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "gen-l29-v2-c2",
+          "source": "generated-l29-v2-c2",
+          "year": null,
+          "number": null,
+          "difficulty": "5pkt",
+          "topic": "pomiary_jednostki",
+          "subtopic": "sciezka przelewania",
+          "statement": "Z butelki 2 l wlano sok do 4 szklanek po 250 ml i 2 kubeczkow po 200 ml. Ile ml soku zostalo w butelce?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "400",
+            "B": "500",
+            "C": "600",
+            "D": "700",
+            "E": "800"
+          },
+          "correct": "C"
+        }
+      ],
+      "solutions": [
+        {
+          "problemId": "gen-l29-v2-w1",
+          "observation": "1.5 l to 1500 ml.",
+          "strategy": "Mnozenie.",
+          "steps": [
+            "1.5 razy 1000 = 1500 ml"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l29-v2-w2",
+          "observation": "Pol litra = 500 ml.",
+          "strategy": "Polowa 1000.",
+          "steps": [
+            "1000:2 = 500 ml"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l29-v2-w3",
+          "observation": "Zamien na ml i porownaj.",
+          "strategy": "Porownanie.",
+          "steps": [
+            "1 l = 1000 ml > 700 ml"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l29-v2-w4",
+          "observation": "1.5 l = 1500 ml.",
+          "strategy": "Dzielenie.",
+          "steps": [
+            "1500 : 250 = 6 szklanek"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l29-v2-w5",
+          "observation": "Wiadro ma najwieksza pojemnosc.",
+          "strategy": "Praktyczna miara.",
+          "steps": [
+            "Wiadro ~10 l, reszta mniej"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l29-v2-c1",
+          "observation": "Akwarium 50 l minus 23 l.",
+          "strategy": "Odejmowanie.",
+          "steps": [
+            "50 - 23 = 27 l"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l29-v2-c2",
+          "observation": "Sprowadz na ml.",
+          "strategy": "Zamiana + odejmowanie.",
+          "steps": [
+            "Butelka: 2 l = 2000 ml",
+            "Szklanki: 4 razy 250 = 1000 ml",
+            "Kubeczki: 2 razy 200 = 400 ml",
+            "Zostalo: 2000 - 1000 - 400 = 600 ml"
+          ],
+          "answer": "C",
+          "alternative": null
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "1 l to ile ml?",
+      "choices": {
+        "A": "10",
+        "B": "100",
+        "C": "1000"
+      },
+      "correct": "C",
+      "explain": "1 l = 1000 ml."
+    },
+    {
+      "q": "Pol litra to:",
+      "choices": {
+        "A": "50 ml",
+        "B": "500 ml",
+        "C": "5000 ml"
+      },
+      "correct": "B",
+      "explain": "Pol litra = 500 ml."
+    },
+    {
+      "q": "Cwierc litra to tyle, ile mniej wiecej:",
+      "choices": {
+        "A": "Lyzeczka",
+        "B": "Szklanka",
+        "C": "Wiadro"
+      },
+      "correct": "B",
+      "explain": "Szklanka to standardowo 250 ml = cwierc litra."
+    }
+  ]
+}

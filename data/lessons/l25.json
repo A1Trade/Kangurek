@@ -1,0 +1,494 @@
+{
+  "id": "l25",
+  "number": 25,
+  "block": "Geometria przestrzenna",
+  "blockCode": "D",
+  "title": "Siatki szescianu",
+  "topic": "geometria_przestrzenna",
+  "estimatedMinutes": 14,
+  "theory": {
+    "intro": "Rozetnij pudelko po obwodzie i rozloz na plasko - dostaniesz siatke. Siatka szescianu to 6 kwadratow polaczonych krawedziami, ktore zlozone w 3D daja szescian. Nie kazdy uklad 6 kwadratow jest siatka - tylko takie, ktore sie ladnie zlozą.",
+    "tool": "Sztuczka 1: SIATKA TO 6 KWADRATOW POLACZONYCH. Sa 11 roznych siatek szescianu (z dokladnoscia do obrotu). Najczestsza to 'krzyz' - 4 kwadraty w rzedzie plus 1 z gory i 1 z dolu.\n\nSztuczka 2: SCIANY PRZECIWLEGLE NIE STYKAJA SIE W SIATCE. Patrzac na siatke, sciany ktorych w 3D sa naprzeciw siebie - na siatce sa oddalone. Aby je znalezc, popatrz na sciany odlegle.\n\nSztuczka 3: SKLADANIE W MYSLI. Wybierz jedna sciane jako 'podstawe'. Cztery sasiednie zlozą sie do gory jako boki. Ostatnia bedzie 'wieczkiem' (przeciwlegla).\n\nSztuczka 4: 'KOLKO' NIE JEST SIATKA. Jezeli 4 kwadraty otaczaja jeden w srodku i jeden jest poza - to dziala. Ale 4 kwadraty w kwadracie 2x2 plus 2 - czesto nie da sie zlozyc.",
+    "trick": "Kangurek lubi pytac 'ktore sciany sa naprzeciw siebie'. Trick: na siatce 'krzyzowej' sciana w srodku rzedu 4 jest naprzeciw sciany odleglej o 2 pozycje (przeskakujesz przez 2 sciany). Pamietaj o tej zasadzie 'co drugi'."
+  },
+  "versions": [
+    {
+      "versionId": "v1",
+      "label": "Wersja 1 (oryginalna)",
+      "warmup": [
+        {
+          "id": "gen-l25-v1-w1",
+          "source": "generated-l25-v1-w1",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "geometria_przestrzenna",
+          "subtopic": "liczba scian w siatce",
+          "statement": "Ile kwadratow ma kazda siatka szescianu?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "4",
+            "B": "5",
+            "C": "6",
+            "D": "8",
+            "E": "12"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "gen-l25-v1-w2",
+          "source": "generated-l25-v1-w2",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "geometria_przestrzenna",
+          "subtopic": "klasyczna siatka krzyzowa",
+          "statement": "Najpopularniejsza siatka szescianu to:",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "6 kwadratow w jednym rzedzie",
+            "B": "Krzyz (4 w rzedzie + 1 gora + 1 dol)",
+            "C": "Kwadrat 3x3",
+            "D": "Trojkat z kwadratow",
+            "E": "Pierscien"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "gen-l25-v1-w3",
+          "source": "generated-l25-v1-w3",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "geometria_przestrzenna",
+          "subtopic": "sciany przeciwlegle",
+          "statement": "Kostka do gry ma sume oczek na przeciwleglych scianach rowna:",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "5",
+            "B": "6",
+            "C": "7",
+            "D": "8",
+            "E": "12"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "kangur-maluch-2024-8",
+          "source": "kangur-maluch-2024-8",
+          "year": 2024,
+          "number": 8,
+          "difficulty": "3pkt",
+          "topic": "geometria_przestrzenna",
+          "subtopic": "budowla przed stracenem klocka",
+          "statement": "Ignas zbudowal konstrukcje z klockow. Kot stracil z niej jeden klocek. Jak mogla wygladac ta budowla PRZED straceniem klocka?",
+          "hasImage": true,
+          "imageNote": "Konstrukcja po straceniu klocka i 5 wariantow budowli przed.",
+          "choices": {
+            "A": "budowla A",
+            "B": "budowla B",
+            "C": "budowla C",
+            "D": "budowla D",
+            "E": "budowla E"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "gen-l25-v1-w5",
+          "source": "generated-l25-v1-w5",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "geometria_przestrzenna",
+          "subtopic": "czy to siatka",
+          "statement": "Czy 6 kwadratow ulozonych w prostokat 2x3 (jedna warstwa) tworzy siatke szescianu?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "Tak",
+            "B": "Nie",
+            "C": "Tylko jednoczesnie",
+            "D": "Tylko przy obrocie",
+            "E": "Nie wiadomo"
+          },
+          "correct": "B"
+        }
+      ],
+      "challenge": [
+        {
+          "id": "kangur-maluch-2015-18",
+          "source": "kangur-maluch-2015-18",
+          "year": 2015,
+          "number": 18,
+          "difficulty": "5pkt",
+          "topic": "geometria_przestrzenna",
+          "subtopic": "kolorowanie szescianu - bez wspolnych scian",
+          "statement": "Szescian 3x3x3 z 27 malych klockow, kazdy bialy lub szary. Zadne dwa klocki tego samego koloru nie maja wspolnej sciany. Ilu bialych klockow uzyto?",
+          "hasImage": true,
+          "imageNote": "Szescian 3x3x3 w kolorach bialym i szarym jak szachownica 3D.",
+          "choices": {
+            "A": "9",
+            "B": "12",
+            "C": "13",
+            "D": "14",
+            "E": "17"
+          },
+          "correct": "D"
+        },
+        {
+          "id": "kangur-maluch-2016-24",
+          "source": "kangur-maluch-2016-24",
+          "year": 2016,
+          "number": 24,
+          "difficulty": "5pkt",
+          "topic": "geometria_przestrzenna",
+          "subtopic": "rozprzestrzenianie koloru w szescianie",
+          "statement": "Duza kostka z 27 klockow, jeden czarny (przy krawedzi). W srode czarny klocek zmienil przylegajace ściankami biale klocki na czarne. W czwartek kazdy czarny klocek zrobil to samo. Ile czarnych klockow bylo po tych zmianach?",
+          "hasImage": true,
+          "imageNote": "Szescian 3x3x3 z jednym czarnym klockiem przy krawedzi.",
+          "choices": {
+            "A": "9",
+            "B": "11",
+            "C": "12",
+            "D": "13",
+            "E": "15"
+          },
+          "correct": "C"
+        }
+      ],
+      "solutions": [
+        {
+          "problemId": "gen-l25-v1-w1",
+          "observation": "Szescian ma 6 scian - siatka tez 6.",
+          "strategy": "Liczba scian.",
+          "steps": [
+            "Siatka odpowiada 6 scianom szescianu"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l25-v1-w2",
+          "observation": "Krzyz to typowa siatka.",
+          "strategy": "Typy siatek.",
+          "steps": [
+            "Krzyzowa siatka: 4 kwadraty w rzedzie, jeden z gory, jeden z dolu"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l25-v1-w3",
+          "observation": "Standardowa kostka - przeciwlegle daja 7.",
+          "strategy": "Wlasnosc kostki.",
+          "steps": [
+            "Sciany 1+6, 2+5, 3+4 - kazda para daje 7"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2024-8",
+          "observation": "Budowla przed straceniem klocka.",
+          "strategy": "Dopasowanie budowli.",
+          "steps": [
+            "Po straceniu jednego klocka mozliwa budowla pasujaca",
+            "Poprawna budowla to C"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l25-v1-w5",
+          "observation": "Prostokat 2x3 z 6 kwadratow - czy mozna zlozyc?",
+          "strategy": "Sprawdzanie siatki.",
+          "steps": [
+            "W prostokacie 2x3 sciany nie polaczone sa krawedzia po zgieciu - nie tworzy szescianu"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2015-18",
+          "observation": "Kolorowanie szescianu - klocki bez wspolnych scian.",
+          "strategy": "Sachownica 3D.",
+          "steps": [
+            "Szescian 3x3x3, kolor jak szachownica 3D",
+            "Bialych klockow 14 (i szarych 13)"
+          ],
+          "answer": "D",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2016-24",
+          "observation": "Rozprzestrzenianie czarnego koloru w szescianie.",
+          "strategy": "Symulacja propagacji.",
+          "steps": [
+            "W srode czarny klocek pomalowal sasiadow",
+            "W czwartek powtorka",
+            "Po zmianach czarnych klockow jest 12"
+          ],
+          "answer": "C",
+          "alternative": null
+        }
+      ]
+    },
+    {
+      "versionId": "v2",
+      "label": "Wersja 2 (powtorka)",
+      "warmup": [
+        {
+          "id": "gen-l25-v2-w1",
+          "source": "generated-l25-v2-w1",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "geometria_przestrzenna",
+          "subtopic": "wlasnosc siatki",
+          "statement": "Siatka szescianu po zlozeniu daje:",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "Prostopadlosc1an",
+            "B": "Szescian",
+            "C": "Piramide",
+            "D": "Kule",
+            "E": "Walec"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "gen-l25-v2-w2",
+          "source": "generated-l25-v2-w2",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "geometria_przestrzenna",
+          "subtopic": "liczba krawedzi do sklejenia",
+          "statement": "Skladajac siatke szescianu, sklejamy:",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "Nic",
+            "B": "7 krawedzi",
+            "C": "6 krawedzi",
+            "D": "12 krawedzi",
+            "E": "4 krawedzie"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "gen-l25-v2-w3",
+          "source": "generated-l25-v2-w3",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "geometria_przestrzenna",
+          "subtopic": "co to siatka",
+          "statement": "Siatka szescianu to zawsze:",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "4 kwadraty",
+            "B": "5 kwadratow",
+            "C": "6 kwadratow polaczonych krawedziami",
+            "D": "6 kwadratow w jednym rzedzie",
+            "E": "Kwadrat 3x3"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "gen-l25-v2-w4",
+          "source": "generated-l25-v2-w4",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "geometria_przestrzenna",
+          "subtopic": "sasiednia sciana",
+          "statement": "W siatce sasiednia sciana to:",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "Stykajaca sie krawedzia",
+            "B": "Najdalsza",
+            "C": "Po przekatnej",
+            "D": "Sciana naprzeciw",
+            "E": "Nie istnieje"
+          },
+          "correct": "A"
+        },
+        {
+          "id": "gen-l25-v2-w5",
+          "source": "generated-l25-v2-w5",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "geometria_przestrzenna",
+          "subtopic": "ile siatek szescianu",
+          "statement": "Ile jest roznych siatek szescianu (z dokladnoscia do obrotu)?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "6",
+            "B": "8",
+            "C": "10",
+            "D": "11",
+            "E": "12"
+          },
+          "correct": "D"
+        }
+      ],
+      "challenge": [
+        {
+          "id": "gen-l25-v2-c1",
+          "source": "generated-l25-v2-c1",
+          "year": null,
+          "number": null,
+          "difficulty": "4pkt",
+          "topic": "geometria_przestrzenna",
+          "subtopic": "przeciwlegle w siatce",
+          "statement": "W siatce krzyzowej (4 w rzedzie + 1 gora + 1 dol) sciany srodkowe rzedu (2 i 4 z lewa) sa naprzeciw siebie?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "Tak",
+            "B": "Nie - sa sasiednie",
+            "C": "Sa identyczne",
+            "D": "Nie da sie zlozyc",
+            "E": "Sa po przekatnej"
+          },
+          "correct": "A"
+        },
+        {
+          "id": "gen-l25-v2-c2",
+          "source": "generated-l25-v2-c2",
+          "year": null,
+          "number": null,
+          "difficulty": "5pkt",
+          "topic": "geometria_przestrzenna",
+          "subtopic": "liczba scian z 'opisu'",
+          "statement": "Siatka ma 4 kwadraty w rzedzie + 2 dodatkowe ustawione po jednej stronie. Czy to siatka szescianu?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "Zawsze tak",
+            "B": "Zalezy od polozenia 2 dodatkowych",
+            "C": "Nigdy",
+            "D": "Tylko gdy sa na tej samej krawedzi",
+            "E": "Tylko gdy sa po obu stronach"
+          },
+          "correct": "B"
+        }
+      ],
+      "solutions": [
+        {
+          "problemId": "gen-l25-v2-w1",
+          "observation": "Siatka szescianu zlozona daje szescian.",
+          "strategy": "Definicja siatki.",
+          "steps": [
+            "Siatka szescianu to plaski zarys, ktory po zlozeniu daje szescian"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l25-v2-w2",
+          "observation": "Szescian ma 12 krawedzi, siatka 5 polaczonych, sklejamy 7.",
+          "strategy": "Krawedzie siatki.",
+          "steps": [
+            "Szescian: 12 krawedzi. W siatce 5 jest polaczonych",
+            "Trzeba skleic pozostale: 12 - 5 = 7"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l25-v2-w3",
+          "observation": "Siatka - 6 kwadratow polaczonych krawedziami.",
+          "strategy": "Definicja.",
+          "steps": [
+            "Siatka to 6 kwadratow, kazda para sasiednich ma wspolna krawedz w siatce"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l25-v2-w4",
+          "observation": "Sasiednie - stykaja sie krawedzia.",
+          "strategy": "Sasiedztwo w siatce.",
+          "steps": [
+            "Sasiednie sciany w siatce maja wspolna krawedz"
+          ],
+          "answer": "A",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l25-v2-w5",
+          "observation": "Jest 11 roznych siatek szescianu.",
+          "strategy": "Liczba siatek.",
+          "steps": [
+            "Z dokladnoscia do obrotow i odbic jest 11 roznych siatek szescianu"
+          ],
+          "answer": "D",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l25-v2-c1",
+          "observation": "W krzyzu 2 i 4 sa naprzeciw siebie po zlozeniu.",
+          "strategy": "Identyfikacja przeciwleglych.",
+          "steps": [
+            "W siatce krzyzowej (4 w rzedzie) sciany na pozycjach 2 i 4 staja sie przeciwlegle po zlozeniu"
+          ],
+          "answer": "A",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l25-v2-c2",
+          "observation": "Polozenie 2 dodatkowych kwadratow decyduje.",
+          "strategy": "Sprawdzenie konkretnej konfiguracji.",
+          "steps": [
+            "Czesc konfiguracji 4+2 daje siatke, czesc nie",
+            "Zalezy od polozenia 2 dodatkowych kwadratow"
+          ],
+          "answer": "B",
+          "alternative": null
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Ile kwadratow ma siatka szescianu?",
+      "choices": {
+        "A": "4",
+        "B": "6",
+        "C": "8"
+      },
+      "correct": "B",
+      "explain": "Szescian ma 6 scian - siatka tez ma 6 kwadratow."
+    },
+    {
+      "q": "Ile jest roznych siatek szescianu?",
+      "choices": {
+        "A": "6",
+        "B": "11",
+        "C": "24"
+      },
+      "correct": "B",
+      "explain": "Z dokladnoscia do obrotu i odbicia - 11 roznych siatek."
+    },
+    {
+      "q": "Skladajac siatke szescianu sklejasz:",
+      "choices": {
+        "A": "5 krawedzi",
+        "B": "7 krawedzi",
+        "C": "12 krawedzi"
+      },
+      "correct": "B",
+      "explain": "W siatce 5 krawedzi jest polaczonych, 7 trzeba skleic."
+    }
+  ]
+}

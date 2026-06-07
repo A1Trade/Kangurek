@@ -1,0 +1,486 @@
+{
+  "year": 2023,
+  "category": "MALUCH",
+  "problems": [
+    {
+      "id": "kangur-maluch-2023-1",
+      "source": "kangur-maluch-2023-1",
+      "year": 2023,
+      "number": 1,
+      "difficulty": "3pkt",
+      "topic": "logika",
+      "subtopic": "porownanie czasu palenia swiec",
+      "statement": "Jednoczesnie zapalono 5 identycznych swiec. Kazda zgasla o innej porze. Ktora swieca zgasla pierwsza (wypalila sie najszybciej)?",
+      "hasImage": true,
+      "imageNote": "Piec swiec A-E o roznej pozostalej wysokosci.",
+      "choices": {
+        "A": "A",
+        "B": "B",
+        "C": "C",
+        "D": "D",
+        "E": "E"
+      },
+      "correct": "A"
+    },
+    {
+      "id": "kangur-maluch-2023-2",
+      "source": "kangur-maluch-2023-2",
+      "year": 2023,
+      "number": 2,
+      "difficulty": "3pkt",
+      "topic": "logika",
+      "subtopic": "dopasowanie wzoru kodu",
+      "statement": "Bilety na loterii maja kody (wzory czarno-biale): cyrk, kino, pokoj zagadek, zoo, basen. Dokad pojdzie Tadzio z wylosowanym biletem?",
+      "hasImage": true,
+      "imageNote": "Piec wzorow kodow i wylosowany bilet.",
+      "choices": {
+        "A": "Do cyrku",
+        "B": "Do kina",
+        "C": "Do pokoju zagadek",
+        "D": "Do zoo",
+        "E": "Na basen"
+      },
+      "correct": "D"
+    },
+    {
+      "id": "kangur-maluch-2023-3",
+      "source": "kangur-maluch-2023-3",
+      "year": 2023,
+      "number": 3,
+      "difficulty": "3pkt",
+      "topic": "lamiglowki",
+      "subtopic": "rownanie z monetami",
+      "statement": "W rownaniu 20 + 10 + 10 + ? + ? + 1 = 50 + 1 jaka jest wartosc kazdej z dwoch jednakowych monet ze znakami zapytania?",
+      "hasImage": true,
+      "imageNote": "Rownanie z monetami i znakami zapytania.",
+      "choices": {
+        "A": "1",
+        "B": "2",
+        "C": "5",
+        "D": "10",
+        "E": "20"
+      },
+      "correct": "C"
+    },
+    {
+      "id": "kangur-maluch-2023-4",
+      "source": "kangur-maluch-2023-4",
+      "year": 2023,
+      "number": 4,
+      "difficulty": "3pkt",
+      "topic": "geometria_plaska",
+      "subtopic": "zlozenie kwadratu z dwoch kartonikow",
+      "statement": "Helenka ma 4 kartoniki. Z ktorych dwoch moze ulozyc pokazany kwadrat, tak by kartoniki nie zachodzily na siebie?",
+      "hasImage": true,
+      "imageNote": "Cztery kartoniki o roznych ksztaltach.",
+      "choices": {
+        "A": "Z 1 i 2",
+        "B": "Z 1 i 3",
+        "C": "Z 2 i 3",
+        "D": "Z 2 i 4",
+        "E": "Z 1 i 4"
+      },
+      "correct": "D"
+    },
+    {
+      "id": "kangur-maluch-2023-5",
+      "source": "kangur-maluch-2023-5",
+      "year": 2023,
+      "number": 5,
+      "difficulty": "3pkt",
+      "topic": "czas_kalendarz",
+      "subtopic": "liczby widoczne w obracanym kole",
+      "statement": "Na tarcze zegara nalozono szare kolo z dwoma otworami w stalej odleglosci. Obracajac kolo, ktore dwie liczby moga byc jednoczesnie widoczne w otworach?",
+      "hasImage": true,
+      "imageNote": "Tarcza zegara i szare kolo z dwoma otworami pokazujacymi 1 i 5.",
+      "choices": {
+        "A": "4 i 9",
+        "B": "5 i 10",
+        "C": "5 i 9",
+        "D": "6 i 9",
+        "E": "7 i 12"
+      },
+      "correct": "C"
+    },
+    {
+      "id": "kangur-maluch-2023-6",
+      "source": "kangur-maluch-2023-6",
+      "year": 2023,
+      "number": 6,
+      "difficulty": "3pkt",
+      "topic": "geometria_plaska",
+      "subtopic": "zlozenie folii na pol",
+      "statement": "Kajtek zgial na pol przezroczysta folie z nadrukiem cyfr wzdluz poziomej linii, nakladajac gorna czesc na dolna. Jaki widok zobaczyl?",
+      "hasImage": true,
+      "imageNote": "Folia z cyframi wyswietlacza i 5 wariantow widoku po zlozeniu.",
+      "choices": {
+        "A": "widok A",
+        "B": "widok B",
+        "C": "widok C",
+        "D": "widok D",
+        "E": "widok E"
+      },
+      "correct": "D"
+    },
+    {
+      "id": "kangur-maluch-2023-7",
+      "source": "kangur-maluch-2023-7",
+      "year": 2023,
+      "number": 7,
+      "difficulty": "3pkt",
+      "topic": "kombinatoryka",
+      "subtopic": "wybor 3 z 4 - jedyne ulozenie",
+      "statement": "Ignas ma 4 rozne zetony. Z trzech chce zbudowac wieze tak, by najmniejszy byl na gorze, a najwiekszy na dole. Na ile roznych sposobow moze to zrobic?",
+      "hasImage": true,
+      "imageNote": "Cztery zetony roznej wielkosci.",
+      "choices": {
+        "A": "1",
+        "B": "2",
+        "C": "4",
+        "D": "5",
+        "E": "6"
+      },
+      "correct": "C"
+    },
+    {
+      "id": "kangur-maluch-2023-8",
+      "source": "kangur-maluch-2023-8",
+      "year": 2023,
+      "number": 8,
+      "difficulty": "3pkt",
+      "topic": "geometria_plaska",
+      "subtopic": "nakladanie polkola i cwiartki na kolo",
+      "statement": "Na czarne kolo Ania polozyla szare polkole i bialа cwiartke kola (w dowolnej kolejnosci). Ktorego widoku NIE mogla zobaczyc?",
+      "hasImage": true,
+      "imageNote": "Czarne kolo, szare polkole, biala cwiartka i 5 wariantow widoku.",
+      "choices": {
+        "A": "widok A",
+        "B": "widok B",
+        "C": "widok C",
+        "D": "widok D",
+        "E": "widok E"
+      },
+      "correct": "E"
+    },
+    {
+      "id": "kangur-maluch-2023-9",
+      "source": "kangur-maluch-2023-9",
+      "year": 2023,
+      "number": 9,
+      "difficulty": "4pkt",
+      "topic": "geometria_plaska",
+      "subtopic": "ktory kartonik przykryje punkt",
+      "statement": "Figure nalezy calkowicie przykryc piecioma kartonikami. Ktory kartonik przykryje czarne kolko?",
+      "hasImage": true,
+      "imageNote": "Figura z czarnym kolkiem i 5 kartonikow do przykrycia.",
+      "choices": {
+        "A": "kartonik A",
+        "B": "kartonik B",
+        "C": "kartonik C",
+        "D": "kartonik D",
+        "E": "kartonik E"
+      },
+      "correct": "E"
+    },
+    {
+      "id": "kangur-maluch-2023-10",
+      "source": "kangur-maluch-2023-10",
+      "year": 2023,
+      "number": 10,
+      "difficulty": "4pkt",
+      "topic": "logika",
+      "subtopic": "rownowaga wagi - ktory odwaznik poza",
+      "statement": "Ewa ma 6 odwaznikow: 1, 2, 3, 4, 5 i 6 kg. Piec z nich polozyla na wadze szalkowej, ktora pozostala w rownowadze. Ktory odwaznik zostal poza waga?",
+      "hasImage": true,
+      "imageNote": "Waga szalkowa z 5 odwaznikami w rownowadze.",
+      "choices": {
+        "A": "1 kg",
+        "B": "2 kg",
+        "C": "3 kg",
+        "D": "4 kg",
+        "E": "Niemozliwe, by waga byla w rownowadze"
+      },
+      "correct": "A"
+    },
+    {
+      "id": "kangur-maluch-2023-11",
+      "source": "kangur-maluch-2023-11",
+      "year": 2023,
+      "number": 11,
+      "difficulty": "4pkt",
+      "topic": "arytmetyka",
+      "subtopic": "uklad rownan - osoby w samochodach",
+      "statement": "W osmiu samochodach jest 19 osob. W kazdym aucie jest dwoje albo troje ludzi. W ilu samochodach sa dokladnie po 2 osoby?",
+      "hasImage": false,
+      "imageNote": null,
+      "choices": {
+        "A": "6",
+        "B": "5",
+        "C": "4",
+        "D": "3",
+        "E": "2"
+      },
+      "correct": "B"
+    },
+    {
+      "id": "kangur-maluch-2023-12",
+      "source": "kangur-maluch-2023-12",
+      "year": 2023,
+      "number": 12,
+      "difficulty": "4pkt",
+      "topic": "logika",
+      "subtopic": "kolorowanie grafu - minimalna liczba kolorow",
+      "statement": "Ala chce pomalowac wszystkie kolka tak, by kazde dwa polaczone odcinkiem mialy rozne kolory. Co najmniej ile kredek w roznych kolorach potrzebuje?",
+      "hasImage": true,
+      "imageNote": "Graf z kolkami polaczonymi odcinkami.",
+      "choices": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "5",
+        "E": "6"
+      },
+      "correct": "B"
+    },
+    {
+      "id": "kangur-maluch-2023-13",
+      "source": "kangur-maluch-2023-13",
+      "year": 2023,
+      "number": 13,
+      "difficulty": "4pkt",
+      "topic": "lamiglowki",
+      "subtopic": "wartosc gwiazdki z trzech skrzyn",
+      "statement": "W trzech skrzyniach sa jednakowe zlote kule, sztabki i gwiazdki. Skarb w kazdej skrzyni wart jest 40 dukatow. Ile dukatow warta jest zlota gwiazdka?",
+      "hasImage": true,
+      "imageNote": "Trzy skrzynie z rozna liczba kul, sztabek i gwiazdek.",
+      "choices": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4",
+        "E": "6"
+      },
+      "correct": "B"
+    },
+    {
+      "id": "kangur-maluch-2023-14",
+      "source": "kangur-maluch-2023-14",
+      "year": 2023,
+      "number": 14,
+      "difficulty": "4pkt",
+      "topic": "logika",
+      "subtopic": "linijka z kreskami - mierzenie odleglosci",
+      "statement": "Franek ma linijke 60 cm z czesciowo zatarta podzialka. Przykladajac ja raz, potrafi zmierzyc 10, 20, 30, 40, 50 i 60 cm. Ktory obrazek przedstawia linijke Franka?",
+      "hasImage": true,
+      "imageNote": "Piec linijek 60 cm z dwoma kreskami w roznych miejscach.",
+      "choices": {
+        "A": "kreski na 10 i 30",
+        "B": "kreski na 20 i 40",
+        "C": "kreski na 30 i 50",
+        "D": "kreski na 10 i 20",
+        "E": "kreski na 10 i 40"
+      },
+      "correct": "E"
+    },
+    {
+      "id": "kangur-maluch-2023-15",
+      "source": "kangur-maluch-2023-15",
+      "year": 2023,
+      "number": 15,
+      "difficulty": "4pkt",
+      "topic": "czas_kalendarz",
+      "subtopic": "ktory zegar chodzi poprawnie",
+      "statement": "Wisi 5 zegarow: 2 zepsute, 1 poprawny, 1 spieszy sie o 3 godziny, 1 spoznia o 3 godziny. Ktory zegar chodzi poprawnie?",
+      "hasImage": true,
+      "imageNote": "Piec zegarow A-E z roznymi czasami.",
+      "choices": {
+        "A": "A",
+        "B": "B",
+        "C": "C",
+        "D": "D",
+        "E": "E"
+      },
+      "correct": "B"
+    },
+    {
+      "id": "kangur-maluch-2023-16",
+      "source": "kangur-maluch-2023-16",
+      "year": 2023,
+      "number": 16,
+      "difficulty": "4pkt",
+      "topic": "logika",
+      "subtopic": "rozmieszczenie motocykli wsrod pojazdow",
+      "statement": "Kostek ustawil 6 autek i 2 motocykle, ponumerowal je 1-8. W kazdej trojce kolejno stojacych pojazdow byl dokladnie jeden motocykl. Ktorym numerem oznaczony jest jeden z motocykli?",
+      "hasImage": true,
+      "imageNote": "Osiem ponumerowanych pojazdow w rzedzie.",
+      "choices": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4",
+        "E": "5"
+      },
+      "correct": "C"
+    },
+    {
+      "id": "kangur-maluch-2023-17",
+      "source": "kangur-maluch-2023-17",
+      "year": 2023,
+      "number": 17,
+      "difficulty": "5pkt",
+      "topic": "geometria_plaska",
+      "subtopic": "wycinanka - dwa zgiecia i ciecie",
+      "statement": "Ela zlozyla kwadratowa kartke (dol na gore), potem prostokat (lewa na prawa), odcieła lewy dolny rog i rozlozyla. Jaka wycinanke otrzymala?",
+      "hasImage": true,
+      "imageNote": "Schemat skladania kartki i 5 wariantow wycinanki.",
+      "choices": {
+        "A": "wycinanka A",
+        "B": "wycinanka B",
+        "C": "wycinanka C",
+        "D": "wycinanka D",
+        "E": "wycinanka E"
+      },
+      "correct": "D"
+    },
+    {
+      "id": "kangur-maluch-2023-18",
+      "source": "kangur-maluch-2023-18",
+      "year": 2023,
+      "number": 18,
+      "difficulty": "5pkt",
+      "topic": "czas_kalendarz",
+      "subtopic": "cykliczny ruch pociagu metra",
+      "statement": "Linia metra ma 6 stacji A-F. Pociag zmienia kierunek na A i na F. Maszynista zaczal na stacji B, pierwszy przystanek to C. Ktora stacja bedzie jego 96. przystankiem?",
+      "hasImage": true,
+      "imageNote": "Linia metra ze stacjami A, B, C, D, E, F.",
+      "choices": {
+        "A": "A",
+        "B": "B",
+        "C": "C",
+        "D": "D",
+        "E": "E"
+      },
+      "correct": "D"
+    },
+    {
+      "id": "kangur-maluch-2023-19",
+      "source": "kangur-maluch-2023-19",
+      "year": 2023,
+      "number": 19,
+      "difficulty": "5pkt",
+      "topic": "logika",
+      "subtopic": "liczenie wypustek - kto jest Dinkiem",
+      "statement": "Na obrazkach Dinek, jego dwaj bracia i dwaj koledzy (smoki z wypustkami). Bracia Dinka maja lacznie 2 razy wiecej trojkatnych wypustek niz koledzy. Na ktorym obrazku jest Dinek?",
+      "hasImage": true,
+      "imageNote": "Piec smokow z rozna liczba trojkatnych wypustek na grzbiecie.",
+      "choices": {
+        "A": "smok A",
+        "B": "smok B",
+        "C": "smok C",
+        "D": "smok D",
+        "E": "smok E"
+      },
+      "correct": "C"
+    },
+    {
+      "id": "kangur-maluch-2023-20",
+      "source": "kangur-maluch-2023-20",
+      "year": 2023,
+      "number": 20,
+      "difficulty": "5pkt",
+      "topic": "arytmetyka",
+      "subtopic": "podzial pilek wedlug warunkow",
+      "statement": "Marysia i Jozek mieli po 9 pilek. Lacznie 8 niebieskich i 10 bialych. Marysia miala dwa razy wiecej bialych niz niebieskich. Ile bialych pilek mial Jozek?",
+      "hasImage": false,
+      "imageNote": null,
+      "choices": {
+        "A": "3",
+        "B": "4",
+        "C": "5",
+        "D": "6",
+        "E": "0"
+      },
+      "correct": "B"
+    },
+    {
+      "id": "kangur-maluch-2023-21",
+      "source": "kangur-maluch-2023-21",
+      "year": 2023,
+      "number": 21,
+      "difficulty": "5pkt",
+      "topic": "geometria_plaska",
+      "subtopic": "kolejnosc operacji obrotu i druku",
+      "statement": "Wladek ma urzadzenie O (obraca kartke o cwierc obrotu) i D (drukuje znak trefl). W jakiej kolejnosci uzyl trzech urzadzen, by z kartki z czarnym rogiem otrzymac pokazany rezultat?",
+      "hasImage": true,
+      "imageNote": "Kartka z czarnym kwadracikiem, urzadzenia O i D, rezultat koncowy.",
+      "choices": {
+        "A": "DOO",
+        "B": "ODO",
+        "C": "ODD",
+        "D": "OOD",
+        "E": "DOD"
+      },
+      "correct": "D"
+    },
+    {
+      "id": "kangur-maluch-2023-22",
+      "source": "kangur-maluch-2023-22",
+      "year": 2023,
+      "number": 22,
+      "difficulty": "5pkt",
+      "topic": "arytmetyka",
+      "subtopic": "rownanie z wiekiem",
+      "statement": "Za 9 lat Slawek bedzie mial 4 razy wiecej lat niz mial 3 lata temu. Ile lat mial Slawek trzy lata temu?",
+      "hasImage": false,
+      "imageNote": null,
+      "choices": {
+        "A": "7",
+        "B": "6",
+        "C": "5",
+        "D": "4",
+        "E": "3"
+      },
+      "correct": "D"
+    },
+    {
+      "id": "kangur-maluch-2023-23",
+      "source": "kangur-maluch-2023-23",
+      "year": 2023,
+      "number": 23,
+      "difficulty": "5pkt",
+      "topic": "lamiglowki",
+      "subtopic": "kolka z sumami na odcinkach",
+      "statement": "W kolka pierscienia wpisujemy liczby 1-7 tak, by suma w sasiednich kolkach polaczonych odcinkiem rownala sie liczbie przy odcinku (7, 8, 9, 6, 9, 8, 9). Jaka liczbe wpisac w zamalowane kolko?",
+      "hasImage": true,
+      "imageNote": "Siedem kolek w pierscieniu z liczbami przy odcinkach, jedno kolko zamalowane.",
+      "choices": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4",
+        "E": "5"
+      },
+      "correct": "D"
+    },
+    {
+      "id": "kangur-maluch-2023-24",
+      "source": "kangur-maluch-2023-24",
+      "year": 2023,
+      "number": 24,
+      "difficulty": "5pkt",
+      "topic": "logika",
+      "subtopic": "rozpoznanie poprawnego rysunku",
+      "statement": "Stas zacieniował 5 kratek i pokazal rysunek 5 kolegom. Jeden narysowal poprawnie wszystkie 5, czworka pomylila sie w 1 kratce (4 poprawne). Ktory obrazek byl taki sam jak rysunek Stasia?",
+      "hasImage": true,
+      "imageNote": "Piec rysunkow z 5 zacieniowanymi kratkami kazdy.",
+      "choices": {
+        "A": "rysunek A",
+        "B": "rysunek B",
+        "C": "rysunek C",
+        "D": "rysunek D",
+        "E": "rysunek E"
+      },
+      "correct": "C"
+    }
+  ]
+}

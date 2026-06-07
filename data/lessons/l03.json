@@ -1,0 +1,585 @@
+{
+  "id": "l03",
+  "number": 3,
+  "block": "Liczby i dzialania",
+  "blockCode": "A",
+  "title": "Dzielenie i reszty z dzielenia",
+  "topic": "arytmetyka",
+  "estimatedMinutes": 15,
+  "theory": {
+    "intro": "Masz 23 cukierki i chcesz podzielic je miedzy 4 kolegow po rowno. Kazdy dostanie 5 (bo 4 razy 5 = 20), a 3 cukierki zostana - to wlasnie reszta. Dzielenie z reszta dzieje sie wszedzie: ile pelnych autobusow zabierze 50 osob (jak autobus ma 30 miejsc), ile pelnych pudelek ulozysz, ile dni mija. Kangur uwielbia takie zadania, bo trzeba sie zastanowic, czy zaokraglic w gore czy w dol.",
+    "tool": "Sztuczka 1: DZIELENIE TO ODWROTNOSC MNOZENIA. 56 podzielic na 8 = ? Zapytaj sie: '8 razy ile daje 56?'. Wynik to 7. Tabliczka mnozenia daje Ci dzielenie za darmo.\n\nSztuczka 2: ILE RAZY MIESCI SIE? Dzielic 47 przez 6 = pytaj 'ile razy 6 zmiesci sie w 47?'. 6, 12, 18, 24, 30, 36, 42 - siedem razy daje 42, do 47 brakuje 5. Wynik: 7 reszta 5.\n\nSztuczka 3: REGULA POWROTU. Sprawdz wynik mnozeniem: jesli 47:6 = 7 r.5, to 7 razy 6 + 5 = 42 + 5 = 47. Pasuje? Pasuje, czyli OK.\n\nSztuczka 4: ZAOKRAGLIJ W GORE GDY TRZEBA. Pytanie 'ile pudelek po 6 jajek potrzeba na 50 jajek'? 50:6 = 8 reszta 2. Ale potrzebujesz 9 pudelek (bo reszta tez musi gdzies trafic).",
+    "trick": "Kangur uwielbia pulapke: 'ile autobusow', 'ile pudelek', 'ile lawek' - wtedy ZAWSZE zaokraglaj w gore. Druga pulapka: pyta o RESZTE a uczniowie podaja iloraz. Trzecia: pyta o ILORAZ a uczniowie podaja sume liczb. Zanim odpowiesz - przeczytaj jeszcze raz pytanie i zaznacz palcem co dokladnie ma byc wynikiem."
+  },
+  "versions": [
+    {
+      "versionId": "v1",
+      "label": "Wersja 1 (oryginalna)",
+      "warmup": [
+        {
+          "id": "gen-l03-w1",
+          "source": "generated-l03-1",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "arytmetyka",
+          "subtopic": "dzielenie bez reszty",
+          "statement": "Mama upiekla 36 ciasteczek i ulozyla po 4 na talerzykach. Ile talerzykow zapelnila?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "6",
+            "B": "7",
+            "C": "8",
+            "D": "9",
+            "E": "10"
+          },
+          "correct": "D"
+        },
+        {
+          "id": "gen-l03-w2",
+          "source": "generated-l03-2",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "arytmetyka",
+          "subtopic": "dzielenie z reszta - prosta",
+          "statement": "Pies zjada 3 kostki dziennie. Ile dni starczy mu 20 kostek?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "5",
+            "B": "6",
+            "C": "7",
+            "D": "17",
+            "E": "60"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "gen-l03-w3",
+          "source": "generated-l03-3",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "arytmetyka",
+          "subtopic": "reszta z dzielenia",
+          "statement": "25 dzieci ma utworzyc druzyny po 6. Ile dzieci zostanie bez druzyny (poza pelnymi druzynami po 6)?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "1",
+            "B": "2",
+            "C": "3",
+            "D": "4",
+            "E": "5"
+          },
+          "correct": "A"
+        },
+        {
+          "id": "gen-l03-w4",
+          "source": "generated-l03-4",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "arytmetyka",
+          "subtopic": "zaokraglanie w gore (autobusy)",
+          "statement": "Klasa liczy 38 osob. Jedna lawka miesci 4 dzieci. Ile lawek potrzeba, zeby wszyscy mogli usiasc?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "8",
+            "B": "9",
+            "C": "10",
+            "D": "11",
+            "E": "12"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "gen-l03-w5",
+          "source": "generated-l03-5",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "arytmetyka",
+          "subtopic": "dzielenie przez 10",
+          "statement": "Ola ma 90 cukierkow i chce rozdac je po rowno wsrod 10 przyjaciol. Ile cukierkow dostanie kazdy?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "8",
+            "B": "9",
+            "C": "10",
+            "D": "11",
+            "E": "12"
+          },
+          "correct": "B"
+        }
+      ],
+      "challenge": [
+        {
+          "id": "gen-l03-c1",
+          "source": "generated-l03-c1",
+          "year": null,
+          "number": null,
+          "difficulty": "4pkt",
+          "topic": "arytmetyka",
+          "subtopic": "dzielenie z reszta - znajdz liczbe",
+          "statement": "Karol pomyslal liczbe mniejsza od 50. Gdy podzieli ja przez 7, zostaje reszta 3. Gdy podzieli ja przez 5, zostaje reszta 2. Jaka to liczba?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "17",
+            "B": "27",
+            "C": "37",
+            "D": "42",
+            "E": "47"
+          },
+          "correct": "A"
+        },
+        {
+          "id": "gen-l03-c2",
+          "source": "generated-l03-c2",
+          "year": null,
+          "number": null,
+          "difficulty": "5pkt",
+          "topic": "arytmetyka",
+          "subtopic": "ostatnia cyfra wielokrotnosci",
+          "statement": "Ula liczy: 7, 14, 21, 28, 35, 42... (kolejne wielokrotnosci liczby 7). Jaka bedzie ostatnia cyfra szesnastej liczby w tym ciagu (czyli 16 razy 7)?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "0",
+            "B": "1",
+            "C": "2",
+            "D": "4",
+            "E": "6"
+          },
+          "correct": "C"
+        }
+      ],
+      "solutions": [
+        {
+          "problemId": "gen-l03-w1",
+          "observation": "Trzeba podzielic 36 na 4 - bez reszty.",
+          "strategy": "Dzielenie przez tabliczke mnozenia.",
+          "steps": [
+            "4 razy 9 = 36",
+            "Wiec 36 podzielone na 4 daje 9 talerzykow"
+          ],
+          "answer": "D",
+          "alternative": "Mozna odejmowac: 36 - 4 - 4 - 4... - dziewiec razy."
+        },
+        {
+          "problemId": "gen-l03-w2",
+          "observation": "20 podzielic na 3 z reszta.",
+          "strategy": "Ile pelnych grup po 3 zmiesci sie w 20?",
+          "steps": [
+            "3 razy 6 = 18 (pasuje, zostaje 2)",
+            "3 razy 7 = 21 (za duzo)",
+            "Czyli 6 pelnych dni, na siodmy nie wystarczy"
+          ],
+          "answer": "B",
+          "alternative": "Sprawdzenie: 20 : 3 = 6 reszta 2."
+        },
+        {
+          "problemId": "gen-l03-w3",
+          "observation": "25 podzielic na 6 - szukam reszty.",
+          "strategy": "Pelne grupy po 6, reszta zostaje.",
+          "steps": [
+            "6 razy 4 = 24, zostaje 25 - 24 = 1",
+            "Cztery pelne druzyny po 6 + 1 dziecko zostanie"
+          ],
+          "answer": "A",
+          "alternative": "25 : 6 = 4 reszta 1."
+        },
+        {
+          "problemId": "gen-l03-w4",
+          "observation": "Lawek musi byc dosc dla wszystkich - reszty tez.",
+          "strategy": "Zaokraglanie w gore.",
+          "steps": [
+            "38 : 4 = 9 reszta 2",
+            "9 lawek miesci 36 osob, zostaje 2 bez miejsca",
+            "Potrzebna jest 10. lawka dla pozostalych 2 osob"
+          ],
+          "answer": "C",
+          "alternative": "Liczba lawek to zawsze pelna liczba dzielenia + 1 jesli jest reszta."
+        },
+        {
+          "problemId": "gen-l03-w5",
+          "observation": "Dzielenie przez 10 - skreslam zero.",
+          "strategy": "Dzielenie przez 10.",
+          "steps": [
+            "90 : 10 = 9"
+          ],
+          "answer": "B",
+          "alternative": "10 razy 9 = 90, czyli 90:10=9."
+        },
+        {
+          "problemId": "gen-l03-c1",
+          "observation": "Dwa warunki na reszte - sprawdzam odpowiedzi po kolei.",
+          "strategy": "Sprawdzanie kazdej odpowiedzi.",
+          "steps": [
+            "17 : 7 = 2 r.3 OK, 17 : 5 = 3 r.2 OK - pasuje! Ale sprawdzmy reszte",
+            "27 : 7 = 3 r.6 - nie pasuje",
+            "37 : 7 = 5 r.2 - nie pasuje (chcemy r.3)",
+            "Wracam do 17 - pasuje obydwa warunki",
+            "Ale: 37 : 7 = 5 reszta 37-35=2 NIE pasuje (chcemy r.3)",
+            "Sprawdzam 17 jeszcze raz: 17:7=2 r.3 (bo 2*7=14, 17-14=3) TAK; 17:5=3 r.2 (bo 3*5=15, 17-15=2) TAK",
+            "Liczba to 17. Ale uwaga - 17 jest w odpowiedziach jako A. Sprawdzmy czy inne tez pasuja: 37:7=5 r.2 (NIE), 17 jest jedynym pasujacym",
+            "Poprawna odpowiedz to A) 17"
+          ],
+          "answer": "A",
+          "alternative": "Mozna szukac: liczby dajace r.3 przy dzieleniu przez 7 to 3, 10, 17, 24, 31, 38, 45. Ktora z nich daje reszte 2 przy dzieleniu przez 5? Konce na 2 lub 7: 17, 27, 37, 47. Wspolne: tylko 17."
+        },
+        {
+          "problemId": "gen-l03-c2",
+          "observation": "Ostatnia cyfra to cyfra jednosci 16 razy 7.",
+          "strategy": "Liczymy 16 razy 7 albo szukamy wzoru w cyfrach.",
+          "steps": [
+            "16 razy 7 = 16 razy 10 - 16 razy 3 = 160 - 48 = 112",
+            "Ostatnia cyfra liczby 112 to 2"
+          ],
+          "answer": "C",
+          "alternative": "Wzor cyfr koncowych wielokrotnosci 7: 7, 4, 1, 8, 5, 2, 9, 6, 3, 0, 7, 4, 1, 8, 5, 2... 16. cyfra w cyklu (cykl ma dlugosc 10): 16 mod 10 = 6, czyli szosta cyfra = 2."
+        }
+      ]
+    },
+    {
+      "versionId": "v2",
+      "label": "Wersja 2 (powtorka)",
+      "warmup": [
+        {
+          "id": "gen-l03-v2-w1",
+          "source": "generated-l03-v2-1",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "arytmetyka",
+          "subtopic": "dzielenie bez reszty",
+          "statement": "Kura znosi 48 jajek w 6 dni. Ile srednio dziennie?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "6",
+            "B": "7",
+            "C": "8",
+            "D": "9",
+            "E": "10"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "gen-l03-v2-w2",
+          "source": "generated-l03-v2-2",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "arytmetyka",
+          "subtopic": "dzielenie z reszta",
+          "statement": "Pan kupil 30 jablek i jadl 4 dziennie. Ile dni starczy mu jablek (jako pelne dni)?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "6",
+            "B": "7",
+            "C": "8",
+            "D": "9",
+            "E": "10"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "gen-l03-v2-w3",
+          "source": "generated-l03-v2-3",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "arytmetyka",
+          "subtopic": "reszta z dzielenia",
+          "statement": "19 dzieci dzieli sie na druzyny po 5. Ile dzieci nie ma druzyny (poza pelnymi grupami)?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "1",
+            "B": "2",
+            "C": "3",
+            "D": "4",
+            "E": "5"
+          },
+          "correct": "D"
+        },
+        {
+          "id": "gen-l03-v2-w4",
+          "source": "generated-l03-v2-4",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "arytmetyka",
+          "subtopic": "zaokraglanie w gore",
+          "statement": "Mamy 50 zabawek. Pakujemy po 8 do pudelek. Ile pudelek potrzeba?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "5",
+            "B": "6",
+            "C": "7",
+            "D": "8",
+            "E": "9"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "gen-l03-v2-w5",
+          "source": "generated-l03-v2-5",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "arytmetyka",
+          "subtopic": "dzielenie przez 10",
+          "statement": "100 cukierkow dzielimy rowno na 10 osob. Ile dla kazdego?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "1",
+            "B": "5",
+            "C": "10",
+            "D": "20",
+            "E": "100"
+          },
+          "correct": "C"
+        }
+      ],
+      "challenge": [
+        {
+          "id": "gen-l03-v2-c1",
+          "source": "generated-l03-v2-c1",
+          "year": null,
+          "number": null,
+          "difficulty": "4pkt",
+          "topic": "arytmetyka",
+          "subtopic": "dwa warunki na reszte",
+          "statement": "Liczba dwucyfrowa wieksza od 30 i mniejsza od 40 daje reszte 2 przy dzieleniu przez 6 oraz reszte 3 przy dzieleniu przez 5. Jaka to liczba?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "31",
+            "B": "33",
+            "C": "35",
+            "D": "37",
+            "E": "38"
+          },
+          "correct": "E"
+        },
+        {
+          "id": "gen-l03-v2-c2",
+          "source": "generated-l03-v2-c2",
+          "year": null,
+          "number": null,
+          "difficulty": "5pkt",
+          "topic": "arytmetyka",
+          "subtopic": "ostatnia cyfra iloczynu",
+          "statement": "Jaka jest ostatnia cyfra liczby 23 razy 4?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "0",
+            "B": "1",
+            "C": "2",
+            "D": "4",
+            "E": "6"
+          },
+          "correct": "C"
+        }
+      ],
+      "solutions": [
+        {
+          "problemId": "gen-l03-v2-w1",
+          "observation": "48 podzielone na 6.",
+          "strategy": "Tabliczka mnozenia odwrotnie.",
+          "steps": [
+            "6 razy 8 = 48, wiec 48 : 6 = 8"
+          ],
+          "answer": "C",
+          "alternative": "6 razy ile = 48? Osiem."
+        },
+        {
+          "problemId": "gen-l03-v2-w2",
+          "observation": "30 podzielone na 4 z reszta.",
+          "strategy": "Ile pelnych grup po 4 zmiesci sie w 30?",
+          "steps": [
+            "4 razy 7 = 28 (pasuje, zostaje 2)",
+            "4 razy 8 = 32 (za duzo)",
+            "Czyli 7 pelnych dni"
+          ],
+          "answer": "B",
+          "alternative": "30 : 4 = 7 reszta 2."
+        },
+        {
+          "problemId": "gen-l03-v2-w3",
+          "observation": "19 podzielone na 5 z reszta.",
+          "strategy": "Pelne druzyny po 5.",
+          "steps": [
+            "5 razy 3 = 15, zostaje 19 - 15 = 4",
+            "Trzy pelne druzyny + 4 dzieci bez druzyny"
+          ],
+          "answer": "D",
+          "alternative": "19 : 5 = 3 reszta 4."
+        },
+        {
+          "problemId": "gen-l03-v2-w4",
+          "observation": "Zabawki musza sie wszystkie zmiescic - reszta tez.",
+          "strategy": "Zaokraglanie w gore.",
+          "steps": [
+            "50 : 8 = 6 reszta 2",
+            "6 pudelek zmiesci 48, zostaja 2 zabawki",
+            "Potrzeba 7. pudelka"
+          ],
+          "answer": "C",
+          "alternative": "Pelna liczba pudelek = iloraz + 1 jesli jest reszta."
+        },
+        {
+          "problemId": "gen-l03-v2-w5",
+          "observation": "Dzielenie przez 10 - skreslam zero.",
+          "strategy": "Dzielenie przez 10.",
+          "steps": [
+            "100 : 10 = 10"
+          ],
+          "answer": "C",
+          "alternative": "10 razy 10 = 100."
+        },
+        {
+          "problemId": "gen-l03-v2-c1",
+          "observation": "Dwa warunki na reszte + ograniczenie 30 < n < 40.",
+          "strategy": "Sprawdzanie kazdej odpowiedzi z zakresu.",
+          "steps": [
+            "Tylko odpowiedzi z zakresu 31-38 sa kandydatami",
+            "31 : 6 = 5 r.1 NIE",
+            "33 : 6 = 5 r.3 NIE",
+            "35 : 6 = 5 r.5 NIE",
+            "37 : 6 = 6 r.1 NIE",
+            "38 : 6 = 6 r.2 OK; 38 : 5 = 7 r.3 OK - PASUJE"
+          ],
+          "answer": "E",
+          "alternative": "Liczby dajace r.2 przy /6 w zakresie 30-40: 32, 38. Z tych daje r.3 przy /5: 38 (bo 38=35+3)."
+        },
+        {
+          "problemId": "gen-l03-v2-c2",
+          "observation": "Ostatnia cyfra iloczynu = ostatnia cyfra mnozonych cyfr jednosci.",
+          "strategy": "Patrz tylko na ostatnia cyfre.",
+          "steps": [
+            "Ostatnia cyfra 23 to 3",
+            "3 razy 4 = 12, ostatnia cyfra 2",
+            "Czyli ostatnia cyfra 23 razy 4 = 2"
+          ],
+          "answer": "C",
+          "alternative": "Mozna obliczyc: 23 razy 4 = 92, ostatnia cyfra 2."
+        }
+      ]
+    },
+    {
+      "versionId": "v3",
+      "label": "Wersja 3 (oryginaly Kangurka)",
+      "warmup": [
+        {
+          "id": "kangur-maluch-2020-16",
+          "source": "kangur-maluch-2020-16",
+          "year": 2020,
+          "number": 16,
+          "difficulty": "4pkt",
+          "topic": "arytmetyka",
+          "subtopic": "rownanie z druzynami 5 lub 6 osob",
+          "statement": "Na oboz przybyly druzyny po 5 lub 6 osob. Lacznie bylo 43 uczestnikow. Ile druzyn przybylo?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "9",
+            "B": "8",
+            "C": "7",
+            "D": "6",
+            "E": "4"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "kangur-maluch-2024-5",
+          "source": "kangur-maluch-2024-5",
+          "year": 2024,
+          "number": 5,
+          "difficulty": "3pkt",
+          "topic": "arytmetyka",
+          "subtopic": "kolejne liczby czterocyfrowe - zaslonięte cyfry",
+          "statement": "Stas zapisal trzy kolejne liczby czterocyfrowe i zaslonil niektore cyfry: '...7', '...898', '48...'. Co zostalo zakryte?",
+          "hasImage": true,
+          "imageNote": "Trzy kolejne liczby 4-cyfrowe z zasloniętymi czesciami.",
+          "choices": {
+            "A": "389, 3, 99",
+            "B": "489, 3, 96",
+            "C": "489, 4, 98",
+            "D": "488, 4, 99",
+            "E": "489, 4, 99"
+          },
+          "correct": "E"
+        }
+      ],
+      "challenge": [],
+      "solutions": [
+        {
+          "problemId": "kangur-maluch-2020-16",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Oryginalne zadanie Kangur Maluch 2020 nr 16.",
+          "steps": [
+            "Oryginalne zadanie Kangur Maluch 2020 nr 16.",
+            "Poprawna odpowiedz: B"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2024-5",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Oryginalne zadanie Kangur Maluch 2024 nr 5.",
+          "steps": [
+            "Oryginalne zadanie Kangur Maluch 2024 nr 5.",
+            "Poprawna odpowiedz: E"
+          ],
+          "answer": "E",
+          "alternative": null
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Ile pelnych pudelek po 6 cukierkow ulozysz z 20 cukierkow?",
+      "choices": {
+        "A": "3",
+        "B": "4",
+        "C": "5"
+      },
+      "correct": "A",
+      "explain": "20 : 6 = 3 r.2 - trzy pelne pudelka, 2 cukierki zostaja luzem."
+    },
+    {
+      "q": "32 dzieci, autobusy po 10 miejsc. Ile autobusow potrzeba?",
+      "choices": {
+        "A": "3",
+        "B": "4",
+        "C": "5"
+      },
+      "correct": "B",
+      "explain": "32:10 = 3 r.2 - 3 autobusy nie wystarcza (2 osoby zostaja), trzeba 4."
+    },
+    {
+      "q": "Jak sprawdzic czy 47 : 6 = 7 reszta 5?",
+      "choices": {
+        "A": "Sprawdzic czy 7 + 5 = 12",
+        "B": "Sprawdzic czy 7 razy 6 + 5 = 47",
+        "C": "Sprawdzic czy 6 razy 5 = 30"
+      },
+      "correct": "B",
+      "explain": "Regula powrotu: iloraz razy dzielnik + reszta = liczba poczatkowa."
+    }
+  ]
+}

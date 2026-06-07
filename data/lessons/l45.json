@@ -1,0 +1,500 @@
+{
+  "id": "l45",
+  "number": 45,
+  "block": "Kombinatoryka i liczenie",
+  "blockCode": "H",
+  "title": "Ustawianie i kolory",
+  "topic": "kombinatoryka",
+  "estimatedMinutes": 16,
+  "theory": {
+    "intro": "Na ile sposobow mozesz pomalowac 3 pola, majac 2 kolory? Na ile sposobow ustawisz 4 osoby tak, by Adas i Bartek byli obok? Te zadania lacza podstawy kombinatoryki z dodatkowymi warunkami - daja Kangurowi mnostwo zabawy.",
+    "tool": "Sztuczka 1: KOLORY PER POLE. Jezeli kazde pole moze byc dowolnego koloru, mnoz: 2 kolory * 3 pola = 2*2*2=8.\n\nSztuczka 2: WARUNKI SASIEDZTWA. 'Adas i Bartek obok' - traktuj ich jako PARE (jedna jednostka). Permutuj pary z innymi, potem mnoz przez 2 (Adas-Bartek lub Bartek-Adas).\n\nSztuczka 3: KOLO. W kole 'Adas obok B' liczy sie inaczej niz w rzedzie (np. pierwszy i ostatni nie sa obok w rzedzie, ale sa w kole).\n\nSztuczka 4: WYKLUCZENIE. Wszystkie mozliwosci minus te z naruszeniem warunku.",
+    "trick": "Pulapka: 'rozne kolory sasiednie' - to dodatkowy warunek. Jezeli 3 pola sasiedzi i 2 kolory, to nie da sie pokolorowac wszystkich roznymi. Sprawdz wykonalnosc."
+  },
+  "versions": [
+    {
+      "versionId": "v1",
+      "label": "Wersja 1 (oryginalna)",
+      "warmup": [
+        {
+          "id": "gen-l45-v1-w1",
+          "source": "generated-l45-v1-w1",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "kombinatoryka",
+          "subtopic": "kolorowanie 2 pola 2 kolory",
+          "statement": "2 pola, 2 kolory. Ile sposobow pomalowania (kazde pole jakims kolorem)?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "2",
+            "B": "3",
+            "C": "4",
+            "D": "6",
+            "E": "8"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "gen-l45-v1-w2",
+          "source": "generated-l45-v1-w2",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "kombinatoryka",
+          "subtopic": "kolorowanie 3 pola 2 kolory",
+          "statement": "3 pola, 2 kolory. Ile sposobow pomalowania?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "3",
+            "B": "5",
+            "C": "6",
+            "D": "8",
+            "E": "9"
+          },
+          "correct": "D"
+        },
+        {
+          "id": "gen-l45-v1-w3",
+          "source": "generated-l45-v1-w3",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "kombinatoryka",
+          "subtopic": "sasiednie razem",
+          "statement": "Anka i Bartek chca stac obok siebie w rzedzie 3 osob. Ile mozliwosci?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "2",
+            "B": "3",
+            "C": "4",
+            "D": "6",
+            "E": "12"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "kangur-maluch-2012-15",
+          "source": "kangur-maluch-2012-15",
+          "year": 2012,
+          "number": 15,
+          "difficulty": "4pkt",
+          "topic": "kombinatoryka",
+          "subtopic": "permutacje z warunkami sasiedztwa",
+          "statement": "Laura, Igor, Wiktor i Kasia chca zrobic wspolne zdjecie. Kasia i Laura sa przyjaciolkami i chca stac obok siebie. Igor chce stac obok Laury, bo bardzo ja lubi. Na ile sposobow moga ustawic sie w jednym rzedzie?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "3",
+            "B": "4",
+            "C": "5",
+            "D": "6",
+            "E": "7"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "kangur-maluch-2014-18",
+          "source": "kangur-maluch-2014-18",
+          "year": 2014,
+          "number": 18,
+          "difficulty": "5pkt",
+          "topic": "kombinatoryka",
+          "subtopic": "ustawienie dzieci w kole z warunkami",
+          "statement": "Siedmioro dzieci stoi w kole tak, ze zadna dziewczynka nie stoi miedzy dwiema dziewczynkami, a zaden chlopiec nie stoi obok innego chlopca. Ile dziewczat jest w tym kole?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "2",
+            "B": "3",
+            "C": "4",
+            "D": "5",
+            "E": "6"
+          },
+          "correct": "C"
+        }
+      ],
+      "challenge": [
+        {
+          "id": "kangur-maluch-2015-14",
+          "source": "kangur-maluch-2015-14",
+          "year": 2015,
+          "number": 14,
+          "difficulty": "4pkt",
+          "topic": "kombinatoryka",
+          "subtopic": "ustawienia z warunkiem sasiedztwa",
+          "statement": "Bartek ma 4 zabawki: auto, samolot, pilke, statek. Ustawia je w rzedzie tak, aby zarowno statek jak i samolot staly obok auta. Na ile sposobow moze to zrobic?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "2",
+            "B": "4",
+            "C": "5",
+            "D": "6",
+            "E": "8"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "kangur-maluch-2024-21",
+          "source": "kangur-maluch-2024-21",
+          "year": 2024,
+          "number": 21,
+          "difficulty": "5pkt",
+          "topic": "kombinatoryka",
+          "subtopic": "przeskoki zab z zachowaniem warunku",
+          "statement": "W siatce 3x3 w kazdym rzedzie i kolumnie sa dokladnie 2 zaby. Dwie zaby jednoczesnie przeskocza na sasiednie puste pola tak, by warunek nadal byl spelniony. Na ile sposobow zaby moga to zrobic?",
+          "hasImage": true,
+          "imageNote": "Siatka 3x3 z 6 zabami, 3 pola puste.",
+          "choices": {
+            "A": "5",
+            "B": "4",
+            "C": "3",
+            "D": "2",
+            "E": "1"
+          },
+          "correct": "C"
+        }
+      ],
+      "solutions": [
+        {
+          "problemId": "gen-l45-v1-w1",
+          "observation": "2 kolory na 2 pola: 2*2=4.",
+          "strategy": "Mnozenie.",
+          "steps": [
+            "2*2=4"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l45-v1-w2",
+          "observation": "2*2*2=8.",
+          "strategy": "Mnozenie 3 etapow.",
+          "steps": [
+            "2*2*2=8"
+          ],
+          "answer": "D",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l45-v1-w3",
+          "observation": "Anka-Bartek jako para. Pary z 3 elementami: 2 ulozenia, kazdy *2 (AB lub BA): 2*2=4.",
+          "strategy": "Sasiedztwo.",
+          "steps": [
+            "3 osoby, Anka i Bartek razem (jako para)",
+            "Para + 1 osoba = 2 jednostki, 2! ulozenia = 2",
+            "Para moze byc AB lub BA: 2*2=4"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2012-15",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Laura, Igor, Wiktor, Kasia. Kasia i Laura obok, Igor obok Laury. Bloky: I-L-K lub K-L-I. Wiktor przed lub po. 2*2=4.",
+          "steps": [
+            "Laura, Igor, Wiktor, Kasia. Kasia i Laura obok, Igor obok Laury. Bloky: I-L-K lub K-L-I. Wiktor przed lub po. 2*2=4.",
+            "Poprawna odpowiedz: B"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2014-18",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "7 dzieci w kole. Zadna dziewczynka miedzy dwiema, zaden chlopiec obok innego. 4 dziewczynki.",
+          "steps": [
+            "7 dzieci w kole. Zadna dziewczynka miedzy dwiema, zaden chlopiec obok innego. 4 dziewczynki.",
+            "Poprawna odpowiedz: C"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2015-14",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Bartek 4 zabawki. Statek i samolot obok auta. 4 sposoby.",
+          "steps": [
+            "Bartek 4 zabawki. Statek i samolot obok auta. 4 sposoby.",
+            "Poprawna odpowiedz: B"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2024-21",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "3x3 siatka, w kazdym rzedzie/kolumnie 2 zaby. Dwie zaby przeskocza zachowujac warunek. 3 sposoby.",
+          "steps": [
+            "3x3 siatka, w kazdym rzedzie/kolumnie 2 zaby. Dwie zaby przeskocza zachowujac warunek. 3 sposoby.",
+            "Poprawna odpowiedz: C"
+          ],
+          "answer": "C",
+          "alternative": null
+        }
+      ]
+    },
+    {
+      "versionId": "v2",
+      "label": "Wersja 2 (powtorka)",
+      "warmup": [
+        {
+          "id": "gen-l45-v2-w1",
+          "source": "generated-l45-v2-w1",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "kombinatoryka",
+          "subtopic": "kolorowanie 4 pola 2 kolory",
+          "statement": "4 pola, 2 kolory. Ile sposobow?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "6",
+            "B": "8",
+            "C": "12",
+            "D": "16",
+            "E": "24"
+          },
+          "correct": "D"
+        },
+        {
+          "id": "gen-l45-v2-w2",
+          "source": "generated-l45-v2-w2",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "kombinatoryka",
+          "subtopic": "kolorowanie 3 pola 3 kolory",
+          "statement": "3 pola, 3 kolory, kazde pole inny kolor. Ile sposobow?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "3",
+            "B": "6",
+            "C": "9",
+            "D": "12",
+            "E": "27"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "gen-l45-v2-w3",
+          "source": "generated-l45-v2-w3",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "kombinatoryka",
+          "subtopic": "obok w kole",
+          "statement": "5 osob w kole. Anka i Bartek obok siebie. Ile mozliwosci ustawienia w kole (uznajemy obroty za to samo)?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "6",
+            "B": "8",
+            "C": "12",
+            "D": "24",
+            "E": "48"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "gen-l45-v2-w4",
+          "source": "generated-l45-v2-w4",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "kombinatoryka",
+          "subtopic": "wybor pary",
+          "statement": "5 dzieci, wybor 2 do tanca (kolejnosc bez znaczenia). Ile par?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "5",
+            "B": "6",
+            "C": "8",
+            "D": "10",
+            "E": "20"
+          },
+          "correct": "D"
+        },
+        {
+          "id": "gen-l45-v2-w5",
+          "source": "generated-l45-v2-w5",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "kombinatoryka",
+          "subtopic": "prosty wybor 1 koloru",
+          "statement": "5 kolorow, wybor 1. Ile mozliwosci?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "1",
+            "B": "3",
+            "C": "5",
+            "D": "10",
+            "E": "25"
+          },
+          "correct": "C"
+        }
+      ],
+      "challenge": [
+        {
+          "id": "gen-l45-v2-c1",
+          "source": "generated-l45-v2-c1",
+          "year": null,
+          "number": null,
+          "difficulty": "4pkt",
+          "topic": "kombinatoryka",
+          "subtopic": "obok kolejnosc",
+          "statement": "3 chlopcow i 3 dziewczynki staja na przemian (CDCDCD lub DCDCDC). Ile ulozen?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "6",
+            "B": "36",
+            "C": "72",
+            "D": "144",
+            "E": "720"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "kangur-maluch-2025-15",
+          "source": "kangur-maluch-2025-15",
+          "year": 2025,
+          "number": 15,
+          "difficulty": "4pkt",
+          "topic": "kombinatoryka",
+          "subtopic": "liczenie kropek na biedronkach",
+          "statement": "6 biedronek ma rozne liczby kropek (1-6). Tadzio zrobil 4 zdjecia, na kazdym 3 biedronki, kazda biedronka pojawila sie tyle samo razy (2). 3 zdjecia pokazane sa konturem, brakuje 4. Ile lacznie kropek maja 3 biedronki na czwartym zdjeciu?",
+          "hasImage": true,
+          "imageNote": "6 biedronek z 1-6 kropkami + 3 wyswietlone zdjecia + kontur 4.",
+          "choices": {
+            "A": "13",
+            "B": "23",
+            "C": "43",
+            "D": "53",
+            "E": "63"
+          },
+          "correct": "C"
+        }
+      ],
+      "solutions": [
+        {
+          "problemId": "gen-l45-v2-w1",
+          "observation": "2^4=16.",
+          "strategy": "Mnozenie.",
+          "steps": [
+            "2*2*2*2=16"
+          ],
+          "answer": "D",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l45-v2-w2",
+          "observation": "3*2*1=6.",
+          "strategy": "Permutacje.",
+          "steps": [
+            "3 kolory na 3 pola, kazdy inny: 3!=6"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l45-v2-w3",
+          "observation": "Para AB jako 1 element w kole 4 elementow: (4-1)!=6. AB lub BA: 6*2=12.",
+          "strategy": "Sasiedztwo w kole.",
+          "steps": [
+            "Para AB + 3 osoby = 4 jednostki w kole",
+            "Kolo z 4: (4-1)!=6",
+            "AB lub BA: 6*2=12"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l45-v2-w4",
+          "observation": "C(5,2)=10.",
+          "strategy": "Wybor 2 z 5.",
+          "steps": [
+            "(5*4)/2=10"
+          ],
+          "answer": "D",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l45-v2-w5",
+          "observation": "5.",
+          "strategy": "Wybor 1.",
+          "steps": [
+            "5"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l45-v2-c1",
+          "observation": "CDCDCD: 3!*3!=36. DCDCDC: 3!*3!=36. Razem: 72.",
+          "strategy": "Naprzemienne.",
+          "steps": [
+            "3 chlopcow na pozycjach C: 3!=6",
+            "3 dziewczynek na pozycjach D: 3!=6",
+            "CDCDCD lub DCDCDC: 2 wzory",
+            "2*6*6 = 72"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2025-15",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "6 biedronek po 1-6 kropek, 4 zdjecia po 3 biedronki, kazda na 2 zdjeciach. 4. zdjecie laczna ilosc kropek: 43.",
+          "steps": [
+            "6 biedronek po 1-6 kropek, 4 zdjecia po 3 biedronki, kazda na 2 zdjeciach. 4. zdjecie laczna ilosc kropek: 43.",
+            "Poprawna odpowiedz: C"
+          ],
+          "answer": "C",
+          "alternative": null
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "3 pola, 2 kolory:",
+      "choices": {
+        "A": "6",
+        "B": "8",
+        "C": "9"
+      },
+      "correct": "B",
+      "explain": "2*2*2=8 kombinacji."
+    },
+    {
+      "q": "Anka i Bartek obok w rzedzie 3 osob:",
+      "choices": {
+        "A": "2",
+        "B": "4",
+        "C": "6"
+      },
+      "correct": "B",
+      "explain": "Para + 1 osoba = 2! * 2 (AB/BA) = 4."
+    },
+    {
+      "q": "Permutacja 4 osob:",
+      "choices": {
+        "A": "16",
+        "B": "24",
+        "C": "64"
+      },
+      "correct": "B",
+      "explain": "4!=4*3*2*1=24."
+    }
+  ]
+}

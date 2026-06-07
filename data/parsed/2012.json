@@ -1,0 +1,486 @@
+{
+  "year": 2012,
+  "category": "MALUCH",
+  "problems": [
+    {
+      "id": "kangur-maluch-2012-1",
+      "source": "kangur-maluch-2012-1",
+      "year": 2012,
+      "number": 1,
+      "difficulty": "3pkt",
+      "topic": "logika",
+      "subtopic": "zliczanie unikalnych liter",
+      "statement": "Bartek napisal na kartce slowo MATEMATYKA. Rozne litery napisal roznymi kolorami, zas te same litery tym samym kolorem. Ilu roznych kolorow uzyl?",
+      "hasImage": false,
+      "imageNote": null,
+      "choices": {
+        "A": "6",
+        "B": "7",
+        "C": "8",
+        "D": "9",
+        "E": "5"
+      },
+      "correct": "A"
+    },
+    {
+      "id": "kangur-maluch-2012-2",
+      "source": "kangur-maluch-2012-2",
+      "year": 2012,
+      "number": 2,
+      "difficulty": "3pkt",
+      "topic": "geometria_plaska",
+      "subtopic": "rozpoznanie rownych pol",
+      "statement": "Marysia namalowala olowkiem piec obrazkow na bialych kwadratowych kartkach papieru. Tylko na jednym rysunku czesc zamalowana i czesc niezamalowana nie sa rowne. Na ktorym?",
+      "hasImage": true,
+      "imageNote": "Piec kwadratowych obrazkow z roznymi wzorami zamalowania.",
+      "choices": {
+        "A": "obrazek A",
+        "B": "obrazek B",
+        "C": "obrazek C",
+        "D": "obrazek D",
+        "E": "obrazek E"
+      },
+      "correct": "E"
+    },
+    {
+      "id": "kangur-maluch-2012-3",
+      "source": "kangur-maluch-2012-3",
+      "year": 2012,
+      "number": 3,
+      "difficulty": "3pkt",
+      "topic": "wzory_i_ciagi",
+      "subtopic": "liczba klamerek na lince z wspolnymi",
+      "statement": "Tata wiesza mokre reczniki na lince przypinajac je klamerkami tak, ze sasiednie reczniki dziela jedna klamerke. Ile klamerek uzyje tata do powieszenia dwunastu recznikow?",
+      "hasImage": true,
+      "imageNote": "Trzy reczniki na lince - 4 klamerki na 3 reczniki (kazdy ma 2 klamerki, dwie wspolne).",
+      "choices": {
+        "A": "11",
+        "B": "13",
+        "C": "12",
+        "D": "14",
+        "E": "15"
+      },
+      "correct": "B"
+    },
+    {
+      "id": "kangur-maluch-2012-4",
+      "source": "kangur-maluch-2012-4",
+      "year": 2012,
+      "number": 4,
+      "difficulty": "3pkt",
+      "topic": "logika",
+      "subtopic": "zamalowanie pol w tabeli",
+      "statement": "W tabeli 4x4 Iza zaciemnila pola: a2, b1, b2, b3, b4, c3, d3 i d4. Ktory z ponizszych obrazkow otrzymala Iza?",
+      "hasImage": true,
+      "imageNote": "Tabela 4x4 z zaczernionymi polami.",
+      "choices": {
+        "A": "wzor A",
+        "B": "wzor B",
+        "C": "wzor C",
+        "D": "wzor D",
+        "E": "wzor E"
+      },
+      "correct": "D"
+    },
+    {
+      "id": "kangur-maluch-2012-5",
+      "source": "kangur-maluch-2012-5",
+      "year": 2012,
+      "number": 5,
+      "difficulty": "3pkt",
+      "topic": "logika",
+      "subtopic": "proste odejmowanie z opowiesci",
+      "statement": "Pietnascioro dzieci bawi sie w chowanego. Jedno z nich, Klaudia, szuka pozostalych dzieci. Po pewnym czasie Klaudia znalazla dziesiecioro swoich kolegow. Ile dzieci nie zostalo jeszcze znalezionych?",
+      "hasImage": false,
+      "imageNote": null,
+      "choices": {
+        "A": "3",
+        "B": "4",
+        "C": "5",
+        "D": "9",
+        "E": "25"
+      },
+      "correct": "B"
+    },
+    {
+      "id": "kangur-maluch-2012-6",
+      "source": "kangur-maluch-2012-6",
+      "year": 2012,
+      "number": 6,
+      "difficulty": "3pkt",
+      "topic": "arytmetyka",
+      "subtopic": "suma punktow w rzutkach",
+      "statement": "Michal i Kuba graja w rzutki. Kazdy wykonal 3 rzuty. Wygrywa ten o wiekszej sumie. Ktory wygral i o ile punktow?",
+      "hasImage": true,
+      "imageNote": "Dwie tarcze rzutek z trzema trafieniami u kazdego gracza.",
+      "choices": {
+        "A": "Wygral Michal o 3",
+        "B": "Wygral Kuba o 4",
+        "C": "Wygral Michal o 2",
+        "D": "Wygral Kuba o 2",
+        "E": "Wygral Michal o 4"
+      },
+      "correct": "C"
+    },
+    {
+      "id": "kangur-maluch-2012-7",
+      "source": "kangur-maluch-2012-7",
+      "year": 2012,
+      "number": 7,
+      "difficulty": "3pkt",
+      "topic": "geometria_plaska",
+      "subtopic": "liczenie wzoru szachownicy",
+      "statement": "Na scianie wykonano regularny wzor z naprzemiennie ulozonych plytek czarnych i bialych. Niektore odpadly odslaniajac szary tynk. Ile czarnych plytek odpadlo?",
+      "hasImage": true,
+      "imageNote": "Sciana z szachownica i kilkoma odpadnietymi plytkami.",
+      "choices": {
+        "A": "9",
+        "B": "8",
+        "C": "7",
+        "D": "6",
+        "E": "5"
+      },
+      "correct": "A"
+    },
+    {
+      "id": "kangur-maluch-2012-8",
+      "source": "kangur-maluch-2012-8",
+      "year": 2012,
+      "number": 8,
+      "difficulty": "3pkt",
+      "topic": "czas_kalendarz",
+      "subtopic": "liczenie wstecz z kalendarzem (rok przestepny)",
+      "statement": "Rok 2012 jest rokiem przestepnym (luty ma 29 dni). Dzisiaj, 15 marca 2012, kurczeta dziadka maja dwadziescia dni. Kiedy wykluly sie z jajek?",
+      "hasImage": false,
+      "imageNote": null,
+      "choices": {
+        "A": "19 lutego",
+        "B": "21 lutego",
+        "C": "23 lutego",
+        "D": "24 lutego",
+        "E": "26 lutego"
+      },
+      "correct": "D"
+    },
+    {
+      "id": "kangur-maluch-2012-9",
+      "source": "kangur-maluch-2012-9",
+      "year": 2012,
+      "number": 9,
+      "difficulty": "4pkt",
+      "topic": "geometria_plaska",
+      "subtopic": "ukladanie figur z kartonikow L",
+      "statement": "Ile z przedstawionych obok figur mozna ulozyc majac do dyspozycji identyczne kartoniki w ksztalcie litery L (z 4 kwadracikow)?",
+      "hasImage": true,
+      "imageNote": "Cztery rozne figury do ulozenia z kartonikow L (po 4 kwadraciki).",
+      "choices": {
+        "A": "0",
+        "B": "1",
+        "C": "2",
+        "D": "3",
+        "E": "4"
+      },
+      "correct": "D"
+    },
+    {
+      "id": "kangur-maluch-2012-10",
+      "source": "kangur-maluch-2012-10",
+      "year": 2012,
+      "number": 10,
+      "difficulty": "4pkt",
+      "topic": "pieniadze",
+      "subtopic": "cena z roznicy ilosci",
+      "statement": "Piec balonow kosztuje o 1 zlote i 20 groszy wiecej niz dwa balony. Ile kosztuje jeden balon?",
+      "hasImage": false,
+      "imageNote": null,
+      "choices": {
+        "A": "24 gr",
+        "B": "30 gr",
+        "C": "40 gr",
+        "D": "60 gr",
+        "E": "1 zl"
+      },
+      "correct": "C"
+    },
+    {
+      "id": "kangur-maluch-2012-11",
+      "source": "kangur-maluch-2012-11",
+      "year": 2012,
+      "number": 11,
+      "difficulty": "4pkt",
+      "topic": "logika",
+      "subtopic": "zbiory - inkluzja-ekskluzja",
+      "statement": "Babcia upiekla 20 ciastek dla wnukow. Udekorowala 15 ciastek rodzynkami i 15 ciastek orzechami tak, zeby liczba ciastek udekorowanych zarowno rodzynkami jak i orzechami byla najmniejsza z mozliwych. Ta liczba ciastek to:",
+      "hasImage": false,
+      "imageNote": null,
+      "choices": {
+        "A": "4",
+        "B": "5",
+        "C": "6",
+        "D": "8",
+        "E": "10"
+      },
+      "correct": "E"
+    },
+    {
+      "id": "kangur-maluch-2012-12",
+      "source": "kangur-maluch-2012-12",
+      "year": 2012,
+      "number": 12,
+      "difficulty": "4pkt",
+      "topic": "logika",
+      "subtopic": "sudoku 4x4 z wyliczonych wartosci",
+      "statement": "Patryk wykonuje dzialania w tabeli 1, wyniki wpisuje w te same pola tabeli 2 i uzupelnia ja tak, by liczby 1,2,3,4 pojawily sie po razie w kazdej kolumnie i kazdym wierszu. Jaka liczbe powinien wpisac w szare pole?",
+      "hasImage": true,
+      "imageNote": "Tabela 4x4 z dzialaniami: 1*1=1, 1*3=3, 6-3=3, 6-5=1, 4-1=3, 1+3=4, 9-7=2.",
+      "choices": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4",
+        "E": "1 lub 2"
+      },
+      "correct": "C"
+    },
+    {
+      "id": "kangur-maluch-2012-13",
+      "source": "kangur-maluch-2012-13",
+      "year": 2012,
+      "number": 13,
+      "difficulty": "4pkt",
+      "topic": "arytmetyka",
+      "subtopic": "rownanie z liczby nog",
+      "statement": "W szkole zwierzat ucza sie 3 pieski, 4 kaczuszki, 2 gaski i kilka owieczek. Pani Sowa policzyla, ze wszyscy uczniowie maja lacznie 44 nogi. Ile owieczek uczy sie w tej szkole?",
+      "hasImage": false,
+      "imageNote": null,
+      "choices": {
+        "A": "6",
+        "B": "5",
+        "C": "4",
+        "D": "3",
+        "E": "2"
+      },
+      "correct": "B"
+    },
+    {
+      "id": "kangur-maluch-2012-14",
+      "source": "kangur-maluch-2012-14",
+      "year": 2012,
+      "number": 14,
+      "difficulty": "4pkt",
+      "topic": "lamiglowki",
+      "subtopic": "domino - znajdz brakujace oczka",
+      "statement": "Franek ulozyl weza z 7 kamieni domino tak, ze sasiadujace pola maja po tyle samo oczek. Waz mial lacznie 33 oczka. Mlodszy brat zabral 2 kamienie. Ile oczek bylo na polu oznaczonym znakiem zapytania?",
+      "hasImage": true,
+      "imageNote": "Waz z domina - czesc widoczna, dwa kamienie usuniete, pole '?' oznaczone.",
+      "choices": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "5",
+        "E": "6"
+      },
+      "correct": "C"
+    },
+    {
+      "id": "kangur-maluch-2012-15",
+      "source": "kangur-maluch-2012-15",
+      "year": 2012,
+      "number": 15,
+      "difficulty": "4pkt",
+      "topic": "kombinatoryka",
+      "subtopic": "permutacje z warunkami sasiedztwa",
+      "statement": "Laura, Igor, Wiktor i Kasia chca zrobic wspolne zdjecie. Kasia i Laura sa przyjaciolkami i chca stac obok siebie. Igor chce stac obok Laury, bo bardzo ja lubi. Na ile sposobow moga ustawic sie w jednym rzedzie?",
+      "hasImage": false,
+      "imageNote": null,
+      "choices": {
+        "A": "3",
+        "B": "4",
+        "C": "5",
+        "D": "6",
+        "E": "7"
+      },
+      "correct": "B"
+    },
+    {
+      "id": "kangur-maluch-2012-16",
+      "source": "kangur-maluch-2012-16",
+      "year": 2012,
+      "number": 16,
+      "difficulty": "4pkt",
+      "topic": "arytmetyka",
+      "subtopic": "rownanie z proporcjami plci",
+      "statement": "Krzys uczestniczyl w konkursie recytatorskim. Wsrod jego RYWALI bylo dwa razy wiecej dziewczat niz chlopcow. Ktora z liczb moze oznaczac liczbe WSZYSTKICH uczniow biorących udzial w konkursie?",
+      "hasImage": false,
+      "imageNote": null,
+      "choices": {
+        "A": "30",
+        "B": "20",
+        "C": "24",
+        "D": "25",
+        "E": "29"
+      },
+      "correct": "D"
+    },
+    {
+      "id": "kangur-maluch-2012-17",
+      "source": "kangur-maluch-2012-17",
+      "year": 2012,
+      "number": 17,
+      "difficulty": "5pkt",
+      "topic": "arytmetyka",
+      "subtopic": "maksymalizacja sumy dwoch liczb",
+      "statement": "Gres zbudowal dwie liczby trzycyfrowe uzywajac cyfr 1, 2, 3, 4, 5 i 6 - kazdej dokladnie raz. Nastepnie dodal obie liczby. Jaka jest najwieksza mozliwa suma?",
+      "hasImage": false,
+      "imageNote": null,
+      "choices": {
+        "A": "975",
+        "B": "999",
+        "C": "1083",
+        "D": "1173",
+        "E": "1221"
+      },
+      "correct": "D"
+    },
+    {
+      "id": "kangur-maluch-2012-18",
+      "source": "kangur-maluch-2012-18",
+      "year": 2012,
+      "number": 18,
+      "difficulty": "5pkt",
+      "topic": "logika",
+      "subtopic": "minimalizacja krokow - skoki +3/-4",
+      "statement": "Pchla pokonuje schody. Umie wykonywac tylko dwa rodzaje skokow: +3 stopnie w gore lub -4 stopnie w dol. Jaka jest najmniejsza liczba skokow, aby z poziomu podlogi znalezc sie na 22. stopniu?",
+      "hasImage": true,
+      "imageNote": "Schody z pchlą u podlogi, strzalki +3 w gore i -4 w dol.",
+      "choices": {
+        "A": "7",
+        "B": "9",
+        "C": "10",
+        "D": "12",
+        "E": "15"
+      },
+      "correct": "D"
+    },
+    {
+      "id": "kangur-maluch-2012-19",
+      "source": "kangur-maluch-2012-19",
+      "year": 2012,
+      "number": 19,
+      "difficulty": "5pkt",
+      "topic": "geometria_plaska",
+      "subtopic": "algorytm Euklidesa - kwadraty z prostokata",
+      "statement": "Prostokatna kartka 192 mm na 84 mm. Tnac wzdluz linii prostej odcinamy kwadrat, potem powtarzamy z pozostala czescia i tak dalej. Jaka jest dlugosc boku najmniejszego kwadratu jaki mozemy w ten sposob otrzymac?",
+      "hasImage": false,
+      "imageNote": null,
+      "choices": {
+        "A": "1 mm",
+        "B": "4 mm",
+        "C": "6 mm",
+        "D": "10 mm",
+        "E": "12 mm"
+      },
+      "correct": "E"
+    },
+    {
+      "id": "kangur-maluch-2012-20",
+      "source": "kangur-maluch-2012-20",
+      "year": 2012,
+      "number": 20,
+      "difficulty": "5pkt",
+      "topic": "arytmetyka",
+      "subtopic": "rownania z proporcjami",
+      "statement": "Wsrod 496 owocow (gruszek, jablek, mandarynek i sliwek) bylo 3 razy mniej gruszek niz jablek, 5 razy mniej jablek niz mandarynek oraz 7 razy mniej mandarynek niz sliwek. Ile bylo sliwek?",
+      "hasImage": false,
+      "imageNote": null,
+      "choices": {
+        "A": "350",
+        "B": "315",
+        "C": "455",
+        "D": "385",
+        "E": "420"
+      },
+      "correct": "E"
+    },
+    {
+      "id": "kangur-maluch-2012-21",
+      "source": "kangur-maluch-2012-21",
+      "year": 2012,
+      "number": 21,
+      "difficulty": "5pkt",
+      "topic": "czas_kalendarz",
+      "subtopic": "zegar - identyfikacja wskazowek",
+      "statement": "Zegar ma trzy wskazowki roznej dlugosci (godzinowa, minutowa, sekundowa) i wskazuje prawidlowy czas. O godzinie 12:55:30 wskazowki sa w pewnym ustawieniu. Jak bedzie wygladal ten zegar o godzinie 8:11:00?",
+      "hasImage": true,
+      "imageNote": "Tarcza zegara o 12:55:30 i 5 wariantow ustawien dla 8:11:00.",
+      "choices": {
+        "A": "zegar A",
+        "B": "zegar B",
+        "C": "zegar C",
+        "D": "zegar D",
+        "E": "zegar E"
+      },
+      "correct": "C"
+    },
+    {
+      "id": "kangur-maluch-2012-22",
+      "source": "kangur-maluch-2012-22",
+      "year": 2012,
+      "number": 22,
+      "difficulty": "5pkt",
+      "topic": "logika",
+      "subtopic": "zagadka logiczna z warunkami",
+      "statement": "W rodzinie panstwa Kowalskich jest pieciolat dzieci: Adas, Bartek, Cesia, Darek i Ela. Babcia dala im 5 prezentow: lalke, pilke, ksiazke, ukladanke, misia. Najstarsze dziecko dostalo ksiazke, najmlodsze misia. Cesia jest starsza od Bartka i mlodsza od Eli, i nie dostala ukladanki. Adas ma czworo starszego rodzenstwa. Bartek dostal pilke. Darek nie jest najstarszy. Co dostal Darek?",
+      "hasImage": false,
+      "imageNote": null,
+      "choices": {
+        "A": "Lalke",
+        "B": "Pilke",
+        "C": "Ksiazke",
+        "D": "Ukladanke",
+        "E": "Misia"
+      },
+      "correct": "D"
+    },
+    {
+      "id": "kangur-maluch-2012-23",
+      "source": "kangur-maluch-2012-23",
+      "year": 2012,
+      "number": 23,
+      "difficulty": "5pkt",
+      "topic": "logika",
+      "subtopic": "maksymalizacja porazek - punktacja meczowa",
+      "statement": "W meczu pilki noznej zwyciezca zdobywa 3 punkty, przegrany 0. Remis to po 1 punkcie. Druzyna rozegrala 38 meczow i zdobyla lacznie 80 punktow. Ile co najwyzej razy ta druzyna mogla przegrac?",
+      "hasImage": false,
+      "imageNote": null,
+      "choices": {
+        "A": "12",
+        "B": "11",
+        "C": "10",
+        "D": "9",
+        "E": "8"
+      },
+      "correct": "C"
+    },
+    {
+      "id": "kangur-maluch-2012-24",
+      "source": "kangur-maluch-2012-24",
+      "year": 2012,
+      "number": 24,
+      "difficulty": "5pkt",
+      "topic": "arytmetyka",
+      "subtopic": "rownanie odwracajace - z wyniku do liczby lat",
+      "statement": "Michal pomnozyl liczbe swoich lat przez siebie, dodal 1, otrzymana liczbe pomnozyl przez 10, dodal 3, wynik pomnozyl przez 4 i otrzymal 2012. Ile lat ma Michal?",
+      "hasImage": false,
+      "imageNote": null,
+      "choices": {
+        "A": "11",
+        "B": "9",
+        "C": "8",
+        "D": "7",
+        "E": "5"
+      },
+      "correct": "D"
+    }
+  ]
+}

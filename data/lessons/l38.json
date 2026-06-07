@@ -1,0 +1,669 @@
+{
+  "id": "l38",
+  "number": 38,
+  "block": "Logika i myslenie",
+  "blockCode": "G",
+  "title": "Tabelki logiczne i przyporzadkowania",
+  "topic": "logika",
+  "estimatedMinutes": 16,
+  "theory": {
+    "intro": "Zadanie: 'Trzy dzieci, trzy zabawki - kto co dostal?' Najlepsze narzedzie to tabelka. Wiersze - dzieci, kolumny - zabawki, w komorce TAK lub NIE. Wykluczanie krok po kroku, az zostanie tylko jedna mozliwosc dla kazdego.",
+    "tool": "Sztuczka 1: NARYSUJ TABELKE. Wiersze - osoby/obiekty. Kolumny - cechy/przedmioty. To pomaga sledzic, co juz ustalone.\n\nSztuczka 2: WYKLUCZAJ. Jezeli wiesz, ze Ola NIE ma misia - wpisz NIE w odpowiednia komorke. Po kazdym wykluczeniu sprawdz, czy nie zostala tylko jedna opcja w wierszu lub kolumnie.\n\nSztuczka 3: UNIKALNOSC. Jezeli wiesz, ze tylko jeden moze miec daną cechę, a wszyscy inni juz ja maja wykluczona - to pewne kto.\n\nSztuczka 4: SPRAWDZAJ WSZYSTKIE WARUNKI. Po wypelnieniu tabelki przejdz przez kazdy warunek i sprawdz spojnosc.",
+    "trick": "Pulapka: warunki czesto nie sa wszystkie 'TAK' lub 'NIE'. Niektore to 'jezeli A to B' - czyli warunkowe. Tłumacz na: 'jezeli A nie B - sprzecznosc'."
+  },
+  "versions": [
+    {
+      "versionId": "v1",
+      "label": "Wersja 1 (oryginalna)",
+      "warmup": [
+        {
+          "id": "gen-l38-v1-w1",
+          "source": "generated-l38-v1-w1",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "logika",
+          "subtopic": "prosta tabelka",
+          "statement": "Trzy dzieci, kazde ma inne zwierze. Ola nie ma psa. Bartek ma kota. Kto ma psa: Ola, Bartek czy Czarek?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "Ola",
+            "B": "Bartek",
+            "C": "Czarek",
+            "D": "Nie wiadomo",
+            "E": "Wszyscy"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "gen-l38-v1-w2",
+          "source": "generated-l38-v1-w2",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "logika",
+          "subtopic": "dwie pewne",
+          "statement": "Trzy dzieci: A, B, C. Lubia jablko, gruszke, banan (kazde lubi inny). A nie lubi banana. B lubi gruszke. Co lubi C?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "Jablko",
+            "B": "Gruszke",
+            "C": "Banan",
+            "D": "Nic",
+            "E": "Wszystko"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "gen-l38-v1-w3",
+          "source": "generated-l38-v1-w3",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "logika",
+          "subtopic": "wykluczenie",
+          "statement": "Trzy domy: czerwony, zielony, niebieski. Trzy osoby: X, Y, Z. X NIE w czerwonym. Y w zielonym. Gdzie mieszka Z?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "Czerwony",
+            "B": "Zielony",
+            "C": "Niebieski",
+            "D": "Nie wiadomo",
+            "E": "W obu"
+          },
+          "correct": "A"
+        },
+        {
+          "id": "kangur-maluch-2024-23",
+          "source": "kangur-maluch-2024-23",
+          "year": 2024,
+          "number": 23,
+          "difficulty": "5pkt",
+          "topic": "logika",
+          "subtopic": "podzial ciastek wedlug cech",
+          "statement": "Troje dzieci bralo ciastka. Jedno wzielo wszystkie serca, jedno wszystkie jasne, jedno wszystkie duze. Liczby wzietych ciastek to 3, 6 i 7. Ktory zestaw ciastek wzielo jedno z dzieci?",
+          "hasImage": true,
+          "imageNote": "Rzad ciastek roznego ksztaltu, koloru i wielkosci, 5 wariantow zestawow.",
+          "choices": {
+            "A": "zestaw A",
+            "B": "zestaw B",
+            "C": "zestaw C",
+            "D": "zestaw D",
+            "E": "zestaw E"
+          },
+          "correct": "D"
+        },
+        {
+          "id": "kangur-maluch-2022-12",
+          "source": "kangur-maluch-2022-12",
+          "year": 2022,
+          "number": 12,
+          "difficulty": "4pkt",
+          "topic": "logika",
+          "subtopic": "dopasowanie obrazka do warunkow",
+          "statement": "Dzieci kolorowaly obrazki. Franek: brak krolika. Jozek: jest pilka. Tadzik: rozne zwierzeta. Ala: jedno zwierze. Kajtek: brak zwierzat. Ktory obrazek kolorowal Franek?",
+          "hasImage": true,
+          "imageNote": "Piec obrazkow: A) dwa jeze, B) sama pilka, C) slimak + zolw, D) pilka + ptaki, E) krolik.",
+          "choices": {
+            "A": "A - dwa jeze",
+            "B": "B - pilka",
+            "C": "C - slimak i zolw",
+            "D": "D - pilka i ptaki",
+            "E": "E - krolik"
+          },
+          "correct": "A"
+        }
+      ],
+      "challenge": [
+        {
+          "id": "kangur-maluch-2021-11",
+          "source": "kangur-maluch-2021-11",
+          "year": 2021,
+          "number": 11,
+          "difficulty": "4pkt",
+          "topic": "logika",
+          "subtopic": "ulozenie nalepek wedlug warunkow",
+          "statement": "Ewa naklejala 5 nalepek (trojkat, kolo, gwiazda, kwiatek, jablko) na kratki 1-5. Gwiazda nie na kratce 5, jablko na kratce 1, kwiatek dokladnie miedzy kolem a trojkatem. Na ktorej kratce jest kwiatek?",
+          "hasImage": true,
+          "imageNote": "Piec nalepek i prostokat z kratkami 1-5.",
+          "choices": {
+            "A": "5",
+            "B": "4",
+            "C": "3",
+            "D": "2",
+            "E": "1"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "kangur-maluch-2024-14",
+          "source": "kangur-maluch-2024-14",
+          "year": 2024,
+          "number": 14,
+          "difficulty": "4pkt",
+          "topic": "logika",
+          "subtopic": "usuwanie zetonow z wiezy",
+          "statement": "Ada ma wieze z 8 zetonow. Usuwa kolejno: 2. zeton od dolu, potem 3. od dolu nowej wiezy, potem 4. od dolu, potem 5. od dolu. Jaka wieze otrzymala na koniec?",
+          "hasImage": true,
+          "imageNote": "Wieza z 8 zetonow w roznych kolorach i 5 wariantow koncowej wiezy.",
+          "choices": {
+            "A": "wieza A",
+            "B": "wieza B",
+            "C": "wieza C",
+            "D": "wieza D",
+            "E": "wieza E"
+          },
+          "correct": "B"
+        }
+      ],
+      "solutions": [
+        {
+          "problemId": "gen-l38-v1-w1",
+          "observation": "Bartek ma kota, Ola nie ma psa - wiec ma cos innego.",
+          "strategy": "Wykluczenia w tabelce.",
+          "steps": [
+            "Bartek = kot. Ola != pies. Trzy zwierzeta: pies, kot, X. Ola != pies, Ola != kot (Bartek) - Ola ma X. Pozostaje pies dla Czarka."
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l38-v1-w2",
+          "observation": "B=gruszka. A!=banan, wiec A=jablko. C=banan.",
+          "strategy": "Eliminacja.",
+          "steps": [
+            "B = gruszka",
+            "A nie banan, A nie gruszka (B), wiec A = jablko",
+            "C = banan"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l38-v1-w3",
+          "observation": "Y=zielony. X!=czerwony. Wiec X=niebieski. Z=czerwony.",
+          "strategy": "Eliminacja.",
+          "steps": [
+            "Y = zielony",
+            "X nie czerwony, X nie zielony (Y) - X = niebieski",
+            "Z = czerwony"
+          ],
+          "answer": "A",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2024-23",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Troje dzieci, jedno wziele wszystkie serca, jedno jasne, jedno duze. 3, 6, 7 ciastek. Po analizie zestaw D pasuje.",
+          "steps": [
+            "Troje dzieci, jedno wziele wszystkie serca, jedno jasne, jedno duze. 3, 6, 7 ciastek. Po analizie zestaw D pasuje.",
+            "Poprawna odpowiedz: D"
+          ],
+          "answer": "D",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2022-12",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Dzieci kolorowaly. Franek nie krolik. Jozek pilka. Tadzik rozne zwierzeta. Ala jedno zwierze. Kajtek bez zwierzat. Franek = A (jeze).",
+          "steps": [
+            "Dzieci kolorowaly. Franek nie krolik. Jozek pilka. Tadzik rozne zwierzeta. Ala jedno zwierze. Kajtek bez zwierzat. Franek = A (jeze).",
+            "Poprawna odpowiedz: A"
+          ],
+          "answer": "A",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2021-11",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Nalepki: jablko=1, kwiatek miedzy kolo i trojkat. Gwiazda NIE 5. Po analizie kwiatek=4.",
+          "steps": [
+            "Nalepki: jablko=1, kwiatek miedzy kolo i trojkat. Gwiazda NIE 5. Po analizie kwiatek=4.",
+            "Poprawna odpowiedz: B"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2024-14",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Ada 8 zetonow, usuwa kolejno 2.,3.,4.,5. od dolu. Po analizie wieza B.",
+          "steps": [
+            "Ada 8 zetonow, usuwa kolejno 2.,3.,4.,5. od dolu. Po analizie wieza B.",
+            "Poprawna odpowiedz: B"
+          ],
+          "answer": "B",
+          "alternative": null
+        }
+      ]
+    },
+    {
+      "versionId": "v2",
+      "label": "Wersja 2 (powtorka)",
+      "warmup": [
+        {
+          "id": "gen-l38-v2-w1",
+          "source": "generated-l38-v2-w1",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "logika",
+          "subtopic": "tabelka 3x3",
+          "statement": "3 dzieci, 3 owoce. Ada nie lubi jablek. Beata lubi gruszki. Co lubi Cezary, jezeli kazde lubi inny owoc (jablko, gruszka, banan)?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "Jablko",
+            "B": "Gruszke",
+            "C": "Banan",
+            "D": "Wszystkie",
+            "E": "Zadne"
+          },
+          "correct": "A"
+        },
+        {
+          "id": "gen-l38-v2-w2",
+          "source": "generated-l38-v2-w2",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "logika",
+          "subtopic": "wybor zawodu",
+          "statement": "Trzy osoby: lekarz, nauczyciel, fryzjer. Kazda inny zawod. Anka NIE lekarz. Bartek nauczyciel. Czy jest mozliwe zeby Anka byla fryzjerem?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "Tak",
+            "B": "Nie",
+            "C": "Tylko czasem",
+            "D": "Zalezy",
+            "E": "Niewazne"
+          },
+          "correct": "A"
+        },
+        {
+          "id": "gen-l38-v2-w3",
+          "source": "generated-l38-v2-w3",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "logika",
+          "subtopic": "kto co ma",
+          "statement": "Trzy osoby A, B, C. Maja: psa, kota, papuge. A nie kota. B ma papuge. Co ma C?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "Psa",
+            "B": "Kota",
+            "C": "Papuge",
+            "D": "Nic",
+            "E": "Wszystko"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "kangur-maluch-2025-9",
+          "source": "kangur-maluch-2025-9",
+          "year": 2025,
+          "number": 9,
+          "difficulty": "4pkt",
+          "topic": "logika",
+          "subtopic": "ukladanka z brakujacym fragmentem",
+          "statement": "Na talerzach Helenki, Stasia i Slawka leza kangurkowe ciastka (kazde inny ksztalt). Ktore dwie czesci uzupelnia ukladanke?",
+          "hasImage": true,
+          "imageNote": "3 talerze z kangurami i 5 par fragmentow do uzupelnienia.",
+          "choices": {
+            "A": "1 i 2",
+            "B": "1 i 4",
+            "C": "3 i 4",
+            "D": "2 i 3",
+            "E": "1 i 3"
+          },
+          "correct": "A"
+        },
+        {
+          "id": "kangur-maluch-2021-8",
+          "source": "kangur-maluch-2021-8",
+          "year": 2021,
+          "number": 8,
+          "difficulty": "3pkt",
+          "topic": "logika",
+          "subtopic": "zamiana dwoch kart - grupowanie owocow",
+          "statement": "Ignacy ma karty z owocami w 3 rodzajach. Na ktorym z 5 obrazkow NIE moze zamienic dwoch kart miejscami tak, by owoce tego samego rodzaju lezaly obok siebie?",
+          "hasImage": true,
+          "imageNote": "Piec ukladow kart z owocami.",
+          "choices": {
+            "A": "uklad A",
+            "B": "uklad B",
+            "C": "uklad C",
+            "D": "uklad D",
+            "E": "uklad E"
+          },
+          "correct": "D"
+        }
+      ],
+      "challenge": [
+        {
+          "id": "kangur-maluch-2022-22",
+          "source": "kangur-maluch-2022-22",
+          "year": 2022,
+          "number": 22,
+          "difficulty": "5pkt",
+          "topic": "geometria_plaska",
+          "subtopic": "zwijanie gasienicy",
+          "statement": "Gasienica Hulajkula sklada sie z kulek zielonych i bialych w okreslonej kolejnosci. Moze sie zwijac, ale kulki sasiednie w rozwinietej musza dotykac sie tez w zwinietej. Ktory obrazek przedstawia zwinieta Hulajkule?",
+          "hasImage": true,
+          "imageNote": "Rozwinieta gasienica z kulek w okreslonej kolejnosci kolorow + 5 wariantow zwijania.",
+          "choices": {
+            "A": "wariant A",
+            "B": "wariant B",
+            "C": "wariant C",
+            "D": "wariant D",
+            "E": "wariant E"
+          },
+          "correct": "A"
+        },
+        {
+          "id": "kangur-maluch-2021-16",
+          "source": "kangur-maluch-2021-16",
+          "year": 2021,
+          "number": 16,
+          "difficulty": "4pkt",
+          "topic": "logika",
+          "subtopic": "powtarzalna czynnosc - stan kubkow",
+          "statement": "Kostek ma 3 kubki. 10 razy powtarza: bierze lewy kubek, odwraca go i stawia po prawej. Jak wygladaly kubki po 10 czynnosciach (na poczatku wszystkie dnem do dolu)?",
+          "hasImage": true,
+          "imageNote": "Trzy kubki i 5 wariantow ich stanu po czynnosciach.",
+          "choices": {
+            "A": "uklad A",
+            "B": "uklad B",
+            "C": "uklad C",
+            "D": "uklad D",
+            "E": "uklad E"
+          },
+          "correct": "C"
+        }
+      ],
+      "solutions": [
+        {
+          "problemId": "gen-l38-v2-w1",
+          "observation": "Beata = gruszka. Ada nie jablko, wiec banan. Cezary = jablko.",
+          "strategy": "Eliminacja.",
+          "steps": [
+            "Beata = gruszka",
+            "Ada nie jablko, nie gruszka, wiec banan",
+            "Cezary = jablko"
+          ],
+          "answer": "A",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l38-v2-w2",
+          "observation": "Bartek=nauczyciel. Anka nie lekarz - moze byc fryzjerem.",
+          "strategy": "Mozliwosc.",
+          "steps": [
+            "Bartek = nauczyciel",
+            "Anka nie lekarz, nie nauczyciel - moze byc fryzjerem"
+          ],
+          "answer": "A",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l38-v2-w3",
+          "observation": "B=papuga. A nie kot - ma psa. C = kot.",
+          "strategy": "Eliminacja.",
+          "steps": [
+            "B = papuga",
+            "A nie kot, nie papuga (B) - A = pies",
+            "C = kot"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2025-9",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Talerze Helenki, Stasia, Slawka z kangurkowymi ciastkami. Dwie czesci uzupelnia ukladanke. Para 1 i 2.",
+          "steps": [
+            "Talerze Helenki, Stasia, Slawka z kangurkowymi ciastkami. Dwie czesci uzupelnia ukladanke. Para 1 i 2.",
+            "Poprawna odpowiedz: A"
+          ],
+          "answer": "A",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2021-8",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Karty z owocami w 3 rodzajach. Na ktorym ukladzie NIE da sie zamiana 2 kart by ulozyc te same obok siebie. Uklad D.",
+          "steps": [
+            "Karty z owocami w 3 rodzajach. Na ktorym ukladzie NIE da sie zamiana 2 kart by ulozyc te same obok siebie. Uklad D.",
+            "Poprawna odpowiedz: D"
+          ],
+          "answer": "D",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2022-22",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Gasienica Hulajkula zwijana. Sasiednie kulki w rozwinietej musza dotykac w zwinietej. Wariant A.",
+          "steps": [
+            "Gasienica Hulajkula zwijana. Sasiednie kulki w rozwinietej musza dotykac w zwinietej. Wariant A.",
+            "Poprawna odpowiedz: A"
+          ],
+          "answer": "A",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2021-16",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Kostek 3 kubki, 10 razy bierze lewy, odwraca, stawia po prawej. Stan koncowy = wariant C.",
+          "steps": [
+            "Kostek 3 kubki, 10 razy bierze lewy, odwraca, stawia po prawej. Stan koncowy = wariant C.",
+            "Poprawna odpowiedz: C"
+          ],
+          "answer": "C",
+          "alternative": null
+        }
+      ]
+    },
+    {
+      "versionId": "v3",
+      "label": "Wersja 3 (oryginaly Kangurka)",
+      "warmup": [
+        {
+          "id": "kangur-maluch-2021-14",
+          "source": "kangur-maluch-2021-14",
+          "year": 2021,
+          "number": 14,
+          "difficulty": "4pkt",
+          "topic": "logika",
+          "subtopic": "zderzenia figur - kumulacja wartosci",
+          "statement": "Piec figur z liczbami 10, 9, 3, 7, 20 porusza sie w jednej linii. Gdy figury jada na siebie, wieksza pozera mniejsza i zwieksza swoja wartosc o liczbe pokonanej. Jaki bedzie wynik zderzenia wszystkich pieciu figur?",
+          "hasImage": true,
+          "imageNote": "Piec figur z liczbami 10, 9, 3, 7, 20 i strzalkami kierunku.",
+          "choices": {
+            "A": "50 (kwadrat)",
+            "B": "48 (kwadrat)",
+            "C": "49 (romb)",
+            "D": "50 (kolo)",
+            "E": "49 (szesciokat)"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "kangur-maluch-2023-16",
+          "source": "kangur-maluch-2023-16",
+          "year": 2023,
+          "number": 16,
+          "difficulty": "4pkt",
+          "topic": "logika",
+          "subtopic": "rozmieszczenie motocykli wsrod pojazdow",
+          "statement": "Kostek ustawil 6 autek i 2 motocykle, ponumerowal je 1-8. W kazdej trojce kolejno stojacych pojazdow byl dokladnie jeden motocykl. Ktorym numerem oznaczony jest jeden z motocykli?",
+          "hasImage": true,
+          "imageNote": "Osiem ponumerowanych pojazdow w rzedzie.",
+          "choices": {
+            "A": "1",
+            "B": "2",
+            "C": "3",
+            "D": "4",
+            "E": "5"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "kangur-maluch-2023-19",
+          "source": "kangur-maluch-2023-19",
+          "year": 2023,
+          "number": 19,
+          "difficulty": "5pkt",
+          "topic": "logika",
+          "subtopic": "liczenie wypustek - kto jest Dinkiem",
+          "statement": "Na obrazkach Dinek, jego dwaj bracia i dwaj koledzy (smoki z wypustkami). Bracia Dinka maja lacznie 2 razy wiecej trojkatnych wypustek niz koledzy. Na ktorym obrazku jest Dinek?",
+          "hasImage": true,
+          "imageNote": "Piec smokow z rozna liczba trojkatnych wypustek na grzbiecie.",
+          "choices": {
+            "A": "smok A",
+            "B": "smok B",
+            "C": "smok C",
+            "D": "smok D",
+            "E": "smok E"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "kangur-maluch-2023-24",
+          "source": "kangur-maluch-2023-24",
+          "year": 2023,
+          "number": 24,
+          "difficulty": "5pkt",
+          "topic": "logika",
+          "subtopic": "rozpoznanie poprawnego rysunku",
+          "statement": "Stas zacieniował 5 kratek i pokazal rysunek 5 kolegom. Jeden narysowal poprawnie wszystkie 5, czworka pomylila sie w 1 kratce (4 poprawne). Ktory obrazek byl taki sam jak rysunek Stasia?",
+          "hasImage": true,
+          "imageNote": "Piec rysunkow z 5 zacieniowanymi kratkami kazdy.",
+          "choices": {
+            "A": "rysunek A",
+            "B": "rysunek B",
+            "C": "rysunek C",
+            "D": "rysunek D",
+            "E": "rysunek E"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "kangur-maluch-2015-24",
+          "source": "kangur-maluch-2015-24",
+          "year": 2015,
+          "number": 24,
+          "difficulty": "5pkt",
+          "topic": "logika",
+          "subtopic": "podzielnosc - ile upieczono w piatek",
+          "statement": "Ania upiekla 24 ciastka, Basia 25, Celina 26, Danka 27, Ewa 28. Jedna upiekla lacznie 2 razy tyle co w piatek, jedna 3 razy, jedna 4, jedna 5, jedna 6 razy. Ktora upiekla najwiecej ciastek w piatek?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "Ania",
+            "B": "Basia",
+            "C": "Celina",
+            "D": "Danka",
+            "E": "Ewa"
+          },
+          "correct": "C"
+        }
+      ],
+      "challenge": [],
+      "solutions": [
+        {
+          "problemId": "kangur-maluch-2021-14",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Oryginalne zadanie Kangur Maluch 2021 nr 14.",
+          "steps": [
+            "Oryginalne zadanie Kangur Maluch 2021 nr 14.",
+            "Poprawna odpowiedz: C"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2023-16",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Oryginalne zadanie Kangur Maluch 2023 nr 16.",
+          "steps": [
+            "Oryginalne zadanie Kangur Maluch 2023 nr 16.",
+            "Poprawna odpowiedz: C"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2023-19",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Oryginalne zadanie Kangur Maluch 2023 nr 19.",
+          "steps": [
+            "Oryginalne zadanie Kangur Maluch 2023 nr 19.",
+            "Poprawna odpowiedz: C"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2023-24",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Oryginalne zadanie Kangur Maluch 2023 nr 24.",
+          "steps": [
+            "Oryginalne zadanie Kangur Maluch 2023 nr 24.",
+            "Poprawna odpowiedz: C"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2015-24",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Oryginalne zadanie Kangur Maluch 2015 nr 24.",
+          "steps": [
+            "Oryginalne zadanie Kangur Maluch 2015 nr 24.",
+            "Poprawna odpowiedz: C"
+          ],
+          "answer": "C",
+          "alternative": null
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Najlepsze narzedzie do zadan 'kto co ma':",
+      "choices": {
+        "A": "Tabelka",
+        "B": "Zgadywanie",
+        "C": "Liczenie"
+      },
+      "correct": "A",
+      "explain": "Tabelka pozwala wykluczac systematycznie."
+    },
+    {
+      "q": "Wpisujemy NIE w komorke gdy:",
+      "choices": {
+        "A": "Wiemy ze X nie ma Y",
+        "B": "Wiemy ze X ma Y",
+        "C": "Nie wiemy"
+      },
+      "correct": "A",
+      "explain": "NIE wpisujemy dla wykluczenia."
+    },
+    {
+      "q": "Gdy w wierszu zostaje tylko jedna opcja:",
+      "choices": {
+        "A": "To wlasnie ta",
+        "B": "Trzeba zgadywac",
+        "C": "Brak rozwiazania"
+      },
+      "correct": "A",
+      "explain": "Jedyna pozostała opcja musi być prawdziwa."
+    }
+  ]
+}

@@ -1,0 +1,696 @@
+{
+  "id": "l39",
+  "number": 39,
+  "block": "Logika i myslenie",
+  "blockCode": "G",
+  "title": "Eliminacja mozliwosci",
+  "topic": "logika",
+  "estimatedMinutes": 14,
+  "theory": {
+    "intro": "Kangur daje 5 opcji A-E. Jedna jest poprawna. Zamiast szukac jej od zera, mozna ELIMINOWAC - wyrzucac te, ktore na pewno NIE moga byc poprawne. Czasem zostaje 1-2 odpowiedzi i wybor jest oczywisty.",
+    "tool": "Sztuczka 1: SPRAWDZ ZA DUZE I ZA MALE. Jezeli wynik powinien byc okolo 50, odpowiedzi 5 i 500 mozna wyrzucic.\n\nSztuczka 2: SPRAWDZ PARZYSTOSC. Jezeli wynik MUSI byc parzysty (np. suma parzystych), wyrzuc wszystkie nieparzyste odpowiedzi.\n\nSztuczka 3: SPRAWDZ OSTATNIA CYFRE. 27 razy 4 - ostatnia cyfra to ostatnia cyfra 7*4=28, czyli 8. Z odpowiedzi szukaj tylko konczacych sie na 8.\n\nSztuczka 4: SPRAWDZ JEDNOSTKI. Pytanie o cm a odpowiedzi w m - prawdopodobnie pulapka. Sprawdz jednostki.",
+    "trick": "Pulapka: czasem 2-3 odpowiedzi przezyja eliminacje. Wtedy sprawdz dokladniej te 2-3, a nie wszystkie 5. To oszczedza czas i zmniejsza ryzyko bledu."
+  },
+  "versions": [
+    {
+      "versionId": "v1",
+      "label": "Wersja 1 (oryginalna)",
+      "warmup": [
+        {
+          "id": "gen-l39-v1-w1",
+          "source": "generated-l39-v1-w1",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "logika",
+          "subtopic": "eliminacja parzystosci",
+          "statement": "Suma trzech liczb parzystych. Ktora odpowiedz NIE moze byc poprawna?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "6",
+            "B": "10",
+            "C": "14",
+            "D": "15",
+            "E": "30"
+          },
+          "correct": "D"
+        },
+        {
+          "id": "gen-l39-v1-w2",
+          "source": "generated-l39-v1-w2",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "logika",
+          "subtopic": "eliminacja przez ostatnia cyfre",
+          "statement": "23 razy 5 - ktora odpowiedz jest poprawna (sprawdz ostatnia cyfre)?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "100",
+            "B": "105",
+            "C": "110",
+            "D": "115",
+            "E": "125"
+          },
+          "correct": "D"
+        },
+        {
+          "id": "gen-l39-v1-w3",
+          "source": "generated-l39-v1-w3",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "logika",
+          "subtopic": "eliminacja wielkosci",
+          "statement": "Pole prostokata 5x4 cm. Ktora odpowiedz NIE moze byc poprawna?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "15",
+            "B": "20",
+            "C": "100",
+            "D": "18",
+            "E": "22"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "kangur-maluch-2018-6",
+          "source": "kangur-maluch-2018-6",
+          "year": 2018,
+          "number": 6,
+          "difficulty": "3pkt",
+          "topic": "logika",
+          "subtopic": "rozpoznanie najkrotszego wkretu",
+          "statement": "Na rysunku widzisz 5 wkretow wkreconych w drewno. Cztery sa rownej dlugosci, jeden krotszy. Ktory jest krotszy?",
+          "hasImage": true,
+          "imageNote": "Piec wkretow ponumerowanych 1-5 wkreconych w drewno - widoczne sa rozne dlugosci wystajacych czesci.",
+          "choices": {
+            "A": "1",
+            "B": "2",
+            "C": "3",
+            "D": "4",
+            "E": "5"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "kangur-maluch-2025-4",
+          "source": "kangur-maluch-2025-4",
+          "year": 2025,
+          "number": 4,
+          "difficulty": "3pkt",
+          "topic": "logika",
+          "subtopic": "rozpoznanie wezla sznurka",
+          "statement": "Na ktorym sznurku powstanie wezel, gdy pociagniemy za konce sznurka?",
+          "hasImage": true,
+          "imageNote": "Piec sznurkow w roznych konfiguracjach skrzyzowan.",
+          "choices": {
+            "A": "sznurek A",
+            "B": "sznurek B",
+            "C": "sznurek C",
+            "D": "sznurek D",
+            "E": "sznurek E"
+          },
+          "correct": "C"
+        }
+      ],
+      "challenge": [
+        {
+          "id": "kangur-maluch-2025-6",
+          "source": "kangur-maluch-2025-6",
+          "year": 2025,
+          "number": 6,
+          "difficulty": "3pkt",
+          "topic": "logika",
+          "subtopic": "kombinacje muszli i zetonow",
+          "statement": "Ela i Ewa bawia sie zetonami i muszelkami. Kazda muszelka ma wartosc 6, kazdy zeton 1. Ktory z zestawow przedstawia wartosc rowna 16?",
+          "hasImage": true,
+          "imageNote": "5 zestawow z roznymi kombinacjami muszli i zetonow.",
+          "choices": {
+            "A": "zestaw A",
+            "B": "zestaw B",
+            "C": "zestaw C",
+            "D": "zestaw D",
+            "E": "zestaw E"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "kangur-maluch-2020-20",
+          "source": "kangur-maluch-2020-20",
+          "year": 2020,
+          "number": 20,
+          "difficulty": "5pkt",
+          "topic": "logika",
+          "subtopic": "wybor kodu z unikalnymi symbolami",
+          "statement": "Kod tworza 4 symbole na 4 pozycjach. Poprawny kod ma te wlasnosc, ze kazdy jego symbol na danej pozycji nie wystepuje w zadnym innym kodzie na tej pozycji. Ktorego kodu uzyc?",
+          "hasImage": true,
+          "imageNote": "Piec kodow A-E zlozonych z 4 symboli (kolo, trojkat, kwadrat, gwiazda).",
+          "choices": {
+            "A": "kod A",
+            "B": "kod B",
+            "C": "kod C",
+            "D": "kod D",
+            "E": "kod E"
+          },
+          "correct": "D"
+        }
+      ],
+      "solutions": [
+        {
+          "problemId": "gen-l39-v1-w1",
+          "observation": "Suma parzystych jest parzysta.",
+          "strategy": "Parzystosc.",
+          "steps": [
+            "Parzysta + parzysta + parzysta = parzysta",
+            "15 jest nieparzysta - eliminuje"
+          ],
+          "answer": "D",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l39-v1-w2",
+          "observation": "Ostatnia cyfra 3*5=15, czyli 5.",
+          "strategy": "Ostatnia cyfra.",
+          "steps": [
+            "3 razy 5 = 15, ostatnia cyfra 5",
+            "Tylko 115 konczy sie na 5"
+          ],
+          "answer": "D",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l39-v1-w3",
+          "observation": "Pole 5x4=20. 100 to za duzo.",
+          "strategy": "Sprawdzenie wielkosci.",
+          "steps": [
+            "5 razy 4 = 20",
+            "100 znacznie wieksze - eliminuje"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2018-6",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "5 wkretow, 4 rownej dlugosci, 1 krotszy. Krotszy = wkret C.",
+          "steps": [
+            "5 wkretow, 4 rownej dlugosci, 1 krotszy. Krotszy = wkret C.",
+            "Poprawna odpowiedz: C"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2025-4",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Wezel powstanie tylko na jednym sznurku. Sznurek C.",
+          "steps": [
+            "Wezel powstanie tylko na jednym sznurku. Sznurek C.",
+            "Poprawna odpowiedz: C"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2025-6",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Ela i Ewa muszle (6) + zetony (1) = 16. Sposob B.",
+          "steps": [
+            "Ela i Ewa muszle (6) + zetony (1) = 16. Sposob B.",
+            "Poprawna odpowiedz: B"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2020-20",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Kod, ktorego symbole na danych pozycjach nie wystepuja w innych. Kod D.",
+          "steps": [
+            "Kod, ktorego symbole na danych pozycjach nie wystepuja w innych. Kod D.",
+            "Poprawna odpowiedz: D"
+          ],
+          "answer": "D",
+          "alternative": null
+        }
+      ]
+    },
+    {
+      "versionId": "v2",
+      "label": "Wersja 2 (powtorka)",
+      "warmup": [
+        {
+          "id": "gen-l39-v2-w1",
+          "source": "generated-l39-v2-w1",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "logika",
+          "subtopic": "eliminacja parzystosci",
+          "statement": "Suma dwoch nieparzystych liczb. Ktora odpowiedz na pewno NIE pasuje?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "8",
+            "B": "10",
+            "C": "11",
+            "D": "14",
+            "E": "20"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "gen-l39-v2-w2",
+          "source": "generated-l39-v2-w2",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "logika",
+          "subtopic": "ostatnia cyfra mnozenia",
+          "statement": "47 razy 3 - ktora odpowiedz pasuje (sprawdz ostatnia cyfre)?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "140",
+            "B": "141",
+            "C": "144",
+            "D": "147",
+            "E": "148"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "gen-l39-v2-w3",
+          "source": "generated-l39-v2-w3",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "logika",
+          "subtopic": "wielkosc szacowana",
+          "statement": "Mama kupila 4 jablka po okolo 2 zl. Ile zaplacila (mniej wiecej)?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "4 zl",
+            "B": "8 zl",
+            "C": "20 zl",
+            "D": "80 zl",
+            "E": "2 zl"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "kangur-maluch-2018-1",
+          "source": "kangur-maluch-2018-1",
+          "year": 2018,
+          "number": 1,
+          "difficulty": "3pkt",
+          "topic": "logika",
+          "subtopic": "zliczanie unikalnych cyfr",
+          "statement": "Ala odbila piecz atkami date konkursu Kangur Matematyczny: 15 03 2018. Ilu pieczatek uzyla (kazda cyfra to jedna pieczatka, takie same cyfry to ta sama pieczatka)?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "5",
+            "B": "6",
+            "C": "7",
+            "D": "8",
+            "E": "10"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "kangur-maluch-2023-2",
+          "source": "kangur-maluch-2023-2",
+          "year": 2023,
+          "number": 2,
+          "difficulty": "3pkt",
+          "topic": "logika",
+          "subtopic": "dopasowanie wzoru kodu",
+          "statement": "Bilety na loterii maja kody (wzory czarno-biale): cyrk, kino, pokoj zagadek, zoo, basen. Dokad pojdzie Tadzio z wylosowanym biletem?",
+          "hasImage": true,
+          "imageNote": "Piec wzorow kodow i wylosowany bilet.",
+          "choices": {
+            "A": "Do cyrku",
+            "B": "Do kina",
+            "C": "Do pokoju zagadek",
+            "D": "Do zoo",
+            "E": "Na basen"
+          },
+          "correct": "D"
+        }
+      ],
+      "challenge": [
+        {
+          "id": "kangur-maluch-2022-3",
+          "source": "kangur-maluch-2022-3",
+          "year": 2022,
+          "number": 3,
+          "difficulty": "3pkt",
+          "topic": "logika",
+          "subtopic": "liczba elementow do zdjecia ze stosu",
+          "statement": "W pudelkach lezace zabawki. Co najmniej ile pudelek powinien zdjac Slawek, by moc otworzyc szare pudelko z napisem 'pociag'? Pozostale nie moga byc poruszone.",
+          "hasImage": true,
+          "imageNote": "Stos 9 pudelek z napisami (plyty, ukladanka, puzzle, samochody, klocki, lalki, tory, pociag-szare, pluszaki, gry).",
+          "choices": {
+            "A": "3",
+            "B": "4",
+            "C": "5",
+            "D": "6",
+            "E": "7"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "kangur-maluch-2022-1",
+          "source": "kangur-maluch-2022-1",
+          "year": 2022,
+          "number": 1,
+          "difficulty": "3pkt",
+          "topic": "logika",
+          "subtopic": "sekwencja krokow na siatce",
+          "statement": "Pszczola przemieszcza sie o jedna kratke w prawo (klawisz strzalka w prawo) lub w dol (strzalka w dol). Ktorej sekwencji powinna uzyc Ania, by pszczola trafila z lewej gory na kwiatek w prawej dolnej czesci siatki?",
+          "hasImage": true,
+          "imageNote": "Siatka 6x5 z pszczola w lewym gornym rogu i kwiatkiem w prawym dolnym (3 kratki w prawo, 3 w dol).",
+          "choices": {
+            "A": "prawo dol prawo dol dol prawo",
+            "B": "dol dol prawo dol dol",
+            "C": "prawo dol prawo dol prawo",
+            "D": "prawo prawo dol dol dol",
+            "E": "dol prawo prawo dol dol dol"
+          },
+          "correct": "A"
+        }
+      ],
+      "solutions": [
+        {
+          "problemId": "gen-l39-v2-w1",
+          "observation": "Nieparzysta + nieparzysta = parzysta. 11 nieparzysta - nie pasuje.",
+          "strategy": "Parzystosc.",
+          "steps": [
+            "Nieparzysta + nieparzysta = parzysta",
+            "11 nieparzysta - eliminuje"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l39-v2-w2",
+          "observation": "7*3=21, ostatnia 1.",
+          "strategy": "Ostatnia cyfra.",
+          "steps": [
+            "47 razy 3: 7*3=21, ost. 1",
+            "Tylko 141 konczy sie na 1"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l39-v2-w3",
+          "observation": "4 razy 2 = 8 zl.",
+          "strategy": "Szacowanie.",
+          "steps": [
+            "4 razy 2 = 8 zl"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2018-1",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Pieczatki cyfr 0-9. Data 15032018: cyfry rozne to 0,1,2,3,5,8 = 6 pieczatek.",
+          "steps": [
+            "Pieczatki cyfr 0-9. Data 15032018: cyfry rozne to 0,1,2,3,5,8 = 6 pieczatek.",
+            "Poprawna odpowiedz: B"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2023-2",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Bilety z kodami. Wylosowany pasuje do zoo.",
+          "steps": [
+            "Bilety z kodami. Wylosowany pasuje do zoo.",
+            "Poprawna odpowiedz: D"
+          ],
+          "answer": "D",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2022-3",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Pudelka, by otworzyc 'pociag' trzeba zdjac 5 pudelek nad nim.",
+          "steps": [
+            "Pudelka, by otworzyc 'pociag' trzeba zdjac 5 pudelek nad nim.",
+            "Poprawna odpowiedz: C"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2022-1",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Pszczola na siatce do kwiatka. Sekwencja A.",
+          "steps": [
+            "Pszczola na siatce do kwiatka. Sekwencja A.",
+            "Poprawna odpowiedz: A"
+          ],
+          "answer": "A",
+          "alternative": null
+        }
+      ]
+    },
+    {
+      "versionId": "v3",
+      "label": "Wersja 3 (oryginaly Kangurka)",
+      "warmup": [
+        {
+          "id": "kangur-maluch-2016-5",
+          "source": "kangur-maluch-2016-5",
+          "year": 2016,
+          "number": 5,
+          "difficulty": "3pkt",
+          "topic": "logika",
+          "subtopic": "wybor strzalki wg przedzialu numerow",
+          "statement": "Tablica w cyrku pokazuje strzalki: miejsca 1-20 gora, 21-40 prawo, 41-60 lewo, 61-80 ukosnie gora-prawo, 81-100 ukosnie. Gres ma miejsca 71 i 72. Ktora strzalka?",
+          "hasImage": true,
+          "imageNote": "Tablica z 5 strzalkami i przypisanymi przedzialami miejsc.",
+          "choices": {
+            "A": "gora",
+            "B": "prawo",
+            "C": "lewo",
+            "D": "ukosna gora-prawo",
+            "E": "ukosna dol"
+          },
+          "correct": "D"
+        },
+        {
+          "id": "kangur-maluch-2016-19",
+          "source": "kangur-maluch-2016-19",
+          "year": 2016,
+          "number": 19,
+          "difficulty": "5pkt",
+          "topic": "logika",
+          "subtopic": "mozliwy uklad rzutow kostka",
+          "statement": "W pieciu rzutach kostka suma oczek wynosi 10. Ktore z ponizszych zdan moze opisywac te sytuacje?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "Tylko w 4 rzutach wypadly po 2 oczka",
+            "B": "W 3 rzutach wypadly po 3 oczka",
+            "C": "W 2 rzutach wypadly po 4 oczka",
+            "D": "Wypadlo 6 oczek i 2 oczka",
+            "E": "W 4 rzutach wypadlo po 1 oczku"
+          },
+          "correct": "E"
+        },
+        {
+          "id": "kangur-maluch-2022-7",
+          "source": "kangur-maluch-2022-7",
+          "year": 2022,
+          "number": 7,
+          "difficulty": "3pkt",
+          "topic": "logika",
+          "subtopic": "ukladanka 1-5 - bez sasiednich powtorzen",
+          "statement": "Ktory z 5 elementow ukladanki nalezy polozyc na srodku, by kwadraciki oznaczone ta sama liczba nie sasiadowaly ze soba?",
+          "hasImage": true,
+          "imageNote": "Ukladanka z liczbami 1-5 z dziurka w srodku, oraz 5 wariantow elementu do wstawienia.",
+          "choices": {
+            "A": "wzor A",
+            "B": "wzor B",
+            "C": "wzor C",
+            "D": "wzor D",
+            "E": "wzor E"
+          },
+          "correct": "E"
+        },
+        {
+          "id": "kangur-maluch-2022-2",
+          "source": "kangur-maluch-2022-2",
+          "year": 2022,
+          "number": 2,
+          "difficulty": "3pkt",
+          "topic": "logika",
+          "subtopic": "ukladanie pionkow na planszy",
+          "statement": "Plansza 4x4 z 5 pionkami. Ktory pionek nalezy przestawic, by w kazdym rzedzie i kazdej kolumnie byly dokladnie dwa pionki?",
+          "hasImage": true,
+          "imageNote": "Plansza 4x4 z 5 pionkami oznaczonymi A, B, C, D, E.",
+          "choices": {
+            "A": "A",
+            "B": "B",
+            "C": "C",
+            "D": "D",
+            "E": "E"
+          },
+          "correct": "D"
+        },
+        {
+          "id": "kangur-maluch-2021-19",
+          "source": "kangur-maluch-2021-19",
+          "year": 2021,
+          "number": 19,
+          "difficulty": "5pkt",
+          "topic": "logika",
+          "subtopic": "ktory balonik na pewno trafiony",
+          "statement": "Stas rzucal lotkami do balonikow z punktami 3, 9, 13, 14, 18. Lacznie zdobyl 30 punktow. W balonik z jaka liczba NA PEWNO trafil?",
+          "hasImage": true,
+          "imageNote": "Piec balonikow z liczbami 3, 9, 13, 14, 18.",
+          "choices": {
+            "A": "3",
+            "B": "9",
+            "C": "13",
+            "D": "14",
+            "E": "18"
+          },
+          "correct": "A"
+        },
+        {
+          "id": "kangur-maluch-2023-1",
+          "source": "kangur-maluch-2023-1",
+          "year": 2023,
+          "number": 1,
+          "difficulty": "3pkt",
+          "topic": "logika",
+          "subtopic": "porownanie czasu palenia swiec",
+          "statement": "Jednoczesnie zapalono 5 identycznych swiec. Kazda zgasla o innej porze. Ktora swieca zgasla pierwsza (wypalila sie najszybciej)?",
+          "hasImage": true,
+          "imageNote": "Piec swiec A-E o roznej pozostalej wysokosci.",
+          "choices": {
+            "A": "A",
+            "B": "B",
+            "C": "C",
+            "D": "D",
+            "E": "E"
+          },
+          "correct": "A"
+        }
+      ],
+      "challenge": [],
+      "solutions": [
+        {
+          "problemId": "kangur-maluch-2016-5",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Oryginalne zadanie Kangur Maluch 2016 nr 5.",
+          "steps": [
+            "Oryginalne zadanie Kangur Maluch 2016 nr 5.",
+            "Poprawna odpowiedz: D"
+          ],
+          "answer": "D",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2016-19",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Oryginalne zadanie Kangur Maluch 2016 nr 19.",
+          "steps": [
+            "Oryginalne zadanie Kangur Maluch 2016 nr 19.",
+            "Poprawna odpowiedz: E"
+          ],
+          "answer": "E",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2022-7",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Oryginalne zadanie Kangur Maluch 2022 nr 7.",
+          "steps": [
+            "Oryginalne zadanie Kangur Maluch 2022 nr 7.",
+            "Poprawna odpowiedz: E"
+          ],
+          "answer": "E",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2022-2",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Oryginalne zadanie Kangur Maluch 2022 nr 2.",
+          "steps": [
+            "Oryginalne zadanie Kangur Maluch 2022 nr 2.",
+            "Poprawna odpowiedz: D"
+          ],
+          "answer": "D",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2021-19",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Oryginalne zadanie Kangur Maluch 2021 nr 19.",
+          "steps": [
+            "Oryginalne zadanie Kangur Maluch 2021 nr 19.",
+            "Poprawna odpowiedz: A"
+          ],
+          "answer": "A",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2023-1",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Oryginalne zadanie Kangur Maluch 2023 nr 1.",
+          "steps": [
+            "Oryginalne zadanie Kangur Maluch 2023 nr 1.",
+            "Poprawna odpowiedz: A"
+          ],
+          "answer": "A",
+          "alternative": null
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Eliminacja przez parzystosc:",
+      "choices": {
+        "A": "Wyrzucasz nieparzyste gdy wynik parzysty",
+        "B": "Zgadujesz",
+        "C": "Pomijasz"
+      },
+      "correct": "A",
+      "explain": "Jezeli wynik musi byc parzysty, nieparzyste odpadaja."
+    },
+    {
+      "q": "27 razy 4 - ostatnia cyfra wyniku to:",
+      "choices": {
+        "A": "6",
+        "B": "7",
+        "C": "8"
+      },
+      "correct": "C",
+      "explain": "7*4=28, ostatnia cyfra 8."
+    },
+    {
+      "q": "Eliminacja wyrzuca odpowiedzi:",
+      "choices": {
+        "A": "Niemozliwe",
+        "B": "Najlatwiejsze",
+        "C": "Pierwsze"
+      },
+      "correct": "A",
+      "explain": "Eliminujemy te, ktore na pewno nie moga byc poprawne."
+    }
+  ]
+}

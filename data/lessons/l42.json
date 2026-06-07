@@ -1,0 +1,532 @@
+{
+  "id": "l42",
+  "number": 42,
+  "block": "Kombinatoryka i liczenie",
+  "blockCode": "H",
+  "title": "Na ile sposobow - proste przypadki",
+  "topic": "kombinatoryka",
+  "estimatedMinutes": 14,
+  "theory": {
+    "intro": "Na ile sposobow mozesz ulozyc 3 ksiazki na polce? A na ile sposobow ubierzesz koszulke i spodnie z 4 koszulek i 3 spodni? Kombinatoryka odpowiada na pytania 'ile mozliwosci'. Klucz to liczenie systematyczne.",
+    "tool": "Sztuczka 1: WYPISUJ POCZATEK. Na ile sposobow ulozyc litery A, B, C? Wypisz: ABC, ACB, BAC, BCA, CAB, CBA = 6 sposobow.\n\nSztuczka 2: ILOCZYN MOZLIWOSCI. Jezeli wybierasz koszulke (4 opcje) i spodnie (3 opcje) - razem 4 razy 3 = 12 mozliwosci.\n\nSztuczka 3: ZACZNIJ OD WYBORU. Pierwszy element: ile opcji. Drugi: ile zostalo. Mnozysz.\n\nSztuczka 4: PERMUTACJE. n roznych elementow w rzedzie: n*(n-1)*(n-2)*...*1. Dla 3 elementow: 3*2*1=6.",
+    "trick": "Pulapka Kangurka: 'kolejnosc nie ma znaczenia'. Wybor 2 osob z 4 ZAleznie czy z kolejnoscia (8 par) czy bez (6). Czytaj uwaznie."
+  },
+  "versions": [
+    {
+      "versionId": "v1",
+      "label": "Wersja 1 (oryginalna)",
+      "warmup": [
+        {
+          "id": "gen-l42-v1-w1",
+          "source": "generated-l42-v1-w1",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "kombinatoryka",
+          "subtopic": "permutacje 3",
+          "statement": "Na ile sposobow mozna ustawic w rzedzie 3 osoby?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "3",
+            "B": "6",
+            "C": "9",
+            "D": "12",
+            "E": "27"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "gen-l42-v1-w2",
+          "source": "generated-l42-v1-w2",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "kombinatoryka",
+          "subtopic": "iloczyn",
+          "statement": "Mam 3 koszulki i 2 pary spodni. Na ile sposobow moge sie ubrac?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "3",
+            "B": "5",
+            "C": "6",
+            "D": "9",
+            "E": "12"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "gen-l42-v1-w3",
+          "source": "generated-l42-v1-w3",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "kombinatoryka",
+          "subtopic": "wybor 2 z 4",
+          "statement": "Na ile sposobow wybrac 2 osoby z 4 (bez kolejnosci)?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "4",
+            "B": "6",
+            "C": "8",
+            "D": "12",
+            "E": "16"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "kangur-maluch-2023-7",
+          "source": "kangur-maluch-2023-7",
+          "year": 2023,
+          "number": 7,
+          "difficulty": "3pkt",
+          "topic": "kombinatoryka",
+          "subtopic": "wybor 3 z 4 - jedyne ulozenie",
+          "statement": "Ignas ma 4 rozne zetony. Z trzech chce zbudowac wieze tak, by najmniejszy byl na gorze, a najwiekszy na dole. Na ile roznych sposobow moze to zrobic?",
+          "hasImage": true,
+          "imageNote": "Cztery zetony roznej wielkosci.",
+          "choices": {
+            "A": "1",
+            "B": "2",
+            "C": "4",
+            "D": "5",
+            "E": "6"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "kangur-maluch-2024-7",
+          "source": "kangur-maluch-2024-7",
+          "year": 2024,
+          "number": 7,
+          "difficulty": "3pkt",
+          "topic": "kombinatoryka",
+          "subtopic": "podawanie pilki w kregu",
+          "statement": "11 pilkarzy w kregu. Gracz 1 ma pilke i podaje ja do trzeciego gracza po swojej lewej stronie. Schemat sie powtarza, az pilka trafi do kogos po raz drugi. Jaki numer ma zawodnik, ktory ostatni podal pilke?",
+          "hasImage": true,
+          "imageNote": "11 graczy w kregu ponumerowanych 1-11.",
+          "choices": {
+            "A": "11",
+            "B": "9",
+            "C": "8",
+            "D": "6",
+            "E": "3"
+          },
+          "correct": "B"
+        }
+      ],
+      "challenge": [
+        {
+          "id": "kangur-maluch-2021-9",
+          "source": "kangur-maluch-2021-9",
+          "year": 2021,
+          "number": 9,
+          "difficulty": "4pkt",
+          "topic": "kombinatoryka",
+          "subtopic": "wybor figur o roznych ksztaltach",
+          "statement": "Ania chce wyjac z 5 pudelek 5 figur o roznych ksztaltach, z kazdego pudelka jedna. Ktora figure powinna wyjac z czwartego pudelka?",
+          "hasImage": true,
+          "imageNote": "Piec pudelek z figurami roznych ksztaltow.",
+          "choices": {
+            "A": "gwiazda",
+            "B": "kolo",
+            "C": "pieciokat",
+            "D": "trojkat",
+            "E": "romb"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "gen-l42-v1-c1",
+          "source": "generated-l42-v1-c1",
+          "year": null,
+          "number": null,
+          "difficulty": "5pkt",
+          "topic": "kombinatoryka",
+          "subtopic": "permutacje 4",
+          "statement": "Na ile sposobow ustawic 4 rozne ksiazki na polce?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "12",
+            "B": "16",
+            "C": "20",
+            "D": "24",
+            "E": "36"
+          },
+          "correct": "D"
+        }
+      ],
+      "solutions": [
+        {
+          "problemId": "gen-l42-v1-w1",
+          "observation": "3*2*1=6.",
+          "strategy": "Permutacje.",
+          "steps": [
+            "3 elementy: 3! = 6"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l42-v1-w2",
+          "observation": "3 razy 2 = 6.",
+          "strategy": "Iloczyn.",
+          "steps": [
+            "3 koszulki * 2 spodnie = 6"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l42-v1-w3",
+          "observation": "Pary z 4: 4*3/2 = 6.",
+          "strategy": "Wybor 2 z 4.",
+          "steps": [
+            "(4*3)/2 = 6 par"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2023-7",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "4 zetony, wybor 3, najmniejszy gora, najwiekszy dol. Wybor 3 z 4 = 4 sposoby (kazdy uklad ma jedna ulozenie).",
+          "steps": [
+            "4 zetony, wybor 3, najmniejszy gora, najwiekszy dol. Wybor 3 z 4 = 4 sposoby (kazdy uklad ma jedna ulozenie).",
+            "Poprawna odpowiedz: C"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2024-7",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "11 graczy w kregu. 1 podaje do 3. gracza po lewej. Po 11 podaniach pilka wraca do 1. Ostatni podajacy: 9.",
+          "steps": [
+            "11 graczy w kregu. 1 podaje do 3. gracza po lewej. Po 11 podaniach pilka wraca do 1. Ostatni podajacy: 9.",
+            "Poprawna odpowiedz: B"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2021-9",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Ania 5 figur z 5 pudelek, kazda inna. Z 4. pudelka: pieciokat.",
+          "steps": [
+            "Ania 5 figur z 5 pudelek, kazda inna. Z 4. pudelka: pieciokat.",
+            "Poprawna odpowiedz: C"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l42-v1-c1",
+          "observation": "4*3*2*1 = 24.",
+          "strategy": "Permutacje 4.",
+          "steps": [
+            "4! = 4*3*2*1 = 24"
+          ],
+          "answer": "D",
+          "alternative": null
+        }
+      ]
+    },
+    {
+      "versionId": "v2",
+      "label": "Wersja 2 (powtorka)",
+      "warmup": [
+        {
+          "id": "gen-l42-v2-w1",
+          "source": "generated-l42-v2-w1",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "kombinatoryka",
+          "subtopic": "permutacje 2",
+          "statement": "Na ile sposobow ustawic w rzedzie 2 osoby A i B?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "1",
+            "B": "2",
+            "C": "3",
+            "D": "4",
+            "E": "6"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "gen-l42-v2-w2",
+          "source": "generated-l42-v2-w2",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "kombinatoryka",
+          "subtopic": "iloczyn 4x3",
+          "statement": "Mam 4 czapki i 3 szaliki. Ile zestawow (czapka + szalik) moge wybrac?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "7",
+            "B": "9",
+            "C": "10",
+            "D": "12",
+            "E": "15"
+          },
+          "correct": "D"
+        },
+        {
+          "id": "gen-l42-v2-w3",
+          "source": "generated-l42-v2-w3",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "kombinatoryka",
+          "subtopic": "wybor lodow",
+          "statement": "W lodziarni 5 smakow. Na ile sposobow wybrac 1 smak?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "1",
+            "B": "3",
+            "C": "5",
+            "D": "10",
+            "E": "25"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "kangur-maluch-2014-16",
+          "source": "kangur-maluch-2014-16",
+          "year": 2014,
+          "number": 16,
+          "difficulty": "4pkt",
+          "topic": "kombinatoryka",
+          "subtopic": "liczenie kropek na nakladajacych sie kostkach",
+          "statement": "Ile kropek znajduje sie na rysunku (siatka nakladajacych sie wzorow kostek do gry)?",
+          "hasImage": true,
+          "imageNote": "Siatka nakladajacych sie kwadratow z kropkami jak na kostkach do gry.",
+          "choices": {
+            "A": "180",
+            "B": "181",
+            "C": "182",
+            "D": "183",
+            "E": "265"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "gen-l42-v2-w5",
+          "source": "generated-l42-v2-w5",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "kombinatoryka",
+          "subtopic": "liczba paragow",
+          "statement": "Mam 3 papuga, 2 koty. Na ile sposobow wybrac 1 zwierzakiem (jedno)?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "1",
+            "B": "5",
+            "C": "6",
+            "D": "7",
+            "E": "10"
+          },
+          "correct": "B"
+        }
+      ],
+      "challenge": [
+        {
+          "id": "gen-l42-v2-c1",
+          "source": "generated-l42-v2-c1",
+          "year": null,
+          "number": null,
+          "difficulty": "4pkt",
+          "topic": "kombinatoryka",
+          "subtopic": "permutacje 3 z wyborem",
+          "statement": "Z 5 osob wybieram 3 do ustawienia w rzedzie. Na ile sposobow?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "15",
+            "B": "30",
+            "C": "60",
+            "D": "90",
+            "E": "125"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "gen-l42-v2-c2",
+          "source": "generated-l42-v2-c2",
+          "year": null,
+          "number": null,
+          "difficulty": "5pkt",
+          "topic": "kombinatoryka",
+          "subtopic": "trzy elementy",
+          "statement": "Mam 4 cyfry: 1, 2, 3, 4. Ile liczb 3-cyfrowych moge utworzyc, uzywajac kazdej cyfry raz?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "6",
+            "B": "12",
+            "C": "18",
+            "D": "24",
+            "E": "64"
+          },
+          "correct": "D"
+        }
+      ],
+      "solutions": [
+        {
+          "problemId": "gen-l42-v2-w1",
+          "observation": "AB i BA = 2.",
+          "strategy": "Permutacje 2.",
+          "steps": [
+            "2 osoby = 2!=2"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l42-v2-w2",
+          "observation": "4*3 = 12.",
+          "strategy": "Iloczyn.",
+          "steps": [
+            "4 czapki razy 3 szaliki = 12"
+          ],
+          "answer": "D",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l42-v2-w3",
+          "observation": "Wybor 1 z 5 = 5.",
+          "strategy": "Wybor jednego.",
+          "steps": [
+            "5 sposobow"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2014-16",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Liczenie kropek na nakladajacych sie kostkach. Razem 182.",
+          "steps": [
+            "Liczenie kropek na nakladajacych sie kostkach. Razem 182.",
+            "Poprawna odpowiedz: C"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l42-v2-w5",
+          "observation": "3 papugi + 2 koty = 5 zwierzakow.",
+          "strategy": "Sumowanie.",
+          "steps": [
+            "3+2=5"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l42-v2-c1",
+          "observation": "5*4*3 = 60.",
+          "strategy": "Permutacje 3 z 5.",
+          "steps": [
+            "5*4*3=60"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l42-v2-c2",
+          "observation": "4*3*2 = 24.",
+          "strategy": "Permutacje 3 z 4 cyfr.",
+          "steps": [
+            "4*3*2=24"
+          ],
+          "answer": "D",
+          "alternative": null
+        }
+      ]
+    },
+    {
+      "versionId": "v3",
+      "label": "Wersja 3 (oryginaly Kangurka)",
+      "warmup": [
+        {
+          "id": "kangur-maluch-2024-13",
+          "source": "kangur-maluch-2024-13",
+          "year": 2024,
+          "number": 13,
+          "difficulty": "4pkt",
+          "topic": "kombinatoryka",
+          "subtopic": "liczba ulozeń gasienicy z puzzli",
+          "statement": "Julek ma 5 puzzli: glowe, ogon i 3 inne elementy. Buduje gasienice z glowa, ogonem i 1, 2 lub 3 elementami posrodku. Puzzli nie wolno odwracac. Na ile roznych sposobow moze zbudowac gasienice?",
+          "hasImage": true,
+          "imageNote": "Piec puzzli: glowa, 3 elementy srodkowe, ogon.",
+          "choices": {
+            "A": "3",
+            "B": "4",
+            "C": "5",
+            "D": "6",
+            "E": "7"
+          },
+          "correct": "D"
+        }
+      ],
+      "challenge": [],
+      "solutions": [
+        {
+          "problemId": "kangur-maluch-2024-13",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Oryginalne zadanie Kangur Maluch 2024 nr 13.",
+          "steps": [
+            "Oryginalne zadanie Kangur Maluch 2024 nr 13.",
+            "Poprawna odpowiedz: D"
+          ],
+          "answer": "D",
+          "alternative": null
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Permutacja 3 elementow to:",
+      "choices": {
+        "A": "3",
+        "B": "6",
+        "C": "9"
+      },
+      "correct": "B",
+      "explain": "3! = 3*2*1 = 6."
+    },
+    {
+      "q": "Wybor koszulki (5) i spodni (4):",
+      "choices": {
+        "A": "9",
+        "B": "20",
+        "C": "45"
+      },
+      "correct": "B",
+      "explain": "5*4=20 kombinacji."
+    },
+    {
+      "q": "Wybor 2 z 4 bez kolejnosci:",
+      "choices": {
+        "A": "4",
+        "B": "6",
+        "C": "8"
+      },
+      "correct": "B",
+      "explain": "(4*3)/2=6 par."
+    }
+  ]
+}

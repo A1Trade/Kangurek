@@ -1,0 +1,527 @@
+{
+  "id": "l12",
+  "number": 12,
+  "block": "Wzory, ciagi, regularnosci",
+  "blockCode": "B",
+  "title": "Rozkladanie na sume lub iloczyn",
+  "topic": "wzory_i_ciagi",
+  "estimatedMinutes": 15,
+  "theory": {
+    "intro": "Masz 6 zlotych w monetach 2 zl i 1 zl. Na ile sposobow mozesz je ulozyc? To pytanie o rozklad liczby. Liczby mozna rozkladac na sumy i na iloczyny - a Kangur czesto pyta 'na ile sposobow'.",
+    "tool": "Sztuczka 1: WYPISUJ SYSTEMATYCZNIE. Zeby nie zgubic zadnego sposobu, idz po kolei. Liczba 5 jako suma dwoch dodatnich: 1+4, 2+3. Zaczynaj od najmniejszej i zwiekszaj.\n\nSztuczka 2: ILOCZYN - SZUKAJ PAR DZIELNIKOW. Liczba 12 jako iloczyn: 1x12, 2x6, 3x4. Sprawdzaj po kolei 1, 2, 3... az dojdziesz do srodka.\n\nSztuczka 3: KOLEJNOSC CZASEM NIE LICZY SIE. Zwroc uwage, czy 1+4 i 4+1 to ten sam sposob czy dwa rozne. W zadaniach Kangurka zwykle to ten sam sposob.\n\nSztuczka 4: DZIELNIKI. Dzielnik liczby to liczba, przez ktora dzieli sie ona bez reszty. Liczba 12 ma dzielniki: 1, 2, 3, 4, 6, 12 - czyli 6 dzielnikow.",
+    "trick": "Klucz do zadan 'na ile sposobow' to SYSTEMATYCZNOSC. Nie skacz losowo - idz po kolei od najmniejszej liczby. Wtedy nie zgubisz zadnego sposobu i nie policzysz dwa razy tego samego."
+  },
+  "versions": [
+    {
+      "versionId": "v1",
+      "label": "Wersja 1 (oryginalna)",
+      "warmup": [
+        {
+          "id": "gen-l12-w1",
+          "source": "generated-l12-w1",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "wzory_i_ciagi",
+          "subtopic": "rozklad na sume dwoch liczb",
+          "statement": "Na ile sposobow mozna zapisac liczbe 5 jako sume dwoch liczb wiekszych od 0? (kolejnosc nie ma znaczenia)",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "1",
+            "B": "2",
+            "C": "3",
+            "D": "4",
+            "E": "5"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "gen-l12-w2",
+          "source": "generated-l12-w2",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "wzory_i_ciagi",
+          "subtopic": "rozklad na iloczyn",
+          "statement": "Na ile sposobow mozna zapisac liczbe 12 jako iloczyn dwoch liczb? (np. 2 razy 6)",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "2",
+            "B": "3",
+            "C": "4",
+            "D": "6",
+            "E": "12"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "gen-l12-w3",
+          "source": "generated-l12-w3",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "wzory_i_ciagi",
+          "subtopic": "rozmiana monet",
+          "statement": "Na ile sposobow mozna ulozyc 6 zlotych z monet 2 zl i 1 zl?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "2",
+            "B": "3",
+            "C": "4",
+            "D": "5",
+            "E": "6"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "gen-l12-w4",
+          "source": "generated-l12-w4",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "wzory_i_ciagi",
+          "subtopic": "suma trzech jednakowych",
+          "statement": "Liczba 9 to suma trzech jednakowych liczb. Jaka to liczba?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "2",
+            "B": "3",
+            "C": "4",
+            "D": "6",
+            "E": "9"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "gen-l12-w5",
+          "source": "generated-l12-w5",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "wzory_i_ciagi",
+          "subtopic": "rozklad na dwie rozne liczby",
+          "statement": "Na ile sposobow zapisac 7 jako sume dwoch ROZNYCH liczb wiekszych od 0?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "2",
+            "B": "3",
+            "C": "4",
+            "D": "5",
+            "E": "6"
+          },
+          "correct": "B"
+        }
+      ],
+      "challenge": [
+        {
+          "id": "gen-l12-c1",
+          "source": "generated-l12-c1",
+          "year": null,
+          "number": null,
+          "difficulty": "4pkt",
+          "topic": "wzory_i_ciagi",
+          "subtopic": "suma kolejnych liczb",
+          "statement": "Liczbe 15 mozna zapisac jako sume kolejnych liczb naturalnych, np. 7+8 lub 4+5+6. Na ile sposobow da sie to zrobic (nie liczac samej liczby 15)?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "1",
+            "B": "2",
+            "C": "3",
+            "D": "4",
+            "E": "5"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "gen-l12-c2",
+          "source": "generated-l12-c2",
+          "year": null,
+          "number": null,
+          "difficulty": "5pkt",
+          "topic": "wzory_i_ciagi",
+          "subtopic": "liczba dzielnikow",
+          "statement": "Ile dzielnikow ma liczba 24 (liczb, przez ktore dzieli sie bez reszty)?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "6",
+            "B": "7",
+            "C": "8",
+            "D": "9",
+            "E": "12"
+          },
+          "correct": "C"
+        }
+      ],
+      "solutions": [
+        {
+          "problemId": "gen-l12-w1",
+          "observation": "Wypisuje sumy systematycznie od najmniejszej.",
+          "strategy": "Systematyczne wypisywanie.",
+          "steps": [
+            "1 + 4 = 5",
+            "2 + 3 = 5",
+            "3 + 2 to to samo co 2 + 3",
+            "Czyli 2 sposoby"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l12-w2",
+          "observation": "Szukam par dzielnikow 12.",
+          "strategy": "Pary dzielnikow.",
+          "steps": [
+            "1 razy 12",
+            "2 razy 6",
+            "3 razy 4",
+            "Czyli 3 sposoby"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l12-w3",
+          "observation": "Licze ile monet 2 zl: 0, 1, 2 lub 3.",
+          "strategy": "Systematyczne wypisywanie.",
+          "steps": [
+            "0 monet 2zl + 6 monet 1zl",
+            "1 moneta 2zl + 4 monety 1zl",
+            "2 monety 2zl + 2 monety 1zl",
+            "3 monety 2zl + 0 monet 1zl",
+            "Czyli 4 sposoby"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l12-w4",
+          "observation": "Trzy jednakowe liczby daja 9.",
+          "strategy": "Dzielenie.",
+          "steps": [
+            "9 : 3 = 3",
+            "3 + 3 + 3 = 9"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l12-w5",
+          "observation": "Liczby musza byc rozne - wypisuje pary.",
+          "strategy": "Systematyczne wypisywanie.",
+          "steps": [
+            "1 + 6 = 7",
+            "2 + 5 = 7",
+            "3 + 4 = 7",
+            "Czyli 3 sposoby (wszystkie pary rozne)"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l12-c1",
+          "observation": "Szukam ciagow kolejnych liczb sumujacych sie do 15.",
+          "strategy": "Systematyczne sprawdzanie.",
+          "steps": [
+            "Dwie liczby: 7 + 8 = 15",
+            "Trzy liczby: 4 + 5 + 6 = 15",
+            "Piec liczb: 1 + 2 + 3 + 4 + 5 = 15",
+            "Czyli 3 sposoby"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l12-c2",
+          "observation": "Wypisuje dzielniki parami.",
+          "strategy": "Pary dzielnikow.",
+          "steps": [
+            "1 i 24",
+            "2 i 12",
+            "3 i 8",
+            "4 i 6",
+            "Razem: 1,2,3,4,6,8,12,24 - 8 dzielnikow"
+          ],
+          "answer": "C",
+          "alternative": null
+        }
+      ]
+    },
+    {
+      "versionId": "v2",
+      "label": "Wersja 2 (powtorka)",
+      "warmup": [
+        {
+          "id": "gen-l12-v2-w1",
+          "source": "generated-l12-v2-w1",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "wzory_i_ciagi",
+          "subtopic": "rozklad na sume dwoch liczb",
+          "statement": "Na ile sposobow mozna zapisac liczbe 6 jako sume dwoch liczb wiekszych od 0? (kolejnosc nie ma znaczenia)",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "2",
+            "B": "3",
+            "C": "4",
+            "D": "5",
+            "E": "6"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "gen-l12-v2-w2",
+          "source": "generated-l12-v2-w2",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "wzory_i_ciagi",
+          "subtopic": "rozklad na iloczyn",
+          "statement": "Na ile sposobow mozna zapisac liczbe 18 jako iloczyn dwoch liczb?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "2",
+            "B": "3",
+            "C": "4",
+            "D": "5",
+            "E": "6"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "gen-l12-v2-w3",
+          "source": "generated-l12-v2-w3",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "wzory_i_ciagi",
+          "subtopic": "rozmiana monet",
+          "statement": "Na ile sposobow mozna ulozyc 8 zlotych z monet 5 zl i 1 zl?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "1",
+            "B": "2",
+            "C": "3",
+            "D": "4",
+            "E": "5"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "gen-l12-v2-w4",
+          "source": "generated-l12-v2-w4",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "wzory_i_ciagi",
+          "subtopic": "suma trzech jednakowych",
+          "statement": "Liczba 12 to suma trzech jednakowych liczb. Jaka to liczba?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "3",
+            "B": "4",
+            "C": "5",
+            "D": "6",
+            "E": "12"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "kangur-maluch-2021-3",
+          "source": "kangur-maluch-2021-3",
+          "year": 2021,
+          "number": 3,
+          "difficulty": "3pkt",
+          "topic": "lamiglowki",
+          "subtopic": "dzialanie z elementow ukladanki",
+          "statement": "Z czterech elementow ukladanki Jozek ulozyl prostokat z zapisem dzialania arytmetycznego (cyfry 3, 2, 1 i znak +). Jaki jest wynik tego dzialania?",
+          "hasImage": true,
+          "imageNote": "Cztery elementy ukladanki z cyframi 3, 2, 1 i znakiem +.",
+          "choices": {
+            "A": "6",
+            "B": "15",
+            "C": "18",
+            "D": "24",
+            "E": "33"
+          },
+          "correct": "D"
+        }
+      ],
+      "challenge": [
+        {
+          "id": "kangur-maluch-2015-21",
+          "source": "kangur-maluch-2015-21",
+          "year": 2015,
+          "number": 21,
+          "difficulty": "5pkt",
+          "topic": "lamiglowki",
+          "subtopic": "podzial kul wg iloczynow",
+          "statement": "Helenka miala 10 kul ponumerowanych 0-9. Cztery dala Agnieszce, trzy Lusi, trzy zatrzymala. Iloczyn numerow: Helenka 0, Agnieszka 72, Lusia 90. Ile wynosi suma numerow kul Helenki?",
+          "hasImage": true,
+          "imageNote": "Dziesiec kul z numerami 0-9.",
+          "choices": {
+            "A": "11",
+            "B": "12",
+            "C": "13",
+            "D": "14",
+            "E": "15"
+          },
+          "correct": "E"
+        },
+        {
+          "id": "gen-l12-v2-c2",
+          "source": "generated-l12-v2-c2",
+          "year": null,
+          "number": null,
+          "difficulty": "5pkt",
+          "topic": "wzory_i_ciagi",
+          "subtopic": "liczba dzielnikow",
+          "statement": "Ile dzielnikow ma liczba 36 (liczb, przez ktore dzieli sie bez reszty)?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "6",
+            "B": "7",
+            "C": "8",
+            "D": "9",
+            "E": "12"
+          },
+          "correct": "D"
+        }
+      ],
+      "solutions": [
+        {
+          "problemId": "gen-l12-v2-w1",
+          "observation": "Wypisuje sumy systematycznie.",
+          "strategy": "Systematyczne wypisywanie.",
+          "steps": [
+            "1 + 5 = 6",
+            "2 + 4 = 6",
+            "3 + 3 = 6",
+            "Czyli 3 sposoby"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l12-v2-w2",
+          "observation": "Szukam par dzielnikow 18.",
+          "strategy": "Pary dzielnikow.",
+          "steps": [
+            "1 razy 18",
+            "2 razy 9",
+            "3 razy 6",
+            "Czyli 3 sposoby"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l12-v2-w3",
+          "observation": "Licze ile monet 5 zl: 0 lub 1.",
+          "strategy": "Systematyczne wypisywanie.",
+          "steps": [
+            "0 monet 5zl + 8 monet 1zl",
+            "1 moneta 5zl + 3 monety 1zl",
+            "Czyli 2 sposoby"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l12-v2-w4",
+          "observation": "Trzy jednakowe liczby daja 12.",
+          "strategy": "Dzielenie.",
+          "steps": [
+            "12 : 3 = 4"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2021-3",
+          "observation": "Elementy ukladanki tworza zapis dzialania.",
+          "strategy": "Odczytanie dzialania z ulozonego prostokata.",
+          "steps": [
+            "Cztery elementy ukladanki tworza dzialanie z cyframi 3, 2, 1 i znakiem +",
+            "Po poprawnym ulozeniu wynik dzialania wynosi 24"
+          ],
+          "answer": "D",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2015-21",
+          "observation": "Iloczyny numerow kul: Helenka 0, Agnieszka 72, Lusia 90.",
+          "strategy": "Helenka ma kule 0 (bo iloczyn 0). Rozklad pozostalych.",
+          "steps": [
+            "Helenka ma kule 0 - stad jej iloczyn 0",
+            "Agnieszka: 4 kule o iloczynie 72",
+            "Lusia: 3 kule o iloczynie 90",
+            "Po rozdzieleniu Helenka ma kule 0, 7 i 8",
+            "Suma: 0 + 7 + 8 = 15"
+          ],
+          "answer": "E",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l12-v2-c2",
+          "observation": "Wypisuje dzielniki parami.",
+          "strategy": "Pary dzielnikow.",
+          "steps": [
+            "1 i 36",
+            "2 i 18",
+            "3 i 12",
+            "4 i 9",
+            "6 i 6 (jeden dzielnik)",
+            "Dzielniki: 1,2,3,4,6,9,12,18,36 - razem 9"
+          ],
+          "answer": "D",
+          "alternative": null
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Jak nie zgubic zadnego sposobu przy 'na ile sposobow'?",
+      "choices": {
+        "A": "Wypisywac systematycznie od najmniejszej",
+        "B": "Zgadywac",
+        "C": "Liczyc szybko"
+      },
+      "correct": "A",
+      "explain": "Systematyczne wypisywanie po kolei gwarantuje komplet."
+    },
+    {
+      "q": "Liczba 10 jako iloczyn dwoch liczb - ile par?",
+      "choices": {
+        "A": "1",
+        "B": "2",
+        "C": "3"
+      },
+      "correct": "B",
+      "explain": "1x10 i 2x5. Dwie pary."
+    },
+    {
+      "q": "Dzielnik liczby to:",
+      "choices": {
+        "A": "Liczba dzielaca ja bez reszty",
+        "B": "Zawsze liczba parzysta",
+        "C": "Tylko 1"
+      },
+      "correct": "A",
+      "explain": "Dzielnik dzieli liczbe bez reszty - np. 3 jest dzielnikiem 12."
+    }
+  ]
+}

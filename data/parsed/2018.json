@@ -1,0 +1,486 @@
+{
+  "year": 2018,
+  "category": "MALUCH",
+  "problems": [
+    {
+      "id": "kangur-maluch-2018-1",
+      "source": "kangur-maluch-2018-1",
+      "year": 2018,
+      "number": 1,
+      "difficulty": "3pkt",
+      "topic": "logika",
+      "subtopic": "zliczanie unikalnych cyfr",
+      "statement": "Ala odbila piecz atkami date konkursu Kangur Matematyczny: 15 03 2018. Ilu pieczatek uzyla (kazda cyfra to jedna pieczatka, takie same cyfry to ta sama pieczatka)?",
+      "hasImage": false,
+      "imageNote": null,
+      "choices": {
+        "A": "5",
+        "B": "6",
+        "C": "7",
+        "D": "8",
+        "E": "10"
+      },
+      "correct": "B"
+    },
+    {
+      "id": "kangur-maluch-2018-2",
+      "source": "kangur-maluch-2018-2",
+      "year": 2018,
+      "number": 2,
+      "difficulty": "3pkt",
+      "topic": "logika",
+      "subtopic": "trajektorie - strzaly i baloniki",
+      "statement": "Rysunek pokazuje 3 lecace strzaly i 9 nieruchomych balonikow. Gdy strzala trafi w balonik, ten peka, a strzala leci dalej bez zmiany kierunku. W ile balonikow trafia strzaly?",
+      "hasImage": true,
+      "imageNote": "3 strzaly w 3 rzedach, 9 balonikow rozmieszczonych pomiedzy.",
+      "choices": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "5",
+        "E": "6"
+      },
+      "correct": "D"
+    },
+    {
+      "id": "kangur-maluch-2018-3",
+      "source": "kangur-maluch-2018-3",
+      "year": 2018,
+      "number": 3,
+      "difficulty": "3pkt",
+      "topic": "arytmetyka",
+      "subtopic": "suma wieku rodzenstwa",
+      "statement": "Hela ma 6 lat. Jej siostra jest o 2 lata mlodsza, a brat o 2 lata starszy. Po dodaniu lat tej trojki rodzenstwa otrzymamy:",
+      "hasImage": false,
+      "imageNote": null,
+      "choices": {
+        "A": "10",
+        "B": "15",
+        "C": "18",
+        "D": "21",
+        "E": "30"
+      },
+      "correct": "C"
+    },
+    {
+      "id": "kangur-maluch-2018-4",
+      "source": "kangur-maluch-2018-4",
+      "year": 2018,
+      "number": 4,
+      "difficulty": "3pkt",
+      "topic": "logika",
+      "subtopic": "rozpoznanie biedronki",
+      "statement": "Biedronka Misia ma 5 kropek po prawej stronie i 3 po lewej. Ktory z ponizszych obrazkow na pewno NIE przedstawia Misi?",
+      "hasImage": true,
+      "imageNote": "Pieć biedronek z roznymi ukladami kropek.",
+      "choices": {
+        "A": "biedronka A",
+        "B": "biedronka B",
+        "C": "biedronka C",
+        "D": "biedronka D",
+        "E": "biedronka E"
+      },
+      "correct": "C"
+    },
+    {
+      "id": "kangur-maluch-2018-5",
+      "source": "kangur-maluch-2018-5",
+      "year": 2018,
+      "number": 5,
+      "difficulty": "3pkt",
+      "topic": "geometria_plaska",
+      "subtopic": "symetria osiowa - rozlozenie kartki",
+      "statement": "Kasia zlozyla kartke papieru na pol i wycieła z niej pewien ksztalt. Ktory z rysunkow przedstawia kartke po rozlozeniu?",
+      "hasImage": true,
+      "imageNote": "Wycieta forma na zlozonej kartce i 5 wariantow po rozlozeniu (symetria osiowa).",
+      "choices": {
+        "A": "rysunek A",
+        "B": "rysunek B",
+        "C": "rysunek C",
+        "D": "rysunek D",
+        "E": "rysunek E"
+      },
+      "correct": "B"
+    },
+    {
+      "id": "kangur-maluch-2018-6",
+      "source": "kangur-maluch-2018-6",
+      "year": 2018,
+      "number": 6,
+      "difficulty": "3pkt",
+      "topic": "logika",
+      "subtopic": "rozpoznanie najkrotszego wkretu",
+      "statement": "Na rysunku widzisz 5 wkretow wkreconych w drewno. Cztery sa rownej dlugosci, jeden krotszy. Ktory jest krotszy?",
+      "hasImage": true,
+      "imageNote": "Piec wkretow ponumerowanych 1-5 wkreconych w drewno - widoczne sa rozne dlugosci wystajacych czesci.",
+      "choices": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4",
+        "E": "5"
+      },
+      "correct": "C"
+    },
+    {
+      "id": "kangur-maluch-2018-7",
+      "source": "kangur-maluch-2018-7",
+      "year": 2018,
+      "number": 7,
+      "difficulty": "3pkt",
+      "topic": "arytmetyka",
+      "subtopic": "suma punktow na tarczy",
+      "statement": "Franek strzelal do tarczy 3 razy. W pierwszej probie zdobyl 27 punktow (3 strzaly), w drugiej 23 (3 strzaly). Ile zdobyl w trzeciej probie (rowniez 3 strzaly)?",
+      "hasImage": true,
+      "imageNote": "Trzy tarcze koliste z roznymi trafieniami strzal. Tarcza ma pierscienie o roznych wartosciach punktowych.",
+      "choices": {
+        "A": "15",
+        "B": "19",
+        "C": "20",
+        "D": "21",
+        "E": "22"
+      },
+      "correct": "B"
+    },
+    {
+      "id": "kangur-maluch-2018-8",
+      "source": "kangur-maluch-2018-8",
+      "year": 2018,
+      "number": 8,
+      "difficulty": "3pkt",
+      "topic": "logika",
+      "subtopic": "orientacja prawo-lewo wokol stolu",
+      "statement": "Ewa nakryla stol dla 8 osob: kazda osoba ma miec widelec po lewej i noz po prawej. Dla ilu osob Ewa polozyla sztucce poprawnie?",
+      "hasImage": true,
+      "imageNote": "Stol z 8 talerzami i sztuccami, kazda osoba siedzi pod innym katem.",
+      "choices": {
+        "A": "5",
+        "B": "4",
+        "C": "6",
+        "D": "2",
+        "E": "3"
+      },
+      "correct": "E"
+    },
+    {
+      "id": "kangur-maluch-2018-9",
+      "source": "kangur-maluch-2018-9",
+      "year": 2018,
+      "number": 9,
+      "difficulty": "4pkt",
+      "topic": "czas_kalendarz",
+      "subtopic": "liczenie dni do tylu",
+      "statement": "Krolik Mniam mial 20 marchewek i codziennie zjadal 2. W srode zjadl dwunasta marchewke. W jakim dniu tygodnia ZACZAL je zjadac?",
+      "hasImage": false,
+      "imageNote": null,
+      "choices": {
+        "A": "W poniedzialek",
+        "B": "We wtorek",
+        "C": "W srode",
+        "D": "W czwartek",
+        "E": "W piatek"
+      },
+      "correct": "E"
+    },
+    {
+      "id": "kangur-maluch-2018-10",
+      "source": "kangur-maluch-2018-10",
+      "year": 2018,
+      "number": 10,
+      "difficulty": "4pkt",
+      "topic": "geometria_plaska",
+      "subtopic": "ukladanie wzorow z kartonikow",
+      "statement": "Marysia uklada wzory z jednakowych kartonikow (czarno-biale). Ile z ponizszych 5 wzorow moze otrzymac, nie nakladajac kartonikow na siebie?",
+      "hasImage": true,
+      "imageNote": "Pieć wzorow do ukladania z identycznych kartonikow.",
+      "choices": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4",
+        "E": "5"
+      },
+      "correct": "C"
+    },
+    {
+      "id": "kangur-maluch-2018-11",
+      "source": "kangur-maluch-2018-11",
+      "year": 2018,
+      "number": 11,
+      "difficulty": "4pkt",
+      "topic": "arytmetyka",
+      "subtopic": "iteracyjna redukcja liczby",
+      "statement": "Kuba zapisal liczbe 99999 (piec dziewiatek). Dodal dwie pierwsze cyfry, zmazal je i wpisal sume. Powtarzal to dopoki nie otrzymal liczby jednocyfrowej. Ile razy wykonal te czynnosc?",
+      "hasImage": false,
+      "imageNote": null,
+      "choices": {
+        "A": "4",
+        "B": "5",
+        "C": "6",
+        "D": "7",
+        "E": "8"
+      },
+      "correct": "E"
+    },
+    {
+      "id": "kangur-maluch-2018-12",
+      "source": "kangur-maluch-2018-12",
+      "year": 2018,
+      "number": 12,
+      "difficulty": "4pkt",
+      "topic": "geometria_plaska",
+      "subtopic": "podzial figury na czesci",
+      "statement": "Zosia pocieła kartke na dwa rodzaje kawalkow (kwadrat 2x2 i polkwadrat - trapez). Ilu takich kawalkow potrzebuje, by ulozyc figure ksztaltu lodki?",
+      "hasImage": true,
+      "imageNote": "Dwa rodzaje kawalkow: kwadrat 2x2 i trapez z polowy kwadratu. Figura - lodka.",
+      "choices": {
+        "A": "5",
+        "B": "6",
+        "C": "7",
+        "D": "8",
+        "E": "9"
+      },
+      "correct": "C"
+    },
+    {
+      "id": "kangur-maluch-2018-13",
+      "source": "kangur-maluch-2018-13",
+      "year": 2018,
+      "number": 13,
+      "difficulty": "4pkt",
+      "topic": "logika",
+      "subtopic": "rownanie z proporcjami i ograniczeniami",
+      "statement": "Na krzaku 8 kwiatkow. Na kazdym albo motyl, albo wazka, albo nic. Kwiatkow bez owada jest mniej niz polowa. Liczba motyli jest dwa razy wieksza niz liczba wazek. Ile motyli siedzi na kwiatkach?",
+      "hasImage": false,
+      "imageNote": null,
+      "choices": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "5",
+        "E": "6"
+      },
+      "correct": "C"
+    },
+    {
+      "id": "kangur-maluch-2018-14",
+      "source": "kangur-maluch-2018-14",
+      "year": 2018,
+      "number": 14,
+      "difficulty": "4pkt",
+      "topic": "geometria_przestrzenna",
+      "subtopic": "liczenie scian malowanych na sklejonych szescianach",
+      "statement": "Slawek skleil 10 drewnianych szescianow w bryle L i pomalowal ja ze wszystkich stron. Ile z tych 10 klockow ma pomalowane DOKLADNIE 4 sciany?",
+      "hasImage": true,
+      "imageNote": "Bryla zlozona z 10 szescianow ulozonych w ksztalcie L.",
+      "choices": {
+        "A": "5",
+        "B": "7",
+        "C": "8",
+        "D": "9",
+        "E": "10"
+      },
+      "correct": "B"
+    },
+    {
+      "id": "kangur-maluch-2018-15",
+      "source": "kangur-maluch-2018-15",
+      "year": 2018,
+      "number": 15,
+      "difficulty": "4pkt",
+      "topic": "geometria_plaska",
+      "subtopic": "inwersja kolorow + obrot",
+      "statement": "Na obrazku zamieniono kolor bialy na czarny i odwrotnie, a nastepnie obrocono. Ktory z rysunkow przedstawia otrzymana figure?",
+      "hasImage": true,
+      "imageNote": "Kolisty obrazek z punktami i kolami w kolorach. Po inwersji i obrocie - 5 wariantow.",
+      "choices": {
+        "A": "rysunek A",
+        "B": "rysunek B",
+        "C": "rysunek C",
+        "D": "rysunek D",
+        "E": "rysunek E"
+      },
+      "correct": "D"
+    },
+    {
+      "id": "kangur-maluch-2018-16",
+      "source": "kangur-maluch-2018-16",
+      "year": 2018,
+      "number": 16,
+      "difficulty": "4pkt",
+      "topic": "pomiary_jednostki",
+      "subtopic": "dlugosci paska z roznymi dziurkami",
+      "statement": "Pasek dla lalki z guzikiem z jednej strony i 5 dziurkami z drugiej, w odleglosci 2 cm. O ile dluzszy jest pasek zapiety na pierwsza (najblizsza guzika) dziurke od paska zapietego na piata (najdalsza)?",
+      "hasImage": true,
+      "imageNote": "Pasek niezapiety z guzikiem i 5 dziurkami co 2 cm, pasek zapiety pokazany jako kolo.",
+      "choices": {
+        "A": "O 4 cm",
+        "B": "O 8 cm",
+        "C": "O 10 cm",
+        "D": "O 16 cm",
+        "E": "O 20 cm"
+      },
+      "correct": "B"
+    },
+    {
+      "id": "kangur-maluch-2018-17",
+      "source": "kangur-maluch-2018-17",
+      "year": 2018,
+      "number": 17,
+      "difficulty": "5pkt",
+      "topic": "arytmetyka",
+      "subtopic": "dlugosc trasy ze skokami przod/tyl",
+      "statement": "Kangur Skoczek wykonuje skoki po 2 m: po kazdych 3 skokach do przodu wykonuje 1 skok do tylu. Pokonal trase wykonujac lacznie 14 skokow. Ile metrow liczyla ta trasa?",
+      "hasImage": false,
+      "imageNote": null,
+      "choices": {
+        "A": "8 metrow",
+        "B": "16 metrow",
+        "C": "15 metrow",
+        "D": "24 metry",
+        "E": "10 metrow"
+      },
+      "correct": "B"
+    },
+    {
+      "id": "kangur-maluch-2018-18",
+      "source": "kangur-maluch-2018-18",
+      "year": 2018,
+      "number": 18,
+      "difficulty": "5pkt",
+      "topic": "logika",
+      "subtopic": "rownania z symbolami",
+      "statement": "W pewnym jezyku symbole A, B, C, D, E oznaczaja liczby 1, 2, 3, 4, 5 (kazdy inna). Wiadomo: C+C=E, B+B=C, B+E=D. Ktory symbol oznacza liczbe 3?",
+      "hasImage": true,
+      "imageNote": "Piec symboli (oko, slonce, kwiatek, ryba, grzbiet) i trzy rownania.",
+      "choices": {
+        "A": "oko",
+        "B": "slonce",
+        "C": "kwiatek",
+        "D": "ryba",
+        "E": "grzbiet"
+      },
+      "correct": "A"
+    },
+    {
+      "id": "kangur-maluch-2018-19",
+      "source": "kangur-maluch-2018-19",
+      "year": 2018,
+      "number": 19,
+      "difficulty": "5pkt",
+      "topic": "arytmetyka",
+      "subtopic": "liczba dwucyfrowa z warunkami",
+      "statement": "Dana jest pewna liczba dwucyfrowa. Po dodaniu 11 wynik jest trzycyfrowy. Po odjeciu 11 wynik jest iloczynem dwoch jednakowych liczb jednocyfrowych. Ta liczba to:",
+      "hasImage": false,
+      "imageNote": null,
+      "choices": {
+        "A": "75",
+        "B": "81",
+        "C": "89",
+        "D": "90",
+        "E": "92"
+      },
+      "correct": "E"
+    },
+    {
+      "id": "kangur-maluch-2018-20",
+      "source": "kangur-maluch-2018-20",
+      "year": 2018,
+      "number": 20,
+      "difficulty": "5pkt",
+      "topic": "logika",
+      "subtopic": "trasa - wnioskowanie z warunkami",
+      "statement": "Koziolek Matolek idzie z Makuszyc do Pacanowa przez wszystkie miasta na mapie i wraca najkrotsza droga. Cala trasa = 100 km. Odleglosc Marianow-Walentynow jest o 9 km krotsza niz Kornelowo-Marianow-Walentynow. Odleglosc Makuszyce-Kornelowo-Marianow rowna sie Marianow-Walentynow. Jak daleko jest z Makuszyc do Pacanowa najkrotsza droga?",
+      "hasImage": true,
+      "imageNote": "Mapa z 5 miastami: Makuszyce, Kornelowo (17 km), Marianow, Walentynow (26 km), Pacanow.",
+      "choices": {
+        "A": "17 km",
+        "B": "23 km",
+        "C": "26 km",
+        "D": "22 km",
+        "E": "35 km"
+      },
+      "correct": "C"
+    },
+    {
+      "id": "kangur-maluch-2018-21",
+      "source": "kangur-maluch-2018-21",
+      "year": 2018,
+      "number": 21,
+      "difficulty": "5pkt",
+      "topic": "logika",
+      "subtopic": "uklad rownan - pojemnosci wiader",
+      "statement": "Bialе wiadro ma pojemnosc 10 L. Pelne niebieskie + pol zielonego = pol bialego. Pol pelnego niebieskiego do pol zielonego daje 4 L w zielonym. Jaka pojemnosc ma niebieskie wiadro?",
+      "hasImage": false,
+      "imageNote": null,
+      "choices": {
+        "A": "1 litr",
+        "B": "2 litry",
+        "C": "3 litry",
+        "D": "5 litrow",
+        "E": "6 litrow"
+      },
+      "correct": "B"
+    },
+    {
+      "id": "kangur-maluch-2018-22",
+      "source": "kangur-maluch-2018-22",
+      "year": 2018,
+      "number": 22,
+      "difficulty": "5pkt",
+      "topic": "logika",
+      "subtopic": "ustalenie cen z warunkow",
+      "statement": "Cztery zabawki (lala, mis, pilka, ukladanka) maja ceny 10, 20, 30, 40 zl (kazda inna). Mis+Lala > Pilka+Ukladanka. Mis+Ukladanka = Pilka. Ktora zabawka kosztuje 30 zl?",
+      "hasImage": false,
+      "imageNote": null,
+      "choices": {
+        "A": "Lala",
+        "B": "Mis",
+        "C": "Pilka",
+        "D": "Ukladanka",
+        "E": "Moze byc lala lub mis"
+      },
+      "correct": "C"
+    },
+    {
+      "id": "kangur-maluch-2018-23",
+      "source": "kangur-maluch-2018-23",
+      "year": 2018,
+      "number": 23,
+      "difficulty": "5pkt",
+      "topic": "geometria_plaska",
+      "subtopic": "prostokat z kwadratow - skalowanie",
+      "statement": "Duzy prostokat zostal podzielony na 7 kwadratow. Zacieniowano 3 najmniejsze kwadraty. Ile takich malych kwadratow wypelni caly duzy prostokat?",
+      "hasImage": true,
+      "imageNote": "Prostokat podzielony na kwadraty roznej wielkosci, 3 najmniejsze zacieniowane.",
+      "choices": {
+        "A": "165",
+        "B": "176",
+        "C": "187",
+        "D": "198",
+        "E": "200"
+      },
+      "correct": "D"
+    },
+    {
+      "id": "kangur-maluch-2018-24",
+      "source": "kangur-maluch-2018-24",
+      "year": 2018,
+      "number": 24,
+      "difficulty": "5pkt",
+      "topic": "logika",
+      "subtopic": "diagram z liczbami nie-kolejne",
+      "statement": "Jurek chce wpisac liczby 1-7 do diagramu tak, by w kratkach stykajacych sie bokami lub wierzcholkami nie wystapily dwie kolejne liczby. Jaka liczbe moze wpisac w kratke ze znakiem zapytania?",
+      "hasImage": true,
+      "imageNote": "Diagram z 7 kratek o specyficznym ksztalcie, jedna oznaczona ?.",
+      "choices": {
+        "A": "Kazda z 7",
+        "B": "Tylko 1, 3, 5 lub 7",
+        "C": "Tylko 2, 4 lub 6",
+        "D": "Tylko 4",
+        "E": "Tylko 1 lub 7"
+      },
+      "correct": "D"
+    }
+  ]
+}

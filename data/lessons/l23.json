@@ -1,0 +1,498 @@
+{
+  "id": "l23",
+  "number": 23,
+  "block": "Geometria przestrzenna",
+  "blockCode": "D",
+  "title": "Widoki bryly z roznych stron",
+  "topic": "geometria_przestrzenna",
+  "estimatedMinutes": 14,
+  "theory": {
+    "intro": "Architekt rysujac dom pokazuje go z gory (plan), z przodu (elewacja) i z boku. Ta sama bryla wyglada inaczej z kazdej strony. Umiejetnosc 'tlumaczenia' 3D na 2D to klucz do wielu zadan Kangurka.",
+    "tool": "Sztuczka 1: WIDOK Z GORY POKAZUJE PIETRA. Patrzac na bryle z gory, widzimy ktora kratka jest zajeta. Nie widzimy wysokosci, tylko rzut.\n\nSztuczka 2: WIDOK Z BOKU POKAZUJE WYSOKOSC. Widzimy najwyzsza kostke w danej kolumnie - ta zaslania nizsze.\n\nSztuczka 3: PRZYBLIZ I OBROC W MYSLI. Wyobraz sobie, ze trzymasz bryle w dloni. Jak wyglada z gory? Z przodu? Z lewej? Cwicz patrzenie z kilku stron.\n\nSztuczka 4: WIDOK = KSZTALT, NIE LICZBA KOSTEK. Patrzac z gory, widzisz tylko zarys - nie wiesz, ile kostek jest pod spodem.",
+    "trick": "Kangur testuje rozumienie widokow w zadaniach 'jak wyglada z gory'. Pulapka: uczen widzi caly stos kostek i rysuje wszystkie, a powinien narysowac tylko ZARYS (rzut) - czyli pole, ktore stos pokrywa. Skup sie na ksztalcie podstawy."
+  },
+  "versions": [
+    {
+      "versionId": "v1",
+      "label": "Wersja 1 (oryginalna)",
+      "warmup": [
+        {
+          "id": "gen-l23-v1-w1",
+          "source": "generated-l23-v1-w1",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "geometria_przestrzenna",
+          "subtopic": "widok z gory pojedynczej kostki",
+          "statement": "Patrzac na pojedyncza kostke z gory, widzimy:",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "Kropke",
+            "B": "Kwadrat",
+            "C": "Trojkat",
+            "D": "Kolo",
+            "E": "Linie"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "gen-l23-v1-w2",
+          "source": "generated-l23-v1-w2",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "geometria_przestrzenna",
+          "subtopic": "widok z gory kolumny kostek",
+          "statement": "Wieza zbudowana z 3 jednakowych kostek (jedna nad druga). Jak wyglada z gory?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "Jeden kwadrat",
+            "B": "Trzy kwadraty obok siebie",
+            "C": "Pionowy prostokat",
+            "D": "Trojkat",
+            "E": "Linia"
+          },
+          "correct": "A"
+        },
+        {
+          "id": "gen-l23-v1-w3",
+          "source": "generated-l23-v1-w3",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "geometria_przestrzenna",
+          "subtopic": "widok z przodu",
+          "statement": "Wieza z 3 jednakowych kostek (jedna nad druga). Z przodu widzimy:",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "Jeden kwadrat",
+            "B": "Pionowy prostokat zlozony z 3 kwadratow",
+            "C": "Trojkat",
+            "D": "Kolo",
+            "E": "Kwadrat 3x3"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "kangur-maluch-2022-4",
+          "source": "kangur-maluch-2022-4",
+          "year": 2022,
+          "number": 4,
+          "difficulty": "3pkt",
+          "topic": "geometria_przestrzenna",
+          "subtopic": "widok z gory",
+          "statement": "Z drewnianych klockow ustawiono konstrukcje. Jak wyglada ta konstrukcja z gory?",
+          "hasImage": true,
+          "imageNote": "Konstrukcja z klockow: podstawa kwadratowa, mniejsza warstwa, jeszcze mniejsza, na szczycie pionowy klocek.",
+          "choices": {
+            "A": "3 kwadraty wpisane",
+            "B": "2 kwadraty wpisane",
+            "C": "kwadrat z malym wewnatrz",
+            "D": "sam kwadrat",
+            "E": "maly kwadrat w wiekszym"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "kangur-maluch-2014-15",
+          "source": "kangur-maluch-2014-15",
+          "year": 2014,
+          "number": 15,
+          "difficulty": "4pkt",
+          "topic": "geometria_przestrzenna",
+          "subtopic": "widok bryly z gory",
+          "statement": "Bryla sklejona z 8 jednakowych szesciennych klockow. Ktory rysunek przedstawia widok tej bryly z gory?",
+          "hasImage": true,
+          "imageNote": "Bryla z 8 szescianow i 5 wariantow widoku z gory.",
+          "choices": {
+            "A": "widok A",
+            "B": "widok B",
+            "C": "widok C",
+            "D": "widok D",
+            "E": "widok E"
+          },
+          "correct": "B"
+        }
+      ],
+      "challenge": [
+        {
+          "id": "kangur-maluch-2013-9",
+          "source": "kangur-maluch-2013-9",
+          "year": 2013,
+          "number": 9,
+          "difficulty": "4pkt",
+          "topic": "geometria_przestrzenna",
+          "subtopic": "stemple ze scian bryly",
+          "statement": "Duza kostka z 27 klockow. Hania usunela 4 klocki. Scianami otrzymanej figury robila stemple. Ktorego stempla NIE mogla otrzymac?",
+          "hasImage": true,
+          "imageNote": "Bryla z 23 klockow (kostka 3x3x3 minus 4) i 5 wariantow stempli.",
+          "choices": {
+            "A": "stempel A",
+            "B": "stempel B",
+            "C": "stempel C",
+            "D": "stempel D",
+            "E": "stempel E"
+          },
+          "correct": "D"
+        },
+        {
+          "id": "kangur-maluch-2025-20",
+          "source": "kangur-maluch-2025-20",
+          "year": 2025,
+          "number": 20,
+          "difficulty": "5pkt",
+          "topic": "geometria_przestrzenna",
+          "subtopic": "widok wiezy z gory",
+          "statement": "Ignas mial drewniane klocki jasne (szesciany) i ciemne (szesciokatne). Zbudowal z nich wieze w taki sposob, ze klocki w tym samym kolorze nie stykaja sie ze soba scianami. Jak wyglada wieza Ignasego z gory?",
+          "hasImage": true,
+          "imageNote": "Wieza zbudowana z jasnych i ciemnych klockow + 5 wariantow widoku z gory.",
+          "choices": {
+            "A": "wzor A",
+            "B": "wzor B",
+            "C": "wzor C",
+            "D": "wzor D",
+            "E": "wzor E"
+          },
+          "correct": "D"
+        }
+      ],
+      "solutions": [
+        {
+          "problemId": "gen-l23-v1-w1",
+          "observation": "Z gory widzimy gorna sciane - kwadrat.",
+          "strategy": "Widok z gory.",
+          "steps": [
+            "Sciana gorna kostki to kwadrat"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l23-v1-w2",
+          "observation": "Trzy kostki jedna na drugiej - z gory widac tylko gorna.",
+          "strategy": "Widok z gory wiezy.",
+          "steps": [
+            "Patrzac z gory widzimy tylko najwyzsza kostke - 1 kwadrat"
+          ],
+          "answer": "A",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l23-v1-w3",
+          "observation": "Trzy kostki pionowo - z przodu pionowy prostokat.",
+          "strategy": "Widok z przodu.",
+          "steps": [
+            "Wieza z 3 kostek - z przodu 3 kwadraty jeden nad drugim, czyli pionowy prostokat"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2022-4",
+          "observation": "Konstrukcja z klockow - widok z gory.",
+          "strategy": "Tlumaczenie 3D na 2D z gory.",
+          "steps": [
+            "Konstrukcja warstwowa",
+            "Z gory widac 2 wpisane kwadraty"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2014-15",
+          "observation": "Bryla z 8 kostek - widok z gory.",
+          "strategy": "Rzut z gory.",
+          "steps": [
+            "Z gory widac uklad zajetych pol",
+            "Poprawny widok to B"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2013-9",
+          "observation": "Stemple ze scian bryly z 23 klockow.",
+          "strategy": "Identyfikacja niemozliwych stempli.",
+          "steps": [
+            "Bryla po usunieciu 4 klockow ma okreslone sciany",
+            "Stempel D nie moze powstac"
+          ],
+          "answer": "D",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2025-20",
+          "observation": "Widok wiezy z gory.",
+          "strategy": "Rzut wiezy.",
+          "steps": [
+            "Wieza z jasnych i ciemnych klockow",
+            "Z gory widac wzor D"
+          ],
+          "answer": "D",
+          "alternative": null
+        }
+      ]
+    },
+    {
+      "versionId": "v2",
+      "label": "Wersja 2 (powtorka)",
+      "warmup": [
+        {
+          "id": "gen-l23-v2-w1",
+          "source": "generated-l23-v2-w1",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "geometria_przestrzenna",
+          "subtopic": "widok plaski",
+          "statement": "Patrzac na szescian z dowolnej strony (prosto na sciane), widzimy:",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "Trojkat",
+            "B": "Kolo",
+            "C": "Kwadrat",
+            "D": "Linie",
+            "E": "Punkt"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "gen-l23-v2-w2",
+          "source": "generated-l23-v2-w2",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "geometria_przestrzenna",
+          "subtopic": "widok z gory prostopadloscianu",
+          "statement": "Pudelko (prostopadlosc1an) lezacy na stole. Z gory widzimy:",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "Kwadrat",
+            "B": "Prostokat",
+            "C": "Trojkat",
+            "D": "Kolo",
+            "E": "Linie"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "gen-l23-v2-w3",
+          "source": "generated-l23-v2-w3",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "geometria_przestrzenna",
+          "subtopic": "widok dwoch kostek obok",
+          "statement": "Dwie jednakowe kostki obok siebie (jedna obok drugiej, NIE na sobie). Z gory widzimy:",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "Jeden kwadrat",
+            "B": "Prostokat zlozony z 2 kwadratow",
+            "C": "Pionowy prostokat",
+            "D": "Trojkat",
+            "E": "Linia"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "gen-l23-v2-w4",
+          "source": "generated-l23-v2-w4",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "geometria_przestrzenna",
+          "subtopic": "widok schodow",
+          "statement": "Trzy kostki ulozone schodami (1 na dole, 1 wyzej obok, 1 jeszcze wyzej). Z gory widzimy:",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "Jeden kwadrat",
+            "B": "Dwa kwadraty obok siebie",
+            "C": "Trzy kwadraty obok siebie",
+            "D": "Trojkat",
+            "E": "Kwadrat 2x2"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "gen-l23-v2-w5",
+          "source": "generated-l23-v2-w5",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "geometria_przestrzenna",
+          "subtopic": "co widac ze zwiazku scian",
+          "statement": "Patrzac na konstrukcje z 4 kostek ulozonych w kwadrat 2x2 na ziemi. Z gory widzimy:",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "Kwadrat 1x1",
+            "B": "Kwadrat 2x2",
+            "C": "Prostokat",
+            "D": "Trojkat",
+            "E": "Krzyz"
+          },
+          "correct": "B"
+        }
+      ],
+      "challenge": [
+        {
+          "id": "gen-l23-v2-c1",
+          "source": "generated-l23-v2-c1",
+          "year": null,
+          "number": null,
+          "difficulty": "4pkt",
+          "topic": "geometria_przestrzenna",
+          "subtopic": "widok z 3 stron",
+          "statement": "Wieza z 2 kostek (jedna na drugiej). Z ilu stron widzimy ten sam ksztalt (kwadrat lub prostokat)?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "1",
+            "B": "2",
+            "C": "3",
+            "D": "4",
+            "E": "6"
+          },
+          "correct": "D"
+        },
+        {
+          "id": "gen-l23-v2-c2",
+          "source": "generated-l23-v2-c2",
+          "year": null,
+          "number": null,
+          "difficulty": "5pkt",
+          "topic": "geometria_przestrzenna",
+          "subtopic": "liczba kostek z widokow",
+          "statement": "Z gory widac 3 kwadraty w rzedzie. Z przodu widac 2 kwadraty (jeden na drugim, w pierwszej pozycji). Z boku widac 2 kwadraty (jeden na drugim). Ile kostek tworzy ta bryla MINIMUM?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "3",
+            "B": "4",
+            "C": "5",
+            "D": "6",
+            "E": "12"
+          },
+          "correct": "B"
+        }
+      ],
+      "solutions": [
+        {
+          "problemId": "gen-l23-v2-w1",
+          "observation": "Kazda sciana szescianu to kwadrat.",
+          "strategy": "Widok z dowolnej strony.",
+          "steps": [
+            "Szescian ma wszystkie sciany kwadratowe"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l23-v2-w2",
+          "observation": "Pudelko z gory - prostokatna gorna sciana.",
+          "strategy": "Widok z gory prostopadlosc1anu.",
+          "steps": [
+            "Gorna sciana pudelka to prostokat"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l23-v2-w3",
+          "observation": "Dwie kostki obok siebie - z gory widac 2 kwadraty.",
+          "strategy": "Widok z gory.",
+          "steps": [
+            "Dwie kostki na podlodze - z gory zarys to 2 kwadraty obok siebie"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l23-v2-w4",
+          "observation": "Schody - kazda kostka w innej kolumnie z gory.",
+          "strategy": "Widok schodow z gory.",
+          "steps": [
+            "3 kostki ulozone schodami zajmuja 3 rozne kolumny",
+            "Z gory widac 3 kwadraty w rzedzie"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l23-v2-w5",
+          "observation": "Kwadrat 2x2 z 4 kostek - z gory caly kwadrat 2x2.",
+          "strategy": "Rzut z gory.",
+          "steps": [
+            "4 kostki na ziemi w ukladzie 2x2 - z gory widac kwadrat 2x2"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l23-v2-c1",
+          "observation": "Wieza 2 kostek - 4 boczne strony daja prostokat, gora i dol kwadrat.",
+          "strategy": "Liczenie widokow.",
+          "steps": [
+            "Z boku (4 strony) widac pionowy prostokat 1x2",
+            "Z gory i z dolu widac kwadrat",
+            "4 boczne widoki sa identyczne"
+          ],
+          "answer": "D",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l23-v2-c2",
+          "observation": "Z widokow ustalamy minimalna liczbe kostek.",
+          "strategy": "Rekonstrukcja z widokow.",
+          "steps": [
+            "Z gory: 3 kwadraty w rzedzie - bryla zajmuje 3 kolumny",
+            "Z przodu: 2 kwadraty pionowo w pierwszej kolumnie",
+            "Z boku: 2 kwadraty pionowo",
+            "Minimum: 1 wieza 2 kostek + 2 pojedyncze kostki = 4 kostki"
+          ],
+          "answer": "B",
+          "alternative": null
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Widok z gory pokazuje:",
+      "choices": {
+        "A": "Wysokosc",
+        "B": "Zarys (rzut) z gory",
+        "C": "Wnetrze"
+      },
+      "correct": "B",
+      "explain": "Widok z gory to rzut - jakie pola zajmuje bryla, bez wysokosci."
+    },
+    {
+      "q": "Wieza z 4 kostek (jedna na drugiej) z gory wyglada jak:",
+      "choices": {
+        "A": "Jeden kwadrat",
+        "B": "Cztery kwadraty",
+        "C": "Prostokat"
+      },
+      "correct": "A",
+      "explain": "Z gory widac tylko gorna kostke - jeden kwadrat."
+    },
+    {
+      "q": "Aby narysowac widok bryly z boku:",
+      "choices": {
+        "A": "Patrzymy z gory",
+        "B": "Patrzymy w bok",
+        "C": "Pomijamy bryle"
+      },
+      "correct": "B",
+      "explain": "Widok z boku to to, co widzimy patrzac na bryle z boku."
+    }
+  ]
+}

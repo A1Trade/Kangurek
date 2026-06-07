@@ -1,0 +1,486 @@
+{
+  "year": 2022,
+  "category": "MALUCH",
+  "problems": [
+    {
+      "id": "kangur-maluch-2022-1",
+      "source": "kangur-maluch-2022-1",
+      "year": 2022,
+      "number": 1,
+      "difficulty": "3pkt",
+      "topic": "logika",
+      "subtopic": "sekwencja krokow na siatce",
+      "statement": "Pszczola przemieszcza sie o jedna kratke w prawo (klawisz strzalka w prawo) lub w dol (strzalka w dol). Ktorej sekwencji powinna uzyc Ania, by pszczola trafila z lewej gory na kwiatek w prawej dolnej czesci siatki?",
+      "hasImage": true,
+      "imageNote": "Siatka 6x5 z pszczola w lewym gornym rogu i kwiatkiem w prawym dolnym (3 kratki w prawo, 3 w dol).",
+      "choices": {
+        "A": "prawo dol prawo dol dol prawo",
+        "B": "dol dol prawo dol dol",
+        "C": "prawo dol prawo dol prawo",
+        "D": "prawo prawo dol dol dol",
+        "E": "dol prawo prawo dol dol dol"
+      },
+      "correct": "A"
+    },
+    {
+      "id": "kangur-maluch-2022-2",
+      "source": "kangur-maluch-2022-2",
+      "year": 2022,
+      "number": 2,
+      "difficulty": "3pkt",
+      "topic": "logika",
+      "subtopic": "ukladanie pionkow na planszy",
+      "statement": "Plansza 4x4 z 5 pionkami. Ktory pionek nalezy przestawic, by w kazdym rzedzie i kazdej kolumnie byly dokladnie dwa pionki?",
+      "hasImage": true,
+      "imageNote": "Plansza 4x4 z 5 pionkami oznaczonymi A, B, C, D, E.",
+      "choices": {
+        "A": "A",
+        "B": "B",
+        "C": "C",
+        "D": "D",
+        "E": "E"
+      },
+      "correct": "D"
+    },
+    {
+      "id": "kangur-maluch-2022-3",
+      "source": "kangur-maluch-2022-3",
+      "year": 2022,
+      "number": 3,
+      "difficulty": "3pkt",
+      "topic": "logika",
+      "subtopic": "liczba elementow do zdjecia ze stosu",
+      "statement": "W pudelkach lezace zabawki. Co najmniej ile pudelek powinien zdjac Slawek, by moc otworzyc szare pudelko z napisem 'pociag'? Pozostale nie moga byc poruszone.",
+      "hasImage": true,
+      "imageNote": "Stos 9 pudelek z napisami (plyty, ukladanka, puzzle, samochody, klocki, lalki, tory, pociag-szare, pluszaki, gry).",
+      "choices": {
+        "A": "3",
+        "B": "4",
+        "C": "5",
+        "D": "6",
+        "E": "7"
+      },
+      "correct": "C"
+    },
+    {
+      "id": "kangur-maluch-2022-4",
+      "source": "kangur-maluch-2022-4",
+      "year": 2022,
+      "number": 4,
+      "difficulty": "3pkt",
+      "topic": "geometria_przestrzenna",
+      "subtopic": "widok z gory",
+      "statement": "Z drewnianych klockow ustawiono konstrukcje. Jak wyglada ta konstrukcja z gory?",
+      "hasImage": true,
+      "imageNote": "Konstrukcja z klockow: podstawa kwadratowa, mniejsza warstwa, jeszcze mniejsza, na szczycie pionowy klocek.",
+      "choices": {
+        "A": "3 kwadraty wpisane",
+        "B": "2 kwadraty wpisane",
+        "C": "kwadrat z malym wewnatrz",
+        "D": "sam kwadrat",
+        "E": "maly kwadrat w wiekszym"
+      },
+      "correct": "B"
+    },
+    {
+      "id": "kangur-maluch-2022-5",
+      "source": "kangur-maluch-2022-5",
+      "year": 2022,
+      "number": 5,
+      "difficulty": "3pkt",
+      "topic": "logika",
+      "subtopic": "kwadrat magiczny - znajdz blad",
+      "statement": "Tabela 3x3: 9 1 5 / 3 7 6 / 4 7 4. Suma trzech liczb w kazdym rzedzie i kazdej kolumnie powinna byc taka sama. Jedna liczba zostala wpisana niepoprawnie. Ktora?",
+      "hasImage": true,
+      "imageNote": "Tabela 3x3 z liczbami: rzad1: 9,1,5; rzad2: 3,7,6; rzad3: 4,7,4.",
+      "choices": {
+        "A": "1",
+        "B": "3",
+        "C": "5",
+        "D": "Jedna z czworek",
+        "E": "Jedna z siodemek"
+      },
+      "correct": "B"
+    },
+    {
+      "id": "kangur-maluch-2022-6",
+      "source": "kangur-maluch-2022-6",
+      "year": 2022,
+      "number": 6,
+      "difficulty": "3pkt",
+      "topic": "arytmetyka",
+      "subtopic": "powtarzajacy sie zestaw skokow",
+      "statement": "Kangur wykonal skok 2 m, potem dwa skoki po 1 m (w tym samym kierunku). Kilkukrotnie powtarzal ten zestaw 3 skokow. Ile skokow wykonal, jezeli przebyl 16 m?",
+      "hasImage": true,
+      "imageNote": "Os liczbowa z kangurem skaczacym o 2, potem 1, potem 1.",
+      "choices": {
+        "A": "4",
+        "B": "7",
+        "C": "8",
+        "D": "9",
+        "E": "12"
+      },
+      "correct": "E"
+    },
+    {
+      "id": "kangur-maluch-2022-7",
+      "source": "kangur-maluch-2022-7",
+      "year": 2022,
+      "number": 7,
+      "difficulty": "3pkt",
+      "topic": "logika",
+      "subtopic": "ukladanka 1-5 - bez sasiednich powtorzen",
+      "statement": "Ktory z 5 elementow ukladanki nalezy polozyc na srodku, by kwadraciki oznaczone ta sama liczba nie sasiadowaly ze soba?",
+      "hasImage": true,
+      "imageNote": "Ukladanka z liczbami 1-5 z dziurka w srodku, oraz 5 wariantow elementu do wstawienia.",
+      "choices": {
+        "A": "wzor A",
+        "B": "wzor B",
+        "C": "wzor C",
+        "D": "wzor D",
+        "E": "wzor E"
+      },
+      "correct": "E"
+    },
+    {
+      "id": "kangur-maluch-2022-8",
+      "source": "kangur-maluch-2022-8",
+      "year": 2022,
+      "number": 8,
+      "difficulty": "3pkt",
+      "topic": "geometria_plaska",
+      "subtopic": "odbicia od lustra - tor lasera",
+      "statement": "Ukosne kreski to lustra. Promien lasera odbija sie od lustra. Przez ktory punkt (A,B,C,D,E) przejdzie promien wpuszczony wzdluz strzalki na rysunku 2?",
+      "hasImage": true,
+      "imageNote": "Rysunek 1 - przyklad odbicia. Rysunek 2 - prostokat z lustrami i strzalka oraz 5 punktow.",
+      "choices": {
+        "A": "A",
+        "B": "B",
+        "C": "C",
+        "D": "D",
+        "E": "E"
+      },
+      "correct": "C"
+    },
+    {
+      "id": "kangur-maluch-2022-9",
+      "source": "kangur-maluch-2022-9",
+      "year": 2022,
+      "number": 9,
+      "difficulty": "4pkt",
+      "topic": "logika",
+      "subtopic": "kolejka pojazdow - wyprzedzania",
+      "statement": "Pojazdy 1,2,3,4,5 jada jeden za drugim. Najpierw ostatnie auto wyprzedza dwa samochody. Potem ten ktory jest przedostatni wyprzedza dwa. Na koncu srodkowy wyprzedza dwa. Jaka jest koncowa kolejnosc?",
+      "hasImage": true,
+      "imageNote": "Piec ponumerowanych samochodow w rzedzie 1,2,3,4,5.",
+      "choices": {
+        "A": "2,1,3,5,4",
+        "B": "1,2,3,4,5",
+        "C": "2,1,5,3,4",
+        "D": "3,1,4,2,5",
+        "E": "4,1,2,5,3"
+      },
+      "correct": "A"
+    },
+    {
+      "id": "kangur-maluch-2022-10",
+      "source": "kangur-maluch-2022-10",
+      "year": 2022,
+      "number": 10,
+      "difficulty": "4pkt",
+      "topic": "logika",
+      "subtopic": "dwie liczby z sumy",
+      "statement": "Wiek 6 kangurow: 2, 4, 5, 6, 8, 10 lat. 4 kangury (lacznie 22 lata) idza spac. Pozostale dwa sie bawia. Ile lat maja bawiace sie kangury?",
+      "hasImage": true,
+      "imageNote": "Szesc kangurow z roznymi wiekami.",
+      "choices": {
+        "A": "2 i 8",
+        "B": "4 i 5",
+        "C": "5 i 8",
+        "D": "6 i 8",
+        "E": "6 i 10"
+      },
+      "correct": "C"
+    },
+    {
+      "id": "kangur-maluch-2022-11",
+      "source": "kangur-maluch-2022-11",
+      "year": 2022,
+      "number": 11,
+      "difficulty": "4pkt",
+      "topic": "arytmetyka",
+      "subtopic": "wymiary tablicy rzedow x dzieci",
+      "statement": "Dzieci ustawione w kilku rzedach, po tyle samo w kazdym. Kostek widzi 2 rzedy przed soba i 1 za. W jego rzedzie po prawej 5 dzieci, po lewej 3. Ile dzieci ustawiono?",
+      "hasImage": false,
+      "imageNote": null,
+      "choices": {
+        "A": "36",
+        "B": "27",
+        "C": "18",
+        "D": "17",
+        "E": "10"
+      },
+      "correct": "A"
+    },
+    {
+      "id": "kangur-maluch-2022-12",
+      "source": "kangur-maluch-2022-12",
+      "year": 2022,
+      "number": 12,
+      "difficulty": "4pkt",
+      "topic": "logika",
+      "subtopic": "dopasowanie obrazka do warunkow",
+      "statement": "Dzieci kolorowaly obrazki. Franek: brak krolika. Jozek: jest pilka. Tadzik: rozne zwierzeta. Ala: jedno zwierze. Kajtek: brak zwierzat. Ktory obrazek kolorowal Franek?",
+      "hasImage": true,
+      "imageNote": "Piec obrazkow: A) dwa jeze, B) sama pilka, C) slimak + zolw, D) pilka + ptaki, E) krolik.",
+      "choices": {
+        "A": "A - dwa jeze",
+        "B": "B - pilka",
+        "C": "C - slimak i zolw",
+        "D": "D - pilka i ptaki",
+        "E": "E - krolik"
+      },
+      "correct": "A"
+    },
+    {
+      "id": "kangur-maluch-2022-13",
+      "source": "kangur-maluch-2022-13",
+      "year": 2022,
+      "number": 13,
+      "difficulty": "4pkt",
+      "topic": "geometria_plaska",
+      "subtopic": "liczenie kropek na kwadratowym dywanie",
+      "statement": "Dywan w ksztalcie kwadratu, wzdluz kazdego boku znajduje sie tyle samo kropek w 2 rzedach. Dywan zagiety. Ile jest wszystkich kropek na tym dywanie?",
+      "hasImage": true,
+      "imageNote": "Czerwone kropki na kwadracie z lekkim zagieciem rogu.",
+      "choices": {
+        "A": "32",
+        "B": "36",
+        "C": "40",
+        "D": "44",
+        "E": "48"
+      },
+      "correct": "D"
+    },
+    {
+      "id": "kangur-maluch-2022-14",
+      "source": "kangur-maluch-2022-14",
+      "year": 2022,
+      "number": 14,
+      "difficulty": "4pkt",
+      "topic": "arytmetyka",
+      "subtopic": "LCM obwodow - kiedy ponowne spotkanie",
+      "statement": "Hanik chodzi wokol kwadratu 5x5m. Gerszon wokol prostokata 5x10m. Obaj zaczynaja w tym samym punkcie A z ta sama predkoscia, w przeciwnych kierunkach. Co najmniej ile razy Hanik musi obejsc kwadrat, by ponownie sie spotkac?",
+      "hasImage": true,
+      "imageNote": "Kwadrat 5x5 obok prostokata 5x10, punkt A w narozniku ich styku.",
+      "choices": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4",
+        "E": "5"
+      },
+      "correct": "C"
+    },
+    {
+      "id": "kangur-maluch-2022-15",
+      "source": "kangur-maluch-2022-15",
+      "year": 2022,
+      "number": 15,
+      "difficulty": "4pkt",
+      "topic": "arytmetyka",
+      "subtopic": "niemozliwa suma punktow",
+      "statement": "Turniej 3 druzyn pilki noznej, kazda gra z kazda raz (3 mecze). Za wygrana 3 pkt, remis 1, przegrana 0. Ilu punktow nie mogla zdobyc zadna z druzyn po wszystkich meczach?",
+      "hasImage": false,
+      "imageNote": null,
+      "choices": {
+        "A": "1",
+        "B": "2",
+        "C": "4",
+        "D": "5",
+        "E": "6"
+      },
+      "correct": "D"
+    },
+    {
+      "id": "kangur-maluch-2022-16",
+      "source": "kangur-maluch-2022-16",
+      "year": 2022,
+      "number": 16,
+      "difficulty": "4pkt",
+      "topic": "geometria_przestrzenna",
+      "subtopic": "dlugosc trasy mrowki po piramidze",
+      "statement": "Piramida z szescianow o krawedzi 10 cm. Mrowka weszla na piramide z jednej strony i zeszla z drugiej. Ile cm przeszla mrowka?",
+      "hasImage": true,
+      "imageNote": "Piramida z 3 warstw szescianow widziana z boku i z gory z zaznaczona trasa mrowki.",
+      "choices": {
+        "A": "30",
+        "B": "60",
+        "C": "70",
+        "D": "80",
+        "E": "90"
+      },
+      "correct": "D"
+    },
+    {
+      "id": "kangur-maluch-2022-17",
+      "source": "kangur-maluch-2022-17",
+      "year": 2022,
+      "number": 17,
+      "difficulty": "5pkt",
+      "topic": "geometria_przestrzenna",
+      "subtopic": "liczenie bialych szescianow w bryle",
+      "statement": "Stas zbudowal duzy szescian z 3 rodzajow klockow drewnianych: czarne plaskie, szare ksztalt L, biale male szesciany. Ilu bialych malych szescianow uzyl?",
+      "hasImage": true,
+      "imageNote": "Trzy rodzaje klockow obok siebie + duzy szescian zbudowany z nich.",
+      "choices": {
+        "A": "8",
+        "B": "11",
+        "C": "13",
+        "D": "16",
+        "E": "19"
+      },
+      "correct": "C"
+    },
+    {
+      "id": "kangur-maluch-2022-18",
+      "source": "kangur-maluch-2022-18",
+      "year": 2022,
+      "number": 18,
+      "difficulty": "5pkt",
+      "topic": "geometria_plaska",
+      "subtopic": "dwa zgiecia i przebicie kartki",
+      "statement": "Kwadratowa kartka 6x6 z liczbami 1-36. Ela zagiela ja poziomo (gorna polowa na dolna), potem pionowo (lewa na prawa). Zrobila otwor w jednej kratce (gorny srodek 3x3). Ktore liczby przedziurkowala?",
+      "hasImage": true,
+      "imageNote": "Tabela 6x6 z liczbami 1-36, schematy zgiecia, kratka 3x3 z kropka.",
+      "choices": {
+        "A": "8, 11, 26, 29",
+        "B": "2, 5, 20, 23",
+        "C": "15, 16, 21, 22",
+        "D": "14, 17, 32, 35",
+        "E": "14, 17, 20, 23"
+      },
+      "correct": "E"
+    },
+    {
+      "id": "kangur-maluch-2022-19",
+      "source": "kangur-maluch-2022-19",
+      "year": 2022,
+      "number": 19,
+      "difficulty": "5pkt",
+      "topic": "kombinatoryka",
+      "subtopic": "minimalna liczba elementow spelniajacych warunki",
+      "statement": "Helenka wybrala figury z zestawu (maly biały kwadrat, duzy rozowy kwadrat, maly rozowy trojkat, duzy bialy trojkat, duze biale kolo, male rozowe kolo). Wsrod wybranych sa: 2 zacieniowane, 2 duze, 2 okragle. Co najmniej ile figur wybrala?",
+      "hasImage": true,
+      "imageNote": "Szesc figur o roznych rozmiarach, ksztaltach i kolorach.",
+      "choices": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "5",
+        "E": "6"
+      },
+      "correct": "B"
+    },
+    {
+      "id": "kangur-maluch-2022-20",
+      "source": "kangur-maluch-2022-20",
+      "year": 2022,
+      "number": 20,
+      "difficulty": "5pkt",
+      "topic": "logika",
+      "subtopic": "polaczenia w ukladance domow",
+      "statement": "Sześciokąt z 6 domami A-F dookola. Ewa chce na srodku polozyc fragment z drogami tak, by dom A byl polaczony z B i E, ale NIE z D. Ktore dwa elementy ukladanki spelniaja warunki?",
+      "hasImage": true,
+      "imageNote": "Szesciokat z 6 domami A-F i 5 wariantami srodka z rozne sciezki.",
+      "choices": {
+        "A": "1 i 2",
+        "B": "2 i 3",
+        "C": "1 i 4",
+        "D": "4 i 5",
+        "E": "1 i 5"
+      },
+      "correct": "E"
+    },
+    {
+      "id": "kangur-maluch-2022-21",
+      "source": "kangur-maluch-2022-21",
+      "year": 2022,
+      "number": 21,
+      "difficulty": "5pkt",
+      "topic": "arytmetyka",
+      "subtopic": "ukladu rownan w zagadce",
+      "statement": "Piec dzieci jadlo sliwki. Kinga = Magda + 2. Emilka = Kinga - 3. Jola = Emilka + 1 = Wladek - 3. Ktore dzieci zjadly po tyle samo?",
+      "hasImage": false,
+      "imageNote": null,
+      "choices": {
+        "A": "Jola i Kinga",
+        "B": "Kinga i Wladek",
+        "C": "Magda i Wladek",
+        "D": "Wladek i Emilka",
+        "E": "Jola i Magda"
+      },
+      "correct": "E"
+    },
+    {
+      "id": "kangur-maluch-2022-22",
+      "source": "kangur-maluch-2022-22",
+      "year": 2022,
+      "number": 22,
+      "difficulty": "5pkt",
+      "topic": "geometria_plaska",
+      "subtopic": "zwijanie gasienicy",
+      "statement": "Gasienica Hulajkula sklada sie z kulek zielonych i bialych w okreslonej kolejnosci. Moze sie zwijac, ale kulki sasiednie w rozwinietej musza dotykac sie tez w zwinietej. Ktory obrazek przedstawia zwinieta Hulajkule?",
+      "hasImage": true,
+      "imageNote": "Rozwinieta gasienica z kulek w okreslonej kolejnosci kolorow + 5 wariantow zwijania.",
+      "choices": {
+        "A": "wariant A",
+        "B": "wariant B",
+        "C": "wariant C",
+        "D": "wariant D",
+        "E": "wariant E"
+      },
+      "correct": "A"
+    },
+    {
+      "id": "kangur-maluch-2022-23",
+      "source": "kangur-maluch-2022-23",
+      "year": 2022,
+      "number": 23,
+      "difficulty": "5pkt",
+      "topic": "arytmetyka",
+      "subtopic": "uklad rownan z figurami",
+      "statement": "Kwadrat 3x3 z figurami (trojkat, gwiazda, kolko). Sumy wierszy: 34, 32, 26. Wiersz 1: trojkat, gwiazda, gwiazda. Wiersz 2: trojkat, gwiazda, kolko. Wiersz 3: gwiazda, trojkat, trojkat. Jaka liczba jest ukryta pod kolkiem?",
+      "hasImage": true,
+      "imageNote": "Tabela 3x3 z trzema rodzajami figur i sumami wierszy 34, 32, 26.",
+      "choices": {
+        "A": "6",
+        "B": "8",
+        "C": "10",
+        "D": "12",
+        "E": "14"
+      },
+      "correct": "D"
+    },
+    {
+      "id": "kangur-maluch-2022-24",
+      "source": "kangur-maluch-2022-24",
+      "year": 2022,
+      "number": 24,
+      "difficulty": "5pkt",
+      "topic": "kombinatoryka",
+      "subtopic": "podzial na rowne sumy",
+      "statement": "Skrzynie maja wagi: 1, 2, 3, 4, 5, 6, 9, 13, 17 kg. Sadownik podzielil je na 3 grupy po 3 skrzynie, kazda grupa ma rowna sume. Ktora skrzynia trafila do tej samej grupy co 6 kg?",
+      "hasImage": true,
+      "imageNote": "9 skrzyń z wagami w kg.",
+      "choices": {
+        "A": "2 kg",
+        "B": "3 kg",
+        "C": "4 kg",
+        "D": "9 kg",
+        "E": "13 kg"
+      },
+      "correct": "D"
+    }
+  ]
+}

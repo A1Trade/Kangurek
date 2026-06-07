@@ -1,0 +1,496 @@
+{
+  "id": "l48",
+  "number": 48,
+  "block": "Strategie konkursowe",
+  "blockCode": "I",
+  "title": "Eliminacja odpowiedzi ABCDE",
+  "topic": "lamiglowki",
+  "estimatedMinutes": 14,
+  "theory": {
+    "intro": "Kazda odpowiedz w Kangurku to A, B, C, D albo E - jedna z 5. Zamiast szukac poprawnej, ELIMINUJ niepoprawne. Czesto 3 z 5 mozna wyrzucic w 10 sekund - zostaja 2, miedzy ktorymi wybierasz dokladniej.",
+    "tool": "Sztuczka 1: ROZMIAR. Jezeli wynik powinien byc okolo 50, odpowiedzi 5 i 500 mozna wyrzucic od razu.\n\nSztuczka 2: PARZYSTOSC. Wynik MUSI byc parzysty/nieparzysty? Wyrzuc te o zlej parzystosci.\n\nSztuczka 3: OSTATNIA CYFRA. 23 razy 7 - 3*7=21, ostatnia 1. Z odpowiedzi szukaj tylko konczacych sie na 1.\n\nSztuczka 4: SENS. Liczba dzieci ujemna? Negatywne pole? Zero powierzchni? Eliminuj 'niemozliwe' odpowiedzi.",
+    "trick": "Pulapka: nie WSZYSTKIE odpowiedzi sa eliminowane technikami. Zostaja 2-3 'realnie mozliwe'. Tutaj juz musisz sprawdzic dokladniej. Eliminacja to sposob na PRZYSPIESZENIE, nie na pominiecie liczenia w 100%."
+  },
+  "versions": [
+    {
+      "versionId": "v1",
+      "label": "Wersja 1 (oryginalna)",
+      "warmup": [
+        {
+          "id": "gen-l48-v1-w1",
+          "source": "generated-l48-v1-w1",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "lamiglowki",
+          "subtopic": "eliminacja parzystosci",
+          "statement": "Suma trzech parzystych. Eliminuj odpowiedzi nieparzyste. Ktorych odpowiedzi NIE eliminujesz?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "7",
+            "B": "8",
+            "C": "11",
+            "D": "13",
+            "E": "15"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "gen-l48-v1-w2",
+          "source": "generated-l48-v1-w2",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "lamiglowki",
+          "subtopic": "eliminacja rozmiaru",
+          "statement": "Liczba dzieci w klasie. Ktora odpowiedz NA PEWNO NIE pasuje?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "20",
+            "B": "25",
+            "C": "100",
+            "D": "30",
+            "E": "15"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "gen-l48-v1-w3",
+          "source": "generated-l48-v1-w3",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "lamiglowki",
+          "subtopic": "eliminacja ostatniej cyfry",
+          "statement": "13 razy 4 - ostatnia cyfra wyniku to 3*4=12, czyli 2. Ktora odpowiedz pasuje?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "50",
+            "B": "51",
+            "C": "52",
+            "D": "53",
+            "E": "54"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "kangur-maluch-2013-1",
+          "source": "kangur-maluch-2013-1",
+          "year": 2013,
+          "number": 1,
+          "difficulty": "3pkt",
+          "topic": "logika",
+          "subtopic": "porownywanie liczby obiektow",
+          "statement": "Na ktorym z ponizszych rysunkow (siatki 4x4 z kangurami) czarnych kangurow jest WIECEJ niz bialych?",
+          "hasImage": true,
+          "imageNote": "Piec siatek 4x4 z czarnymi i bialymi kangurami w roznych ukladach.",
+          "choices": {
+            "A": "siatka A",
+            "B": "siatka B",
+            "C": "siatka C",
+            "D": "siatka D",
+            "E": "siatka E"
+          },
+          "correct": "D"
+        },
+        {
+          "id": "kangur-maluch-2016-1",
+          "source": "kangur-maluch-2016-1",
+          "year": 2016,
+          "number": 1,
+          "difficulty": "3pkt",
+          "topic": "arytmetyka",
+          "subtopic": "suma oczek z dwoch rzutow kostka",
+          "statement": "Ania, Basia, Cesia, Dorotka i Ela rzucaly kostka do gry, kazda dwa razy. Ktora wyrzucila lacznie najwiecej oczek?",
+          "hasImage": true,
+          "imageNote": "Piec par kostek z roznymi liczbami oczek dla kazdej dziewczynki.",
+          "choices": {
+            "A": "Ania",
+            "B": "Basia",
+            "C": "Cesia",
+            "D": "Dorotka",
+            "E": "Ela"
+          },
+          "correct": "D"
+        }
+      ],
+      "challenge": [
+        {
+          "id": "kangur-maluch-2016-7",
+          "source": "kangur-maluch-2016-7",
+          "year": 2016,
+          "number": 7,
+          "difficulty": "3pkt",
+          "topic": "arytmetyka",
+          "subtopic": "dzielenie z ulamkiem - polowki",
+          "statement": "W koszyku byly jablka. Ania i jej piec kolezanek podzielily je miedzy siebie. Kazda dostala pol jablka. Ile jablek bylo w koszyku?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "2",
+            "B": "3",
+            "C": "4",
+            "D": "5",
+            "E": "6"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "kangur-maluch-2021-5",
+          "source": "kangur-maluch-2021-5",
+          "year": 2021,
+          "number": 5,
+          "difficulty": "3pkt",
+          "topic": "arytmetyka",
+          "subtopic": "najwieksza suma punktow na tarczy",
+          "statement": "Franek i czterej koledzy strzelali po 3 razy do tarczy (pierscienie 10, 9, 8, 7, 6 - srodek 10). Franek zdobyl najwiecej punktow. Do ktorej tarczy strzelal Franek?",
+          "hasImage": true,
+          "imageNote": "Piec tarcz z trzema trafieniami kazda.",
+          "choices": {
+            "A": "tarcza A",
+            "B": "tarcza B",
+            "C": "tarcza C",
+            "D": "tarcza D",
+            "E": "tarcza E"
+          },
+          "correct": "A"
+        }
+      ],
+      "solutions": [
+        {
+          "problemId": "gen-l48-v1-w1",
+          "observation": "Suma parzystych = parzysta. Tylko 8 parzysta.",
+          "strategy": "Parzystosc.",
+          "steps": [
+            "8 jedyna parzysta"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l48-v1-w2",
+          "observation": "100 dzieci to za duzo na klase.",
+          "strategy": "Rozmiar.",
+          "steps": [
+            "Klasa max 30-40, 100 niemoz."
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l48-v1-w3",
+          "observation": "Ostatnia cyfra 52 = 2.",
+          "strategy": "Ostatnia cyfra.",
+          "steps": [
+            "13*4=52, kon. 2"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2013-1",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Czarnych kangurow wiecej niz bialych - rysunek D.",
+          "steps": [
+            "Czarnych kangurow wiecej niz bialych - rysunek D.",
+            "Poprawna odpowiedz: D"
+          ],
+          "answer": "D",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2016-1",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Ania, Basia, Cesia, Dorotka, Ela kostka 2 razy. Dorotka najwiecej oczek.",
+          "steps": [
+            "Ania, Basia, Cesia, Dorotka, Ela kostka 2 razy. Dorotka najwiecej oczek.",
+            "Poprawna odpowiedz: D"
+          ],
+          "answer": "D",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2016-7",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Ania i 5 kolezanek dziela jablka po pol - 3 jablka.",
+          "steps": [
+            "Ania i 5 kolezanek dziela jablka po pol - 3 jablka.",
+            "Poprawna odpowiedz: B"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2021-5",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Franek 5 tarcz, 3 strzaly kazda. Najwiecej Franek - tarcza A.",
+          "steps": [
+            "Franek 5 tarcz, 3 strzaly kazda. Najwiecej Franek - tarcza A.",
+            "Poprawna odpowiedz: A"
+          ],
+          "answer": "A",
+          "alternative": null
+        }
+      ]
+    },
+    {
+      "versionId": "v2",
+      "label": "Wersja 2 (powtorka)",
+      "warmup": [
+        {
+          "id": "gen-l48-v2-w1",
+          "source": "generated-l48-v2-w1",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "lamiglowki",
+          "subtopic": "eliminacja zerem",
+          "statement": "Pole prostokata 5x4 cm. Ktora odpowiedz NA PEWNO NIE pasuje?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "15",
+            "B": "20",
+            "C": "0",
+            "D": "22",
+            "E": "25"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "gen-l48-v2-w2",
+          "source": "generated-l48-v2-w2",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "lamiglowki",
+          "subtopic": "kazda eliminacja",
+          "statement": "Cyfra ostatnia 27*3 to 7*3=21, czyli 1. Ktora odp pasuje?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "80",
+            "B": "81",
+            "C": "82",
+            "D": "83",
+            "E": "84"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "gen-l48-v2-w3",
+          "source": "generated-l48-v2-w3",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "lamiglowki",
+          "subtopic": "logiczna eliminacja",
+          "statement": "Liczba minut w godzinie - ktora odp NA PEWNO bledna?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "15",
+            "B": "30",
+            "C": "60",
+            "D": "100",
+            "E": "45"
+          },
+          "correct": "D"
+        },
+        {
+          "id": "kangur-maluch-2014-4",
+          "source": "kangur-maluch-2014-4",
+          "year": 2014,
+          "number": 4,
+          "difficulty": "3pkt",
+          "topic": "arytmetyka",
+          "subtopic": "mnozenie z odejmowaniem czasu",
+          "statement": "Mis koala gdy nie spi zjada 50 g lisci eukaliptusa na godzine. Minionej doby spal 13 godzin. Ile gramow lisci zjadl tej doby?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "550",
+            "B": "130",
+            "C": "650",
+            "D": "50",
+            "E": "450"
+          },
+          "correct": "A"
+        },
+        {
+          "id": "kangur-maluch-2018-4",
+          "source": "kangur-maluch-2018-4",
+          "year": 2018,
+          "number": 4,
+          "difficulty": "3pkt",
+          "topic": "logika",
+          "subtopic": "rozpoznanie biedronki",
+          "statement": "Biedronka Misia ma 5 kropek po prawej stronie i 3 po lewej. Ktory z ponizszych obrazkow na pewno NIE przedstawia Misi?",
+          "hasImage": true,
+          "imageNote": "Pieć biedronek z roznymi ukladami kropek.",
+          "choices": {
+            "A": "biedronka A",
+            "B": "biedronka B",
+            "C": "biedronka C",
+            "D": "biedronka D",
+            "E": "biedronka E"
+          },
+          "correct": "C"
+        }
+      ],
+      "challenge": [
+        {
+          "id": "kangur-maluch-2019-2",
+          "source": "kangur-maluch-2019-2",
+          "year": 2019,
+          "number": 2,
+          "difficulty": "3pkt",
+          "topic": "logika",
+          "subtopic": "porównywanie wysokości, miejsca na podium",
+          "statement": "Wyższy poziom na podium oznacza lepszy wynik zawodnika. Trzecie miejsce zajął zawodnik z numerem:",
+          "hasImage": true,
+          "imageNote": "Pięcioro dzieci stoi na podium na pięciu różnych wysokościach, z przypisanymi numerami od 1 do 5. Trzecie miejsce zajmuje zawodnik nr 2.",
+          "choices": {
+            "A": "1.",
+            "B": "2.",
+            "C": "3.",
+            "D": "4.",
+            "E": "5."
+          },
+          "correct": "B"
+        },
+        {
+          "id": "kangur-maluch-2020-2",
+          "source": "kangur-maluch-2020-2",
+          "year": 2020,
+          "number": 2,
+          "difficulty": "3pkt",
+          "topic": "logika",
+          "subtopic": "kolejnosc wzrostu - drugi etap",
+          "statement": "W poniedzialek wyrosl grzyb i kazdego dnia podrastal. Alicja zrobila zdjecie kazdego dnia od poniedzialku do piatku. Ktore zdjecie zrobila we wtorek (drugi dzien)?",
+          "hasImage": true,
+          "imageNote": "Piec zdjec grzyba o rosnacej wielkosci.",
+          "choices": {
+            "A": "zdjecie A",
+            "B": "zdjecie B",
+            "C": "zdjecie C",
+            "D": "zdjecie D",
+            "E": "zdjecie E"
+          },
+          "correct": "B"
+        }
+      ],
+      "solutions": [
+        {
+          "problemId": "gen-l48-v2-w1",
+          "observation": "Pole 5*4=20. 0 niemozliwe.",
+          "strategy": "Eliminacja zerem.",
+          "steps": [
+            "Pole nie moze byc 0"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l48-v2-w2",
+          "observation": "Ostatnia cyfra 81 = 1.",
+          "strategy": "Ostatnia cyfra.",
+          "steps": [
+            "27*3=81, kon.1"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l48-v2-w3",
+          "observation": "Godzina ma 60 minut. 100 niemozliwe.",
+          "strategy": "Granica wartosci.",
+          "steps": [
+            "60 max"
+          ],
+          "answer": "D",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2014-4",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Koala 50 g lisci na godz. Spal 13 godz, nie 11. 550 g.",
+          "steps": [
+            "Koala 50 g lisci na godz. Spal 13 godz, nie 11. 550 g.",
+            "Poprawna odpowiedz: A"
+          ],
+          "answer": "A",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2018-4",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Biedronka Misia 5 kropek prawo, 3 lewo. NIE jest biedronka C.",
+          "steps": [
+            "Biedronka Misia 5 kropek prawo, 3 lewo. NIE jest biedronka C.",
+            "Poprawna odpowiedz: C"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2019-2",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Trzecie miejsce na podium = zawodnik nr 2.",
+          "steps": [
+            "Trzecie miejsce na podium = zawodnik nr 2.",
+            "Poprawna odpowiedz: B"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2020-2",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Grzyb rosnie codziennie. Wtorek = drugi dzien = drugie zdjecie B.",
+          "steps": [
+            "Grzyb rosnie codziennie. Wtorek = drugi dzien = drugie zdjecie B.",
+            "Poprawna odpowiedz: B"
+          ],
+          "answer": "B",
+          "alternative": null
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Eliminacja przez ostatnia cyfre:",
+      "choices": {
+        "A": "Wystarcza",
+        "B": "Szybko zawegza pole",
+        "C": "Nigdy nie pomaga"
+      },
+      "correct": "B",
+      "explain": "Szybko zostaje 1-2 odpowiedzi."
+    },
+    {
+      "q": "100 dzieci w klasie:",
+      "choices": {
+        "A": "Mozliwe",
+        "B": "Niemozliwe",
+        "C": "Zalezy"
+      },
+      "correct": "B",
+      "explain": "Typowa klasa 25-30 dzieci, 100 jest absurdalne."
+    },
+    {
+      "q": "Eliminacja zostawia zwykle:",
+      "choices": {
+        "A": "Wszystkie",
+        "B": "1-2 odpowiedzi",
+        "C": "Zero"
+      },
+      "correct": "B",
+      "explain": "Zwykle zostaja 2 realne odpowiedzi."
+    }
+  ]
+}

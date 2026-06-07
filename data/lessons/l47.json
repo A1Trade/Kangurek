@@ -1,0 +1,496 @@
+{
+  "id": "l47",
+  "number": 47,
+  "block": "Strategie konkursowe",
+  "blockCode": "I",
+  "title": "Szukaj wzoru zamiast liczyc",
+  "topic": "lamiglowki",
+  "estimatedMinutes": 14,
+  "theory": {
+    "intro": "Kangurek 24 zadania w 75 minut = 3 minuty na zadanie. Liczenie kazdego elementu po kolei to przegrana. Znacznie szybciej: znajdz WZOR, ZAREGULE, klucz - i policz raz, potem uogolnij. To trenowanie 'matematycznej intuicji'.",
+    "tool": "Sztuczka 1: SUMA 1+2+...+N = N RAZY (N+1) PRZEZ 2. Nie sumuj po kolei! Suma 1-10 = 10*11/2 = 55. Suma 1-100 = 100*101/2 = 5050.\n\nSztuczka 2: ROZNICE STALE = CIAG ARYTMETYCZNY. Jezeli kazdy kolejny element ma roznice stala, wyciagasz wzor: a + (n-1)*d.\n\nSztuczka 3: ODWRACANIE OPERACJI. Wynik 100, ostatnio mnozono przez 5: cofnij dzielac. Lancuch operacji rozwijasz wstecz.\n\nSztuczka 4: PARZYSTOSC I OSTATNIA CYFRA. Czesto wystarczy sprawdzic parzystosc albo ostatnia cyfre wyniku, by wyeliminowac 3 z 5 odpowiedzi.",
+    "trick": "Pulapka: zadanie 'ile sposobow' z konkretnymi liczbami pyta o WZOR, nie pelne wypisanie. Wzor pozwala odpowiedziec w 10 sekund, wypisanie - w 10 minut. Trenuj rozpoznawanie wzorow."
+  },
+  "versions": [
+    {
+      "versionId": "v1",
+      "label": "Wersja 1 (oryginalna)",
+      "warmup": [
+        {
+          "id": "gen-l47-v1-w1",
+          "source": "generated-l47-v1-w1",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "lamiglowki",
+          "subtopic": "suma 1 do N",
+          "statement": "Ile to 1 + 2 + 3 + ... + 10?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "45",
+            "B": "50",
+            "C": "55",
+            "D": "60",
+            "E": "100"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "gen-l47-v1-w2",
+          "source": "generated-l47-v1-w2",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "lamiglowki",
+          "subtopic": "ciag arytmetyczny",
+          "statement": "Jaki bedzie 10. element w ciagu 2, 5, 8, 11, 14...?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "23",
+            "B": "26",
+            "C": "29",
+            "D": "32",
+            "E": "35"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "gen-l47-v1-w3",
+          "source": "generated-l47-v1-w3",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "lamiglowki",
+          "subtopic": "cykle dni",
+          "statement": "Dzis sroda. Jaki dzien bedzie za 700 dni?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "Poniedzialek",
+            "B": "Wtorek",
+            "C": "Sroda",
+            "D": "Czwartek",
+            "E": "Niedziela"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "kangur-maluch-2020-3",
+          "source": "kangur-maluch-2020-3",
+          "year": 2020,
+          "number": 3,
+          "difficulty": "3pkt",
+          "topic": "arytmetyka",
+          "subtopic": "kolorowanie kratek z wynikiem 20",
+          "statement": "W tabeli sa dzialania: 16+4, 19+1, 28-8, 2 razy 10, 16-4, 7 razy 3. Pokoloruj kratki, w ktorych wynik wynosi 20. Ktora kolorowanke otrzymamy?",
+          "hasImage": true,
+          "imageNote": "Tabela 2x3 z dzialaniami, 5 wariantow kolorowanki.",
+          "choices": {
+            "A": "wzor A",
+            "B": "wzor B",
+            "C": "wzor C",
+            "D": "wzor D",
+            "E": "wzor E"
+          },
+          "correct": "A"
+        },
+        {
+          "id": "kangur-maluch-2014-5",
+          "source": "kangur-maluch-2014-5",
+          "year": 2014,
+          "number": 5,
+          "difficulty": "3pkt",
+          "topic": "arytmetyka",
+          "subtopic": "laczenie kropek wedlug roznic",
+          "statement": "Marysia obliczyla roznice: 2-2, 6-5, 8-6, 11-8, 13-9, 17-12. Polaczyla kropki od najmniejszej do najwiekszej roznicy. Ktory rysunek otrzymala?",
+          "hasImage": true,
+          "imageNote": "Szesc kropek w dwoch kolumnach z dzialaniami, 5 wariantow polaczen.",
+          "choices": {
+            "A": "wzor A",
+            "B": "wzor B",
+            "C": "wzor C",
+            "D": "wzor D",
+            "E": "wzor E"
+          },
+          "correct": "E"
+        }
+      ],
+      "challenge": [
+        {
+          "id": "kangur-maluch-2020-11",
+          "source": "kangur-maluch-2020-11",
+          "year": 2020,
+          "number": 11,
+          "difficulty": "4pkt",
+          "topic": "arytmetyka",
+          "subtopic": "spotkanie w ruchu - schody",
+          "statement": "Kangur wchodzi 7 schodkow do gory w czasie, gdy krolik schodzi 3 schodki w dol. Schodkow jest 100. Kangur startuje z dolu, krolik z gory. Na ktorym schodku sie spotkaja?",
+          "hasImage": true,
+          "imageNote": "Schody ze 100 stopniami, kangur u dolu, krolik u gory.",
+          "choices": {
+            "A": "53",
+            "B": "60",
+            "C": "63",
+            "D": "70",
+            "E": "73"
+          },
+          "correct": "D"
+        },
+        {
+          "id": "kangur-maluch-2013-19",
+          "source": "kangur-maluch-2013-19",
+          "year": 2013,
+          "number": 19,
+          "difficulty": "5pkt",
+          "topic": "arytmetyka",
+          "subtopic": "iloczyn cyfr roku wiekszy od sumy",
+          "statement": "Ile lat musi uplynac od 1 stycznia 2013, aby po raz pierwszy nastapil rok, w ktorym iloczyn wszystkich cyfr roku jest WIEKSZY od sumy tych cyfr?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "87",
+            "B": "98",
+            "C": "101",
+            "D": "102",
+            "E": "103"
+          },
+          "correct": "D"
+        }
+      ],
+      "solutions": [
+        {
+          "problemId": "gen-l47-v1-w1",
+          "observation": "Wzor: n*(n+1)/2 = 10*11/2.",
+          "strategy": "Wzor na sume.",
+          "steps": [
+            "10*11/2 = 55"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l47-v1-w2",
+          "observation": "a + (n-1)*d = 2 + 9*3 = 29.",
+          "strategy": "Wzor ciagu.",
+          "steps": [
+            "2 + 9*3 = 2+27 = 29"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l47-v1-w3",
+          "observation": "700:7 = 100, reszta 0.",
+          "strategy": "Wzor cykliczny.",
+          "steps": [
+            "700:7=100 reszta 0, ten sam dzien"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2020-3",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Tabelka kolorowanka wynik 20. Pole z 2+10, 16+4, 19+1 - kolorowanka A.",
+          "steps": [
+            "Tabelka kolorowanka wynik 20. Pole z 2+10, 16+4, 19+1 - kolorowanka A.",
+            "Poprawna odpowiedz: A"
+          ],
+          "answer": "A",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2014-5",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Marysia kolejne roznice: 0,1,2,3,4,5. Polacz kropki E.",
+          "steps": [
+            "Marysia kolejne roznice: 0,1,2,3,4,5. Polacz kropki E.",
+            "Poprawna odpowiedz: E"
+          ],
+          "answer": "E",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2020-11",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Kangur 7 schodkow gora, krolik 3 dol, 100 schodkow. Spotykaja na 70.",
+          "steps": [
+            "Kangur 7 schodkow gora, krolik 3 dol, 100 schodkow. Spotykaja na 70.",
+            "Poprawna odpowiedz: D"
+          ],
+          "answer": "D",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2013-19",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Cyfra 5 pojawia sie 16 razy w numeracji. Max stron: 102 lat (rok 2115).",
+          "steps": [
+            "Cyfra 5 pojawia sie 16 razy w numeracji. Max stron: 102 lat (rok 2115).",
+            "Poprawna odpowiedz: D"
+          ],
+          "answer": "D",
+          "alternative": null
+        }
+      ]
+    },
+    {
+      "versionId": "v2",
+      "label": "Wersja 2 (powtorka)",
+      "warmup": [
+        {
+          "id": "gen-l47-v2-w1",
+          "source": "generated-l47-v2-w1",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "lamiglowki",
+          "subtopic": "suma duza",
+          "statement": "Ile to 1 + 2 + 3 + ... + 20?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "100",
+            "B": "150",
+            "C": "200",
+            "D": "210",
+            "E": "400"
+          },
+          "correct": "D"
+        },
+        {
+          "id": "gen-l47-v2-w2",
+          "source": "generated-l47-v2-w2",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "lamiglowki",
+          "subtopic": "odwrocenie",
+          "statement": "Mysle liczbe. Mnoze przez 5, dodaje 3, wynik 38. Jaka liczba?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "5",
+            "B": "6",
+            "C": "7",
+            "D": "8",
+            "E": "10"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "gen-l47-v2-w3",
+          "source": "generated-l47-v2-w3",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "lamiglowki",
+          "subtopic": "parzystosc",
+          "statement": "Suma trzech nieparzystych liczb jest:",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "Parzysta",
+            "B": "Nieparzysta",
+            "C": "Raz tak raz tak",
+            "D": "Zerem",
+            "E": "Niewiazoma"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "kangur-maluch-2015-11",
+          "source": "kangur-maluch-2015-11",
+          "year": 2015,
+          "number": 11,
+          "difficulty": "4pkt",
+          "topic": "arytmetyka",
+          "subtopic": "wymiana i wyrownanie ilosci",
+          "statement": "Tomek mial 7 jablek i 2 banany. Dal 2 jablka Slawkowi, w zamian dostal banany. Teraz ma tyle samo jablek co bananow. Ile bananow dostal od Slawka?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "2",
+            "B": "3",
+            "C": "4",
+            "D": "5",
+            "E": "6"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "kangur-maluch-2015-3",
+          "source": "kangur-maluch-2015-3",
+          "year": 2015,
+          "number": 3,
+          "difficulty": "3pkt",
+          "topic": "lamiglowki",
+          "subtopic": "uklad rownan z figurami",
+          "statement": "Helenka wykonala dwa dzialania: trojkat + 4 = 7 oraz kwadrat + trojkat = 9. Jaka liczbe Helenka zakryla kwadratem?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "2",
+            "B": "3",
+            "C": "4",
+            "D": "5",
+            "E": "6"
+          },
+          "correct": "E"
+        }
+      ],
+      "challenge": [
+        {
+          "id": "kangur-maluch-2013-10",
+          "source": "kangur-maluch-2013-10",
+          "year": 2013,
+          "number": 10,
+          "difficulty": "4pkt",
+          "topic": "arytmetyka",
+          "subtopic": "zmiana wartosci - klamstwa i prawdy",
+          "statement": "Nos Pinokia wydluza sie o 6 cm za kazde klamstwo, skraca o 2 cm za kazda prawde. Nos mial 9 cm. Pinokio powiedzial 3 klamstwa i 2 prawdy. Jak dlugi jest teraz nos?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "14 cm",
+            "B": "15 cm",
+            "C": "19 cm",
+            "D": "23 cm",
+            "E": "31 cm"
+          },
+          "correct": "D"
+        },
+        {
+          "id": "kangur-maluch-2014-22",
+          "source": "kangur-maluch-2014-22",
+          "year": 2014,
+          "number": 22,
+          "difficulty": "5pkt",
+          "topic": "lamiglowki",
+          "subtopic": "kryptarytm - dodawanie z cyframi 0-6",
+          "statement": "Cyfry 0, 1, 2, 3, 4, 5, 6 wpisujemy w pola dzialania dwucyfrowa + dwucyfrowa = trzycyfrowa (kazda cyfra raz, rozne pola rozne cyfry). Ktora cyfra bedzie w szarym polu (jednosci wyniku)?",
+          "hasImage": true,
+          "imageNote": "Diagram dodawania pisemnego z szarym polem jednosci wyniku.",
+          "choices": {
+            "A": "6",
+            "B": "5",
+            "C": "4",
+            "D": "3",
+            "E": "2"
+          },
+          "correct": "B"
+        }
+      ],
+      "solutions": [
+        {
+          "problemId": "gen-l47-v2-w1",
+          "observation": "Wzor: 20*21/2 = 210.",
+          "strategy": "Wzor sumy.",
+          "steps": [
+            "20*21/2 = 210"
+          ],
+          "answer": "D",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l47-v2-w2",
+          "observation": "Cofnij: (38-3):5 = 35:5 = 7.",
+          "strategy": "Odwrocenie operacji.",
+          "steps": [
+            "38-3=35, 35:5=7"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l47-v2-w3",
+          "observation": "Niepar+nieprar=par, par+nieprar=nieprar.",
+          "strategy": "Parzystosc sumy.",
+          "steps": [
+            "3 niepar = nieprar"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2015-11",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Tomek 16 nieb kulek. 3 nieb=1 czerw, 2 czerw=5 zielonych. Max 10 zielonych.",
+          "steps": [
+            "Tomek 16 nieb kulek. 3 nieb=1 czerw, 2 czerw=5 zielonych. Max 10 zielonych.",
+            "Poprawna odpowiedz: B"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2015-3",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Helenka rownania: tr+4=7, kw+tr=9. Tr=3, kw=6.",
+          "steps": [
+            "Helenka rownania: tr+4=7, kw+tr=9. Tr=3, kw=6.",
+            "Poprawna odpowiedz: E"
+          ],
+          "answer": "E",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2013-10",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Pelna szklanka 400g, pusta 100g. Polowka wody=150g, razem 250g.",
+          "steps": [
+            "Pelna szklanka 400g, pusta 100g. Polowka wody=150g, razem 250g.",
+            "Poprawna odpowiedz: D"
+          ],
+          "answer": "D",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2014-22",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Cyfry 0-6 w diagram a+b=c, dwucyfrowe+dwucyfrowe=trzycyfrowe. Cyfra w polu szarym=5.",
+          "steps": [
+            "Cyfry 0-6 w diagram a+b=c, dwucyfrowe+dwucyfrowe=trzycyfrowe. Cyfra w polu szarym=5.",
+            "Poprawna odpowiedz: B"
+          ],
+          "answer": "B",
+          "alternative": null
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Suma 1+2+...+100 to:",
+      "choices": {
+        "A": "500",
+        "B": "5050",
+        "C": "50000"
+      },
+      "correct": "B",
+      "explain": "100*101/2 = 5050."
+    },
+    {
+      "q": "W ciagu z stala roznica wzor to:",
+      "choices": {
+        "A": "a+n*d",
+        "B": "a+(n-1)*d",
+        "C": "n!"
+      },
+      "correct": "B",
+      "explain": "N-ty wyraz: a + (n-1)*roznica."
+    },
+    {
+      "q": "Najszybsze sprawdzenie odpowiedzi to:",
+      "choices": {
+        "A": "Parzystosc lub ostatnia cyfra",
+        "B": "Pelne liczenie",
+        "C": "Zgadywanie"
+      },
+      "correct": "A",
+      "explain": "Parzystosc/cyfra koncowa eliminuja czesc odpowiedzi natychmiast."
+    }
+  ]
+}

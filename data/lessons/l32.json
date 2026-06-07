@@ -1,0 +1,493 @@
+{
+  "id": "l32",
+  "number": 32,
+  "block": "Pomiary i jednostki",
+  "blockCode": "E",
+  "title": "Mieszane zadania z jednostkami",
+  "topic": "pomiary_jednostki",
+  "estimatedMinutes": 14,
+  "theory": {
+    "intro": "W jednym zadaniu masz: 3 m dlugiej tasiemki, 200 g masy, 5 zl ceny i 2 godziny czasu. Trzeba czesto laczyc rozne jednostki: dlugosc + cena (cena za metr), masa + cena (zl za kg), czas + odleglosc (km na godzine). Wyzwanie polega na konsekwentnym uzyciu tych samych jednostek.",
+    "tool": "Sztuczka 1: NAPISZ ZAWSZE JEDNOSTKE. Liczby same w sobie nic nie znacza. '5' to 5 czego? Pisz: 5 cm, 5 kg, 5 zl. To pomaga sprawdzic czy nie pomylisz jednostek.\n\nSztuczka 2: SPROWADZ DO TEJ SAMEJ JEDNOSTKI. Porownujac, dodajac, odejmujac - WSZYSTKO zamien na jedna jednostke. 3 m + 50 cm: zamien na cm, 300+50=350 cm.\n\nSztuczka 3: STAWKA NA JEDNOSTKE. Cena za 1 metr, 1 kg, 1 godzine - to klucz do wielu zadan. Jezeli 5 m kosztuje 25 zl, to 1 m = 5 zl. Wtedy 8 m = 40 zl.\n\nSztuczka 4: CZAS I ODLEGLOSC. Predkosc = ile km na godzine. Idziesz 5 km/h - po 2 godz przejdziesz 10 km. To prosty wzor: odleglosc = predkosc razy czas.",
+    "trick": "Pulapka Kangurka: ostroznie z 'kilo'. 1 kilogram = 1000 gramow, ale 1 kilometr = 1000 metrow. 'Kilo' to przedrostek oznaczajacy 1000. Nie myl jednostek - cena za kilo (gramow) to cos innego niz cena za kilometr."
+  },
+  "versions": [
+    {
+      "versionId": "v1",
+      "label": "Wersja 1 (oryginalna)",
+      "warmup": [
+        {
+          "id": "gen-l32-v1-w1",
+          "source": "generated-l32-v1-w1",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "pomiary_jednostki",
+          "subtopic": "jednostki - rozpoznanie",
+          "statement": "Czego mierzymy w kilogramach?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "Dlugosci",
+            "B": "Czasu",
+            "C": "Masy",
+            "D": "Pojemnosci",
+            "E": "Pieniedzy"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "gen-l32-v1-w2",
+          "source": "generated-l32-v1-w2",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "pomiary_jednostki",
+          "subtopic": "jednostki - rozpoznanie",
+          "statement": "Czego mierzymy w litrach?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "Dlugosci",
+            "B": "Masy",
+            "C": "Czasu",
+            "D": "Pojemnosci",
+            "E": "Powierzchni"
+          },
+          "correct": "D"
+        },
+        {
+          "id": "gen-l32-v1-w3",
+          "source": "generated-l32-v1-w3",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "pomiary_jednostki",
+          "subtopic": "cena za jednostke",
+          "statement": "5 metrow wstazki kosztuje 25 zl. Ile zl za 1 metr?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "3",
+            "B": "4",
+            "C": "5",
+            "D": "10",
+            "E": "20"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "gen-l32-v1-w4",
+          "source": "generated-l32-v1-w4",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "pomiary_jednostki",
+          "subtopic": "predkosc",
+          "statement": "Idziesz 4 km na godzine. Ile km przejdziesz w 3 godziny?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "7",
+            "B": "10",
+            "C": "12",
+            "D": "15",
+            "E": "20"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "kangur-maluch-2016-2",
+          "source": "kangur-maluch-2016-2",
+          "year": 2016,
+          "number": 2,
+          "difficulty": "3pkt",
+          "topic": "czas_kalendarz",
+          "subtopic": "roznica wieku w miesiacach",
+          "statement": "Witek ma 1 rok i 3 miesiace. Za ile miesiecy Witek skonczy 3 lata?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "15",
+            "B": "17",
+            "C": "19",
+            "D": "20",
+            "E": "21"
+          },
+          "correct": "E"
+        }
+      ],
+      "challenge": [
+        {
+          "id": "gen-l32-v1-c1",
+          "source": "generated-l32-v1-c1",
+          "year": null,
+          "number": null,
+          "difficulty": "4pkt",
+          "topic": "pomiary_jednostki",
+          "subtopic": "cena za kg",
+          "statement": "1 kg jablek kosztuje 4 zl. Ile zl za 2 kg 500 g?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "8",
+            "B": "9",
+            "C": "10",
+            "D": "12",
+            "E": "14"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "gen-l32-v1-c2",
+          "source": "generated-l32-v1-c2",
+          "year": null,
+          "number": null,
+          "difficulty": "5pkt",
+          "topic": "pomiary_jednostki",
+          "subtopic": "czas i dlugosc",
+          "statement": "Sciezka ma 1 km 500 m. Ola idzie 100 m na minute. Ile minut bedzie isc cala sciezke?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "10",
+            "B": "15",
+            "C": "20",
+            "D": "25",
+            "E": "30"
+          },
+          "correct": "B"
+        }
+      ],
+      "solutions": [
+        {
+          "problemId": "gen-l32-v1-w1",
+          "observation": "Kilogramy mierza mase.",
+          "strategy": "Identyfikacja jednostki.",
+          "steps": [
+            "kg = masa"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l32-v1-w2",
+          "observation": "Litry mierza pojemnosc.",
+          "strategy": "Identyfikacja.",
+          "steps": [
+            "l = pojemnosc"
+          ],
+          "answer": "D",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l32-v1-w3",
+          "observation": "Cena za 1 m = cena lacznie : ilosc metrow.",
+          "strategy": "Dzielenie.",
+          "steps": [
+            "25 : 5 = 5 zl/m"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l32-v1-w4",
+          "observation": "Odleglosc = predkosc razy czas.",
+          "strategy": "Mnozenie.",
+          "steps": [
+            "4 razy 3 = 12 km"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2016-2",
+          "observation": "Witek 1 rok 3 miesiace, do 3 lat ile miesiecy.",
+          "strategy": "Roznica wieku w miesiacach.",
+          "steps": [
+            "1 rok 3 mies = 15 mies",
+            "3 lata = 36 mies",
+            "36 - 15 = 21 mies"
+          ],
+          "answer": "E",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l32-v1-c1",
+          "observation": "Zamien 2 kg 500 g na pol kg.",
+          "strategy": "Cena za zlozona mase.",
+          "steps": [
+            "2 kg 500 g = 2.5 kg",
+            "2.5 razy 4 = 10 zl"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l32-v1-c2",
+          "observation": "Sciezka 1500 m, predkosc 100 m/min.",
+          "strategy": "Czas = odleglosc : predkosc.",
+          "steps": [
+            "1 km 500 m = 1500 m",
+            "1500 : 100 = 15 min"
+          ],
+          "answer": "B",
+          "alternative": null
+        }
+      ]
+    },
+    {
+      "versionId": "v2",
+      "label": "Wersja 2 (powtorka)",
+      "warmup": [
+        {
+          "id": "gen-l32-v2-w1",
+          "source": "generated-l32-v2-w1",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "pomiary_jednostki",
+          "subtopic": "co czym mierzymy",
+          "statement": "Czego mierzymy w sekundach?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "Dlugosci",
+            "B": "Masy",
+            "C": "Czasu",
+            "D": "Pojemnosci",
+            "E": "Pieniedzy"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "gen-l32-v2-w2",
+          "source": "generated-l32-v2-w2",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "pomiary_jednostki",
+          "subtopic": "predkosc minutowa",
+          "statement": "Pies biegnie 200 metrow na minute. Ile metrow przebiegnie w 5 minut?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "500",
+            "B": "800",
+            "C": "1000",
+            "D": "1200",
+            "E": "2000"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "gen-l32-v2-w3",
+          "source": "generated-l32-v2-w3",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "pomiary_jednostki",
+          "subtopic": "cena za kg",
+          "statement": "Cukier kosztuje 6 zl za kilogram. Ile za 3 kg?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "9",
+            "B": "12",
+            "C": "15",
+            "D": "18",
+            "E": "21"
+          },
+          "correct": "D"
+        },
+        {
+          "id": "gen-l32-v2-w4",
+          "source": "generated-l32-v2-w4",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "pomiary_jednostki",
+          "subtopic": "jednostka cyfra",
+          "statement": "Stol ma dlugosc 1 metr 50 cm. Ile to centymetrow?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "15",
+            "B": "150",
+            "C": "1500",
+            "D": "105",
+            "E": "1050"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "gen-l32-v2-w5",
+          "source": "generated-l32-v2-w5",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "pomiary_jednostki",
+          "subtopic": "cena za 100 g",
+          "statement": "100 g serow kosztuje 3 zl. Ile za pol kg?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "3 zl",
+            "B": "6 zl",
+            "C": "10 zl",
+            "D": "15 zl",
+            "E": "30 zl"
+          },
+          "correct": "D"
+        }
+      ],
+      "challenge": [
+        {
+          "id": "gen-l32-v2-c1",
+          "source": "generated-l32-v2-c1",
+          "year": null,
+          "number": null,
+          "difficulty": "4pkt",
+          "topic": "pomiary_jednostki",
+          "subtopic": "czas + dlugosc",
+          "statement": "Maraton ma 42 km. Biegacz biegnie 6 km na godzine. Ile godzin (w przyblizeniu) bedzie biegl?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "5",
+            "B": "6",
+            "C": "7",
+            "D": "8",
+            "E": "10"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "gen-l32-v2-c2",
+          "source": "generated-l32-v2-c2",
+          "year": null,
+          "number": null,
+          "difficulty": "5pkt",
+          "topic": "pomiary_jednostki",
+          "subtopic": "zlozone zadanie",
+          "statement": "Mleko kosztuje 4 zl za litr. Mama kupila 2 butelki po 1.5 l. Ile zaplacila?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "6 zl",
+            "B": "8 zl",
+            "C": "10 zl",
+            "D": "12 zl",
+            "E": "15 zl"
+          },
+          "correct": "D"
+        }
+      ],
+      "solutions": [
+        {
+          "problemId": "gen-l32-v2-w1",
+          "observation": "Sekundy mierza czas.",
+          "strategy": "Identyfikacja.",
+          "steps": [
+            "sek = czas"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l32-v2-w2",
+          "observation": "Odleglosc = predkosc razy czas.",
+          "strategy": "Mnozenie.",
+          "steps": [
+            "200 razy 5 = 1000 m"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l32-v2-w3",
+          "observation": "Cena = stawka razy ilosc.",
+          "strategy": "Mnozenie.",
+          "steps": [
+            "3 razy 6 = 18 zl"
+          ],
+          "answer": "D",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l32-v2-w4",
+          "observation": "1 m = 100 cm, plus 50 = 150 cm.",
+          "strategy": "Zamiana + dodawanie.",
+          "steps": [
+            "100 + 50 = 150 cm"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l32-v2-w5",
+          "observation": "Pol kg = 500 g = 5 razy 100 g.",
+          "strategy": "Mnozenie.",
+          "steps": [
+            "5 razy 3 zl = 15 zl"
+          ],
+          "answer": "D",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l32-v2-c1",
+          "observation": "Maraton 42 km, 6 km/h.",
+          "strategy": "Dzielenie.",
+          "steps": [
+            "42 : 6 = 7 godz"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l32-v2-c2",
+          "observation": "2 butelki po 1.5 l = 3 l.",
+          "strategy": "Mnozenie i dodawanie.",
+          "steps": [
+            "2 razy 1.5 = 3 l",
+            "3 razy 4 zl = 12 zl"
+          ],
+          "answer": "D",
+          "alternative": null
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Kilogramy mierza:",
+      "choices": {
+        "A": "Dlugosc",
+        "B": "Mase",
+        "C": "Czas"
+      },
+      "correct": "B",
+      "explain": "kg to jednostka masy."
+    },
+    {
+      "q": "1 km na godzine to:",
+      "choices": {
+        "A": "Predkosc",
+        "B": "Mase",
+        "C": "Czas"
+      },
+      "correct": "A",
+      "explain": "km/h to jednostka predkosci."
+    },
+    {
+      "q": "Sprowadzenie do jednej jednostki pomaga:",
+      "choices": {
+        "A": "Pomylic sie",
+        "B": "Latwiej porownywac i liczyc",
+        "C": "Robic blad"
+      },
+      "correct": "B",
+      "explain": "Te same jednostki - latwiej porownujemy i liczymy."
+    }
+  ]
+}

@@ -1,0 +1,507 @@
+{
+  "id": "l09",
+  "number": 9,
+  "block": "Wzory, ciagi, regularnosci",
+  "blockCode": "B",
+  "title": "Ciagi liczbowe - co dalej?",
+  "topic": "wzory_i_ciagi",
+  "estimatedMinutes": 14,
+  "theory": {
+    "intro": "Skaczesz po schodach co dwa stopnie: 2, 4, 6, 8... Jaki bedzie nastepny? Latwo - 10. To ciag liczbowy. Kazdy ciag ma swoja regule, a Twoim zadaniem jest ja odkryc i przewidziec, co bedzie dalej.",
+    "tool": "Sztuczka 1: ZNAJDZ ROZNICE. Odejmij sasiednie liczby. W ciagu 3, 7, 11, 15 roznica to zawsze 4. Nastepna liczba: 15 + 4 = 19.\n\nSztuczka 2: SPRAWDZ CZY MNOZYSZ. Jezeli roznice rosna, moze zamiast dodawac - mnozysz. 1, 2, 4, 8, 16 - tu kazda liczba to podwojona poprzednia.\n\nSztuczka 3: ROZNICE MOGA ROSNAC. W ciagu 1, 3, 6, 10 roznice to 2, 3, 4 - rosna o 1. Nastepna roznica to 5, czyli liczba 10 + 5 = 15.\n\nSztuczka 4: SUMA DWOCH POPRZEDNICH. W ciagu 1, 1, 2, 3, 5, 8 kazda liczba to suma dwoch przed nia. To slynny ciag Fibonacciego.",
+    "trick": "Kangur lubi ciagi, gdzie regula nie jest oczywista. Zawsze najpierw policz ROZNICE. Jezeli sa stale - dodajesz. Jezeli rosna - albo mnozysz, albo roznice tworza wlasny ciag. Jezeli liczby szybko rosna - to prawie na pewno mnozenie."
+  },
+  "versions": [
+    {
+      "versionId": "v1",
+      "label": "Wersja 1 (oryginalna)",
+      "warmup": [
+        {
+          "id": "gen-l09-w1",
+          "source": "generated-l09-w1",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "wzory_i_ciagi",
+          "subtopic": "ciag arytmetyczny - stala roznica",
+          "statement": "Jaka liczba powinna byc nastepna w ciagu: 2, 4, 6, 8, ?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "9",
+            "B": "10",
+            "C": "12",
+            "D": "14",
+            "E": "16"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "gen-l09-w2",
+          "source": "generated-l09-w2",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "wzory_i_ciagi",
+          "subtopic": "ciag co 5",
+          "statement": "Jaka liczba jest nastepna: 5, 10, 15, 20, ?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "22",
+            "B": "24",
+            "C": "25",
+            "D": "30",
+            "E": "35"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "gen-l09-w3",
+          "source": "generated-l09-w3",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "wzory_i_ciagi",
+          "subtopic": "ciag podwajany",
+          "statement": "W ciagu 1, 2, 4, 8, 16, ? kazda liczba to podwojona poprzednia. Jaka liczba jest nastepna?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "18",
+            "B": "24",
+            "C": "30",
+            "D": "32",
+            "E": "64"
+          },
+          "correct": "D"
+        },
+        {
+          "id": "gen-l09-w4",
+          "source": "generated-l09-w4",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "wzory_i_ciagi",
+          "subtopic": "ciag malejacy",
+          "statement": "Jaka liczba jest nastepna w ciagu malejacym: 30, 26, 22, 18, ?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "16",
+            "B": "15",
+            "C": "14",
+            "D": "12",
+            "E": "10"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "gen-l09-w5",
+          "source": "generated-l09-w5",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "wzory_i_ciagi",
+          "subtopic": "ciag z rosnacymi roznicami",
+          "statement": "W ciagu 1, 3, 6, 10, ? roznice rosna o 1. Jaka liczba jest nastepna?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "13",
+            "B": "14",
+            "C": "15",
+            "D": "16",
+            "E": "20"
+          },
+          "correct": "C"
+        }
+      ],
+      "challenge": [
+        {
+          "id": "gen-l09-c1",
+          "source": "generated-l09-c1",
+          "year": null,
+          "number": null,
+          "difficulty": "4pkt",
+          "topic": "wzory_i_ciagi",
+          "subtopic": "regula mnozenie plus jeden",
+          "statement": "W ciagu 2, 5, 11, 23, ? kazda liczba to poprzednia razy 2 plus 1. Jaka jest nastepna?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "35",
+            "B": "42",
+            "C": "46",
+            "D": "47",
+            "E": "48"
+          },
+          "correct": "D"
+        },
+        {
+          "id": "gen-l09-c2",
+          "source": "generated-l09-c2",
+          "year": null,
+          "number": null,
+          "difficulty": "5pkt",
+          "topic": "wzory_i_ciagi",
+          "subtopic": "ciag Fibonacciego",
+          "statement": "W ciagu 1, 1, 2, 3, 5, 8, ? kazda liczba to suma dwoch poprzednich. Jaka jest nastepna?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "11",
+            "B": "12",
+            "C": "13",
+            "D": "14",
+            "E": "21"
+          },
+          "correct": "C"
+        }
+      ],
+      "solutions": [
+        {
+          "problemId": "gen-l09-w1",
+          "observation": "Roznica stala - liczymy ja.",
+          "strategy": "Znajdz roznice.",
+          "steps": [
+            "Roznica: 4-2=2, 6-4=2, 8-6=2",
+            "Nastepna: 8 + 2 = 10"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l09-w2",
+          "observation": "Ciag rosnie co 5.",
+          "strategy": "Znajdz roznice.",
+          "steps": [
+            "Roznica zawsze 5",
+            "Nastepna: 20 + 5 = 25"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l09-w3",
+          "observation": "Liczby szybko rosna - to mnozenie.",
+          "strategy": "Sprawdz czy mnozysz.",
+          "steps": [
+            "Kazda liczba to poprzednia razy 2",
+            "16 razy 2 = 32"
+          ],
+          "answer": "D",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l09-w4",
+          "observation": "Ciag maleje - roznica ujemna.",
+          "strategy": "Znajdz roznice.",
+          "steps": [
+            "Roznica: 26-30=-4, czyli kazda liczba o 4 mniejsza",
+            "18 - 4 = 14"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l09-w5",
+          "observation": "Roznice rosna: 2, 3, 4.",
+          "strategy": "Roznice tworza wlasny ciag.",
+          "steps": [
+            "Roznice: 3-1=2, 6-3=3, 10-6=4",
+            "Nastepna roznica: 5",
+            "10 + 5 = 15"
+          ],
+          "answer": "C",
+          "alternative": "To liczby trojkatne: 1, 3, 6, 10, 15."
+        },
+        {
+          "problemId": "gen-l09-c1",
+          "observation": "Roznice rosna szybko - sprawdz regule mnozenia.",
+          "strategy": "Testuj hipoteze razy 2 plus 1.",
+          "steps": [
+            "2 razy 2 + 1 = 5 OK",
+            "5 razy 2 + 1 = 11 OK",
+            "11 razy 2 + 1 = 23 OK",
+            "23 razy 2 + 1 = 47"
+          ],
+          "answer": "D",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l09-c2",
+          "observation": "Kazda liczba to suma dwoch przed nia.",
+          "strategy": "Reguly Fibonacciego.",
+          "steps": [
+            "8 to 3 + 5",
+            "Nastepna: 5 + 8 = 13"
+          ],
+          "answer": "C",
+          "alternative": null
+        }
+      ]
+    },
+    {
+      "versionId": "v2",
+      "label": "Wersja 2 (powtorka)",
+      "warmup": [
+        {
+          "id": "gen-l9-v2-w1",
+          "source": "generated-l9-v2-w1",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "wzory_i_ciagi",
+          "subtopic": "ciag co 3",
+          "statement": "Jaka liczba jest nastepna w ciagu: 3, 6, 9, 12, ?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "13",
+            "B": "14",
+            "C": "15",
+            "D": "16",
+            "E": "18"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "gen-l9-v2-w2",
+          "source": "generated-l9-v2-w2",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "wzory_i_ciagi",
+          "subtopic": "ciag malejacy co 5",
+          "statement": "Jaka liczba jest nastepna w ciagu malejacym: 50, 45, 40, 35, ?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "25",
+            "B": "28",
+            "C": "30",
+            "D": "32",
+            "E": "33"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "gen-l9-v2-w3",
+          "source": "generated-l9-v2-w3",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "wzory_i_ciagi",
+          "subtopic": "ciag mnozony przez 3",
+          "statement": "W ciagu 1, 3, 9, 27, ? kazda liczba to poprzednia razy 3. Jaka jest nastepna?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "54",
+            "B": "64",
+            "C": "72",
+            "D": "81",
+            "E": "90"
+          },
+          "correct": "D"
+        },
+        {
+          "id": "gen-l9-v2-w4",
+          "source": "generated-l9-v2-w4",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "wzory_i_ciagi",
+          "subtopic": "ciag co 3 od dwojki",
+          "statement": "Jaka liczba jest nastepna: 2, 5, 8, 11, ?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "12",
+            "B": "13",
+            "C": "14",
+            "D": "15",
+            "E": "16"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "kangur-maluch-2020-6",
+          "source": "kangur-maluch-2020-6",
+          "year": 2020,
+          "number": 6,
+          "difficulty": "3pkt",
+          "topic": "wzory_i_ciagi",
+          "subtopic": "ciag co 3 - najwieksza osiagalna liczba",
+          "statement": "Ela stanela na kwadracie z liczba 1 i przeskakiwala na liczbe o 3 wieksza. Dostepne liczby: 1,4,5,7,8,10,11,13,14,16,18,19,20,21,23,24. Jaka najwieksza liczba, na ktorej mogla stanac?",
+          "hasImage": true,
+          "imageNote": "Kwadraty z liczbami narysowane kreda na chodniku.",
+          "choices": {
+            "A": "11",
+            "B": "14",
+            "C": "18",
+            "D": "19",
+            "E": "24"
+          },
+          "correct": "D"
+        }
+      ],
+      "challenge": [
+        {
+          "id": "gen-l9-v2-c1",
+          "source": "generated-l9-v2-c1",
+          "year": null,
+          "number": null,
+          "difficulty": "4pkt",
+          "topic": "wzory_i_ciagi",
+          "subtopic": "ciag kwadratow",
+          "statement": "W ciagu 1, 4, 9, 16, ? kazda liczba to kolejna liczba pomnozona przez sama siebie. Jaka jest nastepna?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "20",
+            "B": "24",
+            "C": "25",
+            "D": "30",
+            "E": "36"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "gen-l9-v2-c2",
+          "source": "generated-l9-v2-c2",
+          "year": null,
+          "number": null,
+          "difficulty": "5pkt",
+          "topic": "wzory_i_ciagi",
+          "subtopic": "ciag z rosnacymi roznicami",
+          "statement": "W ciagu 3, 4, 6, 9, 13, 18, ? roznice rosna: 1, 2, 3, 4, 5. Jaka liczba jest nastepna?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "22",
+            "B": "23",
+            "C": "24",
+            "D": "25",
+            "E": "26"
+          },
+          "correct": "C"
+        }
+      ],
+      "solutions": [
+        {
+          "problemId": "gen-l9-v2-w1",
+          "observation": "Roznica stala 3.",
+          "strategy": "Znajdz roznice.",
+          "steps": [
+            "Roznica zawsze 3",
+            "12 + 3 = 15"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l9-v2-w2",
+          "observation": "Ciag maleje co 5.",
+          "strategy": "Znajdz roznice.",
+          "steps": [
+            "Kazda liczba o 5 mniejsza",
+            "35 - 5 = 30"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l9-v2-w3",
+          "observation": "Liczby szybko rosna - mnozenie.",
+          "strategy": "Sprawdz mnozenie.",
+          "steps": [
+            "Kazda liczba to poprzednia razy 3",
+            "27 razy 3 = 81"
+          ],
+          "answer": "D",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l9-v2-w4",
+          "observation": "Roznica stala 3.",
+          "strategy": "Znajdz roznice.",
+          "steps": [
+            "Roznica zawsze 3",
+            "11 + 3 = 14"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2020-6",
+          "observation": "Skok co 3 od liczby 1, ale tylko po dostepnych liczbach.",
+          "strategy": "Ciag 1, 4, 7, 10... i sprawdzanie dostepnosci.",
+          "steps": [
+            "Ciag co 3 od 1: 1, 4, 7, 10, 13, 16, 19, 22...",
+            "Sprawdzamy, ktore liczby sa narysowane",
+            "22 nie ma narysowanego, najwieksza osiagalna to 19"
+          ],
+          "answer": "D",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l9-v2-c1",
+          "observation": "Liczby to kwadraty: 1x1, 2x2, 3x3, 4x4.",
+          "strategy": "Rozpoznaj kwadraty.",
+          "steps": [
+            "1, 4, 9, 16 to 1x1, 2x2, 3x3, 4x4",
+            "Nastepna: 5x5 = 25"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l9-v2-c2",
+          "observation": "Roznice rosna o 1.",
+          "strategy": "Roznice tworza wlasny ciag.",
+          "steps": [
+            "Roznice: 1, 2, 3, 4, 5",
+            "Nastepna roznica: 6",
+            "18 + 6 = 24"
+          ],
+          "answer": "C",
+          "alternative": null
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Co robisz NAJPIERW, gdy widzisz ciag liczb?",
+      "choices": {
+        "A": "Liczysz roznice sasiednich liczb",
+        "B": "Zgadujesz",
+        "C": "Mnozysz wszystko"
+      },
+      "correct": "A",
+      "explain": "Roznice od razu pokazuja, czy ciag rosnie stale czy nie."
+    },
+    {
+      "q": "Ciag 3, 9, 27, 81 - jaka regula?",
+      "choices": {
+        "A": "Dodaj 6",
+        "B": "Razy 3",
+        "C": "Dodaj 18"
+      },
+      "correct": "B",
+      "explain": "Kazda liczba to poprzednia razy 3. Liczby szybko rosna = mnozenie."
+    },
+    {
+      "q": "W ciagu 2, 4, 7, 11 roznice to:",
+      "choices": {
+        "A": "Stale (2)",
+        "B": "Rosna (2, 3, 4)",
+        "C": "Maleja"
+      },
+      "correct": "B",
+      "explain": "Roznice 2, 3, 4 - rosna o 1. Nastepna liczba: 11+5=16."
+    }
+  ]
+}

@@ -1,0 +1,486 @@
+{
+  "year": 2019,
+  "category": "MALUCH",
+  "problems": [
+    {
+      "id": "kangur-maluch-2019-1",
+      "source": "kangur-maluch-2019-1",
+      "year": 2019,
+      "number": 1,
+      "difficulty": "3pkt",
+      "topic": "czas_kalendarz",
+      "subtopic": "dni tygodnia",
+      "statement": "Jaki dzień tygodnia będzie jutro, jeżeli wczoraj była niedziela?",
+      "hasImage": false,
+      "imageNote": null,
+      "choices": {
+        "A": "Wtorek.",
+        "B": "Czwartek.",
+        "C": "Środa.",
+        "D": "Poniedziałek.",
+        "E": "Sobota."
+      },
+      "correct": "A"
+    },
+    {
+      "id": "kangur-maluch-2019-2",
+      "source": "kangur-maluch-2019-2",
+      "year": 2019,
+      "number": 2,
+      "difficulty": "3pkt",
+      "topic": "logika",
+      "subtopic": "porównywanie wysokości, miejsca na podium",
+      "statement": "Wyższy poziom na podium oznacza lepszy wynik zawodnika. Trzecie miejsce zajął zawodnik z numerem:",
+      "hasImage": true,
+      "imageNote": "Pięcioro dzieci stoi na podium na pięciu różnych wysokościach, z przypisanymi numerami od 1 do 5. Trzecie miejsce zajmuje zawodnik nr 2.",
+      "choices": {
+        "A": "1.",
+        "B": "2.",
+        "C": "3.",
+        "D": "4.",
+        "E": "5."
+      },
+      "correct": "B"
+    },
+    {
+      "id": "kangur-maluch-2019-3",
+      "source": "kangur-maluch-2019-3",
+      "year": 2019,
+      "number": 3,
+      "difficulty": "3pkt",
+      "topic": "czas_kalendarz",
+      "subtopic": "obliczanie czasu wstecz, zegar",
+      "statement": "Asia wróciła ze spaceru o godzinie 12:05 (pokazana na zegarze). Spacer trwał 38 minut. O której godzinie Asia wyszła z domu na ten spacer?",
+      "hasImage": true,
+      "imageNote": "Zegar analogowy pokazujący godzinę 12:05.",
+      "choices": {
+        "A": "O 11:33.",
+        "B": "O 12:43.",
+        "C": "O 11:38.",
+        "D": "O 11:27.",
+        "E": "O 12:38."
+      },
+      "correct": "D"
+    },
+    {
+      "id": "kangur-maluch-2019-4",
+      "source": "kangur-maluch-2019-4",
+      "year": 2019,
+      "number": 4,
+      "difficulty": "3pkt",
+      "topic": "geometria_plaska",
+      "subtopic": "symetria i odbicia, składanie",
+      "statement": "W okładce książeczki dla dzieci są dwa otwory - okienka. Otwarta książeczka to długi pasek: po lewej dwa wycięte okienka, po prawej rząd pięciu pojazdów (samochód, motocykl, ciężarówka, samochód, traktor). Które pojazdy zobaczy Sławek w okienkach po zamknięciu książeczki na pół?",
+      "hasImage": true,
+      "imageNote": "Pasek książeczki - okienka po lewej, 5 pojazdów po prawej. Po złożeniu okienka pokrywają pewne pojazdy.",
+      "choices": {
+        "A": "samochód, motocykl, ciężarówka",
+        "B": "samochód, motocykl, traktor",
+        "C": "motocykl, ciężarówka, traktor",
+        "D": "motocykl, samochód, traktor",
+        "E": "samochód, ciężarówka, traktor"
+      },
+      "correct": "E"
+    },
+    {
+      "id": "kangur-maluch-2019-5",
+      "source": "kangur-maluch-2019-5",
+      "year": 2019,
+      "number": 5,
+      "difficulty": "3pkt",
+      "topic": "arytmetyka",
+      "subtopic": "krzyżówka liczbowa",
+      "statement": "W krzyżówce działania wykonujemy tylko poziomo lub pionowo. Jaką liczbę otrzymamy w polu oznaczonym znakiem zapytania w poprawnie uzupełnionej krzyżówce?",
+      "hasImage": true,
+      "imageNote": "Krzyżówka z liczbami 0, 2, 1, 9 oraz znakami +, -, =. Po rozwiązaniu w polu ? wychodzi 7.",
+      "choices": {
+        "A": "4",
+        "B": "5",
+        "C": "6",
+        "D": "7",
+        "E": "8"
+      },
+      "correct": "D"
+    },
+    {
+      "id": "kangur-maluch-2019-6",
+      "source": "kangur-maluch-2019-6",
+      "year": 2019,
+      "number": 6,
+      "difficulty": "3pkt",
+      "topic": "wzory_i_ciagi",
+      "subtopic": "regularność w nachodzących obiektach",
+      "statement": "Ola przypięła 8 pinezkami 3 zdjęcia tak, że każde kolejne zdjęcie nachodzi na poprzednie i jest przypięte razem z nim dwiema pinezkami. Marysia w taki sam sposób chce przypiąć 7 zdjęć. Ile pinezek będzie do tego potrzebować?",
+      "hasImage": true,
+      "imageNote": "Trzy zachodzące na siebie zdjęcia z 8 pinezkami w narożach.",
+      "choices": {
+        "A": "14",
+        "B": "16",
+        "C": "18",
+        "D": "22",
+        "E": "26"
+      },
+      "correct": "B"
+    },
+    {
+      "id": "kangur-maluch-2019-7",
+      "source": "kangur-maluch-2019-7",
+      "year": 2019,
+      "number": 7,
+      "difficulty": "3pkt",
+      "topic": "logika",
+      "subtopic": "czas palenia świec równocześnie",
+      "statement": "Czerwona świeczka wypala się w ciągu 2 godzin, a biała w ciągu 1 godziny. Zapalono jednocześnie dwie świeczki czerwone i trzy świeczki białe. Ile potrzeba czasu, aby wszystkie świeczki się wypaliły?",
+      "hasImage": false,
+      "imageNote": null,
+      "choices": {
+        "A": "7 godzin.",
+        "B": "5 godzin.",
+        "C": "4 godziny.",
+        "D": "3 godziny.",
+        "E": "2 godziny."
+      },
+      "correct": "E"
+    },
+    {
+      "id": "kangur-maluch-2019-8",
+      "source": "kangur-maluch-2019-8",
+      "year": 2019,
+      "number": 8,
+      "difficulty": "3pkt",
+      "topic": "logika",
+      "subtopic": "warunki na liczby, nierówności",
+      "statement": "Asia i Natalka mają po tyle samo orzechów. Każda ma ich mniej niż 12, a razem mają ich więcej niż 20. Ile orzechów ma każda z dziewczynek?",
+      "hasImage": false,
+      "imageNote": null,
+      "choices": {
+        "A": "7",
+        "B": "8",
+        "C": "9",
+        "D": "10",
+        "E": "11"
+      },
+      "correct": "E"
+    },
+    {
+      "id": "kangur-maluch-2019-9",
+      "source": "kangur-maluch-2019-9",
+      "year": 2019,
+      "number": 9,
+      "difficulty": "4pkt",
+      "topic": "geometria_plaska",
+      "subtopic": "rozpoznanie wycinka",
+      "statement": "Przedstawiono kwadratową planszę 4x4 z obrazkami (trefl, pik, karo, kier). Jeden z pięciu prostokątów 1x2 (z dwoma symbolami) został wycięty z tej planszy. Który?",
+      "hasImage": true,
+      "imageNote": "Plansza 4x4 z symbolami kart. Wycinek to prostokąt 1x2 z określoną parą symboli.",
+      "choices": {
+        "A": "trefl-kier",
+        "B": "pik-gwiazda",
+        "C": "karo-karo",
+        "D": "karo-gwiazda",
+        "E": "trefl-pik"
+      },
+      "correct": "D"
+    },
+    {
+      "id": "kangur-maluch-2019-10",
+      "source": "kangur-maluch-2019-10",
+      "year": 2019,
+      "number": 10,
+      "difficulty": "4pkt",
+      "topic": "geometria_plaska",
+      "subtopic": "liczba różnych figur po usunięciu",
+      "statement": "Franek ułożył figurę z pięciu kwadratowych kartoników. Chce usunąć z niej jeden kartonik. Ile z poniżej narysowanych pięciu figur (czterokwadratowych) może otrzymać Franek?",
+      "hasImage": true,
+      "imageNote": "Figura z 5 kwadratów. Poniżej 5 tetromin.",
+      "choices": {
+        "A": "Jedną.",
+        "B": "Dwie.",
+        "C": "Trzy.",
+        "D": "Cztery.",
+        "E": "Pięć."
+      },
+      "correct": "C"
+    },
+    {
+      "id": "kangur-maluch-2019-11",
+      "source": "kangur-maluch-2019-11",
+      "year": 2019,
+      "number": 11,
+      "difficulty": "4pkt",
+      "topic": "arytmetyka",
+      "subtopic": "wymiana w stosunku, maksymalizacja",
+      "statement": "Tomek ma 16 niebieskich kulek. Może je wymienić tylko tak: za 3 niebieskie kulki otrzymuje 1 czerwoną, a za 2 czerwone - 5 zielonych kulek. Jaką największą liczbę zielonych kulek może otrzymać Tomek?",
+      "hasImage": false,
+      "imageNote": null,
+      "choices": {
+        "A": "5",
+        "B": "10",
+        "C": "13",
+        "D": "15",
+        "E": "20"
+      },
+      "correct": "B"
+    },
+    {
+      "id": "kangur-maluch-2019-12",
+      "source": "kangur-maluch-2019-12",
+      "year": 2019,
+      "number": 12,
+      "difficulty": "4pkt",
+      "topic": "lamiglowki",
+      "subtopic": "rozmieszczenie cyfr aby maksymalizować sumę",
+      "statement": "Kuba chce tak wpisać cyfry 2, 0, 1 i 9 w cztery kratki diagramu (trzy kratki tworzą liczbę 3-cyfrową, a czwarta to osobna 1-cyfrowa liczba dodawana), aby w każdej kratce była inna cyfra i aby wynik dodawania był jak największy. Jaką cyfrę powinien wpisać w kratkę ze znakiem zapytania (osobna kratka po prawej)?",
+      "hasImage": true,
+      "imageNote": "Diagram: [_][_][_] + [?].",
+      "choices": {
+        "A": "0 lub 1.",
+        "B": "0 lub 2.",
+        "C": "Tylko 0.",
+        "D": "Tylko 1.",
+        "E": "Tylko 2."
+      },
+      "correct": "A"
+    },
+    {
+      "id": "kangur-maluch-2019-13",
+      "source": "kangur-maluch-2019-13",
+      "year": 2019,
+      "number": 13,
+      "difficulty": "4pkt",
+      "topic": "pomiary_jednostki",
+      "subtopic": "masa, połowa zawartości",
+      "statement": "Szklanka pełna wody waży 400 gramów, a pusta 100 gramów. Ile gramów waży szklanka napełniona wodą do połowy?",
+      "hasImage": true,
+      "imageNote": "Trzy szklanki: pełna 400g, pusta 100g, do połowy ?.",
+      "choices": {
+        "A": "150",
+        "B": "200",
+        "C": "225",
+        "D": "250",
+        "E": "300"
+      },
+      "correct": "D"
+    },
+    {
+      "id": "kangur-maluch-2019-14",
+      "source": "kangur-maluch-2019-14",
+      "year": 2019,
+      "number": 14,
+      "difficulty": "4pkt",
+      "topic": "geometria_plaska",
+      "subtopic": "odbicie wzoru na drugiej stronie",
+      "statement": "Z trzech jasnych i trzech ciemnych pasków Helenka wykonała plecioną podstawkę. Jak będzie wyglądać ta podstawka po odwróceniu na drugą stronę?",
+      "hasImage": true,
+      "imageNote": "Plecionka 3x3 z pasków. Po odwróceniu rozkład kolorów się odbija (lustrzane odbicie).",
+      "choices": {
+        "A": "wzór A",
+        "B": "wzór B",
+        "C": "wzór C",
+        "D": "wzór D",
+        "E": "wzór E"
+      },
+      "correct": "B"
+    },
+    {
+      "id": "kangur-maluch-2019-15",
+      "source": "kangur-maluch-2019-15",
+      "year": 2019,
+      "number": 15,
+      "difficulty": "4pkt",
+      "topic": "pieniadze",
+      "subtopic": "układ równań, suma trzech par",
+      "statement": "Jabłko + gruszka kosztują razem 3 zł 50 gr. Banan + jabłko kosztują razem 2 zł 50 gr. Gruszka + banan kosztują razem 4 zł. Ile kosztują razem wszystkie trzy owoce (jabłko + gruszka + banan)?",
+      "hasImage": true,
+      "imageNote": "Komiks z owocami podającymi ceny par.",
+      "choices": {
+        "A": "8 zł",
+        "B": "9 zł",
+        "C": "10 zł",
+        "D": "5 zł",
+        "E": "6 zł"
+      },
+      "correct": "D"
+    },
+    {
+      "id": "kangur-maluch-2019-16",
+      "source": "kangur-maluch-2019-16",
+      "year": 2019,
+      "number": 16,
+      "difficulty": "4pkt",
+      "topic": "geometria_plaska",
+      "subtopic": "ramka wokół kwadratu",
+      "statement": "Kwadratowy obrazek 7x7 (49 kratek) Hania otoczyła ramką z 32 białych kwadracików. Ile takich białych kwadracików będzie potrzebowała, by tak samo obramować obrazek kwadratowy 10x10 (100 kratek)?",
+      "hasImage": true,
+      "imageNote": "Obrazek 7x7 z kangurem otoczony ramką jednego rzędu białych kwadracików.",
+      "choices": {
+        "A": "36",
+        "B": "40",
+        "C": "44",
+        "D": "48",
+        "E": "52"
+      },
+      "correct": "C"
+    },
+    {
+      "id": "kangur-maluch-2019-17",
+      "source": "kangur-maluch-2019-17",
+      "year": 2019,
+      "number": 17,
+      "difficulty": "5pkt",
+      "topic": "logika",
+      "subtopic": "układ równań z symboli, sumy wierszy",
+      "statement": "W diagramie 3x3 pod każdym obrazkiem ukryta jest liczba (taki sam obrazek = ta sama liczba). Suma liczb pierwszego wiersza = 15, drugiego = 12, trzeciego = 16. Jaka liczba jest ukryta pod symbolem gwiazdki?",
+      "hasImage": true,
+      "imageNote": "Diagram 3x3: koła, gwiazdy, serca. Sumy wierszy 15, 12, 16.",
+      "choices": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "5",
+        "E": "6"
+      },
+      "correct": "D"
+    },
+    {
+      "id": "kangur-maluch-2019-18",
+      "source": "kangur-maluch-2019-18",
+      "year": 2019,
+      "number": 18,
+      "difficulty": "5pkt",
+      "topic": "arytmetyka",
+      "subtopic": "zliczanie wystąpień cyfry w numeracji stron",
+      "statement": "Wszystkie strony książki są ponumerowane kolejnymi liczbami: 1, 2, 3, 4, 5, ... Cyfra 5 pojawia się w numerach stron dokładnie 16 razy. Ile co najwyżej stron może mieć ta książka?",
+      "hasImage": false,
+      "imageNote": null,
+      "choices": {
+        "A": "59",
+        "B": "64",
+        "C": "66",
+        "D": "74",
+        "E": "80"
+      },
+      "correct": "A"
+    },
+    {
+      "id": "kangur-maluch-2019-19",
+      "source": "kangur-maluch-2019-19",
+      "year": 2019,
+      "number": 19,
+      "difficulty": "5pkt",
+      "topic": "logika",
+      "subtopic": "warunki negacji w trzech grupach",
+      "statement": "Na łące pasą się krowy, owce i gęsi - łącznie 15 zwierząt. Wiemy, że 10 z nich nie jest krowami, a 8 z nich nie jest owcami. Ile gęsi pasie się na łące?",
+      "hasImage": false,
+      "imageNote": null,
+      "choices": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "8",
+        "E": "10"
+      },
+      "correct": "B"
+    },
+    {
+      "id": "kangur-maluch-2019-20",
+      "source": "kangur-maluch-2019-20",
+      "year": 2019,
+      "number": 20,
+      "difficulty": "5pkt",
+      "topic": "geometria_plaska",
+      "subtopic": "długość linii środkowej zakrzywionego korytarza",
+      "statement": "Korytarz w kształcie litery Z ma wymiary zewnętrzne: 36m i 40m (długie boki poziome), 28m (krótki bok poziomy), 6m, 8m i 20m (boki pionowe). Przez środek korytarza narysowano linię. Jaką długość ma ta linia?",
+      "hasImage": true,
+      "imageNote": "Korytarz w kształcie litery Z z wymiarami zewnętrznymi.",
+      "choices": {
+        "A": "63 metry.",
+        "B": "68 metrów.",
+        "C": "69 metrów.",
+        "D": "71 metrów.",
+        "E": "83 metry."
+      },
+      "correct": "C"
+    },
+    {
+      "id": "kangur-maluch-2019-21",
+      "source": "kangur-maluch-2019-21",
+      "year": 2019,
+      "number": 21,
+      "difficulty": "5pkt",
+      "topic": "logika",
+      "subtopic": "przyrost dzienny, modulo 7",
+      "statement": "W bajkowym sadzie rośnie jabłoń i grusza. Każdego dnia rano z jabłoni spada 1 jabłko, a w południe odrastają 2. Z gruszy rano spadają 2 gruszki, a w południe odrastają 3. W niedzielę wieczorem były 3 jabłka i 5 gruszek. W jakim dniu tygodnia wieczorem na obu drzewach będzie łącznie 100 owoców?",
+      "hasImage": false,
+      "imageNote": null,
+      "choices": {
+        "A": "W poniedziałek.",
+        "B": "We wtorek.",
+        "C": "W środę.",
+        "D": "W czwartek.",
+        "E": "W piątek."
+      },
+      "correct": "D"
+    },
+    {
+      "id": "kangur-maluch-2019-22",
+      "source": "kangur-maluch-2019-22",
+      "year": 2019,
+      "number": 22,
+      "difficulty": "5pkt",
+      "topic": "logika",
+      "subtopic": "zagadka kłamcy i prawdomówni",
+      "statement": "Jeden z pięciu krasnoludków zjadł ciastko. Alek: 'Nie zjadłem ciastka'. Bartek: 'Zjadłem ciastko'. Czarek: 'Edek nie zjadł ciastka'. Darek: 'Nie zjadłem ciastka'. Edek: 'Ciastko zjadł Alek'. Skłamał tylko jeden krasnoludek. Który zjadł ciastko?",
+      "hasImage": false,
+      "imageNote": null,
+      "choices": {
+        "A": "Alek.",
+        "B": "Bartek.",
+        "C": "Czarek.",
+        "D": "Darek.",
+        "E": "Edek."
+      },
+      "correct": "B"
+    },
+    {
+      "id": "kangur-maluch-2019-23",
+      "source": "kangur-maluch-2019-23",
+      "year": 2019,
+      "number": 23,
+      "difficulty": "5pkt",
+      "topic": "logika",
+      "subtopic": "układ równań - dwa sposoby wieszania",
+      "statement": "Emilka rozwieszała pranie. W sposobie 1 każdy ręcznik miał 2 osobne klamerki. W sposobie 2 ręczniki dzielą klamerki (n ręczników wymaga n+1 klamerek). Ogółem powiesiła 35 ręczników i użyła 58 klamerek. Ile ręczników powiesiła w sposób 1?",
+      "hasImage": true,
+      "imageNote": "Rysunek 1: każdy ręcznik na 2 osobnych klamerkach. Rysunek 2: wspólne klamerki.",
+      "choices": {
+        "A": "12",
+        "B": "13",
+        "C": "21",
+        "D": "22",
+        "E": "23"
+      },
+      "correct": "D"
+    },
+    {
+      "id": "kangur-maluch-2019-24",
+      "source": "kangur-maluch-2019-24",
+      "year": 2019,
+      "number": 24,
+      "difficulty": "5pkt",
+      "topic": "geometria_przestrzenna",
+      "subtopic": "suma sklejonych ścian",
+      "statement": "Ściany kostki ponumerowane są liczbami od 1 do 6 (przeciwległe ściany dają sumę 7). Cztery identyczne kostki sklejono w rząd (3 pary sklejonych ścian = 6 ścian sklejonych). Ile wynosi suma liczb na sześciu sklejonych ścianach?",
+      "hasImage": true,
+      "imageNote": "Cztery kostki sklejone w rząd. Widoczne ściany górne: 3, 2, 5, 6.",
+      "choices": {
+        "A": "25",
+        "B": "18",
+        "C": "21",
+        "D": "22",
+        "E": "20"
+      },
+      "correct": "E"
+    }
+  ]
+}

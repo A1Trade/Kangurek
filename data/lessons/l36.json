@@ -1,0 +1,666 @@
+{
+  "id": "l36",
+  "number": 36,
+  "block": "Logika i myslenie",
+  "blockCode": "G",
+  "title": "Prawda czy falsz",
+  "topic": "logika",
+  "estimatedMinutes": 14,
+  "theory": {
+    "intro": "Detektyw matematyczny czyta zdanie i pyta: 'Czy to prawda?' Logika to umiejetnosc oceniania, czy cos jest prawda, na podstawie znanych faktow. Kangur lubi takie zadania - testuja umiejetnosc precyzyjnego myslenia.",
+    "tool": "Sztuczka 1: KONTRPRZYKLAD OBALA 'WSZYSTKIE'. Jezeli ktos mowi 'wszystkie kangury sa szare' - wystarczy znalezc JEDNEGO zielonego, by zdanie bylo falszywe.\n\nSztuczka 2: 'ISTNIEJE' WYMAGA TYLKO JEDNEGO. Zdanie 'istnieje liczba parzysta wieksza od 10' jest prawdziwe, bo np. 12.\n\nSztuczka 3: NEGACJA ZAMIENIA WSZYSTKIE/JEST. Negacja 'wszystkie kangury sa szare' to 'istnieje kangur, ktory NIE jest szary'.\n\nSztuczka 4: SPRAWDZAJ KAZDE ZDANIE OSOBNO. Gdy zadanie pyta 'ktore zdanie jest falszywe', oceniaj kazde po kolei, nie odgaduj.",
+    "trick": "Pulapka Kangurka: zdania ze slowem 'wszystkie' lub 'zaden'. Jezeli choc jeden przyklad zaprzecza - cale zdanie falszywe. Ale 'niektore' wystarczy jeden przyklad potwierdzajacy."
+  },
+  "versions": [
+    {
+      "versionId": "v1",
+      "label": "Wersja 1 (oryginalna)",
+      "warmup": [
+        {
+          "id": "gen-l36-v1-w1",
+          "source": "generated-l36-v1-w1",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "logika",
+          "subtopic": "ocena zdania",
+          "statement": "Wszystkie psy szczekaja. Burek jest psem. Co z tego wynika?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "Burek szczeka",
+            "B": "Burek nie szczeka",
+            "C": "Burek miauczy",
+            "D": "Burek to kot",
+            "E": "Nie wiadomo"
+          },
+          "correct": "A"
+        },
+        {
+          "id": "gen-l36-v1-w2",
+          "source": "generated-l36-v1-w2",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "logika",
+          "subtopic": "prawda/falsz - dzielnik",
+          "statement": "Liczba 15 jest podzielna przez 5. Czy to prawda?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "Tak",
+            "B": "Nie",
+            "C": "Czasem",
+            "D": "Tylko parzysta",
+            "E": "Nie wiadomo"
+          },
+          "correct": "A"
+        },
+        {
+          "id": "gen-l36-v1-w3",
+          "source": "generated-l36-v1-w3",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "logika",
+          "subtopic": "kontrprzyklad",
+          "statement": "Wszystkie kwadraty maja 4 boki. Czy trojkat ma 4 boki?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "Tak",
+            "B": "Nie",
+            "C": "Czasem",
+            "D": "Tylko duzy",
+            "E": "Cztery boki ma kwadrat"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "kangur-maluch-2013-7",
+          "source": "kangur-maluch-2013-7",
+          "year": 2013,
+          "number": 7,
+          "difficulty": "3pkt",
+          "topic": "logika",
+          "subtopic": "ocena prawdziwosci zdan o liczbie",
+          "statement": "Pieciu chlopcow powiedzialo zdanie o liczbie 325. Andrzej: jest trzycyfrowa. Borys: wszystkie cyfry rozne. Czarek: suma cyfr = 10. Dawid: cyfra jednosci to 5. Emil: wszystkie cyfry nieparzyste. Ktory powiedzial NIEPRAWDE?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "Andrzej",
+            "B": "Borys",
+            "C": "Czarek",
+            "D": "Dawid",
+            "E": "Emil"
+          },
+          "correct": "E"
+        },
+        {
+          "id": "kangur-maluch-2019-8",
+          "source": "kangur-maluch-2019-8",
+          "year": 2019,
+          "number": 8,
+          "difficulty": "3pkt",
+          "topic": "logika",
+          "subtopic": "warunki na liczby, nierówności",
+          "statement": "Asia i Natalka mają po tyle samo orzechów. Każda ma ich mniej niż 12, a razem mają ich więcej niż 20. Ile orzechów ma każda z dziewczynek?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "7",
+            "B": "8",
+            "C": "9",
+            "D": "10",
+            "E": "11"
+          },
+          "correct": "E"
+        }
+      ],
+      "challenge": [
+        {
+          "id": "kangur-maluch-2018-13",
+          "source": "kangur-maluch-2018-13",
+          "year": 2018,
+          "number": 13,
+          "difficulty": "4pkt",
+          "topic": "logika",
+          "subtopic": "rownanie z proporcjami i ograniczeniami",
+          "statement": "Na krzaku 8 kwiatkow. Na kazdym albo motyl, albo wazka, albo nic. Kwiatkow bez owada jest mniej niz polowa. Liczba motyli jest dwa razy wieksza niz liczba wazek. Ile motyli siedzi na kwiatkach?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "2",
+            "B": "3",
+            "C": "4",
+            "D": "5",
+            "E": "6"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "kangur-maluch-2014-21",
+          "source": "kangur-maluch-2014-21",
+          "year": 2014,
+          "number": 21,
+          "difficulty": "5pkt",
+          "topic": "logika",
+          "subtopic": "przewidywanie pogody wedlug regul",
+          "statement": "W bajkowym kraju kazdy sloneczny dzien jest poprzedzony 3 dniami deszczowymi. Szosty dzien po kazdym deszczowym dniu tez jest deszczowy. Dzis jest slonecznie. Jaka najwieksza liczba kolejnych dni od jutra mozna z pewnoscia przewidziec?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "2",
+            "B": "3",
+            "C": "4",
+            "D": "5",
+            "E": "6"
+          },
+          "correct": "D"
+        }
+      ],
+      "solutions": [
+        {
+          "problemId": "gen-l36-v1-w1",
+          "observation": "Z 'wszystkie' wynika dla kazdego elementu.",
+          "strategy": "Wnioskowanie.",
+          "steps": [
+            "Wszystkie psy szczekaja",
+            "Burek jest psem",
+            "Wniosek: Burek szczeka"
+          ],
+          "answer": "A",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l36-v1-w2",
+          "observation": "15:5=3 - dzieli sie bez reszty.",
+          "strategy": "Sprawdzenie podzielnosci.",
+          "steps": [
+            "15 : 5 = 3",
+            "Bez reszty - 15 jest podzielne przez 5"
+          ],
+          "answer": "A",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l36-v1-w3",
+          "observation": "Trojkat ma 3 boki, nie 4.",
+          "strategy": "Sprawdzenie faktu.",
+          "steps": [
+            "Trojkat ma 3 boki",
+            "Zdanie 'wszystkie kwadraty maja 4 boki' nie mowi nic o trojkatach"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2013-7",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Liczba 325: 3+2+5=10 - sprawdzamy zdania. Suma 10 - prawda. Cyfry rozne - tak. Cyfra jednosci 5 - tak. Wszystkie cyfry nieparzyste - 2 jest parzysta! Emil sklamal.",
+          "steps": [
+            "Liczba 325: 3+2+5=10 - sprawdzamy zdania. Suma 10 - prawda. Cyfry rozne - tak. Cyfra jednosci 5 - tak. Wszystkie cyfry nieparzyste - 2 jest parzysta! Emil sklamal.",
+            "Poprawna odpowiedz: E"
+          ],
+          "answer": "E",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2019-8",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Asia=Natalka, kazda <12, razem >20. 2x<24 ale 2x>20. x=11 (jedyna mozliwosc, bo x calkowite).",
+          "steps": [
+            "Asia=Natalka, kazda <12, razem >20. 2x<24 ale 2x>20. x=11 (jedyna mozliwosc, bo x calkowite).",
+            "Poprawna odpowiedz: E"
+          ],
+          "answer": "E",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2018-13",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "8 kwiatow. Motyle = 2*wazki. Bez owada < 4. Wzory: wazki=2, motyle=4, bez owada=2. Sprawdz: 2+4+2=8 OK.",
+          "steps": [
+            "8 kwiatow. Motyle = 2*wazki. Bez owada < 4. Wzory: wazki=2, motyle=4, bez owada=2. Sprawdz: 2+4+2=8 OK.",
+            "Poprawna odpowiedz: C"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2014-21",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Slonce poprzedzone 3 deszczowymi. 6 dzien po deszczowym - deszczowy. Po analizie - mozna przewidziec 5 dni od jutra.",
+          "steps": [
+            "Slonce poprzedzone 3 deszczowymi. 6 dzien po deszczowym - deszczowy. Po analizie - mozna przewidziec 5 dni od jutra.",
+            "Poprawna odpowiedz: D"
+          ],
+          "answer": "D",
+          "alternative": null
+        }
+      ]
+    },
+    {
+      "versionId": "v2",
+      "label": "Wersja 2 (powtorka)",
+      "warmup": [
+        {
+          "id": "gen-l36-v2-w1",
+          "source": "generated-l36-v2-w1",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "logika",
+          "subtopic": "prawda zdan",
+          "statement": "Liczba 7 jest pierwsza. Liczba 8 jest pierwsza. Ktora z dwoch jest pierwsza?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "Tylko 7",
+            "B": "Tylko 8",
+            "C": "Obie",
+            "D": "Zadna",
+            "E": "Nie wiadomo"
+          },
+          "correct": "A"
+        },
+        {
+          "id": "gen-l36-v2-w2",
+          "source": "generated-l36-v2-w2",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "logika",
+          "subtopic": "ocena nierownosci",
+          "statement": "Zdanie: '10 + 5 > 12'. Czy prawdziwe?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "Tak",
+            "B": "Nie",
+            "C": "Czasem",
+            "D": "Tylko z nawiasem",
+            "E": "Nie wiadomo"
+          },
+          "correct": "A"
+        },
+        {
+          "id": "gen-l36-v2-w3",
+          "source": "generated-l36-v2-w3",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "logika",
+          "subtopic": "negacja",
+          "statement": "Negacja zdania 'wszystkie koty mruczą' to:",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "Wszystkie koty nie mrucza",
+            "B": "Istnieje kot, ktory nie mruczy",
+            "C": "Zaden kot nie mruczy",
+            "D": "Wszystkie psy mrucza",
+            "E": "Niektore kota mrucza"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "kangur-maluch-2014-7",
+          "source": "kangur-maluch-2014-7",
+          "year": 2014,
+          "number": 7,
+          "difficulty": "3pkt",
+          "topic": "logika",
+          "subtopic": "porzadkowanie wg nierownosci",
+          "statement": "Adam zbudowal mniej zamkow niz Marcin, ale wiecej niz Zuzia. Dana zbudowala wiecej niz Marcin, ale mniej niz Lusia. Kto zbudowal najwiecej zamkow?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "Marcin",
+            "B": "Adam",
+            "C": "Zuzia",
+            "D": "Dana",
+            "E": "Lusia"
+          },
+          "correct": "E"
+        },
+        {
+          "id": "kangur-maluch-2024-10",
+          "source": "kangur-maluch-2024-10",
+          "year": 2024,
+          "number": 10,
+          "difficulty": "4pkt",
+          "topic": "logika",
+          "subtopic": "przyporzadkowanie owocow dzieciom",
+          "statement": "Na tacy 5 owocow: jablko, gruszka, wisnia, truskawka, banan. Franek lubi tylko wisnie. Tadzio lubi wisnie i banan. Kajtek lubi wisnie, truskawke, banan. Alicja lubi gruszke i truskawke. Jozek lubi wszystkie. Kazde dziecko dostalo owoc, ktory lubi. Co dostal Jozek?",
+          "hasImage": true,
+          "imageNote": "Piec owocow na tacy.",
+          "choices": {
+            "A": "jablko",
+            "B": "gruszka",
+            "C": "wisnia",
+            "D": "truskawka",
+            "E": "banan"
+          },
+          "correct": "A"
+        }
+      ],
+      "challenge": [
+        {
+          "id": "kangur-maluch-2019-7",
+          "source": "kangur-maluch-2019-7",
+          "year": 2019,
+          "number": 7,
+          "difficulty": "3pkt",
+          "topic": "logika",
+          "subtopic": "czas palenia świec równocześnie",
+          "statement": "Czerwona świeczka wypala się w ciągu 2 godzin, a biała w ciągu 1 godziny. Zapalono jednocześnie dwie świeczki czerwone i trzy świeczki białe. Ile potrzeba czasu, aby wszystkie świeczki się wypaliły?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "7 godzin.",
+            "B": "5 godzin.",
+            "C": "4 godziny.",
+            "D": "3 godziny.",
+            "E": "2 godziny."
+          },
+          "correct": "E"
+        },
+        {
+          "id": "kangur-maluch-2024-22",
+          "source": "kangur-maluch-2024-22",
+          "year": 2024,
+          "number": 22,
+          "difficulty": "5pkt",
+          "topic": "logika",
+          "subtopic": "lamiglowka typu saper na plastrze",
+          "statement": "Plaster z 9 szesciokatnych komorek. Liczba w komorce mowi, w ilu sasiednich komorkach jest miod. W ilu komorkach jest miod?",
+          "hasImage": true,
+          "imageNote": "Plaster z 9 komorek, niektore z liczbami 1, 2, 3, 4.",
+          "choices": {
+            "A": "4",
+            "B": "5",
+            "C": "6",
+            "D": "7",
+            "E": "8"
+          },
+          "correct": "B"
+        }
+      ],
+      "solutions": [
+        {
+          "problemId": "gen-l36-v2-w1",
+          "observation": "Liczba pierwsza dzieli sie tylko przez 1 i siebie. 7 jest pierwsza, 8=2*4.",
+          "strategy": "Sprawdzenie pierwszosci.",
+          "steps": [
+            "7: dzielniki 1 i 7 - pierwsza",
+            "8: dzielniki 1,2,4,8 - nie pierwsza",
+            "Tylko 7"
+          ],
+          "answer": "A",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l36-v2-w2",
+          "observation": "10+5=15, 15>12 prawda.",
+          "strategy": "Sprawdzenie nierownosci.",
+          "steps": [
+            "15 > 12 - prawda"
+          ],
+          "answer": "A",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l36-v2-w3",
+          "observation": "Negacja 'wszystkie X' = 'istnieje X ktore nie...'",
+          "strategy": "Logika negacji.",
+          "steps": [
+            "Negacja 'wszystkie' to 'istnieje co najmniej jeden, ktory nie'"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2014-7",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Adam<Marcin, Adam>Zuzia. Dana>Marcin, Dana<Lusia. Najwiecej: Lusia>Dana>Marcin>Adam>Zuzia.",
+          "steps": [
+            "Adam<Marcin, Adam>Zuzia. Dana>Marcin, Dana<Lusia. Najwiecej: Lusia>Dana>Marcin>Adam>Zuzia.",
+            "Poprawna odpowiedz: E"
+          ],
+          "answer": "E",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2024-10",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Franek lubi tylko wisnie. Tadzio lubi banan (po przydziale wisni). Kajtek - truskawka. Alicja - gruszka. Jozek - jablko (zostalo).",
+          "steps": [
+            "Franek lubi tylko wisnie. Tadzio lubi banan (po przydziale wisni). Kajtek - truskawka. Alicja - gruszka. Jozek - jablko (zostalo).",
+            "Poprawna odpowiedz: A"
+          ],
+          "answer": "A",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2019-7",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "2 czerwone (2h kazda) + 3 biale (1h kazda) palone razem. Najdluzej: czerwone 2h.",
+          "steps": [
+            "2 czerwone (2h kazda) + 3 biale (1h kazda) palone razem. Najdluzej: czerwone 2h.",
+            "Poprawna odpowiedz: E"
+          ],
+          "answer": "E",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2024-22",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Plaster z 9 komorek z liczbami. Po analizie sasiedztwa miod jest w 5 komorkach.",
+          "steps": [
+            "Plaster z 9 komorek z liczbami. Po analizie sasiedztwa miod jest w 5 komorkach.",
+            "Poprawna odpowiedz: B"
+          ],
+          "answer": "B",
+          "alternative": null
+        }
+      ]
+    },
+    {
+      "versionId": "v3",
+      "label": "Wersja 3 (oryginaly Kangurka)",
+      "warmup": [
+        {
+          "id": "kangur-maluch-2019-17",
+          "source": "kangur-maluch-2019-17",
+          "year": 2019,
+          "number": 17,
+          "difficulty": "5pkt",
+          "topic": "logika",
+          "subtopic": "układ równań z symboli, sumy wierszy",
+          "statement": "W diagramie 3x3 pod każdym obrazkiem ukryta jest liczba (taki sam obrazek = ta sama liczba). Suma liczb pierwszego wiersza = 15, drugiego = 12, trzeciego = 16. Jaka liczba jest ukryta pod symbolem gwiazdki?",
+          "hasImage": true,
+          "imageNote": "Diagram 3x3: koła, gwiazdy, serca. Sumy wierszy 15, 12, 16.",
+          "choices": {
+            "A": "2",
+            "B": "3",
+            "C": "4",
+            "D": "5",
+            "E": "6"
+          },
+          "correct": "D"
+        },
+        {
+          "id": "kangur-maluch-2019-21",
+          "source": "kangur-maluch-2019-21",
+          "year": 2019,
+          "number": 21,
+          "difficulty": "5pkt",
+          "topic": "logika",
+          "subtopic": "przyrost dzienny, modulo 7",
+          "statement": "W bajkowym sadzie rośnie jabłoń i grusza. Każdego dnia rano z jabłoni spada 1 jabłko, a w południe odrastają 2. Z gruszy rano spadają 2 gruszki, a w południe odrastają 3. W niedzielę wieczorem były 3 jabłka i 5 gruszek. W jakim dniu tygodnia wieczorem na obu drzewach będzie łącznie 100 owoców?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "W poniedziałek.",
+            "B": "We wtorek.",
+            "C": "W środę.",
+            "D": "W czwartek.",
+            "E": "W piątek."
+          },
+          "correct": "D"
+        },
+        {
+          "id": "kangur-maluch-2020-10",
+          "source": "kangur-maluch-2020-10",
+          "year": 2020,
+          "number": 10,
+          "difficulty": "4pkt",
+          "topic": "logika",
+          "subtopic": "suma calkowita minus zaslonięte grupy",
+          "statement": "Na tablicy zapisano liczby 1-8. Cztery liczby pod trojkatami daja sume 10, trzy pod kwadratami sume 20. Jaka liczbe przykrywa kolo?",
+          "hasImage": true,
+          "imageNote": "Liczby 1-8 zaslonięte magnesami w ksztaltach trojkatow, kwadratow i kola.",
+          "choices": {
+            "A": "3",
+            "B": "4",
+            "C": "5",
+            "D": "6",
+            "E": "7"
+          },
+          "correct": "D"
+        },
+        {
+          "id": "kangur-maluch-2021-23",
+          "source": "kangur-maluch-2021-23",
+          "year": 2021,
+          "number": 23,
+          "difficulty": "5pkt",
+          "topic": "logika",
+          "subtopic": "pomylka w typowaniu kolejnosci",
+          "statement": "Ela wytypowala kolejnosc na mecie 8 koni. Kon Strzala ukonczyl bieg na pozycji WYZSZEJ niz wytypowala Ela, a pozostale 7 koni na pozycjach NIZSZYCH. O ile miejsc pomylila sie Ela co do Strzaly?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "7",
+            "B": "4",
+            "C": "2",
+            "D": "1",
+            "E": "Nie da sie ustalic"
+          },
+          "correct": "A"
+        },
+        {
+          "id": "kangur-maluch-2022-10",
+          "source": "kangur-maluch-2022-10",
+          "year": 2022,
+          "number": 10,
+          "difficulty": "4pkt",
+          "topic": "logika",
+          "subtopic": "dwie liczby z sumy",
+          "statement": "Wiek 6 kangurow: 2, 4, 5, 6, 8, 10 lat. 4 kangury (lacznie 22 lata) idza spac. Pozostale dwa sie bawia. Ile lat maja bawiace sie kangury?",
+          "hasImage": true,
+          "imageNote": "Szesc kangurow z roznymi wiekami.",
+          "choices": {
+            "A": "2 i 8",
+            "B": "4 i 5",
+            "C": "5 i 8",
+            "D": "6 i 8",
+            "E": "6 i 10"
+          },
+          "correct": "C"
+        }
+      ],
+      "challenge": [],
+      "solutions": [
+        {
+          "problemId": "kangur-maluch-2019-17",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Oryginalne zadanie Kangur Maluch 2019 nr 17.",
+          "steps": [
+            "Oryginalne zadanie Kangur Maluch 2019 nr 17.",
+            "Poprawna odpowiedz: D"
+          ],
+          "answer": "D",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2019-21",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Oryginalne zadanie Kangur Maluch 2019 nr 21.",
+          "steps": [
+            "Oryginalne zadanie Kangur Maluch 2019 nr 21.",
+            "Poprawna odpowiedz: D"
+          ],
+          "answer": "D",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2020-10",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Oryginalne zadanie Kangur Maluch 2020 nr 10.",
+          "steps": [
+            "Oryginalne zadanie Kangur Maluch 2020 nr 10.",
+            "Poprawna odpowiedz: D"
+          ],
+          "answer": "D",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2021-23",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Oryginalne zadanie Kangur Maluch 2021 nr 23.",
+          "steps": [
+            "Oryginalne zadanie Kangur Maluch 2021 nr 23.",
+            "Poprawna odpowiedz: A"
+          ],
+          "answer": "A",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2022-10",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Oryginalne zadanie Kangur Maluch 2022 nr 10.",
+          "steps": [
+            "Oryginalne zadanie Kangur Maluch 2022 nr 10.",
+            "Poprawna odpowiedz: C"
+          ],
+          "answer": "C",
+          "alternative": null
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Wszystkie psy szczekaja. Burek jest psem. Burek:",
+      "choices": {
+        "A": "Szczeka",
+        "B": "Nie szczeka",
+        "C": "Mialczy"
+      },
+      "correct": "A",
+      "explain": "Z 'wszystkie X maja Y' i 'A to X' wynika 'A ma Y'."
+    },
+    {
+      "q": "Kontrprzyklad obala zdanie ze slowem:",
+      "choices": {
+        "A": "Wszystkie",
+        "B": "Niektore",
+        "C": "Istnieje"
+      },
+      "correct": "A",
+      "explain": "Zdanie 'wszystkie' obalimy znajdujac jeden wyjatek."
+    },
+    {
+      "q": "Zdanie '15 jest podzielne przez 3' to:",
+      "choices": {
+        "A": "Prawda",
+        "B": "Falsz",
+        "C": "Nie wiadomo"
+      },
+      "correct": "A",
+      "explain": "15 : 3 = 5 bez reszty."
+    }
+  ]
+}

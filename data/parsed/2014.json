@@ -1,0 +1,486 @@
+{
+  "year": 2014,
+  "category": "MALUCH",
+  "problems": [
+    {
+      "id": "kangur-maluch-2014-1",
+      "source": "kangur-maluch-2014-1",
+      "year": 2014,
+      "number": 1,
+      "difficulty": "3pkt",
+      "topic": "geometria_plaska",
+      "subtopic": "rozpoznanie fragmentu figury",
+      "statement": "Ktory z 5 rysunkow jest fragmentem przedstawionej obok gwiazdy?",
+      "hasImage": true,
+      "imageNote": "Osmioramienna gwiazda i 5 wariantow fragmentow.",
+      "choices": {
+        "A": "fragment A",
+        "B": "fragment B",
+        "C": "fragment C",
+        "D": "fragment D",
+        "E": "fragment E"
+      },
+      "correct": "B"
+    },
+    {
+      "id": "kangur-maluch-2014-2",
+      "source": "kangur-maluch-2014-2",
+      "year": 2014,
+      "number": 2,
+      "difficulty": "3pkt",
+      "topic": "arytmetyka",
+      "subtopic": "wstawianie cyfry dla najmniejszej liczby",
+      "statement": "Jacek chce dopisac cyfre 3 do liczby 2014 (na poczatku, na koncu lub miedzy cyframi). Gdzie ja wstawic, by otrzymana liczba 5-cyfrowa byla najmniejsza?",
+      "hasImage": false,
+      "imageNote": null,
+      "choices": {
+        "A": "Przed cyfra 2",
+        "B": "Miedzy 2 a 0",
+        "C": "Miedzy 0 a 1",
+        "D": "Miedzy 1 a 4",
+        "E": "Za cyfra 4"
+      },
+      "correct": "D"
+    },
+    {
+      "id": "kangur-maluch-2014-3",
+      "source": "kangur-maluch-2014-3",
+      "year": 2014,
+      "number": 3,
+      "difficulty": "3pkt",
+      "topic": "geometria_plaska",
+      "subtopic": "porownanie zestawow klockow",
+      "statement": "Ktore z 5 domkow skladaja sie z takiego samego zestawu trojkatnych i prostokatnych klockow?",
+      "hasImage": true,
+      "imageNote": "Piec domkow zbudowanych z trojkatow i prostokatow.",
+      "choices": {
+        "A": "3, 4",
+        "B": "1, 4, 3",
+        "C": "1, 3",
+        "D": "1, 4",
+        "E": "1, 2, 4, 5"
+      },
+      "correct": "D"
+    },
+    {
+      "id": "kangur-maluch-2014-4",
+      "source": "kangur-maluch-2014-4",
+      "year": 2014,
+      "number": 4,
+      "difficulty": "3pkt",
+      "topic": "arytmetyka",
+      "subtopic": "mnozenie z odejmowaniem czasu",
+      "statement": "Mis koala gdy nie spi zjada 50 g lisci eukaliptusa na godzine. Minionej doby spal 13 godzin. Ile gramow lisci zjadl tej doby?",
+      "hasImage": false,
+      "imageNote": null,
+      "choices": {
+        "A": "550",
+        "B": "130",
+        "C": "650",
+        "D": "50",
+        "E": "450"
+      },
+      "correct": "A"
+    },
+    {
+      "id": "kangur-maluch-2014-5",
+      "source": "kangur-maluch-2014-5",
+      "year": 2014,
+      "number": 5,
+      "difficulty": "3pkt",
+      "topic": "arytmetyka",
+      "subtopic": "laczenie kropek wedlug roznic",
+      "statement": "Marysia obliczyla roznice: 2-2, 6-5, 8-6, 11-8, 13-9, 17-12. Polaczyla kropki od najmniejszej do najwiekszej roznicy. Ktory rysunek otrzymala?",
+      "hasImage": true,
+      "imageNote": "Szesc kropek w dwoch kolumnach z dzialaniami, 5 wariantow polaczen.",
+      "choices": {
+        "A": "wzor A",
+        "B": "wzor B",
+        "C": "wzor C",
+        "D": "wzor D",
+        "E": "wzor E"
+      },
+      "correct": "E"
+    },
+    {
+      "id": "kangur-maluch-2014-6",
+      "source": "kangur-maluch-2014-6",
+      "year": 2014,
+      "number": 6,
+      "difficulty": "3pkt",
+      "topic": "lamiglowki",
+      "subtopic": "piramida iloczynow",
+      "statement": "W diagramie iloczyn dwoch sasiednich liczb w rzedzie rowna sie liczbie nad nimi. Dolny rzad: 1, ?, ?, 1. Srodkowy: 2, [szare], 2. Na szczycie: 64. Jaka liczba jest w szarym polu?",
+      "hasImage": true,
+      "imageNote": "Piramida liczb: dol 1,?,?,1; srodek 2,szare,2; szczyt 64.",
+      "choices": {
+        "A": "0",
+        "B": "1",
+        "C": "2",
+        "D": "4",
+        "E": "8"
+      },
+      "correct": "D"
+    },
+    {
+      "id": "kangur-maluch-2014-7",
+      "source": "kangur-maluch-2014-7",
+      "year": 2014,
+      "number": 7,
+      "difficulty": "3pkt",
+      "topic": "logika",
+      "subtopic": "porzadkowanie wg nierownosci",
+      "statement": "Adam zbudowal mniej zamkow niz Marcin, ale wiecej niz Zuzia. Dana zbudowala wiecej niz Marcin, ale mniej niz Lusia. Kto zbudowal najwiecej zamkow?",
+      "hasImage": false,
+      "imageNote": null,
+      "choices": {
+        "A": "Marcin",
+        "B": "Adam",
+        "C": "Zuzia",
+        "D": "Dana",
+        "E": "Lusia"
+      },
+      "correct": "E"
+    },
+    {
+      "id": "kangur-maluch-2014-8",
+      "source": "kangur-maluch-2014-8",
+      "year": 2014,
+      "number": 8,
+      "difficulty": "3pkt",
+      "topic": "geometria_plaska",
+      "subtopic": "odbicie lustrzane bukietu",
+      "statement": "Kasia namalowala na szybie okna bukiet kwiatow. Jak wyglada on z drugiej strony okna?",
+      "hasImage": true,
+      "imageNote": "Bukiet kwiatow i 5 wariantow odbicia lustrzanego.",
+      "choices": {
+        "A": "bukiet A",
+        "B": "bukiet B",
+        "C": "bukiet C",
+        "D": "bukiet D",
+        "E": "bukiet E"
+      },
+      "correct": "B"
+    },
+    {
+      "id": "kangur-maluch-2014-9",
+      "source": "kangur-maluch-2014-9",
+      "year": 2014,
+      "number": 9,
+      "difficulty": "4pkt",
+      "topic": "logika",
+      "subtopic": "minimalna liczba zamian liter",
+      "statement": "Karty z literami ulozone: O A A R G O N K. W jednym ruchu zamienia sie miejscami dwie karty. Ile co najmniej ruchow, by otrzymac slowo KANGAROO?",
+      "hasImage": false,
+      "imageNote": null,
+      "choices": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "5",
+        "E": "6"
+      },
+      "correct": "D"
+    },
+    {
+      "id": "kangur-maluch-2014-10",
+      "source": "kangur-maluch-2014-10",
+      "year": 2014,
+      "number": 10,
+      "difficulty": "4pkt",
+      "topic": "arytmetyka",
+      "subtopic": "odwracanie polowienia",
+      "statement": "W koszyku byly cukierki. Zosia wziela polowe, Tomek polowe reszty, Klara polowe tego co zostalo. W koszyku zostalo 6 cukierkow. Ile bylo na poczatku?",
+      "hasImage": false,
+      "imageNote": null,
+      "choices": {
+        "A": "12",
+        "B": "18",
+        "C": "24",
+        "D": "36",
+        "E": "48"
+      },
+      "correct": "E"
+    },
+    {
+      "id": "kangur-maluch-2014-11",
+      "source": "kangur-maluch-2014-11",
+      "year": 2014,
+      "number": 11,
+      "difficulty": "4pkt",
+      "topic": "czas_kalendarz",
+      "subtopic": "dodawanie wielu godzin do daty",
+      "statement": "Spiaca Krolewna zasnela o 23:00 w piatek i spala 150 godzin. Kiedy sie obudzila?",
+      "hasImage": false,
+      "imageNote": null,
+      "choices": {
+        "A": "W srode o 23:00",
+        "B": "W srode o 5:00",
+        "C": "W czwartek o 23:00",
+        "D": "W czwartek o 5:00",
+        "E": "W piatek o 5:00"
+      },
+      "correct": "E"
+    },
+    {
+      "id": "kangur-maluch-2014-12",
+      "source": "kangur-maluch-2014-12",
+      "year": 2014,
+      "number": 12,
+      "difficulty": "4pkt",
+      "topic": "geometria_plaska",
+      "subtopic": "rownosc pol zamalowanego i niezamalowanego",
+      "statement": "Ktorym z 5 kwadracikow uzupelnic figure, by w otrzymanym kwadracie bylo tyle samo powierzchni zamalowanej co niezamalowanej?",
+      "hasImage": true,
+      "imageNote": "Figura czesciowo zamalowana z brakujacym polem ? i 5 wariantow kwadracika.",
+      "choices": {
+        "A": "kwadracik A",
+        "B": "kwadracik B",
+        "C": "kwadracik C",
+        "D": "kwadracik D",
+        "E": "kwadracik E"
+      },
+      "correct": "D"
+    },
+    {
+      "id": "kangur-maluch-2014-13",
+      "source": "kangur-maluch-2014-13",
+      "year": 2014,
+      "number": 13,
+      "difficulty": "4pkt",
+      "topic": "pieniadze",
+      "subtopic": "dobor zabawek wg reszty",
+      "statement": "Zabawki: Pilka 40 zl, Lalka 73 zl, Mis 52 zl, Puzzle 48 zl, Klocki 57 zl. Zosia wybrala 3, zaplacila 200 zl, dostala 18 zl reszty. Potem wymienila jedna zabawke na inna i dostala dodatkowo 25 zl reszty. Ktore zabawki ostatecznie kupila?",
+      "hasImage": false,
+      "imageNote": null,
+      "choices": {
+        "A": "Pilke, lalke i misia",
+        "B": "Pilke, misia i puzzle",
+        "C": "Lalke, misia i klocki",
+        "D": "Misia, puzzle i klocki",
+        "E": "Pilke, puzzle i klocki"
+      },
+      "correct": "D"
+    },
+    {
+      "id": "kangur-maluch-2014-14",
+      "source": "kangur-maluch-2014-14",
+      "year": 2014,
+      "number": 14,
+      "difficulty": "4pkt",
+      "topic": "logika",
+      "subtopic": "uklad rownan - dieta krolika",
+      "statement": "Krolik Borys kazdego dnia zjada albo 9 marchewek, albo 2 glowki salaty, albo 1 glowke salaty i 4 marchewki. W tygodniu (7 dni) zjadl 30 marchewek. Ile glowek salaty zjadl?",
+      "hasImage": false,
+      "imageNote": null,
+      "choices": {
+        "A": "6",
+        "B": "7",
+        "C": "8",
+        "D": "9",
+        "E": "10"
+      },
+      "correct": "B"
+    },
+    {
+      "id": "kangur-maluch-2014-15",
+      "source": "kangur-maluch-2014-15",
+      "year": 2014,
+      "number": 15,
+      "difficulty": "4pkt",
+      "topic": "geometria_przestrzenna",
+      "subtopic": "widok bryly z gory",
+      "statement": "Bryla sklejona z 8 jednakowych szesciennych klockow. Ktory rysunek przedstawia widok tej bryly z gory?",
+      "hasImage": true,
+      "imageNote": "Bryla z 8 szescianow i 5 wariantow widoku z gory.",
+      "choices": {
+        "A": "widok A",
+        "B": "widok B",
+        "C": "widok C",
+        "D": "widok D",
+        "E": "widok E"
+      },
+      "correct": "B"
+    },
+    {
+      "id": "kangur-maluch-2014-16",
+      "source": "kangur-maluch-2014-16",
+      "year": 2014,
+      "number": 16,
+      "difficulty": "4pkt",
+      "topic": "kombinatoryka",
+      "subtopic": "liczenie kropek na nakladajacych sie kostkach",
+      "statement": "Ile kropek znajduje sie na rysunku (siatka nakladajacych sie wzorow kostek do gry)?",
+      "hasImage": true,
+      "imageNote": "Siatka nakladajacych sie kwadratow z kropkami jak na kostkach do gry.",
+      "choices": {
+        "A": "180",
+        "B": "181",
+        "C": "182",
+        "D": "183",
+        "E": "265"
+      },
+      "correct": "C"
+    },
+    {
+      "id": "kangur-maluch-2014-17",
+      "source": "kangur-maluch-2014-17",
+      "year": 2014,
+      "number": 17,
+      "difficulty": "5pkt",
+      "topic": "geometria_plaska",
+      "subtopic": "polozenie klocka w ukladance",
+      "statement": "Figure ulozono z 4 klockow o roznych ksztaltach. Gdzie lezy konkretny klocek (3-elementowy w ksztalcie L)?",
+      "hasImage": true,
+      "imageNote": "Figura zlozona z 4 klockow i 5 wariantow polozenia szukanego klocka.",
+      "choices": {
+        "A": "polozenie A",
+        "B": "polozenie B",
+        "C": "polozenie C",
+        "D": "polozenie D",
+        "E": "polozenie E"
+      },
+      "correct": "C"
+    },
+    {
+      "id": "kangur-maluch-2014-18",
+      "source": "kangur-maluch-2014-18",
+      "year": 2014,
+      "number": 18,
+      "difficulty": "5pkt",
+      "topic": "kombinatoryka",
+      "subtopic": "ustawienie dzieci w kole z warunkami",
+      "statement": "Siedmioro dzieci stoi w kole tak, ze zadna dziewczynka nie stoi miedzy dwiema dziewczynkami, a zaden chlopiec nie stoi obok innego chlopca. Ile dziewczat jest w tym kole?",
+      "hasImage": false,
+      "imageNote": null,
+      "choices": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "5",
+        "E": "6"
+      },
+      "correct": "C"
+    },
+    {
+      "id": "kangur-maluch-2014-19",
+      "source": "kangur-maluch-2014-19",
+      "year": 2014,
+      "number": 19,
+      "difficulty": "5pkt",
+      "topic": "logika",
+      "subtopic": "zagadka kto gdzie mieszka",
+      "statement": "W zielonym, niebieskim i zoltym domu mieszkaja panie Ania, Zosia i Krysia. Zosia w niedziele wyjezdza na caly dzien. Krysia ma psa i w niedziele zaprasza sasiadke z niebieskiego domu na obiad. Mieszkanka zielonego domu nie ma zwierzat. Ktore zdanie jest prawdziwe?",
+      "hasImage": false,
+      "imageNote": null,
+      "choices": {
+        "A": "Ania niebieski, Krysia zielony, Zosia zolty",
+        "B": "Ania zolty, Krysia zielony, Zosia niebieski",
+        "C": "Ania zielony, Krysia niebieski, Zosia zolty",
+        "D": "Ania niebieski, Krysia zolty, Zosia zielony",
+        "E": "Ania zolty, Krysia niebieski, Zosia zielony"
+      },
+      "correct": "D"
+    },
+    {
+      "id": "kangur-maluch-2014-20",
+      "source": "kangur-maluch-2014-20",
+      "year": 2014,
+      "number": 20,
+      "difficulty": "5pkt",
+      "topic": "geometria_przestrzenna",
+      "subtopic": "suma oczek na tylnej scianie",
+      "statement": "Budowla z 6 identycznych kostek. Przednia sciana jest zacieniowana. Ile wynosi suma oczek na tylnej scianie tej budowli (na kostce przeciwlegle sciany daja 7)?",
+      "hasImage": true,
+      "imageNote": "Budowla z 6 kostek z widoczna przednia sciana.",
+      "choices": {
+        "A": "25",
+        "B": "23",
+        "C": "22",
+        "D": "21",
+        "E": "20"
+      },
+      "correct": "D"
+    },
+    {
+      "id": "kangur-maluch-2014-21",
+      "source": "kangur-maluch-2014-21",
+      "year": 2014,
+      "number": 21,
+      "difficulty": "5pkt",
+      "topic": "logika",
+      "subtopic": "przewidywanie pogody wedlug regul",
+      "statement": "W bajkowym kraju kazdy sloneczny dzien jest poprzedzony 3 dniami deszczowymi. Szosty dzien po kazdym deszczowym dniu tez jest deszczowy. Dzis jest slonecznie. Jaka najwieksza liczba kolejnych dni od jutra mozna z pewnoscia przewidziec?",
+      "hasImage": false,
+      "imageNote": null,
+      "choices": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "5",
+        "E": "6"
+      },
+      "correct": "D"
+    },
+    {
+      "id": "kangur-maluch-2014-22",
+      "source": "kangur-maluch-2014-22",
+      "year": 2014,
+      "number": 22,
+      "difficulty": "5pkt",
+      "topic": "lamiglowki",
+      "subtopic": "kryptarytm - dodawanie z cyframi 0-6",
+      "statement": "Cyfry 0, 1, 2, 3, 4, 5, 6 wpisujemy w pola dzialania dwucyfrowa + dwucyfrowa = trzycyfrowa (kazda cyfra raz, rozne pola rozne cyfry). Ktora cyfra bedzie w szarym polu (jednosci wyniku)?",
+      "hasImage": true,
+      "imageNote": "Diagram dodawania pisemnego z szarym polem jednosci wyniku.",
+      "choices": {
+        "A": "6",
+        "B": "5",
+        "C": "4",
+        "D": "3",
+        "E": "2"
+      },
+      "correct": "B"
+    },
+    {
+      "id": "kangur-maluch-2014-23",
+      "source": "kangur-maluch-2014-23",
+      "year": 2014,
+      "number": 23,
+      "difficulty": "5pkt",
+      "topic": "geometria_plaska",
+      "subtopic": "maksymalne zamalowanie bez kwadratu 2x2",
+      "statement": "Basia chce zamalowac male kwadraciki w figurze tak, by nie dalo sie z niej wyciac calego zamalowanego kwadratu 2x2. Jaka najwieksza liczba malych kwadracikow moze zamalowac?",
+      "hasImage": true,
+      "imageNote": "Figura w ksztalcie krzyza zlozona z malych kwadracikow.",
+      "choices": {
+        "A": "18",
+        "B": "19",
+        "C": "20",
+        "D": "21",
+        "E": "22"
+      },
+      "correct": "C"
+    },
+    {
+      "id": "kangur-maluch-2014-24",
+      "source": "kangur-maluch-2014-24",
+      "year": 2014,
+      "number": 24,
+      "difficulty": "5pkt",
+      "topic": "lamiglowki",
+      "subtopic": "tabelka 3x3 z warunkami na sasiadow",
+      "statement": "Nikodem wpisal liczby 1-9 w tabelke 3x3, rogi to 1, 2, 4, 3. Dla liczby 5 suma sasiadow (pol o wspolnym boku) wynosi 13. To samo dla liczby 6. Jaka liczbe wpisal w szare pole (srodek)?",
+      "hasImage": true,
+      "imageNote": "Tabelka 3x3 z liczbami w rogach 1, 2, 4, 3 i szarym polem w srodku.",
+      "choices": {
+        "A": "5",
+        "B": "6",
+        "C": "7",
+        "D": "8",
+        "E": "9"
+      },
+      "correct": "D"
+    }
+  ]
+}

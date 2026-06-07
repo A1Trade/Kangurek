@@ -1,0 +1,498 @@
+{
+  "id": "l26",
+  "number": 26,
+  "block": "Geometria przestrzenna",
+  "blockCode": "D",
+  "title": "Drogi i sciezki po bryle",
+  "topic": "geometria_przestrzenna",
+  "estimatedMinutes": 16,
+  "theory": {
+    "intro": "Mrowka wchodzi na piramide i schodzi z drugiej strony. Pajak idzie po krawedziach szescianu z jednego naroznika do drugiego. Liczenie tras po bryle to bardzo wazna umiejetnosc - i nieczesto oczywista. Trzeba systematycznie szukac wszystkich mozliwosci.",
+    "tool": "Sztuczka 1: ROZWIN BRYLE NA PLASZCZYZNE. Skomplikowane drogi po bryle staja sie proste, gdy 'rozlozysz' bryle. Najkrotsza droga w 3D = linia prosta w siatce.\n\nSztuczka 2: LICZ KRAWEDZIE NA TRASIE. Idac po szescianie z naroznika do przeciwleglego, najkrotsza droga to 3 krawedzie (przekatna nie pomaga, bo idziesz tylko po krawedziach).\n\nSztuczka 3: TURLANIE KOSTKI. Kostka turlana po planszy zmienia, ktora sciana jest na gorze. Po toczeniu w prawo gorna sciana staje sie boczna, a boczna gorna.\n\nSztuczka 4: SUMA OCZEK PRZECIWLEGLA = 7. Liczac sumy widocznych scian kostki, pamietaj o tej regule - czesto pomaga.",
+    "trick": "Klucz do zadan o drogach: 'najkrotsza droga' moze byc rozumiana rozne. Po krawedziach? Po powierzchni? Wzdluz scian? Czytaj uwaznie. Czasem rozwiniecie bryly na plaszczyzne pokazuje, ze 'najkrotsza' to zupelnie nieoczekiwana sciezka."
+  },
+  "versions": [
+    {
+      "versionId": "v1",
+      "label": "Wersja 1 (oryginalna)",
+      "warmup": [
+        {
+          "id": "gen-l26-v1-w1",
+          "source": "generated-l26-v1-w1",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "geometria_przestrzenna",
+          "subtopic": "krawedzie miedzy naroznikami",
+          "statement": "Najkrotsza droga po krawedziach szescianu z jednego naroznika do sasiedniego ma:",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "1 krawedz",
+            "B": "2 krawedzie",
+            "C": "3 krawedzie",
+            "D": "4 krawedzie",
+            "E": "6 krawedzi"
+          },
+          "correct": "A"
+        },
+        {
+          "id": "gen-l26-v1-w2",
+          "source": "generated-l26-v1-w2",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "geometria_przestrzenna",
+          "subtopic": "droga przez 3 krawedzie",
+          "statement": "Najkrotsza droga po krawedziach szescianu z naroznika do PRZECIWLEGLEGO (najdalszego) naroznika ma:",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "1 krawedz",
+            "B": "2 krawedzie",
+            "C": "3 krawedzie",
+            "D": "4 krawedzie",
+            "E": "6 krawedzi"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "gen-l26-v1-w3",
+          "source": "generated-l26-v1-w3",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "geometria_przestrzenna",
+          "subtopic": "kostka turlana raz",
+          "statement": "Kostka stoi oczkiem 1 na gorze. Po jednorazowym przewroceniu w prawo na gorze jest:",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "1",
+            "B": "2",
+            "C": "4",
+            "D": "5",
+            "E": "6"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "kangur-maluch-2022-16",
+          "source": "kangur-maluch-2022-16",
+          "year": 2022,
+          "number": 16,
+          "difficulty": "4pkt",
+          "topic": "geometria_przestrzenna",
+          "subtopic": "dlugosc trasy mrowki po piramidze",
+          "statement": "Piramida z szescianow o krawedzi 10 cm. Mrowka weszla na piramide z jednej strony i zeszla z drugiej. Ile cm przeszla mrowka?",
+          "hasImage": true,
+          "imageNote": "Piramida z 3 warstw szescianow widziana z boku i z gory z zaznaczona trasa mrowki.",
+          "choices": {
+            "A": "30",
+            "B": "60",
+            "C": "70",
+            "D": "80",
+            "E": "90"
+          },
+          "correct": "D"
+        },
+        {
+          "id": "kangur-maluch-2025-5",
+          "source": "kangur-maluch-2025-5",
+          "year": 2025,
+          "number": 5,
+          "difficulty": "3pkt",
+          "topic": "geometria_przestrzenna",
+          "subtopic": "standardowa kostka - suma 7 na przeciwleglych",
+          "statement": "Na standardowej kostce do gry suma oczek na przeciwleglych scianach wynosi 7. Ktory z 5 obrazkow przedstawia standardowa kostke?",
+          "hasImage": true,
+          "imageNote": "Piec kostek z roznymi oczkami na widocznych scianach.",
+          "choices": {
+            "A": "kostka A",
+            "B": "kostka B",
+            "C": "kostka C",
+            "D": "kostka D",
+            "E": "kostka E"
+          },
+          "correct": "A"
+        }
+      ],
+      "challenge": [
+        {
+          "id": "kangur-maluch-2019-24",
+          "source": "kangur-maluch-2019-24",
+          "year": 2019,
+          "number": 24,
+          "difficulty": "5pkt",
+          "topic": "geometria_przestrzenna",
+          "subtopic": "suma sklejonych ścian",
+          "statement": "Ściany kostki ponumerowane są liczbami od 1 do 6 (przeciwległe ściany dają sumę 7). Cztery identyczne kostki sklejono w rząd (3 pary sklejonych ścian = 6 ścian sklejonych). Ile wynosi suma liczb na sześciu sklejonych ścianach?",
+          "hasImage": true,
+          "imageNote": "Cztery kostki sklejone w rząd. Widoczne ściany górne: 3, 2, 5, 6.",
+          "choices": {
+            "A": "25",
+            "B": "18",
+            "C": "21",
+            "D": "22",
+            "E": "20"
+          },
+          "correct": "E"
+        },
+        {
+          "id": "kangur-maluch-2014-20",
+          "source": "kangur-maluch-2014-20",
+          "year": 2014,
+          "number": 20,
+          "difficulty": "5pkt",
+          "topic": "geometria_przestrzenna",
+          "subtopic": "suma oczek na tylnej scianie",
+          "statement": "Budowla z 6 identycznych kostek. Przednia sciana jest zacieniowana. Ile wynosi suma oczek na tylnej scianie tej budowli (na kostce przeciwlegle sciany daja 7)?",
+          "hasImage": true,
+          "imageNote": "Budowla z 6 kostek z widoczna przednia sciana.",
+          "choices": {
+            "A": "25",
+            "B": "23",
+            "C": "22",
+            "D": "21",
+            "E": "20"
+          },
+          "correct": "D"
+        }
+      ],
+      "solutions": [
+        {
+          "problemId": "gen-l26-v1-w1",
+          "observation": "Sasiednie naroznikit polaczone 1 krawedzia.",
+          "strategy": "Liczenie krawedzi.",
+          "steps": [
+            "Dwa sasiednie naroznikit szescianu sa polaczone 1 krawedzia"
+          ],
+          "answer": "A",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l26-v1-w2",
+          "observation": "Najdalsze naroznikit - 3 krawedzie.",
+          "strategy": "Najkrotsza droga w szescianie.",
+          "steps": [
+            "Z naroznika do przeciwleglego: 3 krawedzie - musisz przejsc po 3 wymiarach"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l26-v1-w3",
+          "observation": "Po przewroceniu w prawo - sciana boczna staje sie gorna.",
+          "strategy": "Turlanie kostki.",
+          "steps": [
+            "Oczko 1 na gorze, po przewroceniu w prawo na gorze pojawia sie sciana, ktora byla z lewej - oczko 4 (lub 3, zalezy od orientacji)",
+            "Klasycznie po przewroceniu w prawo z 1 na gorze, na gorze jest 4"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2022-16",
+          "observation": "Mrowka idzie po piramidzie z klockow.",
+          "strategy": "Dlugosc trasy mrowki.",
+          "steps": [
+            "Piramida z klockow 10 cm",
+            "Mrowka weszla i zeszla z drugiej strony",
+            "Przeszla 80 cm"
+          ],
+          "answer": "D",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2025-5",
+          "observation": "Standardowa kostka - rozpoznanie.",
+          "strategy": "Sprawdzanie sum przeciwleglych.",
+          "steps": [
+            "Tylko jedna z 5 kostek to standardowa",
+            "Poprawna to A"
+          ],
+          "answer": "A",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2019-24",
+          "observation": "Sklejone kostki - suma sklejonych scian.",
+          "strategy": "Suma na sklejonych powierzchniach.",
+          "steps": [
+            "4 kostki sklejone w rzad - 3 pary sklejonych scian",
+            "Suma 6 sklejonych scian to 20"
+          ],
+          "answer": "E",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2014-20",
+          "observation": "Suma oczek na tylnej scianie budowli.",
+          "strategy": "Wykorzystanie regul kostki.",
+          "steps": [
+            "Budowla z 6 kostek, przednia sciana zacieniowana",
+            "Tylna sciana ma sume 21"
+          ],
+          "answer": "D",
+          "alternative": null
+        }
+      ]
+    },
+    {
+      "versionId": "v2",
+      "label": "Wersja 2 (powtorka)",
+      "warmup": [
+        {
+          "id": "gen-l26-v2-w1",
+          "source": "generated-l26-v2-w1",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "geometria_przestrzenna",
+          "subtopic": "krawedzie sasiednie",
+          "statement": "Sasiednie naroznikit szescianu sa polaczone iloma krawedziami?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "0",
+            "B": "1",
+            "C": "2",
+            "D": "3",
+            "E": "6"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "gen-l26-v2-w2",
+          "source": "generated-l26-v2-w2",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "geometria_przestrzenna",
+          "subtopic": "droga po krawedziach",
+          "statement": "Pajak po krawedziach szescianu chce dojsc do naroznika lezacego na tej samej krawedzi co start. Minimalna liczba krawedzi:",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "1",
+            "B": "2",
+            "C": "3",
+            "D": "4",
+            "E": "6"
+          },
+          "correct": "A"
+        },
+        {
+          "id": "gen-l26-v2-w3",
+          "source": "generated-l26-v2-w3",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "geometria_przestrzenna",
+          "subtopic": "kostka stoi - widoczne oczka",
+          "statement": "Kostka stoi na ziemi (sciana dolna jest 6, czyli niewidoczna). Suma widocznych oczek (gora + 4 boki) wynosi:",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "15",
+            "B": "16",
+            "C": "18",
+            "D": "20",
+            "E": "21"
+          },
+          "correct": "A"
+        },
+        {
+          "id": "gen-l26-v2-w4",
+          "source": "generated-l26-v2-w4",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "geometria_przestrzenna",
+          "subtopic": "krotka droga 3D",
+          "statement": "Po krawedziach szescianu z naroznika do PRZECIWLEGLEGO. Ile krawedzi minimum?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "2",
+            "B": "3",
+            "C": "4",
+            "D": "5",
+            "E": "6"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "gen-l26-v2-w5",
+          "source": "generated-l26-v2-w5",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "geometria_przestrzenna",
+          "subtopic": "powierzchnia szescianu",
+          "statement": "Ile scian widzimy zewnatrz szescianu (lacznie wszystkie strony)?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "3",
+            "B": "4",
+            "C": "5",
+            "D": "6",
+            "E": "12"
+          },
+          "correct": "D"
+        }
+      ],
+      "challenge": [
+        {
+          "id": "gen-l26-v2-c1",
+          "source": "generated-l26-v2-c1",
+          "year": null,
+          "number": null,
+          "difficulty": "4pkt",
+          "topic": "geometria_przestrzenna",
+          "subtopic": "liczba najkrotszych drog",
+          "statement": "W szescianie z naroznika do przeciwleglego sa rozne najkrotsze drogi po krawedziach (po 3 krawedzie). Ile takich roznych najkrotszych drog?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "3",
+            "B": "6",
+            "C": "8",
+            "D": "9",
+            "E": "12"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "kangur-maluch-2020-17",
+          "source": "kangur-maluch-2020-17",
+          "year": 2020,
+          "number": 17,
+          "difficulty": "5pkt",
+          "topic": "geometria_przestrzenna",
+          "subtopic": "toczenie kostki - suma scian",
+          "statement": "Kostka (suma przeciwleglych scian = 7) toczy sie w prawo po 6 kwadracikach. Jaka bedzie suma oczek na trzech sciankach oznaczonych znakami zapytania na ostatnim kwadraciku?",
+          "hasImage": true,
+          "imageNote": "Kostka toczaca sie po 6 kwadracikach, koncowa pozycja z trzema ? na sciankach.",
+          "choices": {
+            "A": "6",
+            "B": "7",
+            "C": "9",
+            "D": "11",
+            "E": "12"
+          },
+          "correct": "D"
+        }
+      ],
+      "solutions": [
+        {
+          "problemId": "gen-l26-v2-w1",
+          "observation": "Sasiednie - jedna krawedz.",
+          "strategy": "Definicja sasiedztwa.",
+          "steps": [
+            "Sasiednie naroznikit polaczone sa 1 krawedzia"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l26-v2-w2",
+          "observation": "Na tej samej krawedzi = sasiedni = 1.",
+          "strategy": "Sasiednie naroznikit.",
+          "steps": [
+            "Naroznikit na wspolnej krawedzi to sasiednie - 1 krawedz"
+          ],
+          "answer": "A",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l26-v2-w3",
+          "observation": "Suma scian kostki = 21, minus dolna 6.",
+          "strategy": "Suma minus niewidoczna.",
+          "steps": [
+            "Suma wszystkich oczek na kostce: 1+2+3+4+5+6 = 21",
+            "Minus dolna (6): 21 - 6 = 15"
+          ],
+          "answer": "A",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l26-v2-w4",
+          "observation": "Z naroznika do przeciwleglego = 3 krawedzie.",
+          "strategy": "Najdalsze naroznikit.",
+          "steps": [
+            "Potrzebujemy zmienic 3 wspolrzedne",
+            "Minimum: 3 krawedzie"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l26-v2-w5",
+          "observation": "Szescian ma 6 scian widocznych z zewnatrz.",
+          "strategy": "Liczba scian.",
+          "steps": [
+            "Szescian ma 6 scian"
+          ],
+          "answer": "D",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l26-v2-c1",
+          "observation": "Z 8 naroznikow do przeciwleglego sa rozne sciezki dlugosci 3.",
+          "strategy": "Liczenie permutacji.",
+          "steps": [
+            "Trzy krawedzie do przejscia - po jednej w kazdym kierunku (x, y, z)",
+            "Kolejnosc dowolna: 3! = 6 najkrotszych drog"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2020-17",
+          "observation": "Toczenie kostki - suma scian na koncu.",
+          "strategy": "Sledzenie turlania.",
+          "steps": [
+            "Kostka toczy sie po 6 kwadracikach w prawo",
+            "Suma trzech ? scian wynosi 11"
+          ],
+          "answer": "D",
+          "alternative": null
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Najkrotsza droga z naroznika do przeciwleglego szescianu (po krawedziach):",
+      "choices": {
+        "A": "2 krawedzie",
+        "B": "3 krawedzie",
+        "C": "6 krawedzi"
+      },
+      "correct": "B",
+      "explain": "Trzeba zmienic 3 wspolrzedne, czyli 3 krawedzie."
+    },
+    {
+      "q": "Suma oczek na wszystkich scianach standardowej kostki:",
+      "choices": {
+        "A": "15",
+        "B": "21",
+        "C": "36"
+      },
+      "correct": "B",
+      "explain": "1+2+3+4+5+6 = 21."
+    },
+    {
+      "q": "Latwiejszy sposob na trase po bryle:",
+      "choices": {
+        "A": "Liczyc w 3D",
+        "B": "Rozwinac na plaszczyzne",
+        "C": "Pomylic sie"
+      },
+      "correct": "B",
+      "explain": "Rozwiniecie bryly zamienia trase 3D na prosta linie 2D."
+    }
+  ]
+}

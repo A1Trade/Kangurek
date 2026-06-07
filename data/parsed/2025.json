@@ -1,0 +1,486 @@
+{
+  "year": 2025,
+  "category": "MALUCH",
+  "problems": [
+    {
+      "id": "kangur-maluch-2025-1",
+      "source": "kangur-maluch-2025-1",
+      "year": 2025,
+      "number": 1,
+      "difficulty": "3pkt",
+      "topic": "geometria_przestrzenna",
+      "subtopic": "budowa szescianu 3x3x3 - kolejne etapy",
+      "statement": "Wojtek budowal szescian 3x3x3 dodajac po jednym malym szescianie i nie zdejmujac juz polozonych. W roznych momentach zrobil 5 zdjec. Jak wygladalo zdjecie wykonane jako CZWARTE z kolei?",
+      "hasImage": true,
+      "imageNote": "5 etapow budowy szescianu od mniej do wiecej klockow. Czwarty stan to prawie pelny.",
+      "choices": {
+        "A": "stan A",
+        "B": "stan B",
+        "C": "stan C",
+        "D": "stan D",
+        "E": "stan E"
+      },
+      "correct": "D"
+    },
+    {
+      "id": "kangur-maluch-2025-2",
+      "source": "kangur-maluch-2025-2",
+      "year": 2025,
+      "number": 2,
+      "difficulty": "3pkt",
+      "topic": "geometria_plaska",
+      "subtopic": "obrot wiatraczka",
+      "statement": "Emilka ma wiatraczek (szescioboczny z trojkatami w roznych kolorach). Dziewczynka obrocila jego tarcze. Jak teraz moze wygladac wiatraczek?",
+      "hasImage": true,
+      "imageNote": "Heksagon podzielony na 6 trojkatow, czesc czarna, czesc biala. 5 wariantow po obrocie.",
+      "choices": {
+        "A": "wzor A",
+        "B": "wzor B",
+        "C": "wzor C",
+        "D": "wzor D",
+        "E": "wzor E"
+      },
+      "correct": "B"
+    },
+    {
+      "id": "kangur-maluch-2025-3",
+      "source": "kangur-maluch-2025-3",
+      "year": 2025,
+      "number": 3,
+      "difficulty": "3pkt",
+      "topic": "geometria_plaska",
+      "subtopic": "ruch po siatce z wektorami",
+      "statement": "Z szkoly do ZOO kangurek wykonal skoki: gora 1, skos prawo-dol 2, skos prawo-gora 1, lewo 4. Potem od ZOO wykonal: prawo 3, skos prawo-gora 2, gora 2. Do ktorego punktu (A,B,C,D,E) trafil Kangurek?",
+      "hasImage": true,
+      "imageNote": "Siatka z zaznaczonymi punktami Szkola, ZOO i punktami A-E.",
+      "choices": {
+        "A": "A",
+        "B": "B",
+        "C": "C",
+        "D": "D",
+        "E": "E"
+      },
+      "correct": "B"
+    },
+    {
+      "id": "kangur-maluch-2025-4",
+      "source": "kangur-maluch-2025-4",
+      "year": 2025,
+      "number": 4,
+      "difficulty": "3pkt",
+      "topic": "logika",
+      "subtopic": "rozpoznanie wezla sznurka",
+      "statement": "Na ktorym sznurku powstanie wezel, gdy pociagniemy za konce sznurka?",
+      "hasImage": true,
+      "imageNote": "Piec sznurkow w roznych konfiguracjach skrzyzowan.",
+      "choices": {
+        "A": "sznurek A",
+        "B": "sznurek B",
+        "C": "sznurek C",
+        "D": "sznurek D",
+        "E": "sznurek E"
+      },
+      "correct": "C"
+    },
+    {
+      "id": "kangur-maluch-2025-5",
+      "source": "kangur-maluch-2025-5",
+      "year": 2025,
+      "number": 5,
+      "difficulty": "3pkt",
+      "topic": "geometria_przestrzenna",
+      "subtopic": "standardowa kostka - suma 7 na przeciwleglych",
+      "statement": "Na standardowej kostce do gry suma oczek na przeciwleglych scianach wynosi 7. Ktory z 5 obrazkow przedstawia standardowa kostke?",
+      "hasImage": true,
+      "imageNote": "Piec kostek z roznymi oczkami na widocznych scianach.",
+      "choices": {
+        "A": "kostka A",
+        "B": "kostka B",
+        "C": "kostka C",
+        "D": "kostka D",
+        "E": "kostka E"
+      },
+      "correct": "A"
+    },
+    {
+      "id": "kangur-maluch-2025-6",
+      "source": "kangur-maluch-2025-6",
+      "year": 2025,
+      "number": 6,
+      "difficulty": "3pkt",
+      "topic": "logika",
+      "subtopic": "kombinacje muszli i zetonow",
+      "statement": "Ela i Ewa bawia sie zetonami i muszelkami. Kazda muszelka ma wartosc 6, kazdy zeton 1. Ktory z zestawow przedstawia wartosc rowna 16?",
+      "hasImage": true,
+      "imageNote": "5 zestawow z roznymi kombinacjami muszli i zetonow.",
+      "choices": {
+        "A": "zestaw A",
+        "B": "zestaw B",
+        "C": "zestaw C",
+        "D": "zestaw D",
+        "E": "zestaw E"
+      },
+      "correct": "B"
+    },
+    {
+      "id": "kangur-maluch-2025-7",
+      "source": "kangur-maluch-2025-7",
+      "year": 2025,
+      "number": 7,
+      "difficulty": "3pkt",
+      "topic": "arytmetyka",
+      "subtopic": "maksymalizacja wyniku - kolejnosc cyfr",
+      "statement": "Dominika chce wpisac cztery liczby 2, 0, 2, 5 w schemat _ + _ - _ + _ . W jakiej kolejnosci wpisac, by po wykonaniu dzialan otrzymac NAJWIEKSZY wynik?",
+      "hasImage": true,
+      "imageNote": "Schemat z czterema pustymi kratkami i znakami +, -, +.",
+      "choices": {
+        "A": "5, 2, 0, 2",
+        "B": "5, 0, 2, 2",
+        "C": "2, 5, 2, 0",
+        "D": "2, 2, 5, 0",
+        "E": "5, 2, 2, 0"
+      },
+      "correct": "A"
+    },
+    {
+      "id": "kangur-maluch-2025-8",
+      "source": "kangur-maluch-2025-8",
+      "year": 2025,
+      "number": 8,
+      "difficulty": "3pkt",
+      "topic": "geometria_plaska",
+      "subtopic": "3 elementy ulozenia",
+      "statement": "Julek mial 3 elementy ksztaltu jak na obrazku (trojkat, kwadrat, prostokat). Ktory z ponizszych wiatraczkow mogl z nich ulozyc?",
+      "hasImage": true,
+      "imageNote": "3 figury - trojkat, kwadrat, prostokat - oraz 5 wariantow wiatraczka.",
+      "choices": {
+        "A": "wzor A",
+        "B": "wzor B",
+        "C": "wzor C",
+        "D": "wzor D",
+        "E": "wzor E"
+      },
+      "correct": "C"
+    },
+    {
+      "id": "kangur-maluch-2025-9",
+      "source": "kangur-maluch-2025-9",
+      "year": 2025,
+      "number": 9,
+      "difficulty": "4pkt",
+      "topic": "logika",
+      "subtopic": "ukladanka z brakujacym fragmentem",
+      "statement": "Na talerzach Helenki, Stasia i Slawka leza kangurkowe ciastka (kazde inny ksztalt). Ktore dwie czesci uzupelnia ukladanke?",
+      "hasImage": true,
+      "imageNote": "3 talerze z kangurami i 5 par fragmentow do uzupelnienia.",
+      "choices": {
+        "A": "1 i 2",
+        "B": "1 i 4",
+        "C": "3 i 4",
+        "D": "2 i 3",
+        "E": "1 i 3"
+      },
+      "correct": "A"
+    },
+    {
+      "id": "kangur-maluch-2025-10",
+      "source": "kangur-maluch-2025-10",
+      "year": 2025,
+      "number": 10,
+      "difficulty": "4pkt",
+      "topic": "arytmetyka",
+      "subtopic": "rozkład ciasteczek na talerze",
+      "statement": "Obok stoja 3 talerze z 15 ciasteczkami rozlozonymi na nie. Helenka rozlozyla je na 3 talerze tak, by teraz na kazdym byla taka sama liczba ciastek. Ile ciastek dolozyla na swoj talerz?",
+      "hasImage": true,
+      "imageNote": "Trzy talerze z roznymi liczbami kangurkowych ciastek.",
+      "choices": {
+        "A": "4",
+        "B": "5",
+        "C": "6",
+        "D": "7",
+        "E": "8"
+      },
+      "correct": "C"
+    },
+    {
+      "id": "kangur-maluch-2025-11",
+      "source": "kangur-maluch-2025-11",
+      "year": 2025,
+      "number": 11,
+      "difficulty": "4pkt",
+      "topic": "arytmetyka",
+      "subtopic": "rownanie z dwoma typami zwierzat",
+      "statement": "W ZOO jest 5 duzych owiec i jedna mala. Dzieci daly im 210 g karmy. Kazda duza owca dostala tyle samo, a mala dwa razy tyle co duza. Ile gramow karmy dostala mala owca?",
+      "hasImage": true,
+      "imageNote": "5 duzych i 1 mala owca.",
+      "choices": {
+        "A": "55",
+        "B": "60",
+        "C": "70",
+        "D": "75",
+        "E": "80"
+      },
+      "correct": "B"
+    },
+    {
+      "id": "kangur-maluch-2025-12",
+      "source": "kangur-maluch-2025-12",
+      "year": 2025,
+      "number": 12,
+      "difficulty": "4pkt",
+      "topic": "lamiglowki",
+      "subtopic": "diagram z sumami kolek",
+      "statement": "Ala wpisala do kolka liczbe 6. Do pozostalych chce wpisac liczby 1, 2, 3, 4, 5 i 7 tak, by liczby w kolkach DOLNYCH byly rowne sumie dwoch liczb w kolkach polaczonych z nimi GORNYCH. Jaka liczbe Ala wpisze w kolko oznaczone gwiazdka?",
+      "hasImage": true,
+      "imageNote": "Diagram z kolami - 6 gornie, ? z gwiazdka u dolu z polaczeniami.",
+      "choices": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "5",
+        "E": "7"
+      },
+      "correct": "D"
+    },
+    {
+      "id": "kangur-maluch-2025-13",
+      "source": "kangur-maluch-2025-13",
+      "year": 2025,
+      "number": 13,
+      "difficulty": "4pkt",
+      "topic": "geometria_plaska",
+      "subtopic": "rownosc plasterkow pizzy z roznych ciec",
+      "statement": "Wladek chce przeciac pizze na pol wzdluz jednej z pokazanych prostych. Chce tez, by liczba plasterkow pomidora na kazdej polowie byla taka sama. Zauwazyl, ze swoj zamiar moze zrealizowac na dwa sposoby. Wzdluz ktorych dwoch roznych prostych cieć mogłby to zrobić?",
+      "hasImage": true,
+      "imageNote": "Okragla pizza z plasterkami pomidora i 4 prostymi cieciami oznaczonymi 1, 2, 3, 4.",
+      "choices": {
+        "A": "1 i 3",
+        "B": "1 i 4",
+        "C": "2 i 3",
+        "D": "2 i 4",
+        "E": "3 i 4"
+      },
+      "correct": "D"
+    },
+    {
+      "id": "kangur-maluch-2025-14",
+      "source": "kangur-maluch-2025-14",
+      "year": 2025,
+      "number": 14,
+      "difficulty": "4pkt",
+      "topic": "geometria_plaska",
+      "subtopic": "kwadrat z prostokatnych kartonikow - czwarta czesc",
+      "statement": "Z 4 prostokatnych kartonikow Faustyna zbudowala kwadrat. 3 sa pokazane na obrazku. Ktory z ponizszych kartonikow moze byc czwarta czescia tego kwadratu?",
+      "hasImage": true,
+      "imageNote": "3 prostokatne kartoniki w kwadracie + 5 wariantow 4. czesci.",
+      "choices": {
+        "A": "karton A",
+        "B": "karton B",
+        "C": "karton C",
+        "D": "karton D",
+        "E": "karton E"
+      },
+      "correct": "C"
+    },
+    {
+      "id": "kangur-maluch-2025-15",
+      "source": "kangur-maluch-2025-15",
+      "year": 2025,
+      "number": 15,
+      "difficulty": "4pkt",
+      "topic": "kombinatoryka",
+      "subtopic": "liczenie kropek na biedronkach",
+      "statement": "6 biedronek ma rozne liczby kropek (1-6). Tadzio zrobil 4 zdjecia, na kazdym 3 biedronki, kazda biedronka pojawila sie tyle samo razy (2). 3 zdjecia pokazane sa konturem, brakuje 4. Ile lacznie kropek maja 3 biedronki na czwartym zdjeciu?",
+      "hasImage": true,
+      "imageNote": "6 biedronek z 1-6 kropkami + 3 wyswietlone zdjecia + kontur 4.",
+      "choices": {
+        "A": "13",
+        "B": "23",
+        "C": "43",
+        "D": "53",
+        "E": "63"
+      },
+      "correct": "C"
+    },
+    {
+      "id": "kangur-maluch-2025-16",
+      "source": "kangur-maluch-2025-16",
+      "year": 2025,
+      "number": 16,
+      "difficulty": "4pkt",
+      "topic": "arytmetyka",
+      "subtopic": "rownanie z plamą atramentu",
+      "statement": "Michal zapisal liczby owocow: 2 mango, jakies jablka, 1 gruszka, jakies banany, 30 sliwek - razem 106 owocow. Pamietal, ze owocow dwoch rodzajow bylo po tyle samo, owocow drugich dwoch po tyle samo, a pewnego rodzaju bylo ponad 10 wiecej niz innego, ale zadnego wiecej niz 106. Ile bananow mial Michal?",
+      "hasImage": true,
+      "imageNote": "Lista owocow z dwoma zatartymi liczbami (jablka i banany).",
+      "choices": {
+        "A": "9",
+        "B": "10",
+        "C": "11",
+        "D": "12",
+        "E": "23"
+      },
+      "correct": "E"
+    },
+    {
+      "id": "kangur-maluch-2025-17",
+      "source": "kangur-maluch-2025-17",
+      "year": 2025,
+      "number": 17,
+      "difficulty": "5pkt",
+      "topic": "geometria_plaska",
+      "subtopic": "prostokaty w prostokacie - wymiary",
+      "statement": "Kostek narysowal i zacieniowal 11 identycznych prostokatow. Rysunek ma 100 cm dlugosci i 60 cm szerokosci. Jakie wymiary ma kazdy z 11 prostokatow?",
+      "hasImage": true,
+      "imageNote": "Prostokat 100x60 wypelniony 11 identycznymi prostokatami.",
+      "choices": {
+        "A": "8 cm x 40 cm",
+        "B": "10 cm x 40 cm",
+        "C": "12 cm x 40 cm",
+        "D": "8 cm x 44 cm",
+        "E": "10 cm x 50 cm"
+      },
+      "correct": "C"
+    },
+    {
+      "id": "kangur-maluch-2025-18",
+      "source": "kangur-maluch-2025-18",
+      "year": 2025,
+      "number": 18,
+      "difficulty": "5pkt",
+      "topic": "logika",
+      "subtopic": "wieki rodzenstwa - uklad",
+      "statement": "Czworo dzieci dzisiejsza urodziny: Maria ma 11 lat i jest o 5 lat mlodsza niz brat Jozka. Mlodsza siostra Marii jest o 2 lata starsza od Jozka. Wsrod czworki dzieci kazde jest w roznym wieku. O ile lat Jozek jest mlodszy od swego brata?",
+      "hasImage": false,
+      "imageNote": null,
+      "choices": {
+        "A": "7",
+        "B": "6",
+        "C": "5",
+        "D": "4",
+        "E": "3"
+      },
+      "correct": "A"
+    },
+    {
+      "id": "kangur-maluch-2025-19",
+      "source": "kangur-maluch-2025-19",
+      "year": 2025,
+      "number": 19,
+      "difficulty": "5pkt",
+      "topic": "logika",
+      "subtopic": "poziom wody w szklankach z kulkami",
+      "statement": "Do 5 identycznych szklanek z 1, 2, 3, 4 i 6 jednakowymi kulkami wlano taka sama ilosc wody. W szklankach 1, 2 i 3 poziom wody jest taki sam. W szklance 4 poziom jest taki sam jak w pierwszych 3. W piatej dwa razy wyzszy niz w pierwszych trzech. W ktorej szklance jest najmniej wody?",
+      "hasImage": true,
+      "imageNote": "5 szklanek z roznym liczbami kulek (1, 2, 3, 4, 6).",
+      "choices": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4",
+        "E": "5"
+      },
+      "correct": "A"
+    },
+    {
+      "id": "kangur-maluch-2025-20",
+      "source": "kangur-maluch-2025-20",
+      "year": 2025,
+      "number": 20,
+      "difficulty": "5pkt",
+      "topic": "geometria_przestrzenna",
+      "subtopic": "widok wiezy z gory",
+      "statement": "Ignas mial drewniane klocki jasne (szesciany) i ciemne (szesciokatne). Zbudowal z nich wieze w taki sposob, ze klocki w tym samym kolorze nie stykaja sie ze soba scianami. Jak wyglada wieza Ignasego z gory?",
+      "hasImage": true,
+      "imageNote": "Wieza zbudowana z jasnych i ciemnych klockow + 5 wariantow widoku z gory.",
+      "choices": {
+        "A": "wzor A",
+        "B": "wzor B",
+        "C": "wzor C",
+        "D": "wzor D",
+        "E": "wzor E"
+      },
+      "correct": "D"
+    },
+    {
+      "id": "kangur-maluch-2025-21",
+      "source": "kangur-maluch-2025-21",
+      "year": 2025,
+      "number": 21,
+      "difficulty": "5pkt",
+      "topic": "logika",
+      "subtopic": "wagi z roznymi rodzajami klockow",
+      "statement": "Na dwoch wagach Kajtek polozyl klocki w 3 rodzajach. Klocek typu A wazy 5 kg. Wagi sa zrownowazone wedlug obrazka. Ile kilogramow waży klocek typu B (jasny szescian)?",
+      "hasImage": true,
+      "imageNote": "Dwie szalkowe wagi z roznymi klockami w roznowadze.",
+      "choices": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4",
+        "E": "5"
+      },
+      "correct": "C"
+    },
+    {
+      "id": "kangur-maluch-2025-22",
+      "source": "kangur-maluch-2025-22",
+      "year": 2025,
+      "number": 22,
+      "difficulty": "5pkt",
+      "topic": "czas_kalendarz",
+      "subtopic": "suma 4 dat z prostej linii kalendarza",
+      "statement": "Kartka z kalendarza przedstawia pewien miesiac. Suma liczb (dat) na czterech polach lezacych na pewnej prostej linii wynosi 29. W jaki dzien tygodnia wypadl pierwszy dzien tego miesiaca?",
+      "hasImage": true,
+      "imageNote": "Tabela kalendarza miesiecznego z dniami Pon, Wt, Sr, Czw, Pt, Sob, Nd.",
+      "choices": {
+        "A": "W czwartek",
+        "B": "W niedziele",
+        "C": "W ponedialek",
+        "D": "We wtorek",
+        "E": "W srode"
+      },
+      "correct": "A"
+    },
+    {
+      "id": "kangur-maluch-2025-23",
+      "source": "kangur-maluch-2025-23",
+      "year": 2025,
+      "number": 23,
+      "difficulty": "5pkt",
+      "topic": "lamiglowki",
+      "subtopic": "kola z liczbami 1-12, rowne sumy na prostej",
+      "statement": "Kazda z liczb 1-12 wpisana do kolka diagramu tak, by suma czterech liczb na kazdej prostej byla taka sama. Niektore liczby juz wpisane: 8, 11, 2, 1, 7, 12, 6. Jaka liczbe wpisac w miejscu znaku zapytania?",
+      "hasImage": true,
+      "imageNote": "Diagram heksagonalny z kolami, czesc liczb wypelniona.",
+      "choices": {
+        "A": "3",
+        "B": "4",
+        "C": "5",
+        "D": "6",
+        "E": "10"
+      },
+      "correct": "C"
+    },
+    {
+      "id": "kangur-maluch-2025-24",
+      "source": "kangur-maluch-2025-24",
+      "year": 2025,
+      "number": 24,
+      "difficulty": "5pkt",
+      "topic": "geometria_plaska",
+      "subtopic": "prostokat z 2 identycznych czesci - kwadrat",
+      "statement": "Prostokat przeciety na 2 identyczne czesci. Ulozono z nich kwadrat. Dluzszy bok prostokata mial 27 cm. O ile cm krotszy bok prostokata jest krotszy od dluzszego boku tego kwadratu?",
+      "hasImage": true,
+      "imageNote": "Prostokat ciety w 'schody' i przeksztalcony w kwadrat.",
+      "choices": {
+        "A": "3",
+        "B": "6",
+        "C": "9",
+        "D": "12",
+        "E": "18"
+      },
+      "correct": "B"
+    }
+  ]
+}

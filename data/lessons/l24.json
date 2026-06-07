@@ -1,0 +1,495 @@
+{
+  "id": "l24",
+  "number": 24,
+  "block": "Geometria przestrzenna",
+  "blockCode": "D",
+  "title": "Liczenie kostek w budowli",
+  "topic": "geometria_przestrzenna",
+  "estimatedMinutes": 16,
+  "theory": {
+    "intro": "Pokazane masz piramide z kostek. Zliczasz te widoczne i wychodzi 12. Ale w srodku moga byc ukryte - nie widac ich, a sa! Liczenie kostek w bryle wymaga uwzglednienia tego, czego nie widac. To wymaga wyobrazni i metody.",
+    "tool": "Sztuczka 1: LICZ WARSTWAMI. Patrz na bryle warstwa po warstwie (poziom po poziomie). Policz kostki w kazdym pietrze osobno, potem dodaj.\n\nSztuczka 2: SPRAWDZ UKRYTE KOSTKI. Kostka 'wisi' tylko jezeli ja ktos podpiera. Jezeli w gornej warstwie jest kostka, w dolnej musi byc pod nia kostka.\n\nSztuczka 3: SZESCIAN PELNY ma N razy N razy N kostek. Szescian 3x3x3 = 27, 2x2x2 = 8. Zapamietaj te liczby.\n\nSztuczka 4: USUWANIE I DODAWANIE. Bryla = pelny szescian minus brakujace kostki. Czasem latwiej policzyc brakujace niz wszystkie.",
+    "trick": "Pulapka klasyczna: uczen liczy tylko widoczne kostki i nie dodaje ukrytych. W piramidzie 3x3x3, wszystkich kostek jest 27, ale widzimy tylko 19 (gorne i boczne). 8 jest ukrytych w srodku. Zawsze sprawdzaj, czy bryla jest 'pelna'."
+  },
+  "versions": [
+    {
+      "versionId": "v1",
+      "label": "Wersja 1 (oryginalna)",
+      "warmup": [
+        {
+          "id": "gen-l24-v1-w1",
+          "source": "generated-l24-v1-w1",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "geometria_przestrzenna",
+          "subtopic": "pelny szescian 2x2x2",
+          "statement": "Szescian 2x2x2 zbudowany z malych kostek. Ile malych kostek?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "4",
+            "B": "6",
+            "C": "8",
+            "D": "12",
+            "E": "16"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "gen-l24-v1-w2",
+          "source": "generated-l24-v1-w2",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "geometria_przestrzenna",
+          "subtopic": "pelny szescian 3x3x3",
+          "statement": "Szescian 3x3x3 zbudowany z malych kostek. Ile malych kostek?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "9",
+            "B": "18",
+            "C": "24",
+            "D": "27",
+            "E": "36"
+          },
+          "correct": "D"
+        },
+        {
+          "id": "gen-l24-v1-w3",
+          "source": "generated-l24-v1-w3",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "geometria_przestrzenna",
+          "subtopic": "kolumny i warstwy",
+          "statement": "Bryla zbudowana z 3 warstw po 4 kostki kazda. Ile kostek razem?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "7",
+            "B": "9",
+            "C": "10",
+            "D": "12",
+            "E": "16"
+          },
+          "correct": "D"
+        },
+        {
+          "id": "kangur-maluch-2018-14",
+          "source": "kangur-maluch-2018-14",
+          "year": 2018,
+          "number": 14,
+          "difficulty": "4pkt",
+          "topic": "geometria_przestrzenna",
+          "subtopic": "liczenie scian malowanych na sklejonych szescianach",
+          "statement": "Slawek skleil 10 drewnianych szescianow w bryle L i pomalowal ja ze wszystkich stron. Ile z tych 10 klockow ma pomalowane DOKLADNIE 4 sciany?",
+          "hasImage": true,
+          "imageNote": "Bryla zlozona z 10 szescianow ulozonych w ksztalcie L.",
+          "choices": {
+            "A": "5",
+            "B": "7",
+            "C": "8",
+            "D": "9",
+            "E": "10"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "kangur-maluch-2021-10",
+          "source": "kangur-maluch-2021-10",
+          "year": 2021,
+          "number": 10,
+          "difficulty": "4pkt",
+          "topic": "geometria_przestrzenna",
+          "subtopic": "szara czesc budowli",
+          "statement": "Slawek skleil osobno klocki biale, czarne i szare. Z trzech czesci zbudowal prostopadlosc1enna budowle z 18 kostek. Na ktorym obrazku przedstawiona jest szara czesc?",
+          "hasImage": true,
+          "imageNote": "Budowla z 18 kostek w 3 kolorach, 5 wariantow szarej czesci.",
+          "choices": {
+            "A": "czesc A",
+            "B": "czesc B",
+            "C": "czesc C",
+            "D": "czesc D",
+            "E": "czesc E"
+          },
+          "correct": "B"
+        }
+      ],
+      "challenge": [
+        {
+          "id": "kangur-maluch-2022-17",
+          "source": "kangur-maluch-2022-17",
+          "year": 2022,
+          "number": 17,
+          "difficulty": "5pkt",
+          "topic": "geometria_przestrzenna",
+          "subtopic": "liczenie bialych szescianow w bryle",
+          "statement": "Stas zbudowal duzy szescian z 3 rodzajow klockow drewnianych: czarne plaskie, szare ksztalt L, biale male szesciany. Ilu bialych malych szescianow uzyl?",
+          "hasImage": true,
+          "imageNote": "Trzy rodzaje klockow obok siebie + duzy szescian zbudowany z nich.",
+          "choices": {
+            "A": "8",
+            "B": "11",
+            "C": "13",
+            "D": "16",
+            "E": "19"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "kangur-maluch-2024-24",
+          "source": "kangur-maluch-2024-24",
+          "year": 2024,
+          "number": 24,
+          "difficulty": "5pkt",
+          "topic": "geometria_przestrzenna",
+          "subtopic": "minimalna liczba bialych klockow",
+          "statement": "Slawek buduje maly szescian albo z 4 bialych klockow, albo z 1 bialego i 1 szarego. Z malych szescianow zbudowal wiekszy szescian. Jaka jest najmniejsza liczba bialych klockow, ktorych mogl uzyc?",
+          "hasImage": true,
+          "imageNote": "Duzy szescian zbudowany z malych szescianow bialych i szarych.",
+          "choices": {
+            "A": "8",
+            "B": "11",
+            "C": "13",
+            "D": "14",
+            "E": "23"
+          },
+          "correct": "D"
+        }
+      ],
+      "solutions": [
+        {
+          "problemId": "gen-l24-v1-w1",
+          "observation": "Szescian 2x2x2 = 2 razy 2 razy 2.",
+          "strategy": "Wzor na liczbe kostek.",
+          "steps": [
+            "2 razy 2 razy 2 = 8"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l24-v1-w2",
+          "observation": "Szescian 3x3x3 = 3 razy 3 razy 3.",
+          "strategy": "Wzor na liczbe kostek.",
+          "steps": [
+            "3 razy 3 razy 3 = 27"
+          ],
+          "answer": "D",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l24-v1-w3",
+          "observation": "3 warstwy po 4 kostki.",
+          "strategy": "Liczenie warstwami.",
+          "steps": [
+            "3 razy 4 = 12 kostek"
+          ],
+          "answer": "D",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2018-14",
+          "observation": "Liczymy klocki z dokladnie 4 pomalowanymi scianami.",
+          "strategy": "Sciany pomalowane wedlug polozenia.",
+          "steps": [
+            "Bryla L z 10 klockow pomalowana z zewnatrz",
+            "Klockow z 4 pomalowanymi scianami jest 7"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2021-10",
+          "observation": "Szara czesc budowli z 18 kostek.",
+          "strategy": "Rozpoznanie czesci z koloru.",
+          "steps": [
+            "Z 3 czesci (biala, czarna, szara) zbudowano budowle",
+            "Szara czesc to obraz B"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2022-17",
+          "observation": "Liczba bialych szescianow w bryle.",
+          "strategy": "Liczenie konkretnego rodzaju klockow.",
+          "steps": [
+            "Szescian z 3 rodzajow klockow",
+            "Bialych malych szescianow uzyto 13"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2024-24",
+          "observation": "Minimalna liczba bialych klockow.",
+          "strategy": "Optymalizacja klockow.",
+          "steps": [
+            "Maly szescian: 4 biale LUB 1 bialy + 1 szary",
+            "Minimum bialych klockow do budowy duzego: 14"
+          ],
+          "answer": "D",
+          "alternative": null
+        }
+      ]
+    },
+    {
+      "versionId": "v2",
+      "label": "Wersja 2 (powtorka)",
+      "warmup": [
+        {
+          "id": "gen-l24-v2-w1",
+          "source": "generated-l24-v2-w1",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "geometria_przestrzenna",
+          "subtopic": "pelny szescian 4x4x4",
+          "statement": "Szescian 4x4x4 - ile malych kostek?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "16",
+            "B": "32",
+            "C": "48",
+            "D": "64",
+            "E": "81"
+          },
+          "correct": "D"
+        },
+        {
+          "id": "gen-l24-v2-w2",
+          "source": "generated-l24-v2-w2",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "geometria_przestrzenna",
+          "subtopic": "warstwy o roznej liczbie",
+          "statement": "Piramida: dolna warstwa 9 kostek, srodkowa 4, gorna 1. Razem ile kostek?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "10",
+            "B": "12",
+            "C": "14",
+            "D": "15",
+            "E": "16"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "gen-l24-v2-w3",
+          "source": "generated-l24-v2-w3",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "geometria_przestrzenna",
+          "subtopic": "ukryte kostki",
+          "statement": "Pelny szescian 3x3x3 ma 27 kostek. Ile kostek jest CALKOWICIE UKRYTYCH wewnatrz (nie widac ich z zadnej strony)?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "0",
+            "B": "1",
+            "C": "3",
+            "D": "8",
+            "E": "9"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "gen-l24-v2-w4",
+          "source": "generated-l24-v2-w4",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "geometria_przestrzenna",
+          "subtopic": "brakujace kostki",
+          "statement": "Pelny szescian 3x3x3 ma 27 kostek. Po usunieciu 5 kostek - ile zostalo?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "20",
+            "B": "21",
+            "C": "22",
+            "D": "23",
+            "E": "24"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "gen-l24-v2-w5",
+          "source": "generated-l24-v2-w5",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "geometria_przestrzenna",
+          "subtopic": "liczba widocznych scian",
+          "statement": "Pojedyncza kostka stojaca na ziemi. Ile jej scian widzimy?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "1",
+            "B": "2",
+            "C": "3",
+            "D": "4",
+            "E": "5"
+          },
+          "correct": "E"
+        }
+      ],
+      "challenge": [
+        {
+          "id": "gen-l24-v2-c1",
+          "source": "generated-l24-v2-c1",
+          "year": null,
+          "number": null,
+          "difficulty": "4pkt",
+          "topic": "geometria_przestrzenna",
+          "subtopic": "liczenie z widokiem",
+          "statement": "Z gory widzimy bryle jak prostokat 3x2 (6 kwadratow). Wiemy, ze w kazdej kolumnie sa 2 kostki. Ile kostek lacznie?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "6",
+            "B": "8",
+            "C": "10",
+            "D": "12",
+            "E": "18"
+          },
+          "correct": "D"
+        },
+        {
+          "id": "gen-l24-v2-c2",
+          "source": "generated-l24-v2-c2",
+          "year": null,
+          "number": null,
+          "difficulty": "5pkt",
+          "topic": "geometria_przestrzenna",
+          "subtopic": "zlozony szescian z usunieciem",
+          "statement": "Z pelnego szescianu 4x4x4 usunieto wszystkie kostki z jednego naroznika - usunieto szescian 2x2x2. Ile kostek zostalo?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "48",
+            "B": "54",
+            "C": "56",
+            "D": "60",
+            "E": "62"
+          },
+          "correct": "C"
+        }
+      ],
+      "solutions": [
+        {
+          "problemId": "gen-l24-v2-w1",
+          "observation": "Szescian 4x4x4 = 4 razy 4 razy 4.",
+          "strategy": "Wzor na liczbe.",
+          "steps": [
+            "4 razy 4 razy 4 = 64"
+          ],
+          "answer": "D",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l24-v2-w2",
+          "observation": "Sumujemy warstwy: 9 + 4 + 1.",
+          "strategy": "Liczenie warstwami.",
+          "steps": [
+            "9 + 4 + 1 = 14"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l24-v2-w3",
+          "observation": "Tylko srodkowa kostka jest calkowicie ukryta.",
+          "strategy": "Lokalizacja ukrytych.",
+          "steps": [
+            "Szescian 3x3x3 - srodkowa kostka (1,1,1) jest otoczona przez 6 sasiadow",
+            "Tylko ta jedna jest niewidoczna z kazdej strony"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l24-v2-w4",
+          "observation": "27 - 5 = 22.",
+          "strategy": "Odejmowanie.",
+          "steps": [
+            "27 kostek minus 5 usuniete = 22"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l24-v2-w5",
+          "observation": "Z jednego punktu widzimy max 3 sciany.",
+          "strategy": "Patrzenie na kostke.",
+          "steps": [
+            "Patrzac na kostke widzimy gore, przod i bok - 3 sciany. Hmm wracajac do odpowiedzi - 'pojedyncza kostka stojaca na ziemi' moze byc widziana z gory + 4 boki = 5 scian (bez dna)"
+          ],
+          "answer": "E",
+          "alternative": "Z jednego punktu max 3, ale obracajac sie wokol widzimy 5 scian (wszystkie procz dna)."
+        },
+        {
+          "problemId": "gen-l24-v2-c1",
+          "observation": "Z gory 6 kolumn, w kazdej 2 kostki.",
+          "strategy": "Mnozenie warstw.",
+          "steps": [
+            "6 kolumn razy 2 kostki = 12 kostek"
+          ],
+          "answer": "D",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l24-v2-c2",
+          "observation": "Pelny szescian 64 minus mniejszy 8.",
+          "strategy": "Odejmowanie objetosci.",
+          "steps": [
+            "Pelny szescian 4x4x4 = 64 kostek",
+            "Usuniety naroznik 2x2x2 = 8 kostek",
+            "Zostalo: 64 - 8 = 56"
+          ],
+          "answer": "C",
+          "alternative": null
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Pelny szescian 3x3x3 ma:",
+      "choices": {
+        "A": "9 kostek",
+        "B": "18 kostek",
+        "C": "27 kostek"
+      },
+      "correct": "C",
+      "explain": "3 razy 3 razy 3 = 27 malych kostek."
+    },
+    {
+      "q": "Liczac kostki w bryle, najlepiej:",
+      "choices": {
+        "A": "Patrzec z jednej strony",
+        "B": "Liczyc warstwami",
+        "C": "Zgadywac"
+      },
+      "correct": "B",
+      "explain": "Liczenie warstwami daje pewnosc, ze nic nie pominiemy."
+    },
+    {
+      "q": "W piramidzie kostki sa CZASEM:",
+      "choices": {
+        "A": "Widoczne wszystkie",
+        "B": "Niektore ukryte w srodku",
+        "C": "Niemozliwe do policzenia"
+      },
+      "correct": "B",
+      "explain": "Kostki wewnatrz piramidy moga byc calkowicie ukryte."
+    }
+  ]
+}

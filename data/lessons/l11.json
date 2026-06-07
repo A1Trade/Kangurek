@@ -1,0 +1,506 @@
+{
+  "id": "l11",
+  "number": 11,
+  "block": "Wzory, ciagi, regularnosci",
+  "blockCode": "B",
+  "title": "Magiczne kwadraty",
+  "topic": "wzory_i_ciagi",
+  "estimatedMinutes": 15,
+  "theory": {
+    "intro": "Magiczny kwadrat to siatka liczb, w ktorej kazdy wiersz, kazda kolumna i obie przekatne daja te sama sume. Wyglada jak czary, ale to czysta logika - i da sie go rozwiazac krok po kroku.",
+    "tool": "Sztuczka 1: ZNAJDZ SUME MAGICZNA. Jezeli jeden wiersz lub kolumna jest kompletny - jego suma to suma magiczna calego kwadratu. Wszystkie inne linie musza dac tyle samo.\n\nSztuczka 2: BRAKUJACA LICZBA. Gdy w wierszu sa 2 liczby z 3, brakujaca to suma magiczna minus te dwie. Wiersz z 8 i 1, suma 15: brakuje 15 - 8 - 1 = 6.\n\nSztuczka 3: SRODEK JEST SPECJALNY. W magicznym kwadracie 3x3 z liczb 1-9 srodek to zawsze 5, a suma magiczna to 15. Srodek to suma magiczna podzielona przez 3.\n\nSztuczka 4: SPRAWDZAJ SPOJNOSC. Gdy szukasz bledu, policz sume kazdego wiersza i kolumny. Linia, ktora odstaje, wskazuje pole z blednym wpisem - to pole nalezace do dwoch odstajacych linii.",
+    "trick": "W zadaniach 'znajdz blad' nie zgaduj. Policz sumy wszystkich wierszy i kolumn. Bledne pole lezy na przecieciu dwoch linii, ktore daja zla sume. To zawsze dziala."
+  },
+  "versions": [
+    {
+      "versionId": "v1",
+      "label": "Wersja 1 (oryginalna)",
+      "warmup": [
+        {
+          "id": "gen-l11-w1",
+          "source": "generated-l11-w1",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "wzory_i_ciagi",
+          "subtopic": "srodek magicznego kwadratu",
+          "statement": "W magicznym kwadracie 3x3 z liczb od 1 do 9 suma kazdego rzedu wynosi 15. Jaka liczba jest w samym srodku?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "3",
+            "B": "4",
+            "C": "5",
+            "D": "6",
+            "E": "9"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "gen-l11-w2",
+          "source": "generated-l11-w2",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "wzory_i_ciagi",
+          "subtopic": "brakujaca liczba w wierszu",
+          "statement": "W magicznym kwadracie suma rzedu to 15. W jednym rzedzie sa juz liczby 8 i 1. Jaka jest trzecia liczba?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "4",
+            "B": "5",
+            "C": "6",
+            "D": "7",
+            "E": "8"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "gen-l11-w3",
+          "source": "generated-l11-w3",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "wzory_i_ciagi",
+          "subtopic": "brakujaca liczba przy innej sumie",
+          "statement": "W magicznym kwadracie suma kolumny to 18. W kolumnie sa juz 7 i 5. Jaka jest trzecia liczba?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "5",
+            "B": "6",
+            "C": "7",
+            "D": "8",
+            "E": "9"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "gen-l11-w4",
+          "source": "generated-l11-w4",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "wzory_i_ciagi",
+          "subtopic": "suma przekatnej",
+          "statement": "W magicznym kwadracie na przekatnej sa liczby 2, 5 i 8. Ile wynosi suma magiczna tego kwadratu?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "12",
+            "B": "13",
+            "C": "14",
+            "D": "15",
+            "E": "16"
+          },
+          "correct": "D"
+        },
+        {
+          "id": "kangur-maluch-2022-5",
+          "source": "kangur-maluch-2022-5",
+          "year": 2022,
+          "number": 5,
+          "difficulty": "3pkt",
+          "topic": "logika",
+          "subtopic": "kwadrat magiczny - znajdz blad",
+          "statement": "Tabela 3x3: 9 1 5 / 3 7 6 / 4 7 4. Suma trzech liczb w kazdym rzedzie i kazdej kolumnie powinna byc taka sama. Jedna liczba zostala wpisana niepoprawnie. Ktora?",
+          "hasImage": true,
+          "imageNote": "Tabela 3x3 z liczbami: rzad1: 9,1,5; rzad2: 3,7,6; rzad3: 4,7,4.",
+          "choices": {
+            "A": "1",
+            "B": "3",
+            "C": "5",
+            "D": "Jedna z czworek",
+            "E": "Jedna z siodemek"
+          },
+          "correct": "B"
+        }
+      ],
+      "challenge": [
+        {
+          "id": "kangur-maluch-2012-12",
+          "source": "kangur-maluch-2012-12",
+          "year": 2012,
+          "number": 12,
+          "difficulty": "4pkt",
+          "topic": "logika",
+          "subtopic": "sudoku 4x4 z wyliczonych wartosci",
+          "statement": "Patryk wykonuje dzialania w tabeli 1, wyniki wpisuje w te same pola tabeli 2 i uzupelnia ja tak, by liczby 1,2,3,4 pojawily sie po razie w kazdej kolumnie i kazdym wierszu. Jaka liczbe powinien wpisac w szare pole?",
+          "hasImage": true,
+          "imageNote": "Tabela 4x4 z dzialaniami: 1*1=1, 1*3=3, 6-3=3, 6-5=1, 4-1=3, 1+3=4, 9-7=2.",
+          "choices": {
+            "A": "1",
+            "B": "2",
+            "C": "3",
+            "D": "4",
+            "E": "1 lub 2"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "gen-l11-c2",
+          "source": "generated-l11-c2",
+          "year": null,
+          "number": null,
+          "difficulty": "5pkt",
+          "topic": "wzory_i_ciagi",
+          "subtopic": "brakujaca liczba przy duzej sumie",
+          "statement": "W magicznym kwadracie 3x3 wszystkie sumy wynosza 24. W jednym wierszu sa juz liczby 11 i 7. Jaka jest trzecia liczba w tym wierszu?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "5",
+            "B": "6",
+            "C": "7",
+            "D": "8",
+            "E": "9"
+          },
+          "correct": "B"
+        }
+      ],
+      "solutions": [
+        {
+          "problemId": "gen-l11-w1",
+          "observation": "Magiczny kwadrat 3x3 z 1-9 - srodek to zawsze suma magiczna : 3.",
+          "strategy": "Regula srodka.",
+          "steps": [
+            "Suma magiczna 15",
+            "Srodek = 15 : 3 = 5"
+          ],
+          "answer": "C",
+          "alternative": "Srodek nalezy do 4 linii (wiersz, kolumna, 2 przekatne) - dlatego jest specjalny."
+        },
+        {
+          "problemId": "gen-l11-w2",
+          "observation": "Brakujaca = suma magiczna minus dwie znane.",
+          "strategy": "Brakujaca liczba.",
+          "steps": [
+            "15 - 8 - 1 = 6"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l11-w3",
+          "observation": "Brakujaca = suma minus dwie znane.",
+          "strategy": "Brakujaca liczba.",
+          "steps": [
+            "18 - 7 - 5 = 6"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l11-w4",
+          "observation": "Przekatna tez musi dac sume magiczna.",
+          "strategy": "Suma linii.",
+          "steps": [
+            "2 + 5 + 8 = 15",
+            "To wlasnie suma magiczna"
+          ],
+          "answer": "D",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2022-5",
+          "observation": "Policz sumy wierszy i kolumn, znajdz odstajaca.",
+          "strategy": "Sprawdzanie spojnosci.",
+          "steps": [
+            "Wiersze: 9+1+5=15, 3+7+6=16, 4+7+4=15",
+            "Kolumny: 9+3+4=16, 1+7+7=15, 5+6+4=15",
+            "Odstaja: wiersz 2 i kolumna 1 (oba 16)",
+            "Wspolne pole: liczba 3 w lewym polu wiersza 2",
+            "Zamiana 3 na 2 naprawia obie linie"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2012-12",
+          "observation": "Wyniki dzialan wpisane do siatki, potem uzupelnianie jak sudoku.",
+          "strategy": "Najpierw policz dzialania, potem uzupelnij sudoku 4x4.",
+          "steps": [
+            "Dzialania daja liczby: 1*1=1, 1*3=3, 6-3=3, 6-5=1, 4-1=3, 1+3=4, 9-7=2",
+            "W siatce kazda liczba 1-4 raz w wierszu i kolumnie",
+            "Po uzupelnieniu w szarym polu wychodzi 3"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l11-c2",
+          "observation": "Brakujaca = suma magiczna minus dwie znane.",
+          "strategy": "Brakujaca liczba.",
+          "steps": [
+            "24 - 11 - 7 = 6"
+          ],
+          "answer": "B",
+          "alternative": null
+        }
+      ]
+    },
+    {
+      "versionId": "v2",
+      "label": "Wersja 2 (powtorka)",
+      "warmup": [
+        {
+          "id": "gen-l11-v2-w1",
+          "source": "generated-l11-v2-w1",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "wzory_i_ciagi",
+          "subtopic": "brakujaca liczba w wierszu",
+          "statement": "W magicznym kwadracie suma rzedu to 12. W jednym rzedzie sa juz liczby 7 i 2. Jaka jest trzecia liczba?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "2",
+            "B": "3",
+            "C": "4",
+            "D": "5",
+            "E": "6"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "gen-l11-v2-w2",
+          "source": "generated-l11-v2-w2",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "wzory_i_ciagi",
+          "subtopic": "suma magiczna kwadratu 3x3",
+          "statement": "Ile wynosi suma magiczna kwadratu 3x3 zbudowanego z liczb od 1 do 9?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "12",
+            "B": "13",
+            "C": "14",
+            "D": "15",
+            "E": "18"
+          },
+          "correct": "D"
+        },
+        {
+          "id": "gen-l11-v2-w3",
+          "source": "generated-l11-v2-w3",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "wzory_i_ciagi",
+          "subtopic": "brakujaca liczba na przekatnej",
+          "statement": "W magicznym kwadracie suma magiczna to 15. Przekatna ma juz liczby 4 i 5. Jaka jest trzecia liczba?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "5",
+            "B": "6",
+            "C": "7",
+            "D": "8",
+            "E": "9"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "gen-l11-v2-w4",
+          "source": "generated-l11-v2-w4",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "wzory_i_ciagi",
+          "subtopic": "brakujaca liczba w kolumnie",
+          "statement": "W magicznym kwadracie suma kolumny to 21. W kolumnie sa juz 9 i 4. Jaka jest trzecia liczba?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "6",
+            "B": "7",
+            "C": "8",
+            "D": "9",
+            "E": "10"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "kangur-maluch-2014-6",
+          "source": "kangur-maluch-2014-6",
+          "year": 2014,
+          "number": 6,
+          "difficulty": "3pkt",
+          "topic": "lamiglowki",
+          "subtopic": "piramida iloczynow",
+          "statement": "W diagramie iloczyn dwoch sasiednich liczb w rzedzie rowna sie liczbie nad nimi. Dolny rzad: 1, ?, ?, 1. Srodkowy: 2, [szare], 2. Na szczycie: 64. Jaka liczba jest w szarym polu?",
+          "hasImage": true,
+          "imageNote": "Piramida liczb: dol 1,?,?,1; srodek 2,szare,2; szczyt 64.",
+          "choices": {
+            "A": "0",
+            "B": "1",
+            "C": "2",
+            "D": "4",
+            "E": "8"
+          },
+          "correct": "D"
+        }
+      ],
+      "challenge": [
+        {
+          "id": "kangur-maluch-2016-16",
+          "source": "kangur-maluch-2016-16",
+          "year": 2016,
+          "number": 16,
+          "difficulty": "4pkt",
+          "topic": "lamiglowki",
+          "subtopic": "kwadrat lacinski - suma zacieniowanych",
+          "statement": "Leon wpisuje do tabeli 3x3 liczby 1, 2, 3 - kazda raz w kazdym wierszu i kazdej kolumnie. Pokazane: 1 w lewym gornym rogu, 2 w srodku. Ile wynosi suma liczb w dwoch zacieniowanych polach (prawa kolumna - srodek i dol)?",
+          "hasImage": true,
+          "imageNote": "Tabela 3x3 z liczbami 1 (rog) i 2 (srodek), dwa szare pola.",
+          "choices": {
+            "A": "2",
+            "B": "3",
+            "C": "4",
+            "D": "5",
+            "E": "6"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "kangur-maluch-2015-20",
+          "source": "kangur-maluch-2015-20",
+          "year": 2015,
+          "number": 20,
+          "difficulty": "5pkt",
+          "topic": "lamiglowki",
+          "subtopic": "rownosc sum w krzyzu liczb",
+          "statement": "W krzyz z 5 pol wpisujemy liczby 2, 3, 5, 6, 7 tak, by suma trzech liczb w kolumnie rownala sie sumie trzech w rzedzie. Ktora liczbe mozna wpisac w pole oznaczone znakiem zapytania?",
+          "hasImage": true,
+          "imageNote": "Figura w ksztalcie krzyza z 5 polami, jedno oznaczone ?.",
+          "choices": {
+            "A": "Tylko 3",
+            "B": "Tylko 5",
+            "C": "Tylko 7",
+            "D": "Tylko 5 i 7",
+            "E": "Tylko 3, 5 i 7"
+          },
+          "correct": "E"
+        }
+      ],
+      "solutions": [
+        {
+          "problemId": "gen-l11-v2-w1",
+          "observation": "Brakujaca = suma minus dwie znane.",
+          "strategy": "Brakujaca liczba.",
+          "steps": [
+            "12 - 7 - 2 = 3"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l11-v2-w2",
+          "observation": "Magiczny kwadrat 3x3 z 1-9 - suma kazdej linii.",
+          "strategy": "Regula sumy magicznej.",
+          "steps": [
+            "Suma wszystkich liczb 1-9 = 45",
+            "Trzy rzedy daja te sama sume",
+            "45 : 3 = 15"
+          ],
+          "answer": "D",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l11-v2-w3",
+          "observation": "Brakujaca = suma magiczna minus dwie znane.",
+          "strategy": "Brakujaca liczba.",
+          "steps": [
+            "15 - 4 - 5 = 6"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l11-v2-w4",
+          "observation": "Brakujaca = suma minus dwie znane.",
+          "strategy": "Brakujaca liczba.",
+          "steps": [
+            "21 - 9 - 4 = 8"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2014-6",
+          "observation": "Iloczyn dwoch sasiednich liczb daje liczbe nad nimi.",
+          "strategy": "Wspinanie sie po piramidzie iloczynow.",
+          "steps": [
+            "Dolny rzad: 1, ?, ?, 1",
+            "Srodkowy rzad: 2, szare, 2 - kazda liczba to iloczyn dwoch pod nia",
+            "Szczyt 64 - iloczyn dwoch liczb srodkowego rzedu",
+            "Po wyliczeniu w szarym polu wychodzi 4"
+          ],
+          "answer": "D",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2016-16",
+          "observation": "Latinski kwadrat 3x3 z liczb 1, 2, 3.",
+          "strategy": "Kazda liczba raz w wierszu i kolumnie.",
+          "steps": [
+            "Pokazane: 1 w rogu, 2 w srodku",
+            "Uzupelniamy tak, by 1, 2, 3 byly raz w wierszu i kolumnie",
+            "Suma dwoch zacieniowanych pol wynosi 4"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2015-20",
+          "observation": "Krzyz z 5 pol, suma kolumny = suma rzedu.",
+          "strategy": "Srodek jest wspolny dla rzedu i kolumny.",
+          "steps": [
+            "Suma liczb 2+3+5+6+7 = 23",
+            "Rzad + kolumna - srodek = 23, rzad = kolumna",
+            "Srodek musi byc nieparzysty: 3, 5 lub 7",
+            "W pole ? mozna wpisac 3, 5 lub 7"
+          ],
+          "answer": "E",
+          "alternative": null
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Jak znalezc sume magiczna kwadratu?",
+      "choices": {
+        "A": "Z kompletnego wiersza lub kolumny",
+        "B": "Zgadnac",
+        "C": "Pomnozyc rogi"
+      },
+      "correct": "A",
+      "explain": "Kompletna linia od razu pokazuje sume, ktora musza miec wszystkie."
+    },
+    {
+      "q": "Suma magiczna 21, w wierszu sa 9 i 6. Trzecia liczba:",
+      "choices": {
+        "A": "5",
+        "B": "6",
+        "C": "7"
+      },
+      "correct": "B",
+      "explain": "21 - 9 - 6 = 6."
+    },
+    {
+      "q": "Szukasz bledu w kwadracie. Bledne pole lezy:",
+      "choices": {
+        "A": "Zawsze w rogu",
+        "B": "Na przecieciu dwoch odstajacych linii",
+        "C": "W srodku"
+      },
+      "correct": "B",
+      "explain": "Pole nalezace do dwoch linii o zlej sumie to wlasnie blad."
+    }
+  ]
+}

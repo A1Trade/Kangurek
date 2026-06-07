@@ -1,0 +1,584 @@
+{
+  "id": "l05",
+  "number": 5,
+  "block": "Liczby i dzialania",
+  "blockCode": "A",
+  "title": "Liczby parzyste i nieparzyste",
+  "topic": "arytmetyka",
+  "estimatedMinutes": 12,
+  "theory": {
+    "intro": "Liczby parzyste mozna ulozyc w pary - 2, 4, 6 cukierkow dziela sie rowno miedzy dwie osoby. Nieparzyste zostawiaja jeden bez pary - 5 cukierkow podzielisz na 2+2 a jeden zostanie. Parzystosc to super narzedzie do szybkich sprawdzen.",
+    "tool": "Sztuczka 1: PARZYSTA = KONCZY SIE NA 0, 2, 4, 6, 8. Patrz tylko na ostatnia cyfre. 1234 jest parzysta, 12345 nieparzysta.\n\nSztuczka 2: WZORY SUMOWANIA.\n- parzysta + parzysta = parzysta\n- nieparzysta + nieparzysta = parzysta\n- parzysta + nieparzysta = nieparzysta\nZapamietaj te trzy zasady - rozwiazuja tysiac zadan.\n\nSztuczka 3: MNOZENIE. Parzysta razy cokolwiek = parzysta. Nieparzysta razy nieparzysta = nieparzysta.",
+    "trick": "W zadaniach typu 'czy mozna otrzymac wynik X?' SAMA PARZYSTOSC eliminuje pol odpowiedzi. Jezeli suma wyjsciowa jest nieparzysta, a kazda dozwolona zmiana zmienia ja o liczbe parzysta - wynik na zawsze pozostaje nieparzysty."
+  },
+  "versions": [
+    {
+      "versionId": "v1",
+      "label": "Wersja 1 (oryginalna)",
+      "warmup": [
+        {
+          "id": "gen-l05-w1",
+          "source": "generated-l05-w1",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "arytmetyka",
+          "subtopic": "rozpoznanie parzystej",
+          "statement": "Ktora z liczb jest parzysta: 7, 11, 14, 23, 35?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "7",
+            "B": "11",
+            "C": "14",
+            "D": "23",
+            "E": "35"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "gen-l05-w2",
+          "source": "generated-l05-w2",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "arytmetyka",
+          "subtopic": "suma parzystych",
+          "statement": "Suma dwoch liczb parzystych jest zawsze:",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "Parzysta",
+            "B": "Nieparzysta",
+            "C": "Czasami parzysta, czasami nieparzysta",
+            "D": "Zerem",
+            "E": "Liczba pierwsza"
+          },
+          "correct": "A"
+        },
+        {
+          "id": "gen-l05-w3",
+          "source": "generated-l05-w3",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "arytmetyka",
+          "subtopic": "parzysta + nieparzysta",
+          "statement": "Suma liczby parzystej i liczby nieparzystej jest zawsze:",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "Parzysta",
+            "B": "Nieparzysta",
+            "C": "Czasami parzysta, czasami nieparzysta",
+            "D": "Zerem",
+            "E": "Mnozeniem"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "gen-l05-w4",
+          "source": "generated-l05-w4",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "arytmetyka",
+          "subtopic": "liczba parzystych w zakresie",
+          "statement": "Ile parzystych liczb jest w zakresie od 1 do 20?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "5",
+            "B": "8",
+            "C": "10",
+            "D": "12",
+            "E": "20"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "gen-l05-w5",
+          "source": "generated-l05-w5",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "arytmetyka",
+          "subtopic": "parzystosc rezultatu",
+          "statement": "Jana ma 5 ciastek, Wojtek ma 8 ciastek. Czy razem maja liczbe parzysta czy nieparzysta?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "Parzysta - bo razem 12",
+            "B": "Nieparzysta - bo razem 13",
+            "C": "Parzysta - bo razem 14",
+            "D": "Nieparzysta - bo razem 11",
+            "E": "Nie da sie ustalic"
+          },
+          "correct": "B"
+        }
+      ],
+      "challenge": [
+        {
+          "id": "gen-l05-c1",
+          "source": "generated-l05-c1",
+          "year": null,
+          "number": null,
+          "difficulty": "4pkt",
+          "topic": "arytmetyka",
+          "subtopic": "parzystosc w lamiglowce",
+          "statement": "Czy mozna polaczyc piec liczb 1, 2, 3, 4, 5 znakami + i - tak, by otrzymac liczbe PARZYSTA?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "Tak, da sie wynik 0",
+            "B": "Tak, da sie wynik 2",
+            "C": "Tak, da sie wynik 4",
+            "D": "Nie - wynik zawsze nieparzysty",
+            "E": "Nie - wynik zawsze rowny 15"
+          },
+          "correct": "D"
+        },
+        {
+          "id": "kangur-maluch-2022-11",
+          "source": "kangur-maluch-2022-11",
+          "year": 2022,
+          "number": 11,
+          "difficulty": "4pkt",
+          "topic": "arytmetyka",
+          "subtopic": "wymiary tablicy rzedow x dzieci",
+          "statement": "Dzieci ustawione w kilku rzedach, po tyle samo w kazdym. Kostek widzi 2 rzedy przed soba i 1 za. W jego rzedzie po prawej 5 dzieci, po lewej 3. Ile dzieci ustawiono?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "36",
+            "B": "27",
+            "C": "18",
+            "D": "17",
+            "E": "10"
+          },
+          "correct": "A"
+        }
+      ],
+      "solutions": [
+        {
+          "problemId": "gen-l05-w1",
+          "observation": "Parzysta = konczy sie na 0, 2, 4, 6, 8.",
+          "strategy": "Sprawdz ostatnia cyfre.",
+          "steps": [
+            "7 -> nieparzysta",
+            "11 -> nieparzysta",
+            "14 -> konczy sie na 4 - parzysta",
+            "23, 35 -> nieparzyste"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l05-w2",
+          "observation": "Parzysta + parzysta = parzysta zawsze.",
+          "strategy": "Wzor parzystosci.",
+          "steps": [
+            "Parzysta = 2 razy cos",
+            "Suma: 2a + 2b = 2(a+b) - dzieli sie przez 2",
+            "Czyli parzysta"
+          ],
+          "answer": "A",
+          "alternative": "Np. 4+6=10, 8+12=20 - wszystkie parzyste."
+        },
+        {
+          "problemId": "gen-l05-w3",
+          "observation": "Parzysta + nieparzysta = nieparzysta.",
+          "strategy": "Sprawdz na przykladach.",
+          "steps": [
+            "2 + 3 = 5 (nieparzysta)",
+            "4 + 7 = 11 (nieparzysta)",
+            "Wzor: parzysta + nieparzysta = nieparzysta"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l05-w4",
+          "observation": "Co druga liczba jest parzysta.",
+          "strategy": "Polowa zakresu.",
+          "steps": [
+            "Parzyste: 2,4,6,8,10,12,14,16,18,20",
+            "Razem 10 sztuk"
+          ],
+          "answer": "C",
+          "alternative": "Mozna tez: 20 : 2 = 10."
+        },
+        {
+          "problemId": "gen-l05-w5",
+          "observation": "Suma 5 + 8 = 13.",
+          "strategy": "Suma nieparzysta + parzysta.",
+          "steps": [
+            "5 nieparzysta, 8 parzysta",
+            "5 + 8 = 13 - nieparzysta"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l05-c1",
+          "observation": "Suma 1+2+3+4+5 = 15 nieparzysta. Czy znaki to zmienia?",
+          "strategy": "Zmiana + na - dla x zmienia sume o 2x (parzysta).",
+          "steps": [
+            "Suma wszystkich +: 15 (nieparzysta)",
+            "Zmiana + na - dla liczby x zmienia wynik o 2x - liczba parzysta",
+            "Parzysta zmiana nie zmienia parzystosci",
+            "Wynik zawsze NIEPARZYSTY - parzystej sie nie da"
+          ],
+          "answer": "D",
+          "alternative": "Klucz: start od 15 (nieparzysta), kazda zmiana znaku to roznica parzysta."
+        },
+        {
+          "problemId": "kangur-maluch-2022-11",
+          "observation": "2 rzedy przed + 1 za + jego rzad = 4 rzedy.",
+          "strategy": "Liczenie pozycji w rzedzie i sumowanie rzedow.",
+          "steps": [
+            "W rzedzie: 5 (prawo) + 3 (lewo) + Kostek = 9 dzieci",
+            "Liczba rzedow: 2 + 1 + 1 = 4",
+            "Razem: 4 razy 9 = 36"
+          ],
+          "answer": "A",
+          "alternative": null
+        }
+      ]
+    },
+    {
+      "versionId": "v2",
+      "label": "Wersja 2 (powtorka)",
+      "warmup": [
+        {
+          "id": "gen-l05-v2-w1",
+          "source": "generated-l05-v2-w1",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "arytmetyka",
+          "subtopic": "rozpoznanie nieparzystej",
+          "statement": "Ktora z liczb jest nieparzysta: 4, 8, 15, 22, 30?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "4",
+            "B": "8",
+            "C": "15",
+            "D": "22",
+            "E": "30"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "gen-l05-v2-w2",
+          "source": "generated-l05-v2-w2",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "arytmetyka",
+          "subtopic": "nieparzysta + nieparzysta",
+          "statement": "Suma dwoch liczb nieparzystych jest zawsze:",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "Parzysta",
+            "B": "Nieparzysta",
+            "C": "Raz tak raz tak",
+            "D": "Zerem",
+            "E": "Liczba 1"
+          },
+          "correct": "A"
+        },
+        {
+          "id": "gen-l05-v2-w3",
+          "source": "generated-l05-v2-w3",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "arytmetyka",
+          "subtopic": "parzysta razy nieparzysta",
+          "statement": "Iloczyn liczby parzystej i nieparzystej jest zawsze:",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "Parzysty",
+            "B": "Nieparzysty",
+            "C": "Raz tak raz tak",
+            "D": "Zerem",
+            "E": "Suma"
+          },
+          "correct": "A"
+        },
+        {
+          "id": "gen-l05-v2-w4",
+          "source": "generated-l05-v2-w4",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "arytmetyka",
+          "subtopic": "liczenie nieparzystych w zakresie",
+          "statement": "Ile nieparzystych liczb jest od 1 do 30?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "10",
+            "B": "15",
+            "C": "14",
+            "D": "30",
+            "E": "20"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "gen-l05-v2-w5",
+          "source": "generated-l05-v2-w5",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "arytmetyka",
+          "subtopic": "suma trzech parzystych",
+          "statement": "Suma trzech liczb parzystych jest zawsze:",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "Parzysta",
+            "B": "Nieparzysta",
+            "C": "Raz tak raz tak",
+            "D": "Zerem",
+            "E": "Liczba 3"
+          },
+          "correct": "A"
+        }
+      ],
+      "challenge": [
+        {
+          "id": "gen-l05-v2-c1",
+          "source": "generated-l05-v2-c1",
+          "year": null,
+          "number": null,
+          "difficulty": "4pkt",
+          "topic": "arytmetyka",
+          "subtopic": "parzystosc sumy ciagu",
+          "statement": "Czy suma wszystkich liczb od 1 do 10 (1+2+3+...+10) jest parzysta?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "Parzysta, wynik 55",
+            "B": "Nieparzysta, wynik 55",
+            "C": "Parzysta, wynik 50",
+            "D": "Nieparzysta, wynik 45",
+            "E": "Parzysta, wynik 56"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "kangur-maluch-2022-15",
+          "source": "kangur-maluch-2022-15",
+          "year": 2022,
+          "number": 15,
+          "difficulty": "4pkt",
+          "topic": "arytmetyka",
+          "subtopic": "niemozliwa suma punktow",
+          "statement": "Turniej 3 druzyn pilki noznej, kazda gra z kazda raz (3 mecze). Za wygrana 3 pkt, remis 1, przegrana 0. Ilu punktow nie mogla zdobyc zadna z druzyn po wszystkich meczach?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "1",
+            "B": "2",
+            "C": "4",
+            "D": "5",
+            "E": "6"
+          },
+          "correct": "D"
+        }
+      ],
+      "solutions": [
+        {
+          "problemId": "gen-l05-v2-w1",
+          "observation": "Nieparzysta konczy sie na 1,3,5,7,9.",
+          "strategy": "Sprawdz ostatnia cyfre.",
+          "steps": [
+            "15 konczy sie na 5 - nieparzysta",
+            "Pozostale (4,8,22,30) parzyste"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l05-v2-w2",
+          "observation": "Nieparzysta + nieparzysta = parzysta.",
+          "strategy": "Wzor parzystosci.",
+          "steps": [
+            "3 + 5 = 8 (parzysta)",
+            "7 + 9 = 16 (parzysta)",
+            "Zawsze parzysta"
+          ],
+          "answer": "A",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l05-v2-w3",
+          "observation": "Parzysta razy cokolwiek = parzysta.",
+          "strategy": "Wzor mnozenia.",
+          "steps": [
+            "2 razy 3 = 6 (parzysty)",
+            "4 razy 7 = 28 (parzysty)",
+            "Zawsze parzysty"
+          ],
+          "answer": "A",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l05-v2-w4",
+          "observation": "Co druga liczba jest nieparzysta.",
+          "strategy": "Polowa zakresu.",
+          "steps": [
+            "Nieparzyste: 1,3,5,...,29",
+            "Razem 15 sztuk"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l05-v2-w5",
+          "observation": "Parzysta + parzysta + parzysta = parzysta.",
+          "strategy": "Wzor.",
+          "steps": [
+            "2 + 4 + 6 = 12 (parzysta)",
+            "Suma parzystych zawsze parzysta"
+          ],
+          "answer": "A",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l05-v2-c1",
+          "observation": "Suma 1+2+...+10. Policz ja sprytnie.",
+          "strategy": "Pary do 11.",
+          "steps": [
+            "Pary: 1+10, 2+9, 3+8, 4+7, 5+6 - kazda po 11",
+            "5 par razy 11 = 55",
+            "55 konczy sie na 5 - nieparzysta"
+          ],
+          "answer": "B",
+          "alternative": "Mozna tez liczyc po kolei: 55."
+        },
+        {
+          "problemId": "kangur-maluch-2022-15",
+          "observation": "3 druzyny, kazda gra 2 mecze. Jakiej sumy nie da sie zdobyc?",
+          "strategy": "Wypisanie mozliwych sum punktow.",
+          "steps": [
+            "Mozliwe wyniki 2 meczow: 2W=6, 1W1R=4, 1W1P=3, 2R=2, 1R1P=1, 2P=0",
+            "Mozliwe sumy: 0,1,2,3,4,6",
+            "Brakuje: 5"
+          ],
+          "answer": "D",
+          "alternative": null
+        }
+      ]
+    },
+    {
+      "versionId": "v3",
+      "label": "Wersja 3 (oryginaly Kangurka)",
+      "warmup": [
+        {
+          "id": "kangur-maluch-2016-17",
+          "source": "kangur-maluch-2016-17",
+          "year": 2016,
+          "number": 17,
+          "difficulty": "5pkt",
+          "topic": "arytmetyka",
+          "subtopic": "suma wieku z warunkiem",
+          "statement": "Ola, Ula, Ala i Ela maja dzis urodziny. Ola, Ula i Ala sa w tym samym wieku, a Ela jest starsza od nich o 3 lata. Ktora liczba moze byc suma lat wszystkich czterech dziewczat?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "60",
+            "B": "29",
+            "C": "25",
+            "D": "30",
+            "E": "27"
+          },
+          "correct": "E"
+        },
+        {
+          "id": "kangur-maluch-2016-18",
+          "source": "kangur-maluch-2016-18",
+          "year": 2016,
+          "number": 18,
+          "difficulty": "5pkt",
+          "topic": "arytmetyka",
+          "subtopic": "proporcja gruszek do jablek",
+          "statement": "W ogrodzie rosna drzewa dwoch rodzajow: jedne maja 6 gruszek i 3 jablka, drugie 8 gruszek i 4 jablka. Lacznie rosnie 25 jablek. Ile gruszek rosnie w ogrodzie?",
+          "hasImage": true,
+          "imageNote": "Dwa drzewa z gruszkami i jablkami.",
+          "choices": {
+            "A": "35",
+            "B": "40",
+            "C": "45",
+            "D": "50",
+            "E": "56"
+          },
+          "correct": "D"
+        }
+      ],
+      "challenge": [],
+      "solutions": [
+        {
+          "problemId": "kangur-maluch-2016-17",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Oryginalne zadanie Kangur Maluch 2016 nr 17.",
+          "steps": [
+            "Oryginalne zadanie Kangur Maluch 2016 nr 17.",
+            "Poprawna odpowiedz: E"
+          ],
+          "answer": "E",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2016-18",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Oryginalne zadanie Kangur Maluch 2016 nr 18.",
+          "steps": [
+            "Oryginalne zadanie Kangur Maluch 2016 nr 18.",
+            "Poprawna odpowiedz: D"
+          ],
+          "answer": "D",
+          "alternative": null
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "3 + 7 + 5 to liczba:",
+      "choices": {
+        "A": "Parzysta",
+        "B": "Nieparzysta",
+        "C": "Nie da sie"
+      },
+      "correct": "B",
+      "explain": "3+7=10 (parzysta), +5 = 15 (nieparzysta)."
+    },
+    {
+      "q": "Iloczyn 4 razy 7 jest:",
+      "choices": {
+        "A": "Parzysty",
+        "B": "Nieparzysty",
+        "C": "Zerem"
+      },
+      "correct": "A",
+      "explain": "Parzysta (4) razy cokolwiek daje parzysta."
+    },
+    {
+      "q": "W workach 23 i 45 kulek. Czy razem parzysta?",
+      "choices": {
+        "A": "Tak",
+        "B": "Nie",
+        "C": "Trzeba policzyc"
+      },
+      "correct": "A",
+      "explain": "Nieparzysta + nieparzysta = parzysta. 23+45=68."
+    }
+  ]
+}

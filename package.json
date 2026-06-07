@@ -1,0 +1,37 @@
+{
+  "name": "kangurek",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "parse:arkusze": "tsx scripts/parse-arkusze.ts",
+    "classify": "tsx scripts/classify-problems.ts",
+    "generate:lessons": "tsx scripts/generate-lessons.ts",
+    "coverage": "tsx scripts/coverage.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.96.0",
+    "dotenv": "^17.4.2",
+    "next": "16.2.6",
+    "pdf-parse": "^2.4.5",
+    "pdfjs-dist": "^5.7.284",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/pdf-parse": "^1.1.5",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.6",
+    "tailwindcss": "^4",
+    "tsx": "^4.22.2",
+    "typescript": "^5"
+  }
+}

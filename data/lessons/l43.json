@@ -1,0 +1,493 @@
+{
+  "id": "l43",
+  "number": 43,
+  "block": "Kombinatoryka i liczenie",
+  "blockCode": "H",
+  "title": "Drzewo mozliwosci",
+  "topic": "kombinatoryka",
+  "estimatedMinutes": 14,
+  "theory": {
+    "intro": "Drzewo mozliwosci to graficzny sposob liczenia 'na ile sposobow'. Wybor pierwszej rzeczy daje galezie, z kazdej galezi wychodza dalsze. Liczba lisci na koncu = liczba wszystkich mozliwosci.",
+    "tool": "Sztuczka 1: RYSUJ DRZEWO. Pierwszy wybor: galezie. Z kazdej galezi: nastepny wybor. Na koncu: liscie - to wszystkie mozliwosci.\n\nSztuczka 2: LICZ LISCIE. Suma lisci = liczba wszystkich konfiguracji. Mozna policzyc bezposrednio lub przez iloczyn (liczba galezi w kazdej rundzie).\n\nSztuczka 3: WYKLUCZANIE GALEZI. Niektore galezie nie sa dozwolone (warunek). Pomijaj je przy liczeniu.\n\nSztuczka 4: WYKORZYSTAJ SYMETRIE. Czesto galezie sa podobne - policz jedna, pomnoz przez liczbe galezi.",
+    "trick": "Pulapka Kangurka: 'rozne smaki' lub 'kazda kombinacja inna' - kazda mozliwosc to unikalne ulozenie. Sprawdzaj, czy zadanie nie ma DODATKOWYCH ogranicen (np. 'najpierw zielony, potem czerwony')."
+  },
+  "versions": [
+    {
+      "versionId": "v1",
+      "label": "Wersja 1 (oryginalna)",
+      "warmup": [
+        {
+          "id": "gen-l43-v1-w1",
+          "source": "generated-l43-v1-w1",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "kombinatoryka",
+          "subtopic": "drzewo 2x2",
+          "statement": "Mam 2 koszulki (czerwona, niebieska) i 2 spodnie (czarne, szare). Ile zestawow?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "2",
+            "B": "3",
+            "C": "4",
+            "D": "6",
+            "E": "8"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "gen-l43-v1-w2",
+          "source": "generated-l43-v1-w2",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "kombinatoryka",
+          "subtopic": "drzewo 3x2",
+          "statement": "Mam 3 owoce (jablko, gruszka, banan) i 2 napoje (woda, sok). Ile par owoc+napoj?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "3",
+            "B": "5",
+            "C": "6",
+            "D": "9",
+            "E": "12"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "gen-l43-v1-w3",
+          "source": "generated-l43-v1-w3",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "kombinatoryka",
+          "subtopic": "drzewo 2x2x2",
+          "statement": "Wybieram lody: 2 smaki, 2 dodatki, 2 polewy. Ile kombinacji?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "4",
+            "B": "6",
+            "C": "8",
+            "D": "12",
+            "E": "16"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "kangur-maluch-2020-19",
+          "source": "kangur-maluch-2020-19",
+          "year": 2020,
+          "number": 19,
+          "difficulty": "5pkt",
+          "topic": "kombinatoryka",
+          "subtopic": "przyporzadkowanie smakow i dodatkow",
+          "statement": "Szescioro dzieci: 3 lody waniliowe, 2 czekoladowe, 1 cytrynowy. Dodatki: 1 posypka, 2 ciasteczka, 3 wisnie. Zadne dwoje nie ma tej samej kombinacji. Jakich lodow NIE kupilo zadne dziecko?",
+          "hasImage": true,
+          "imageNote": "Lody o roznych smakach i dodatkach.",
+          "choices": {
+            "A": "Czekoladowych z wisniami",
+            "B": "Waniliowych z wisniami",
+            "C": "Cytrynowych z ciastkiem",
+            "D": "Czekoladowych z ciastkiem",
+            "E": "Waniliowych z posypka"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "kangur-maluch-2022-19",
+          "source": "kangur-maluch-2022-19",
+          "year": 2022,
+          "number": 19,
+          "difficulty": "5pkt",
+          "topic": "kombinatoryka",
+          "subtopic": "minimalna liczba elementow spelniajacych warunki",
+          "statement": "Helenka wybrala figury z zestawu (maly biały kwadrat, duzy rozowy kwadrat, maly rozowy trojkat, duzy bialy trojkat, duze biale kolo, male rozowe kolo). Wsrod wybranych sa: 2 zacieniowane, 2 duze, 2 okragle. Co najmniej ile figur wybrala?",
+          "hasImage": true,
+          "imageNote": "Szesc figur o roznych rozmiarach, ksztaltach i kolorach.",
+          "choices": {
+            "A": "2",
+            "B": "3",
+            "C": "4",
+            "D": "5",
+            "E": "6"
+          },
+          "correct": "B"
+        }
+      ],
+      "challenge": [
+        {
+          "id": "gen-l43-v1-c1",
+          "source": "generated-l43-v1-c1",
+          "year": null,
+          "number": null,
+          "difficulty": "4pkt",
+          "topic": "kombinatoryka",
+          "subtopic": "drzewo wieloetapowe",
+          "statement": "Restauracja: 3 zupy, 4 dania glowne, 2 desery. Ile mozliwych obiadow (zupa + danie + deser)?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "9",
+            "B": "12",
+            "C": "18",
+            "D": "24",
+            "E": "32"
+          },
+          "correct": "D"
+        },
+        {
+          "id": "gen-l43-v1-c2",
+          "source": "generated-l43-v1-c2",
+          "year": null,
+          "number": null,
+          "difficulty": "5pkt",
+          "topic": "kombinatoryka",
+          "subtopic": "drzewo z warunkiem",
+          "statement": "5 osob staje w rzedzie. Ile mozliwosci ustawienia, jezeli Anka MUSI stac pierwsza?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "4",
+            "B": "12",
+            "C": "24",
+            "D": "60",
+            "E": "120"
+          },
+          "correct": "C"
+        }
+      ],
+      "solutions": [
+        {
+          "problemId": "gen-l43-v1-w1",
+          "observation": "2 razy 2 = 4 zestawy.",
+          "strategy": "Iloczyn.",
+          "steps": [
+            "2 koszulki * 2 spodnie = 4"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l43-v1-w2",
+          "observation": "3 razy 2 = 6.",
+          "strategy": "Iloczyn.",
+          "steps": [
+            "3 owoce * 2 napoje = 6"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l43-v1-w3",
+          "observation": "2*2*2 = 8.",
+          "strategy": "Iloczyn 3 etapow.",
+          "steps": [
+            "2*2*2=8"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2020-19",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "6 dzieci, smaki: 3 wanilia, 2 czekolada, 1 cytryna. Dodatki: 1 posypka, 2 ciastka, 3 wisnie. Zadne dwoje takiej samej kombinacji. Brakuje: cytrynowych z ciastkiem.",
+          "steps": [
+            "6 dzieci, smaki: 3 wanilia, 2 czekolada, 1 cytryna. Dodatki: 1 posypka, 2 ciastka, 3 wisnie. Zadne dwoje takiej samej kombinacji. Brakuje: cytrynowych z ciastkiem.",
+            "Poprawna odpowiedz: C"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2022-19",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Helenka wybrala figury. 2 zacieniowane, 2 duze, 2 okragle. Minimum 3 figury.",
+          "steps": [
+            "Helenka wybrala figury. 2 zacieniowane, 2 duze, 2 okragle. Minimum 3 figury.",
+            "Poprawna odpowiedz: B"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l43-v1-c1",
+          "observation": "3*4*2 = 24.",
+          "strategy": "Iloczyn 3 etapow.",
+          "steps": [
+            "3*4*2=24"
+          ],
+          "answer": "D",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l43-v1-c2",
+          "observation": "Anka 1. miejsce, pozostali 4 osoby na 4 miejsca: 4! = 24.",
+          "strategy": "Permutacje pozostalych.",
+          "steps": [
+            "Anka 1. miejsce (1 sposob)",
+            "Reszta 4 osoby na 4 miejscach: 4!=24"
+          ],
+          "answer": "C",
+          "alternative": null
+        }
+      ]
+    },
+    {
+      "versionId": "v2",
+      "label": "Wersja 2 (powtorka)",
+      "warmup": [
+        {
+          "id": "gen-l43-v2-w1",
+          "source": "generated-l43-v2-w1",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "kombinatoryka",
+          "subtopic": "podstawowe drzewo",
+          "statement": "Mam 3 czapki i 2 szaliki. Ile par czapka+szalik?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "3",
+            "B": "5",
+            "C": "6",
+            "D": "9",
+            "E": "12"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "gen-l43-v2-w2",
+          "source": "generated-l43-v2-w2",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "kombinatoryka",
+          "subtopic": "trzy etapy",
+          "statement": "Wybieram zupe (2 rodzaje), danie (3), deser (2). Ile kombinacji?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "6",
+            "B": "7",
+            "C": "10",
+            "D": "12",
+            "E": "18"
+          },
+          "correct": "D"
+        },
+        {
+          "id": "gen-l43-v2-w3",
+          "source": "generated-l43-v2-w3",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "kombinatoryka",
+          "subtopic": "ile drog",
+          "statement": "Z miasta A do B sa 3 drogi, z B do C - 2 drogi. Ile drog z A do C przez B?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "3",
+            "B": "5",
+            "C": "6",
+            "D": "9",
+            "E": "12"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "gen-l43-v2-w4",
+          "source": "generated-l43-v2-w4",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "kombinatoryka",
+          "subtopic": "wybor 2 cech",
+          "statement": "Mam 4 kolory i 3 wzory. Ile roznych ubran (kolor + wzor)?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "7",
+            "B": "9",
+            "C": "10",
+            "D": "12",
+            "E": "24"
+          },
+          "correct": "D"
+        },
+        {
+          "id": "gen-l43-v2-w5",
+          "source": "generated-l43-v2-w5",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "kombinatoryka",
+          "subtopic": "prosty wybor",
+          "statement": "5 ksiazek na polce, biore 1. Ile mozliwosci?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "1",
+            "B": "3",
+            "C": "5",
+            "D": "10",
+            "E": "25"
+          },
+          "correct": "C"
+        }
+      ],
+      "challenge": [
+        {
+          "id": "gen-l43-v2-c1",
+          "source": "generated-l43-v2-c1",
+          "year": null,
+          "number": null,
+          "difficulty": "4pkt",
+          "topic": "kombinatoryka",
+          "subtopic": "warunkowy wybor",
+          "statement": "3 osoby A, B, C ustawiaja sie w rzedzie. A nie chce stac pierwsza. Ile mozliwosci?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "2",
+            "B": "3",
+            "C": "4",
+            "D": "5",
+            "E": "6"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "gen-l43-v2-c2",
+          "source": "generated-l43-v2-c2",
+          "year": null,
+          "number": null,
+          "difficulty": "5pkt",
+          "topic": "kombinatoryka",
+          "subtopic": "drzewo z dwoma warunkami",
+          "statement": "Robot wybiera trase: 2 mozliwosci w kazdym z 4 kroku (lewo lub prawo). Ile roznych tras?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "4",
+            "B": "8",
+            "C": "16",
+            "D": "24",
+            "E": "32"
+          },
+          "correct": "C"
+        }
+      ],
+      "solutions": [
+        {
+          "problemId": "gen-l43-v2-w1",
+          "observation": "3*2=6.",
+          "strategy": "Iloczyn.",
+          "steps": [
+            "3*2=6"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l43-v2-w2",
+          "observation": "2*3*2=12.",
+          "strategy": "Iloczyn 3 etapow.",
+          "steps": [
+            "2*3*2=12"
+          ],
+          "answer": "D",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l43-v2-w3",
+          "observation": "3*2=6.",
+          "strategy": "Iloczyn drog.",
+          "steps": [
+            "3*2=6"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l43-v2-w4",
+          "observation": "4*3=12.",
+          "strategy": "Iloczyn.",
+          "steps": [
+            "4*3=12"
+          ],
+          "answer": "D",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l43-v2-w5",
+          "observation": "5 mozliwosci.",
+          "strategy": "Wybor 1 z 5.",
+          "steps": [
+            "5"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l43-v2-c1",
+          "observation": "Wszystkie 3! = 6, minus te z A pierwsza (2!): 6-2=4.",
+          "strategy": "Wykluczenie.",
+          "steps": [
+            "Wszystkie permutacje: 3!=6",
+            "A pierwsza: B,C w 2 miejscach = 2! = 2",
+            "Bez A pierwszej: 6-2=4"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l43-v2-c2",
+          "observation": "2^4 = 16.",
+          "strategy": "Drzewo dwie galezie kazdy krok.",
+          "steps": [
+            "2*2*2*2=16"
+          ],
+          "answer": "C",
+          "alternative": null
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "2 koszulki * 3 spodnie:",
+      "choices": {
+        "A": "5",
+        "B": "6",
+        "C": "8"
+      },
+      "correct": "B",
+      "explain": "2*3=6 kombinacji."
+    },
+    {
+      "q": "Drzewo mozliwosci pomaga:",
+      "choices": {
+        "A": "Liczyc systematycznie",
+        "B": "Zgadywac",
+        "C": "Pomijac"
+      },
+      "correct": "A",
+      "explain": "Drzewo pokazuje wszystkie mozliwosci wizualnie."
+    },
+    {
+      "q": "3 etapy, w kazdym 2 wybory:",
+      "choices": {
+        "A": "6",
+        "B": "8",
+        "C": "9"
+      },
+      "correct": "B",
+      "explain": "2*2*2=8."
+    }
+  ]
+}

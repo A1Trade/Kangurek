@@ -1,0 +1,632 @@
+{
+  "id": "l37",
+  "number": 37,
+  "block": "Logika i myslenie",
+  "blockCode": "G",
+  "title": "Kto powiedzial prawde - zagadki",
+  "topic": "logika",
+  "estimatedMinutes": 16,
+  "theory": {
+    "intro": "W zagadce kilka osob mowi cos o sobie. Wiesz, ze TYLKO jeden klamie (lub tylko jeden mowi prawde). Twoim zadaniem jest znalezc tego klamce. Logika daje narzedzie: zaloz, ze konkretna osoba klamie, sprawdz czy reszta jest spojna.",
+    "tool": "Sztuczka 1: ZALOZ I SPRAWDZ. Po kolei sprawdzaj zalozenie 'X klamie'. Reszta musi byc spojna. Jezeli reszta tworzy sprzecznosc - X nie klamie.\n\nSztuczka 2: DWA SPRZECZNE ZDANIA = JEDNO KLAMSTWO. Jezeli dwie osoby mowia rzeczy, ktore nie moga byc oba prawdziwe (np. 'Ja jadlem' i 'On nie jadl' o tym samym), to jedna z nich klamie.\n\nSztuczka 3: PORZADEK WSPOLNY. Jezeli A wyzszy od B, B wyzszy od C, to A wyzszy od C. Lancuch nierownosci ustawia wszystkich.\n\nSztuczka 4: TABELKA. Dla wielu osob i wielu cech (kto co dostal, kto gdzie mieszka) - rysuj tabelke i wykluczaj.",
+    "trick": "Pulapka: w zagadce 'jeden klamie' - sprawdz KAZDA mozliwosc, kto klamca. Czesto roznia sie subtelnie. Zazwyczaj jeden z 'klamcow' produkuje sprzecznosc - to NIE on klamie. Klamca to ten, ktory daje SPOJNA reszte."
+  },
+  "versions": [
+    {
+      "versionId": "v1",
+      "label": "Wersja 1 (oryginalna)",
+      "warmup": [
+        {
+          "id": "gen-l37-v1-w1",
+          "source": "generated-l37-v1-w1",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "logika",
+          "subtopic": "prosta zagadka",
+          "statement": "Trzech chlopcow. Adam: 'Mam najwiecej'. Bartek: 'Adam ma najmniej'. Czarek: 'Ja mam najwiecej'. Tylko jeden mowi prawde. Kto ma najwiecej?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "Adam",
+            "B": "Bartek",
+            "C": "Czarek",
+            "D": "Nie da sie",
+            "E": "Wszyscy tyle samo"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "gen-l37-v1-w2",
+          "source": "generated-l37-v1-w2",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "logika",
+          "subtopic": "porzadek wzrostu",
+          "statement": "Ola jest wyzsza od Beni. Bena jest wyzsza od Cyryla. Kto jest najwyzszy?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "Ola",
+            "B": "Bena",
+            "C": "Cyryl",
+            "D": "Wszyscy rowni",
+            "E": "Nie wiadomo"
+          },
+          "correct": "A"
+        },
+        {
+          "id": "gen-l37-v1-w3",
+          "source": "generated-l37-v1-w3",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "logika",
+          "subtopic": "wyciaganie wnioskow",
+          "statement": "Janek jest starszy od Piotra. Piotr jest starszy od Marka. Kto jest najmlodszy?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "Janek",
+            "B": "Piotr",
+            "C": "Marek",
+            "D": "Rowni",
+            "E": "Nie wiadomo"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "kangur-maluch-2012-22",
+          "source": "kangur-maluch-2012-22",
+          "year": 2012,
+          "number": 22,
+          "difficulty": "5pkt",
+          "topic": "logika",
+          "subtopic": "zagadka logiczna z warunkami",
+          "statement": "W rodzinie panstwa Kowalskich jest pieciolat dzieci: Adas, Bartek, Cesia, Darek i Ela. Babcia dala im 5 prezentow: lalke, pilke, ksiazke, ukladanke, misia. Najstarsze dziecko dostalo ksiazke, najmlodsze misia. Cesia jest starsza od Bartka i mlodsza od Eli, i nie dostala ukladanki. Adas ma czworo starszego rodzenstwa. Bartek dostal pilke. Darek nie jest najstarszy. Co dostal Darek?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "Lalke",
+            "B": "Pilke",
+            "C": "Ksiazke",
+            "D": "Ukladanke",
+            "E": "Misia"
+          },
+          "correct": "D"
+        },
+        {
+          "id": "kangur-maluch-2019-22",
+          "source": "kangur-maluch-2019-22",
+          "year": 2019,
+          "number": 22,
+          "difficulty": "5pkt",
+          "topic": "logika",
+          "subtopic": "zagadka kłamcy i prawdomówni",
+          "statement": "Jeden z pięciu krasnoludków zjadł ciastko. Alek: 'Nie zjadłem ciastka'. Bartek: 'Zjadłem ciastko'. Czarek: 'Edek nie zjadł ciastka'. Darek: 'Nie zjadłem ciastka'. Edek: 'Ciastko zjadł Alek'. Skłamał tylko jeden krasnoludek. Który zjadł ciastko?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "Alek.",
+            "B": "Bartek.",
+            "C": "Czarek.",
+            "D": "Darek.",
+            "E": "Edek."
+          },
+          "correct": "B"
+        }
+      ],
+      "challenge": [
+        {
+          "id": "kangur-maluch-2014-19",
+          "source": "kangur-maluch-2014-19",
+          "year": 2014,
+          "number": 19,
+          "difficulty": "5pkt",
+          "topic": "logika",
+          "subtopic": "zagadka kto gdzie mieszka",
+          "statement": "W zielonym, niebieskim i zoltym domu mieszkaja panie Ania, Zosia i Krysia. Zosia w niedziele wyjezdza na caly dzien. Krysia ma psa i w niedziele zaprasza sasiadke z niebieskiego domu na obiad. Mieszkanka zielonego domu nie ma zwierzat. Ktore zdanie jest prawdziwe?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "Ania niebieski, Krysia zielony, Zosia zolty",
+            "B": "Ania zolty, Krysia zielony, Zosia niebieski",
+            "C": "Ania zielony, Krysia niebieski, Zosia zolty",
+            "D": "Ania niebieski, Krysia zolty, Zosia zielony",
+            "E": "Ania zolty, Krysia niebieski, Zosia zielony"
+          },
+          "correct": "D"
+        },
+        {
+          "id": "kangur-maluch-2016-23",
+          "source": "kangur-maluch-2016-23",
+          "year": 2016,
+          "number": 23,
+          "difficulty": "5pkt",
+          "topic": "logika",
+          "subtopic": "zagadka kto jakim sportowcem",
+          "statement": "Kacper, Franek i Antek to sportowcy: pilkarz, koszykarz, siatkarz. Pilkarz nie ma rodzenstwa i jest najmlodszy. Antek jest starszy od koszykarza i przyjazni sie z siostra Kacpra. Ktore zdanie jest prawdziwe?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "Kacper koszykarz, Franek siatkarz, Antek pilkarz",
+            "B": "Kacper koszykarz, Franek pilkarz, Antek siatkarz",
+            "C": "Kacper pilkarz, Franek koszykarz, Antek siatkarz",
+            "D": "Kacper siatkarz, Franek koszykarz, Antek pilkarz",
+            "E": "Kacper siatkarz, Franek pilkarz, Antek koszykarz"
+          },
+          "correct": "B"
+        }
+      ],
+      "solutions": [
+        {
+          "problemId": "gen-l37-v1-w1",
+          "observation": "Sprawdzam kazdy przypadek.",
+          "strategy": "Zalozenia.",
+          "steps": [
+            "Jezeli Adam mowi prawde, to Bartek i Czarek klamia. Ale Czarek 'Ja najwiecej' falsz, Bartek 'Adam najmniej' falsz - czyli Adam NIE najmniej. To pasuje. Ale tylko jeden mowi prawde - tu Adam mowi prawde i to jeden.",
+            "Jezeli Bartek prawde: Adam ma najmniej. Adam mowi 'mam najwiecej' - klamie. Czarek mowi 'ja najwiecej' - musi byc prawda lub klamstwo. Adam najmniej, wiec Czarek mogl byc lub nie. Ale tylko jeden prawde - Bartek. Czarek klamie - 'ja najwiecej' falsz, czyli ktos inny ma najwiecej. Bartek najwyzej? Spojne.",
+            "Najczesciej w tej konfiguracji najwiecej ma Bartek"
+          ],
+          "answer": "B",
+          "alternative": "Wymaga sprawdzania wszystkich kombinacji."
+        },
+        {
+          "problemId": "gen-l37-v1-w2",
+          "observation": "Lancuch: Ola > Bena > Cyryl.",
+          "strategy": "Porzadek.",
+          "steps": [
+            "Ola najwyzsza"
+          ],
+          "answer": "A",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l37-v1-w3",
+          "observation": "Lancuch: Janek > Piotr > Marek.",
+          "strategy": "Porzadek.",
+          "steps": [
+            "Marek najmlodszy"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2012-22",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Kowalscy 5 dzieci, prezenty. Adas najmlodszy=mis, najstarsze=ksiazka. Bartek=pilka. Cesia<Ela, Cesia>Bartek, Cesia nie ukladanka. Ela najstarsza=ksiazka. Cesia=lalka. Darek=ukladanka.",
+          "steps": [
+            "Kowalscy 5 dzieci, prezenty. Adas najmlodszy=mis, najstarsze=ksiazka. Bartek=pilka. Cesia<Ela, Cesia>Bartek, Cesia nie ukladanka. Ela najstarsza=ksiazka. Cesia=lalka. Darek=ukladanka.",
+            "Poprawna odpowiedz: D"
+          ],
+          "answer": "D",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2019-22",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Pieciu krasnoludkow, ciastko zjadl jeden, sklamal jeden. Po analizie: Bartek zjadl, Edek sklamal.",
+          "steps": [
+            "Pieciu krasnoludkow, ciastko zjadl jeden, sklamal jeden. Po analizie: Bartek zjadl, Edek sklamal.",
+            "Poprawna odpowiedz: B"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2014-19",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Krysia w zoltym (ma psa - nie zielony), Zosia wyjezdza w niedziele - nie zaproszona z niebieskiego. Wniosek: Ania niebieski, Krysia zolty, Zosia zielony.",
+          "steps": [
+            "Krysia w zoltym (ma psa - nie zielony), Zosia wyjezdza w niedziele - nie zaproszona z niebieskiego. Wniosek: Ania niebieski, Krysia zolty, Zosia zielony.",
+            "Poprawna odpowiedz: D"
+          ],
+          "answer": "D",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2016-23",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Pilkarz najmlodszy bez rodzenstwa. Antek starszy od koszykarza i przyjazni z siostra Kacpra. Kacper koszykarz, Franek pilkarz, Antek siatkarz.",
+          "steps": [
+            "Pilkarz najmlodszy bez rodzenstwa. Antek starszy od koszykarza i przyjazni z siostra Kacpra. Kacper koszykarz, Franek pilkarz, Antek siatkarz.",
+            "Poprawna odpowiedz: B"
+          ],
+          "answer": "B",
+          "alternative": null
+        }
+      ]
+    },
+    {
+      "versionId": "v2",
+      "label": "Wersja 2 (powtorka)",
+      "warmup": [
+        {
+          "id": "gen-l37-v2-w1",
+          "source": "generated-l37-v2-w1",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "logika",
+          "subtopic": "klamca prosty",
+          "statement": "Anka mowi: 'Mam jablko'. Beata: 'Anka klamie'. Cyryl: 'Beata mowi prawde'. Jezeli klamie tylko jedna osoba, kto?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "Anka",
+            "B": "Beata",
+            "C": "Cyryl",
+            "D": "Nie da sie ustalic",
+            "E": "Wszystkie kłamią"
+          },
+          "correct": "A"
+        },
+        {
+          "id": "gen-l37-v2-w2",
+          "source": "generated-l37-v2-w2",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "logika",
+          "subtopic": "porzadek wagi",
+          "statement": "Tomek wazy wiecej niz Olek. Olek wiecej niz Filip. Kto wazy najmniej?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "Tomek",
+            "B": "Olek",
+            "C": "Filip",
+            "D": "Wszyscy tyle samo",
+            "E": "Nie wiadomo"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "gen-l37-v2-w3",
+          "source": "generated-l37-v2-w3",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "logika",
+          "subtopic": "prosty porzadek",
+          "statement": "Pies jest szybszy od kota. Kot jest szybszy od zolwia. Kto jest najszybszy?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "Pies",
+            "B": "Kot",
+            "C": "Zolw",
+            "D": "Rowni",
+            "E": "Nie wiadomo"
+          },
+          "correct": "A"
+        },
+        {
+          "id": "kangur-maluch-2018-22",
+          "source": "kangur-maluch-2018-22",
+          "year": 2018,
+          "number": 22,
+          "difficulty": "5pkt",
+          "topic": "logika",
+          "subtopic": "ustalenie cen z warunkow",
+          "statement": "Cztery zabawki (lala, mis, pilka, ukladanka) maja ceny 10, 20, 30, 40 zl (kazda inna). Mis+Lala > Pilka+Ukladanka. Mis+Ukladanka = Pilka. Ktora zabawka kosztuje 30 zl?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "Lala",
+            "B": "Mis",
+            "C": "Pilka",
+            "D": "Ukladanka",
+            "E": "Moze byc lala lub mis"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "kangur-maluch-2025-18",
+          "source": "kangur-maluch-2025-18",
+          "year": 2025,
+          "number": 18,
+          "difficulty": "5pkt",
+          "topic": "logika",
+          "subtopic": "wieki rodzenstwa - uklad",
+          "statement": "Czworo dzieci dzisiejsza urodziny: Maria ma 11 lat i jest o 5 lat mlodsza niz brat Jozka. Mlodsza siostra Marii jest o 2 lata starsza od Jozka. Wsrod czworki dzieci kazde jest w roznym wieku. O ile lat Jozek jest mlodszy od swego brata?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "7",
+            "B": "6",
+            "C": "5",
+            "D": "4",
+            "E": "3"
+          },
+          "correct": "A"
+        }
+      ],
+      "challenge": [
+        {
+          "id": "kangur-maluch-2018-20",
+          "source": "kangur-maluch-2018-20",
+          "year": 2018,
+          "number": 20,
+          "difficulty": "5pkt",
+          "topic": "logika",
+          "subtopic": "trasa - wnioskowanie z warunkami",
+          "statement": "Koziolek Matolek idzie z Makuszyc do Pacanowa przez wszystkie miasta na mapie i wraca najkrotsza droga. Cala trasa = 100 km. Odleglosc Marianow-Walentynow jest o 9 km krotsza niz Kornelowo-Marianow-Walentynow. Odleglosc Makuszyce-Kornelowo-Marianow rowna sie Marianow-Walentynow. Jak daleko jest z Makuszyc do Pacanowa najkrotsza droga?",
+          "hasImage": true,
+          "imageNote": "Mapa z 5 miastami: Makuszyce, Kornelowo (17 km), Marianow, Walentynow (26 km), Pacanow.",
+          "choices": {
+            "A": "17 km",
+            "B": "23 km",
+            "C": "26 km",
+            "D": "22 km",
+            "E": "35 km"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "kangur-maluch-2013-21",
+          "source": "kangur-maluch-2013-21",
+          "year": 2013,
+          "number": 21,
+          "difficulty": "5pkt",
+          "topic": "logika",
+          "subtopic": "podzial na rowne zestawy - niemozliwosc",
+          "statement": "Krzys ma 7 dzwonkow o wartosci 1, 2, 3, 4, 5, 6, 7 zl. Na ile sposobow moze rozdzielic je na trzy zestawy tak, by kazdy kosztowal tyle samo?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "1",
+            "B": "2",
+            "C": "3",
+            "D": "4",
+            "E": "Taki podzial nie jest mozliwy"
+          },
+          "correct": "E"
+        }
+      ],
+      "solutions": [
+        {
+          "problemId": "gen-l37-v2-w1",
+          "observation": "Beata i Cyryl mowia spojnie ze soba.",
+          "strategy": "Analiza spojnosci.",
+          "steps": [
+            "Jezeli Anka mowi prawde - ma jablko. Beata mowi ze Anka klamie - Beata klamie. Cyryl mowi ze Beata prawde - Cyryl tez klamie. Dwoch klamcow - sprzecznosc.",
+            "Jezeli Anka klamie - nie ma jablka. Beata mowi prawde. Cyryl mowi prawde. Tylko Anka klamie. OK"
+          ],
+          "answer": "A",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l37-v2-w2",
+          "observation": "Lancuch: Tomek > Olek > Filip.",
+          "strategy": "Porzadek.",
+          "steps": [
+            "Filip najmniej"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l37-v2-w3",
+          "observation": "Pies > kot > zolw.",
+          "strategy": "Porzadek szybkosci.",
+          "steps": [
+            "Pies najszybszy"
+          ],
+          "answer": "A",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2018-22",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Zabawki: ceny 10, 20, 30, 40 zl. Mis+Lala > Pilka+Ukladanka, Mis+Ukladanka = Pilka. Po analizie: pilka 30 zl.",
+          "steps": [
+            "Zabawki: ceny 10, 20, 30, 40 zl. Mis+Lala > Pilka+Ukladanka, Mis+Ukladanka = Pilka. Po analizie: pilka 30 zl.",
+            "Poprawna odpowiedz: C"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2025-18",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Maria 11, brat Jozka 11+5=16, mlodsza siostra Marii = m, Jozek = m-2. Jozek mlodszy od brata o 16-(m-2)=18-m. Z warunkow m daje roznice 7.",
+          "steps": [
+            "Maria 11, brat Jozka 11+5=16, mlodsza siostra Marii = m, Jozek = m-2. Jozek mlodszy od brata o 16-(m-2)=18-m. Z warunkow m daje roznice 7.",
+            "Poprawna odpowiedz: A"
+          ],
+          "answer": "A",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2018-20",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Trasa Makuszyce - Pacanow przez wszystkie miasta. Cala 100 km. Po analizie warunkow: najkrotsza droga 26 km.",
+          "steps": [
+            "Trasa Makuszyce - Pacanow przez wszystkie miasta. Cala 100 km. Po analizie warunkow: najkrotsza droga 26 km.",
+            "Poprawna odpowiedz: C"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2013-21",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "7 dzwonkow 1-7 zl, suma 28. Podzial na 3 rowne zestawy: 28:3 nie calkowite. Niemozliwe.",
+          "steps": [
+            "7 dzwonkow 1-7 zl, suma 28. Podzial na 3 rowne zestawy: 28:3 nie calkowite. Niemozliwe.",
+            "Poprawna odpowiedz: E"
+          ],
+          "answer": "E",
+          "alternative": null
+        }
+      ]
+    },
+    {
+      "versionId": "v3",
+      "label": "Wersja 3 (oryginaly Kangurka)",
+      "warmup": [
+        {
+          "id": "kangur-maluch-2019-23",
+          "source": "kangur-maluch-2019-23",
+          "year": 2019,
+          "number": 23,
+          "difficulty": "5pkt",
+          "topic": "logika",
+          "subtopic": "układ równań - dwa sposoby wieszania",
+          "statement": "Emilka rozwieszała pranie. W sposobie 1 każdy ręcznik miał 2 osobne klamerki. W sposobie 2 ręczniki dzielą klamerki (n ręczników wymaga n+1 klamerek). Ogółem powiesiła 35 ręczników i użyła 58 klamerek. Ile ręczników powiesiła w sposób 1?",
+          "hasImage": true,
+          "imageNote": "Rysunek 1: każdy ręcznik na 2 osobnych klamerkach. Rysunek 2: wspólne klamerki.",
+          "choices": {
+            "A": "12",
+            "B": "13",
+            "C": "21",
+            "D": "22",
+            "E": "23"
+          },
+          "correct": "D"
+        },
+        {
+          "id": "kangur-maluch-2020-21",
+          "source": "kangur-maluch-2020-21",
+          "year": 2020,
+          "number": 21,
+          "difficulty": "5pkt",
+          "topic": "logika",
+          "subtopic": "minimalna liczba dzieci w rodzinie",
+          "statement": "W rodzinie kazde dziecko ma co najmniej jednego brata i kazde ma wiecej siostr niz braci. Ile co najmniej dzieci jest w tej rodzinie?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "6",
+            "B": "5",
+            "C": "4",
+            "D": "3",
+            "E": "2"
+          },
+          "correct": "A"
+        },
+        {
+          "id": "kangur-maluch-2020-24",
+          "source": "kangur-maluch-2020-24",
+          "year": 2020,
+          "number": 24,
+          "difficulty": "5pkt",
+          "topic": "logika",
+          "subtopic": "dekodowanie bajkowego jezyka",
+          "statement": "Bajkowy jezyk. Tlumaczenia zdan 'Mama lubi banany', 'Tata lubi jablka', 'Brat uwielbia banany', 'Siostra uwielbia banany' (nie w tej kolejnosci) to: 'Ewe tum kete', 'Ato bem kito', 'Awe tum kete', 'Alo tum kito'. Jak brzmi 'Mama uwielbia jablka'?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "Alo tum kete",
+            "B": "Ewe bem kete",
+            "C": "Alo bem kete",
+            "D": "Alo tum kito",
+            "E": "Alo bem kito"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "kangur-maluch-2022-20",
+          "source": "kangur-maluch-2022-20",
+          "year": 2022,
+          "number": 20,
+          "difficulty": "5pkt",
+          "topic": "logika",
+          "subtopic": "polaczenia w ukladance domow",
+          "statement": "Sześciokąt z 6 domami A-F dookola. Ewa chce na srodku polozyc fragment z drogami tak, by dom A byl polaczony z B i E, ale NIE z D. Ktore dwa elementy ukladanki spelniaja warunki?",
+          "hasImage": true,
+          "imageNote": "Szesciokat z 6 domami A-F i 5 wariantami srodka z rozne sciezki.",
+          "choices": {
+            "A": "1 i 2",
+            "B": "2 i 3",
+            "C": "1 i 4",
+            "D": "4 i 5",
+            "E": "1 i 5"
+          },
+          "correct": "E"
+        }
+      ],
+      "challenge": [],
+      "solutions": [
+        {
+          "problemId": "kangur-maluch-2019-23",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Oryginalne zadanie Kangur Maluch 2019 nr 23.",
+          "steps": [
+            "Oryginalne zadanie Kangur Maluch 2019 nr 23.",
+            "Poprawna odpowiedz: D"
+          ],
+          "answer": "D",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2020-21",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Oryginalne zadanie Kangur Maluch 2020 nr 21.",
+          "steps": [
+            "Oryginalne zadanie Kangur Maluch 2020 nr 21.",
+            "Poprawna odpowiedz: A"
+          ],
+          "answer": "A",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2020-24",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Oryginalne zadanie Kangur Maluch 2020 nr 24.",
+          "steps": [
+            "Oryginalne zadanie Kangur Maluch 2020 nr 24.",
+            "Poprawna odpowiedz: C"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2022-20",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Oryginalne zadanie Kangur Maluch 2022 nr 20.",
+          "steps": [
+            "Oryginalne zadanie Kangur Maluch 2022 nr 20.",
+            "Poprawna odpowiedz: E"
+          ],
+          "answer": "E",
+          "alternative": null
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "W zagadce 'jeden klamie' najlepsza strategia:",
+      "choices": {
+        "A": "Zalozyc i sprawdzic",
+        "B": "Zgadnac",
+        "C": "Pominac"
+      },
+      "correct": "A",
+      "explain": "Zalozenie 'X klamie' i sprawdzenie spojnosci pozostalych."
+    },
+    {
+      "q": "A>B i B>C oznacza:",
+      "choices": {
+        "A": "A>C",
+        "B": "A<C",
+        "C": "A=C"
+      },
+      "correct": "A",
+      "explain": "Lancuch nierownosci - przechodnia relacja."
+    },
+    {
+      "q": "Dwa zdania sprzeczne oznaczaja:",
+      "choices": {
+        "A": "Jedno klamstwo",
+        "B": "Oba prawdy",
+        "C": "Oba klamstwa"
+      },
+      "correct": "A",
+      "explain": "Dwa sprzeczne nie moga byc oba prawda - dokladnie jedno klamstwo."
+    }
+  ]
+}

@@ -1,0 +1,609 @@
+{
+  "id": "l02",
+  "number": 2,
+  "block": "Liczby i dzialania",
+  "blockCode": "A",
+  "title": "Mnozenie - tabliczka i zastosowania",
+  "topic": "arytmetyka",
+  "estimatedMinutes": 15,
+  "theory": {
+    "intro": "Babcia piecze tace z ciastkami. Na kazdej tacy uklada 8 ciastek, a tac jest 6. Liczysz po kolei: 8, 16, 24... Albo robisz 6 razy 8 i wychodzi 48 - jednym ruchem. Mnozenie to skrot dla wielokrotnego dodawania. Im pewniej znasz tabliczke, tym szybciej rozwiazesz polowe zadan Kangurka, bez liczenia na palcach.",
+    "tool": "Sztuczka 1: MNOZ PRZEZ 10 I 100. Mnozac przez 10 dopisujesz jedno zero. Mnozac przez 100 - dwa zera. 47 razy 10 = 470, 23 razy 100 = 2300. Bezbledne.\n\nSztuczka 2: ROZBIJAJ DUZE LICZBY. Nie znasz 7 razy 12? Rozbij 12 na 10 + 2: 7 razy 10 = 70, 7 razy 2 = 14, razem 84. Tak samo 8 razy 13 = 8 razy 10 + 8 razy 3 = 80 + 24 = 104.\n\nSztuczka 3: PRZEMIENNOSC. 8 razy 7 to to samo co 7 razy 8. Wybieraj wygodniejszy kierunek. Czesto latwiej myslec '7 grup po 8' niz '8 grup po 7'.\n\nSztuczka 4: PODWAJANIE. Mnozenie przez 4 to podwojenie dwa razy. 17 razy 4 = 17 podwojone = 34, 34 podwojone = 68.",
+    "trick": "Kangur uwielbia zadania, gdzie cos jest 'po tyle samo' - rzedy w sadzie, kostki na tacy, dni w tygodniach. Gdy widzisz w zadaniu 'po', 'na kazdym', 'rownych' - to prawie zawsze sygnal do mnozenia. Drugi sygnal: jak liczby w odpowiedziach roznia sie o tabliczkowe wielokrotnosci (np. 36, 42, 48, 54), to wybor sprowadza sie do dobrego mnozenia."
+  },
+  "versions": [
+    {
+      "versionId": "v1",
+      "label": "Wersja 1 (oryginalna)",
+      "warmup": [
+        {
+          "id": "gen-l02-w1",
+          "source": "generated-l02-1",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "arytmetyka",
+          "subtopic": "tabliczka mnozenia",
+          "statement": "W szkolnym sadzie rosnie 7 rzedow drzew. W kazdym rzedzie jest 8 drzew. Ile drzew rosnie w sadzie?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "48",
+            "B": "54",
+            "C": "56",
+            "D": "64",
+            "E": "72"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "gen-l02-w2",
+          "source": "generated-l02-2",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "arytmetyka",
+          "subtopic": "mnozenie przez 10",
+          "statement": "Pajak ma 8 nog. Ile nog ma 10 pajakow?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "18",
+            "B": "60",
+            "C": "70",
+            "D": "80",
+            "E": "100"
+          },
+          "correct": "D"
+        },
+        {
+          "id": "gen-l02-w3",
+          "source": "generated-l02-3",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "arytmetyka",
+          "subtopic": "mnozenie liczby dwucyfrowej przez jednocyfrowa",
+          "statement": "Ucze sie tabliczki 12 minut dziennie. Ile minut ucze sie przez tydzien (7 dni)?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "70",
+            "B": "74",
+            "C": "82",
+            "D": "84",
+            "E": "94"
+          },
+          "correct": "D"
+        },
+        {
+          "id": "gen-l02-w4",
+          "source": "generated-l02-4",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "arytmetyka",
+          "subtopic": "mnozenie z kontekstem siatki",
+          "statement": "Ada uklada nalepki w prostokat. Sa 4 rzedy po 9 nalepek. Ile nalepek razem?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "13",
+            "B": "32",
+            "C": "34",
+            "D": "36",
+            "E": "45"
+          },
+          "correct": "D"
+        },
+        {
+          "id": "gen-l02-w5",
+          "source": "generated-l02-5",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "arytmetyka",
+          "subtopic": "podwajanie wielokrotne",
+          "statement": "Bakteria dzieli sie na dwie kazda godzine. Na poczatku byla 1. Ile bakterii bedzie po 4 godzinach?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "4",
+            "B": "6",
+            "C": "8",
+            "D": "12",
+            "E": "16"
+          },
+          "correct": "E"
+        }
+      ],
+      "challenge": [
+        {
+          "id": "gen-l02-c1",
+          "source": "generated-l02-c1",
+          "year": null,
+          "number": null,
+          "difficulty": "4pkt",
+          "topic": "arytmetyka",
+          "subtopic": "mnozenie i odejmowanie dwoch grup",
+          "statement": "W sali jest 6 stolow okraglych po 6 osob i 4 stoly prostokatne po 8 osob. Ile osob moze usiasc w sali?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "48",
+            "B": "60",
+            "C": "62",
+            "D": "68",
+            "E": "72"
+          },
+          "correct": "D"
+        },
+        {
+          "id": "gen-l02-c2",
+          "source": "generated-l02-c2",
+          "year": null,
+          "number": null,
+          "difficulty": "5pkt",
+          "topic": "arytmetyka",
+          "subtopic": "mnozenie przez 11, wzor",
+          "statement": "Filip mnozy liczby: 7 razy 11 = 77, 8 razy 11 = 88, 9 razy 11 = 99. Zauwazyl wzor. Ile wyniesie 13 razy 11?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "121",
+            "B": "131",
+            "C": "133",
+            "D": "143",
+            "E": "153"
+          },
+          "correct": "D"
+        }
+      ],
+      "solutions": [
+        {
+          "problemId": "gen-l02-w1",
+          "observation": "7 rzedow razy 8 drzew - klasyczne mnozenie.",
+          "strategy": "Tabliczka mnozenia.",
+          "steps": [
+            "7 razy 8 = 56"
+          ],
+          "answer": "C",
+          "alternative": "Mozna jako 8 razy 7 (przemiennosc) - to samo."
+        },
+        {
+          "problemId": "gen-l02-w2",
+          "observation": "Mnozymy przez 10 - dopisujemy zero.",
+          "strategy": "Mnozenie przez 10.",
+          "steps": [
+            "8 razy 10 = 80"
+          ],
+          "answer": "D",
+          "alternative": "Mozna policzyc 10 razy 8 = 80 - to samo."
+        },
+        {
+          "problemId": "gen-l02-w3",
+          "observation": "12 razy 7 - rozbijam 12 na 10+2.",
+          "strategy": "Rozbijanie na latwiejsze czesci.",
+          "steps": [
+            "7 razy 10 = 70",
+            "7 razy 2 = 14",
+            "Razem: 70 + 14 = 84"
+          ],
+          "answer": "D",
+          "alternative": "Albo: 7 razy 12 = 7 razy 6 razy 2 = 42 razy 2 = 84."
+        },
+        {
+          "problemId": "gen-l02-w4",
+          "observation": "Prostokat: 4 wiersze po 9 - mnozenie.",
+          "strategy": "Mnozenie z siatki.",
+          "steps": [
+            "4 razy 9 = 36"
+          ],
+          "answer": "D",
+          "alternative": "Mozna 9 razy 4 = 36 (przemiennosc)."
+        },
+        {
+          "problemId": "gen-l02-w5",
+          "observation": "Po kazdej godzinie liczba sie podwaja.",
+          "strategy": "Podwajanie kilka razy.",
+          "steps": [
+            "Po 1h: 1 razy 2 = 2",
+            "Po 2h: 2 razy 2 = 4",
+            "Po 3h: 4 razy 2 = 8",
+            "Po 4h: 8 razy 2 = 16"
+          ],
+          "answer": "E",
+          "alternative": "To 2 razy 2 razy 2 razy 2 = 16 (cztery razy po 2)."
+        },
+        {
+          "problemId": "gen-l02-c1",
+          "observation": "Dwie grupy stolow do dodania osobno.",
+          "strategy": "Mnozenie dla kazdej grupy, potem dodanie.",
+          "steps": [
+            "Stoly okragle: 6 razy 6 = 36 osob",
+            "Stoly prostokatne: 4 razy 8 = 32 osoby",
+            "Razem: 36 + 32 = 68 osob"
+          ],
+          "answer": "D",
+          "alternative": "Mozna sprawdzic: 36 + 32 = 68 (dodawanie z rozbijaniem 30+30+6+2)."
+        },
+        {
+          "problemId": "gen-l02-c2",
+          "observation": "Mnozenie przez 11 jednocyfrowej liczby - dwie te same cyfry.",
+          "strategy": "Sztuczka: dla dwucyfrowej liczby wpisz w srodek sume cyfr.",
+          "steps": [
+            "Dla 13 razy 11: cyfry 1 i 3, suma 1+3=4",
+            "Zatem 13 razy 11 = 143 (cyfry 1, 4, 3)",
+            "Sprawdzenie: 13 razy 10 = 130, plus 13 razy 1 = 13, razem 143"
+          ],
+          "answer": "D",
+          "alternative": "Rozbij: 13 razy 11 = 13 razy 10 + 13 = 130 + 13 = 143."
+        }
+      ]
+    },
+    {
+      "versionId": "v2",
+      "label": "Wersja 2 (powtorka)",
+      "warmup": [
+        {
+          "id": "gen-l02-v2-w1",
+          "source": "generated-l02-v2-1",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "arytmetyka",
+          "subtopic": "tabliczka mnozenia",
+          "statement": "Florysta robi bukiety. W kazdym jest 6 tulipanow, a bukietow jest 9. Ile tulipanow uzyl?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "45",
+            "B": "48",
+            "C": "54",
+            "D": "56",
+            "E": "63"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "gen-l02-v2-w2",
+          "source": "generated-l02-v2-2",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "arytmetyka",
+          "subtopic": "mnozenie przez 10",
+          "statement": "Ola idzie do szkoly 12 minut. Ile minut spedzi w drodze przez 10 dni?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "22",
+            "B": "100",
+            "C": "110",
+            "D": "120",
+            "E": "122"
+          },
+          "correct": "D"
+        },
+        {
+          "id": "gen-l02-v2-w3",
+          "source": "generated-l02-v2-3",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "arytmetyka",
+          "subtopic": "rozbicie duzej liczby",
+          "statement": "Na polce jest 8 pudelek po 11 olowkow. Ile olowkow razem?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "19",
+            "B": "80",
+            "C": "81",
+            "D": "88",
+            "E": "99"
+          },
+          "correct": "D"
+        },
+        {
+          "id": "gen-l02-v2-w4",
+          "source": "generated-l02-v2-4",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "arytmetyka",
+          "subtopic": "siatka prostokatna",
+          "statement": "Czekolada ma 5 kwadracikow w rzedzie i 7 rzedow. Ile kwadracikow razem?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "12",
+            "B": "30",
+            "C": "35",
+            "D": "42",
+            "E": "45"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "gen-l02-v2-w5",
+          "source": "generated-l02-v2-5",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "arytmetyka",
+          "subtopic": "potegowanie/podwajanie",
+          "statement": "Kazda galaz drzewa codziennie zamienia sie w 2 nowe galezie. Pierwszego dnia byla 1 galaz. Ile galezi bedzie piatego dnia?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "5",
+            "B": "8",
+            "C": "10",
+            "D": "16",
+            "E": "32"
+          },
+          "correct": "D"
+        }
+      ],
+      "challenge": [
+        {
+          "id": "gen-l02-v2-c1",
+          "source": "generated-l02-v2-c1",
+          "year": null,
+          "number": null,
+          "difficulty": "4pkt",
+          "topic": "arytmetyka",
+          "subtopic": "suma dwoch produktow",
+          "statement": "W kinie jest 5 rzedow po 8 foteli i 3 rzedy po 12 foteli. Ile foteli w kinie razem?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "56",
+            "B": "66",
+            "C": "72",
+            "D": "76",
+            "E": "86"
+          },
+          "correct": "D"
+        },
+        {
+          "id": "gen-l02-v2-c2",
+          "source": "generated-l02-v2-c2",
+          "year": null,
+          "number": null,
+          "difficulty": "5pkt",
+          "topic": "arytmetyka",
+          "subtopic": "mnozenie przez 11",
+          "statement": "Wiedzac ze 7 razy 11 = 77 i 8 razy 11 = 88, ile wynosi 25 razy 11?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "255",
+            "B": "265",
+            "C": "275",
+            "D": "285",
+            "E": "297"
+          },
+          "correct": "C"
+        }
+      ],
+      "solutions": [
+        {
+          "problemId": "gen-l02-v2-w1",
+          "observation": "6 razy 9 - klasyczne mnozenie.",
+          "strategy": "Tabliczka mnozenia.",
+          "steps": [
+            "6 razy 9 = 54"
+          ],
+          "answer": "C",
+          "alternative": "6 razy 10 = 60, minus 6 = 54."
+        },
+        {
+          "problemId": "gen-l02-v2-w2",
+          "observation": "Mnozenie przez 10 - dopisuje zero.",
+          "strategy": "Mnozenie przez 10.",
+          "steps": [
+            "12 razy 10 = 120"
+          ],
+          "answer": "D",
+          "alternative": "Mozna 10 razy 12 = 120 (przemiennosc)."
+        },
+        {
+          "problemId": "gen-l02-v2-w3",
+          "observation": "8 razy 11 - rozbijam 11 na 10+1.",
+          "strategy": "Rozbicie.",
+          "steps": [
+            "8 razy 10 = 80",
+            "8 razy 1 = 8",
+            "Razem: 80 + 8 = 88"
+          ],
+          "answer": "D",
+          "alternative": "Sztuczka z 11: dla 1-cyfrowej liczby zapisz ja dwa razy: 8 -> 88."
+        },
+        {
+          "problemId": "gen-l02-v2-w4",
+          "observation": "Siatka 5 x 7.",
+          "strategy": "Mnozenie z siatki.",
+          "steps": [
+            "5 razy 7 = 35"
+          ],
+          "answer": "C",
+          "alternative": "7 razy 5 = 35 (przemiennosc)."
+        },
+        {
+          "problemId": "gen-l02-v2-w5",
+          "observation": "Codzienne podwajanie liczby galezi.",
+          "strategy": "Podwajanie 4 razy (od dnia 1 do dnia 5 mijaja 4 noce).",
+          "steps": [
+            "Dzien 1: 1",
+            "Dzien 2: 1 razy 2 = 2",
+            "Dzien 3: 2 razy 2 = 4",
+            "Dzien 4: 4 razy 2 = 8",
+            "Dzien 5: 8 razy 2 = 16"
+          ],
+          "answer": "D",
+          "alternative": "To 2 razy 2 razy 2 razy 2 = 16 (cztery podwojenia)."
+        },
+        {
+          "problemId": "gen-l02-v2-c1",
+          "observation": "Dwa rodzaje rzedow - dwa mnozenia, potem dodaj.",
+          "strategy": "Mnozenie i dodawanie.",
+          "steps": [
+            "Male rzedy: 5 razy 8 = 40",
+            "Duze rzedy: 3 razy 12 = 36",
+            "Razem: 40 + 36 = 76"
+          ],
+          "answer": "D",
+          "alternative": "Sprawdz: 76 = 40 + 36 OK."
+        },
+        {
+          "problemId": "gen-l02-v2-c2",
+          "observation": "Mnozenie 2-cyfrowej liczby przez 11.",
+          "strategy": "Sztuczka: cyfry liczby + ich suma w srodku.",
+          "steps": [
+            "Cyfry 25: 2 i 5",
+            "Suma cyfr: 2 + 5 = 7",
+            "Wynik: 2-7-5 = 275"
+          ],
+          "answer": "C",
+          "alternative": "Rozbicie: 25 razy 11 = 25 razy 10 + 25 = 250 + 25 = 275."
+        }
+      ]
+    },
+    {
+      "versionId": "v3",
+      "label": "Wersja 3 (oryginaly Kangurka)",
+      "warmup": [
+        {
+          "id": "kangur-maluch-2020-12",
+          "source": "kangur-maluch-2020-12",
+          "year": 2020,
+          "number": 12,
+          "difficulty": "4pkt",
+          "topic": "arytmetyka",
+          "subtopic": "odtworzenie liczb z roznicy",
+          "statement": "Helena zapisala trzy liczby o sumie 50. Od kazdej odjela te sama liczbe i otrzymala wyniki 24, 13 i 7. Ktora z liczb byla jedna z poczatkowych?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "9",
+            "B": "11",
+            "C": "13",
+            "D": "17",
+            "E": "23"
+          },
+          "correct": "A"
+        },
+        {
+          "id": "kangur-maluch-2022-14",
+          "source": "kangur-maluch-2022-14",
+          "year": 2022,
+          "number": 14,
+          "difficulty": "4pkt",
+          "topic": "arytmetyka",
+          "subtopic": "LCM obwodow - kiedy ponowne spotkanie",
+          "statement": "Hanik chodzi wokol kwadratu 5x5m. Gerszon wokol prostokata 5x10m. Obaj zaczynaja w tym samym punkcie A z ta sama predkoscia, w przeciwnych kierunkach. Co najmniej ile razy Hanik musi obejsc kwadrat, by ponownie sie spotkac?",
+          "hasImage": true,
+          "imageNote": "Kwadrat 5x5 obok prostokata 5x10, punkt A w narozniku ich styku.",
+          "choices": {
+            "A": "1",
+            "B": "2",
+            "C": "3",
+            "D": "4",
+            "E": "5"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "kangur-maluch-2023-20",
+          "source": "kangur-maluch-2023-20",
+          "year": 2023,
+          "number": 20,
+          "difficulty": "5pkt",
+          "topic": "arytmetyka",
+          "subtopic": "podzial pilek wedlug warunkow",
+          "statement": "Marysia i Jozek mieli po 9 pilek. Lacznie 8 niebieskich i 10 bialych. Marysia miala dwa razy wiecej bialych niz niebieskich. Ile bialych pilek mial Jozek?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "3",
+            "B": "4",
+            "C": "5",
+            "D": "6",
+            "E": "0"
+          },
+          "correct": "B"
+        }
+      ],
+      "challenge": [],
+      "solutions": [
+        {
+          "problemId": "kangur-maluch-2020-12",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Oryginalne zadanie Kangur Maluch 2020 nr 12.",
+          "steps": [
+            "Oryginalne zadanie Kangur Maluch 2020 nr 12.",
+            "Poprawna odpowiedz: A"
+          ],
+          "answer": "A",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2022-14",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Oryginalne zadanie Kangur Maluch 2022 nr 14.",
+          "steps": [
+            "Oryginalne zadanie Kangur Maluch 2022 nr 14.",
+            "Poprawna odpowiedz: C"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2023-20",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Oryginalne zadanie Kangur Maluch 2023 nr 20.",
+          "steps": [
+            "Oryginalne zadanie Kangur Maluch 2023 nr 20.",
+            "Poprawna odpowiedz: B"
+          ],
+          "answer": "B",
+          "alternative": null
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Ile to 6 razy 7?",
+      "choices": {
+        "A": "36",
+        "B": "42",
+        "C": "48"
+      },
+      "correct": "B",
+      "explain": "6 razy 7 = 42 - klasyczna tabliczka mnozenia."
+    },
+    {
+      "q": "Jak najszybciej obliczyc 8 razy 13?",
+      "choices": {
+        "A": "Dodawac 13 osiem razy",
+        "B": "Rozbic 13 na 10 i 3: 80 + 24 = 104",
+        "C": "Zgadnac"
+      },
+      "correct": "B",
+      "explain": "Rozbijanie na 10 + 3 to najszybsza droga, bo 8 razy 10 jest natychmiastowe."
+    },
+    {
+      "q": "Mnozenie przez 100 - co robisz?",
+      "choices": {
+        "A": "Dopisujesz jedno zero",
+        "B": "Dopisujesz dwa zera",
+        "C": "Odejmujesz dwa zera"
+      },
+      "correct": "B",
+      "explain": "Mnozenie przez 100 dodaje dwa zera, bo 100 = 10 razy 10."
+    }
+  ]
+}

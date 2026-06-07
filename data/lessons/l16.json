@@ -1,0 +1,536 @@
+{
+  "id": "l16",
+  "number": 16,
+  "block": "Geometria plaska",
+  "blockCode": "C",
+  "title": "Trojkaty i ich rodzaje",
+  "topic": "geometria_plaska",
+  "estimatedMinutes": 15,
+  "theory": {
+    "intro": "Trojkat to najprostsza figura z bokami - tylko trzy. A jednak kryje mnostwo tajemnic. Trojkat rownoboczny ma wszystkie boki rowne. Rownoramienny ma dwa boki rowne. Prostokatny ma jeden kat prosty. Rozpoznawanie rodzajow trojkatow to podstawa geometrii Kangurka.",
+    "tool": "Sztuczka 1: PATRZ NA BOKI I KATY. Rownoboczny - 3 rowne boki. Rownoramienny - 2 rowne boki. Prostokatny - jeden kat prosty (rog kartki).\n\nSztuczka 2: LICZ TROJKATY SYSTEMATYCZNIE. Na rysunku z liniami szukaj: najpierw male trojkaty, potem zlozone z 2, z 3, z 4 malych. Nie pomijaj duzych.\n\nSztuczka 3: TROJKAT W FIGURZE ZLOZONEJ. Duza figura czesto sklada sie z trojkatow. Podziel ja w mysli na trojkaty - latwiej policzyc pole albo elementy.",
+    "trick": "Pulapka Kangurka: zadanie 'ile trojkatow' wyglada na 4 albo 5, ale poprawna odpowiedz to czesto 10 lub wiecej. Powod: trojkaty zlozone z kilku mniejszych. Zawsze sprawdzaj kombinacje - to one robia roznice."
+  },
+  "versions": [
+    {
+      "versionId": "v1",
+      "label": "Wersja 1 (oryginalna)",
+      "warmup": [
+        {
+          "id": "gen-l16-v1-w1",
+          "source": "generated-l16-v1-w1",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "geometria_plaska",
+          "subtopic": "trojkat rownoboczny",
+          "statement": "Trojkat, ktory ma wszystkie trzy boki rownej dlugosci, nazywamy:",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "Prostokatnym",
+            "B": "Rownoramiennym",
+            "C": "Rownobocznym",
+            "D": "Roznobocznym",
+            "E": "Plaskim"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "gen-l16-v1-w2",
+          "source": "generated-l16-v1-w2",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "geometria_plaska",
+          "subtopic": "trojkat prostokatny",
+          "statement": "Trojkat prostokatny ma jeden kat:",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "Ostry",
+            "B": "Prosty",
+            "C": "Rozwarty",
+            "D": "Polpelny",
+            "E": "Pelny"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "gen-l16-v1-w3",
+          "source": "generated-l16-v1-w3",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "geometria_plaska",
+          "subtopic": "liczba bokow",
+          "statement": "Ile bokow ma kazdy trojkat?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "2",
+            "B": "3",
+            "C": "4",
+            "D": "5",
+            "E": "6"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "kangur-maluch-2015-10",
+          "source": "kangur-maluch-2015-10",
+          "year": 2015,
+          "number": 10,
+          "difficulty": "4pkt",
+          "topic": "geometria_plaska",
+          "subtopic": "podzial figury na trojkaty",
+          "statement": "Franek pociął figure narysowana na kratkowanym papierze na jednakowe trojkaty. Ile takich trojkatow otrzymal?",
+          "hasImage": true,
+          "imageNote": "Figura na kratce pocieta na jednakowe trojkaty.",
+          "choices": {
+            "A": "8",
+            "B": "12",
+            "C": "14",
+            "D": "15",
+            "E": "16"
+          },
+          "correct": "E"
+        },
+        {
+          "id": "kangur-maluch-2014-3",
+          "source": "kangur-maluch-2014-3",
+          "year": 2014,
+          "number": 3,
+          "difficulty": "3pkt",
+          "topic": "geometria_plaska",
+          "subtopic": "porownanie zestawow klockow",
+          "statement": "Ktore z 5 domkow skladaja sie z takiego samego zestawu trojkatnych i prostokatnych klockow?",
+          "hasImage": true,
+          "imageNote": "Piec domkow zbudowanych z trojkatow i prostokatow.",
+          "choices": {
+            "A": "3, 4",
+            "B": "1, 4, 3",
+            "C": "1, 3",
+            "D": "1, 4",
+            "E": "1, 2, 4, 5"
+          },
+          "correct": "D"
+        }
+      ],
+      "challenge": [
+        {
+          "id": "kangur-maluch-2012-9",
+          "source": "kangur-maluch-2012-9",
+          "year": 2012,
+          "number": 9,
+          "difficulty": "4pkt",
+          "topic": "geometria_plaska",
+          "subtopic": "ukladanie figur z kartonikow L",
+          "statement": "Ile z przedstawionych obok figur mozna ulozyc majac do dyspozycji identyczne kartoniki w ksztalcie litery L (z 4 kwadracikow)?",
+          "hasImage": true,
+          "imageNote": "Cztery rozne figury do ulozenia z kartonikow L (po 4 kwadraciki).",
+          "choices": {
+            "A": "0",
+            "B": "1",
+            "C": "2",
+            "D": "3",
+            "E": "4"
+          },
+          "correct": "D"
+        },
+        {
+          "id": "kangur-maluch-2019-10",
+          "source": "kangur-maluch-2019-10",
+          "year": 2019,
+          "number": 10,
+          "difficulty": "4pkt",
+          "topic": "geometria_plaska",
+          "subtopic": "liczba różnych figur po usunięciu",
+          "statement": "Franek ułożył figurę z pięciu kwadratowych kartoników. Chce usunąć z niej jeden kartonik. Ile z poniżej narysowanych pięciu figur (czterokwadratowych) może otrzymać Franek?",
+          "hasImage": true,
+          "imageNote": "Figura z 5 kwadratów. Poniżej 5 tetromin.",
+          "choices": {
+            "A": "Jedną.",
+            "B": "Dwie.",
+            "C": "Trzy.",
+            "D": "Cztery.",
+            "E": "Pięć."
+          },
+          "correct": "C"
+        }
+      ],
+      "solutions": [
+        {
+          "problemId": "gen-l16-v1-w1",
+          "observation": "Wszystkie boki rowne = rownoboczny.",
+          "strategy": "Klasyfikacja trojkatow.",
+          "steps": [
+            "Trojkat z 3 rownymi bokami to rownoboczny"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l16-v1-w2",
+          "observation": "Prostokatny ma kat prosty.",
+          "strategy": "Definicja.",
+          "steps": [
+            "Trojkat prostokatny ma jeden kat prosty"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l16-v1-w3",
+          "observation": "Trojkat - trzy boki.",
+          "strategy": "Liczba bokow.",
+          "steps": [
+            "Kazdy trojkat ma 3 boki"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2015-10",
+          "observation": "Figure dzielimy na jednakowe trojkaty.",
+          "strategy": "Liczenie identycznych czesci.",
+          "steps": [
+            "Figura pocieta na jednakowe trojkaty",
+            "Wychodzi 16 trojkatow"
+          ],
+          "answer": "E",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2014-3",
+          "observation": "Porownujemy zestawy klockow domkow.",
+          "strategy": "Porownanie zestawow.",
+          "steps": [
+            "Domki o tym samym zestawie klockow trojkatnych i prostokatnych",
+            "Pasuja domki 1 i 4"
+          ],
+          "answer": "D",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2012-9",
+          "observation": "Ukladamy figury z kartonikow L.",
+          "strategy": "Sprawdzanie ulozenia.",
+          "steps": [
+            "Z kartonikow w ksztalcie L mozna ulozyc 3 z podanych figur"
+          ],
+          "answer": "D",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2019-10",
+          "observation": "Usuwamy jeden kartonik z figury z 5 kwadratow.",
+          "strategy": "Liczenie roznych figur.",
+          "steps": [
+            "Usuniecie roznych kartonikow daje rozne figury 4-kwadratowe",
+            "Mozna otrzymac 3 rozne figury"
+          ],
+          "answer": "C",
+          "alternative": null
+        }
+      ]
+    },
+    {
+      "versionId": "v2",
+      "label": "Wersja 2 (powtorka)",
+      "warmup": [
+        {
+          "id": "gen-l16-v2-w1",
+          "source": "generated-l16-v2-w1",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "geometria_plaska",
+          "subtopic": "trojkat rownoramienny",
+          "statement": "Trojkat, ktory ma dokladnie dwa boki rownej dlugosci, nazywamy:",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "Rownobocznym",
+            "B": "Rownoramiennym",
+            "C": "Prostokatnym",
+            "D": "Pelnym",
+            "E": "Plaskim"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "gen-l16-v2-w2",
+          "source": "generated-l16-v2-w2",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "geometria_plaska",
+          "subtopic": "liczba katow",
+          "statement": "Ile katow ma trojkat?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "2",
+            "B": "3",
+            "C": "4",
+            "D": "5",
+            "E": "6"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "gen-l16-v2-w3",
+          "source": "generated-l16-v2-w3",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "geometria_plaska",
+          "subtopic": "liczenie trojkatow prostych",
+          "statement": "Kwadrat przeciety jedna przekatna dzieli sie na ile trojkatow?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "1",
+            "B": "2",
+            "C": "3",
+            "D": "4",
+            "E": "6"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "kangur-maluch-2014-17",
+          "source": "kangur-maluch-2014-17",
+          "year": 2014,
+          "number": 17,
+          "difficulty": "5pkt",
+          "topic": "geometria_plaska",
+          "subtopic": "polozenie klocka w ukladance",
+          "statement": "Figure ulozono z 4 klockow o roznych ksztaltach. Gdzie lezy konkretny klocek (3-elementowy w ksztalcie L)?",
+          "hasImage": true,
+          "imageNote": "Figura zlozona z 4 klockow i 5 wariantow polozenia szukanego klocka.",
+          "choices": {
+            "A": "polozenie A",
+            "B": "polozenie B",
+            "C": "polozenie C",
+            "D": "polozenie D",
+            "E": "polozenie E"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "kangur-maluch-2025-8",
+          "source": "kangur-maluch-2025-8",
+          "year": 2025,
+          "number": 8,
+          "difficulty": "3pkt",
+          "topic": "geometria_plaska",
+          "subtopic": "3 elementy ulozenia",
+          "statement": "Julek mial 3 elementy ksztaltu jak na obrazku (trojkat, kwadrat, prostokat). Ktory z ponizszych wiatraczkow mogl z nich ulozyc?",
+          "hasImage": true,
+          "imageNote": "3 figury - trojkat, kwadrat, prostokat - oraz 5 wariantow wiatraczka.",
+          "choices": {
+            "A": "wzor A",
+            "B": "wzor B",
+            "C": "wzor C",
+            "D": "wzor D",
+            "E": "wzor E"
+          },
+          "correct": "C"
+        }
+      ],
+      "challenge": [
+        {
+          "id": "kangur-maluch-2013-17",
+          "source": "kangur-maluch-2013-17",
+          "year": 2013,
+          "number": 17,
+          "difficulty": "5pkt",
+          "topic": "geometria_plaska",
+          "subtopic": "ukladanie kwadratu z figur",
+          "statement": "Wiktoria wycieła kilka jednakowych figur (L z 4 kratek). Chce ulozyc z nich jak najmniejszy kwadrat, bez nakladania. Ile figur potrzebuje?",
+          "hasImage": true,
+          "imageNote": "Figura L zbudowana z 4 kratek.",
+          "choices": {
+            "A": "2",
+            "B": "3",
+            "C": "4",
+            "D": "5",
+            "E": "6"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "gen-l16-v2-c1",
+          "source": "generated-l16-v2-c1",
+          "year": null,
+          "number": null,
+          "difficulty": "5pkt",
+          "topic": "geometria_plaska",
+          "subtopic": "liczenie trojkatow w siatce",
+          "statement": "Duzy trojkat podzielono liniami na 4 male jednakowe trojkaty. Ile wszystkich trojkatow (malych i zlozonych) widac na rysunku?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "4",
+            "B": "5",
+            "C": "6",
+            "D": "8",
+            "E": "10"
+          },
+          "correct": "B"
+        }
+      ],
+      "solutions": [
+        {
+          "problemId": "gen-l16-v2-w1",
+          "observation": "Dwa rowne boki = rownoramienny.",
+          "strategy": "Klasyfikacja.",
+          "steps": [
+            "Trojkat z 2 rownymi bokami to rownoramienny"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l16-v2-w2",
+          "observation": "Trojkat ma 3 katy.",
+          "strategy": "Liczba katow.",
+          "steps": [
+            "Kazdy trojkat ma 3 wierzcholki i 3 katy"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l16-v2-w3",
+          "observation": "Przekatna dzieli kwadrat na 2 trojkaty.",
+          "strategy": "Podzial przekatna.",
+          "steps": [
+            "Jedna przekatna kwadratu tworzy 2 trojkaty prostokatne"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2014-17",
+          "observation": "Szukamy polozenia konkretnego klocka w figurze.",
+          "strategy": "Dopasowanie klocka.",
+          "steps": [
+            "Figura ulozona z 4 klockow",
+            "Szukany klocek lezy w polozeniu C"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2025-8",
+          "observation": "Ukladamy wiatraczek z 3 figur.",
+          "strategy": "Sprawdzanie ulozenia z trojkata, kwadratu i prostokata.",
+          "steps": [
+            "Trzy figury skladaja sie w jeden wzor",
+            "Poprawne ulozenie to C"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2013-17",
+          "observation": "Ukladamy najmniejszy kwadrat z jednakowych figur.",
+          "strategy": "Liczenie potrzebnych figur.",
+          "steps": [
+            "Figura L z 4 kratek",
+            "Najmniejszy kwadrat wymaga 4 takich figur"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l16-v2-c1",
+          "observation": "Liczymy male trojkaty i duzy zlozony.",
+          "strategy": "Systematyczne liczenie.",
+          "steps": [
+            "4 male trojkaty",
+            "1 duzy trojkat zlozony ze wszystkich",
+            "Razem 5 trojkatow"
+          ],
+          "answer": "B",
+          "alternative": null
+        }
+      ]
+    },
+    {
+      "versionId": "v3",
+      "label": "Wersja 3 (oryginaly Kangurka)",
+      "warmup": [
+        {
+          "id": "kangur-maluch-2020-14",
+          "source": "kangur-maluch-2020-14",
+          "year": 2020,
+          "number": 14,
+          "difficulty": "4pkt",
+          "topic": "geometria_plaska",
+          "subtopic": "ukladanie kwadratu z patyczkow",
+          "statement": "Jurek ma patyczki krotsze (1 cm) i dluzsze (3 cm). Z ktorego zestawu moze ulozyc kwadrat (bez lamania i nakladania patyczkow)?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "5 krotszych i 2 dluzsze",
+            "B": "3 krotsze i 3 dluzsze",
+            "C": "6 krotszych",
+            "D": "4 krotsze i 2 dluzsze",
+            "E": "6 dluzszych"
+          },
+          "correct": "B"
+        }
+      ],
+      "challenge": [],
+      "solutions": [
+        {
+          "problemId": "kangur-maluch-2020-14",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Oryginalne zadanie Kangur Maluch 2020 nr 14.",
+          "steps": [
+            "Oryginalne zadanie Kangur Maluch 2020 nr 14.",
+            "Poprawna odpowiedz: B"
+          ],
+          "answer": "B",
+          "alternative": null
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Trojkat z 3 rownymi bokami to:",
+      "choices": {
+        "A": "Rownoboczny",
+        "B": "Prostokatny",
+        "C": "Rownoramienny"
+      },
+      "correct": "A",
+      "explain": "Trzy rowne boki - trojkat rownoboczny."
+    },
+    {
+      "q": "Ile katow prostych ma trojkat prostokatny?",
+      "choices": {
+        "A": "Zero",
+        "B": "Jeden",
+        "C": "Trzy"
+      },
+      "correct": "B",
+      "explain": "Trojkat prostokatny ma dokladnie jeden kat prosty."
+    },
+    {
+      "q": "W zadaniu 'ile trojkatow' najczesciej zapominamy o:",
+      "choices": {
+        "A": "Malych",
+        "B": "Zlozonych z kilku",
+        "C": "Kolorach"
+      },
+      "correct": "B",
+      "explain": "Trojkaty zlozone z 2-3 malych latwo przeoczyc."
+    }
+  ]
+}

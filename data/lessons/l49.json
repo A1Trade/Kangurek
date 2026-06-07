@@ -1,0 +1,812 @@
+{
+  "id": "l49",
+  "number": 49,
+  "block": "Strategie konkursowe",
+  "blockCode": "I",
+  "title": "Symulacja konkursu Kangur - czesc 1",
+  "topic": "lamiglowki",
+  "estimatedMinutes": 35,
+  "theory": {
+    "intro": "Pierwsza polowa pelnego konkursu Kangur Maluch: 12 zadan, 35 minut. Zadania 1-8 za 3 punkty, 9-12 za 4 punkty. To trening pod presja czasu. Nie sprawdzaj odpowiedzi po kazdym zadaniu - rozwiazuj cala czesc, potem sprawdz.",
+    "tool": "Sztuczka 1: ZARZADZAJ CZASEM. 35 min na 12 zadan = ~3 min na zadanie. Latwiejsze (3pkt) szybciej, na 4pkt mozesz wiecej.\n\nSztuczka 2: NIE UTKNIJ. Jezeli nie wiesz po 3 min - pomiń, idź dalej. Wrocisz na koncu.\n\nSztuczka 3: ZAZNACZAJ OPCJE. Lekko zaznaczaj 'mozliwe' i 'eliminuj'. Latwiej wrocic.\n\nSztuczka 4: SPRAWDZAJ KAZDA ODPOWIEDZ. Po wyborze ABCDE - spojrz jeszcze raz na zadanie. Czy odpowiadasz na to, o co pytaja?",
+    "trick": "W konkursie liczy sie kazda sekunda. Trenuj rozpoznawanie 'typowych' zadan Kangurka - jezeli widzisz cos podobnego do tego, co juz robiles, masz przewage. Symulacja to wlasnie ten trening."
+  },
+  "versions": [
+    {
+      "versionId": "v1",
+      "label": "Wersja 1 (oryginalna)",
+      "warmup": [
+        {
+          "id": "kangur-maluch-2012-1",
+          "source": "kangur-maluch-2012-1",
+          "year": 2012,
+          "number": 1,
+          "difficulty": "3pkt",
+          "topic": "logika",
+          "subtopic": "zliczanie unikalnych liter",
+          "statement": "Bartek napisal na kartce slowo MATEMATYKA. Rozne litery napisal roznymi kolorami, zas te same litery tym samym kolorem. Ilu roznych kolorow uzyl?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "6",
+            "B": "7",
+            "C": "8",
+            "D": "9",
+            "E": "5"
+          },
+          "correct": "A"
+        },
+        {
+          "id": "kangur-maluch-2012-4",
+          "source": "kangur-maluch-2012-4",
+          "year": 2012,
+          "number": 4,
+          "difficulty": "3pkt",
+          "topic": "logika",
+          "subtopic": "zamalowanie pol w tabeli",
+          "statement": "W tabeli 4x4 Iza zaciemnila pola: a2, b1, b2, b3, b4, c3, d3 i d4. Ktory z ponizszych obrazkow otrzymala Iza?",
+          "hasImage": true,
+          "imageNote": "Tabela 4x4 z zaczernionymi polami.",
+          "choices": {
+            "A": "wzor A",
+            "B": "wzor B",
+            "C": "wzor C",
+            "D": "wzor D",
+            "E": "wzor E"
+          },
+          "correct": "D"
+        },
+        {
+          "id": "kangur-maluch-2012-5",
+          "source": "kangur-maluch-2012-5",
+          "year": 2012,
+          "number": 5,
+          "difficulty": "3pkt",
+          "topic": "logika",
+          "subtopic": "proste odejmowanie z opowiesci",
+          "statement": "Pietnascioro dzieci bawi sie w chowanego. Jedno z nich, Klaudia, szuka pozostalych dzieci. Po pewnym czasie Klaudia znalazla dziesiecioro swoich kolegow. Ile dzieci nie zostalo jeszcze znalezionych?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "3",
+            "B": "4",
+            "C": "5",
+            "D": "9",
+            "E": "25"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "kangur-maluch-2015-1",
+          "source": "kangur-maluch-2015-1",
+          "year": 2015,
+          "number": 1,
+          "difficulty": "3pkt",
+          "topic": "arytmetyka",
+          "subtopic": "sekwencja dzialan na chmurkach",
+          "statement": "Pod chmurkami kryja sie liczby. Start: 2, potem -0, potem +1, potem razy 5. Jaka liczba kryje sie pod ostatnia chmurka ze znakiem zapytania?",
+          "hasImage": true,
+          "imageNote": "Lancuch chmurek z dzialaniami: 2, -0, +1, razy 5, ?.",
+          "choices": {
+            "A": "6",
+            "B": "7",
+            "C": "8",
+            "D": "10",
+            "E": "15"
+          },
+          "correct": "E"
+        },
+        {
+          "id": "kangur-maluch-2015-2",
+          "source": "kangur-maluch-2015-2",
+          "year": 2015,
+          "number": 2,
+          "difficulty": "3pkt",
+          "topic": "geometria_plaska",
+          "subtopic": "porownanie dlugosci paskow",
+          "statement": "Stas mial 10 jednakowych blaszanych paskow. Polaczyl je po dwa i otrzymal 5 dluzszych paskow. Ktory z otrzymanych paskow jest najdluzszy?",
+          "hasImage": true,
+          "imageNote": "10 paskow polaczonych w 5, oznaczonych A-E, o roznych dlugosciach nakladania.",
+          "choices": {
+            "A": "A",
+            "B": "B",
+            "C": "C",
+            "D": "D",
+            "E": "E"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "kangur-maluch-2015-4",
+          "source": "kangur-maluch-2015-4",
+          "year": 2015,
+          "number": 4,
+          "difficulty": "3pkt",
+          "topic": "arytmetyka",
+          "subtopic": "porownanie ilorazow",
+          "statement": "Ktory z ponizszych ilorazow jest najwiekszy: A) (1000-100):10, B) (1000-10):9, C) (1000-1):9, D) (1000-100):9, E) (1000-10):10?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "(1000-100):10",
+            "B": "(1000-10):9",
+            "C": "(1000-1):9",
+            "D": "(1000-100):9",
+            "E": "(1000-10):10"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "kangur-maluch-2015-6",
+          "source": "kangur-maluch-2015-6",
+          "year": 2015,
+          "number": 6,
+          "difficulty": "3pkt",
+          "topic": "arytmetyka",
+          "subtopic": "iloczyn i suma cyfr",
+          "statement": "Iloczyn cyfr pewnej liczby dwucyfrowej jest rowny 15. Ile wynosi suma cyfr tej liczby?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "2",
+            "B": "4",
+            "C": "6",
+            "D": "7",
+            "E": "8"
+          },
+          "correct": "E"
+        },
+        {
+          "id": "kangur-maluch-2015-7",
+          "source": "kangur-maluch-2015-7",
+          "year": 2015,
+          "number": 7,
+          "difficulty": "3pkt",
+          "topic": "logika",
+          "subtopic": "liczenie obiektow w obszarze",
+          "statement": "Rysunek przedstawia wyspe o zawiłej linii brzegowej z palma i zabami. Ile zab siedzi NA wyspie (a nie w wodzie)?",
+          "hasImage": true,
+          "imageNote": "Wyspa o nieregularnym ksztalcie z zabami w roznych miejscach.",
+          "choices": {
+            "A": "4",
+            "B": "6",
+            "C": "7",
+            "D": "8",
+            "E": "10"
+          },
+          "correct": "B"
+        }
+      ],
+      "challenge": [
+        {
+          "id": "kangur-maluch-2013-13",
+          "source": "kangur-maluch-2013-13",
+          "year": 2013,
+          "number": 13,
+          "difficulty": "4pkt",
+          "topic": "logika",
+          "subtopic": "zbiory - czesc wspolna",
+          "statement": "Kazdy z 30 uczniow uczy sie angielskiego lub niemieckiego. Niemieckiego uczy sie 15, angielskiego 20. Ilu uczniow uczy sie OBU jezykow?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "25",
+            "B": "15",
+            "C": "30",
+            "D": "10",
+            "E": "5"
+          },
+          "correct": "E"
+        },
+        {
+          "id": "kangur-maluch-2013-14",
+          "source": "kangur-maluch-2013-14",
+          "year": 2013,
+          "number": 14,
+          "difficulty": "4pkt",
+          "topic": "arytmetyka",
+          "subtopic": "podzielnosc przez cyfre jednosci",
+          "statement": "Liczba jest 'ciekawa', gdy dzieli sie przez swoja cyfre jednosci (np. 35 dzieli sie przez 5). Ile ciekawych liczb jest wiekszych od 21 i mniejszych od 30?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "2",
+            "B": "3",
+            "C": "4",
+            "D": "5",
+            "E": "6"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "kangur-maluch-2014-9",
+          "source": "kangur-maluch-2014-9",
+          "year": 2014,
+          "number": 9,
+          "difficulty": "4pkt",
+          "topic": "logika",
+          "subtopic": "minimalna liczba zamian liter",
+          "statement": "Karty z literami ulozone: O A A R G O N K. W jednym ruchu zamienia sie miejscami dwie karty. Ile co najmniej ruchow, by otrzymac slowo KANGAROO?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "2",
+            "B": "3",
+            "C": "4",
+            "D": "5",
+            "E": "6"
+          },
+          "correct": "D"
+        },
+        {
+          "id": "kangur-maluch-2015-13",
+          "source": "kangur-maluch-2015-13",
+          "year": 2015,
+          "number": 13,
+          "difficulty": "4pkt",
+          "topic": "logika",
+          "subtopic": "miejsce w biegu z warunkiem",
+          "statement": "Bieg ukonczylo 10 zawodnikow. Przed Frankiem przybieglo o 3 zawodnikow mniej niz za nim. Ktore miejsce zajal Franek?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "1",
+            "B": "3",
+            "C": "4",
+            "D": "6",
+            "E": "7"
+          },
+          "correct": "C"
+        }
+      ],
+      "solutions": [
+        {
+          "problemId": "kangur-maluch-2012-1",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Slowo MATEMATYKA: 6 unikalnych liter (M,A,T,E,Y,K).",
+          "steps": [
+            "Slowo MATEMATYKA: 6 unikalnych liter (M,A,T,E,Y,K).",
+            "Poprawna odpowiedz: A"
+          ],
+          "answer": "A",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2012-4",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Iza zaciemnila pola w tabeli 4x4 - wzor D.",
+          "steps": [
+            "Iza zaciemnila pola w tabeli 4x4 - wzor D.",
+            "Poprawna odpowiedz: D"
+          ],
+          "answer": "D",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2012-5",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "15 dzieci, znaleziono 10, bez Klaudii - 14 chowajacych - 10 = 4.",
+          "steps": [
+            "15 dzieci, znaleziono 10, bez Klaudii - 14 chowajacych - 10 = 4.",
+            "Poprawna odpowiedz: B"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2015-1",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Lancuch dzialan: 2-0+1=3, 3*5=15.",
+          "steps": [
+            "Lancuch dzialan: 2-0+1=3, 3*5=15.",
+            "Poprawna odpowiedz: E"
+          ],
+          "answer": "E",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2015-2",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Stas 10 paskow polaczyl po 2 - najdluzszy B.",
+          "steps": [
+            "Stas 10 paskow polaczyl po 2 - najdluzszy B.",
+            "Poprawna odpowiedz: B"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2015-4",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Najwiekszy iloraz: (1000-1):9 = 999:9 = 111 - C.",
+          "steps": [
+            "Najwiekszy iloraz: (1000-1):9 = 999:9 = 111 - C.",
+            "Poprawna odpowiedz: C"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2015-6",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Iloczyn cyfr 2-cyf liczby = 15 (np. 35). Suma 3+5=8.",
+          "steps": [
+            "Iloczyn cyfr 2-cyf liczby = 15 (np. 35). Suma 3+5=8.",
+            "Poprawna odpowiedz: E"
+          ],
+          "answer": "E",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2015-7",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Zaby na wyspie z palma - 6.",
+          "steps": [
+            "Zaby na wyspie z palma - 6.",
+            "Poprawna odpowiedz: B"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2013-13",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "30 uczniow, niem 15, ang 20. Wspolnych: 15+20-30=5.",
+          "steps": [
+            "30 uczniow, niem 15, ang 20. Wspolnych: 15+20-30=5.",
+            "Poprawna odpowiedz: E"
+          ],
+          "answer": "E",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2013-14",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Liczby 22, 24, 25 podzielne przez cyfre jednosci - 3 ciekawe.",
+          "steps": [
+            "Liczby 22, 24, 25 podzielne przez cyfre jednosci - 3 ciekawe.",
+            "Poprawna odpowiedz: B"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2014-9",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Z OARGONKA do KANGAROO min 5 zamian.",
+          "steps": [
+            "Z OARGONKA do KANGAROO min 5 zamian.",
+            "Poprawna odpowiedz: D"
+          ],
+          "answer": "D",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2015-13",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "10 zawodnikow, przed Frankiem o 3 mniej niz za. 4. miejsce.",
+          "steps": [
+            "10 zawodnikow, przed Frankiem o 3 mniej niz za. 4. miejsce.",
+            "Poprawna odpowiedz: C"
+          ],
+          "answer": "C",
+          "alternative": null
+        }
+      ]
+    },
+    {
+      "versionId": "v2",
+      "label": "Wersja 2 (powtorka)",
+      "warmup": [
+        {
+          "id": "kangur-maluch-2012-1",
+          "source": "kangur-maluch-2012-1",
+          "year": 2012,
+          "number": 1,
+          "difficulty": "3pkt",
+          "topic": "logika",
+          "subtopic": "zliczanie unikalnych liter",
+          "statement": "Bartek napisal na kartce slowo MATEMATYKA. Rozne litery napisal roznymi kolorami, zas te same litery tym samym kolorem. Ilu roznych kolorow uzyl?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "6",
+            "B": "7",
+            "C": "8",
+            "D": "9",
+            "E": "5"
+          },
+          "correct": "A"
+        },
+        {
+          "id": "kangur-maluch-2012-4",
+          "source": "kangur-maluch-2012-4",
+          "year": 2012,
+          "number": 4,
+          "difficulty": "3pkt",
+          "topic": "logika",
+          "subtopic": "zamalowanie pol w tabeli",
+          "statement": "W tabeli 4x4 Iza zaciemnila pola: a2, b1, b2, b3, b4, c3, d3 i d4. Ktory z ponizszych obrazkow otrzymala Iza?",
+          "hasImage": true,
+          "imageNote": "Tabela 4x4 z zaczernionymi polami.",
+          "choices": {
+            "A": "wzor A",
+            "B": "wzor B",
+            "C": "wzor C",
+            "D": "wzor D",
+            "E": "wzor E"
+          },
+          "correct": "D"
+        },
+        {
+          "id": "kangur-maluch-2012-5",
+          "source": "kangur-maluch-2012-5",
+          "year": 2012,
+          "number": 5,
+          "difficulty": "3pkt",
+          "topic": "logika",
+          "subtopic": "proste odejmowanie z opowiesci",
+          "statement": "Pietnascioro dzieci bawi sie w chowanego. Jedno z nich, Klaudia, szuka pozostalych dzieci. Po pewnym czasie Klaudia znalazla dziesiecioro swoich kolegow. Ile dzieci nie zostalo jeszcze znalezionych?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "3",
+            "B": "4",
+            "C": "5",
+            "D": "9",
+            "E": "25"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "kangur-maluch-2015-1",
+          "source": "kangur-maluch-2015-1",
+          "year": 2015,
+          "number": 1,
+          "difficulty": "3pkt",
+          "topic": "arytmetyka",
+          "subtopic": "sekwencja dzialan na chmurkach",
+          "statement": "Pod chmurkami kryja sie liczby. Start: 2, potem -0, potem +1, potem razy 5. Jaka liczba kryje sie pod ostatnia chmurka ze znakiem zapytania?",
+          "hasImage": true,
+          "imageNote": "Lancuch chmurek z dzialaniami: 2, -0, +1, razy 5, ?.",
+          "choices": {
+            "A": "6",
+            "B": "7",
+            "C": "8",
+            "D": "10",
+            "E": "15"
+          },
+          "correct": "E"
+        },
+        {
+          "id": "kangur-maluch-2015-2",
+          "source": "kangur-maluch-2015-2",
+          "year": 2015,
+          "number": 2,
+          "difficulty": "3pkt",
+          "topic": "geometria_plaska",
+          "subtopic": "porownanie dlugosci paskow",
+          "statement": "Stas mial 10 jednakowych blaszanych paskow. Polaczyl je po dwa i otrzymal 5 dluzszych paskow. Ktory z otrzymanych paskow jest najdluzszy?",
+          "hasImage": true,
+          "imageNote": "10 paskow polaczonych w 5, oznaczonych A-E, o roznych dlugosciach nakladania.",
+          "choices": {
+            "A": "A",
+            "B": "B",
+            "C": "C",
+            "D": "D",
+            "E": "E"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "kangur-maluch-2015-4",
+          "source": "kangur-maluch-2015-4",
+          "year": 2015,
+          "number": 4,
+          "difficulty": "3pkt",
+          "topic": "arytmetyka",
+          "subtopic": "porownanie ilorazow",
+          "statement": "Ktory z ponizszych ilorazow jest najwiekszy: A) (1000-100):10, B) (1000-10):9, C) (1000-1):9, D) (1000-100):9, E) (1000-10):10?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "(1000-100):10",
+            "B": "(1000-10):9",
+            "C": "(1000-1):9",
+            "D": "(1000-100):9",
+            "E": "(1000-10):10"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "kangur-maluch-2015-6",
+          "source": "kangur-maluch-2015-6",
+          "year": 2015,
+          "number": 6,
+          "difficulty": "3pkt",
+          "topic": "arytmetyka",
+          "subtopic": "iloczyn i suma cyfr",
+          "statement": "Iloczyn cyfr pewnej liczby dwucyfrowej jest rowny 15. Ile wynosi suma cyfr tej liczby?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "2",
+            "B": "4",
+            "C": "6",
+            "D": "7",
+            "E": "8"
+          },
+          "correct": "E"
+        },
+        {
+          "id": "kangur-maluch-2015-7",
+          "source": "kangur-maluch-2015-7",
+          "year": 2015,
+          "number": 7,
+          "difficulty": "3pkt",
+          "topic": "logika",
+          "subtopic": "liczenie obiektow w obszarze",
+          "statement": "Rysunek przedstawia wyspe o zawiłej linii brzegowej z palma i zabami. Ile zab siedzi NA wyspie (a nie w wodzie)?",
+          "hasImage": true,
+          "imageNote": "Wyspa o nieregularnym ksztalcie z zabami w roznych miejscach.",
+          "choices": {
+            "A": "4",
+            "B": "6",
+            "C": "7",
+            "D": "8",
+            "E": "10"
+          },
+          "correct": "B"
+        }
+      ],
+      "challenge": [
+        {
+          "id": "kangur-maluch-2013-13",
+          "source": "kangur-maluch-2013-13",
+          "year": 2013,
+          "number": 13,
+          "difficulty": "4pkt",
+          "topic": "logika",
+          "subtopic": "zbiory - czesc wspolna",
+          "statement": "Kazdy z 30 uczniow uczy sie angielskiego lub niemieckiego. Niemieckiego uczy sie 15, angielskiego 20. Ilu uczniow uczy sie OBU jezykow?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "25",
+            "B": "15",
+            "C": "30",
+            "D": "10",
+            "E": "5"
+          },
+          "correct": "E"
+        },
+        {
+          "id": "kangur-maluch-2013-14",
+          "source": "kangur-maluch-2013-14",
+          "year": 2013,
+          "number": 14,
+          "difficulty": "4pkt",
+          "topic": "arytmetyka",
+          "subtopic": "podzielnosc przez cyfre jednosci",
+          "statement": "Liczba jest 'ciekawa', gdy dzieli sie przez swoja cyfre jednosci (np. 35 dzieli sie przez 5). Ile ciekawych liczb jest wiekszych od 21 i mniejszych od 30?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "2",
+            "B": "3",
+            "C": "4",
+            "D": "5",
+            "E": "6"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "kangur-maluch-2014-9",
+          "source": "kangur-maluch-2014-9",
+          "year": 2014,
+          "number": 9,
+          "difficulty": "4pkt",
+          "topic": "logika",
+          "subtopic": "minimalna liczba zamian liter",
+          "statement": "Karty z literami ulozone: O A A R G O N K. W jednym ruchu zamienia sie miejscami dwie karty. Ile co najmniej ruchow, by otrzymac slowo KANGAROO?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "2",
+            "B": "3",
+            "C": "4",
+            "D": "5",
+            "E": "6"
+          },
+          "correct": "D"
+        },
+        {
+          "id": "kangur-maluch-2015-13",
+          "source": "kangur-maluch-2015-13",
+          "year": 2015,
+          "number": 13,
+          "difficulty": "4pkt",
+          "topic": "logika",
+          "subtopic": "miejsce w biegu z warunkiem",
+          "statement": "Bieg ukonczylo 10 zawodnikow. Przed Frankiem przybieglo o 3 zawodnikow mniej niz za nim. Ktore miejsce zajal Franek?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "1",
+            "B": "3",
+            "C": "4",
+            "D": "6",
+            "E": "7"
+          },
+          "correct": "C"
+        }
+      ],
+      "solutions": [
+        {
+          "problemId": "kangur-maluch-2012-1",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "6 unikalnych liter w MATEMATYKA.",
+          "steps": [
+            "6 unikalnych liter w MATEMATYKA.",
+            "Poprawna odpowiedz: A"
+          ],
+          "answer": "A",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2012-4",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Wzor pol Izy - D.",
+          "steps": [
+            "Wzor pol Izy - D.",
+            "Poprawna odpowiedz: D"
+          ],
+          "answer": "D",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2012-5",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "15-Klaudia-10znalezionych = 4 nieznalezionych.",
+          "steps": [
+            "15-Klaudia-10znalezionych = 4 nieznalezionych.",
+            "Poprawna odpowiedz: B"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2015-1",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "2-0+1=3, 3*5=15.",
+          "steps": [
+            "2-0+1=3, 3*5=15.",
+            "Poprawna odpowiedz: E"
+          ],
+          "answer": "E",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2015-2",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Najdluzszy pasek B.",
+          "steps": [
+            "Najdluzszy pasek B.",
+            "Poprawna odpowiedz: B"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2015-4",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "(1000-1):9 = 111 = najwiekszy.",
+          "steps": [
+            "(1000-1):9 = 111 = najwiekszy.",
+            "Poprawna odpowiedz: C"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2015-6",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "3*5=15, 3+5=8.",
+          "steps": [
+            "3*5=15, 3+5=8.",
+            "Poprawna odpowiedz: E"
+          ],
+          "answer": "E",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2015-7",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "6 zab na wyspie.",
+          "steps": [
+            "6 zab na wyspie.",
+            "Poprawna odpowiedz: B"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2013-13",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "15+20-30=5 uczniow dwoch jezykow.",
+          "steps": [
+            "15+20-30=5 uczniow dwoch jezykow.",
+            "Poprawna odpowiedz: E"
+          ],
+          "answer": "E",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2013-14",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "22, 24, 25 ciekawe (3).",
+          "steps": [
+            "22, 24, 25 ciekawe (3).",
+            "Poprawna odpowiedz: B"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2014-9",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "5 zamian liter dla KANGAROO.",
+          "steps": [
+            "5 zamian liter dla KANGAROO.",
+            "Poprawna odpowiedz: D"
+          ],
+          "answer": "D",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2015-13",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Franek na 4. miejscu.",
+          "steps": [
+            "Franek na 4. miejscu.",
+            "Poprawna odpowiedz: C"
+          ],
+          "answer": "C",
+          "alternative": null
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Ile zadan w pierwszej polowie konkursu?",
+      "choices": {
+        "A": "10",
+        "B": "12",
+        "C": "24"
+      },
+      "correct": "B",
+      "explain": "Polowa z 24 zadan = 12."
+    },
+    {
+      "q": "Ile czasu na 1 zadanie srednio?",
+      "choices": {
+        "A": "1 min",
+        "B": "3 min",
+        "C": "10 min"
+      },
+      "correct": "B",
+      "explain": "35 min : 12 zadan = ~3 min."
+    },
+    {
+      "q": "Co robic gdy utkniesz?",
+      "choices": {
+        "A": "Pomiń, wroc pozniej",
+        "B": "Siedziec az do konca",
+        "C": "Zostawic"
+      },
+      "correct": "A",
+      "explain": "Pomijasz, idziesz dalej, wracasz na koniec."
+    }
+  ]
+}

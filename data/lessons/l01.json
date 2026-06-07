@@ -1,0 +1,554 @@
+{
+  "id": "l01",
+  "number": 1,
+  "block": "Liczby i dzialania",
+  "blockCode": "A",
+  "title": "Dodawanie i odejmowanie do 1000",
+  "topic": "arytmetyka",
+  "estimatedMinutes": 15,
+  "theory": {
+    "intro": "Wyobraź sobie, że masz 247 piłeczek do tenisa i mama kupiła Ci jeszcze 156. Ile masz teraz? Ktoś weźmie kartkę i będzie liczył po kolei: 7+6, przeniesienie... Ty zrobisz to szybciej w głowie, jeśli znasz kilka sprytnych sztuczek. Dziś poznasz trzy z nich - takie, które używają mistrzowie Kangurka, bo na konkursie nie wolno mieć kalkulatora.",
+    "tool": "Sztuczka 1: ZAOKRĄGLAJ I POPRAWIAJ. Zamiast 247 + 156 myśl: 250 + 156 = 406, potem cofnij 3 (bo dodałeś o 3 za dużo) - wychodzi 403. To samo z odejmowaniem: 500 - 187 trudne, ale 500 - 200 = 300, potem dodaj 13 (bo odjąłeś o 13 za dużo) - wychodzi 313.\n\nSztuczka 2: ROZKŁADAJ NA CZĘŚCI. 348 + 275 = (300+200) + (48+75) = 500 + 123 = 623. Najpierw setki, potem reszta.\n\nSztuczka 3: SZUKAJ PAR DO 10 i DO 100. Jeśli widzisz 37 + 63 - to natychmiast 100, bo 7+3=10 i 30+60=90. Zawsze patrz, czy jakieś dwie liczby ładnie się 'spotykają'.",
+    "trick": "Kangur uwielbia zadania, gdzie pełne setki wyglądają dziwnie. Na przykład: 'Ile to 998 + 998 + 998?' Wygląda strasznie, ale to po prostu 1000 + 1000 + 1000 - 2 - 2 - 2 = 2994. Zawsze gdy widzisz liczby blisko 100, 500, 1000 - zaokrąglij je i popraw na końcu. To skraca rachunki o 90%."
+  },
+  "versions": [
+    {
+      "versionId": "v1",
+      "label": "Wersja 1 (oryginalna)",
+      "warmup": [
+        {
+          "id": "gen-l01-w1",
+          "source": "generated-l01-1",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "arytmetyka",
+          "subtopic": "dodawanie do 1000",
+          "statement": "W szkolnej bibliotece jest 348 ksiazek przygodowych i 256 ksiazek o zwierzetach. Ile to razem ksiazek?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "504",
+            "B": "594",
+            "C": "604",
+            "D": "614",
+            "E": "624"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "gen-l01-w2",
+          "source": "generated-l01-2",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "arytmetyka",
+          "subtopic": "odejmowanie do 1000",
+          "statement": "W sklepie z zabawkami bylo 800 klockow. Sprzedano 247 z nich. Ile klockow zostalo?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "453",
+            "B": "553",
+            "C": "563",
+            "D": "647",
+            "E": "747"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "gen-l01-w3",
+          "source": "generated-l01-3",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "arytmetyka",
+          "subtopic": "lacznosc, pary do 100",
+          "statement": "Ile wynosi 37 + 89 + 63 + 11?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "190",
+            "B": "200",
+            "C": "210",
+            "D": "220",
+            "E": "230"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "gen-l01-w4",
+          "source": "generated-l01-4",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "arytmetyka",
+          "subtopic": "dodawanie pelnych setek z poprawka",
+          "statement": "Kosmita Zorg ma 498 zielonych macek i 302 niebieskie. Ile macek ma w sumie?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "700",
+            "B": "780",
+            "C": "790",
+            "D": "800",
+            "E": "900"
+          },
+          "correct": "D"
+        },
+        {
+          "id": "gen-l01-w5",
+          "source": "generated-l01-5",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "arytmetyka",
+          "subtopic": "odejmowanie z zaokragleniem",
+          "statement": "Ada zbierala monety. Mialo byc ich tysiac. Brakuje jej 134 monet. Ile monet juz ma?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "766",
+            "B": "856",
+            "C": "866",
+            "D": "876",
+            "E": "966"
+          },
+          "correct": "C"
+        }
+      ],
+      "challenge": [
+        {
+          "id": "gen-l01-c1",
+          "source": "generated-l01-c1",
+          "year": null,
+          "number": null,
+          "difficulty": "4pkt",
+          "topic": "arytmetyka",
+          "subtopic": "trzy skladniki blisko setek",
+          "statement": "W trzech klatkach w zoo siedza papugi. W pierwszej 199 papug, w drugiej 298, w trzeciej 397. Ile papug jest w sumie w tych trzech klatkach?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "884",
+            "B": "894",
+            "C": "904",
+            "D": "914",
+            "E": "994"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "gen-l01-c2",
+          "source": "generated-l01-c2",
+          "year": null,
+          "number": null,
+          "difficulty": "5pkt",
+          "topic": "arytmetyka",
+          "subtopic": "kolejne dodawania i odejmowania",
+          "statement": "Tomek mial 500 zl. Babcia dala mu 247 zl. Potem kupil tablet za 698 zl. Mama oddala mu jeszcze 150 zl prezent na urodziny. Ile zl ma teraz Tomek?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "99",
+            "B": "149",
+            "C": "199",
+            "D": "249",
+            "E": "299"
+          },
+          "correct": "C"
+        }
+      ],
+      "solutions": [
+        {
+          "problemId": "gen-l01-w1",
+          "observation": "Liczby 348 i 256 sa daleko od pelnych setek - lepiej rozlozyc na czesci.",
+          "strategy": "Rozkladanie na setki + reszte.",
+          "steps": [
+            "Setki: 300 + 200 = 500",
+            "Reszta: 48 + 56 = 104",
+            "Suma: 500 + 104 = 604"
+          ],
+          "answer": "C",
+          "alternative": "Mozna tez: 348 + 256 = 348 + 250 + 6 = 598 + 6 = 604."
+        },
+        {
+          "problemId": "gen-l01-w2",
+          "observation": "Odejmujemy od okraglej liczby 800.",
+          "strategy": "Zaokraglij odejmowana liczbe i popraw.",
+          "steps": [
+            "Zamiast 247 odejmij 250: 800 - 250 = 550",
+            "Odjelismy o 3 za duzo, wiec dodajemy 3",
+            "Wynik: 550 + 3 = 553"
+          ],
+          "answer": "B",
+          "alternative": "Klasycznie kolumnowo: 800 - 247 = 553 (z pozyczaniem)."
+        },
+        {
+          "problemId": "gen-l01-w3",
+          "observation": "Widac pary: 37 i 63 koncza sie na 7 i 3.",
+          "strategy": "Szukaj par do 100.",
+          "steps": [
+            "37 + 63 = 100",
+            "89 + 11 = 100",
+            "Razem: 100 + 100 = 200"
+          ],
+          "answer": "B",
+          "alternative": "Liczenie po kolei dalo by ten sam wynik, ale wolniej."
+        },
+        {
+          "problemId": "gen-l01-w4",
+          "observation": "498 to prawie 500, 302 to prawie 300.",
+          "strategy": "Zaokraglij obie liczby i nie zapomnij o poprawce.",
+          "steps": [
+            "498 = 500 - 2, 302 = 300 + 2",
+            "Poprawki: -2 i +2 sie znosza",
+            "500 + 300 = 800"
+          ],
+          "answer": "D",
+          "alternative": "Bezposrednio: 498 + 302 = 800."
+        },
+        {
+          "problemId": "gen-l01-w5",
+          "observation": "Ma byc 1000, brakuje 134.",
+          "strategy": "Odejmowanie z zaokragleniem 1000 - 134.",
+          "steps": [
+            "Zamiast 134 odejmij 100: 1000 - 100 = 900",
+            "Odejmij jeszcze 34: 900 - 34 = 866"
+          ],
+          "answer": "C",
+          "alternative": "Albo: 1000 - 134 = 999 - 134 + 1 = 865 + 1 = 866 (trik: -134 od 999 jest latwy bo nie ma pozyczania)."
+        },
+        {
+          "problemId": "gen-l01-c1",
+          "observation": "199, 298, 397 - wszystkie blisko pelnych setek.",
+          "strategy": "Zaokraglij kazda i odejmij poprawki.",
+          "steps": [
+            "199 = 200 - 1, 298 = 300 - 2, 397 = 400 - 3",
+            "Setki: 200 + 300 + 400 = 900",
+            "Poprawki razem: -1 - 2 - 3 = -6",
+            "Wynik: 900 - 6 = 894"
+          ],
+          "answer": "B",
+          "alternative": "Liczenie po kolei tez dziala: 199 + 298 = 497, 497 + 397 = 894."
+        },
+        {
+          "problemId": "gen-l01-c2",
+          "observation": "Trzy operacje po kolei: +247, -698, +150.",
+          "strategy": "Krok po kroku - kazda operacja osobno, uzywaj zaokraglen.",
+          "steps": [
+            "Po prezencie od babci: 500 + 247 = 747 zl",
+            "Po zakupie tabletu: 747 - 698. Trik: 747 - 700 = 47, dodaj 2 (bo odjelismy 2 za duzo) = 49 zl",
+            "Po prezencie od mamy: 49 + 150 = 199 zl"
+          ],
+          "answer": "C",
+          "alternative": "Mozna zsumowac wszystko: 500 + 247 - 698 + 150 = (500 + 247 + 150) - 698 = 897 - 698 = 199."
+        }
+      ]
+    },
+    {
+      "versionId": "v2",
+      "label": "Wersja 2 (powtorka)",
+      "warmup": [
+        {
+          "id": "gen-l01-v2-w1",
+          "source": "generated-l01-v2-1",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "arytmetyka",
+          "subtopic": "dodawanie do 1000",
+          "statement": "Sportowcy zdobyli na olimpiadzie 247 zlotych i 358 srebrnych medali. Ile medali razem?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "495",
+            "B": "505",
+            "C": "595",
+            "D": "605",
+            "E": "695"
+          },
+          "correct": "D"
+        },
+        {
+          "id": "gen-l01-v2-w2",
+          "source": "generated-l01-v2-2",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "arytmetyka",
+          "subtopic": "odejmowanie do 1000",
+          "statement": "Na placu zabaw bylo 1000 klockow. Po godzinie zostalo 423. Ile uzyto?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "477",
+            "B": "567",
+            "C": "577",
+            "D": "587",
+            "E": "677"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "gen-l01-v2-w3",
+          "source": "generated-l01-v2-3",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "arytmetyka",
+          "subtopic": "pary do 100",
+          "statement": "Ile wynosi 48 + 27 + 52 + 13?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "120",
+            "B": "130",
+            "C": "140",
+            "D": "150",
+            "E": "160"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "gen-l01-v2-w4",
+          "source": "generated-l01-v2-4",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "arytmetyka",
+          "subtopic": "zaokraglanie do pelnych setek",
+          "statement": "W sali bylo 599 widzow, doszlo jeszcze 401. Ile widzow razem?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "900",
+            "B": "990",
+            "C": "999",
+            "D": "1000",
+            "E": "1099"
+          },
+          "correct": "D"
+        },
+        {
+          "id": "gen-l01-v2-w5",
+          "source": "generated-l01-v2-5",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "arytmetyka",
+          "subtopic": "odejmowanie z zaokragleniem",
+          "statement": "Ula miala 600 zl. Wydala 287 zl. Ile zl ma teraz?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "213",
+            "B": "303",
+            "C": "313",
+            "D": "323",
+            "E": "413"
+          },
+          "correct": "C"
+        }
+      ],
+      "challenge": [
+        {
+          "id": "gen-l01-v2-c1",
+          "source": "generated-l01-v2-c1",
+          "year": null,
+          "number": null,
+          "difficulty": "4pkt",
+          "topic": "arytmetyka",
+          "subtopic": "trzy skladniki blisko setek",
+          "statement": "W trzech autobusach jest 99, 198 i 299 pasazerow. Ilu pasazerow lacznie?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "576",
+            "B": "586",
+            "C": "596",
+            "D": "597",
+            "E": "686"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "gen-l01-v2-c2",
+          "source": "generated-l01-v2-c2",
+          "year": null,
+          "number": null,
+          "difficulty": "5pkt",
+          "topic": "arytmetyka",
+          "subtopic": "ciag operacji",
+          "statement": "Tomek mial na koncie 800 zl. Dostal 350 zl. Kupil hulajnoge za 599 zl. Ile mu zostalo?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "351",
+            "B": "451",
+            "C": "541",
+            "D": "551",
+            "E": "561"
+          },
+          "correct": "D"
+        }
+      ],
+      "solutions": [
+        {
+          "problemId": "gen-l01-v2-w1",
+          "observation": "Duze liczby - rozbijam na setki i reszte.",
+          "strategy": "Rozkladanie na czesci.",
+          "steps": [
+            "Setki: 200 + 300 = 500",
+            "Reszta: 47 + 58 = 105",
+            "Suma: 500 + 105 = 605"
+          ],
+          "answer": "D",
+          "alternative": "247 + 358 = 247 + 350 + 8 = 597 + 8 = 605."
+        },
+        {
+          "problemId": "gen-l01-v2-w2",
+          "observation": "1000 minus liczba - zaokraglij odejmowane.",
+          "strategy": "Zaokraglanie i poprawka.",
+          "steps": [
+            "1000 - 400 = 600",
+            "Odjac jeszcze 23: 600 - 23 = 577"
+          ],
+          "answer": "C",
+          "alternative": "1000 - 423 = 999 - 423 + 1 = 576 + 1 = 577 (bez pozyczania)."
+        },
+        {
+          "problemId": "gen-l01-v2-w3",
+          "observation": "Widac pary do 100 i do okraglej liczby.",
+          "strategy": "Szukam par.",
+          "steps": [
+            "48 + 52 = 100",
+            "27 + 13 = 40",
+            "Razem: 100 + 40 = 140"
+          ],
+          "answer": "C",
+          "alternative": "Bezposrednio po kolei tez wyjdzie 140."
+        },
+        {
+          "problemId": "gen-l01-v2-w4",
+          "observation": "599 + 401 - obie blisko 500 i 400.",
+          "strategy": "Zaokraglij obie i znies poprawki.",
+          "steps": [
+            "599 = 600 - 1, 401 = 400 + 1",
+            "Poprawki -1 i +1 sie znosza",
+            "600 + 400 = 1000"
+          ],
+          "answer": "D",
+          "alternative": "599 + 401 = 1000 (mozna zauwazyc bezposrednio)."
+        },
+        {
+          "problemId": "gen-l01-v2-w5",
+          "observation": "600 - 287 - zaokraglij odejmowane do 300.",
+          "strategy": "Zaokraglanie odejmowanej liczby.",
+          "steps": [
+            "600 - 300 = 300",
+            "Odjelismy o 13 za duzo, dodaj 13: 300 + 13 = 313"
+          ],
+          "answer": "C",
+          "alternative": "600 - 287 = 600 - 287. Klasycznie kolumnowo tez 313."
+        },
+        {
+          "problemId": "gen-l01-v2-c1",
+          "observation": "99, 198, 299 - kazde blisko pelnych setek.",
+          "strategy": "Zaokraglij kazda, odejmij poprawki.",
+          "steps": [
+            "99 = 100 - 1, 198 = 200 - 2, 299 = 300 - 1",
+            "100 + 200 + 300 = 600",
+            "Poprawki: -1 - 2 - 1 = -4",
+            "Wynik: 600 - 4 = 596"
+          ],
+          "answer": "C",
+          "alternative": "Po kolei: 99 + 198 = 297, 297 + 299 = 596."
+        },
+        {
+          "problemId": "gen-l01-v2-c2",
+          "observation": "Trzy operacje po kolei: +350, -599.",
+          "strategy": "Krok po kroku.",
+          "steps": [
+            "800 + 350 = 1150 zl",
+            "1150 - 599 = ? Trik: 1150 - 600 = 550, dodaj 1 (bo za duzo odjelismy): 550 + 1 = 551"
+          ],
+          "answer": "D",
+          "alternative": "800 + 350 - 599 = 1150 - 599 = 551."
+        }
+      ]
+    },
+    {
+      "versionId": "v3",
+      "label": "Wersja 3 (oryginaly Kangurka)",
+      "warmup": [
+        {
+          "id": "kangur-maluch-2020-1",
+          "source": "kangur-maluch-2020-1",
+          "year": 2020,
+          "number": 1,
+          "difficulty": "3pkt",
+          "topic": "arytmetyka",
+          "subtopic": "suma symetrycznego ciagu",
+          "statement": "Ile to jest 1 + 2 + 3 + 4 + 5 + 4 + 3 + 2 + 1?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "20",
+            "B": "22",
+            "C": "24",
+            "D": "25",
+            "E": "31"
+          },
+          "correct": "D"
+        }
+      ],
+      "challenge": [],
+      "solutions": [
+        {
+          "problemId": "kangur-maluch-2020-1",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Oryginalne zadanie Kangur Maluch 2020 nr 1.",
+          "steps": [
+            "Oryginalne zadanie Kangur Maluch 2020 nr 1.",
+            "Poprawna odpowiedz: D"
+          ],
+          "answer": "D",
+          "alternative": null
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Jak najszybciej obliczyc 397 + 198?",
+      "choices": {
+        "A": "Liczyc cyfra po cyfrze, z przenoszeniem",
+        "B": "Wziac 400 + 200 = 600, potem odjac 3 i odjac 2 - wychodzi 595",
+        "C": "Wziac 397 + 200 = 597 i niczego nie poprawiac"
+      },
+      "correct": "B",
+      "explain": "Obie liczby blisko pelnych setek - zaokraglamy i odejmujemy poprawki (3+2=5)."
+    },
+    {
+      "q": "Ktora para dodaje sie do okraglej liczby?",
+      "choices": {
+        "A": "27 + 73",
+        "B": "27 + 33",
+        "C": "27 + 63"
+      },
+      "correct": "A",
+      "explain": "Koncowki 7 i 3 daja 10, a dziesiatki 20+70=90 - razem 100."
+    },
+    {
+      "q": "Co znaczy 'rozkladaj na czesci' przy dodawaniu?",
+      "choices": {
+        "A": "Liczyc kazda cyfre osobno bez przenoszenia",
+        "B": "Dodawac najpierw setki, potem reszte",
+        "C": "Pomijac dziesiatki"
+      },
+      "correct": "B",
+      "explain": "Najpierw setki (latwe), potem reszte - mniej miejsc na pomylke."
+    }
+  ]
+}

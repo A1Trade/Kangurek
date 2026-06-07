@@ -1,0 +1,629 @@
+{
+  "id": "l41",
+  "number": 41,
+  "block": "Logika i myslenie",
+  "blockCode": "G",
+  "title": "Przelewanie, przesypywanie, podzialy",
+  "topic": "logika",
+  "estimatedMinutes": 16,
+  "theory": {
+    "intro": "Klasyczna zagadka: mam dzbanki 3l i 5l, muszę odmierzyć dokladnie 4l. Jak? Te zadania nazywaja sie 'przelewania' - polegaja na sledzeniu sekwencji ruchow, az dojdziemy do celu. Wymaga to planowania kilku krokow naprzod.",
+    "tool": "Sztuczka 1: ZAPISUJ STANY. Po kazdym ruchu zapisz, ile jest w kazdym naczyniu. Latwo sledzic.\n\nSztuczka 2: ZACZNIJ OD CELU. Czego chce dostac? Jakim ruchem do tego dojde? Cofnij sie krok po kroku.\n\nSztuczka 3: WYKORZYSTUJ ROZNICE. 5l - 3l = 2l. Czesto roznice pojemnosci daja kluczowe ilosci.\n\nSztuczka 4: PODZIAL = PRZELEWANIE. Tlumacz zadania o podziale (np. cukierki na 3 czesci) jako przelewanie - rownie systematyczne.",
+    "trick": "Pulapka Kangurka: zadania z minimalna liczba krokow. Czesto pierwszy pomysl daje za duzo krokow. Sprawdz, czy nie ma 'sprytniejszego' sposobu - np. przelej raz duzo, zamiast po troche."
+  },
+  "versions": [
+    {
+      "versionId": "v1",
+      "label": "Wersja 1 (oryginalna)",
+      "warmup": [
+        {
+          "id": "gen-l41-v1-w1",
+          "source": "generated-l41-v1-w1",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "logika",
+          "subtopic": "podzial po rowno",
+          "statement": "Mama ma 12 cukierkow i 3 dzieci. Po ile cukierkow dostanie kazde dziecko, jezeli dzieli rowno?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "2",
+            "B": "3",
+            "C": "4",
+            "D": "6",
+            "E": "12"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "gen-l41-v1-w2",
+          "source": "generated-l41-v1-w2",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "logika",
+          "subtopic": "podzial z reszta",
+          "statement": "20 jablek na 6 dzieci po rowno. Ile dostanie kazde, ile zostanie?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "3 i zostanie 2",
+            "B": "4 i zostanie 0",
+            "C": "2 i zostanie 8",
+            "D": "5 i zostanie 0",
+            "E": "3 i zostanie 3"
+          },
+          "correct": "A"
+        },
+        {
+          "id": "gen-l41-v1-w3",
+          "source": "generated-l41-v1-w3",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "logika",
+          "subtopic": "najmniej krokow",
+          "statement": "Z dzbanka 4l odlej 2l do innego. Jednym ruchem mozesz przelac dowolna ilosc. Ile potrzeba ruchow?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "1",
+            "B": "2",
+            "C": "3",
+            "D": "4",
+            "E": "5"
+          },
+          "correct": "A"
+        },
+        {
+          "id": "kangur-maluch-2015-19",
+          "source": "kangur-maluch-2015-19",
+          "year": 2015,
+          "number": 19,
+          "difficulty": "5pkt",
+          "topic": "logika",
+          "subtopic": "uklad rownan - pojemnosci dzbanow",
+          "statement": "Beczka napelni sie woda z 6 malych dzbanuszkow + 3 srednich dzbankow + 1 duzy dzban. Napelni sie tez z 2 malych + 1 sredni + 3 duze. Ile duzych dzbanow wody potrzeba, by napelnic beczke?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "4",
+            "B": "5",
+            "C": "6",
+            "D": "7",
+            "E": "8"
+          },
+          "correct": "A"
+        },
+        {
+          "id": "kangur-maluch-2018-21",
+          "source": "kangur-maluch-2018-21",
+          "year": 2018,
+          "number": 21,
+          "difficulty": "5pkt",
+          "topic": "logika",
+          "subtopic": "uklad rownan - pojemnosci wiader",
+          "statement": "Bialе wiadro ma pojemnosc 10 L. Pelne niebieskie + pol zielonego = pol bialego. Pol pelnego niebieskiego do pol zielonego daje 4 L w zielonym. Jaka pojemnosc ma niebieskie wiadro?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "1 litr",
+            "B": "2 litry",
+            "C": "3 litry",
+            "D": "5 litrow",
+            "E": "6 litrow"
+          },
+          "correct": "B"
+        }
+      ],
+      "challenge": [
+        {
+          "id": "kangur-maluch-2014-14",
+          "source": "kangur-maluch-2014-14",
+          "year": 2014,
+          "number": 14,
+          "difficulty": "4pkt",
+          "topic": "logika",
+          "subtopic": "uklad rownan - dieta krolika",
+          "statement": "Krolik Borys kazdego dnia zjada albo 9 marchewek, albo 2 glowki salaty, albo 1 glowke salaty i 4 marchewki. W tygodniu (7 dni) zjadl 30 marchewek. Ile glowek salaty zjadl?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "6",
+            "B": "7",
+            "C": "8",
+            "D": "9",
+            "E": "10"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "kangur-maluch-2019-19",
+          "source": "kangur-maluch-2019-19",
+          "year": 2019,
+          "number": 19,
+          "difficulty": "5pkt",
+          "topic": "logika",
+          "subtopic": "warunki negacji w trzech grupach",
+          "statement": "Na łące pasą się krowy, owce i gęsi - łącznie 15 zwierząt. Wiemy, że 10 z nich nie jest krowami, a 8 z nich nie jest owcami. Ile gęsi pasie się na łące?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "2",
+            "B": "3",
+            "C": "4",
+            "D": "8",
+            "E": "10"
+          },
+          "correct": "B"
+        }
+      ],
+      "solutions": [
+        {
+          "problemId": "gen-l41-v1-w1",
+          "observation": "12 : 3 = 4.",
+          "strategy": "Dzielenie po rowno.",
+          "steps": [
+            "12 : 3 = 4 cukierki na dziecko"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l41-v1-w2",
+          "observation": "20:6 = 3 r.2.",
+          "strategy": "Dzielenie z reszta.",
+          "steps": [
+            "20 : 6 = 3 reszta 2"
+          ],
+          "answer": "A",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l41-v1-w3",
+          "observation": "Jeden ruch wystarcza - odlej 2l.",
+          "strategy": "Prosty podzial.",
+          "steps": [
+            "Wystarcza 1 ruch"
+          ],
+          "answer": "A",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2015-19",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Dzbany: bialy=10L. 6m+3s+1d=10 i 2m+s+3d=10. Stad b=10=4d. Czyli 4 duze dzbany.",
+          "steps": [
+            "Dzbany: bialy=10L. 6m+3s+1d=10 i 2m+s+3d=10. Stad b=10=4d. Czyli 4 duze dzbany.",
+            "Poprawna odpowiedz: A"
+          ],
+          "answer": "A",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2018-21",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Wiadra biale (10L), niebieskie, zielone. Z rownan: niebieskie=2L.",
+          "steps": [
+            "Wiadra biale (10L), niebieskie, zielone. Z rownan: niebieskie=2L.",
+            "Poprawna odpowiedz: B"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2014-14",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Krolik dziennie 9 marchewek lub 2 salaty lub 1 salate i 4 marchewki. Tydzien (7 dni), 30 marchewek. a=2 (9 marchewek), c=3 (mieszane), b=2 (salaty). Salaty: 2*2+3=7.",
+          "steps": [
+            "Krolik dziennie 9 marchewek lub 2 salaty lub 1 salate i 4 marchewki. Tydzien (7 dni), 30 marchewek. a=2 (9 marchewek), c=3 (mieszane), b=2 (salaty). Salaty: 2*2+3=7.",
+            "Poprawna odpowiedz: B"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2019-19",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "15 zwierzat, 10 nie krowy (5 krow), 8 nie owce (7 owiec). Gesi: 15-5-7=3.",
+          "steps": [
+            "15 zwierzat, 10 nie krowy (5 krow), 8 nie owce (7 owiec). Gesi: 15-5-7=3.",
+            "Poprawna odpowiedz: B"
+          ],
+          "answer": "B",
+          "alternative": null
+        }
+      ]
+    },
+    {
+      "versionId": "v2",
+      "label": "Wersja 2 (powtorka)",
+      "warmup": [
+        {
+          "id": "gen-l41-v2-w1",
+          "source": "generated-l41-v2-w1",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "logika",
+          "subtopic": "podzial rowny",
+          "statement": "30 piłeczek na 5 koszykow po rowno. Ile w kazdym?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "5",
+            "B": "6",
+            "C": "10",
+            "D": "15",
+            "E": "25"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "gen-l41-v2-w2",
+          "source": "generated-l41-v2-w2",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "logika",
+          "subtopic": "reszta z dzielenia",
+          "statement": "17 ciastek na 5 dzieci po rowno. Ile dostanie kazde, ile zostanie?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "3 i 2",
+            "B": "4 i 0",
+            "C": "2 i 7",
+            "D": "5 i 0",
+            "E": "3 i 4"
+          },
+          "correct": "A"
+        },
+        {
+          "id": "gen-l41-v2-w3",
+          "source": "generated-l41-v2-w3",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "logika",
+          "subtopic": "minimalna liczba krokow",
+          "statement": "Mam 2 monety 5 zl i 3 monety 2 zl. Ile mam zlotych razem?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "7",
+            "B": "10",
+            "C": "13",
+            "D": "15",
+            "E": "16"
+          },
+          "correct": "E"
+        },
+        {
+          "id": "kangur-maluch-2015-22",
+          "source": "kangur-maluch-2015-22",
+          "year": 2015,
+          "number": 22,
+          "difficulty": "5pkt",
+          "topic": "logika",
+          "subtopic": "laczenie lin w jedna",
+          "statement": "Trzy liny leza na podlodze. Dowiazanie koncow lin jednego z zestawow daje jedna line. Ktory zestaw ma te wlasnosc?",
+          "hasImage": true,
+          "imageNote": "Trzy liny i 5 wariantow zestawow dowiazan koncow.",
+          "choices": {
+            "A": "zestaw A",
+            "B": "zestaw B",
+            "C": "zestaw C",
+            "D": "zestaw D",
+            "E": "zestaw E"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "kangur-maluch-2024-9",
+          "source": "kangur-maluch-2024-9",
+          "year": 2024,
+          "number": 9,
+          "difficulty": "4pkt",
+          "topic": "logika",
+          "subtopic": "ruch pionka wedlug rzutow moneta",
+          "statement": "Reszka przesuwa pionek o 3 pola w prawo, orzel o 1 pole w lewo (lub pozostanie na START). Ela i Wladek zaczeli na START, kazdy rzucil 4 razy. Ela stanela na polu 4, Wladek na polu 8. Ile razy lacznie wyrzucili orla?",
+          "hasImage": true,
+          "imageNote": "Plansza z polami START, 1-12, META.",
+          "choices": {
+            "A": "1",
+            "B": "2",
+            "C": "3",
+            "D": "4",
+            "E": "5"
+          },
+          "correct": "C"
+        }
+      ],
+      "challenge": [
+        {
+          "id": "kangur-maluch-2018-2",
+          "source": "kangur-maluch-2018-2",
+          "year": 2018,
+          "number": 2,
+          "difficulty": "3pkt",
+          "topic": "logika",
+          "subtopic": "trajektorie - strzaly i baloniki",
+          "statement": "Rysunek pokazuje 3 lecace strzaly i 9 nieruchomych balonikow. Gdy strzala trafi w balonik, ten peka, a strzala leci dalej bez zmiany kierunku. W ile balonikow trafia strzaly?",
+          "hasImage": true,
+          "imageNote": "3 strzaly w 3 rzedach, 9 balonikow rozmieszczonych pomiedzy.",
+          "choices": {
+            "A": "2",
+            "B": "3",
+            "C": "4",
+            "D": "5",
+            "E": "6"
+          },
+          "correct": "D"
+        },
+        {
+          "id": "kangur-maluch-2018-8",
+          "source": "kangur-maluch-2018-8",
+          "year": 2018,
+          "number": 8,
+          "difficulty": "3pkt",
+          "topic": "logika",
+          "subtopic": "orientacja prawo-lewo wokol stolu",
+          "statement": "Ewa nakryla stol dla 8 osob: kazda osoba ma miec widelec po lewej i noz po prawej. Dla ilu osob Ewa polozyla sztucce poprawnie?",
+          "hasImage": true,
+          "imageNote": "Stol z 8 talerzami i sztuccami, kazda osoba siedzi pod innym katem.",
+          "choices": {
+            "A": "5",
+            "B": "4",
+            "C": "6",
+            "D": "2",
+            "E": "3"
+          },
+          "correct": "E"
+        }
+      ],
+      "solutions": [
+        {
+          "problemId": "gen-l41-v2-w1",
+          "observation": "30 : 5 = 6.",
+          "strategy": "Dzielenie.",
+          "steps": [
+            "30:5=6"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l41-v2-w2",
+          "observation": "17:5=3 r.2.",
+          "strategy": "Dzielenie z reszta.",
+          "steps": [
+            "17:5=3 r.2"
+          ],
+          "answer": "A",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l41-v2-w3",
+          "observation": "2*5+3*2=10+6=16.",
+          "strategy": "Sumowanie monet.",
+          "steps": [
+            "2*5=10, 3*2=6, razem 16"
+          ],
+          "answer": "E",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2015-22",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "3 liny, dowiazanie koncow ktorego zestawu da jedna line. Zestaw C.",
+          "steps": [
+            "3 liny, dowiazanie koncow ktorego zestawu da jedna line. Zestaw C.",
+            "Poprawna odpowiedz: C"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2024-9",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Pionek z moneta. Ela na pole 4, Wladek na 8 po 4 rzutach kazdy. Razem 3 orly (Ela 2, Wladek 1).",
+          "steps": [
+            "Pionek z moneta. Ela na pole 4, Wladek na 8 po 4 rzutach kazdy. Razem 3 orly (Ela 2, Wladek 1).",
+            "Poprawna odpowiedz: C"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2018-2",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "3 strzaly i 9 balonikow. Strzala leci dalej po przebiciu. Trafia w 5 balonikow.",
+          "steps": [
+            "3 strzaly i 9 balonikow. Strzala leci dalej po przebiciu. Trafia w 5 balonikow.",
+            "Poprawna odpowiedz: D"
+          ],
+          "answer": "D",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2018-8",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Stol dla 8 osob, sztucce: widelec lewo, noz prawo. Poprawnie dla 3 osob.",
+          "steps": [
+            "Stol dla 8 osob, sztucce: widelec lewo, noz prawo. Poprawnie dla 3 osob.",
+            "Poprawna odpowiedz: E"
+          ],
+          "answer": "E",
+          "alternative": null
+        }
+      ]
+    },
+    {
+      "versionId": "v3",
+      "label": "Wersja 3 (oryginaly Kangurka)",
+      "warmup": [
+        {
+          "id": "kangur-maluch-2016-8",
+          "source": "kangur-maluch-2016-8",
+          "year": 2016,
+          "number": 8,
+          "difficulty": "3pkt",
+          "topic": "logika",
+          "subtopic": "porownywanie liczby figur",
+          "statement": "Na rysunku sa kola, trojkaty i kwadraty. Ktore zdanie poprawnie opisuje sytuacje: kol jest 2 razy wiecej niz kwadratow, czy inne?",
+          "hasImage": true,
+          "imageNote": "Rysunek z 4 kolami, 2 trojkatami i 2 kwadratami.",
+          "choices": {
+            "A": "Kol tyle samo co kwadratow",
+            "B": "Kol mniej niz trojkatow",
+            "C": "Kwadratow wiecej niz trojkatow",
+            "D": "Trojkatow o dwa wiecej niz kol",
+            "E": "Kol dwa razy wiecej niz kwadratow"
+          },
+          "correct": "E"
+        },
+        {
+          "id": "kangur-maluch-2021-2",
+          "source": "kangur-maluch-2021-2",
+          "year": 2021,
+          "number": 2,
+          "difficulty": "3pkt",
+          "topic": "logika",
+          "subtopic": "liczenie ryb po wyprostowaniu linki",
+          "statement": "Ile ryb bedzie mialo glowe zwrocona w strone kolka, gdy wyprostujemy linke?",
+          "hasImage": true,
+          "imageNote": "Zakrecona linka z rybami i kolkiem na koncu.",
+          "choices": {
+            "A": "3",
+            "B": "5",
+            "C": "6",
+            "D": "7",
+            "E": "8"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "kangur-maluch-2022-9",
+          "source": "kangur-maluch-2022-9",
+          "year": 2022,
+          "number": 9,
+          "difficulty": "4pkt",
+          "topic": "logika",
+          "subtopic": "kolejka pojazdow - wyprzedzania",
+          "statement": "Pojazdy 1,2,3,4,5 jada jeden za drugim. Najpierw ostatnie auto wyprzedza dwa samochody. Potem ten ktory jest przedostatni wyprzedza dwa. Na koncu srodkowy wyprzedza dwa. Jaka jest koncowa kolejnosc?",
+          "hasImage": true,
+          "imageNote": "Piec ponumerowanych samochodow w rzedzie 1,2,3,4,5.",
+          "choices": {
+            "A": "2,1,3,5,4",
+            "B": "1,2,3,4,5",
+            "C": "2,1,5,3,4",
+            "D": "3,1,4,2,5",
+            "E": "4,1,2,5,3"
+          },
+          "correct": "A"
+        },
+        {
+          "id": "kangur-maluch-2023-14",
+          "source": "kangur-maluch-2023-14",
+          "year": 2023,
+          "number": 14,
+          "difficulty": "4pkt",
+          "topic": "logika",
+          "subtopic": "linijka z kreskami - mierzenie odleglosci",
+          "statement": "Franek ma linijke 60 cm z czesciowo zatarta podzialka. Przykladajac ja raz, potrafi zmierzyc 10, 20, 30, 40, 50 i 60 cm. Ktory obrazek przedstawia linijke Franka?",
+          "hasImage": true,
+          "imageNote": "Piec linijek 60 cm z dwoma kreskami w roznych miejscach.",
+          "choices": {
+            "A": "kreski na 10 i 30",
+            "B": "kreski na 20 i 40",
+            "C": "kreski na 30 i 50",
+            "D": "kreski na 10 i 20",
+            "E": "kreski na 10 i 40"
+          },
+          "correct": "E"
+        }
+      ],
+      "challenge": [],
+      "solutions": [
+        {
+          "problemId": "kangur-maluch-2016-8",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Oryginalne zadanie Kangur Maluch 2016 nr 8.",
+          "steps": [
+            "Oryginalne zadanie Kangur Maluch 2016 nr 8.",
+            "Poprawna odpowiedz: E"
+          ],
+          "answer": "E",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2021-2",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Oryginalne zadanie Kangur Maluch 2021 nr 2.",
+          "steps": [
+            "Oryginalne zadanie Kangur Maluch 2021 nr 2.",
+            "Poprawna odpowiedz: C"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2022-9",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Oryginalne zadanie Kangur Maluch 2022 nr 9.",
+          "steps": [
+            "Oryginalne zadanie Kangur Maluch 2022 nr 9.",
+            "Poprawna odpowiedz: A"
+          ],
+          "answer": "A",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2023-14",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Oryginalne zadanie Kangur Maluch 2023 nr 14.",
+          "steps": [
+            "Oryginalne zadanie Kangur Maluch 2023 nr 14.",
+            "Poprawna odpowiedz: E"
+          ],
+          "answer": "E",
+          "alternative": null
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Najlepsza strategia w zadaniach przelewania:",
+      "choices": {
+        "A": "Zapisuj stany",
+        "B": "Zgaduj",
+        "C": "Pomijaj"
+      },
+      "correct": "A",
+      "explain": "Po kazdym ruchu zapisz ile w kazdym naczyniu."
+    },
+    {
+      "q": "20:6 daje:",
+      "choices": {
+        "A": "3 r. 2",
+        "B": "4 r. 0",
+        "C": "2 r. 8"
+      },
+      "correct": "A",
+      "explain": "20:6=3 r.2."
+    },
+    {
+      "q": "Cofanie od celu pomaga gdy:",
+      "choices": {
+        "A": "Wynik znany, start nieznany",
+        "B": "Brak danych",
+        "C": "Nigdy"
+      },
+      "correct": "A",
+      "explain": "Wynik znany - cofamy operacje, aż dojdziemy do startu."
+    }
+  ]
+}

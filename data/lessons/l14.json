@@ -1,0 +1,541 @@
+{
+  "id": "l14",
+  "number": 14,
+  "block": "Geometria plaska",
+  "blockCode": "C",
+  "title": "Punkty, odcinki, proste, polproste",
+  "topic": "geometria_plaska",
+  "estimatedMinutes": 14,
+  "theory": {
+    "intro": "Bawiac sie patyczkami i kropkami, budujesz caly swiat geometrii. Punkt to malutkie miejsce. Odcinek to kawalek prostej z dwoma koncami. Prosta nie ma konca - ciagnie sie w obie strony bez konca. Polprosta ma jeden koniec, a druga strona biegnie w nieskonczonosc.",
+    "tool": "Sztuczka 1: ODCINEK MA DWA KONCE. Liczac odcinki w figurze, szukaj par punktow polaczonych linia. Patrz uwaznie - jeden dlugi odcinek moze sie skladac z kilku krotszych.\n\nSztuczka 2: PUNKTY PRZECIECIA. Gdy dwie proste sie przecinaja, powstaje jeden punkt. Trzy proste moga dac do 3 punktow przeciec. Licz ostroznie.\n\nSztuczka 3: LICZ SYSTEMATYCZNIE. Liczac odcinki albo trojkaty na rysunku, idz po kolei: najpierw najmniejsze, potem zlozone z dwoch, potem z trzech. Nie skacz losowo.",
+    "trick": "Kangur uwielbia zadania 'ile odcinkow' albo 'ile trojkatow'. Pulapka: uczniowie licza tylko najmniejsze figury i zapominaja o tych zlozonych z kilku czesci. Zawsze sprawdz: czy z dwoch malych odcinkow nie powstaje jeden wiekszy?"
+  },
+  "versions": [
+    {
+      "versionId": "v1",
+      "label": "Wersja 1 (oryginalna)",
+      "warmup": [
+        {
+          "id": "gen-l14-v1-w1",
+          "source": "generated-l14-v1-w1",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "geometria_plaska",
+          "subtopic": "liczenie odcinkow",
+          "statement": "Na prostej zaznaczono 4 punkty: A, B, C, D (w tej kolejnosci). Ile roznych odcinkow lacza pary tych punktow?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "3",
+            "B": "4",
+            "C": "5",
+            "D": "6",
+            "E": "8"
+          },
+          "correct": "D"
+        },
+        {
+          "id": "gen-l14-v1-w2",
+          "source": "generated-l14-v1-w2",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "geometria_plaska",
+          "subtopic": "punkty przeciecia",
+          "statement": "Dwie proste przecinaja sie. Ile punktow przeciecia powstaje?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "0",
+            "B": "1",
+            "C": "2",
+            "D": "3",
+            "E": "4"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "gen-l14-v1-w3",
+          "source": "generated-l14-v1-w3",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "geometria_plaska",
+          "subtopic": "odcinki w figurze",
+          "statement": "Trojkat ma 3 wierzcholki. Ile odcinkow (bokow) lacza te wierzcholki?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "2",
+            "B": "3",
+            "C": "4",
+            "D": "5",
+            "E": "6"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "kangur-maluch-2013-4",
+          "source": "kangur-maluch-2013-4",
+          "year": 2013,
+          "number": 4,
+          "difficulty": "3pkt",
+          "topic": "geometria_plaska",
+          "subtopic": "liczenie trojkatow w figurze",
+          "statement": "Ile trojkatow widac na rysunku (duzy trojkat podzielony liniami na mniejsze)?",
+          "hasImage": true,
+          "imageNote": "Duzy trojkat podzielony wewnetrznymi liniami na mniejsze trojkaty.",
+          "choices": {
+            "A": "8",
+            "B": "9",
+            "C": "10",
+            "D": "11",
+            "E": "12"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "kangur-maluch-2015-5",
+          "source": "kangur-maluch-2015-5",
+          "year": 2015,
+          "number": 5,
+          "difficulty": "3pkt",
+          "topic": "geometria_plaska",
+          "subtopic": "rysowanie gwiazdy co druga liczba",
+          "statement": "Na okregu rozmieszczono liczby 1-9. Od liczby 1 rysujemy odcinki laczace co druga liczbe, az wrocimy do 1. Ktory obrazek otrzymamy?",
+          "hasImage": true,
+          "imageNote": "Okrag z liczbami 1-9, dwa pierwsze odcinki narysowane, 5 wariantow gwiazdy.",
+          "choices": {
+            "A": "wzor A",
+            "B": "wzor B",
+            "C": "wzor C",
+            "D": "wzor D",
+            "E": "wzor E"
+          },
+          "correct": "D"
+        }
+      ],
+      "challenge": [
+        {
+          "id": "kangur-maluch-2013-8",
+          "source": "kangur-maluch-2013-8",
+          "year": 2013,
+          "number": 8,
+          "difficulty": "3pkt",
+          "topic": "geometria_plaska",
+          "subtopic": "dopasowanie odlamanej czesci",
+          "statement": "Prostokatne lustro pekło i jedna czesc odpadla. Ktora z 5 czesci to odlamany kawalek?",
+          "hasImage": true,
+          "imageNote": "Prostokatne lustro z pekniec i 5 wariantow odlamanej czesci.",
+          "choices": {
+            "A": "czesc A",
+            "B": "czesc B",
+            "C": "czesc C",
+            "D": "czesc D",
+            "E": "czesc E"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "gen-l14-v1-c1",
+          "source": "generated-l14-v1-c1",
+          "year": null,
+          "number": null,
+          "difficulty": "5pkt",
+          "topic": "geometria_plaska",
+          "subtopic": "liczenie odcinkow zlozonych",
+          "statement": "Na prostej zaznaczono 5 punktow w rzedzie. Ile roznych odcinkow mozna wyznaczyc, biorac kazda pare punktow?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "5",
+            "B": "8",
+            "C": "10",
+            "D": "12",
+            "E": "15"
+          },
+          "correct": "C"
+        }
+      ],
+      "solutions": [
+        {
+          "problemId": "gen-l14-v1-w1",
+          "observation": "4 punkty, kazda para tworzy odcinek.",
+          "strategy": "Liczenie par.",
+          "steps": [
+            "Pary: AB, AC, AD, BC, BD, CD",
+            "Razem 6 odcinkow"
+          ],
+          "answer": "D",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l14-v1-w2",
+          "observation": "Dwie proste przecinaja sie w jednym miejscu.",
+          "strategy": "Punkt przeciecia.",
+          "steps": [
+            "Dwie rozne proste przecinaja sie w jednym punkcie"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l14-v1-w3",
+          "observation": "Trojkat ma 3 boki.",
+          "strategy": "Liczenie bokow.",
+          "steps": [
+            "Trojkat ma 3 wierzcholki i 3 boki"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2013-4",
+          "observation": "Liczymy trojkaty systematycznie - male i zlozone.",
+          "strategy": "Systematyczne liczenie.",
+          "steps": [
+            "Najpierw najmniejsze trojkaty",
+            "Potem trojkaty zlozone z kilku malych",
+            "Razem wychodzi 10"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2015-5",
+          "observation": "Laczymy co druga liczbe na okregu od 1.",
+          "strategy": "Sledzenie rysowanych odcinkow.",
+          "steps": [
+            "1, 3, 5, 7, 9, 2, 4, 6, 8 i powrot do 1",
+            "Powstaje gwiazda dziewiecioramienna"
+          ],
+          "answer": "D",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2013-8",
+          "observation": "Dopasowujemy odlamany kawalek do reszty lustra.",
+          "strategy": "Dopasowanie ksztaltu.",
+          "steps": [
+            "Krawedz pekniecia odlamanego kawalka pasuje do reszty",
+            "Wlasciwy kawalek to czesc C"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l14-v1-c1",
+          "observation": "5 punktow, kazda para to odcinek.",
+          "strategy": "Liczenie par.",
+          "steps": [
+            "Pary z 5 punktow: 4+3+2+1 = 10",
+            "Razem 10 odcinkow"
+          ],
+          "answer": "C",
+          "alternative": null
+        }
+      ]
+    },
+    {
+      "versionId": "v2",
+      "label": "Wersja 2 (powtorka)",
+      "warmup": [
+        {
+          "id": "gen-l14-v2-w1",
+          "source": "generated-l14-v2-w1",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "geometria_plaska",
+          "subtopic": "liczenie odcinkow",
+          "statement": "Na prostej sa 3 punkty. Ile roznych odcinkow lacza pary tych punktow?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "2",
+            "B": "3",
+            "C": "4",
+            "D": "5",
+            "E": "6"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "gen-l14-v2-w2",
+          "source": "generated-l14-v2-w2",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "geometria_plaska",
+          "subtopic": "rodzaje linii",
+          "statement": "Ktora linia ma DWA konce?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "Prosta",
+            "B": "Polprosta",
+            "C": "Odcinek",
+            "D": "Promien",
+            "E": "Zadna"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "gen-l14-v2-w3",
+          "source": "generated-l14-v2-w3",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "geometria_plaska",
+          "subtopic": "punkty na polprostej",
+          "statement": "Polprosta ma:",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "Dwa konce",
+            "B": "Jeden koniec",
+            "C": "Zero koncow",
+            "D": "Trzy konce",
+            "E": "Cztery konce"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "kangur-maluch-2014-1",
+          "source": "kangur-maluch-2014-1",
+          "year": 2014,
+          "number": 1,
+          "difficulty": "3pkt",
+          "topic": "geometria_plaska",
+          "subtopic": "rozpoznanie fragmentu figury",
+          "statement": "Ktory z 5 rysunkow jest fragmentem przedstawionej obok gwiazdy?",
+          "hasImage": true,
+          "imageNote": "Osmioramienna gwiazda i 5 wariantow fragmentow.",
+          "choices": {
+            "A": "fragment A",
+            "B": "fragment B",
+            "C": "fragment C",
+            "D": "fragment D",
+            "E": "fragment E"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "kangur-maluch-2021-4",
+          "source": "kangur-maluch-2021-4",
+          "year": 2021,
+          "number": 4,
+          "difficulty": "3pkt",
+          "topic": "geometria_plaska",
+          "subtopic": "rozpoznanie fragmentu rysunku",
+          "statement": "Ala narysowala sloneczko. Ktory z 5 obrazkow NIE przedstawia fragmentu rysunku Ali?",
+          "hasImage": true,
+          "imageNote": "Sloneczko z promieniami i 5 wariantow fragmentow.",
+          "choices": {
+            "A": "fragment A",
+            "B": "fragment B",
+            "C": "fragment C",
+            "D": "fragment D",
+            "E": "fragment E"
+          },
+          "correct": "D"
+        }
+      ],
+      "challenge": [
+        {
+          "id": "kangur-maluch-2016-4",
+          "source": "kangur-maluch-2016-4",
+          "year": 2016,
+          "number": 4,
+          "difficulty": "3pkt",
+          "topic": "geometria_plaska",
+          "subtopic": "rozpoznanie identycznej karty",
+          "statement": "Ktora z 5 ponizszych kart jest taka sama jak na rysunku obok (kwadrat czesciowo zamalowany)?",
+          "hasImage": true,
+          "imageNote": "Karta wzorcowa z polkolem zamalowanym i 5 wariantow.",
+          "choices": {
+            "A": "karta A",
+            "B": "karta B",
+            "C": "karta C",
+            "D": "karta D",
+            "E": "karta E"
+          },
+          "correct": "E"
+        },
+        {
+          "id": "kangur-maluch-2024-1",
+          "source": "kangur-maluch-2024-1",
+          "year": 2024,
+          "number": 1,
+          "difficulty": "3pkt",
+          "topic": "geometria_plaska",
+          "subtopic": "rozciecie kwadratu na rozne czesci",
+          "statement": "Ktory kwadrat zostal rozciety wzdluz pogrubionych linii na dwie czesci o ROZNYCH ksztaltach?",
+          "hasImage": true,
+          "imageNote": "Piec kwadratow z roznymi liniami ciecia.",
+          "choices": {
+            "A": "kwadrat A",
+            "B": "kwadrat B",
+            "C": "kwadrat C",
+            "D": "kwadrat D",
+            "E": "kwadrat E"
+          },
+          "correct": "A"
+        }
+      ],
+      "solutions": [
+        {
+          "problemId": "gen-l14-v2-w1",
+          "observation": "3 punkty, kazda para tworzy odcinek.",
+          "strategy": "Liczenie par.",
+          "steps": [
+            "Pary: AB, AC, BC",
+            "Razem 3 odcinki"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l14-v2-w2",
+          "observation": "Odcinek ma poczatek i koniec.",
+          "strategy": "Definicje linii.",
+          "steps": [
+            "Prosta nie ma koncow",
+            "Polprosta ma jeden koniec",
+            "Odcinek ma dwa konce"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l14-v2-w3",
+          "observation": "Polprosta zaczyna sie w punkcie i biegnie bez konca.",
+          "strategy": "Definicja polprostej.",
+          "steps": [
+            "Polprosta ma jeden koniec, druga strona biegnie w nieskonczonosc"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2014-1",
+          "observation": "Szukamy fragmentu pasujacego do gwiazdy.",
+          "strategy": "Dopasowanie fragmentu.",
+          "steps": [
+            "Fragment musi miec ramiona zgodne z gwiazda",
+            "Pasuje fragment B"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2021-4",
+          "observation": "Szukamy fragmentu, ktory NIE pasuje do sloneczka.",
+          "strategy": "Eliminacja niepasujacych.",
+          "steps": [
+            "Cztery fragmenty pasuja do rysunku sloneczka",
+            "Fragment D nie pasuje"
+          ],
+          "answer": "D",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2016-4",
+          "observation": "Porownujemy karte wzorcowa z 5 wariantami.",
+          "strategy": "Dopasowanie obrazu.",
+          "steps": [
+            "Karta wzorcowa ma okreslony uklad zamalowania",
+            "Taka sama jest karta E"
+          ],
+          "answer": "E",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2024-1",
+          "observation": "Szukamy kwadratu rozcietego na dwie ROZNE czesci.",
+          "strategy": "Sprawdzanie symetrii ciecia.",
+          "steps": [
+            "Ciecie po przekatnej daje dwie jednakowe czesci",
+            "Ciecie lamane daje dwie rozne czesci - kwadrat A"
+          ],
+          "answer": "A",
+          "alternative": null
+        }
+      ]
+    },
+    {
+      "versionId": "v3",
+      "label": "Wersja 3 (oryginaly Kangurka)",
+      "warmup": [
+        {
+          "id": "kangur-maluch-2016-15",
+          "source": "kangur-maluch-2016-15",
+          "year": 2016,
+          "number": 15,
+          "difficulty": "4pkt",
+          "topic": "geometria_plaska",
+          "subtopic": "kolejnosc figur w stosach",
+          "statement": "Pieciorо dzieci ulozylo stos z trzech figur: kola, kwadratu i trojkata. W ilu z 5 stosow trojkat lezy WYZEJ niz kwadrat?",
+          "hasImage": true,
+          "imageNote": "Piec stosow z rozna kolejnoscia kola, kwadratu i trojkata.",
+          "choices": {
+            "A": "3",
+            "B": "1",
+            "C": "4",
+            "D": "2",
+            "E": "0"
+          },
+          "correct": "C"
+        }
+      ],
+      "challenge": [],
+      "solutions": [
+        {
+          "problemId": "kangur-maluch-2016-15",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Oryginalne zadanie Kangur Maluch 2016 nr 15.",
+          "steps": [
+            "Oryginalne zadanie Kangur Maluch 2016 nr 15.",
+            "Poprawna odpowiedz: C"
+          ],
+          "answer": "C",
+          "alternative": null
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Ile koncow ma prosta?",
+      "choices": {
+        "A": "Zero",
+        "B": "Jeden",
+        "C": "Dwa"
+      },
+      "correct": "A",
+      "explain": "Prosta biegnie bez konca w obie strony - nie ma koncow."
+    },
+    {
+      "q": "Ile odcinkow wyznaczaja 4 punkty na prostej?",
+      "choices": {
+        "A": "4",
+        "B": "6",
+        "C": "8"
+      },
+      "correct": "B",
+      "explain": "Kazda para punktow to odcinek: 6 par z 4 punktow."
+    },
+    {
+      "q": "Liczac trojkaty w figurze najczesciej zapominamy o:",
+      "choices": {
+        "A": "Najmniejszych",
+        "B": "Zlozonych z kilku malych",
+        "C": "Kolorach"
+      },
+      "correct": "B",
+      "explain": "Trojkaty zlozone z 2-3 malych latwo przeoczyc."
+    }
+  ]
+}

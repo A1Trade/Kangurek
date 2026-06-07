@@ -1,0 +1,644 @@
+{
+  "id": "l06",
+  "number": 6,
+  "block": "Liczby i dzialania",
+  "blockCode": "A",
+  "title": "Sprytne liczenie - laczenie i grupowanie",
+  "topic": "arytmetyka",
+  "estimatedMinutes": 15,
+  "theory": {
+    "intro": "Babcia kupila 17 jablek, 26 gruszek i 33 sliwki. Liczysz po kolei: 17+26=43, potem 43+33=76. Ale jest sprytniej: zauwaz, ze 17 + 33 = 50. Wtedy 50 + 26 = 76 w glowie. Drobna zmiana kolejnosci - znacznie mniej kalkulacji.",
+    "tool": "Sztuczka 1: LACZNOSC. Mozesz zmienic kolejnosc dodawania - szukaj par dajacych okragle liczby (do 10, 50, 100).\n\nSztuczka 2: ROZDZIELNOSC. 25*4 + 25*6 to to samo co 25*(4+6) = 25*10 = 250.\n\nSztuczka 3: GRUPOWANIE CZYNNIKOW. 8 razy 25 - rozbij 8 na 4*2, wtedy 4*(2*25)=4*50=200. Szukaj 'okraglych' produktow jak 4*25, 5*20, 2*50.\n\nSztuczka 4: ODWRACANIE OPERACJI. Gdy ktos mowi 'pomyslalem liczbe, dodalem 5, pomnozylem przez 2 i wyszlo 14', odwroc: 14:2=7, 7-5=2.",
+    "trick": "Kangur uwielbia zadania ze sciezka operacji. Zamiast podstawiac kolejne odpowiedzi, odwroc operacje od wyniku do startu. To 5 razy szybsze i mniej miejsca na blad."
+  },
+  "versions": [
+    {
+      "versionId": "v1",
+      "label": "Wersja 1 (oryginalna)",
+      "warmup": [
+        {
+          "id": "gen-l06-w1",
+          "source": "generated-l06-w1",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "arytmetyka",
+          "subtopic": "laczenie do okraglej liczby",
+          "statement": "Ile to 17 + 26 + 33?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "66",
+            "B": "76",
+            "C": "77",
+            "D": "86",
+            "E": "96"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "gen-l06-w2",
+          "source": "generated-l06-w2",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "arytmetyka",
+          "subtopic": "rozdzielnosc mnozenia",
+          "statement": "Ile to 25 razy 4 + 25 razy 6?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "125",
+            "B": "175",
+            "C": "250",
+            "D": "275",
+            "E": "300"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "gen-l06-w3",
+          "source": "generated-l06-w3",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "arytmetyka",
+          "subtopic": "lacznosc dodawania",
+          "statement": "Ile to 99 + 17 + 1?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "107",
+            "B": "117",
+            "C": "118",
+            "D": "127",
+            "E": "217"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "gen-l06-w4",
+          "source": "generated-l06-w4",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "arytmetyka",
+          "subtopic": "grupowanie czynnikow",
+          "statement": "Ile to 8 razy 25?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "150",
+            "B": "175",
+            "C": "200",
+            "D": "225",
+            "E": "250"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "kangur-maluch-2018-11",
+          "source": "kangur-maluch-2018-11",
+          "year": 2018,
+          "number": 11,
+          "difficulty": "4pkt",
+          "topic": "arytmetyka",
+          "subtopic": "iteracyjna redukcja liczby",
+          "statement": "Kuba zapisal liczbe 99999 (piec dziewiatek). Dodal dwie pierwsze cyfry, zmazal je i wpisal sume. Powtarzal to dopoki nie otrzymal liczby jednocyfrowej. Ile razy wykonal te czynnosc?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "4",
+            "B": "5",
+            "C": "6",
+            "D": "7",
+            "E": "8"
+          },
+          "correct": "E"
+        }
+      ],
+      "challenge": [
+        {
+          "id": "kangur-maluch-2012-24",
+          "source": "kangur-maluch-2012-24",
+          "year": 2012,
+          "number": 24,
+          "difficulty": "5pkt",
+          "topic": "arytmetyka",
+          "subtopic": "rownanie odwracajace - z wyniku do liczby lat",
+          "statement": "Michal pomnozyl liczbe swoich lat przez siebie, dodal 1, otrzymana liczbe pomnozyl przez 10, dodal 3, wynik pomnozyl przez 4 i otrzymal 2012. Ile lat ma Michal?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "11",
+            "B": "9",
+            "C": "8",
+            "D": "7",
+            "E": "5"
+          },
+          "correct": "D"
+        },
+        {
+          "id": "gen-l06-c2",
+          "source": "generated-l06-c2",
+          "year": null,
+          "number": null,
+          "difficulty": "5pkt",
+          "topic": "arytmetyka",
+          "subtopic": "wynik z sekwencji operacji",
+          "statement": "Mysle liczbe. Dodaje 5, mnoze przez 2, odejmuje 4. Wynik to 20. Jaka jest moja liczba?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "5",
+            "B": "6",
+            "C": "7",
+            "D": "8",
+            "E": "10"
+          },
+          "correct": "C"
+        }
+      ],
+      "solutions": [
+        {
+          "problemId": "gen-l06-w1",
+          "observation": "Szukam par do okraglej liczby.",
+          "strategy": "Lacznosc.",
+          "steps": [
+            "17 + 33 = 50",
+            "50 + 26 = 76"
+          ],
+          "answer": "B",
+          "alternative": "Mozna tez po kolei: 17+26=43, 43+33=76."
+        },
+        {
+          "problemId": "gen-l06-w2",
+          "observation": "Rozdzielnosc: 25*(4+6) = 25*10.",
+          "strategy": "Rozdzielnosc mnozenia wzgledem dodawania.",
+          "steps": [
+            "25 razy 4 + 25 razy 6 = 25 razy (4+6) = 25 razy 10 = 250"
+          ],
+          "answer": "C",
+          "alternative": "Bezposrednio: 100 + 150 = 250."
+        },
+        {
+          "problemId": "gen-l06-w3",
+          "observation": "99 + 1 = 100 - zacznij od tej pary.",
+          "strategy": "Lacznosc - zamien kolejnosc.",
+          "steps": [
+            "99 + 1 = 100",
+            "100 + 17 = 117"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l06-w4",
+          "observation": "8 razy 25 - rozbij 8 na 4 razy 2.",
+          "strategy": "Grupowanie czynnikow.",
+          "steps": [
+            "8 razy 25 = 4 razy (2 razy 25) = 4 razy 50 = 200"
+          ],
+          "answer": "C",
+          "alternative": "Albo: 25 razy 4 razy 2 = 100 razy 2 = 200."
+        },
+        {
+          "problemId": "kangur-maluch-2018-11",
+          "observation": "Suma cyfr 9+9=18, potem zastapienie itd.",
+          "strategy": "Iteracja - kazdy krok zmienia liczbe.",
+          "steps": [
+            "99999 -> 18999 -> 9999 -> 1899 -> 999 -> 189 -> 99 -> 18 -> 9",
+            "Liczba operacji: 8"
+          ],
+          "answer": "E",
+          "alternative": "Trzeba policzyc kazdy krok osobno."
+        },
+        {
+          "problemId": "kangur-maluch-2012-24",
+          "observation": "Z wyniku 2012 odwracaj kazda operacje.",
+          "strategy": "Krok po kroku w odwrotnej kolejnosci.",
+          "steps": [
+            "2012 : 4 = 503",
+            "503 - 3 = 500",
+            "500 : 10 = 50",
+            "50 - 1 = 49",
+            "49 = 7 razy 7, czyli Michal ma 7 lat"
+          ],
+          "answer": "D",
+          "alternative": "Odwracanie: minus to plus, mnozenie to dzielenie."
+        },
+        {
+          "problemId": "gen-l06-c2",
+          "observation": "Odwracam operacje.",
+          "strategy": "Krok po kroku wstecz.",
+          "steps": [
+            "Wynik 20, ostatnio odjeto 4: 20+4=24",
+            "Przedtem mnozono przez 2: 24:2=12",
+            "Przedtem dodano 5: 12-5=7"
+          ],
+          "answer": "C",
+          "alternative": null
+        }
+      ]
+    },
+    {
+      "versionId": "v2",
+      "label": "Wersja 2 (powtorka)",
+      "warmup": [
+        {
+          "id": "gen-l06-v2-w1",
+          "source": "generated-l06-v2-w1",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "arytmetyka",
+          "subtopic": "pary do 100",
+          "statement": "Ile to 23 + 19 + 27 + 31?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "90",
+            "B": "95",
+            "C": "100",
+            "D": "105",
+            "E": "110"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "gen-l06-v2-w2",
+          "source": "generated-l06-v2-w2",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "arytmetyka",
+          "subtopic": "rozdzielnosc mnozenia",
+          "statement": "Ile to 50 razy 7 + 50 razy 3?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "350",
+            "B": "500",
+            "C": "450",
+            "D": "550",
+            "E": "600"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "gen-l06-v2-w3",
+          "source": "generated-l06-v2-w3",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "arytmetyka",
+          "subtopic": "grupowanie czynnikow",
+          "statement": "Ile to 4 razy 17 razy 25?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "1700",
+            "B": "680",
+            "C": "1600",
+            "D": "425",
+            "E": "170"
+          },
+          "correct": "A"
+        },
+        {
+          "id": "gen-l06-v2-w4",
+          "source": "generated-l06-v2-w4",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "arytmetyka",
+          "subtopic": "odwracanie operacji",
+          "statement": "Mysle liczbe, mnoze przez 4, odejmuje 3, wynik to 25. Jaka liczba?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "5",
+            "B": "6",
+            "C": "7",
+            "D": "8",
+            "E": "28"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "kangur-maluch-2018-3",
+          "source": "kangur-maluch-2018-3",
+          "year": 2018,
+          "number": 3,
+          "difficulty": "3pkt",
+          "topic": "arytmetyka",
+          "subtopic": "suma wieku rodzenstwa",
+          "statement": "Hela ma 6 lat. Jej siostra jest o 2 lata mlodsza, a brat o 2 lata starszy. Po dodaniu lat tej trojki rodzenstwa otrzymamy:",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "10",
+            "B": "15",
+            "C": "18",
+            "D": "21",
+            "E": "30"
+          },
+          "correct": "C"
+        }
+      ],
+      "challenge": [
+        {
+          "id": "kangur-maluch-2012-20",
+          "source": "kangur-maluch-2012-20",
+          "year": 2012,
+          "number": 20,
+          "difficulty": "5pkt",
+          "topic": "arytmetyka",
+          "subtopic": "rownania z proporcjami",
+          "statement": "Wsrod 496 owocow (gruszek, jablek, mandarynek i sliwek) bylo 3 razy mniej gruszek niz jablek, 5 razy mniej jablek niz mandarynek oraz 7 razy mniej mandarynek niz sliwek. Ile bylo sliwek?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "350",
+            "B": "315",
+            "C": "455",
+            "D": "385",
+            "E": "420"
+          },
+          "correct": "E"
+        },
+        {
+          "id": "gen-l06-v2-c2",
+          "source": "generated-l06-v2-c2",
+          "year": null,
+          "number": null,
+          "difficulty": "5pkt",
+          "topic": "arytmetyka",
+          "subtopic": "dluga sekwencja operacji",
+          "statement": "Mysle liczbe. Odejmuje 8, mnoze przez 3, dodaje 10. Wynik to 31. Jaka jest moja liczba?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "13",
+            "B": "15",
+            "C": "17",
+            "D": "11",
+            "E": "21"
+          },
+          "correct": "B"
+        }
+      ],
+      "solutions": [
+        {
+          "problemId": "gen-l06-v2-w1",
+          "observation": "Szukam par do 100.",
+          "strategy": "Lacznosc.",
+          "steps": [
+            "23 + 27 = 50",
+            "19 + 31 = 50",
+            "50 + 50 = 100"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l06-v2-w2",
+          "observation": "Rozdzielnosc: 50*(7+3).",
+          "strategy": "Rozdzielnosc mnozenia.",
+          "steps": [
+            "50 razy 7 + 50 razy 3 = 50 razy 10 = 500"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l06-v2-w3",
+          "observation": "Szukam okraglego produktu: 4 razy 25 = 100.",
+          "strategy": "Grupowanie czynnikow.",
+          "steps": [
+            "4 razy 25 = 100",
+            "100 razy 17 = 1700"
+          ],
+          "answer": "A",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l06-v2-w4",
+          "observation": "Odwracam operacje od wyniku.",
+          "strategy": "Krok po kroku wstecz.",
+          "steps": [
+            "Wynik 25, ostatnio odjeto 3: 25 + 3 = 28",
+            "Przedtem mnozono przez 4: 28 : 4 = 7"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2018-3",
+          "observation": "Hela 6, siostra o 2 mlodsza, brat o 2 starszy.",
+          "strategy": "Liczenie wieku kazdego.",
+          "steps": [
+            "Hela = 6",
+            "Siostra = 6 - 2 = 4",
+            "Brat = 6 + 2 = 8",
+            "Suma: 6 + 4 + 8 = 18"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2012-20",
+          "observation": "Owoce w proporcjach: sliwki najwiecej.",
+          "strategy": "Wyrazic wszystko przez liczbe sliwek.",
+          "steps": [
+            "Mandarynki = sliwki : 7",
+            "Jablka = mandarynki : 5",
+            "Gruszki = jablka : 3",
+            "Suma musi byc 496, liczba sliwek dzielna przez 105",
+            "Sprawdz 420: 420 + 60 + 12 + 4 = 496 - pasuje",
+            "Sliwek bylo 420"
+          ],
+          "answer": "E",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l06-v2-c2",
+          "observation": "Trzy operacje - odwracam od wyniku.",
+          "strategy": "Krok po kroku wstecz.",
+          "steps": [
+            "Wynik 31, ostatnio dodano 10: 31 - 10 = 21",
+            "Przedtem mnozono przez 3: 21 : 3 = 7",
+            "Przedtem odjeto 8: 7 + 8 = 15"
+          ],
+          "answer": "B",
+          "alternative": null
+        }
+      ]
+    },
+    {
+      "versionId": "v3",
+      "label": "Wersja 3 (oryginaly Kangurka)",
+      "warmup": [
+        {
+          "id": "kangur-maluch-2019-11",
+          "source": "kangur-maluch-2019-11",
+          "year": 2019,
+          "number": 11,
+          "difficulty": "4pkt",
+          "topic": "arytmetyka",
+          "subtopic": "wymiana w stosunku, maksymalizacja",
+          "statement": "Tomek ma 16 niebieskich kulek. Może je wymienić tylko tak: za 3 niebieskie kulki otrzymuje 1 czerwoną, a za 2 czerwone - 5 zielonych kulek. Jaką największą liczbę zielonych kulek może otrzymać Tomek?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "5",
+            "B": "10",
+            "C": "13",
+            "D": "15",
+            "E": "20"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "kangur-maluch-2021-12",
+          "source": "kangur-maluch-2021-12",
+          "year": 2021,
+          "number": 12,
+          "difficulty": "4pkt",
+          "topic": "arytmetyka",
+          "subtopic": "liczenie pozostalych lisci",
+          "statement": "Na kazdej z 3 galezi roslo 20 lisci. Z pierwszej koala zjadl kilka lisci. Z drugiej zjadl tyle, ile pozostalo na pierwszej. Z trzeciej zjadl 2 liscie. Ile lisci lacznie pozostalo na trzech galeziach?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "38",
+            "B": "32",
+            "C": "28",
+            "D": "22",
+            "E": "20"
+          },
+          "correct": "A"
+        },
+        {
+          "id": "kangur-maluch-2023-11",
+          "source": "kangur-maluch-2023-11",
+          "year": 2023,
+          "number": 11,
+          "difficulty": "4pkt",
+          "topic": "arytmetyka",
+          "subtopic": "uklad rownan - osoby w samochodach",
+          "statement": "W osmiu samochodach jest 19 osob. W kazdym aucie jest dwoje albo troje ludzi. W ilu samochodach sa dokladnie po 2 osoby?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "6",
+            "B": "5",
+            "C": "4",
+            "D": "3",
+            "E": "2"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "kangur-maluch-2023-22",
+          "source": "kangur-maluch-2023-22",
+          "year": 2023,
+          "number": 22,
+          "difficulty": "5pkt",
+          "topic": "arytmetyka",
+          "subtopic": "rownanie z wiekiem",
+          "statement": "Za 9 lat Slawek bedzie mial 4 razy wiecej lat niz mial 3 lata temu. Ile lat mial Slawek trzy lata temu?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "7",
+            "B": "6",
+            "C": "5",
+            "D": "4",
+            "E": "3"
+          },
+          "correct": "D"
+        }
+      ],
+      "challenge": [],
+      "solutions": [
+        {
+          "problemId": "kangur-maluch-2019-11",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Oryginalne zadanie Kangur Maluch 2019 nr 11.",
+          "steps": [
+            "Oryginalne zadanie Kangur Maluch 2019 nr 11.",
+            "Poprawna odpowiedz: B"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2021-12",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Oryginalne zadanie Kangur Maluch 2021 nr 12.",
+          "steps": [
+            "Oryginalne zadanie Kangur Maluch 2021 nr 12.",
+            "Poprawna odpowiedz: A"
+          ],
+          "answer": "A",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2023-11",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Oryginalne zadanie Kangur Maluch 2023 nr 11.",
+          "steps": [
+            "Oryginalne zadanie Kangur Maluch 2023 nr 11.",
+            "Poprawna odpowiedz: B"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2023-22",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Oryginalne zadanie Kangur Maluch 2023 nr 22.",
+          "steps": [
+            "Oryginalne zadanie Kangur Maluch 2023 nr 22.",
+            "Poprawna odpowiedz: D"
+          ],
+          "answer": "D",
+          "alternative": null
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Najszybciej obliczysz 38 + 47 + 12 + 53 wybierajac:",
+      "choices": {
+        "A": "Po kolei",
+        "B": "Pary 38+12 i 47+53",
+        "C": "Pary 38+47 i 12+53"
+      },
+      "correct": "B",
+      "explain": "38+12=50, 47+53=100, razem 150."
+    },
+    {
+      "q": "Ile to 4 razy 25 razy 7?",
+      "choices": {
+        "A": "700",
+        "B": "175",
+        "C": "100"
+      },
+      "correct": "A",
+      "explain": "4*25=100, 100*7=700."
+    },
+    {
+      "q": "Pomyslalem liczbe, pomnozylem przez 3, dodalem 1, wyszlo 16. Jaka liczba?",
+      "choices": {
+        "A": "4",
+        "B": "5",
+        "C": "6"
+      },
+      "correct": "B",
+      "explain": "Odwracam: 16-1=15, 15:3=5."
+    }
+  ]
+}

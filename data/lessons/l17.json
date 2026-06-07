@@ -1,0 +1,537 @@
+{
+  "id": "l17",
+  "number": 17,
+  "block": "Geometria plaska",
+  "blockCode": "C",
+  "title": "Czworokaty: kwadrat, prostokat, trapez",
+  "topic": "geometria_plaska",
+  "estimatedMinutes": 15,
+  "theory": {
+    "intro": "Cztery boki - i juz mamy czworokat. Kwadrat ma wszystkie boki rowne i wszystkie katy proste. Prostokat ma katy proste, ale boki parami rowne. Trapez ma jedna pare bokow rownoleglych. Czworokaty sa wszedzie: kartka, okno, stol, ekran.",
+    "tool": "Sztuczka 1: KWADRAT TO SZCZEGOLNY PROSTOKAT. Kwadrat ma wszystko co prostokat (4 katy proste) plus wszystkie boki rowne. Kazdy kwadrat jest prostokatem, ale nie odwrotnie.\n\nSztuczka 2: SKLADANIE FIGUR. Dwa jednakowe trojkaty prostokatne moga utworzyc kwadrat lub prostokat. Dwa kwadraty obok siebie - prostokat. Cwicz rozkladanie i skladanie.\n\nSztuczka 3: PRZECIWLEGLE BOKI. W prostokacie i kwadracie przeciwlegle boki sa rowne. Znajac dwa sasiednie boki, znasz wszystkie cztery.",
+    "trick": "Kangur czesto pyta o skladanie kwadratu z czesci. Pamietaj: pole sie nie zmienia przy ukladaniu. Jezeli kawalki maja lacznie 16 kratek, zlozony kwadrat ma bok 4 (bo 4 razy 4 = 16). Liczba kratek zdradza bok."
+  },
+  "versions": [
+    {
+      "versionId": "v1",
+      "label": "Wersja 1 (oryginalna)",
+      "warmup": [
+        {
+          "id": "gen-l17-v1-w1",
+          "source": "generated-l17-v1-w1",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "geometria_plaska",
+          "subtopic": "wlasnosci kwadratu",
+          "statement": "Kwadrat ma wszystkie boki rowne i wszystkie katy:",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "Ostre",
+            "B": "Proste",
+            "C": "Rozwarte",
+            "D": "Polpelne",
+            "E": "Rozne"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "gen-l17-v1-w2",
+          "source": "generated-l17-v1-w2",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "geometria_plaska",
+          "subtopic": "prostokat - boki",
+          "statement": "W prostokacie przeciwlegle boki sa:",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "Rozne",
+            "B": "Rowne",
+            "C": "Zawsze dluzsze",
+            "D": "Zakrzywione",
+            "E": "Krotsze"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "gen-l17-v1-w3",
+          "source": "generated-l17-v1-w3",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "geometria_plaska",
+          "subtopic": "liczba bokow czworokata",
+          "statement": "Ile bokow ma kazdy czworokat?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "3",
+            "B": "4",
+            "C": "5",
+            "D": "6",
+            "E": "8"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "kangur-maluch-2023-4",
+          "source": "kangur-maluch-2023-4",
+          "year": 2023,
+          "number": 4,
+          "difficulty": "3pkt",
+          "topic": "geometria_plaska",
+          "subtopic": "zlozenie kwadratu z dwoch kartonikow",
+          "statement": "Helenka ma 4 kartoniki. Z ktorych dwoch moze ulozyc pokazany kwadrat, tak by kartoniki nie zachodzily na siebie?",
+          "hasImage": true,
+          "imageNote": "Cztery kartoniki o roznych ksztaltach.",
+          "choices": {
+            "A": "Z 1 i 2",
+            "B": "Z 1 i 3",
+            "C": "Z 2 i 3",
+            "D": "Z 2 i 4",
+            "E": "Z 1 i 4"
+          },
+          "correct": "D"
+        },
+        {
+          "id": "kangur-maluch-2025-14",
+          "source": "kangur-maluch-2025-14",
+          "year": 2025,
+          "number": 14,
+          "difficulty": "4pkt",
+          "topic": "geometria_plaska",
+          "subtopic": "kwadrat z prostokatnych kartonikow - czwarta czesc",
+          "statement": "Z 4 prostokatnych kartonikow Faustyna zbudowala kwadrat. 3 sa pokazane na obrazku. Ktory z ponizszych kartonikow moze byc czwarta czescia tego kwadratu?",
+          "hasImage": true,
+          "imageNote": "3 prostokatne kartoniki w kwadracie + 5 wariantow 4. czesci.",
+          "choices": {
+            "A": "karton A",
+            "B": "karton B",
+            "C": "karton C",
+            "D": "karton D",
+            "E": "karton E"
+          },
+          "correct": "C"
+        }
+      ],
+      "challenge": [
+        {
+          "id": "kangur-maluch-2018-12",
+          "source": "kangur-maluch-2018-12",
+          "year": 2018,
+          "number": 12,
+          "difficulty": "4pkt",
+          "topic": "geometria_plaska",
+          "subtopic": "podzial figury na czesci",
+          "statement": "Zosia pocieła kartke na dwa rodzaje kawalkow (kwadrat 2x2 i polkwadrat - trapez). Ilu takich kawalkow potrzebuje, by ulozyc figure ksztaltu lodki?",
+          "hasImage": true,
+          "imageNote": "Dwa rodzaje kawalkow: kwadrat 2x2 i trapez z polowy kwadratu. Figura - lodka.",
+          "choices": {
+            "A": "5",
+            "B": "6",
+            "C": "7",
+            "D": "8",
+            "E": "9"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "kangur-maluch-2013-15",
+          "source": "kangur-maluch-2013-15",
+          "year": 2013,
+          "number": 15,
+          "difficulty": "4pkt",
+          "topic": "geometria_plaska",
+          "subtopic": "dopasowanie kawalka ukladanki",
+          "statement": "Ktory z 5 kawalkow ukladanki pasuje do narysowanego tak, by razem utworzyly prostokat?",
+          "hasImage": true,
+          "imageNote": "Czarny kawalek ukladanki i 5 wariantow drugiego kawalka.",
+          "choices": {
+            "A": "kawalek A",
+            "B": "kawalek B",
+            "C": "kawalek C",
+            "D": "kawalek D",
+            "E": "kawalek E"
+          },
+          "correct": "B"
+        }
+      ],
+      "solutions": [
+        {
+          "problemId": "gen-l17-v1-w1",
+          "observation": "Kwadrat - rowne boki, kat prosty.",
+          "strategy": "Wlasnosci kwadratu.",
+          "steps": [
+            "Kwadrat ma 4 katy proste"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l17-v1-w2",
+          "observation": "Przeciwlegle boki prostokata sa rowne.",
+          "strategy": "Wlasnosci prostokata.",
+          "steps": [
+            "W prostokacie przeciwlegle boki maja te sama dlugosc"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l17-v1-w3",
+          "observation": "Czworokat - cztery boki.",
+          "strategy": "Liczba bokow.",
+          "steps": [
+            "Kazdy czworokat ma 4 boki"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2023-4",
+          "observation": "Skladamy kwadrat z dwoch kartonikow.",
+          "strategy": "Dopasowanie ksztaltow.",
+          "steps": [
+            "Dwa kartoniki musza sie uzupelnic w kwadrat bez nakladania",
+            "Pasuja kartoniki 2 i 4"
+          ],
+          "answer": "D",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2025-14",
+          "observation": "Czwarty kartonik kwadratu.",
+          "strategy": "Uzupelnienie kwadratu.",
+          "steps": [
+            "Trzy prostokatne kartoniki czesc kwadratu",
+            "Czwarta czesc to kartonik C"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2018-12",
+          "observation": "Liczymy kawalki potrzebne do ulozenia figury.",
+          "strategy": "Liczenie kawalkow.",
+          "steps": [
+            "Figura lodki z dwoch rodzajow kawalkow",
+            "Potrzeba 7 kawalkow"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2013-15",
+          "observation": "Dopasowujemy kawalek ukladanki do prostokata.",
+          "strategy": "Dopasowanie ksztaltu.",
+          "steps": [
+            "Kawalek musi uzupelnic figure do prostokata",
+            "Pasuje kawalek B"
+          ],
+          "answer": "B",
+          "alternative": null
+        }
+      ]
+    },
+    {
+      "versionId": "v2",
+      "label": "Wersja 2 (powtorka)",
+      "warmup": [
+        {
+          "id": "gen-l17-v2-w1",
+          "source": "generated-l17-v2-w1",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "geometria_plaska",
+          "subtopic": "kwadrat a prostokat",
+          "statement": "Ktore zdanie jest prawdziwe?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "Kazdy prostokat jest kwadratem",
+            "B": "Kazdy kwadrat jest prostokatem",
+            "C": "Kwadrat nie ma katow prostych",
+            "D": "Prostokat ma 3 boki",
+            "E": "Kwadrat ma 5 bokow"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "gen-l17-v2-w2",
+          "source": "generated-l17-v2-w2",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "geometria_plaska",
+          "subtopic": "trapez",
+          "statement": "Trapez to czworokat, ktory ma:",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "Wszystkie boki rowne",
+            "B": "Jedna pare bokow rownoleglych",
+            "C": "Trzy boki",
+            "D": "Same katy ostre",
+            "E": "Piec wierzcholkow"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "gen-l17-v2-w3",
+          "source": "generated-l17-v2-w3",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "geometria_plaska",
+          "subtopic": "skladanie kwadratu z kratek",
+          "statement": "Z ilu kratek sklada sie kwadrat o boku 3 kratki?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "3",
+            "B": "6",
+            "C": "9",
+            "D": "12",
+            "E": "16"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "kangur-maluch-2020-4",
+          "source": "kangur-maluch-2020-4",
+          "year": 2020,
+          "number": 4,
+          "difficulty": "3pkt",
+          "topic": "geometria_plaska",
+          "subtopic": "ukladanie figury z kartonikow",
+          "statement": "Franek mial 6 kartonikow (2 kola, 2 trojkaty, prostokat, kreska). Ulozyl z nich jedna z figur. Ktora?",
+          "hasImage": true,
+          "imageNote": "Szesc kartonikow i 5 figur do ulozenia.",
+          "choices": {
+            "A": "figura A",
+            "B": "figura B",
+            "C": "figura C",
+            "D": "figura D",
+            "E": "figura E"
+          },
+          "correct": "D"
+        },
+        {
+          "id": "kangur-maluch-2020-15",
+          "source": "kangur-maluch-2020-15",
+          "year": 2020,
+          "number": 15,
+          "difficulty": "4pkt",
+          "topic": "geometria_plaska",
+          "subtopic": "ukladanie wzoru z pieciokatow",
+          "statement": "Zosia uklada wzor w ksztalcie korony z pieciokatnych kartonikow, stykajac trojkaty oznaczone tymi samymi liczbami. Jaka liczba bedzie w szarym trojkacie po skonczeniu wzoru?",
+          "hasImage": true,
+          "imageNote": "Pieciokatny kartonik z liczbami 1-5 w trojkatach i wzor korony.",
+          "choices": {
+            "A": "1",
+            "B": "2",
+            "C": "3",
+            "D": "4",
+            "E": "5"
+          },
+          "correct": "B"
+        }
+      ],
+      "challenge": [
+        {
+          "id": "kangur-maluch-2012-2",
+          "source": "kangur-maluch-2012-2",
+          "year": 2012,
+          "number": 2,
+          "difficulty": "3pkt",
+          "topic": "geometria_plaska",
+          "subtopic": "rozpoznanie rownych pol",
+          "statement": "Marysia namalowala olowkiem piec obrazkow na bialych kwadratowych kartkach papieru. Tylko na jednym rysunku czesc zamalowana i czesc niezamalowana nie sa rowne. Na ktorym?",
+          "hasImage": true,
+          "imageNote": "Piec kwadratowych obrazkow z roznymi wzorami zamalowania.",
+          "choices": {
+            "A": "obrazek A",
+            "B": "obrazek B",
+            "C": "obrazek C",
+            "D": "obrazek D",
+            "E": "obrazek E"
+          },
+          "correct": "E"
+        },
+        {
+          "id": "gen-l17-v2-c1",
+          "source": "generated-l17-v2-c1",
+          "year": null,
+          "number": null,
+          "difficulty": "5pkt",
+          "topic": "geometria_plaska",
+          "subtopic": "bok kwadratu z liczby kratek",
+          "statement": "Z czesci o lacznie 36 kratkach ulozono kwadrat. Jaki bok ma ten kwadrat?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "4",
+            "B": "5",
+            "C": "6",
+            "D": "8",
+            "E": "9"
+          },
+          "correct": "C"
+        }
+      ],
+      "solutions": [
+        {
+          "problemId": "gen-l17-v2-w1",
+          "observation": "Kwadrat ma wszystko co prostokat i wiecej.",
+          "strategy": "Zaleznosci figur.",
+          "steps": [
+            "Kwadrat ma 4 katy proste - jak prostokat",
+            "Kazdy kwadrat jest prostokatem"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l17-v2-w2",
+          "observation": "Trapez - jedna para bokow rownoleglych.",
+          "strategy": "Definicja trapezu.",
+          "steps": [
+            "Trapez ma dokladnie jedna pare bokow rownoleglych"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l17-v2-w3",
+          "observation": "Kwadrat 3x3 kratki.",
+          "strategy": "Liczenie kratek.",
+          "steps": [
+            "3 rzedy po 3 kratki = 9 kratek"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2020-4",
+          "observation": "Ukladamy figure z 6 kartonikow.",
+          "strategy": "Sprawdzanie ulozenia.",
+          "steps": [
+            "Szesc kartonikow tworzy jedna figure",
+            "Poprawna figura to D"
+          ],
+          "answer": "D",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2020-15",
+          "observation": "Ukladamy wzor korony z pieciokatow.",
+          "strategy": "Sledzenie liczb na trojkatach.",
+          "steps": [
+            "Kartoniki stykaja sie trojkatami o tych samych liczbach",
+            "W szarym trojkacie wychodzi 2"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2012-2",
+          "observation": "Szukamy rysunku z nierownymi polami.",
+          "strategy": "Porownanie pol zamalowanych.",
+          "steps": [
+            "Na czterech rysunkach pola zamalowane i niezamalowane sa rowne",
+            "Na rysunku E nie sa rowne"
+          ],
+          "answer": "E",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l17-v2-c1",
+          "observation": "36 kratek tworzy kwadrat - szukamy boku.",
+          "strategy": "Bok kwadratu z pola.",
+          "steps": [
+            "Bok razy bok = 36",
+            "6 razy 6 = 36, czyli bok 6"
+          ],
+          "answer": "C",
+          "alternative": null
+        }
+      ]
+    },
+    {
+      "versionId": "v3",
+      "label": "Wersja 3 (oryginaly Kangurka)",
+      "warmup": [
+        {
+          "id": "kangur-maluch-2025-13",
+          "source": "kangur-maluch-2025-13",
+          "year": 2025,
+          "number": 13,
+          "difficulty": "4pkt",
+          "topic": "geometria_plaska",
+          "subtopic": "rownosc plasterkow pizzy z roznych ciec",
+          "statement": "Wladek chce przeciac pizze na pol wzdluz jednej z pokazanych prostych. Chce tez, by liczba plasterkow pomidora na kazdej polowie byla taka sama. Zauwazyl, ze swoj zamiar moze zrealizowac na dwa sposoby. Wzdluz ktorych dwoch roznych prostych cieć mogłby to zrobić?",
+          "hasImage": true,
+          "imageNote": "Okragla pizza z plasterkami pomidora i 4 prostymi cieciami oznaczonymi 1, 2, 3, 4.",
+          "choices": {
+            "A": "1 i 3",
+            "B": "1 i 4",
+            "C": "2 i 3",
+            "D": "2 i 4",
+            "E": "3 i 4"
+          },
+          "correct": "D"
+        }
+      ],
+      "challenge": [],
+      "solutions": [
+        {
+          "problemId": "kangur-maluch-2025-13",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Oryginalne zadanie Kangur Maluch 2025 nr 13.",
+          "steps": [
+            "Oryginalne zadanie Kangur Maluch 2025 nr 13.",
+            "Poprawna odpowiedz: D"
+          ],
+          "answer": "D",
+          "alternative": null
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Czy kazdy kwadrat jest prostokatem?",
+      "choices": {
+        "A": "Tak",
+        "B": "Nie",
+        "C": "Tylko duzy"
+      },
+      "correct": "A",
+      "explain": "Kwadrat ma 4 katy proste - spelnia warunek prostokata."
+    },
+    {
+      "q": "Trapez ma rownoleglych:",
+      "choices": {
+        "A": "Jedna pare bokow",
+        "B": "Wszystkie boki",
+        "C": "Zero bokow"
+      },
+      "correct": "A",
+      "explain": "Trapez ma dokladnie jedna pare bokow rownoleglych."
+    },
+    {
+      "q": "Kwadrat z 25 kratek ma bok:",
+      "choices": {
+        "A": "4",
+        "B": "5",
+        "C": "6"
+      },
+      "correct": "B",
+      "explain": "5 razy 5 = 25, wiec bok ma 5 kratek."
+    }
+  ]
+}

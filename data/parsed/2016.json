@@ -1,0 +1,486 @@
+{
+  "year": 2016,
+  "category": "MALUCH",
+  "problems": [
+    {
+      "id": "kangur-maluch-2016-1",
+      "source": "kangur-maluch-2016-1",
+      "year": 2016,
+      "number": 1,
+      "difficulty": "3pkt",
+      "topic": "arytmetyka",
+      "subtopic": "suma oczek z dwoch rzutow kostka",
+      "statement": "Ania, Basia, Cesia, Dorotka i Ela rzucaly kostka do gry, kazda dwa razy. Ktora wyrzucila lacznie najwiecej oczek?",
+      "hasImage": true,
+      "imageNote": "Piec par kostek z roznymi liczbami oczek dla kazdej dziewczynki.",
+      "choices": {
+        "A": "Ania",
+        "B": "Basia",
+        "C": "Cesia",
+        "D": "Dorotka",
+        "E": "Ela"
+      },
+      "correct": "D"
+    },
+    {
+      "id": "kangur-maluch-2016-2",
+      "source": "kangur-maluch-2016-2",
+      "year": 2016,
+      "number": 2,
+      "difficulty": "3pkt",
+      "topic": "czas_kalendarz",
+      "subtopic": "roznica wieku w miesiacach",
+      "statement": "Witek ma 1 rok i 3 miesiace. Za ile miesiecy Witek skonczy 3 lata?",
+      "hasImage": false,
+      "imageNote": null,
+      "choices": {
+        "A": "15",
+        "B": "17",
+        "C": "19",
+        "D": "20",
+        "E": "21"
+      },
+      "correct": "E"
+    },
+    {
+      "id": "kangur-maluch-2016-3",
+      "source": "kangur-maluch-2016-3",
+      "year": 2016,
+      "number": 3,
+      "difficulty": "3pkt",
+      "topic": "arytmetyka",
+      "subtopic": "zmiana wagi i sumowanie",
+      "statement": "Szary kangurek wazyl 17 kg, brazowy 20 kg. Szary przytyl 3 kg, brazowy schudl 4 kg. Ile teraz waza lacznie oba kangurki?",
+      "hasImage": false,
+      "imageNote": null,
+      "choices": {
+        "A": "36 kg",
+        "B": "38 kg",
+        "C": "44 kg",
+        "D": "30 kg",
+        "E": "37 kg"
+      },
+      "correct": "A"
+    },
+    {
+      "id": "kangur-maluch-2016-4",
+      "source": "kangur-maluch-2016-4",
+      "year": 2016,
+      "number": 4,
+      "difficulty": "3pkt",
+      "topic": "geometria_plaska",
+      "subtopic": "rozpoznanie identycznej karty",
+      "statement": "Ktora z 5 ponizszych kart jest taka sama jak na rysunku obok (kwadrat czesciowo zamalowany)?",
+      "hasImage": true,
+      "imageNote": "Karta wzorcowa z polkolem zamalowanym i 5 wariantow.",
+      "choices": {
+        "A": "karta A",
+        "B": "karta B",
+        "C": "karta C",
+        "D": "karta D",
+        "E": "karta E"
+      },
+      "correct": "E"
+    },
+    {
+      "id": "kangur-maluch-2016-5",
+      "source": "kangur-maluch-2016-5",
+      "year": 2016,
+      "number": 5,
+      "difficulty": "3pkt",
+      "topic": "logika",
+      "subtopic": "wybor strzalki wg przedzialu numerow",
+      "statement": "Tablica w cyrku pokazuje strzalki: miejsca 1-20 gora, 21-40 prawo, 41-60 lewo, 61-80 ukosnie gora-prawo, 81-100 ukosnie. Gres ma miejsca 71 i 72. Ktora strzalka?",
+      "hasImage": true,
+      "imageNote": "Tablica z 5 strzalkami i przypisanymi przedzialami miejsc.",
+      "choices": {
+        "A": "gora",
+        "B": "prawo",
+        "C": "lewo",
+        "D": "ukosna gora-prawo",
+        "E": "ukosna dol"
+      },
+      "correct": "D"
+    },
+    {
+      "id": "kangur-maluch-2016-6",
+      "source": "kangur-maluch-2016-6",
+      "year": 2016,
+      "number": 6,
+      "difficulty": "3pkt",
+      "topic": "geometria_plaska",
+      "subtopic": "ksztalt zaslonietej czesci prostokata",
+      "statement": "Czarny prostokat jest czesciowo przeslonięty kurtyna. Jaka figura jest zaslonieta przez kurtyne czesc czarnego prostokata?",
+      "hasImage": true,
+      "imageNote": "Czarny prostokat czesciowo zakryty kurtyna.",
+      "choices": {
+        "A": "Kwadratem",
+        "B": "Prostokatem",
+        "C": "Trojkatem",
+        "D": "Kolem",
+        "E": "Nie da sie rozstrzygnac"
+      },
+      "correct": "B"
+    },
+    {
+      "id": "kangur-maluch-2016-7",
+      "source": "kangur-maluch-2016-7",
+      "year": 2016,
+      "number": 7,
+      "difficulty": "3pkt",
+      "topic": "arytmetyka",
+      "subtopic": "dzielenie z ulamkiem - polowki",
+      "statement": "W koszyku byly jablka. Ania i jej piec kolezanek podzielily je miedzy siebie. Kazda dostala pol jablka. Ile jablek bylo w koszyku?",
+      "hasImage": false,
+      "imageNote": null,
+      "choices": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "5",
+        "E": "6"
+      },
+      "correct": "B"
+    },
+    {
+      "id": "kangur-maluch-2016-8",
+      "source": "kangur-maluch-2016-8",
+      "year": 2016,
+      "number": 8,
+      "difficulty": "3pkt",
+      "topic": "logika",
+      "subtopic": "porownywanie liczby figur",
+      "statement": "Na rysunku sa kola, trojkaty i kwadraty. Ktore zdanie poprawnie opisuje sytuacje: kol jest 2 razy wiecej niz kwadratow, czy inne?",
+      "hasImage": true,
+      "imageNote": "Rysunek z 4 kolami, 2 trojkatami i 2 kwadratami.",
+      "choices": {
+        "A": "Kol tyle samo co kwadratow",
+        "B": "Kol mniej niz trojkatow",
+        "C": "Kwadratow wiecej niz trojkatow",
+        "D": "Trojkatow o dwa wiecej niz kol",
+        "E": "Kol dwa razy wiecej niz kwadratow"
+      },
+      "correct": "E"
+    },
+    {
+      "id": "kangur-maluch-2016-9",
+      "source": "kangur-maluch-2016-9",
+      "year": 2016,
+      "number": 9,
+      "difficulty": "4pkt",
+      "topic": "arytmetyka",
+      "subtopic": "rownanie z roznica lap i nosow",
+      "statement": "Laczna liczba lap moich psow jest o 18 wieksza niz laczna liczba ich nosow. Ile mam psow?",
+      "hasImage": false,
+      "imageNote": null,
+      "choices": {
+        "A": "4",
+        "B": "5",
+        "C": "6",
+        "D": "8",
+        "E": "9"
+      },
+      "correct": "C"
+    },
+    {
+      "id": "kangur-maluch-2016-10",
+      "source": "kangur-maluch-2016-10",
+      "year": 2016,
+      "number": 10,
+      "difficulty": "4pkt",
+      "topic": "geometria_plaska",
+      "subtopic": "odbicie lustrzane pajacyka",
+      "statement": "Pajacyk przeglada sie w lustrze. Ktory z 5 rysunkow przedstawia jego odbicie?",
+      "hasImage": true,
+      "imageNote": "Pajacyk i 5 wariantow odbicia.",
+      "choices": {
+        "A": "rysunek A",
+        "B": "rysunek B",
+        "C": "rysunek C",
+        "D": "rysunek D",
+        "E": "rysunek E"
+      },
+      "correct": "E"
+    },
+    {
+      "id": "kangur-maluch-2016-11",
+      "source": "kangur-maluch-2016-11",
+      "year": 2016,
+      "number": 11,
+      "difficulty": "4pkt",
+      "topic": "arytmetyka",
+      "subtopic": "najmniejsza liczba o danej sumie cyfr",
+      "statement": "Suma cyfr liczby 2016 jest rowna 9. Jaka jest najmniejsza liczba wieksza od 2016, ktora ma te sama sume cyfr?",
+      "hasImage": false,
+      "imageNote": null,
+      "choices": {
+        "A": "2007",
+        "B": "2025",
+        "C": "2034",
+        "D": "2108",
+        "E": "2134"
+      },
+      "correct": "B"
+    },
+    {
+      "id": "kangur-maluch-2016-12",
+      "source": "kangur-maluch-2016-12",
+      "year": 2016,
+      "number": 12,
+      "difficulty": "4pkt",
+      "topic": "kombinatoryka",
+      "subtopic": "liczba drog w labiryncie",
+      "statement": "Myszka chce wydostac sie z labiryntu. Ile roznych drog moze wybrac, by zadnego przejscia nie przekroczyc wiecej niz raz?",
+      "hasImage": true,
+      "imageNote": "Labirynt z myszka i kilkoma przejsciami.",
+      "choices": {
+        "A": "2",
+        "B": "4",
+        "C": "5",
+        "D": "6",
+        "E": "7"
+      },
+      "correct": "C"
+    },
+    {
+      "id": "kangur-maluch-2016-13",
+      "source": "kangur-maluch-2016-13",
+      "year": 2016,
+      "number": 13,
+      "difficulty": "4pkt",
+      "topic": "logika",
+      "subtopic": "ktore miejsce na pewno zajete",
+      "statement": "Wzdluz ulicy jest 11 miejsc parkingowych ponumerowanych 1-11. Przyjechalo 8 samochodow i zajelo 8 KOLEJNYCH miejsc (nie wiadomo ktorych). Ktore miejsce na pewno zostalo zajete?",
+      "hasImage": false,
+      "imageNote": null,
+      "choices": {
+        "A": "Numer 5",
+        "B": "Numer 1",
+        "C": "Numer 9",
+        "D": "Numer 3",
+        "E": "Numer 11"
+      },
+      "correct": "A"
+    },
+    {
+      "id": "kangur-maluch-2016-14",
+      "source": "kangur-maluch-2016-14",
+      "year": 2016,
+      "number": 14,
+      "difficulty": "4pkt",
+      "topic": "lamiglowki",
+      "subtopic": "liczby na dwoch stronach kart",
+      "statement": "Zosia ma dwie karty, na obu stronach kazdej zapisana jest liczba. Suma liczb na karcie 1 rowna sie sumie na karcie 2. Suma wszystkich czterech liczb to 32. Widoczne sa 5 i 12. Jakie liczby sa na niewidocznych stronach?",
+      "hasImage": true,
+      "imageNote": "Dwie karty z widocznymi liczbami 5 i 12.",
+      "choices": {
+        "A": "10 i 5",
+        "B": "11 i 5",
+        "C": "9 i 6",
+        "D": "11 i 4",
+        "E": "8 i 7"
+      },
+      "correct": "D"
+    },
+    {
+      "id": "kangur-maluch-2016-15",
+      "source": "kangur-maluch-2016-15",
+      "year": 2016,
+      "number": 15,
+      "difficulty": "4pkt",
+      "topic": "geometria_plaska",
+      "subtopic": "kolejnosc figur w stosach",
+      "statement": "Pieciorо dzieci ulozylo stos z trzech figur: kola, kwadratu i trojkata. W ilu z 5 stosow trojkat lezy WYZEJ niz kwadrat?",
+      "hasImage": true,
+      "imageNote": "Piec stosow z rozna kolejnoscia kola, kwadratu i trojkata.",
+      "choices": {
+        "A": "3",
+        "B": "1",
+        "C": "4",
+        "D": "2",
+        "E": "0"
+      },
+      "correct": "C"
+    },
+    {
+      "id": "kangur-maluch-2016-16",
+      "source": "kangur-maluch-2016-16",
+      "year": 2016,
+      "number": 16,
+      "difficulty": "4pkt",
+      "topic": "lamiglowki",
+      "subtopic": "kwadrat lacinski - suma zacieniowanych",
+      "statement": "Leon wpisuje do tabeli 3x3 liczby 1, 2, 3 - kazda raz w kazdym wierszu i kazdej kolumnie. Pokazane: 1 w lewym gornym rogu, 2 w srodku. Ile wynosi suma liczb w dwoch zacieniowanych polach (prawa kolumna - srodek i dol)?",
+      "hasImage": true,
+      "imageNote": "Tabela 3x3 z liczbami 1 (rog) i 2 (srodek), dwa szare pola.",
+      "choices": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "5",
+        "E": "6"
+      },
+      "correct": "C"
+    },
+    {
+      "id": "kangur-maluch-2016-17",
+      "source": "kangur-maluch-2016-17",
+      "year": 2016,
+      "number": 17,
+      "difficulty": "5pkt",
+      "topic": "arytmetyka",
+      "subtopic": "suma wieku z warunkiem",
+      "statement": "Ola, Ula, Ala i Ela maja dzis urodziny. Ola, Ula i Ala sa w tym samym wieku, a Ela jest starsza od nich o 3 lata. Ktora liczba moze byc suma lat wszystkich czterech dziewczat?",
+      "hasImage": false,
+      "imageNote": null,
+      "choices": {
+        "A": "60",
+        "B": "29",
+        "C": "25",
+        "D": "30",
+        "E": "27"
+      },
+      "correct": "E"
+    },
+    {
+      "id": "kangur-maluch-2016-18",
+      "source": "kangur-maluch-2016-18",
+      "year": 2016,
+      "number": 18,
+      "difficulty": "5pkt",
+      "topic": "arytmetyka",
+      "subtopic": "proporcja gruszek do jablek",
+      "statement": "W ogrodzie rosna drzewa dwoch rodzajow: jedne maja 6 gruszek i 3 jablka, drugie 8 gruszek i 4 jablka. Lacznie rosnie 25 jablek. Ile gruszek rosnie w ogrodzie?",
+      "hasImage": true,
+      "imageNote": "Dwa drzewa z gruszkami i jablkami.",
+      "choices": {
+        "A": "35",
+        "B": "40",
+        "C": "45",
+        "D": "50",
+        "E": "56"
+      },
+      "correct": "D"
+    },
+    {
+      "id": "kangur-maluch-2016-19",
+      "source": "kangur-maluch-2016-19",
+      "year": 2016,
+      "number": 19,
+      "difficulty": "5pkt",
+      "topic": "logika",
+      "subtopic": "mozliwy uklad rzutow kostka",
+      "statement": "W pieciu rzutach kostka suma oczek wynosi 10. Ktore z ponizszych zdan moze opisywac te sytuacje?",
+      "hasImage": false,
+      "imageNote": null,
+      "choices": {
+        "A": "Tylko w 4 rzutach wypadly po 2 oczka",
+        "B": "W 3 rzutach wypadly po 3 oczka",
+        "C": "W 2 rzutach wypadly po 4 oczka",
+        "D": "Wypadlo 6 oczek i 2 oczka",
+        "E": "W 4 rzutach wypadlo po 1 oczku"
+      },
+      "correct": "E"
+    },
+    {
+      "id": "kangur-maluch-2016-20",
+      "source": "kangur-maluch-2016-20",
+      "year": 2016,
+      "number": 20,
+      "difficulty": "5pkt",
+      "topic": "lamiglowki",
+      "subtopic": "podzial paska na czesci w stosunku 1:2",
+      "statement": "Marek zbudowal pasek z 27 klockow. Dzieli go na dwa krotsze tak, ze jeden jest 2 razy dluzszy od drugiego. Potem dzieli jeden z otrzymanych tak samo i tak dalej. Ktorego z paskow na pewno NIE mogl otrzymac?",
+      "hasImage": true,
+      "imageNote": "Pasek 27 klockow i 5 wariantow krotszych paskow.",
+      "choices": {
+        "A": "pasek A",
+        "B": "pasek B",
+        "C": "pasek C",
+        "D": "pasek D",
+        "E": "pasek E"
+      },
+      "correct": "E"
+    },
+    {
+      "id": "kangur-maluch-2016-21",
+      "source": "kangur-maluch-2016-21",
+      "year": 2016,
+      "number": 21,
+      "difficulty": "5pkt",
+      "topic": "logika",
+      "subtopic": "porownywanie wag klockow",
+      "statement": "Asia ma 3 rodzaje klockow: trojkat, kolo, kwadrat (rozne wagi). Wlozyla po 4 do trzech pojemnikow i ustawila je od najlzejszego do najciezszego. Pojemniki: (kwadrat,trojkat,kolo,trojkat), (trojkat,kwadrat,kwadrat,kwadrat), (kolo,kwadrat,trojkat,kwadrat). Ktory klocek jest najlzejszy, a ktory najciezszy?",
+      "hasImage": true,
+      "imageNote": "Trzy pojemniki z klockami ustawione wg ciezaru.",
+      "choices": {
+        "A": "Najlzejszy trojkat, najciezszy kwadrat",
+        "B": "Najlzejszy trojkat, najciezszy kolo",
+        "C": "Najlzejszy kwadrat, najciezszy kolo",
+        "D": "Najlzejszy kolo, najciezszy kwadrat",
+        "E": "Najlzejszy kolo, najciezszy trojkat"
+      },
+      "correct": "B"
+    },
+    {
+      "id": "kangur-maluch-2016-22",
+      "source": "kangur-maluch-2016-22",
+      "year": 2016,
+      "number": 22,
+      "difficulty": "5pkt",
+      "topic": "logika",
+      "subtopic": "zagadka z kierunkiem patrzenia wrobli",
+      "statement": "Piec wrobli na galezi (Edek, Darek, Czarek, Bartek, Arek). Kazdy cwierkal tyle razy, ile widzial innych wrobli. Bartek cwierkal 3 razy. Potem jeden wrobel odwrocil glowe i lączna liczba cwierknieć byla wieksza. Ktory wrobel odwrocil glowe?",
+      "hasImage": true,
+      "imageNote": "Piec wrobli na galezi w rzedzie: Edek, Darek, Czarek, Bartek, Arek.",
+      "choices": {
+        "A": "Arek",
+        "B": "Bartek",
+        "C": "Czarek",
+        "D": "Darek",
+        "E": "Edek"
+      },
+      "correct": "E"
+    },
+    {
+      "id": "kangur-maluch-2016-23",
+      "source": "kangur-maluch-2016-23",
+      "year": 2016,
+      "number": 23,
+      "difficulty": "5pkt",
+      "topic": "logika",
+      "subtopic": "zagadka kto jakim sportowcem",
+      "statement": "Kacper, Franek i Antek to sportowcy: pilkarz, koszykarz, siatkarz. Pilkarz nie ma rodzenstwa i jest najmlodszy. Antek jest starszy od koszykarza i przyjazni sie z siostra Kacpra. Ktore zdanie jest prawdziwe?",
+      "hasImage": false,
+      "imageNote": null,
+      "choices": {
+        "A": "Kacper koszykarz, Franek siatkarz, Antek pilkarz",
+        "B": "Kacper koszykarz, Franek pilkarz, Antek siatkarz",
+        "C": "Kacper pilkarz, Franek koszykarz, Antek siatkarz",
+        "D": "Kacper siatkarz, Franek koszykarz, Antek pilkarz",
+        "E": "Kacper siatkarz, Franek pilkarz, Antek koszykarz"
+      },
+      "correct": "B"
+    },
+    {
+      "id": "kangur-maluch-2016-24",
+      "source": "kangur-maluch-2016-24",
+      "year": 2016,
+      "number": 24,
+      "difficulty": "5pkt",
+      "topic": "geometria_przestrzenna",
+      "subtopic": "rozprzestrzenianie koloru w szescianie",
+      "statement": "Duza kostka z 27 klockow, jeden czarny (przy krawedzi). W srode czarny klocek zmienil przylegajace ściankami biale klocki na czarne. W czwartek kazdy czarny klocek zrobil to samo. Ile czarnych klockow bylo po tych zmianach?",
+      "hasImage": true,
+      "imageNote": "Szescian 3x3x3 z jednym czarnym klockiem przy krawedzi.",
+      "choices": {
+        "A": "9",
+        "B": "11",
+        "C": "12",
+        "D": "13",
+        "E": "15"
+      },
+      "correct": "C"
+    }
+  ]
+}

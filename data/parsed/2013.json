@@ -1,0 +1,486 @@
+{
+  "year": 2013,
+  "category": "MALUCH",
+  "problems": [
+    {
+      "id": "kangur-maluch-2013-1",
+      "source": "kangur-maluch-2013-1",
+      "year": 2013,
+      "number": 1,
+      "difficulty": "3pkt",
+      "topic": "logika",
+      "subtopic": "porownywanie liczby obiektow",
+      "statement": "Na ktorym z ponizszych rysunkow (siatki 4x4 z kangurami) czarnych kangurow jest WIECEJ niz bialych?",
+      "hasImage": true,
+      "imageNote": "Piec siatek 4x4 z czarnymi i bialymi kangurami w roznych ukladach.",
+      "choices": {
+        "A": "siatka A",
+        "B": "siatka B",
+        "C": "siatka C",
+        "D": "siatka D",
+        "E": "siatka E"
+      },
+      "correct": "D"
+    },
+    {
+      "id": "kangur-maluch-2013-2",
+      "source": "kangur-maluch-2013-2",
+      "year": 2013,
+      "number": 2,
+      "difficulty": "3pkt",
+      "topic": "lamiglowki",
+      "subtopic": "kryptarytm - zakryte jednakowe cyfry",
+      "statement": "Ala zapisala prawidlowe dzialanie, potem zakryla dwie jednakowe cyfry i otrzymala: 4X + 5X = 104, gdzie X to zakryta cyfra. Jaka cyfra to X?",
+      "hasImage": false,
+      "imageNote": null,
+      "choices": {
+        "A": "2",
+        "B": "4",
+        "C": "5",
+        "D": "7",
+        "E": "8"
+      },
+      "correct": "D"
+    },
+    {
+      "id": "kangur-maluch-2013-3",
+      "source": "kangur-maluch-2013-3",
+      "year": 2013,
+      "number": 3,
+      "difficulty": "3pkt",
+      "topic": "geometria_plaska",
+      "subtopic": "odbicie lustrzane zegara",
+      "statement": "Na scianie naprzeciwko lustra wisi zegar wskazujacy godzine 15:00. Ktory z rysunkow przedstawia odbicie tego zegara w lustrze?",
+      "hasImage": true,
+      "imageNote": "Zegar 15:00 i 5 wariantow odbicia lustrzanego.",
+      "choices": {
+        "A": "zegar A",
+        "B": "zegar B",
+        "C": "zegar C",
+        "D": "zegar D",
+        "E": "zegar E"
+      },
+      "correct": "D"
+    },
+    {
+      "id": "kangur-maluch-2013-4",
+      "source": "kangur-maluch-2013-4",
+      "year": 2013,
+      "number": 4,
+      "difficulty": "3pkt",
+      "topic": "geometria_plaska",
+      "subtopic": "liczenie trojkatow w figurze",
+      "statement": "Ile trojkatow widac na rysunku (duzy trojkat podzielony liniami na mniejsze)?",
+      "hasImage": true,
+      "imageNote": "Duzy trojkat podzielony wewnetrznymi liniami na mniejsze trojkaty.",
+      "choices": {
+        "A": "8",
+        "B": "9",
+        "C": "10",
+        "D": "11",
+        "E": "12"
+      },
+      "correct": "C"
+    },
+    {
+      "id": "kangur-maluch-2013-5",
+      "source": "kangur-maluch-2013-5",
+      "year": 2013,
+      "number": 5,
+      "difficulty": "3pkt",
+      "topic": "arytmetyka",
+      "subtopic": "dzielniki liczby",
+      "statement": "Daniel ma 36 zolnierzykow. Rozdzielil je rowno miedzy kolegow. Ktora z liczb na pewno NIE jest liczba kolegow Daniela?",
+      "hasImage": false,
+      "imageNote": null,
+      "choices": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "5",
+        "E": "6"
+      },
+      "correct": "D"
+    },
+    {
+      "id": "kangur-maluch-2013-6",
+      "source": "kangur-maluch-2013-6",
+      "year": 2013,
+      "number": 6,
+      "difficulty": "3pkt",
+      "topic": "arytmetyka",
+      "subtopic": "mnozenie i dzielenie z kontekstem",
+      "statement": "Mama robi kanapki, kazda z 2 kromek chleba. Bochenek to 24 kromki. Ile kanapek zrobi z dwoch i pol bochenkow?",
+      "hasImage": false,
+      "imageNote": null,
+      "choices": {
+        "A": "24",
+        "B": "30",
+        "C": "48",
+        "D": "34",
+        "E": "26"
+      },
+      "correct": "B"
+    },
+    {
+      "id": "kangur-maluch-2013-7",
+      "source": "kangur-maluch-2013-7",
+      "year": 2013,
+      "number": 7,
+      "difficulty": "3pkt",
+      "topic": "logika",
+      "subtopic": "ocena prawdziwosci zdan o liczbie",
+      "statement": "Pieciu chlopcow powiedzialo zdanie o liczbie 325. Andrzej: jest trzycyfrowa. Borys: wszystkie cyfry rozne. Czarek: suma cyfr = 10. Dawid: cyfra jednosci to 5. Emil: wszystkie cyfry nieparzyste. Ktory powiedzial NIEPRAWDE?",
+      "hasImage": false,
+      "imageNote": null,
+      "choices": {
+        "A": "Andrzej",
+        "B": "Borys",
+        "C": "Czarek",
+        "D": "Dawid",
+        "E": "Emil"
+      },
+      "correct": "E"
+    },
+    {
+      "id": "kangur-maluch-2013-8",
+      "source": "kangur-maluch-2013-8",
+      "year": 2013,
+      "number": 8,
+      "difficulty": "3pkt",
+      "topic": "geometria_plaska",
+      "subtopic": "dopasowanie odlamanej czesci",
+      "statement": "Prostokatne lustro pekło i jedna czesc odpadla. Ktora z 5 czesci to odlamany kawalek?",
+      "hasImage": true,
+      "imageNote": "Prostokatne lustro z pekniec i 5 wariantow odlamanej czesci.",
+      "choices": {
+        "A": "czesc A",
+        "B": "czesc B",
+        "C": "czesc C",
+        "D": "czesc D",
+        "E": "czesc E"
+      },
+      "correct": "C"
+    },
+    {
+      "id": "kangur-maluch-2013-9",
+      "source": "kangur-maluch-2013-9",
+      "year": 2013,
+      "number": 9,
+      "difficulty": "4pkt",
+      "topic": "geometria_przestrzenna",
+      "subtopic": "stemple ze scian bryly",
+      "statement": "Duza kostka z 27 klockow. Hania usunela 4 klocki. Scianami otrzymanej figury robila stemple. Ktorego stempla NIE mogla otrzymac?",
+      "hasImage": true,
+      "imageNote": "Bryla z 23 klockow (kostka 3x3x3 minus 4) i 5 wariantow stempli.",
+      "choices": {
+        "A": "stempel A",
+        "B": "stempel B",
+        "C": "stempel C",
+        "D": "stempel D",
+        "E": "stempel E"
+      },
+      "correct": "D"
+    },
+    {
+      "id": "kangur-maluch-2013-10",
+      "source": "kangur-maluch-2013-10",
+      "year": 2013,
+      "number": 10,
+      "difficulty": "4pkt",
+      "topic": "arytmetyka",
+      "subtopic": "zmiana wartosci - klamstwa i prawdy",
+      "statement": "Nos Pinokia wydluza sie o 6 cm za kazde klamstwo, skraca o 2 cm za kazda prawde. Nos mial 9 cm. Pinokio powiedzial 3 klamstwa i 2 prawdy. Jak dlugi jest teraz nos?",
+      "hasImage": false,
+      "imageNote": null,
+      "choices": {
+        "A": "14 cm",
+        "B": "15 cm",
+        "C": "19 cm",
+        "D": "23 cm",
+        "E": "31 cm"
+      },
+      "correct": "D"
+    },
+    {
+      "id": "kangur-maluch-2013-11",
+      "source": "kangur-maluch-2013-11",
+      "year": 2013,
+      "number": 11,
+      "difficulty": "4pkt",
+      "topic": "arytmetyka",
+      "subtopic": "minimalizacja liczby opakowan",
+      "statement": "Pomarancze sa pakowane po 5, po 9 lub po 10 sztuk. Piotr chce dokladnie 48 pomarancz. Jaka jest najmniejsza liczba opakowan?",
+      "hasImage": false,
+      "imageNote": null,
+      "choices": {
+        "A": "8",
+        "B": "7",
+        "C": "6",
+        "D": "5",
+        "E": "4"
+      },
+      "correct": "D"
+    },
+    {
+      "id": "kangur-maluch-2013-12",
+      "source": "kangur-maluch-2013-12",
+      "year": 2013,
+      "number": 12,
+      "difficulty": "4pkt",
+      "topic": "geometria_plaska",
+      "subtopic": "ruch po siatce - skrety",
+      "statement": "Ania idzie wzdluz strzalki, na kazdym skrzyzowaniu skreca w prawo lub lewo: prawo, lewo, lewo, prawo, lewo, lewo, zatrzymuje sie. Przy ktorym obrazku konczy wedrowke?",
+      "hasImage": true,
+      "imageNote": "Siatka ulic z obrazkami na skrzyzowaniach, strzalka startowa Ani.",
+      "choices": {
+        "A": "obrazek A",
+        "B": "obrazek B",
+        "C": "obrazek C",
+        "D": "obrazek D",
+        "E": "obrazek E"
+      },
+      "correct": "B"
+    },
+    {
+      "id": "kangur-maluch-2013-13",
+      "source": "kangur-maluch-2013-13",
+      "year": 2013,
+      "number": 13,
+      "difficulty": "4pkt",
+      "topic": "logika",
+      "subtopic": "zbiory - czesc wspolna",
+      "statement": "Kazdy z 30 uczniow uczy sie angielskiego lub niemieckiego. Niemieckiego uczy sie 15, angielskiego 20. Ilu uczniow uczy sie OBU jezykow?",
+      "hasImage": false,
+      "imageNote": null,
+      "choices": {
+        "A": "25",
+        "B": "15",
+        "C": "30",
+        "D": "10",
+        "E": "5"
+      },
+      "correct": "E"
+    },
+    {
+      "id": "kangur-maluch-2013-14",
+      "source": "kangur-maluch-2013-14",
+      "year": 2013,
+      "number": 14,
+      "difficulty": "4pkt",
+      "topic": "arytmetyka",
+      "subtopic": "podzielnosc przez cyfre jednosci",
+      "statement": "Liczba jest 'ciekawa', gdy dzieli sie przez swoja cyfre jednosci (np. 35 dzieli sie przez 5). Ile ciekawych liczb jest wiekszych od 21 i mniejszych od 30?",
+      "hasImage": false,
+      "imageNote": null,
+      "choices": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "5",
+        "E": "6"
+      },
+      "correct": "B"
+    },
+    {
+      "id": "kangur-maluch-2013-15",
+      "source": "kangur-maluch-2013-15",
+      "year": 2013,
+      "number": 15,
+      "difficulty": "4pkt",
+      "topic": "geometria_plaska",
+      "subtopic": "dopasowanie kawalka ukladanki",
+      "statement": "Ktory z 5 kawalkow ukladanki pasuje do narysowanego tak, by razem utworzyly prostokat?",
+      "hasImage": true,
+      "imageNote": "Czarny kawalek ukladanki i 5 wariantow drugiego kawalka.",
+      "choices": {
+        "A": "kawalek A",
+        "B": "kawalek B",
+        "C": "kawalek C",
+        "D": "kawalek D",
+        "E": "kawalek E"
+      },
+      "correct": "B"
+    },
+    {
+      "id": "kangur-maluch-2013-16",
+      "source": "kangur-maluch-2013-16",
+      "year": 2013,
+      "number": 16,
+      "difficulty": "4pkt",
+      "topic": "czas_kalendarz",
+      "subtopic": "zagadka z datami urodzin",
+      "statement": "Asia, Basia, Cesia i Dorotka urodzily sie w datach: 20 lutego, 12 kwietnia, 12 maja, 25 maja. Basia i Asia w tym samym miesiacu. Asia i Cesia w roznych miesiacach, ale w dniach o tych samych numerach. Ktora jest najstarsza?",
+      "hasImage": false,
+      "imageNote": null,
+      "choices": {
+        "A": "Asia",
+        "B": "Basia",
+        "C": "Cesia",
+        "D": "Dorotka",
+        "E": "Nie da sie rozstrzygnac"
+      },
+      "correct": "D"
+    },
+    {
+      "id": "kangur-maluch-2013-17",
+      "source": "kangur-maluch-2013-17",
+      "year": 2013,
+      "number": 17,
+      "difficulty": "5pkt",
+      "topic": "geometria_plaska",
+      "subtopic": "ukladanie kwadratu z figur",
+      "statement": "Wiktoria wycieła kilka jednakowych figur (L z 4 kratek). Chce ulozyc z nich jak najmniejszy kwadrat, bez nakladania. Ile figur potrzebuje?",
+      "hasImage": true,
+      "imageNote": "Figura L zbudowana z 4 kratek.",
+      "choices": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "5",
+        "E": "6"
+      },
+      "correct": "C"
+    },
+    {
+      "id": "kangur-maluch-2013-18",
+      "source": "kangur-maluch-2013-18",
+      "year": 2013,
+      "number": 18,
+      "difficulty": "5pkt",
+      "topic": "czas_kalendarz",
+      "subtopic": "wyrazenie z dzialaniami - godziny",
+      "statement": "W grudniu (31 dni) stary niedzwiedz spal dokladnie 3 tygodnie. Ktore wyrazenie podaje liczbe godzin, ktore niedzwiedz NIE spal?",
+      "hasImage": false,
+      "imageNote": null,
+      "choices": {
+        "A": "(31 - 7) razy 3 razy 24",
+        "B": "(31 - 7 razy 3) razy 24",
+        "C": "(30 - 7 razy 3) razy 24",
+        "D": "(31 - 7) razy 24",
+        "E": "(30 - 7) razy 3 razy 24"
+      },
+      "correct": "B"
+    },
+    {
+      "id": "kangur-maluch-2013-19",
+      "source": "kangur-maluch-2013-19",
+      "year": 2013,
+      "number": 19,
+      "difficulty": "5pkt",
+      "topic": "arytmetyka",
+      "subtopic": "iloczyn cyfr roku wiekszy od sumy",
+      "statement": "Ile lat musi uplynac od 1 stycznia 2013, aby po raz pierwszy nastapil rok, w ktorym iloczyn wszystkich cyfr roku jest WIEKSZY od sumy tych cyfr?",
+      "hasImage": false,
+      "imageNote": null,
+      "choices": {
+        "A": "87",
+        "B": "98",
+        "C": "101",
+        "D": "102",
+        "E": "103"
+      },
+      "correct": "D"
+    },
+    {
+      "id": "kangur-maluch-2013-20",
+      "source": "kangur-maluch-2013-20",
+      "year": 2013,
+      "number": 20,
+      "difficulty": "5pkt",
+      "topic": "lamiglowki",
+      "subtopic": "domino - najdluzszy rzad",
+      "statement": "Bartek ma 7 kamieni domino. Chce ulozyc je w rzad tak, by sasiednie pola mialy te sama liczbe oczek. Z ilu kamieni sklada sie najdluzszy taki rzad?",
+      "hasImage": true,
+      "imageNote": "Siedem kamieni domino z roznymi ukladami oczek.",
+      "choices": {
+        "A": "3",
+        "B": "4",
+        "C": "5",
+        "D": "6",
+        "E": "7"
+      },
+      "correct": "D"
+    },
+    {
+      "id": "kangur-maluch-2013-21",
+      "source": "kangur-maluch-2013-21",
+      "year": 2013,
+      "number": 21,
+      "difficulty": "5pkt",
+      "topic": "logika",
+      "subtopic": "podzial na rowne zestawy - niemozliwosc",
+      "statement": "Krzys ma 7 dzwonkow o wartosci 1, 2, 3, 4, 5, 6, 7 zl. Na ile sposobow moze rozdzielic je na trzy zestawy tak, by kazdy kosztowal tyle samo?",
+      "hasImage": false,
+      "imageNote": null,
+      "choices": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4",
+        "E": "Taki podzial nie jest mozliwy"
+      },
+      "correct": "E"
+    },
+    {
+      "id": "kangur-maluch-2013-22",
+      "source": "kangur-maluch-2013-22",
+      "year": 2013,
+      "number": 22,
+      "difficulty": "5pkt",
+      "topic": "geometria_plaska",
+      "subtopic": "liczenie elementow wzoru na dywanie",
+      "statement": "Dywan 36 dm na 60 dm, czesciowo zwiniety. Wzor to male kwadraty naprzemiennie z ksiezycem lub sloncem. Ile ksiezycow jest na calym dywanie?",
+      "hasImage": true,
+      "imageNote": "Czesciowo zwiniety dywan z naprzemiennym wzorem ksiezycow i sloncow.",
+      "choices": {
+        "A": "68",
+        "B": "67",
+        "C": "65",
+        "D": "63",
+        "E": "60"
+      },
+      "correct": "D"
+    },
+    {
+      "id": "kangur-maluch-2013-23",
+      "source": "kangur-maluch-2013-23",
+      "year": 2013,
+      "number": 23,
+      "difficulty": "5pkt",
+      "topic": "arytmetyka",
+      "subtopic": "suma liczb zlozonych z cyfr 0 i 1",
+      "statement": "Ula tworzy liczby uzywajac tylko cyfr 0 lub 1 (np. 1, 101, 1111). Co najmniej ile takich liczb musi dodac, aby otrzymac 2013?",
+      "hasImage": false,
+      "imageNote": null,
+      "choices": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "5",
+        "E": "204"
+      },
+      "correct": "B"
+    },
+    {
+      "id": "kangur-maluch-2013-24",
+      "source": "kangur-maluch-2013-24",
+      "year": 2013,
+      "number": 24,
+      "difficulty": "5pkt",
+      "topic": "logika",
+      "subtopic": "ulozenie szuflad wedlug warunkow",
+      "statement": "Komoda ma 4 szuflady. Rekawiczki lezą nizej niz szaliki. Parasolki lezą nizej niz czapki i nizej niz rekawiczki. Szaliki nie lezą najwyzej. Ktora to komoda (od gory)?",
+      "hasImage": true,
+      "imageNote": "Piec wariantow komody z roznym ulozeniem czapek, szalikow, rekawiczek, parasolek.",
+      "choices": {
+        "A": "Szaliki, Rekawiczki, Czapki, Parasolki",
+        "B": "Czapki, Parasolki, Szaliki, Rekawiczki",
+        "C": "Czapki, Szaliki, Rekawiczki, Parasolki",
+        "D": "Szaliki, Czapki, Rekawiczki, Parasolki",
+        "E": "Czapki, Szaliki, Parasolki, Rekawiczki"
+      },
+      "correct": "C"
+    }
+  ]
+}

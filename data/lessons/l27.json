@@ -1,0 +1,497 @@
+{
+  "id": "l27",
+  "number": 27,
+  "block": "Pomiary i jednostki",
+  "blockCode": "E",
+  "title": "Dlugosc: mm, cm, dm, m, km",
+  "topic": "pomiary_jednostki",
+  "estimatedMinutes": 14,
+  "theory": {
+    "intro": "Miarka, linijka, taśma w sklepie. Aby zmierzyć wszystko od ołówka po wycieczkę po Polsce, mamy różne jednostki długości: milimetry (mm), centymetry (cm), decymetry (dm), metry (m) i kilometry (km). Każda następna jest 10 (lub 1000) razy większa.",
+    "tool": "Sztuczka 1: ZAMIANY MIĘDZY JEDNOSTKAMI. 1 cm = 10 mm, 1 dm = 10 cm, 1 m = 10 dm = 100 cm = 1000 mm, 1 km = 1000 m. Mnoż lub dziel przez 10, 100, 1000.\n\nSztuczka 2: NA WIĘKSZA - DZIEL, NA MNIEJSZA - MNOZ. 250 cm na metry: dzielę przez 100 = 2,5 m. 3 m na cm: mnożę przez 100 = 300 cm.\n\nSztuczka 3: ZAOKRAGLIJ DO TEJ SAMEJ JEDNOSTKI. Porównując 250 cm i 3 m, zamień obie na cm: 250 cm i 300 cm - 3 m jest dłuższe.\n\nSztuczka 4: SZACUJ ROZMIARY. Ołówek ~15 cm. Wzrost dziecka ~140 cm = 1,4 m. Tor wyścigowy ~400 m. Wycieczka po mieście ~5 km.",
+    "trick": "Kangur lubi mieszać jednostki w jednym zadaniu. Zawsze sprowadź wszystko do TEJ SAMEJ jednostki przed liczeniem - bez tego pomylisz się na pewno. Najlepiej do najmniejszej (cm), żeby uniknąć ułamków."
+  },
+  "versions": [
+    {
+      "versionId": "v1",
+      "label": "Wersja 1 (oryginalna)",
+      "warmup": [
+        {
+          "id": "gen-l27-v1-w1",
+          "source": "generated-l27-v1-w1",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "pomiary_jednostki",
+          "subtopic": "zamiana cm na mm",
+          "statement": "Ile milimetrow ma 8 centymetrow?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "8",
+            "B": "18",
+            "C": "80",
+            "D": "800",
+            "E": "108"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "gen-l27-v1-w2",
+          "source": "generated-l27-v1-w2",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "pomiary_jednostki",
+          "subtopic": "zamiana m na cm",
+          "statement": "Ile centymetrow ma 2 metry?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "20",
+            "B": "200",
+            "C": "2000",
+            "D": "2",
+            "E": "22"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "gen-l27-v1-w3",
+          "source": "generated-l27-v1-w3",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "pomiary_jednostki",
+          "subtopic": "zamiana m na km",
+          "statement": "Ile metrow ma pol kilometra?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "50",
+            "B": "100",
+            "C": "500",
+            "D": "1000",
+            "E": "5000"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "gen-l27-v1-w4",
+          "source": "generated-l27-v1-w4",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "pomiary_jednostki",
+          "subtopic": "porownanie dlugosci",
+          "statement": "Co jest dluzsze: 150 cm czy 2 metry?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "150 cm",
+            "B": "2 metry",
+            "C": "Sa rowne",
+            "D": "Nie da sie porownac",
+            "E": "Zalezy"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "kangur-maluch-2018-16",
+          "source": "kangur-maluch-2018-16",
+          "year": 2018,
+          "number": 16,
+          "difficulty": "4pkt",
+          "topic": "pomiary_jednostki",
+          "subtopic": "dlugosci paska z roznymi dziurkami",
+          "statement": "Pasek dla lalki z guzikiem z jednej strony i 5 dziurkami z drugiej, w odleglosci 2 cm. O ile dluzszy jest pasek zapiety na pierwsza (najblizsza guzika) dziurke od paska zapietego na piata (najdalsza)?",
+          "hasImage": true,
+          "imageNote": "Pasek niezapiety z guzikiem i 5 dziurkami co 2 cm, pasek zapiety pokazany jako kolo.",
+          "choices": {
+            "A": "O 4 cm",
+            "B": "O 8 cm",
+            "C": "O 10 cm",
+            "D": "O 16 cm",
+            "E": "O 20 cm"
+          },
+          "correct": "B"
+        }
+      ],
+      "challenge": [
+        {
+          "id": "gen-l27-v1-c1",
+          "source": "generated-l27-v1-c1",
+          "year": null,
+          "number": null,
+          "difficulty": "4pkt",
+          "topic": "pomiary_jednostki",
+          "subtopic": "suma dlugosci",
+          "statement": "Linijka ma 30 cm, lina 2 m, sznur 50 cm. Ile to lacznie w centymetrach?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "82",
+            "B": "230",
+            "C": "280",
+            "D": "320",
+            "E": "500"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "gen-l27-v1-c2",
+          "source": "generated-l27-v1-c2",
+          "year": null,
+          "number": null,
+          "difficulty": "5pkt",
+          "topic": "pomiary_jednostki",
+          "subtopic": "odleglosc miedzy miastami",
+          "statement": "Z miasta A do B jest 7 km. Z B do C jest 4500 m. Ile metrow lacznie z A do C przez B?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "7500",
+            "B": "11000",
+            "C": "11500",
+            "D": "45000",
+            "E": "75000"
+          },
+          "correct": "C"
+        }
+      ],
+      "solutions": [
+        {
+          "problemId": "gen-l27-v1-w1",
+          "observation": "1 cm = 10 mm.",
+          "strategy": "Mnozenie przez 10.",
+          "steps": [
+            "8 cm = 8 razy 10 mm = 80 mm"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l27-v1-w2",
+          "observation": "1 m = 100 cm.",
+          "strategy": "Mnozenie przez 100.",
+          "steps": [
+            "2 m = 2 razy 100 cm = 200 cm"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l27-v1-w3",
+          "observation": "1 km = 1000 m, polowa = 500 m.",
+          "strategy": "Polowa 1000.",
+          "steps": [
+            "1 km = 1000 m",
+            "Pol km = 500 m"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l27-v1-w4",
+          "observation": "Zamiana na te sama jednostke.",
+          "strategy": "Sprowadzanie do cm.",
+          "steps": [
+            "2 m = 200 cm",
+            "200 cm > 150 cm"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2018-16",
+          "observation": "Pasek z 5 dziurkami co 2 cm.",
+          "strategy": "Liczenie roznicy obwodow.",
+          "steps": [
+            "Roznica miedzy 1. a 5. dziurka to 4 odstepy razy 2 cm = 8 cm",
+            "Pasek na 1. dziurke jest dluzszy o 8 cm"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l27-v1-c1",
+          "observation": "Sprowadz wszystko do cm.",
+          "strategy": "Zamiana jednostek + dodawanie.",
+          "steps": [
+            "Linijka: 30 cm",
+            "Lina: 2 m = 200 cm",
+            "Sznur: 50 cm",
+            "Razem: 30 + 200 + 50 = 280 cm"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l27-v1-c2",
+          "observation": "Wszystko do metrow.",
+          "strategy": "Zamiana km + dodawanie.",
+          "steps": [
+            "7 km = 7000 m",
+            "Razem: 7000 + 4500 = 11500 m"
+          ],
+          "answer": "C",
+          "alternative": null
+        }
+      ]
+    },
+    {
+      "versionId": "v2",
+      "label": "Wersja 2 (powtorka)",
+      "warmup": [
+        {
+          "id": "gen-l27-v2-w1",
+          "source": "generated-l27-v2-w1",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "pomiary_jednostki",
+          "subtopic": "zamiana mm na cm",
+          "statement": "Ile centymetrow ma 50 milimetrow?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "5",
+            "B": "50",
+            "C": "500",
+            "D": "0.5",
+            "E": "500"
+          },
+          "correct": "A"
+        },
+        {
+          "id": "gen-l27-v2-w2",
+          "source": "generated-l27-v2-w2",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "pomiary_jednostki",
+          "subtopic": "zamiana km na m",
+          "statement": "Ile metrow ma 3 kilometry?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "30",
+            "B": "300",
+            "C": "3000",
+            "D": "30000",
+            "E": "300000"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "gen-l27-v2-w3",
+          "source": "generated-l27-v2-w3",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "pomiary_jednostki",
+          "subtopic": "zamiana dm na cm",
+          "statement": "Ile centymetrow ma 6 decymetrow?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "6",
+            "B": "60",
+            "C": "600",
+            "D": "16",
+            "E": "66"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "gen-l27-v2-w4",
+          "source": "generated-l27-v2-w4",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "pomiary_jednostki",
+          "subtopic": "najwiecej",
+          "statement": "Ktora dlugosc jest najwieksza?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "100 cm",
+            "B": "1 m",
+            "C": "1000 mm",
+            "D": "10 dm",
+            "E": "5 m"
+          },
+          "correct": "E"
+        },
+        {
+          "id": "gen-l27-v2-w5",
+          "source": "generated-l27-v2-w5",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "pomiary_jednostki",
+          "subtopic": "praktyczna miara",
+          "statement": "Pisak ma najczesciej dlugosc okolo:",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "1 cm",
+            "B": "15 cm",
+            "C": "1 m",
+            "D": "50 cm",
+            "E": "1 km"
+          },
+          "correct": "B"
+        }
+      ],
+      "challenge": [
+        {
+          "id": "gen-l27-v2-c1",
+          "source": "generated-l27-v2-c1",
+          "year": null,
+          "number": null,
+          "difficulty": "4pkt",
+          "topic": "pomiary_jednostki",
+          "subtopic": "odejmowanie z jednostkami",
+          "statement": "Mama ma wstazke 3 m. Odcia 75 cm. Ile cm wstazki zostalo?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "225",
+            "B": "250",
+            "C": "272",
+            "D": "300",
+            "E": "325"
+          },
+          "correct": "A"
+        },
+        {
+          "id": "gen-l27-v2-c2",
+          "source": "generated-l27-v2-c2",
+          "year": null,
+          "number": null,
+          "difficulty": "5pkt",
+          "topic": "pomiary_jednostki",
+          "subtopic": "skladanie kawalkow",
+          "statement": "Z czterech kawalkow tasiemki: 50 cm, 60 cm, 75 cm i 1 m zlozono jeden dlugi pasek. Ile metrow ma ten pasek?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "1.85",
+            "B": "2.45",
+            "C": "2.85",
+            "D": "3.00",
+            "E": "3.25"
+          },
+          "correct": "C"
+        }
+      ],
+      "solutions": [
+        {
+          "problemId": "gen-l27-v2-w1",
+          "observation": "1 cm = 10 mm, wiec dziel przez 10.",
+          "strategy": "Dzielenie.",
+          "steps": [
+            "50 mm : 10 = 5 cm"
+          ],
+          "answer": "A",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l27-v2-w2",
+          "observation": "1 km = 1000 m.",
+          "strategy": "Mnozenie przez 1000.",
+          "steps": [
+            "3 km = 3 razy 1000 m = 3000 m"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l27-v2-w3",
+          "observation": "1 dm = 10 cm.",
+          "strategy": "Mnozenie.",
+          "steps": [
+            "6 dm = 6 razy 10 cm = 60 cm"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l27-v2-w4",
+          "observation": "Sprowadz do tej samej jednostki.",
+          "strategy": "Porownanie.",
+          "steps": [
+            "100 cm = 1 m, 1000 mm = 1 m, 10 dm = 1 m, 5 m - najwieksze"
+          ],
+          "answer": "E",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l27-v2-w5",
+          "observation": "Pisak ~15 cm.",
+          "strategy": "Praktyczne miary.",
+          "steps": [
+            "Typowy pisak ma 15 cm"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l27-v2-c1",
+          "observation": "Zamien 3 m na cm.",
+          "strategy": "Zamiana + odejmowanie.",
+          "steps": [
+            "3 m = 300 cm",
+            "300 - 75 = 225 cm"
+          ],
+          "answer": "A",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l27-v2-c2",
+          "observation": "Sprowadz wszystko do cm, potem na metry.",
+          "strategy": "Sumowanie i zamiana.",
+          "steps": [
+            "50 + 60 + 75 + 100 = 285 cm",
+            "285 cm = 2.85 m"
+          ],
+          "answer": "C",
+          "alternative": null
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "1 m to ile cm?",
+      "choices": {
+        "A": "10",
+        "B": "100",
+        "C": "1000"
+      },
+      "correct": "B",
+      "explain": "1 m = 100 cm."
+    },
+    {
+      "q": "1 km to ile m?",
+      "choices": {
+        "A": "100",
+        "B": "1000",
+        "C": "10000"
+      },
+      "correct": "B",
+      "explain": "1 km = 1000 m."
+    },
+    {
+      "q": "Co dluzsze: 250 cm czy 2.5 m?",
+      "choices": {
+        "A": "250 cm",
+        "B": "2.5 m",
+        "C": "Rowne"
+      },
+      "correct": "C",
+      "explain": "250 cm = 2.5 m - sa rowne."
+    }
+  ]
+}

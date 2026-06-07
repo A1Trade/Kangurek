@@ -1,0 +1,586 @@
+{
+  "id": "l04",
+  "number": 4,
+  "block": "Liczby i dzialania",
+  "blockCode": "A",
+  "title": "Kolejnosc wykonywania dzialan",
+  "topic": "arytmetyka",
+  "estimatedMinutes": 15,
+  "theory": {
+    "intro": "Kiedy wpiszesz na kalkulatorze 2 + 3 x 4, kalkulator odpowie 14 - a nie 20. Dlaczego? Bo mnozenie idzie pierwsze. Ta zasada ratuje przed pomylkami, ale tylko jak ja znasz. Dzis nauczysz sie kolejnosci dzialan i tego, kiedy nawiasy zmieniaja wszystko.",
+    "tool": "Sztuczka 1: KOLEJNOSC DZIALAN. Najpierw nawiasy, potem mnozenie i dzielenie, na koncu dodawanie i odejmowanie. Ten porzadek to umowa, ktora wszyscy stosuja.\n\nSztuczka 2: NAWIASY ZMIENIAJA WSZYSTKO. (2 + 3) razy 4 = 20, ale 2 + 3 razy 4 = 14. Roznica 6 - tylko przez dwa znaki nawiasu. Zawsze patrz, czy w zadaniu sa nawiasy.\n\nSztuczka 3: PRZY UKLADANIU WSTAW ZNAKI TAK BY WYNIK BYL ZADANY. Gdy Kangur prosi: wstaw znaki by wyszlo 8 - sprawdzaj kolejne kombinacje znakow systematycznie.",
+    "trick": "W zadaniach 'wstaw nawiasy' albo 'wstaw znaki' praca jest detektywistyczna. Spojrz na wynik, potem cofaj sie. Czesto wystarczy zauwazyc PARZYSTOSC wyniku lub jego ostatnia cyfre - to natychmiast eliminuje czesc odpowiedzi."
+  },
+  "versions": [
+    {
+      "versionId": "v1",
+      "label": "Wersja 1 (oryginalna)",
+      "warmup": [
+        {
+          "id": "gen-l04-w1",
+          "source": "generated-l04-w1",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "arytmetyka",
+          "subtopic": "kolejnosc bez nawiasow",
+          "statement": "Ile to 2 + 3 razy 4?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "14",
+            "B": "20",
+            "C": "24",
+            "D": "10",
+            "E": "9"
+          },
+          "correct": "A"
+        },
+        {
+          "id": "gen-l04-w2",
+          "source": "generated-l04-w2",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "arytmetyka",
+          "subtopic": "rola nawiasow",
+          "statement": "Ile to (2 + 3) razy 4?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "14",
+            "B": "20",
+            "C": "24",
+            "D": "10",
+            "E": "9"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "gen-l04-w3",
+          "source": "generated-l04-w3",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "arytmetyka",
+          "subtopic": "mnozenie i odejmowanie",
+          "statement": "W koszu bylo 30 jablek. Wladek wzial 2 razy po 4 jablka. Ile zostalo?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "20",
+            "B": "22",
+            "C": "24",
+            "D": "26",
+            "E": "28"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "kangur-maluch-2025-7",
+          "source": "kangur-maluch-2025-7",
+          "year": 2025,
+          "number": 7,
+          "difficulty": "3pkt",
+          "topic": "arytmetyka",
+          "subtopic": "maksymalizacja wyniku - kolejnosc cyfr",
+          "statement": "Dominika chce wpisac cztery liczby 2, 0, 2, 5 w schemat _ + _ - _ + _ . W jakiej kolejnosci wpisac, by po wykonaniu dzialan otrzymac NAJWIEKSZY wynik?",
+          "hasImage": true,
+          "imageNote": "Schemat z czterema pustymi kratkami i znakami +, -, +.",
+          "choices": {
+            "A": "5, 2, 0, 2",
+            "B": "5, 0, 2, 2",
+            "C": "2, 5, 2, 0",
+            "D": "2, 2, 5, 0",
+            "E": "5, 2, 2, 0"
+          },
+          "correct": "A"
+        },
+        {
+          "id": "kangur-maluch-2019-5",
+          "source": "kangur-maluch-2019-5",
+          "year": 2019,
+          "number": 5,
+          "difficulty": "3pkt",
+          "topic": "arytmetyka",
+          "subtopic": "krzyżówka liczbowa",
+          "statement": "W krzyżówce działania wykonujemy tylko poziomo lub pionowo. Jaką liczbę otrzymamy w polu oznaczonym znakiem zapytania w poprawnie uzupełnionej krzyżówce?",
+          "hasImage": true,
+          "imageNote": "Krzyżówka z liczbami 0, 2, 1, 9 oraz znakami +, -, =. Po rozwiązaniu w polu ? wychodzi 7.",
+          "choices": {
+            "A": "4",
+            "B": "5",
+            "C": "6",
+            "D": "7",
+            "E": "8"
+          },
+          "correct": "D"
+        }
+      ],
+      "challenge": [
+        {
+          "id": "gen-l04-c1",
+          "source": "generated-l04-c1",
+          "year": null,
+          "number": null,
+          "difficulty": "4pkt",
+          "topic": "arytmetyka",
+          "subtopic": "wstawianie znakow",
+          "statement": "Wstaw znaki + lub - miedzy liczby 9 _ 3 _ 2 tak, by otrzymac wynik 8. Ktory zestaw znakow jest poprawny?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "9 + 3 + 2",
+            "B": "9 + 3 - 2",
+            "C": "9 - 3 + 2",
+            "D": "9 - 3 - 2",
+            "E": "Nie da sie"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "kangur-maluch-2012-17",
+          "source": "kangur-maluch-2012-17",
+          "year": 2012,
+          "number": 17,
+          "difficulty": "5pkt",
+          "topic": "arytmetyka",
+          "subtopic": "maksymalizacja sumy dwoch liczb",
+          "statement": "Gres zbudowal dwie liczby trzycyfrowe uzywajac cyfr 1, 2, 3, 4, 5 i 6 - kazdej dokladnie raz. Nastepnie dodal obie liczby. Jaka jest najwieksza mozliwa suma?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "975",
+            "B": "999",
+            "C": "1083",
+            "D": "1173",
+            "E": "1221"
+          },
+          "correct": "D"
+        }
+      ],
+      "solutions": [
+        {
+          "problemId": "gen-l04-w1",
+          "observation": "Mnozenie przed dodawaniem.",
+          "strategy": "Najpierw mnozenie.",
+          "steps": [
+            "3 razy 4 = 12",
+            "Potem 2 + 12 = 14"
+          ],
+          "answer": "A",
+          "alternative": "Pamietaj: mnozenie i dzielenie maja pierwszenstwo przed +/-."
+        },
+        {
+          "problemId": "gen-l04-w2",
+          "observation": "Nawiasy zmieniaja kolejnosc - liczymy najpierw w nich.",
+          "strategy": "Najpierw nawias.",
+          "steps": [
+            "2 + 3 = 5",
+            "Potem 5 razy 4 = 20"
+          ],
+          "answer": "B",
+          "alternative": "Bez nawiasow byloby 14, z nawiasami 20 - 6 wiecej."
+        },
+        {
+          "problemId": "gen-l04-w3",
+          "observation": "2 razy po 4 to mnozenie, potem odejmowanie.",
+          "strategy": "Mnozenie przed odejmowaniem.",
+          "steps": [
+            "2 razy 4 = 8",
+            "30 - 8 = 22"
+          ],
+          "answer": "B",
+          "alternative": "Mozna tez liczyc po 4: 30 - 4 = 26, 26 - 4 = 22."
+        },
+        {
+          "problemId": "kangur-maluch-2025-7",
+          "observation": "Wynik to a + b - c + d. Trzeba dac najwieksze do +.",
+          "strategy": "Najwieksze do plusowych, najmniejsze do minus.",
+          "steps": [
+            "Wynik = a + b - c + d",
+            "Maksymalny gdy a, b, d duze i c male",
+            "Liczby: 0, 2, 2, 5. Daj 0 jako c (odejmowane)",
+            "Pozostale: 5 + 2 + 2 = 9",
+            "Najwiekszy: 5 + 2 - 0 + 2 = 9"
+          ],
+          "answer": "A",
+          "alternative": "Kazda kolejnosc z 0 jako odejmowane daje 9."
+        },
+        {
+          "problemId": "kangur-maluch-2019-5",
+          "observation": "Krzyzowka z dzialaniami - trzeba znalezc spojny uklad.",
+          "strategy": "Sprawdzanie warunkow w roznych polach.",
+          "steps": [
+            "Z ukladu krzyzowki cyfry 0, 2, 1, 9 i znaki +, -, =",
+            "Po rozwiazaniu wszystkich rownan w polu z ? wychodzi 7"
+          ],
+          "answer": "D",
+          "alternative": "Wymaga uwaznego sledzenia rownan poziomo i pionowo."
+        },
+        {
+          "problemId": "gen-l04-c1",
+          "observation": "Cel: wynik 8. Sprawdz kazdy zestaw znakow.",
+          "strategy": "Sprawdzanie wynikow.",
+          "steps": [
+            "9 + 3 + 2 = 14, nie",
+            "9 + 3 - 2 = 10, nie",
+            "9 - 3 + 2 = 8 - TAK",
+            "9 - 3 - 2 = 4, nie"
+          ],
+          "answer": "C",
+          "alternative": "Z 5 odpowiedzi tylko jedna daje 8."
+        },
+        {
+          "problemId": "kangur-maluch-2012-17",
+          "observation": "Maksymalna suma dwoch liczb 3-cyfrowych z 6 cyfr.",
+          "strategy": "Wieksze cyfry do setek, mniejsze do jednosci.",
+          "steps": [
+            "Cyfry 1-6 trafiaja na pozycje setek, dziesiatek, jednosci",
+            "Najwieksze cyfry (6,5) do setek: 600+500=1100",
+            "Srednie (4,3) do dziesiatek: 40+30=70",
+            "Najmniejsze (2,1) do jednosci: 2+1=3",
+            "Suma: 1100+70+3 = 1173"
+          ],
+          "answer": "D",
+          "alternative": "Np. 642+531 = 1173."
+        }
+      ]
+    },
+    {
+      "versionId": "v2",
+      "label": "Wersja 2 (powtorka)",
+      "warmup": [
+        {
+          "id": "gen-l04-v2-w1",
+          "source": "generated-l04-v2-w1",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "arytmetyka",
+          "subtopic": "mnozenie przed odejmowaniem",
+          "statement": "Ile to 10 - 2 razy 3?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "4",
+            "B": "24",
+            "C": "6",
+            "D": "14",
+            "E": "18"
+          },
+          "correct": "A"
+        },
+        {
+          "id": "gen-l04-v2-w2",
+          "source": "generated-l04-v2-w2",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "arytmetyka",
+          "subtopic": "nawias zmienia kolejnosc",
+          "statement": "Ile to (10 - 2) razy 3?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "4",
+            "B": "24",
+            "C": "30",
+            "D": "36",
+            "E": "16"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "gen-l04-v2-w3",
+          "source": "generated-l04-v2-w3",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "arytmetyka",
+          "subtopic": "mnozenie przed dodawaniem",
+          "statement": "Ile to 4 + 5 razy 2?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "18",
+            "B": "14",
+            "C": "20",
+            "D": "13",
+            "E": "9"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "gen-l04-v2-w4",
+          "source": "generated-l04-v2-w4",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "arytmetyka",
+          "subtopic": "dzielenie przed odejmowaniem",
+          "statement": "Ile to 20 - 12 : 4?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "2",
+            "B": "8",
+            "C": "17",
+            "D": "11",
+            "E": "14"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "kangur-maluch-2018-7",
+          "source": "kangur-maluch-2018-7",
+          "year": 2018,
+          "number": 7,
+          "difficulty": "3pkt",
+          "topic": "arytmetyka",
+          "subtopic": "suma punktow na tarczy",
+          "statement": "Franek strzelal do tarczy 3 razy. W pierwszej probie zdobyl 27 punktow (3 strzaly), w drugiej 23 (3 strzaly). Ile zdobyl w trzeciej probie (rowniez 3 strzaly)?",
+          "hasImage": true,
+          "imageNote": "Trzy tarcze koliste z roznymi trafieniami strzal. Tarcza ma pierscienie o roznych wartosciach punktowych.",
+          "choices": {
+            "A": "15",
+            "B": "19",
+            "C": "20",
+            "D": "21",
+            "E": "22"
+          },
+          "correct": "B"
+        }
+      ],
+      "challenge": [
+        {
+          "id": "gen-l04-v2-c1",
+          "source": "generated-l04-v2-c1",
+          "year": null,
+          "number": null,
+          "difficulty": "4pkt",
+          "topic": "arytmetyka",
+          "subtopic": "wstawianie nawiasu",
+          "statement": "Gdzie wstawic nawias w dzialaniu 12 - 4 - 2, by wynik byl rowny 10?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "(12 - 4) - 2",
+            "B": "12 - (4 - 2)",
+            "C": "Bez nawiasu juz jest 10",
+            "D": "Nie da sie",
+            "E": "12 - 4 - (2)"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "kangur-maluch-2022-21",
+          "source": "kangur-maluch-2022-21",
+          "year": 2022,
+          "number": 21,
+          "difficulty": "5pkt",
+          "topic": "arytmetyka",
+          "subtopic": "ukladu rownan w zagadce",
+          "statement": "Piec dzieci jadlo sliwki. Kinga = Magda + 2. Emilka = Kinga - 3. Jola = Emilka + 1 = Wladek - 3. Ktore dzieci zjadly po tyle samo?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "Jola i Kinga",
+            "B": "Kinga i Wladek",
+            "C": "Magda i Wladek",
+            "D": "Wladek i Emilka",
+            "E": "Jola i Magda"
+          },
+          "correct": "E"
+        }
+      ],
+      "solutions": [
+        {
+          "problemId": "gen-l04-v2-w1",
+          "observation": "Mnozenie przed odejmowaniem.",
+          "strategy": "Kolejnosc dzialan.",
+          "steps": [
+            "2 razy 3 = 6",
+            "10 - 6 = 4"
+          ],
+          "answer": "A",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l04-v2-w2",
+          "observation": "Nawias najpierw.",
+          "strategy": "Nawias przed mnozeniem.",
+          "steps": [
+            "10 - 2 = 8",
+            "8 razy 3 = 24"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l04-v2-w3",
+          "observation": "Mnozenie przed dodawaniem.",
+          "strategy": "Kolejnosc dzialan.",
+          "steps": [
+            "5 razy 2 = 10",
+            "4 + 10 = 14"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l04-v2-w4",
+          "observation": "Dzielenie przed odejmowaniem.",
+          "strategy": "Kolejnosc dzialan.",
+          "steps": [
+            "12 : 4 = 3",
+            "20 - 3 = 17"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2018-7",
+          "observation": "Trzy proby po 3 strzaly, znane sumy 27 i 23.",
+          "strategy": "Analiza punktow na tarczy.",
+          "steps": [
+            "Tarcza ma pierscienie o roznych wartosciach",
+            "Z ukladu strzal w probie 3 suma wynosi 19"
+          ],
+          "answer": "B",
+          "alternative": "Wymaga odczytania wartosci trafien z rysunku."
+        },
+        {
+          "problemId": "gen-l04-v2-c1",
+          "observation": "Cel: wynik 10. Sprawdz polozenia nawiasu.",
+          "strategy": "Sprawdzanie.",
+          "steps": [
+            "Bez nawiasu: 12 - 4 - 2 = 6",
+            "(12-4)-2 = 8 - 2 = 6",
+            "12-(4-2) = 12 - 2 = 10 - TAK"
+          ],
+          "answer": "B",
+          "alternative": "Nawias dookola odejmowania zmienia znak."
+        },
+        {
+          "problemId": "kangur-maluch-2022-21",
+          "observation": "Uklad zaleznosci miedzy dziecmi.",
+          "strategy": "Wyrazic wszystko przez Magde.",
+          "steps": [
+            "Magda = m",
+            "Kinga = m + 2",
+            "Emilka = Kinga - 3 = m - 1",
+            "Jola = Emilka + 1 = m",
+            "Wladek = Jola + 3 = m + 3",
+            "Magda = m, Jola = m - rowne!"
+          ],
+          "answer": "E",
+          "alternative": null
+        }
+      ]
+    },
+    {
+      "versionId": "v3",
+      "label": "Wersja 3 (oryginaly Kangurka)",
+      "warmup": [
+        {
+          "id": "kangur-maluch-2024-12",
+          "source": "kangur-maluch-2024-12",
+          "year": 2024,
+          "number": 12,
+          "difficulty": "4pkt",
+          "topic": "arytmetyka",
+          "subtopic": "podzial ryb miedzy pisklenta",
+          "statement": "Pingwin przynosi 9 ryb dziennie dwojgu pisklatom: pierwszemu napotkanemu 5 ryb, drugiemu 4. Przez kilka dni jedno pisklę dostalo 26 ryb. Ile ryb dostalo w tym czasie drugie pisklę?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "19",
+            "B": "22",
+            "C": "25",
+            "D": "28",
+            "E": "31"
+          },
+          "correct": "D"
+        },
+        {
+          "id": "kangur-maluch-2025-10",
+          "source": "kangur-maluch-2025-10",
+          "year": 2025,
+          "number": 10,
+          "difficulty": "4pkt",
+          "topic": "arytmetyka",
+          "subtopic": "rozkład ciasteczek na talerze",
+          "statement": "Obok stoja 3 talerze z 15 ciasteczkami rozlozonymi na nie. Helenka rozlozyla je na 3 talerze tak, by teraz na kazdym byla taka sama liczba ciastek. Ile ciastek dolozyla na swoj talerz?",
+          "hasImage": true,
+          "imageNote": "Trzy talerze z roznymi liczbami kangurkowych ciastek.",
+          "choices": {
+            "A": "4",
+            "B": "5",
+            "C": "6",
+            "D": "7",
+            "E": "8"
+          },
+          "correct": "C"
+        }
+      ],
+      "challenge": [],
+      "solutions": [
+        {
+          "problemId": "kangur-maluch-2024-12",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Oryginalne zadanie Kangur Maluch 2024 nr 12.",
+          "steps": [
+            "Oryginalne zadanie Kangur Maluch 2024 nr 12.",
+            "Poprawna odpowiedz: D"
+          ],
+          "answer": "D",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2025-10",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Oryginalne zadanie Kangur Maluch 2025 nr 10.",
+          "steps": [
+            "Oryginalne zadanie Kangur Maluch 2025 nr 10.",
+            "Poprawna odpowiedz: C"
+          ],
+          "answer": "C",
+          "alternative": null
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Ile to 5 + 2 razy 3?",
+      "choices": {
+        "A": "21",
+        "B": "11",
+        "C": "15"
+      },
+      "correct": "B",
+      "explain": "Najpierw 2 razy 3 = 6, potem 5 + 6 = 11."
+    },
+    {
+      "q": "Co najpierw w (4 + 6) : 2?",
+      "choices": {
+        "A": "Nawias",
+        "B": "Dzielenie",
+        "C": "Mnozenie"
+      },
+      "correct": "A",
+      "explain": "Nawiasy zawsze przed dzialaniami arytmetycznymi."
+    },
+    {
+      "q": "Bez nawiasow co jest pierwsze: dodawanie czy mnozenie?",
+      "choices": {
+        "A": "Dodawanie",
+        "B": "Mnozenie",
+        "C": "Po kolei od lewej"
+      },
+      "correct": "B",
+      "explain": "Mnozenie i dzielenie maja pierwszenstwo przed dodawaniem i odejmowaniem."
+    }
+  ]
+}

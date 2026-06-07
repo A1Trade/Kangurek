@@ -1,0 +1,598 @@
+{
+  "id": "l40",
+  "number": 40,
+  "block": "Logika i myslenie",
+  "blockCode": "G",
+  "title": "Wagi i porownania",
+  "topic": "logika",
+  "estimatedMinutes": 14,
+  "theory": {
+    "intro": "Stara waga szalkowa: dwie miseczki, jedna z odwaznikami, druga z towarem. Rownowaga = ten sam ciezar. Wagi to klasyczne logiczne zagadki - od porownywania, kto ciezszy, po zlozone uklady rownan z trzema rodzajami klockow.",
+    "tool": "Sztuczka 1: ROWNOWAGA = ROWNE CIEZARY. Jezeli waga jest w rownowadze, lewa szalka = prawej.\n\nSztuczka 2: PORownujac TRZECH. Jezeli A+B=C+B (waga rowna), to A=C. Mozemy 'odjac' B od obu stron.\n\nSztuczka 3: UKLAD ROWNAN. 3 wagi z 3 rodzajami klockow = 3 rownania. Sprowadzaj do jednego klocka.\n\nSztuczka 4: PORZADEK WAG. Trzy paczki, dwie wagi: A+B<A+C i B+C<A+C. Wniosek: B najmniejszy, A=C lub C najwiekszy.",
+    "trick": "Pulapka: czasem wagi nie sa w rownowadze - jedna strona ciezsza. Wtedy NIE oznacza rownosci, tylko nierownosc. Czytaj uwaznie - 'waga w rownowadze' vs 'jedna szalka opadla'."
+  },
+  "versions": [
+    {
+      "versionId": "v1",
+      "label": "Wersja 1 (oryginalna)",
+      "warmup": [
+        {
+          "id": "gen-l40-v1-w1",
+          "source": "generated-l40-v1-w1",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "logika",
+          "subtopic": "prosta rownowaga",
+          "statement": "Na wadze szalkowej z lewej jablko 200 g, z prawej gruszka. Waga w rownowadze. Ile waży gruszka?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "100 g",
+            "B": "150 g",
+            "C": "200 g",
+            "D": "300 g",
+            "E": "400 g"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "gen-l40-v1-w2",
+          "source": "generated-l40-v1-w2",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "logika",
+          "subtopic": "porownanie",
+          "statement": "Na lewej szalce 2 klocki, na prawej 4. Waga w rownowadze. Co z tego wynika?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "Klocki lewe ciezsze (po 2x)",
+            "B": "Klocki prawe ciezsze",
+            "C": "Wszystkie rowne",
+            "D": "Nic",
+            "E": "Bledna waga"
+          },
+          "correct": "A"
+        },
+        {
+          "id": "gen-l40-v1-w3",
+          "source": "generated-l40-v1-w3",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "logika",
+          "subtopic": "odjecie",
+          "statement": "Lewa: A+B=10 g. Prawa: A+C=10 g. Wniosek?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "A=B",
+            "B": "B=C",
+            "C": "A=C",
+            "D": "Wszystko rowne",
+            "E": "Nic"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "kangur-maluch-2021-7",
+          "source": "kangur-maluch-2021-7",
+          "year": 2021,
+          "number": 7,
+          "difficulty": "3pkt",
+          "topic": "logika",
+          "subtopic": "uklad rownan - wagi z kulami",
+          "statement": "Na wagach leza kule trzech kolorow (te same kolory waza tyle samo). Waga 1: biala + szara = 6 kg. Waga 2: czarna + czarna + biala = 14 kg. Waga 3: szara + biala + biala = 10 kg. Ile wazy czarna kula?",
+          "hasImage": true,
+          "imageNote": "Trzy wagi z kulami w trzech kolorach.",
+          "choices": {
+            "A": "3 kg",
+            "B": "4 kg",
+            "C": "5 kg",
+            "D": "6 kg",
+            "E": "7 kg"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "kangur-maluch-2023-10",
+          "source": "kangur-maluch-2023-10",
+          "year": 2023,
+          "number": 10,
+          "difficulty": "4pkt",
+          "topic": "logika",
+          "subtopic": "rownowaga wagi - ktory odwaznik poza",
+          "statement": "Ewa ma 6 odwaznikow: 1, 2, 3, 4, 5 i 6 kg. Piec z nich polozyla na wadze szalkowej, ktora pozostala w rownowadze. Ktory odwaznik zostal poza waga?",
+          "hasImage": true,
+          "imageNote": "Waga szalkowa z 5 odwaznikami w rownowadze.",
+          "choices": {
+            "A": "1 kg",
+            "B": "2 kg",
+            "C": "3 kg",
+            "D": "4 kg",
+            "E": "Niemozliwe, by waga byla w rownowadze"
+          },
+          "correct": "A"
+        }
+      ],
+      "challenge": [
+        {
+          "id": "kangur-maluch-2021-22",
+          "source": "kangur-maluch-2021-22",
+          "year": 2021,
+          "number": 22,
+          "difficulty": "5pkt",
+          "topic": "logika",
+          "subtopic": "rownowaga wagi - co dolozyc",
+          "statement": "Na wagach leza trzy rodzaje figur (trojkat, kwadrat, kolo - te same waza tyle samo). Co nalezy dolozyc na lewa szalke trzeciej wagi, by byla w rownowadze?",
+          "hasImage": true,
+          "imageNote": "Trzy wagi z figurami, trzecia niewyrownana.",
+          "choices": {
+            "A": "kwadrat",
+            "B": "dwa kwadraty",
+            "C": "kolo",
+            "D": "trojkat",
+            "E": "dwa trojkaty"
+          },
+          "correct": "D"
+        },
+        {
+          "id": "kangur-maluch-2016-21",
+          "source": "kangur-maluch-2016-21",
+          "year": 2016,
+          "number": 21,
+          "difficulty": "5pkt",
+          "topic": "logika",
+          "subtopic": "porownywanie wag klockow",
+          "statement": "Asia ma 3 rodzaje klockow: trojkat, kolo, kwadrat (rozne wagi). Wlozyla po 4 do trzech pojemnikow i ustawila je od najlzejszego do najciezszego. Pojemniki: (kwadrat,trojkat,kolo,trojkat), (trojkat,kwadrat,kwadrat,kwadrat), (kolo,kwadrat,trojkat,kwadrat). Ktory klocek jest najlzejszy, a ktory najciezszy?",
+          "hasImage": true,
+          "imageNote": "Trzy pojemniki z klockami ustawione wg ciezaru.",
+          "choices": {
+            "A": "Najlzejszy trojkat, najciezszy kwadrat",
+            "B": "Najlzejszy trojkat, najciezszy kolo",
+            "C": "Najlzejszy kwadrat, najciezszy kolo",
+            "D": "Najlzejszy kolo, najciezszy kwadrat",
+            "E": "Najlzejszy kolo, najciezszy trojkat"
+          },
+          "correct": "B"
+        }
+      ],
+      "solutions": [
+        {
+          "problemId": "gen-l40-v1-w1",
+          "observation": "Rownowaga = rowne masy.",
+          "strategy": "Rownowaga.",
+          "steps": [
+            "Gruszka = 200 g"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l40-v1-w2",
+          "observation": "2 klocki lewe = 4 prawe, wiec lewy 2x ciezszy od prawego.",
+          "strategy": "Stosunek mas.",
+          "steps": [
+            "2L = 4P → L = 2P, lewy 2x ciezszy"
+          ],
+          "answer": "A",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l40-v1-w3",
+          "observation": "Z A+B=A+C → B=C.",
+          "strategy": "Odejmowanie tej samej wartosci.",
+          "steps": [
+            "A+B = A+C, odejmij A od obu: B = C"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2021-7",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "3 wagi z kulami: b+s=6, 2c+b=14, s+2b=10. Z W1: s=6-b. W3: 6-b+2b=10, b=4, s=2. W2: 2c+4=14, c=5.",
+          "steps": [
+            "3 wagi z kulami: b+s=6, 2c+b=14, s+2b=10. Z W1: s=6-b. W3: 6-b+2b=10, b=4, s=2. W2: 2c+4=14, c=5.",
+            "Poprawna odpowiedz: C"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2023-10",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "6 odwaznikow 1-6 kg, 5 na wadze w rownowadze. Suma 5 musi byc parzysta. 21-x parzysta -> x nieparzysta. Odpowiedz: 1 kg.",
+          "steps": [
+            "6 odwaznikow 1-6 kg, 5 na wadze w rownowadze. Suma 5 musi byc parzysta. 21-x parzysta -> x nieparzysta. Odpowiedz: 1 kg.",
+            "Poprawna odpowiedz: A"
+          ],
+          "answer": "A",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2021-22",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "3 wagi z trzema figurami. Co dolozyc na lewa szalke trzeciej wagi. Trojkat D.",
+          "steps": [
+            "3 wagi z trzema figurami. Co dolozyc na lewa szalke trzeciej wagi. Trojkat D.",
+            "Poprawna odpowiedz: D"
+          ],
+          "answer": "D",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2016-21",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Asia 3 rodzaje klockow w 3 pojemnikach. Najlzejszy trojkat, najciezsze kolo.",
+          "steps": [
+            "Asia 3 rodzaje klockow w 3 pojemnikach. Najlzejszy trojkat, najciezsze kolo.",
+            "Poprawna odpowiedz: B"
+          ],
+          "answer": "B",
+          "alternative": null
+        }
+      ]
+    },
+    {
+      "versionId": "v2",
+      "label": "Wersja 2 (powtorka)",
+      "warmup": [
+        {
+          "id": "gen-l40-v2-w1",
+          "source": "generated-l40-v2-w1",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "logika",
+          "subtopic": "jednostka wagi",
+          "statement": "Klocek wazy 5 g. Ile wazy 4 takie klocki?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "9 g",
+            "B": "12 g",
+            "C": "15 g",
+            "D": "20 g",
+            "E": "25 g"
+          },
+          "correct": "D"
+        },
+        {
+          "id": "gen-l40-v2-w2",
+          "source": "generated-l40-v2-w2",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "logika",
+          "subtopic": "rownowaga z trzema",
+          "statement": "Lewa: 3 czerwone klocki. Prawa: 6 niebieskich. Rownowaga. Ile niebieskich = 1 czerwony?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "1",
+            "B": "2",
+            "C": "3",
+            "D": "4",
+            "E": "6"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "gen-l40-v2-w3",
+          "source": "generated-l40-v2-w3",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "logika",
+          "subtopic": "najciezsze",
+          "statement": "Kot wazy wiecej niz mysz. Pies wazy wiecej niz kot. Kto wazy najwiecej?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "Mysz",
+            "B": "Kot",
+            "C": "Pies",
+            "D": "Wszyscy tyle samo",
+            "E": "Nie wiadomo"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "kangur-maluch-2021-21",
+          "source": "kangur-maluch-2021-21",
+          "year": 2021,
+          "number": 21,
+          "difficulty": "5pkt",
+          "topic": "logika",
+          "subtopic": "podzial owocow wedlug wagi",
+          "statement": "W 5 skrzyniach sa jablka lub banany. Wagi: 7, 5, 6, 2, 16 kg. Wszystkie banany waza 3 razy wiecej niz wszystkie jablka. W ktorych skrzyniach sa jablka?",
+          "hasImage": true,
+          "imageNote": "Piec skrzyn z wagami 7, 5, 6, 2, 16 kg.",
+          "choices": {
+            "A": "1 i 2",
+            "B": "2 i 3",
+            "C": "2 i 4",
+            "D": "3 i 4",
+            "E": "1 i 4"
+          },
+          "correct": "E"
+        },
+        {
+          "id": "kangur-maluch-2024-17",
+          "source": "kangur-maluch-2024-17",
+          "year": 2024,
+          "number": 17,
+          "difficulty": "5pkt",
+          "topic": "logika",
+          "subtopic": "suma trzech bryl z wazen parami",
+          "statement": "Ewa wazyla trzy rozne bryly po dwie. Wyniki to 200 g, 100 g i 240 g. Ile waza razem te trzy bryly?",
+          "hasImage": true,
+          "imageNote": "Trzy bryly wazone parami na wadze.",
+          "choices": {
+            "A": "270 g",
+            "B": "280 g",
+            "C": "290 g",
+            "D": "300 g",
+            "E": "310 g"
+          },
+          "correct": "A"
+        }
+      ],
+      "challenge": [
+        {
+          "id": "kangur-maluch-2025-21",
+          "source": "kangur-maluch-2025-21",
+          "year": 2025,
+          "number": 21,
+          "difficulty": "5pkt",
+          "topic": "logika",
+          "subtopic": "wagi z roznymi rodzajami klockow",
+          "statement": "Na dwoch wagach Kajtek polozyl klocki w 3 rodzajach. Klocek typu A wazy 5 kg. Wagi sa zrownowazone wedlug obrazka. Ile kilogramow waży klocek typu B (jasny szescian)?",
+          "hasImage": true,
+          "imageNote": "Dwie szalkowe wagi z roznymi klockami w roznowadze.",
+          "choices": {
+            "A": "1",
+            "B": "2",
+            "C": "3",
+            "D": "4",
+            "E": "5"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "kangur-maluch-2025-19",
+          "source": "kangur-maluch-2025-19",
+          "year": 2025,
+          "number": 19,
+          "difficulty": "5pkt",
+          "topic": "logika",
+          "subtopic": "poziom wody w szklankach z kulkami",
+          "statement": "Do 5 identycznych szklanek z 1, 2, 3, 4 i 6 jednakowymi kulkami wlano taka sama ilosc wody. W szklankach 1, 2 i 3 poziom wody jest taki sam. W szklance 4 poziom jest taki sam jak w pierwszych 3. W piatej dwa razy wyzszy niz w pierwszych trzech. W ktorej szklance jest najmniej wody?",
+          "hasImage": true,
+          "imageNote": "5 szklanek z roznym liczbami kulek (1, 2, 3, 4, 6).",
+          "choices": {
+            "A": "1",
+            "B": "2",
+            "C": "3",
+            "D": "4",
+            "E": "5"
+          },
+          "correct": "A"
+        }
+      ],
+      "solutions": [
+        {
+          "problemId": "gen-l40-v2-w1",
+          "observation": "4 razy 5 g = 20 g.",
+          "strategy": "Mnozenie.",
+          "steps": [
+            "4 razy 5 = 20 g"
+          ],
+          "answer": "D",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l40-v2-w2",
+          "observation": "3C = 6N → 1C = 2N.",
+          "strategy": "Stosunek.",
+          "steps": [
+            "3C=6N, 1C=2N"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l40-v2-w3",
+          "observation": "Pies > kot > mysz.",
+          "strategy": "Porzadek.",
+          "steps": [
+            "Pies najciezszy"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2021-21",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "5 skrzyn jablek/bananow. Wagi 7,5,6,2,16 kg. Banany 3x ciezsze od jablek lacznie. Jablka 9 kg, banany 27 kg. Jablka w 1 i 4.",
+          "steps": [
+            "5 skrzyn jablek/bananow. Wagi 7,5,6,2,16 kg. Banany 3x ciezsze od jablek lacznie. Jablka 9 kg, banany 27 kg. Jablka w 1 i 4.",
+            "Poprawna odpowiedz: E"
+          ],
+          "answer": "E",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2024-17",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "3 bryly wazone parami: 200, 100, 240 g. Suma par = 2 razy suma bryl. 540:2 = 270 g.",
+          "steps": [
+            "3 bryly wazone parami: 200, 100, 240 g. Suma par = 2 razy suma bryl. 540:2 = 270 g.",
+            "Poprawna odpowiedz: A"
+          ],
+          "answer": "A",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2025-21",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Na 2 wagach Kajtek polozyl klocki 3 rodzajow. Klocek typu A wazy 5 kg. Klocek B (jasny szescian) wazy 3 kg.",
+          "steps": [
+            "Na 2 wagach Kajtek polozyl klocki 3 rodzajow. Klocek typu A wazy 5 kg. Klocek B (jasny szescian) wazy 3 kg.",
+            "Poprawna odpowiedz: C"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2025-19",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "5 szklanek z 1,2,3,4,6 kulkami, woda. Najmniej wody w szklance 1.",
+          "steps": [
+            "5 szklanek z 1,2,3,4,6 kulkami, woda. Najmniej wody w szklance 1.",
+            "Poprawna odpowiedz: A"
+          ],
+          "answer": "A",
+          "alternative": null
+        }
+      ]
+    },
+    {
+      "versionId": "v3",
+      "label": "Wersja 3 (oryginaly Kangurka)",
+      "warmup": [
+        {
+          "id": "kangur-maluch-2016-22",
+          "source": "kangur-maluch-2016-22",
+          "year": 2016,
+          "number": 22,
+          "difficulty": "5pkt",
+          "topic": "logika",
+          "subtopic": "zagadka z kierunkiem patrzenia wrobli",
+          "statement": "Piec wrobli na galezi (Edek, Darek, Czarek, Bartek, Arek). Kazdy cwierkal tyle razy, ile widzial innych wrobli. Bartek cwierkal 3 razy. Potem jeden wrobel odwrocil glowe i lączna liczba cwierknieć byla wieksza. Ktory wrobel odwrocil glowe?",
+          "hasImage": true,
+          "imageNote": "Piec wrobli na galezi w rzedzie: Edek, Darek, Czarek, Bartek, Arek.",
+          "choices": {
+            "A": "Arek",
+            "B": "Bartek",
+            "C": "Czarek",
+            "D": "Darek",
+            "E": "Edek"
+          },
+          "correct": "E"
+        },
+        {
+          "id": "kangur-maluch-2018-24",
+          "source": "kangur-maluch-2018-24",
+          "year": 2018,
+          "number": 24,
+          "difficulty": "5pkt",
+          "topic": "logika",
+          "subtopic": "diagram z liczbami nie-kolejne",
+          "statement": "Jurek chce wpisac liczby 1-7 do diagramu tak, by w kratkach stykajacych sie bokami lub wierzcholkami nie wystapily dwie kolejne liczby. Jaka liczbe moze wpisac w kratke ze znakiem zapytania?",
+          "hasImage": true,
+          "imageNote": "Diagram z 7 kratek o specyficznym ksztalcie, jedna oznaczona ?.",
+          "choices": {
+            "A": "Kazda z 7",
+            "B": "Tylko 1, 3, 5 lub 7",
+            "C": "Tylko 2, 4 lub 6",
+            "D": "Tylko 4",
+            "E": "Tylko 1 lub 7"
+          },
+          "correct": "D"
+        },
+        {
+          "id": "kangur-maluch-2023-12",
+          "source": "kangur-maluch-2023-12",
+          "year": 2023,
+          "number": 12,
+          "difficulty": "4pkt",
+          "topic": "logika",
+          "subtopic": "kolorowanie grafu - minimalna liczba kolorow",
+          "statement": "Ala chce pomalowac wszystkie kolka tak, by kazde dwa polaczone odcinkiem mialy rozne kolory. Co najmniej ile kredek w roznych kolorach potrzebuje?",
+          "hasImage": true,
+          "imageNote": "Graf z kolkami polaczonymi odcinkami.",
+          "choices": {
+            "A": "2",
+            "B": "3",
+            "C": "4",
+            "D": "5",
+            "E": "6"
+          },
+          "correct": "B"
+        }
+      ],
+      "challenge": [],
+      "solutions": [
+        {
+          "problemId": "kangur-maluch-2016-22",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Oryginalne zadanie Kangur Maluch 2016 nr 22.",
+          "steps": [
+            "Oryginalne zadanie Kangur Maluch 2016 nr 22.",
+            "Poprawna odpowiedz: E"
+          ],
+          "answer": "E",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2018-24",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Oryginalne zadanie Kangur Maluch 2018 nr 24.",
+          "steps": [
+            "Oryginalne zadanie Kangur Maluch 2018 nr 24.",
+            "Poprawna odpowiedz: D"
+          ],
+          "answer": "D",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2023-12",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Oryginalne zadanie Kangur Maluch 2023 nr 12.",
+          "steps": [
+            "Oryginalne zadanie Kangur Maluch 2023 nr 12.",
+            "Poprawna odpowiedz: B"
+          ],
+          "answer": "B",
+          "alternative": null
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Waga w rownowadze oznacza:",
+      "choices": {
+        "A": "Lewa = prawa",
+        "B": "Lewa > prawa",
+        "C": "Lewa < prawa"
+      },
+      "correct": "A",
+      "explain": "Rownowaga = rowne ciezary po obu stronach."
+    },
+    {
+      "q": "Z A+B=A+C wynika:",
+      "choices": {
+        "A": "B=C",
+        "B": "B>C",
+        "C": "B<C"
+      },
+      "correct": "A",
+      "explain": "Odejmij A od obu stron: B=C."
+    },
+    {
+      "q": "3 wagi z 3 rodzajami klockow to:",
+      "choices": {
+        "A": "3 rownania",
+        "B": "3 zagadki",
+        "C": "3 mozliwosci"
+      },
+      "correct": "A",
+      "explain": "Kazda waga to jedno rownanie - razem uklad rownan."
+    }
+  ]
+}

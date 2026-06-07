@@ -1,0 +1,513 @@
+{
+  "id": "l13",
+  "number": 13,
+  "block": "Wzory, ciagi, regularnosci",
+  "blockCode": "B",
+  "title": "Znajdz regule i przewidz nastepny krok",
+  "topic": "wzory_i_ciagi",
+  "estimatedMinutes": 15,
+  "theory": {
+    "intro": "Maszyna dostaje liczbe i wypluwa inna: 2 zamienia w 5, 3 w 7, 4 w 9. Jaka regula? Kazda liczba razy 2 plus 1. Gdy zlapiesz regule - przewidzisz kazdy nastepny krok. To esencja myslenia matematycznego.",
+    "tool": "Sztuczka 1: PORownaj WEJSCIE Z WYJSCIEM. Gdy 2 daje 5, a 3 daje 7 - sprawdz: czy mnozysz? czy dodajesz? 2 razy 2 + 1 = 5, 3 razy 2 + 1 = 7. Regula: razy 2 plus 1.\n\nSztuczka 2: SPRAWDZ HIPOTEZE NA WSZYSTKICH PRZYKLADACH. Znalazles regule? Sprawdz ja na KAZDYM podanym przykladzie. Jezeli pasuje wszedzie - jest dobra.\n\nSztuczka 3: WZORY CYKLICZNE. Jezeli obrazki lub kolory sie powtarzaja (kolo, kwadrat, trojkat, kolo, kwadrat...), uzyj reszty z dzielenia. 10. element: 10 podzielone przez 3 daje reszte 1 - czyli pierwszy w cyklu.\n\nSztuczka 4: KWADRATY LICZB. Ciag 1, 4, 9, 16, 25 to liczby pomnozone przez siebie: 1x1, 2x2, 3x3... Rozpoznasz go, gdy roznice rosna o 2.",
+    "trick": "Najwazniejsze: gdy znajdziesz regule, NIE ufaj jej od razu. Sprawdz ja na wszystkich podanych przykladach. Czesto pierwsza hipoteza pasuje do dwoch przypadkow, ale lamie sie na trzecim - wtedy szukaj dalej."
+  },
+  "versions": [
+    {
+      "versionId": "v1",
+      "label": "Wersja 1 (oryginalna)",
+      "warmup": [
+        {
+          "id": "gen-l13-w1",
+          "source": "generated-l13-w1",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "wzory_i_ciagi",
+          "subtopic": "regula maszyny - razy 2 plus 1",
+          "statement": "Maszyna: 2 zamienia w 5, 3 w 7, 4 w 9. Jaka liczbe da dla 5?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "10",
+            "B": "11",
+            "C": "12",
+            "D": "13",
+            "E": "9"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "gen-l13-w2",
+          "source": "generated-l13-w2",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "wzory_i_ciagi",
+          "subtopic": "regula - kwadrat liczby",
+          "statement": "Maszyna: 1 daje 1, 2 daje 4, 3 daje 9, 4 daje 16. Jaka liczbe da dla 5?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "20",
+            "B": "25",
+            "C": "30",
+            "D": "24",
+            "E": "36"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "gen-l13-w3",
+          "source": "generated-l13-w3",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "wzory_i_ciagi",
+          "subtopic": "wzor cykliczny",
+          "statement": "Figury powtarzaja sie: kolo, kwadrat, trojkat, kolo, kwadrat, trojkat... Jaka figura jest dziesiata w kolejnosci?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "kolo",
+            "B": "kwadrat",
+            "C": "trojkat",
+            "D": "gwiazda",
+            "E": "serce"
+          },
+          "correct": "A"
+        },
+        {
+          "id": "gen-l13-w4",
+          "source": "generated-l13-w4",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "wzory_i_ciagi",
+          "subtopic": "regula odejmowania",
+          "statement": "Maszyna: 10 daje 8, 8 daje 6, 6 daje 4. Jaka liczbe da dla 4?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "0",
+            "B": "1",
+            "C": "2",
+            "D": "3",
+            "E": "6"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "kangur-maluch-2025-1",
+          "source": "kangur-maluch-2025-1",
+          "year": 2025,
+          "number": 1,
+          "difficulty": "3pkt",
+          "topic": "geometria_przestrzenna",
+          "subtopic": "budowa szescianu 3x3x3 - kolejne etapy",
+          "statement": "Wojtek budowal szescian 3x3x3 dodajac po jednym malym szescianie i nie zdejmujac juz polozonych. W roznych momentach zrobil 5 zdjec. Jak wygladalo zdjecie wykonane jako CZWARTE z kolei?",
+          "hasImage": true,
+          "imageNote": "5 etapow budowy szescianu od mniej do wiecej klockow. Czwarty stan to prawie pelny.",
+          "choices": {
+            "A": "stan A",
+            "B": "stan B",
+            "C": "stan C",
+            "D": "stan D",
+            "E": "stan E"
+          },
+          "correct": "D"
+        }
+      ],
+      "challenge": [
+        {
+          "id": "gen-l13-c1",
+          "source": "generated-l13-c1",
+          "year": null,
+          "number": null,
+          "difficulty": "4pkt",
+          "topic": "wzory_i_ciagi",
+          "subtopic": "ciag kwadratow liczb",
+          "statement": "W ciagu 1, 4, 9, 16, 25, ... kazda liczba to kolejna liczba pomnozona przez sama siebie. Jaka liczba jest na siodmym miejscu?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "36",
+            "B": "42",
+            "C": "49",
+            "D": "56",
+            "E": "64"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "gen-l13-c2",
+          "source": "generated-l13-c2",
+          "year": null,
+          "number": null,
+          "difficulty": "5pkt",
+          "topic": "wzory_i_ciagi",
+          "subtopic": "ciag z rosnacymi roznicami",
+          "statement": "W ciagu 1, 2, 4, 7, 11, 16, ? roznice rosna: 1, 2, 3, 4, 5. Jaka liczba jest nastepna?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "20",
+            "B": "21",
+            "C": "22",
+            "D": "23",
+            "E": "24"
+          },
+          "correct": "C"
+        }
+      ],
+      "solutions": [
+        {
+          "problemId": "gen-l13-w1",
+          "observation": "Porownuje wejscie z wyjsciem.",
+          "strategy": "Testuj hipoteze razy 2 plus 1.",
+          "steps": [
+            "2 razy 2 + 1 = 5 OK",
+            "3 razy 2 + 1 = 7 OK",
+            "4 razy 2 + 1 = 9 OK",
+            "Dla 5: 5 razy 2 + 1 = 11"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l13-w2",
+          "observation": "Kazda liczba pomnozona przez sama siebie.",
+          "strategy": "Rozpoznaj kwadraty.",
+          "steps": [
+            "1x1=1, 2x2=4, 3x3=9, 4x4=16",
+            "Dla 5: 5 razy 5 = 25"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l13-w3",
+          "observation": "Cykl ma 3 figury - uzyj reszty z dzielenia.",
+          "strategy": "Wzor cykliczny.",
+          "steps": [
+            "Cykl: kolo (1), kwadrat (2), trojkat (3)",
+            "10 : 3 = 3 reszta 1",
+            "Reszta 1 = pierwszy w cyklu = kolo"
+          ],
+          "answer": "A",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l13-w4",
+          "observation": "Kazda liczba zmniejszona o 2.",
+          "strategy": "Regula odejmowania.",
+          "steps": [
+            "10 - 2 = 8, 8 - 2 = 6, 6 - 2 = 4",
+            "Dla 4: 4 - 2 = 2"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2025-1",
+          "observation": "Budowa szescianu 3x3x3 - 5 etapow, czwarty od konca.",
+          "strategy": "Etapy budowy to ciag rosnacy.",
+          "steps": [
+            "Szescian 3x3x3 ma 27 klockow",
+            "5 zdjec pokazuje rosnaca liczbe klockow",
+            "Czwarte zdjecie to przedostatni, prawie pelny etap"
+          ],
+          "answer": "D",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l13-c1",
+          "observation": "Ciag kwadratow: 1x1, 2x2, 3x3...",
+          "strategy": "Rozpoznaj kwadraty liczb.",
+          "steps": [
+            "1, 4, 9, 16, 25, 36, 49",
+            "Siodme miejsce: 7 razy 7 = 49"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l13-c2",
+          "observation": "Roznice rosna o 1.",
+          "strategy": "Roznice tworza wlasny ciag.",
+          "steps": [
+            "Roznice: 1, 2, 3, 4, 5",
+            "Nastepna roznica: 6",
+            "16 + 6 = 22"
+          ],
+          "answer": "C",
+          "alternative": null
+        }
+      ]
+    },
+    {
+      "versionId": "v2",
+      "label": "Wersja 2 (powtorka)",
+      "warmup": [
+        {
+          "id": "gen-l13-v2-w1",
+          "source": "generated-l13-v2-w1",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "wzory_i_ciagi",
+          "subtopic": "regula maszyny - razy 2 plus 1",
+          "statement": "Maszyna: 1 daje 3, 2 daje 5, 3 daje 7. Jaka liczbe da dla 6?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "11",
+            "B": "12",
+            "C": "13",
+            "D": "14",
+            "E": "15"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "gen-l13-v2-w2",
+          "source": "generated-l13-v2-w2",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "wzory_i_ciagi",
+          "subtopic": "regula maszyny - dzielenie przez 2",
+          "statement": "Maszyna: 10 daje 5, 20 daje 10, 30 daje 15. Jaka liczbe da dla 50?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "20",
+            "B": "25",
+            "C": "30",
+            "D": "35",
+            "E": "40"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "gen-l13-v2-w3",
+          "source": "generated-l13-v2-w3",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "wzory_i_ciagi",
+          "subtopic": "wzor cykliczny 4-elementowy",
+          "statement": "Figury powtarzaja sie: A, B, C, D, A, B, C, D... Ktora figura jest pietnasta w kolejnosci?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "A",
+            "B": "B",
+            "C": "C",
+            "D": "D",
+            "E": "E"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "gen-l13-v2-w4",
+          "source": "generated-l13-v2-w4",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "wzory_i_ciagi",
+          "subtopic": "regula maszyny - razy 3",
+          "statement": "Maszyna: 2 daje 6, 3 daje 9, 4 daje 12. Jaka liczbe da dla 7?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "14",
+            "B": "18",
+            "C": "21",
+            "D": "24",
+            "E": "28"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "kangur-maluch-2023-3",
+          "source": "kangur-maluch-2023-3",
+          "year": 2023,
+          "number": 3,
+          "difficulty": "3pkt",
+          "topic": "lamiglowki",
+          "subtopic": "rownanie z monetami",
+          "statement": "W rownaniu 20 + 10 + 10 + ? + ? + 1 = 50 + 1 jaka jest wartosc kazdej z dwoch jednakowych monet ze znakami zapytania?",
+          "hasImage": true,
+          "imageNote": "Rownanie z monetami i znakami zapytania.",
+          "choices": {
+            "A": "1",
+            "B": "2",
+            "C": "5",
+            "D": "10",
+            "E": "20"
+          },
+          "correct": "C"
+        }
+      ],
+      "challenge": [
+        {
+          "id": "kangur-maluch-2021-17",
+          "source": "kangur-maluch-2021-17",
+          "year": 2021,
+          "number": 17,
+          "difficulty": "5pkt",
+          "topic": "lamiglowki",
+          "subtopic": "diagram ze strzalkami mniejsza-wieksza",
+          "statement": "W diagram 3x3 Helenka wpisuje liczby 1-9, po jednej w kratke. Strzalki prowadza od liczby mniejszej do wiekszej. Wpisane sa 5 i 7. Jaka liczbe wpisac w miejscu znaku zapytania?",
+          "hasImage": true,
+          "imageNote": "Diagram 3x3 ze strzalkami, wpisane liczby 5 i 7, jedna kratka oznaczona ?.",
+          "choices": {
+            "A": "2",
+            "B": "3",
+            "C": "4",
+            "D": "6",
+            "E": "8"
+          },
+          "correct": "E"
+        },
+        {
+          "id": "kangur-maluch-2025-12",
+          "source": "kangur-maluch-2025-12",
+          "year": 2025,
+          "number": 12,
+          "difficulty": "4pkt",
+          "topic": "lamiglowki",
+          "subtopic": "diagram z sumami kolek",
+          "statement": "Ala wpisala do kolka liczbe 6. Do pozostalych chce wpisac liczby 1, 2, 3, 4, 5 i 7 tak, by liczby w kolkach DOLNYCH byly rowne sumie dwoch liczb w kolkach polaczonych z nimi GORNYCH. Jaka liczbe Ala wpisze w kolko oznaczone gwiazdka?",
+          "hasImage": true,
+          "imageNote": "Diagram z kolami - 6 gornie, ? z gwiazdka u dolu z polaczeniami.",
+          "choices": {
+            "A": "2",
+            "B": "3",
+            "C": "4",
+            "D": "5",
+            "E": "7"
+          },
+          "correct": "D"
+        }
+      ],
+      "solutions": [
+        {
+          "problemId": "gen-l13-v2-w1",
+          "observation": "Porownuje wejscie z wyjsciem.",
+          "strategy": "Testuj regule razy 2 plus 1.",
+          "steps": [
+            "1 razy 2 + 1 = 3 OK",
+            "2 razy 2 + 1 = 5 OK",
+            "Dla 6: 6 razy 2 + 1 = 13"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l13-v2-w2",
+          "observation": "Wyjscie to polowa wejscia.",
+          "strategy": "Testuj regule dzielenia.",
+          "steps": [
+            "10 : 2 = 5, 20 : 2 = 10, 30 : 2 = 15",
+            "Dla 50: 50 : 2 = 25"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l13-v2-w3",
+          "observation": "Cykl ma 4 figury - uzyj reszty z dzielenia.",
+          "strategy": "Wzor cykliczny.",
+          "steps": [
+            "Cykl: A(1), B(2), C(3), D(4)",
+            "15 : 4 = 3 reszta 3",
+            "Reszta 3 = trzecia w cyklu = C"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l13-v2-w4",
+          "observation": "Wyjscie to wejscie razy 3.",
+          "strategy": "Testuj regule mnozenia.",
+          "steps": [
+            "2 razy 3 = 6, 3 razy 3 = 9, 4 razy 3 = 12",
+            "Dla 7: 7 razy 3 = 21"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2023-3",
+          "observation": "Rownanie z monetami i znakami zapytania.",
+          "strategy": "Odejmij znane wartosci od obu stron.",
+          "steps": [
+            "20 + 10 + 10 + ? + ? + 1 = 50 + 1",
+            "Lewa bez znakow zapytania: 41",
+            "Prawa: 51",
+            "2 razy ? = 51 - 41 = 10, czyli ? = 5"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2021-17",
+          "observation": "Diagram 3x3 ze strzalkami od liczby mniejszej do wiekszej.",
+          "strategy": "Strzalki pokazuja porzadek liczb.",
+          "steps": [
+            "Wpisane sa 5 i 7",
+            "Strzalki prowadza od mniejszej do wiekszej",
+            "Po analizie kierunkow strzalek w polu ? wychodzi 8"
+          ],
+          "answer": "E",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2025-12",
+          "observation": "Diagram kol - liczba w kolku dolnym to suma dwoch gornych.",
+          "strategy": "Sumowanie polaczonych kol.",
+          "steps": [
+            "Ala wpisala 6, pozostale liczby 1-5 i 7",
+            "Kazde dolne kolko = suma dwoch polaczonych gornych",
+            "Po wyliczeniu w kolku z gwiazdka wychodzi 5"
+          ],
+          "answer": "D",
+          "alternative": null
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Znalazles regule ciagu. Co robisz dalej?",
+      "choices": {
+        "A": "Sprawdzasz ja na wszystkich przykladach",
+        "B": "Od razu odpowiadasz",
+        "C": "Zgadujesz"
+      },
+      "correct": "A",
+      "explain": "Regula musi pasowac do KAZDEGO przykladu - inaczej szukaj dalej."
+    },
+    {
+      "q": "Figury w cyklu 4-elementowym. Ktora jest 12. w kolejnosci?",
+      "choices": {
+        "A": "Pierwsza",
+        "B": "Czwarta",
+        "C": "Druga"
+      },
+      "correct": "B",
+      "explain": "12 : 4 = 3 reszta 0 - czyli ostatnia (czwarta) w cyklu."
+    },
+    {
+      "q": "Ciag 1, 4, 9, 16 to:",
+      "choices": {
+        "A": "Kwadraty liczb",
+        "B": "Dodawanie 3",
+        "C": "Mnozenie przez 4"
+      },
+      "correct": "A",
+      "explain": "1x1, 2x2, 3x3, 4x4 - kolejne liczby razy same siebie."
+    }
+  ]
+}

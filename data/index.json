@@ -1,0 +1,452 @@
+[
+  {
+    "id": "l01",
+    "number": 1,
+    "block": "Liczby i dzialania",
+    "blockCode": "A",
+    "title": "Dodawanie i odejmowanie do 1000",
+    "topic": "arytmetyka",
+    "estimatedMinutes": 15
+  },
+  {
+    "id": "l02",
+    "number": 2,
+    "block": "Liczby i dzialania",
+    "blockCode": "A",
+    "title": "Mnozenie - tabliczka i zastosowania",
+    "topic": "arytmetyka",
+    "estimatedMinutes": 15
+  },
+  {
+    "id": "l03",
+    "number": 3,
+    "block": "Liczby i dzialania",
+    "blockCode": "A",
+    "title": "Dzielenie i reszty z dzielenia",
+    "topic": "arytmetyka",
+    "estimatedMinutes": 15
+  },
+  {
+    "id": "l04",
+    "number": 4,
+    "block": "Liczby i dzialania",
+    "blockCode": "A",
+    "title": "Kolejnosc wykonywania dzialan",
+    "topic": "arytmetyka",
+    "estimatedMinutes": 15
+  },
+  {
+    "id": "l05",
+    "number": 5,
+    "block": "Liczby i dzialania",
+    "blockCode": "A",
+    "title": "Liczby parzyste i nieparzyste",
+    "topic": "arytmetyka",
+    "estimatedMinutes": 12
+  },
+  {
+    "id": "l06",
+    "number": 6,
+    "block": "Liczby i dzialania",
+    "blockCode": "A",
+    "title": "Sprytne liczenie - laczenie i grupowanie",
+    "topic": "arytmetyka",
+    "estimatedMinutes": 15
+  },
+  {
+    "id": "l07",
+    "number": 7,
+    "block": "Liczby i dzialania",
+    "blockCode": "A",
+    "title": "Zaokraglanie i szacowanie",
+    "topic": "arytmetyka",
+    "estimatedMinutes": 12
+  },
+  {
+    "id": "l08",
+    "number": 8,
+    "block": "Liczby i dzialania",
+    "blockCode": "A",
+    "title": "Lamiglowki rachunkowe i kryptarytmy",
+    "topic": "lamiglowki",
+    "estimatedMinutes": 18
+  },
+  {
+    "id": "l09",
+    "number": 9,
+    "block": "Wzory, ciagi, regularnosci",
+    "blockCode": "B",
+    "title": "Ciagi liczbowe - co dalej?",
+    "topic": "wzory_i_ciagi",
+    "estimatedMinutes": 14
+  },
+  {
+    "id": "l10",
+    "number": 10,
+    "block": "Wzory, ciagi, regularnosci",
+    "blockCode": "B",
+    "title": "Wzory w obrazkach",
+    "topic": "wzory_i_ciagi",
+    "estimatedMinutes": 15
+  },
+  {
+    "id": "l11",
+    "number": 11,
+    "block": "Wzory, ciagi, regularnosci",
+    "blockCode": "B",
+    "title": "Magiczne kwadraty",
+    "topic": "wzory_i_ciagi",
+    "estimatedMinutes": 15
+  },
+  {
+    "id": "l12",
+    "number": 12,
+    "block": "Wzory, ciagi, regularnosci",
+    "blockCode": "B",
+    "title": "Rozkladanie na sume lub iloczyn",
+    "topic": "wzory_i_ciagi",
+    "estimatedMinutes": 15
+  },
+  {
+    "id": "l13",
+    "number": 13,
+    "block": "Wzory, ciagi, regularnosci",
+    "blockCode": "B",
+    "title": "Znajdz regule i przewidz nastepny krok",
+    "topic": "wzory_i_ciagi",
+    "estimatedMinutes": 15
+  },
+  {
+    "id": "l14",
+    "number": 14,
+    "block": "Geometria plaska",
+    "blockCode": "C",
+    "title": "Punkty, odcinki, proste, polproste",
+    "topic": "geometria_plaska",
+    "estimatedMinutes": 14
+  },
+  {
+    "id": "l15",
+    "number": 15,
+    "block": "Geometria plaska",
+    "blockCode": "C",
+    "title": "Katy i ich rodzaje",
+    "topic": "geometria_plaska",
+    "estimatedMinutes": 14
+  },
+  {
+    "id": "l16",
+    "number": 16,
+    "block": "Geometria plaska",
+    "blockCode": "C",
+    "title": "Trojkaty i ich rodzaje",
+    "topic": "geometria_plaska",
+    "estimatedMinutes": 15
+  },
+  {
+    "id": "l17",
+    "number": 17,
+    "block": "Geometria plaska",
+    "blockCode": "C",
+    "title": "Czworokaty: kwadrat, prostokat, trapez",
+    "topic": "geometria_plaska",
+    "estimatedMinutes": 15
+  },
+  {
+    "id": "l18",
+    "number": 18,
+    "block": "Geometria plaska",
+    "blockCode": "C",
+    "title": "Obwod figur",
+    "topic": "geometria_plaska",
+    "estimatedMinutes": 15
+  },
+  {
+    "id": "l19",
+    "number": 19,
+    "block": "Geometria plaska",
+    "blockCode": "C",
+    "title": "Pole figur - liczenie kratek",
+    "topic": "geometria_plaska",
+    "estimatedMinutes": 15
+  },
+  {
+    "id": "l20",
+    "number": 20,
+    "block": "Geometria plaska",
+    "blockCode": "C",
+    "title": "Symetria osiowa",
+    "topic": "geometria_plaska",
+    "estimatedMinutes": 14
+  },
+  {
+    "id": "l21",
+    "number": 21,
+    "block": "Geometria plaska",
+    "blockCode": "C",
+    "title": "Tangram i ukladanie figur",
+    "topic": "geometria_plaska",
+    "estimatedMinutes": 16
+  },
+  {
+    "id": "l22",
+    "number": 22,
+    "block": "Geometria przestrzenna",
+    "blockCode": "D",
+    "title": "Bryly: szescian i prostopadloscian",
+    "topic": "geometria_przestrzenna",
+    "estimatedMinutes": 14
+  },
+  {
+    "id": "l23",
+    "number": 23,
+    "block": "Geometria przestrzenna",
+    "blockCode": "D",
+    "title": "Widoki bryly z roznych stron",
+    "topic": "geometria_przestrzenna",
+    "estimatedMinutes": 14
+  },
+  {
+    "id": "l24",
+    "number": 24,
+    "block": "Geometria przestrzenna",
+    "blockCode": "D",
+    "title": "Liczenie kostek w budowli",
+    "topic": "geometria_przestrzenna",
+    "estimatedMinutes": 16
+  },
+  {
+    "id": "l25",
+    "number": 25,
+    "block": "Geometria przestrzenna",
+    "blockCode": "D",
+    "title": "Siatki szescianu",
+    "topic": "geometria_przestrzenna",
+    "estimatedMinutes": 14
+  },
+  {
+    "id": "l26",
+    "number": 26,
+    "block": "Geometria przestrzenna",
+    "blockCode": "D",
+    "title": "Drogi i sciezki po bryle",
+    "topic": "geometria_przestrzenna",
+    "estimatedMinutes": 16
+  },
+  {
+    "id": "l27",
+    "number": 27,
+    "block": "Pomiary i jednostki",
+    "blockCode": "E",
+    "title": "Dlugosc: mm, cm, dm, m, km",
+    "topic": "pomiary_jednostki",
+    "estimatedMinutes": 14
+  },
+  {
+    "id": "l28",
+    "number": 28,
+    "block": "Pomiary i jednostki",
+    "blockCode": "E",
+    "title": "Masa: g, dag, kg, t",
+    "topic": "pomiary_jednostki",
+    "estimatedMinutes": 14
+  },
+  {
+    "id": "l29",
+    "number": 29,
+    "block": "Pomiary i jednostki",
+    "blockCode": "E",
+    "title": "Pojemnosc: ml, l",
+    "topic": "pomiary_jednostki",
+    "estimatedMinutes": 12
+  },
+  {
+    "id": "l30",
+    "number": 30,
+    "block": "Pomiary i jednostki",
+    "blockCode": "E",
+    "title": "Czas: minuty, godziny, doba",
+    "topic": "pomiary_jednostki",
+    "estimatedMinutes": 14
+  },
+  {
+    "id": "l31",
+    "number": 31,
+    "block": "Pomiary i jednostki",
+    "blockCode": "E",
+    "title": "Pieniadze, reszta, zakupy",
+    "topic": "pieniadze",
+    "estimatedMinutes": 15
+  },
+  {
+    "id": "l32",
+    "number": 32,
+    "block": "Pomiary i jednostki",
+    "blockCode": "E",
+    "title": "Mieszane zadania z jednostkami",
+    "topic": "pomiary_jednostki",
+    "estimatedMinutes": 14
+  },
+  {
+    "id": "l33",
+    "number": 33,
+    "block": "Czas i kalendarz",
+    "blockCode": "F",
+    "title": "Zegar - godziny i minuty",
+    "topic": "czas_kalendarz",
+    "estimatedMinutes": 14
+  },
+  {
+    "id": "l34",
+    "number": 34,
+    "block": "Czas i kalendarz",
+    "blockCode": "F",
+    "title": "Dni tygodnia - co bedzie za N dni",
+    "topic": "czas_kalendarz",
+    "estimatedMinutes": 12
+  },
+  {
+    "id": "l35",
+    "number": 35,
+    "block": "Czas i kalendarz",
+    "blockCode": "F",
+    "title": "Daty, miesiace, odstepy",
+    "topic": "czas_kalendarz",
+    "estimatedMinutes": 16
+  },
+  {
+    "id": "l36",
+    "number": 36,
+    "block": "Logika i myslenie",
+    "blockCode": "G",
+    "title": "Prawda czy falsz",
+    "topic": "logika",
+    "estimatedMinutes": 14
+  },
+  {
+    "id": "l37",
+    "number": 37,
+    "block": "Logika i myslenie",
+    "blockCode": "G",
+    "title": "Kto powiedzial prawde - zagadki",
+    "topic": "logika",
+    "estimatedMinutes": 16
+  },
+  {
+    "id": "l38",
+    "number": 38,
+    "block": "Logika i myslenie",
+    "blockCode": "G",
+    "title": "Tabelki logiczne i przyporzadkowania",
+    "topic": "logika",
+    "estimatedMinutes": 16
+  },
+  {
+    "id": "l39",
+    "number": 39,
+    "block": "Logika i myslenie",
+    "blockCode": "G",
+    "title": "Eliminacja mozliwosci",
+    "topic": "logika",
+    "estimatedMinutes": 14
+  },
+  {
+    "id": "l40",
+    "number": 40,
+    "block": "Logika i myslenie",
+    "blockCode": "G",
+    "title": "Wagi i porownania",
+    "topic": "logika",
+    "estimatedMinutes": 14
+  },
+  {
+    "id": "l41",
+    "number": 41,
+    "block": "Logika i myslenie",
+    "blockCode": "G",
+    "title": "Przelewanie, przesypywanie, podzialy",
+    "topic": "logika",
+    "estimatedMinutes": 16
+  },
+  {
+    "id": "l42",
+    "number": 42,
+    "block": "Kombinatoryka i liczenie",
+    "blockCode": "H",
+    "title": "Na ile sposobow - proste przypadki",
+    "topic": "kombinatoryka",
+    "estimatedMinutes": 14
+  },
+  {
+    "id": "l43",
+    "number": 43,
+    "block": "Kombinatoryka i liczenie",
+    "blockCode": "H",
+    "title": "Drzewo mozliwosci",
+    "topic": "kombinatoryka",
+    "estimatedMinutes": 14
+  },
+  {
+    "id": "l44",
+    "number": 44,
+    "block": "Kombinatoryka i liczenie",
+    "blockCode": "H",
+    "title": "Liczenie tras na siatce",
+    "topic": "kombinatoryka",
+    "estimatedMinutes": 14
+  },
+  {
+    "id": "l45",
+    "number": 45,
+    "block": "Kombinatoryka i liczenie",
+    "blockCode": "H",
+    "title": "Ustawianie i kolory",
+    "topic": "kombinatoryka",
+    "estimatedMinutes": 16
+  },
+  {
+    "id": "l46",
+    "number": 46,
+    "block": "Strategie konkursowe",
+    "blockCode": "I",
+    "title": "Jak czytac zadanie Kangurka",
+    "topic": "lamiglowki",
+    "estimatedMinutes": 14
+  },
+  {
+    "id": "l47",
+    "number": 47,
+    "block": "Strategie konkursowe",
+    "blockCode": "I",
+    "title": "Szukaj wzoru zamiast liczyc",
+    "topic": "lamiglowki",
+    "estimatedMinutes": 14
+  },
+  {
+    "id": "l48",
+    "number": 48,
+    "block": "Strategie konkursowe",
+    "blockCode": "I",
+    "title": "Eliminacja odpowiedzi ABCDE",
+    "topic": "lamiglowki",
+    "estimatedMinutes": 14
+  },
+  {
+    "id": "l49",
+    "number": 49,
+    "block": "Strategie konkursowe",
+    "blockCode": "I",
+    "title": "Symulacja konkursu Kangur - czesc 1",
+    "topic": "lamiglowki",
+    "estimatedMinutes": 35
+  },
+  {
+    "id": "l50",
+    "number": 50,
+    "block": "Strategie konkursowe",
+    "blockCode": "I",
+    "title": "Symulacja konkursu Kangur - czesc 2 + omowienie",
+    "topic": "lamiglowki",
+    "estimatedMinutes": 40
+  }
+]

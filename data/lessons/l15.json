@@ -1,0 +1,537 @@
+{
+  "id": "l15",
+  "number": 15,
+  "block": "Geometria plaska",
+  "blockCode": "C",
+  "title": "Katy i ich rodzaje",
+  "topic": "geometria_plaska",
+  "estimatedMinutes": 14,
+  "theory": {
+    "intro": "Otwierasz drzwi - powstaje kat. Wskazowki zegara tworza kat. Kat to dwie polproste wychodzace z jednego punktu. Im szerzej je rozsuniesz, tym wiekszy kat. Geometria katow zaczyna sie od rozpoznawania, czy kat jest maly, prosty czy szeroki.",
+    "tool": "Sztuczka 1: KAT PROSTY TO ROG KARTKI. Kazdy rog kartki to kat prosty. Kat mniejszy od prostego nazywamy ostrym, a wiekszy - rozwartym. Kat polpelny to prosta linia.\n\nSztuczka 2: PORÓWNUJ Z ROGIEM. Nie znasz miary kata? Przyloz w mysli rog kartki. Jezeli kat jest 'ciasniejszy' - ostry. Szerszy - rozwarty.\n\nSztuczka 3: KATY NA ZEGARZE. Wskazowki zegara tworza katy. Co godzine duza wskazowka przesuwa sie o pelne kolo. Miedzy sasiednimi cyframi jest zawsze taki sam kat.",
+    "trick": "Kangur lubi katy w odbiciach i obrotach. Gdy figura sie obraca albo odbija w lustrze, katy NIE zmieniaja swojej miary - zmienia sie tylko ich polozenie. To klucz do zadan z lustrami i obracaniem."
+  },
+  "versions": [
+    {
+      "versionId": "v1",
+      "label": "Wersja 1 (oryginalna)",
+      "warmup": [
+        {
+          "id": "gen-l15-v1-w1",
+          "source": "generated-l15-v1-w1",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "geometria_plaska",
+          "subtopic": "rozpoznanie kata prostego",
+          "statement": "Kat prosty to taki, jaki tworzy:",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "Rozwarte nozyczki",
+            "B": "Rog kartki",
+            "C": "Prosta linia",
+            "D": "Pelne kolo",
+            "E": "Czubek igly"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "gen-l15-v1-w2",
+          "source": "generated-l15-v1-w2",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "geometria_plaska",
+          "subtopic": "kat ostry i rozwarty",
+          "statement": "Kat mniejszy od kata prostego nazywamy:",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "Ostrym",
+            "B": "Rozwartym",
+            "C": "Polpelnym",
+            "D": "Pelnym",
+            "E": "Prostym"
+          },
+          "correct": "A"
+        },
+        {
+          "id": "gen-l15-v1-w3",
+          "source": "generated-l15-v1-w3",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "geometria_plaska",
+          "subtopic": "katy na zegarze",
+          "statement": "O godzinie 3:00 wskazowki zegara tworza kat:",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "Ostry",
+            "B": "Prosty",
+            "C": "Rozwarty",
+            "D": "Polpelny",
+            "E": "Pelny"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "kangur-maluch-2022-8",
+          "source": "kangur-maluch-2022-8",
+          "year": 2022,
+          "number": 8,
+          "difficulty": "3pkt",
+          "topic": "geometria_plaska",
+          "subtopic": "odbicia od lustra - tor lasera",
+          "statement": "Ukosne kreski to lustra. Promien lasera odbija sie od lustra. Przez ktory punkt (A,B,C,D,E) przejdzie promien wpuszczony wzdluz strzalki na rysunku 2?",
+          "hasImage": true,
+          "imageNote": "Rysunek 1 - przyklad odbicia. Rysunek 2 - prostokat z lustrami i strzalka oraz 5 punktow.",
+          "choices": {
+            "A": "A",
+            "B": "B",
+            "C": "C",
+            "D": "D",
+            "E": "E"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "kangur-maluch-2013-3",
+          "source": "kangur-maluch-2013-3",
+          "year": 2013,
+          "number": 3,
+          "difficulty": "3pkt",
+          "topic": "geometria_plaska",
+          "subtopic": "odbicie lustrzane zegara",
+          "statement": "Na scianie naprzeciwko lustra wisi zegar wskazujacy godzine 15:00. Ktory z rysunkow przedstawia odbicie tego zegara w lustrze?",
+          "hasImage": true,
+          "imageNote": "Zegar 15:00 i 5 wariantow odbicia lustrzanego.",
+          "choices": {
+            "A": "zegar A",
+            "B": "zegar B",
+            "C": "zegar C",
+            "D": "zegar D",
+            "E": "zegar E"
+          },
+          "correct": "D"
+        }
+      ],
+      "challenge": [
+        {
+          "id": "kangur-maluch-2016-10",
+          "source": "kangur-maluch-2016-10",
+          "year": 2016,
+          "number": 10,
+          "difficulty": "4pkt",
+          "topic": "geometria_plaska",
+          "subtopic": "odbicie lustrzane pajacyka",
+          "statement": "Pajacyk przeglada sie w lustrze. Ktory z 5 rysunkow przedstawia jego odbicie?",
+          "hasImage": true,
+          "imageNote": "Pajacyk i 5 wariantow odbicia.",
+          "choices": {
+            "A": "rysunek A",
+            "B": "rysunek B",
+            "C": "rysunek C",
+            "D": "rysunek D",
+            "E": "rysunek E"
+          },
+          "correct": "E"
+        },
+        {
+          "id": "gen-l15-v1-c1",
+          "source": "generated-l15-v1-c1",
+          "year": null,
+          "number": null,
+          "difficulty": "5pkt",
+          "topic": "geometria_plaska",
+          "subtopic": "kat miedzy wskazowkami",
+          "statement": "O godzinie 6:00 wskazowki zegara (godzinowa i minutowa) tworza kat:",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "Ostry",
+            "B": "Prosty",
+            "C": "Rozwarty",
+            "D": "Polpelny",
+            "E": "Pelny"
+          },
+          "correct": "D"
+        }
+      ],
+      "solutions": [
+        {
+          "problemId": "gen-l15-v1-w1",
+          "observation": "Rog kartki to wzorzec kata prostego.",
+          "strategy": "Porownanie z rogiem.",
+          "steps": [
+            "Kazdy rog prostokatnej kartki to kat prosty"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l15-v1-w2",
+          "observation": "Mniejszy od prostego = ostry.",
+          "strategy": "Klasyfikacja katow.",
+          "steps": [
+            "Kat ostry jest mniejszy niz kat prosty"
+          ],
+          "answer": "A",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l15-v1-w3",
+          "observation": "O 3:00 wskazowki sa pod katem rogu kartki.",
+          "strategy": "Katy na zegarze.",
+          "steps": [
+            "Wskazowka godzinowa na 3, minutowa na 12",
+            "Tworza kat prosty"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2022-8",
+          "observation": "Promien lasera odbija sie od luster.",
+          "strategy": "Sledzenie toru odbic.",
+          "steps": [
+            "Przy kazdym lustrze promien zmienia kierunek",
+            "Po przejsciu wszystkich luster trafia w punkt C"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2013-3",
+          "observation": "Odbicie lustrzane zegara 15:00.",
+          "strategy": "Odbicie w pionowym lustrze.",
+          "steps": [
+            "Zegar 15:00 odbity w lustrze",
+            "Wskazowki odbijaja sie - obraz D"
+          ],
+          "answer": "D",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2016-10",
+          "observation": "Odbicie lustrzane pajacyka.",
+          "strategy": "Lustrzane odwrocenie obrazu.",
+          "steps": [
+            "Pajacyk w lustrze ma odbita prawa i lewa strone",
+            "Poprawne odbicie to E"
+          ],
+          "answer": "E",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l15-v1-c1",
+          "observation": "O 6:00 wskazowki sa naprzeciw siebie.",
+          "strategy": "Katy na zegarze.",
+          "steps": [
+            "Godzinowa na 6, minutowa na 12",
+            "Wskazowki tworza linie prosta - kat polpelny"
+          ],
+          "answer": "D",
+          "alternative": null
+        }
+      ]
+    },
+    {
+      "versionId": "v2",
+      "label": "Wersja 2 (powtorka)",
+      "warmup": [
+        {
+          "id": "gen-l15-v2-w1",
+          "source": "generated-l15-v2-w1",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "geometria_plaska",
+          "subtopic": "kat rozwarty",
+          "statement": "Kat wiekszy od kata prostego, ale mniejszy od polpelnego nazywamy:",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "Ostrym",
+            "B": "Prostym",
+            "C": "Rozwartym",
+            "D": "Pelnym",
+            "E": "Zerowym"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "gen-l15-v2-w2",
+          "source": "generated-l15-v2-w2",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "geometria_plaska",
+          "subtopic": "kat polpelny",
+          "statement": "Kat polpelny wyglada jak:",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "Rog kartki",
+            "B": "Prosta linia",
+            "C": "Czubek olowka",
+            "D": "Pelne kolo",
+            "E": "Kropka"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "gen-l15-v2-w3",
+          "source": "generated-l15-v2-w3",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "geometria_plaska",
+          "subtopic": "katy w kwadracie",
+          "statement": "Ile katow prostych ma kwadrat?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "1",
+            "B": "2",
+            "C": "3",
+            "D": "4",
+            "E": "0"
+          },
+          "correct": "D"
+        },
+        {
+          "id": "kangur-maluch-2015-9",
+          "source": "kangur-maluch-2015-9",
+          "year": 2015,
+          "number": 9,
+          "difficulty": "4pkt",
+          "topic": "geometria_plaska",
+          "subtopic": "obroty napisu na parasolu",
+          "statement": "Parasol ma na gorze napis KANGAROO ulozony dookola. Na ktorym z 5 rysunkow przedstawiono ten sam parasol (obrocony)?",
+          "hasImage": true,
+          "imageNote": "Parasol z napisem KANGAROO dookola i 5 wariantow obroconych.",
+          "choices": {
+            "A": "parasol A",
+            "B": "parasol B",
+            "C": "parasol C",
+            "D": "parasol D",
+            "E": "parasol E"
+          },
+          "correct": "E"
+        },
+        {
+          "id": "kangur-maluch-2025-2",
+          "source": "kangur-maluch-2025-2",
+          "year": 2025,
+          "number": 2,
+          "difficulty": "3pkt",
+          "topic": "geometria_plaska",
+          "subtopic": "obrot wiatraczka",
+          "statement": "Emilka ma wiatraczek (szescioboczny z trojkatami w roznych kolorach). Dziewczynka obrocila jego tarcze. Jak teraz moze wygladac wiatraczek?",
+          "hasImage": true,
+          "imageNote": "Heksagon podzielony na 6 trojkatow, czesc czarna, czesc biala. 5 wariantow po obrocie.",
+          "choices": {
+            "A": "wzor A",
+            "B": "wzor B",
+            "C": "wzor C",
+            "D": "wzor D",
+            "E": "wzor E"
+          },
+          "correct": "B"
+        }
+      ],
+      "challenge": [
+        {
+          "id": "kangur-maluch-2014-8",
+          "source": "kangur-maluch-2014-8",
+          "year": 2014,
+          "number": 8,
+          "difficulty": "3pkt",
+          "topic": "geometria_plaska",
+          "subtopic": "odbicie lustrzane bukietu",
+          "statement": "Kasia namalowala na szybie okna bukiet kwiatow. Jak wyglada on z drugiej strony okna?",
+          "hasImage": true,
+          "imageNote": "Bukiet kwiatow i 5 wariantow odbicia lustrzanego.",
+          "choices": {
+            "A": "bukiet A",
+            "B": "bukiet B",
+            "C": "bukiet C",
+            "D": "bukiet D",
+            "E": "bukiet E"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "kangur-maluch-2018-15",
+          "source": "kangur-maluch-2018-15",
+          "year": 2018,
+          "number": 15,
+          "difficulty": "4pkt",
+          "topic": "geometria_plaska",
+          "subtopic": "inwersja kolorow + obrot",
+          "statement": "Na obrazku zamieniono kolor bialy na czarny i odwrotnie, a nastepnie obrocono. Ktory z rysunkow przedstawia otrzymana figure?",
+          "hasImage": true,
+          "imageNote": "Kolisty obrazek z punktami i kolami w kolorach. Po inwersji i obrocie - 5 wariantow.",
+          "choices": {
+            "A": "rysunek A",
+            "B": "rysunek B",
+            "C": "rysunek C",
+            "D": "rysunek D",
+            "E": "rysunek E"
+          },
+          "correct": "D"
+        }
+      ],
+      "solutions": [
+        {
+          "problemId": "gen-l15-v2-w1",
+          "observation": "Wiekszy od prostego, mniejszy od polpelnego = rozwarty.",
+          "strategy": "Klasyfikacja.",
+          "steps": [
+            "Kat rozwarty jest miedzy prostym a polpelnym"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l15-v2-w2",
+          "observation": "Kat polpelny to wyprostowana linia.",
+          "strategy": "Definicja kata polpelnego.",
+          "steps": [
+            "Dwie polproste tworza linie prosta"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l15-v2-w3",
+          "observation": "Kwadrat ma 4 rogi proste.",
+          "strategy": "Katy w kwadracie.",
+          "steps": [
+            "Kazdy z 4 rogow kwadratu to kat prosty"
+          ],
+          "answer": "D",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2015-9",
+          "observation": "Parasol z napisem KANGAROO obrocony.",
+          "strategy": "Sledzenie obrotu napisu.",
+          "steps": [
+            "Napis dookola parasola zachowuje kolejnosc liter",
+            "Po obrocie poprawny obraz to E"
+          ],
+          "answer": "E",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2025-2",
+          "observation": "Wiatraczek obrocony - katy zachowane.",
+          "strategy": "Obrot tarczy.",
+          "steps": [
+            "Przy obrocie uklad trojkatow zachowuje swoje katy",
+            "Mozliwy obraz to B"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2014-8",
+          "observation": "Bukiet kwiatow z drugiej strony okna - odbicie.",
+          "strategy": "Odbicie lustrzane.",
+          "steps": [
+            "Z drugiej strony szyby bukiet jest odbity lustrzanie",
+            "Poprawne odbicie to B"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2018-15",
+          "observation": "Inwersja kolorow i obrot figury.",
+          "strategy": "Zamiana kolorow + obrot.",
+          "steps": [
+            "Bialy zamieniony na czarny i odwrotnie",
+            "Po obrocie poprawny obraz to D"
+          ],
+          "answer": "D",
+          "alternative": null
+        }
+      ]
+    },
+    {
+      "versionId": "v3",
+      "label": "Wersja 3 (oryginaly Kangurka)",
+      "warmup": [
+        {
+          "id": "kangur-maluch-2025-3",
+          "source": "kangur-maluch-2025-3",
+          "year": 2025,
+          "number": 3,
+          "difficulty": "3pkt",
+          "topic": "geometria_plaska",
+          "subtopic": "ruch po siatce z wektorami",
+          "statement": "Z szkoly do ZOO kangurek wykonal skoki: gora 1, skos prawo-dol 2, skos prawo-gora 1, lewo 4. Potem od ZOO wykonal: prawo 3, skos prawo-gora 2, gora 2. Do ktorego punktu (A,B,C,D,E) trafil Kangurek?",
+          "hasImage": true,
+          "imageNote": "Siatka z zaznaczonymi punktami Szkola, ZOO i punktami A-E.",
+          "choices": {
+            "A": "A",
+            "B": "B",
+            "C": "C",
+            "D": "D",
+            "E": "E"
+          },
+          "correct": "B"
+        }
+      ],
+      "challenge": [],
+      "solutions": [
+        {
+          "problemId": "kangur-maluch-2025-3",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Oryginalne zadanie Kangur Maluch 2025 nr 3.",
+          "steps": [
+            "Oryginalne zadanie Kangur Maluch 2025 nr 3.",
+            "Poprawna odpowiedz: B"
+          ],
+          "answer": "B",
+          "alternative": null
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Kat prosty jest jak:",
+      "choices": {
+        "A": "Rog kartki",
+        "B": "Prosta linia",
+        "C": "Czubek igly"
+      },
+      "correct": "A",
+      "explain": "Rog prostokatnej kartki to wzorcowy kat prosty."
+    },
+    {
+      "q": "O 6:00 wskazowki zegara tworza kat:",
+      "choices": {
+        "A": "Prosty",
+        "B": "Polpelny",
+        "C": "Ostry"
+      },
+      "correct": "B",
+      "explain": "Wskazowki sa naprzeciw siebie - tworza linie prosta, kat polpelny."
+    },
+    {
+      "q": "Gdy figura sie obraca, jej katy:",
+      "choices": {
+        "A": "Zmieniaja miare",
+        "B": "Zostaja takie same",
+        "C": "Znikaja"
+      },
+      "correct": "B",
+      "explain": "Obrot zmienia tylko polozenie, nie miare katow."
+    }
+  ]
+}

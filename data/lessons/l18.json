@@ -1,0 +1,534 @@
+{
+  "id": "l18",
+  "number": 18,
+  "block": "Geometria plaska",
+  "blockCode": "C",
+  "title": "Obwod figur",
+  "topic": "geometria_plaska",
+  "estimatedMinutes": 15,
+  "theory": {
+    "intro": "Mrowka idzie dookola kartki i wraca do startu. Droga, ktora przeszla, to obwod. Obwod to suma dlugosci wszystkich bokow figury. Plot wokol ogrodu, ramka obrazka, listwa wokol stolu - to wszystko obwody.",
+    "tool": "Sztuczka 1: OBWOD TO SUMA BOKOW. Po prostu dodaj dlugosci wszystkich bokow. Prostokat o bokach 5 i 3: obwod = 5 + 3 + 5 + 3 = 16.\n\nSztuczka 2: PROSTOKAT - SZYBKI WZOR. Obwod prostokata = 2 razy (dlugosc + szerokosc). Bo masz dwa dlugie boki i dwa krotkie.\n\nSztuczka 3: FIGURA ZLOZONA - PRZESUWAJ BOKI. W figurze schodkowej mozesz w mysli przesunac boki tak, by utworzyly prostokat. Obwod czesto wychodzi taki sam jak prostokata, ktory ja otacza.\n\nSztuczka 4: OBWOD NA KRATCE. Licz boczki kratek wzdluz brzegu figury. Kazdy bok kratki to jedna jednostka.",
+    "trick": "Pulapka Kangurka: figura wycieta z prostokata moze miec TAKI SAM obwod jak caly prostokat. Wciecie 'do srodka' nie zmienia obwodu, jezeli brzeg idzie tymi samymi liniami. Zawsze przesuwaj boki w mysli, zanim zaczniesz dodawac."
+  },
+  "versions": [
+    {
+      "versionId": "v1",
+      "label": "Wersja 1 (oryginalna)",
+      "warmup": [
+        {
+          "id": "gen-l18-v1-w1",
+          "source": "generated-l18-v1-w1",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "geometria_plaska",
+          "subtopic": "obwod prostokata",
+          "statement": "Prostokat ma boki 6 cm i 4 cm. Ile wynosi jego obwod?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "10 cm",
+            "B": "20 cm",
+            "C": "24 cm",
+            "D": "14 cm",
+            "E": "16 cm"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "gen-l18-v1-w2",
+          "source": "generated-l18-v1-w2",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "geometria_plaska",
+          "subtopic": "obwod kwadratu",
+          "statement": "Kwadrat ma bok 7 cm. Ile wynosi jego obwod?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "14 cm",
+            "B": "21 cm",
+            "C": "28 cm",
+            "D": "49 cm",
+            "E": "35 cm"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "gen-l18-v1-w3",
+          "source": "generated-l18-v1-w3",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "geometria_plaska",
+          "subtopic": "obwod trojkata",
+          "statement": "Trojkat rownoboczny ma bok 5 cm. Ile wynosi jego obwod?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "10 cm",
+            "B": "15 cm",
+            "C": "20 cm",
+            "D": "25 cm",
+            "E": "5 cm"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "kangur-maluch-2019-16",
+          "source": "kangur-maluch-2019-16",
+          "year": 2019,
+          "number": 16,
+          "difficulty": "4pkt",
+          "topic": "geometria_plaska",
+          "subtopic": "ramka wokół kwadratu",
+          "statement": "Kwadratowy obrazek 7x7 (49 kratek) Hania otoczyła ramką z 32 białych kwadracików. Ile takich białych kwadracików będzie potrzebowała, by tak samo obramować obrazek kwadratowy 10x10 (100 kratek)?",
+          "hasImage": true,
+          "imageNote": "Obrazek 7x7 z kangurem otoczony ramką jednego rzędu białych kwadracików.",
+          "choices": {
+            "A": "36",
+            "B": "40",
+            "C": "44",
+            "D": "48",
+            "E": "52"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "kangur-maluch-2021-15",
+          "source": "kangur-maluch-2021-15",
+          "year": 2021,
+          "number": 15,
+          "difficulty": "4pkt",
+          "topic": "geometria_plaska",
+          "subtopic": "dlugosc z wymiarow prostokatow",
+          "statement": "Na obrazku widzimy prostokaty z wymiarami 32 cm, 36 cm i 48 cm. Jaka dlugosc oznaczono znakiem zapytania?",
+          "hasImage": true,
+          "imageNote": "Uklad prostokatow z wymiarami 32, 36, 48 cm i odcinkiem ?.",
+          "choices": {
+            "A": "22 cm",
+            "B": "20 cm",
+            "C": "16 cm",
+            "D": "14 cm",
+            "E": "12 cm"
+          },
+          "correct": "B"
+        }
+      ],
+      "challenge": [
+        {
+          "id": "kangur-maluch-2019-20",
+          "source": "kangur-maluch-2019-20",
+          "year": 2019,
+          "number": 20,
+          "difficulty": "5pkt",
+          "topic": "geometria_plaska",
+          "subtopic": "długość linii środkowej zakrzywionego korytarza",
+          "statement": "Korytarz w kształcie litery Z ma wymiary zewnętrzne: 36m i 40m (długie boki poziome), 28m (krótki bok poziomy), 6m, 8m i 20m (boki pionowe). Przez środek korytarza narysowano linię. Jaką długość ma ta linia?",
+          "hasImage": true,
+          "imageNote": "Korytarz w kształcie litery Z z wymiarami zewnętrznymi.",
+          "choices": {
+            "A": "63 metry.",
+            "B": "68 metrów.",
+            "C": "69 metrów.",
+            "D": "71 metrów.",
+            "E": "83 metry."
+          },
+          "correct": "C"
+        },
+        {
+          "id": "kangur-maluch-2018-23",
+          "source": "kangur-maluch-2018-23",
+          "year": 2018,
+          "number": 23,
+          "difficulty": "5pkt",
+          "topic": "geometria_plaska",
+          "subtopic": "prostokat z kwadratow - skalowanie",
+          "statement": "Duzy prostokat zostal podzielony na 7 kwadratow. Zacieniowano 3 najmniejsze kwadraty. Ile takich malych kwadratow wypelni caly duzy prostokat?",
+          "hasImage": true,
+          "imageNote": "Prostokat podzielony na kwadraty roznej wielkosci, 3 najmniejsze zacieniowane.",
+          "choices": {
+            "A": "165",
+            "B": "176",
+            "C": "187",
+            "D": "198",
+            "E": "200"
+          },
+          "correct": "D"
+        }
+      ],
+      "solutions": [
+        {
+          "problemId": "gen-l18-v1-w1",
+          "observation": "Obwod = suma bokow prostokata.",
+          "strategy": "Wzor na obwod prostokata.",
+          "steps": [
+            "Obwod = 2 razy (6 + 4) = 2 razy 10 = 20 cm"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l18-v1-w2",
+          "observation": "Kwadrat - 4 rowne boki.",
+          "strategy": "Obwod kwadratu.",
+          "steps": [
+            "Obwod = 4 razy 7 = 28 cm"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l18-v1-w3",
+          "observation": "Trojkat rownoboczny - 3 rowne boki.",
+          "strategy": "Obwod trojkata.",
+          "steps": [
+            "Obwod = 3 razy 5 = 15 cm"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2019-16",
+          "observation": "Ramka wokol kwadratowego obrazka.",
+          "strategy": "Wzor na liczbe plytek ramki.",
+          "steps": [
+            "Ramka wokol 10x10: 4 razy 10 + 4 = 44 plytki"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2021-15",
+          "observation": "Szukamy dlugosci z wymiarow prostokatow.",
+          "strategy": "Roznice wymiarow.",
+          "steps": [
+            "Z ukladu prostokatow 32, 36, 48 cm",
+            "Szukana dlugosc to 20 cm"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2019-20",
+          "observation": "Linia srodkiem zakrzywionego korytarza.",
+          "strategy": "Sumowanie dlugosci wzdluz linii.",
+          "steps": [
+            "Linia srodkowa biegnie przez zakrety korytarza",
+            "Jej dlugosc to 69 metrow"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2018-23",
+          "observation": "Prostokat podzielony na kwadraty - skalowanie.",
+          "strategy": "Stosunki bokow kwadratow.",
+          "steps": [
+            "Prostokat z 7 kwadratow, 3 najmniejsze zacieniowane",
+            "Caly prostokat to 198 malych kwadratow"
+          ],
+          "answer": "D",
+          "alternative": null
+        }
+      ]
+    },
+    {
+      "versionId": "v2",
+      "label": "Wersja 2 (powtorka)",
+      "warmup": [
+        {
+          "id": "gen-l18-v2-w1",
+          "source": "generated-l18-v2-w1",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "geometria_plaska",
+          "subtopic": "obwod prostokata",
+          "statement": "Prostokat ma boki 8 cm i 5 cm. Ile wynosi jego obwod?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "13 cm",
+            "B": "26 cm",
+            "C": "40 cm",
+            "D": "18 cm",
+            "E": "21 cm"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "gen-l18-v2-w2",
+          "source": "generated-l18-v2-w2",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "geometria_plaska",
+          "subtopic": "obwod kwadratu z obwodu",
+          "statement": "Kwadrat ma obwod 24 cm. Jaki bok ma ten kwadrat?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "4 cm",
+            "B": "5 cm",
+            "C": "6 cm",
+            "D": "8 cm",
+            "E": "12 cm"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "gen-l18-v2-w3",
+          "source": "generated-l18-v2-w3",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "geometria_plaska",
+          "subtopic": "obwod figury z kratek",
+          "statement": "Prostokat na kratce ma 5 kratek dlugosci i 2 kratki szerokosci. Ile boczkow kratek ma jego obwod?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "10",
+            "B": "12",
+            "C": "14",
+            "D": "16",
+            "E": "20"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "kangur-maluch-2024-11",
+          "source": "kangur-maluch-2024-11",
+          "year": 2024,
+          "number": 11,
+          "difficulty": "4pkt",
+          "topic": "geometria_plaska",
+          "subtopic": "bok kwadratowej plytki z wymiarow",
+          "statement": "Podloga wylozona plytkami: jasnymi prostokatnymi 23 cm x 11 cm i ciemnymi kwadratowymi. Jaka dlugosc ma bok plytki kwadratowej?",
+          "hasImage": true,
+          "imageNote": "Fragment podlogi z plytkami prostokatnymi i kwadratowymi.",
+          "choices": {
+            "A": "3 cm",
+            "B": "4 cm",
+            "C": "5 cm",
+            "D": "6 cm",
+            "E": "7 cm"
+          },
+          "correct": "D"
+        },
+        {
+          "id": "gen-l18-v2-w5",
+          "source": "generated-l18-v2-w5",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "geometria_plaska",
+          "subtopic": "obwod kwadratu",
+          "statement": "Kwadrat ma bok 9 cm. Ile wynosi jego obwod?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "18 cm",
+            "B": "27 cm",
+            "C": "36 cm",
+            "D": "45 cm",
+            "E": "81 cm"
+          },
+          "correct": "C"
+        }
+      ],
+      "challenge": [
+        {
+          "id": "kangur-maluch-2025-17",
+          "source": "kangur-maluch-2025-17",
+          "year": 2025,
+          "number": 17,
+          "difficulty": "5pkt",
+          "topic": "geometria_plaska",
+          "subtopic": "prostokaty w prostokacie - wymiary",
+          "statement": "Kostek narysowal i zacieniowal 11 identycznych prostokatow. Rysunek ma 100 cm dlugosci i 60 cm szerokosci. Jakie wymiary ma kazdy z 11 prostokatow?",
+          "hasImage": true,
+          "imageNote": "Prostokat 100x60 wypelniony 11 identycznymi prostokatami.",
+          "choices": {
+            "A": "8 cm x 40 cm",
+            "B": "10 cm x 40 cm",
+            "C": "12 cm x 40 cm",
+            "D": "8 cm x 44 cm",
+            "E": "10 cm x 50 cm"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "kangur-maluch-2025-24",
+          "source": "kangur-maluch-2025-24",
+          "year": 2025,
+          "number": 24,
+          "difficulty": "5pkt",
+          "topic": "geometria_plaska",
+          "subtopic": "prostokat z 2 identycznych czesci - kwadrat",
+          "statement": "Prostokat przeciety na 2 identyczne czesci. Ulozono z nich kwadrat. Dluzszy bok prostokata mial 27 cm. O ile cm krotszy bok prostokata jest krotszy od dluzszego boku tego kwadratu?",
+          "hasImage": true,
+          "imageNote": "Prostokat ciety w 'schody' i przeksztalcony w kwadrat.",
+          "choices": {
+            "A": "3",
+            "B": "6",
+            "C": "9",
+            "D": "12",
+            "E": "18"
+          },
+          "correct": "B"
+        }
+      ],
+      "solutions": [
+        {
+          "problemId": "gen-l18-v2-w1",
+          "observation": "Obwod prostokata = 2 razy (dlugosc + szerokosc).",
+          "strategy": "Wzor na obwod.",
+          "steps": [
+            "Obwod = 2 razy (8 + 5) = 2 razy 13 = 26 cm"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l18-v2-w2",
+          "observation": "Obwod kwadratu = 4 razy bok.",
+          "strategy": "Odwrocenie wzoru.",
+          "steps": [
+            "Bok = obwod : 4 = 24 : 4 = 6 cm"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l18-v2-w3",
+          "observation": "Obwod = suma bokow prostokata.",
+          "strategy": "Liczenie boczkow kratek.",
+          "steps": [
+            "Obwod = 2 razy (5 + 2) = 2 razy 7 = 14 boczkow"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2024-11",
+          "observation": "Bok plytki kwadratowej z wymiarow plytki prostokatnej.",
+          "strategy": "Zaleznosc miedzy plytkami.",
+          "steps": [
+            "Plytka jasna 23 cm na 11 cm",
+            "Z ukladu plytek bok kwadratowej to 6 cm"
+          ],
+          "answer": "D",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l18-v2-w5",
+          "observation": "Kwadrat - 4 rowne boki.",
+          "strategy": "Obwod kwadratu.",
+          "steps": [
+            "Obwod = 4 razy 9 = 36 cm"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2025-17",
+          "observation": "Wymiary 11 identycznych prostokatow.",
+          "strategy": "Podzial prostokata 100 na 60.",
+          "steps": [
+            "11 identycznych prostokatow w prostokacie 100 cm na 60 cm",
+            "Kazdy ma wymiary 12 cm na 40 cm"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2025-24",
+          "observation": "Prostokat ciety na kwadrat.",
+          "strategy": "Roznica bokow prostokata i kwadratu.",
+          "steps": [
+            "Prostokat z dluzszym bokiem 27 cm pociety i zlozony w kwadrat",
+            "Krotszy bok prostokata jest o 6 cm krotszy od boku kwadratu"
+          ],
+          "answer": "B",
+          "alternative": null
+        }
+      ]
+    },
+    {
+      "versionId": "v3",
+      "label": "Wersja 3 (oryginaly Kangurka)",
+      "warmup": [
+        {
+          "id": "kangur-maluch-2022-18",
+          "source": "kangur-maluch-2022-18",
+          "year": 2022,
+          "number": 18,
+          "difficulty": "5pkt",
+          "topic": "geometria_plaska",
+          "subtopic": "dwa zgiecia i przebicie kartki",
+          "statement": "Kwadratowa kartka 6x6 z liczbami 1-36. Ela zagiela ja poziomo (gorna polowa na dolna), potem pionowo (lewa na prawa). Zrobila otwor w jednej kratce (gorny srodek 3x3). Ktore liczby przedziurkowala?",
+          "hasImage": true,
+          "imageNote": "Tabela 6x6 z liczbami 1-36, schematy zgiecia, kratka 3x3 z kropka.",
+          "choices": {
+            "A": "8, 11, 26, 29",
+            "B": "2, 5, 20, 23",
+            "C": "15, 16, 21, 22",
+            "D": "14, 17, 32, 35",
+            "E": "14, 17, 20, 23"
+          },
+          "correct": "E"
+        }
+      ],
+      "challenge": [],
+      "solutions": [
+        {
+          "problemId": "kangur-maluch-2022-18",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Oryginalne zadanie Kangur Maluch 2022 nr 18.",
+          "steps": [
+            "Oryginalne zadanie Kangur Maluch 2022 nr 18.",
+            "Poprawna odpowiedz: E"
+          ],
+          "answer": "E",
+          "alternative": null
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Obwod prostokata o bokach 3 i 7 to:",
+      "choices": {
+        "A": "10",
+        "B": "20",
+        "C": "21"
+      },
+      "correct": "B",
+      "explain": "Obwod = 2 razy (3 + 7) = 20."
+    },
+    {
+      "q": "Obwod to:",
+      "choices": {
+        "A": "Suma bokow",
+        "B": "Liczba kratek w srodku",
+        "C": "Najdluzszy bok"
+      },
+      "correct": "A",
+      "explain": "Obwod to suma dlugosci wszystkich bokow figury."
+    },
+    {
+      "q": "Kwadrat o obwodzie 20 cm ma bok:",
+      "choices": {
+        "A": "4 cm",
+        "B": "5 cm",
+        "C": "10 cm"
+      },
+      "correct": "B",
+      "explain": "Bok = 20 : 4 = 5 cm."
+    }
+  ]
+}

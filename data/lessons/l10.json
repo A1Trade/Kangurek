@@ -1,0 +1,509 @@
+{
+  "id": "l10",
+  "number": 10,
+  "block": "Wzory, ciagi, regularnosci",
+  "blockCode": "B",
+  "title": "Wzory w obrazkach",
+  "topic": "wzory_i_ciagi",
+  "estimatedMinutes": 15,
+  "theory": {
+    "intro": "Z patyczkow ukladasz trojkaty. Jeden trojkat to 3 patyczki. Drugi doklejony obok - tylko 2 dodatkowe. Trzeci - znowu 2. Obrazki tez maja swoje reguly, tylko trzeba je przetlumaczyc na liczby.",
+    "tool": "Sztuczka 1: POLICZ PIERWSZE PRZYPADKI. Narysuj lub policz 1, 2, 3 elementy wzoru. Zapisz liczby. Teraz widzisz ciag - i mozesz uzyc regul z poprzedniej lekcji.\n\nSztuczka 2: ZNAJDZ PRZYROST. O ile rosnie wzor przy kazdym kroku? Trojkaty z patyczkow: 3, 5, 7, 9 - przyrost to zawsze 2.\n\nSztuczka 3: ODDZIEL POCZATEK OD PRZYROSTU. Pierwszy element jest 'specjalny', kazdy nastepny dodaje stala porcje. Trojkaty: pierwszy ma 3, kazdy kolejny +2. Dla 10 trojkatow: 3 + 2 razy 9 = 21.\n\nSztuczka 4: RAMKI I BRZEGI. Liczba elementow na brzegu kwadratu N na N to 4 razy N minus 4 (rogi liczone raz). Dla 10 na 10: 4 razy 10 - 4 = 36.",
+    "trick": "Kangur uwielbia wzory, gdzie liczenie wszystkiego po kolei zajeloby wieki. Sekret: policz tylko 3 pierwsze przypadki, znajdz przyrost i uogolnij. Nigdy nie ryzykuj liczenia 100 elementow po jednym - znajdz regule."
+  },
+  "versions": [
+    {
+      "versionId": "v1",
+      "label": "Wersja 1 (oryginalna)",
+      "warmup": [
+        {
+          "id": "gen-l10-w1",
+          "source": "generated-l10-w1",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "wzory_i_ciagi",
+          "subtopic": "patyczki - trojkaty",
+          "statement": "Z patyczkow uklada sie trojkaty w rzedzie: 1 trojkat to 3 patyczki, 2 trojkaty to 5, 3 trojkaty to 7. Ile patyczkow na 5 trojkatow?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "9",
+            "B": "10",
+            "C": "11",
+            "D": "13",
+            "E": "15"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "gen-l10-w2",
+          "source": "generated-l10-w2",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "wzory_i_ciagi",
+          "subtopic": "zapalki - kwadraty",
+          "statement": "Z zapalek uklada sie kwadraty w rzedzie: 1 kwadrat to 4 zapalki, 2 to 7, 3 to 10. Ile zapalek na 6 kwadratow?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "16",
+            "B": "18",
+            "C": "19",
+            "D": "21",
+            "E": "24"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "gen-l10-w3",
+          "source": "generated-l10-w3",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "wzory_i_ciagi",
+          "subtopic": "wzor kropek w rzedach",
+          "statement": "Wzor z kropek: rzad 1 ma 1 kropke, rzad 2 ma 3 kropki, rzad 3 ma 5. Ile kropek ma rzad 6?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "9",
+            "B": "11",
+            "C": "12",
+            "D": "13",
+            "E": "6"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "kangur-maluch-2012-3",
+          "source": "kangur-maluch-2012-3",
+          "year": 2012,
+          "number": 3,
+          "difficulty": "3pkt",
+          "topic": "wzory_i_ciagi",
+          "subtopic": "liczba klamerek na lince z wspolnymi",
+          "statement": "Tata wiesza mokre reczniki na lince przypinajac je klamerkami tak, ze sasiednie reczniki dziela jedna klamerke. Ile klamerek uzyje tata do powieszenia dwunastu recznikow?",
+          "hasImage": true,
+          "imageNote": "Trzy reczniki na lince - 4 klamerki na 3 reczniki (kazdy ma 2 klamerki, dwie wspolne).",
+          "choices": {
+            "A": "11",
+            "B": "13",
+            "C": "12",
+            "D": "14",
+            "E": "15"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "kangur-maluch-2019-6",
+          "source": "kangur-maluch-2019-6",
+          "year": 2019,
+          "number": 6,
+          "difficulty": "3pkt",
+          "topic": "wzory_i_ciagi",
+          "subtopic": "regularność w nachodzących obiektach",
+          "statement": "Ola przypięła 8 pinezkami 3 zdjęcia tak, że każde kolejne zdjęcie nachodzi na poprzednie i jest przypięte razem z nim dwiema pinezkami. Marysia w taki sam sposób chce przypiąć 7 zdjęć. Ile pinezek będzie do tego potrzebować?",
+          "hasImage": true,
+          "imageNote": "Trzy zachodzące na siebie zdjęcia z 8 pinezkami w narożach.",
+          "choices": {
+            "A": "14",
+            "B": "16",
+            "C": "18",
+            "D": "22",
+            "E": "26"
+          },
+          "correct": "B"
+        }
+      ],
+      "challenge": [
+        {
+          "id": "gen-l10-c1",
+          "source": "generated-l10-c1",
+          "year": null,
+          "number": null,
+          "difficulty": "4pkt",
+          "topic": "wzory_i_ciagi",
+          "subtopic": "suma poziomow choinki",
+          "statement": "Choinka z klockow: gorny poziom ma 1 klocek, drugi 3, trzeci 5, czwarty 7. Ile klockow ma cala choinka z 5 poziomami?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "15",
+            "B": "20",
+            "C": "25",
+            "D": "30",
+            "E": "35"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "gen-l10-c2",
+          "source": "generated-l10-c2",
+          "year": null,
+          "number": null,
+          "difficulty": "5pkt",
+          "topic": "wzory_i_ciagi",
+          "subtopic": "brzeg ramki kwadratowej",
+          "statement": "Ramka kwadratowa z plytek: ramka 3x3 ma 8 plytek na brzegu, 4x4 ma 12, 5x5 ma 16. Ile plytek na brzegu ramki 10x10?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "32",
+            "B": "36",
+            "C": "40",
+            "D": "44",
+            "E": "48"
+          },
+          "correct": "B"
+        }
+      ],
+      "solutions": [
+        {
+          "problemId": "gen-l10-w1",
+          "observation": "Pierwszy trojkat 3, kazdy kolejny +2.",
+          "strategy": "Oddziel poczatek od przyrostu.",
+          "steps": [
+            "1 trojkat: 3 patyczki",
+            "Kazdy kolejny dodaje 2",
+            "5 trojkatow: 3 + 2+2+2+2 = 3 + 8 = 11"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l10-w2",
+          "observation": "Pierwszy kwadrat 4, kazdy kolejny +3.",
+          "strategy": "Oddziel poczatek od przyrostu.",
+          "steps": [
+            "1 kwadrat: 4 zapalki",
+            "Kazdy kolejny dodaje 3",
+            "6 kwadratow: 4 + 3 razy 5 = 4 + 15 = 19"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l10-w3",
+          "observation": "Liczby kropek: 1, 3, 5, 7... rosna o 2.",
+          "strategy": "Znajdz przyrost.",
+          "steps": [
+            "Rzad 1: 1, rzad 2: 3, rzad 3: 5",
+            "Kazdy rzad ma 2 wiecej",
+            "Rzad 6: 1, 3, 5, 7, 9, 11 - czyli 11"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2012-3",
+          "observation": "Sasiednie reczniki dziela klamerke.",
+          "strategy": "Znajdz przyrost na recznik.",
+          "steps": [
+            "1 recznik: 2 klamerki",
+            "Kazdy kolejny dodaje 1 klamerke (dzieli z sasiadem)",
+            "12 recznikow: 2 + 11 = 13"
+          ],
+          "answer": "B",
+          "alternative": "Wzor: liczba klamerek = liczba recznikow + 1."
+        },
+        {
+          "problemId": "kangur-maluch-2019-6",
+          "observation": "Pierwsze zdjecie 4 pinezki, kazde kolejne +2.",
+          "strategy": "Oddziel poczatek od przyrostu.",
+          "steps": [
+            "3 zdjecia = 8 pinezek, sprawdza sie: 4 + 2 + 2 = 8",
+            "7 zdjec: 4 + 2 razy 6 = 4 + 12 = 16"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l10-c1",
+          "observation": "Poziomy maja 1, 3, 5, 7, 9 klockow. Sumujemy.",
+          "strategy": "Suma ciagu.",
+          "steps": [
+            "Poziomy: 1, 3, 5, 7, 9",
+            "Suma: 1+3+5+7+9 = 25"
+          ],
+          "answer": "C",
+          "alternative": "Suma pierwszych n liczb nieparzystych to n razy n: 5 razy 5 = 25."
+        },
+        {
+          "problemId": "gen-l10-c2",
+          "observation": "Liczba plytek na brzegu: 8, 12, 16 - rosnie o 4.",
+          "strategy": "Wzor brzegu.",
+          "steps": [
+            "Ramka N na N: 4 razy N - 4 (rogi nie liczone podwojnie)",
+            "Sprawdz 3x3: 4 razy 3 - 4 = 8 OK",
+            "10x10: 4 razy 10 - 4 = 36"
+          ],
+          "answer": "B",
+          "alternative": null
+        }
+      ]
+    },
+    {
+      "versionId": "v2",
+      "label": "Wersja 2 (powtorka)",
+      "warmup": [
+        {
+          "id": "gen-l10-v2-w1",
+          "source": "generated-l10-v2-w1",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "wzory_i_ciagi",
+          "subtopic": "wzor domkow z patyczkow",
+          "statement": "Z patyczkow uklada sie domki w rzedzie: 1 domek to 6 patyczkow, 2 domki to 11, 3 domki to 16. Ile patyczkow na 5 domkow?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "21",
+            "B": "24",
+            "C": "26",
+            "D": "30",
+            "E": "31"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "gen-l10-v2-w2",
+          "source": "generated-l10-v2-w2",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "wzory_i_ciagi",
+          "subtopic": "wzor kropek w rzedach",
+          "statement": "Wzor z kropek: rzad 1 ma 2 kropki, rzad 2 ma 4, rzad 3 ma 6. Ile kropek ma rzad 8?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "14",
+            "B": "16",
+            "C": "18",
+            "D": "12",
+            "E": "20"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "gen-l10-v2-w3",
+          "source": "generated-l10-v2-w3",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "wzory_i_ciagi",
+          "subtopic": "suma poziomow wiezy",
+          "statement": "Wieza z klockow: poziom 1 ma 2 klocki, poziom 2 ma 4, poziom 3 ma 6, poziom 4 ma 8. Ile klockow ma cala wieza 4-poziomowa?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "16",
+            "B": "18",
+            "C": "20",
+            "D": "24",
+            "E": "30"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "gen-l10-v2-w4",
+          "source": "generated-l10-v2-w4",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "wzory_i_ciagi",
+          "subtopic": "wzor plotka z desek",
+          "statement": "Plotek: 1 sekcja to 3 deski, 2 sekcje to 5, 3 sekcje to 7. Ile desek na 10 sekcji?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "19",
+            "B": "20",
+            "C": "21",
+            "D": "23",
+            "E": "30"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "kangur-maluch-2020-8",
+          "source": "kangur-maluch-2020-8",
+          "year": 2020,
+          "number": 8,
+          "difficulty": "3pkt",
+          "topic": "wzory_i_ciagi",
+          "subtopic": "liczba listew w plocie",
+          "statement": "Z listew 1-metrowych Jozek buduje plot. Plot dlugosci 4 m ma okreslona strukture listew. Ile listew potrzebuje Jozek na plot dlugosci 8 m?",
+          "hasImage": true,
+          "imageNote": "Plot dlugosci 4 m zbudowany z listew poziomych i pionowych.",
+          "choices": {
+            "A": "36",
+            "B": "22",
+            "C": "23",
+            "D": "32",
+            "E": "34"
+          },
+          "correct": "E"
+        }
+      ],
+      "challenge": [
+        {
+          "id": "gen-l10-v2-c1",
+          "source": "generated-l10-v2-c1",
+          "year": null,
+          "number": null,
+          "difficulty": "4pkt",
+          "topic": "wzory_i_ciagi",
+          "subtopic": "zapalki w siatce kwadratow",
+          "statement": "Siatka kwadratow z zapalek: 1x1 to 4 zapalki, 2x2 to 12, 3x3 to 24. Ile zapalek na siatke 4x4?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "32",
+            "B": "36",
+            "C": "40",
+            "D": "44",
+            "E": "48"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "gen-l10-v2-c2",
+          "source": "generated-l10-v2-c2",
+          "year": null,
+          "number": null,
+          "difficulty": "5pkt",
+          "topic": "wzory_i_ciagi",
+          "subtopic": "suma poziomow choinki",
+          "statement": "Choinka z klockow ma 6 poziomow: 1, 3, 5, 7, 9 i 11 klockow. Ile klockow ma cala choinka?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "30",
+            "B": "33",
+            "C": "36",
+            "D": "42",
+            "E": "49"
+          },
+          "correct": "C"
+        }
+      ],
+      "solutions": [
+        {
+          "problemId": "gen-l10-v2-w1",
+          "observation": "Pierwszy domek 6, kazdy kolejny +5.",
+          "strategy": "Oddziel poczatek od przyrostu.",
+          "steps": [
+            "1 domek: 6 patyczkow",
+            "Kazdy kolejny dodaje 5",
+            "5 domkow: 6 + 5 razy 4 = 6 + 20 = 26"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l10-v2-w2",
+          "observation": "Liczby kropek: 2, 4, 6... rosna o 2.",
+          "strategy": "Znajdz przyrost.",
+          "steps": [
+            "Rzad n ma 2 razy n kropek",
+            "Rzad 8: 2 razy 8 = 16"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l10-v2-w3",
+          "observation": "Poziomy 2, 4, 6, 8 - sumujemy.",
+          "strategy": "Suma ciagu.",
+          "steps": [
+            "2 + 4 + 6 + 8 = 20"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l10-v2-w4",
+          "observation": "Pierwsza sekcja 3 deski, kazda kolejna +2.",
+          "strategy": "Oddziel poczatek od przyrostu.",
+          "steps": [
+            "1 sekcja: 3 deski",
+            "Kazda kolejna dodaje 2",
+            "10 sekcji: 3 + 2 razy 9 = 3 + 18 = 21"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2020-8",
+          "observation": "Plot z listew - liczymy strukture.",
+          "strategy": "Znajdz przyrost listew na metr.",
+          "steps": [
+            "Plot 4 m ma okreslona liczbe listew",
+            "Plot 8 m to dwa razy dluzszy odcinek",
+            "Po przeliczeniu struktury wychodzi 34 listwy"
+          ],
+          "answer": "E",
+          "alternative": "Wymaga policzenia listew poziomych i pionowych w jednym metrze plotu."
+        },
+        {
+          "problemId": "gen-l10-v2-c1",
+          "observation": "Liczby zapalek: 4, 12, 24 - rosna szybciej.",
+          "strategy": "Znajdz wzor przyrostu.",
+          "steps": [
+            "Siatka N na N: zapalki = 2 razy N razy (N+1)",
+            "Sprawdz 3x3: 2 razy 3 razy 4 = 24 OK",
+            "4x4: 2 razy 4 razy 5 = 40"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l10-v2-c2",
+          "observation": "Sumujemy klocki ze wszystkich poziomow.",
+          "strategy": "Suma ciagu nieparzystych.",
+          "steps": [
+            "1 + 3 + 5 + 7 + 9 + 11 = 36"
+          ],
+          "answer": "C",
+          "alternative": "Suma pierwszych 6 liczb nieparzystych to 6 razy 6 = 36."
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Wzor z patyczkow rosnie o 2 na element, pierwszy ma 3. Dla 4 elementow:",
+      "choices": {
+        "A": "8",
+        "B": "9",
+        "C": "11"
+      },
+      "correct": "B",
+      "explain": "3 + 2+2+2 = 9. Pierwszy specjalny + przyrosty."
+    },
+    {
+      "q": "Co policzyc NAJPIERW przy wzorze obrazkowym?",
+      "choices": {
+        "A": "Wszystkie 100 elementow",
+        "B": "3 pierwsze przypadki",
+        "C": "Tylko ostatni"
+      },
+      "correct": "B",
+      "explain": "3 pierwsze przypadki pokazuja przyrost i regule."
+    },
+    {
+      "q": "Brzeg kwadratu 6x6 plytek to:",
+      "choices": {
+        "A": "20",
+        "B": "24",
+        "C": "36"
+      },
+      "correct": "A",
+      "explain": "4 razy 6 - 4 = 20. Rogi liczone raz."
+    }
+  ]
+}

@@ -1,0 +1,496 @@
+{
+  "id": "l28",
+  "number": 28,
+  "block": "Pomiary i jednostki",
+  "blockCode": "E",
+  "title": "Masa: g, dag, kg, t",
+  "topic": "pomiary_jednostki",
+  "estimatedMinutes": 14,
+  "theory": {
+    "intro": "Wagi w sklepie, na poczcie, w aptece. Masa to ile czegos wazy. Jednostki: gram (g), dekagram (dag), kilogram (kg) i tona (t). Tabliczka czekolady ~100 g, jablko ~150 g, dziecko ~30 kg, slon ~5 ton.",
+    "tool": "Sztuczka 1: ZAMIANY MASY. 1 dag = 10 g, 1 kg = 100 dag = 1000 g, 1 t = 1000 kg.\n\nSztuczka 2: NA WIEKSZA - DZIEL, NA MNIEJSZA - MNOZ. 2500 g na kg: dziel przez 1000 = 2,5 kg. 3 kg na g: mnoż przez 1000 = 3000 g.\n\nSztuczka 3: WAGI W SKLEPIE. Cena czesto za 100 g (dag) lub za kg. Liczac koszt: cena za 100g razy ilosc 100g.\n\nSztuczka 4: SZACUJ MASY. List ~20 g, jablko ~150 g, bochenek chleba ~500 g, mlotek ~1 kg, plecak szkolny ~5 kg.",
+    "trick": "Pulapka Kangurka: zadania z 'pol kg' albo 'cwierc kg'. 1 kg = 1000 g, wiec pol kg = 500 g, cwierc = 250 g. Często mieszane z dag - pamietaj, ze 1 kg = 100 dag."
+  },
+  "versions": [
+    {
+      "versionId": "v1",
+      "label": "Wersja 1 (oryginalna)",
+      "warmup": [
+        {
+          "id": "gen-l28-v1-w1",
+          "source": "generated-l28-v1-w1",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "pomiary_jednostki",
+          "subtopic": "zamiana kg na g",
+          "statement": "Ile gramow ma 3 kilogramy?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "30",
+            "B": "300",
+            "C": "3000",
+            "D": "30000",
+            "E": "300000"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "gen-l28-v1-w2",
+          "source": "generated-l28-v1-w2",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "pomiary_jednostki",
+          "subtopic": "zamiana dag na g",
+          "statement": "Ile gramow ma 5 dekagramow?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "5",
+            "B": "50",
+            "C": "500",
+            "D": "5000",
+            "E": "55"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "gen-l28-v1-w3",
+          "source": "generated-l28-v1-w3",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "pomiary_jednostki",
+          "subtopic": "polowa kg",
+          "statement": "Pol kilograma to ile gramow?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "50",
+            "B": "100",
+            "C": "250",
+            "D": "500",
+            "E": "1000"
+          },
+          "correct": "D"
+        },
+        {
+          "id": "gen-l28-v1-w4",
+          "source": "generated-l28-v1-w4",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "pomiary_jednostki",
+          "subtopic": "porownanie mas",
+          "statement": "Co waży WIECEJ: 2 kg czy 1500 g?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "2 kg",
+            "B": "1500 g",
+            "C": "Tyle samo",
+            "D": "Nie da sie porownac",
+            "E": "Zalezy"
+          },
+          "correct": "A"
+        },
+        {
+          "id": "kangur-maluch-2019-13",
+          "source": "kangur-maluch-2019-13",
+          "year": 2019,
+          "number": 13,
+          "difficulty": "4pkt",
+          "topic": "pomiary_jednostki",
+          "subtopic": "masa, połowa zawartości",
+          "statement": "Szklanka pełna wody waży 400 gramów, a pusta 100 gramów. Ile gramów waży szklanka napełniona wodą do połowy?",
+          "hasImage": true,
+          "imageNote": "Trzy szklanki: pełna 400g, pusta 100g, do połowy ?.",
+          "choices": {
+            "A": "150",
+            "B": "200",
+            "C": "225",
+            "D": "250",
+            "E": "300"
+          },
+          "correct": "D"
+        }
+      ],
+      "challenge": [
+        {
+          "id": "gen-l28-v1-c1",
+          "source": "generated-l28-v1-c1",
+          "year": null,
+          "number": null,
+          "difficulty": "4pkt",
+          "topic": "pomiary_jednostki",
+          "subtopic": "laczna masa zakupow",
+          "statement": "Ola kupila 2 kg jablek, 500 g masla i 250 g czekolady. Ile gramow razem?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "750",
+            "B": "2500",
+            "C": "2750",
+            "D": "2950",
+            "E": "3000"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "gen-l28-v1-c2",
+          "source": "generated-l28-v1-c2",
+          "year": null,
+          "number": null,
+          "difficulty": "5pkt",
+          "topic": "pomiary_jednostki",
+          "subtopic": "cena za 100g",
+          "statement": "Cukierki kosztuja 4 zl za 100 g. Ile zl trzeba zaplacic za pol kilograma cukierkow?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "4",
+            "B": "10",
+            "C": "20",
+            "D": "40",
+            "E": "400"
+          },
+          "correct": "C"
+        }
+      ],
+      "solutions": [
+        {
+          "problemId": "gen-l28-v1-w1",
+          "observation": "1 kg = 1000 g.",
+          "strategy": "Mnozenie przez 1000.",
+          "steps": [
+            "3 kg = 3 razy 1000 g = 3000 g"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l28-v1-w2",
+          "observation": "1 dag = 10 g.",
+          "strategy": "Mnozenie.",
+          "steps": [
+            "5 dag = 5 razy 10 g = 50 g"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l28-v1-w3",
+          "observation": "Pol kg = polowa 1000 g.",
+          "strategy": "Dzielenie przez 2.",
+          "steps": [
+            "1 kg = 1000 g, pol kg = 500 g"
+          ],
+          "answer": "D",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l28-v1-w4",
+          "observation": "Zamien na te sama jednostke.",
+          "strategy": "Porownanie.",
+          "steps": [
+            "2 kg = 2000 g",
+            "2000 g > 1500 g, wiec 2 kg ciezsze"
+          ],
+          "answer": "A",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2019-13",
+          "observation": "Szklanka pelna 400g, pusta 100g, do polowy?",
+          "strategy": "Polowa zawartosci wody.",
+          "steps": [
+            "Woda w pelnej szklance: 400 - 100 = 300 g",
+            "Polowa wody: 150 g",
+            "Pusta szklanka + 150 g wody = 100 + 150 = 250 g"
+          ],
+          "answer": "D",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l28-v1-c1",
+          "observation": "Sprowadz wszystko do g.",
+          "strategy": "Zamiana + dodawanie.",
+          "steps": [
+            "2 kg = 2000 g",
+            "2000 + 500 + 250 = 2750 g"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l28-v1-c2",
+          "observation": "Pol kg to 5 razy 100 g.",
+          "strategy": "Liczenie porcji.",
+          "steps": [
+            "Pol kg = 500 g = 5 razy 100 g",
+            "5 razy 4 zl = 20 zl"
+          ],
+          "answer": "C",
+          "alternative": null
+        }
+      ]
+    },
+    {
+      "versionId": "v2",
+      "label": "Wersja 2 (powtorka)",
+      "warmup": [
+        {
+          "id": "gen-l28-v2-w1",
+          "source": "generated-l28-v2-w1",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "pomiary_jednostki",
+          "subtopic": "zamiana g na dag",
+          "statement": "Ile dekagramow ma 80 gramow?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "8",
+            "B": "80",
+            "C": "800",
+            "D": "0.8",
+            "E": "18"
+          },
+          "correct": "A"
+        },
+        {
+          "id": "gen-l28-v2-w2",
+          "source": "generated-l28-v2-w2",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "pomiary_jednostki",
+          "subtopic": "zamiana t na kg",
+          "statement": "Ile kilogramow ma 2 tony?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "20",
+            "B": "200",
+            "C": "2000",
+            "D": "20000",
+            "E": "200000"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "gen-l28-v2-w3",
+          "source": "generated-l28-v2-w3",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "pomiary_jednostki",
+          "subtopic": "cwierc kg",
+          "statement": "Cwierc kilograma to ile gramow?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "100",
+            "B": "200",
+            "C": "250",
+            "D": "400",
+            "E": "500"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "gen-l28-v2-w4",
+          "source": "generated-l28-v2-w4",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "pomiary_jednostki",
+          "subtopic": "najciezsze",
+          "statement": "Co waży NAJWIECEJ?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "500 g",
+            "B": "50 dag",
+            "C": "1 kg",
+            "D": "100 g",
+            "E": "5000 g"
+          },
+          "correct": "E"
+        },
+        {
+          "id": "gen-l28-v2-w5",
+          "source": "generated-l28-v2-w5",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "pomiary_jednostki",
+          "subtopic": "praktyczna masa",
+          "statement": "Tabliczka czekolady waży zwykle okolo:",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "10 g",
+            "B": "100 g",
+            "C": "1 kg",
+            "D": "500 g",
+            "E": "10 kg"
+          },
+          "correct": "B"
+        }
+      ],
+      "challenge": [
+        {
+          "id": "gen-l28-v2-c1",
+          "source": "generated-l28-v2-c1",
+          "year": null,
+          "number": null,
+          "difficulty": "4pkt",
+          "topic": "pomiary_jednostki",
+          "subtopic": "reszta po odjeciu",
+          "statement": "Worek z ziemniakami waży 5 kg. Mama wzieła 1 kg 200 g. Ile gramow ziemniakow zostalo?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "3800",
+            "B": "4000",
+            "C": "4200",
+            "D": "3500",
+            "E": "4800"
+          },
+          "correct": "A"
+        },
+        {
+          "id": "gen-l28-v2-c2",
+          "source": "generated-l28-v2-c2",
+          "year": null,
+          "number": null,
+          "difficulty": "5pkt",
+          "topic": "pomiary_jednostki",
+          "subtopic": "masy roznych produktow",
+          "statement": "Trzy paczki: 1 kg, 1500 g i pol kg. Ile to lacznie kilogramow?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "2",
+            "B": "2.5",
+            "C": "3",
+            "D": "3.5",
+            "E": "4"
+          },
+          "correct": "C"
+        }
+      ],
+      "solutions": [
+        {
+          "problemId": "gen-l28-v2-w1",
+          "observation": "1 dag = 10 g, dziel przez 10.",
+          "strategy": "Dzielenie.",
+          "steps": [
+            "80 g : 10 = 8 dag"
+          ],
+          "answer": "A",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l28-v2-w2",
+          "observation": "1 t = 1000 kg.",
+          "strategy": "Mnozenie.",
+          "steps": [
+            "2 t = 2 razy 1000 kg = 2000 kg"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l28-v2-w3",
+          "observation": "Cwierc = czwarta czesc 1000 g.",
+          "strategy": "Dzielenie przez 4.",
+          "steps": [
+            "1000 g : 4 = 250 g"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l28-v2-w4",
+          "observation": "Sprowadz wszystko do g.",
+          "strategy": "Porownanie.",
+          "steps": [
+            "500 g, 500 g (50 dag), 1000 g (1 kg), 100 g, 5000 g",
+            "Najwiecej: 5000 g"
+          ],
+          "answer": "E",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l28-v2-w5",
+          "observation": "Tabliczka czekolady ~100 g.",
+          "strategy": "Praktyczna masa.",
+          "steps": [
+            "Standard tabliczki to 100 g"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l28-v2-c1",
+          "observation": "Sprowadz na gramy.",
+          "strategy": "Zamiana + odejmowanie.",
+          "steps": [
+            "5 kg = 5000 g",
+            "1 kg 200 g = 1200 g",
+            "5000 - 1200 = 3800 g"
+          ],
+          "answer": "A",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l28-v2-c2",
+          "observation": "Sprowadz na kg.",
+          "strategy": "Zamiana + sumowanie.",
+          "steps": [
+            "1 kg + 1.5 kg + 0.5 kg = 3 kg"
+          ],
+          "answer": "C",
+          "alternative": null
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "1 kg to ile g?",
+      "choices": {
+        "A": "100",
+        "B": "1000",
+        "C": "10000"
+      },
+      "correct": "B",
+      "explain": "1 kg = 1000 g."
+    },
+    {
+      "q": "Pol kg to:",
+      "choices": {
+        "A": "250 g",
+        "B": "500 g",
+        "C": "5000 g"
+      },
+      "correct": "B",
+      "explain": "Pol kg = 500 g."
+    },
+    {
+      "q": "Co ciezsze: 1 kg ksiazek czy 1 kg pierza?",
+      "choices": {
+        "A": "Ksiazki",
+        "B": "Pierze",
+        "C": "Tyle samo"
+      },
+      "correct": "C",
+      "explain": "1 kg to zawsze 1 kg, niezaleznie od materialu."
+    }
+  ]
+}

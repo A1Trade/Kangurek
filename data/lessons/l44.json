@@ -1,0 +1,494 @@
+{
+  "id": "l44",
+  "number": 44,
+  "block": "Kombinatoryka i liczenie",
+  "blockCode": "H",
+  "title": "Liczenie tras na siatce",
+  "topic": "kombinatoryka",
+  "estimatedMinutes": 14,
+  "theory": {
+    "intro": "Od domu do szkoly idziesz ulicami siatki: tylko w prawo lub w dol. Na ile sposobow mozesz dojsc? To klasyczne zadanie 'liczenia tras'. Rozwiazanie wymaga systematycznego liczenia mozliwosci.",
+    "tool": "Sztuczka 1: SIATKA 1xN. Jedna trasa - tylko prosto. Liczenie banalne.\n\nSztuczka 2: SIATKA 2x2. Wypisz wszystkie: prawo-dol, dol-prawo = 2 trasy.\n\nSztuczka 3: WIEKSZE SIATKI - LICZENIE NA SKRZYZOWANIACH. W kazdym skrzyzowaniu wpisz liczbe sposobow dojscia do niego. Sumowanie z gory i lewa.\n\nSztuczka 4: TROJKAT PASCALA. Liczby na skrzyzowaniach tworza znany wzor - trojkat liczb (1, 1+1=2, 1+2+1=3...).",
+    "trick": "Pulapka: zadania z 'najkrotsza droga' tylko w 2 kierunkach. Jezeli wolno cofac sie, liczba tras moze byc nieskonczona. Czytaj uwaznie - 'najkrotsza' = bez cofania."
+  },
+  "versions": [
+    {
+      "versionId": "v1",
+      "label": "Wersja 1 (oryginalna)",
+      "warmup": [
+        {
+          "id": "gen-l44-v1-w1",
+          "source": "generated-l44-v1-w1",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "kombinatoryka",
+          "subtopic": "droga 1x1",
+          "statement": "Siatka 1x1: z A do B (prawy gorny rog) tylko w prawo lub w dol. Ile drog?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "1",
+            "B": "2",
+            "C": "3",
+            "D": "4",
+            "E": "5"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "gen-l44-v1-w2",
+          "source": "generated-l44-v1-w2",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "kombinatoryka",
+          "subtopic": "droga 2x1",
+          "statement": "Siatka 2x1 (2 w prawo, 1 w dol). Ile najkrotszych drog?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "2",
+            "B": "3",
+            "C": "4",
+            "D": "5",
+            "E": "6"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "gen-l44-v1-w3",
+          "source": "generated-l44-v1-w3",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "kombinatoryka",
+          "subtopic": "droga 2x2",
+          "statement": "Siatka 2x2 (2 w prawo, 2 w dol). Ile najkrotszych drog?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "4",
+            "B": "5",
+            "C": "6",
+            "D": "7",
+            "E": "8"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "kangur-maluch-2016-12",
+          "source": "kangur-maluch-2016-12",
+          "year": 2016,
+          "number": 12,
+          "difficulty": "4pkt",
+          "topic": "kombinatoryka",
+          "subtopic": "liczba drog w labiryncie",
+          "statement": "Myszka chce wydostac sie z labiryntu. Ile roznych drog moze wybrac, by zadnego przejscia nie przekroczyc wiecej niz raz?",
+          "hasImage": true,
+          "imageNote": "Labirynt z myszka i kilkoma przejsciami.",
+          "choices": {
+            "A": "2",
+            "B": "4",
+            "C": "5",
+            "D": "6",
+            "E": "7"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "kangur-maluch-2024-19",
+          "source": "kangur-maluch-2024-19",
+          "year": 2024,
+          "number": 19,
+          "difficulty": "5pkt",
+          "topic": "kombinatoryka",
+          "subtopic": "przeciecie dwoch cykli kolorow",
+          "statement": "60 dzieci w szeregu. Kamizelki naprzemiennie: zolty, zielony, zolty, zielony... Plecaki cyklicznie: czerwony, brazowy, niebieski... Ilu uczniow w zoltej kamizelce mialo niebieski plecak?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "3",
+            "B": "4",
+            "C": "6",
+            "D": "8",
+            "E": "10"
+          },
+          "correct": "E"
+        }
+      ],
+      "challenge": [
+        {
+          "id": "kangur-maluch-2022-24",
+          "source": "kangur-maluch-2022-24",
+          "year": 2022,
+          "number": 24,
+          "difficulty": "5pkt",
+          "topic": "kombinatoryka",
+          "subtopic": "podzial na rowne sumy",
+          "statement": "Skrzynie maja wagi: 1, 2, 3, 4, 5, 6, 9, 13, 17 kg. Sadownik podzielil je na 3 grupy po 3 skrzynie, kazda grupa ma rowna sume. Ktora skrzynia trafila do tej samej grupy co 6 kg?",
+          "hasImage": true,
+          "imageNote": "9 skrzyń z wagami w kg.",
+          "choices": {
+            "A": "2 kg",
+            "B": "3 kg",
+            "C": "4 kg",
+            "D": "9 kg",
+            "E": "13 kg"
+          },
+          "correct": "D"
+        },
+        {
+          "id": "gen-l44-v1-c1",
+          "source": "generated-l44-v1-c1",
+          "year": null,
+          "number": null,
+          "difficulty": "5pkt",
+          "topic": "kombinatoryka",
+          "subtopic": "siatka 3x2",
+          "statement": "Siatka 3x2 (3 w prawo, 2 w dol). Ile najkrotszych drog?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "6",
+            "B": "10",
+            "C": "12",
+            "D": "15",
+            "E": "20"
+          },
+          "correct": "B"
+        }
+      ],
+      "solutions": [
+        {
+          "problemId": "gen-l44-v1-w1",
+          "observation": "Z (0,0) do (1,1): prawo-dol lub dol-prawo.",
+          "strategy": "Wypisanie.",
+          "steps": [
+            "2 drogi"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l44-v1-w2",
+          "observation": "2 prawo + 1 dol. Wybor pozycji dolu: 3 mozliwosci.",
+          "strategy": "Pozycja dolu.",
+          "steps": [
+            "Dol moze byc na pozycji 1, 2 lub 3 z 3 krokow",
+            "3 mozliwosci"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l44-v1-w3",
+          "observation": "Wzor trojkata Pascala C(4,2)=6.",
+          "strategy": "Wzor.",
+          "steps": [
+            "Z (0,0) do (2,2): 4 kroki, wybor 2 prawo z 4",
+            "(4*3)/2 = 6"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2016-12",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Myszka w labiryncie. 5 roznych drog (kazda raz).",
+          "steps": [
+            "Myszka w labiryncie. 5 roznych drog (kazda raz).",
+            "Poprawna odpowiedz: C"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2024-19",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "60 dzieci, kamizelki zolto-zielone naprzemiennie, plecaki cyklicznie 3 kolory. Zoltej kamizelce + niebieski plecak: 10.",
+          "steps": [
+            "60 dzieci, kamizelki zolto-zielone naprzemiennie, plecaki cyklicznie 3 kolory. Zoltej kamizelce + niebieski plecak: 10.",
+            "Poprawna odpowiedz: E"
+          ],
+          "answer": "E",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2022-24",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "9 skrzyn z waga 1-17 kg, podzial na 3 grupy po 3 z rownymi sumami. W grupie z 6 kg trafila 9 kg.",
+          "steps": [
+            "9 skrzyn z waga 1-17 kg, podzial na 3 grupy po 3 z rownymi sumami. W grupie z 6 kg trafila 9 kg.",
+            "Poprawna odpowiedz: D"
+          ],
+          "answer": "D",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l44-v1-c1",
+          "observation": "C(5,2) = 10.",
+          "strategy": "Wzor trojkata.",
+          "steps": [
+            "3 prawo + 2 dol = 5 krokow",
+            "Wybor 2 dolu z 5: (5*4)/2 = 10"
+          ],
+          "answer": "B",
+          "alternative": null
+        }
+      ]
+    },
+    {
+      "versionId": "v2",
+      "label": "Wersja 2 (powtorka)",
+      "warmup": [
+        {
+          "id": "gen-l44-v2-w1",
+          "source": "generated-l44-v2-w1",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "kombinatoryka",
+          "subtopic": "droga 1x2",
+          "statement": "Siatka 1x2 (1 w prawo, 2 w dol). Ile najkrotszych drog?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "2",
+            "B": "3",
+            "C": "4",
+            "D": "5",
+            "E": "6"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "gen-l44-v2-w2",
+          "source": "generated-l44-v2-w2",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "kombinatoryka",
+          "subtopic": "droga 3x1",
+          "statement": "Siatka 3x1. Ile najkrotszych drog?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "3",
+            "B": "4",
+            "C": "5",
+            "D": "6",
+            "E": "10"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "gen-l44-v2-w3",
+          "source": "generated-l44-v2-w3",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "kombinatoryka",
+          "subtopic": "droga 2x3",
+          "statement": "Siatka 2x3 (2 prawo, 3 dol). Ile najkrotszych drog?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "5",
+            "B": "6",
+            "C": "10",
+            "D": "15",
+            "E": "20"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "gen-l44-v2-w4",
+          "source": "generated-l44-v2-w4",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "kombinatoryka",
+          "subtopic": "prosta zasada",
+          "statement": "W siatce, najkrotsza droga ma:",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "Sumę krokow prawo + dol",
+            "B": "Tylko prawo",
+            "C": "Tylko dol",
+            "D": "Pelne kolo",
+            "E": "Dowolny ksztalt"
+          },
+          "correct": "A"
+        },
+        {
+          "id": "gen-l44-v2-w5",
+          "source": "generated-l44-v2-w5",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "kombinatoryka",
+          "subtopic": "jedna droga",
+          "statement": "Z A do B tylko jedna mozliwa droga. Ile drog?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "0",
+            "B": "1",
+            "C": "2",
+            "D": "3",
+            "E": "4"
+          },
+          "correct": "B"
+        }
+      ],
+      "challenge": [
+        {
+          "id": "gen-l44-v2-c1",
+          "source": "generated-l44-v2-c1",
+          "year": null,
+          "number": null,
+          "difficulty": "4pkt",
+          "topic": "kombinatoryka",
+          "subtopic": "siatka 3x3",
+          "statement": "Siatka 3x3 (3 prawo, 3 dol). Ile najkrotszych drog?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "6",
+            "B": "10",
+            "C": "15",
+            "D": "20",
+            "E": "36"
+          },
+          "correct": "D"
+        },
+        {
+          "id": "gen-l44-v2-c2",
+          "source": "generated-l44-v2-c2",
+          "year": null,
+          "number": null,
+          "difficulty": "5pkt",
+          "topic": "kombinatoryka",
+          "subtopic": "liczba pasm",
+          "statement": "Z 5 dzieci wybieram pare do trzymania sie za rece. Na ile sposobow?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "5",
+            "B": "6",
+            "C": "8",
+            "D": "10",
+            "E": "20"
+          },
+          "correct": "D"
+        }
+      ],
+      "solutions": [
+        {
+          "problemId": "gen-l44-v2-w1",
+          "observation": "1 prawo + 2 dol = 3 kroki. Wybor pozycji prawa: 3.",
+          "strategy": "Pozycja prawa.",
+          "steps": [
+            "3 mozliwosci"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l44-v2-w2",
+          "observation": "3 kroki prawo, 1 dol. Wybor pozycji dolu z 4: 4.",
+          "strategy": "Wybor dolu.",
+          "steps": [
+            "4 mozliwosci"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l44-v2-w3",
+          "observation": "C(5,2)=10.",
+          "strategy": "Wzor.",
+          "steps": [
+            "5 krokow, wybor 2 prawa: (5*4)/2 = 10"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l44-v2-w4",
+          "observation": "Suma krokow prawo + dol.",
+          "strategy": "Definicja najkrotszej drogi.",
+          "steps": [
+            "P + D krokow"
+          ],
+          "answer": "A",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l44-v2-w5",
+          "observation": "Jedna droga - jedna mozliwosc.",
+          "strategy": "Pojedyncza droga.",
+          "steps": [
+            "1"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l44-v2-c1",
+          "observation": "C(6,3)=20.",
+          "strategy": "Wzor.",
+          "steps": [
+            "6 krokow, wybor 3 dolu z 6: (6*5*4)/(3*2*1) = 20"
+          ],
+          "answer": "D",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l44-v2-c2",
+          "observation": "C(5,2) = 10 par.",
+          "strategy": "Wybor 2 z 5.",
+          "steps": [
+            "(5*4)/2 = 10"
+          ],
+          "answer": "D",
+          "alternative": null
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Siatka 2x2 ma drog:",
+      "choices": {
+        "A": "4",
+        "B": "6",
+        "C": "8"
+      },
+      "correct": "B",
+      "explain": "C(4,2)=6."
+    },
+    {
+      "q": "Najkrotsza droga w siatce:",
+      "choices": {
+        "A": "Bez cofania",
+        "B": "Z cofaniem",
+        "C": "Po przekatnej"
+      },
+      "correct": "A",
+      "explain": "Najkrotsza = tylko prawo lub dol, bez cofania."
+    },
+    {
+      "q": "Liczba drog rosnie z:",
+      "choices": {
+        "A": "Wielkoscia siatki",
+        "B": "Iloscia drog",
+        "C": "Pogoda"
+      },
+      "correct": "A",
+      "explain": "Wieksza siatka = wiecej drog (rosnie szybko)."
+    }
+  ]
+}

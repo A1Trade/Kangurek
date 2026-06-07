@@ -1,0 +1,812 @@
+{
+  "id": "l50",
+  "number": 50,
+  "block": "Strategie konkursowe",
+  "blockCode": "I",
+  "title": "Symulacja konkursu Kangur - czesc 2 + omowienie",
+  "topic": "lamiglowki",
+  "estimatedMinutes": 40,
+  "theory": {
+    "intro": "Druga polowa konkursu - 12 zadan, 40 minut. Zadania 13-16 za 4 punkty, 17-24 za 5 punktow. To najtrudniejsza czesc - ale tez najwiecej punktow. Po skonczeniu - sprawdz, omow z nauczycielem, naucz sie na bledach. To OSTATNIA lekcja kursu.",
+    "tool": "Sztuczka 1: 5 PUNKTOW = WARTO SIE POTRUDZIC. Na 5 pkt zadania moga zajac 5-7 min - czas dobrze zainwestowany.\n\nSztuczka 2: NIE BOJ SIE POMINAC. Jezeli zadanie wyglada na 'beznadziejne' - lepiej zrobic 3 inne na 5 pkt = 15 pkt, niz utkac.\n\nSztuczka 3: SPRAWDZ STRATEGIE Z POPRZEDNICH LEKCJI. Eliminacja ABCDE, szukanie wzoru, parzystosc - to wszystko teraz sluzy.\n\nSztuczka 4: PO SYMULACJI - OMOW BLEDY. Najwazniejsza nauka to zrozumienie, GDZIE poszlo nie tak. Nie tylko 'co byla poprawna odpowiedz', ale 'jakim sposobem dojsc do niej'.",
+    "trick": "Po pelnej symulacji wiesz, gdzie sa Twoje slabe punkty. Wroc do tych blokow w kursie. Powtorz wersje 2 lekcji w slabych obszarach. Powtorka 2-3 razy ZNACZNIE poprawia wyniki. Sukces w Kangurku to praca, nie talent."
+  },
+  "versions": [
+    {
+      "versionId": "v1",
+      "label": "Wersja 1 (oryginalna)",
+      "warmup": [
+        {
+          "id": "kangur-maluch-2015-16",
+          "source": "kangur-maluch-2015-16",
+          "year": 2015,
+          "number": 16,
+          "difficulty": "4pkt",
+          "topic": "logika",
+          "subtopic": "liczenie polaczen wg roznicy kropek",
+          "statement": "Na krzaku mieszka 5 biedronek. Dwie biedronki przyjaznia sie, gdy liczby ich kropek roznia sie o 1. Kazda biedronka wyslala SMS do kazdej przyjaciolki. Ile SMS-ow wyslano lacznie?",
+          "hasImage": true,
+          "imageNote": "Piec biedronek z roznymi liczbami kropek.",
+          "choices": {
+            "A": "3",
+            "B": "4",
+            "C": "6",
+            "D": "8",
+            "E": "9"
+          },
+          "correct": "D"
+        },
+        {
+          "id": "kangur-maluch-2016-9",
+          "source": "kangur-maluch-2016-9",
+          "year": 2016,
+          "number": 9,
+          "difficulty": "4pkt",
+          "topic": "arytmetyka",
+          "subtopic": "rownanie z roznica lap i nosow",
+          "statement": "Laczna liczba lap moich psow jest o 18 wieksza niz laczna liczba ich nosow. Ile mam psow?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "4",
+            "B": "5",
+            "C": "6",
+            "D": "8",
+            "E": "9"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "kangur-maluch-2016-13",
+          "source": "kangur-maluch-2016-13",
+          "year": 2016,
+          "number": 13,
+          "difficulty": "4pkt",
+          "topic": "logika",
+          "subtopic": "ktore miejsce na pewno zajete",
+          "statement": "Wzdluz ulicy jest 11 miejsc parkingowych ponumerowanych 1-11. Przyjechalo 8 samochodow i zajelo 8 KOLEJNYCH miejsc (nie wiadomo ktorych). Ktore miejsce na pewno zostalo zajete?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "Numer 5",
+            "B": "Numer 1",
+            "C": "Numer 9",
+            "D": "Numer 3",
+            "E": "Numer 11"
+          },
+          "correct": "A"
+        },
+        {
+          "id": "kangur-maluch-2016-14",
+          "source": "kangur-maluch-2016-14",
+          "year": 2016,
+          "number": 14,
+          "difficulty": "4pkt",
+          "topic": "lamiglowki",
+          "subtopic": "liczby na dwoch stronach kart",
+          "statement": "Zosia ma dwie karty, na obu stronach kazdej zapisana jest liczba. Suma liczb na karcie 1 rowna sie sumie na karcie 2. Suma wszystkich czterech liczb to 32. Widoczne sa 5 i 12. Jakie liczby sa na niewidocznych stronach?",
+          "hasImage": true,
+          "imageNote": "Dwie karty z widocznymi liczbami 5 i 12.",
+          "choices": {
+            "A": "10 i 5",
+            "B": "11 i 5",
+            "C": "9 i 6",
+            "D": "11 i 4",
+            "E": "8 i 7"
+          },
+          "correct": "D"
+        }
+      ],
+      "challenge": [
+        {
+          "id": "kangur-maluch-2012-18",
+          "source": "kangur-maluch-2012-18",
+          "year": 2012,
+          "number": 18,
+          "difficulty": "5pkt",
+          "topic": "logika",
+          "subtopic": "minimalizacja krokow - skoki +3/-4",
+          "statement": "Pchla pokonuje schody. Umie wykonywac tylko dwa rodzaje skokow: +3 stopnie w gore lub -4 stopnie w dol. Jaka jest najmniejsza liczba skokow, aby z poziomu podlogi znalezc sie na 22. stopniu?",
+          "hasImage": true,
+          "imageNote": "Schody z pchlą u podlogi, strzalki +3 w gore i -4 w dol.",
+          "choices": {
+            "A": "7",
+            "B": "9",
+            "C": "10",
+            "D": "12",
+            "E": "15"
+          },
+          "correct": "D"
+        },
+        {
+          "id": "kangur-maluch-2012-19",
+          "source": "kangur-maluch-2012-19",
+          "year": 2012,
+          "number": 19,
+          "difficulty": "5pkt",
+          "topic": "geometria_plaska",
+          "subtopic": "algorytm Euklidesa - kwadraty z prostokata",
+          "statement": "Prostokatna kartka 192 mm na 84 mm. Tnac wzdluz linii prostej odcinamy kwadrat, potem powtarzamy z pozostala czescia i tak dalej. Jaka jest dlugosc boku najmniejszego kwadratu jaki mozemy w ten sposob otrzymac?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "1 mm",
+            "B": "4 mm",
+            "C": "6 mm",
+            "D": "10 mm",
+            "E": "12 mm"
+          },
+          "correct": "E"
+        },
+        {
+          "id": "kangur-maluch-2012-23",
+          "source": "kangur-maluch-2012-23",
+          "year": 2012,
+          "number": 23,
+          "difficulty": "5pkt",
+          "topic": "logika",
+          "subtopic": "maksymalizacja porazek - punktacja meczowa",
+          "statement": "W meczu pilki noznej zwyciezca zdobywa 3 punkty, przegrany 0. Remis to po 1 punkcie. Druzyna rozegrala 38 meczow i zdobyla lacznie 80 punktow. Ile co najwyzej razy ta druzyna mogla przegrac?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "12",
+            "B": "11",
+            "C": "10",
+            "D": "9",
+            "E": "8"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "kangur-maluch-2013-20",
+          "source": "kangur-maluch-2013-20",
+          "year": 2013,
+          "number": 20,
+          "difficulty": "5pkt",
+          "topic": "lamiglowki",
+          "subtopic": "domino - najdluzszy rzad",
+          "statement": "Bartek ma 7 kamieni domino. Chce ulozyc je w rzad tak, by sasiednie pola mialy te sama liczbe oczek. Z ilu kamieni sklada sie najdluzszy taki rzad?",
+          "hasImage": true,
+          "imageNote": "Siedem kamieni domino z roznymi ukladami oczek.",
+          "choices": {
+            "A": "3",
+            "B": "4",
+            "C": "5",
+            "D": "6",
+            "E": "7"
+          },
+          "correct": "D"
+        },
+        {
+          "id": "kangur-maluch-2013-23",
+          "source": "kangur-maluch-2013-23",
+          "year": 2013,
+          "number": 23,
+          "difficulty": "5pkt",
+          "topic": "arytmetyka",
+          "subtopic": "suma liczb zlozonych z cyfr 0 i 1",
+          "statement": "Ula tworzy liczby uzywajac tylko cyfr 0 lub 1 (np. 1, 101, 1111). Co najmniej ile takich liczb musi dodac, aby otrzymac 2013?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "2",
+            "B": "3",
+            "C": "4",
+            "D": "5",
+            "E": "204"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "kangur-maluch-2013-24",
+          "source": "kangur-maluch-2013-24",
+          "year": 2013,
+          "number": 24,
+          "difficulty": "5pkt",
+          "topic": "logika",
+          "subtopic": "ulozenie szuflad wedlug warunkow",
+          "statement": "Komoda ma 4 szuflady. Rekawiczki lezą nizej niz szaliki. Parasolki lezą nizej niz czapki i nizej niz rekawiczki. Szaliki nie lezą najwyzej. Ktora to komoda (od gory)?",
+          "hasImage": true,
+          "imageNote": "Piec wariantow komody z roznym ulozeniem czapek, szalikow, rekawiczek, parasolek.",
+          "choices": {
+            "A": "Szaliki, Rekawiczki, Czapki, Parasolki",
+            "B": "Czapki, Parasolki, Szaliki, Rekawiczki",
+            "C": "Czapki, Szaliki, Rekawiczki, Parasolki",
+            "D": "Szaliki, Czapki, Rekawiczki, Parasolki",
+            "E": "Czapki, Szaliki, Parasolki, Rekawiczki"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "kangur-maluch-2014-24",
+          "source": "kangur-maluch-2014-24",
+          "year": 2014,
+          "number": 24,
+          "difficulty": "5pkt",
+          "topic": "lamiglowki",
+          "subtopic": "tabelka 3x3 z warunkami na sasiadow",
+          "statement": "Nikodem wpisal liczby 1-9 w tabelke 3x3, rogi to 1, 2, 4, 3. Dla liczby 5 suma sasiadow (pol o wspolnym boku) wynosi 13. To samo dla liczby 6. Jaka liczbe wpisal w szare pole (srodek)?",
+          "hasImage": true,
+          "imageNote": "Tabelka 3x3 z liczbami w rogach 1, 2, 4, 3 i szarym polem w srodku.",
+          "choices": {
+            "A": "5",
+            "B": "6",
+            "C": "7",
+            "D": "8",
+            "E": "9"
+          },
+          "correct": "D"
+        },
+        {
+          "id": "kangur-maluch-2018-18",
+          "source": "kangur-maluch-2018-18",
+          "year": 2018,
+          "number": 18,
+          "difficulty": "5pkt",
+          "topic": "logika",
+          "subtopic": "rownania z symbolami",
+          "statement": "W pewnym jezyku symbole A, B, C, D, E oznaczaja liczby 1, 2, 3, 4, 5 (kazdy inna). Wiadomo: C+C=E, B+B=C, B+E=D. Ktory symbol oznacza liczbe 3?",
+          "hasImage": true,
+          "imageNote": "Piec symboli (oko, slonce, kwiatek, ryba, grzbiet) i trzy rownania.",
+          "choices": {
+            "A": "oko",
+            "B": "slonce",
+            "C": "kwiatek",
+            "D": "ryba",
+            "E": "grzbiet"
+          },
+          "correct": "A"
+        }
+      ],
+      "solutions": [
+        {
+          "problemId": "kangur-maluch-2015-16",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "5 biedronek, sasiednie roznia kropki o 1. 8 SMS-ow.",
+          "steps": [
+            "5 biedronek, sasiednie roznia kropki o 1. 8 SMS-ow.",
+            "Poprawna odpowiedz: D"
+          ],
+          "answer": "D",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2016-9",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Lap psow o 18 wiecej niz nosow. 6 psow (kazdy 3 wiecej).",
+          "steps": [
+            "Lap psow o 18 wiecej niz nosow. 6 psow (kazdy 3 wiecej).",
+            "Poprawna odpowiedz: C"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2016-13",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "11 miejsc parkingowych, 8 kolejnych zajete. Na pewno zajete: 5.",
+          "steps": [
+            "11 miejsc parkingowych, 8 kolejnych zajete. Na pewno zajete: 5.",
+            "Poprawna odpowiedz: A"
+          ],
+          "answer": "A",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2016-14",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Suma 4 liczb na 2 kartach = 32, kazda karta = 16. 5->11, 12->4.",
+          "steps": [
+            "Suma 4 liczb na 2 kartach = 32, kazda karta = 16. 5->11, 12->4.",
+            "Poprawna odpowiedz: D"
+          ],
+          "answer": "D",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2012-18",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Pchla schody, skoki +3/-4. Min liczba do 22. stopnia: 12.",
+          "steps": [
+            "Pchla schody, skoki +3/-4. Min liczba do 22. stopnia: 12.",
+            "Poprawna odpowiedz: D"
+          ],
+          "answer": "D",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2012-19",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Prostokat 192x84 mm. NMW=12. Najmniejszy kwadrat 12 mm.",
+          "steps": [
+            "Prostokat 192x84 mm. NMW=12. Najmniejszy kwadrat 12 mm.",
+            "Poprawna odpowiedz: E"
+          ],
+          "answer": "E",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2012-23",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "38 meczow, 80 pkt, max porazek: 10 (26 wygranych, 2 remisy).",
+          "steps": [
+            "38 meczow, 80 pkt, max porazek: 10 (26 wygranych, 2 remisy).",
+            "Poprawna odpowiedz: C"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2013-20",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "7 kamieni domino w rzad z rownymi sasiadami. Maks 6 kamieni.",
+          "steps": [
+            "7 kamieni domino w rzad z rownymi sasiadami. Maks 6 kamieni.",
+            "Poprawna odpowiedz: D"
+          ],
+          "answer": "D",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2013-23",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Emilka rozwiesila 35 recznikow, 58 klamerek. Sposob 1: 22 reczniki.",
+          "steps": [
+            "Emilka rozwiesila 35 recznikow, 58 klamerek. Sposob 1: 22 reczniki.",
+            "Poprawna odpowiedz: B"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2013-24",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Komoda 4 szuflady z warunkami. Uklad C: Czapki, Szaliki, Rekawiczki, Parasolki.",
+          "steps": [
+            "Komoda 4 szuflady z warunkami. Uklad C: Czapki, Szaliki, Rekawiczki, Parasolki.",
+            "Poprawna odpowiedz: C"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2014-24",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Tabelka 3x3 z 1-9, warunki na liczby 5 i 6. Srodek = 8.",
+          "steps": [
+            "Tabelka 3x3 z 1-9, warunki na liczby 5 i 6. Srodek = 8.",
+            "Poprawna odpowiedz: D"
+          ],
+          "answer": "D",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2018-18",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Bajkowy jezyk z symbolami 1-5. Symbol = 3 to oko (A).",
+          "steps": [
+            "Bajkowy jezyk z symbolami 1-5. Symbol = 3 to oko (A).",
+            "Poprawna odpowiedz: A"
+          ],
+          "answer": "A",
+          "alternative": null
+        }
+      ]
+    },
+    {
+      "versionId": "v2",
+      "label": "Wersja 2 (powtorka)",
+      "warmup": [
+        {
+          "id": "kangur-maluch-2015-16",
+          "source": "kangur-maluch-2015-16",
+          "year": 2015,
+          "number": 16,
+          "difficulty": "4pkt",
+          "topic": "logika",
+          "subtopic": "liczenie polaczen wg roznicy kropek",
+          "statement": "Na krzaku mieszka 5 biedronek. Dwie biedronki przyjaznia sie, gdy liczby ich kropek roznia sie o 1. Kazda biedronka wyslala SMS do kazdej przyjaciolki. Ile SMS-ow wyslano lacznie?",
+          "hasImage": true,
+          "imageNote": "Piec biedronek z roznymi liczbami kropek.",
+          "choices": {
+            "A": "3",
+            "B": "4",
+            "C": "6",
+            "D": "8",
+            "E": "9"
+          },
+          "correct": "D"
+        },
+        {
+          "id": "kangur-maluch-2016-9",
+          "source": "kangur-maluch-2016-9",
+          "year": 2016,
+          "number": 9,
+          "difficulty": "4pkt",
+          "topic": "arytmetyka",
+          "subtopic": "rownanie z roznica lap i nosow",
+          "statement": "Laczna liczba lap moich psow jest o 18 wieksza niz laczna liczba ich nosow. Ile mam psow?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "4",
+            "B": "5",
+            "C": "6",
+            "D": "8",
+            "E": "9"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "kangur-maluch-2016-13",
+          "source": "kangur-maluch-2016-13",
+          "year": 2016,
+          "number": 13,
+          "difficulty": "4pkt",
+          "topic": "logika",
+          "subtopic": "ktore miejsce na pewno zajete",
+          "statement": "Wzdluz ulicy jest 11 miejsc parkingowych ponumerowanych 1-11. Przyjechalo 8 samochodow i zajelo 8 KOLEJNYCH miejsc (nie wiadomo ktorych). Ktore miejsce na pewno zostalo zajete?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "Numer 5",
+            "B": "Numer 1",
+            "C": "Numer 9",
+            "D": "Numer 3",
+            "E": "Numer 11"
+          },
+          "correct": "A"
+        },
+        {
+          "id": "kangur-maluch-2016-14",
+          "source": "kangur-maluch-2016-14",
+          "year": 2016,
+          "number": 14,
+          "difficulty": "4pkt",
+          "topic": "lamiglowki",
+          "subtopic": "liczby na dwoch stronach kart",
+          "statement": "Zosia ma dwie karty, na obu stronach kazdej zapisana jest liczba. Suma liczb na karcie 1 rowna sie sumie na karcie 2. Suma wszystkich czterech liczb to 32. Widoczne sa 5 i 12. Jakie liczby sa na niewidocznych stronach?",
+          "hasImage": true,
+          "imageNote": "Dwie karty z widocznymi liczbami 5 i 12.",
+          "choices": {
+            "A": "10 i 5",
+            "B": "11 i 5",
+            "C": "9 i 6",
+            "D": "11 i 4",
+            "E": "8 i 7"
+          },
+          "correct": "D"
+        }
+      ],
+      "challenge": [
+        {
+          "id": "kangur-maluch-2012-18",
+          "source": "kangur-maluch-2012-18",
+          "year": 2012,
+          "number": 18,
+          "difficulty": "5pkt",
+          "topic": "logika",
+          "subtopic": "minimalizacja krokow - skoki +3/-4",
+          "statement": "Pchla pokonuje schody. Umie wykonywac tylko dwa rodzaje skokow: +3 stopnie w gore lub -4 stopnie w dol. Jaka jest najmniejsza liczba skokow, aby z poziomu podlogi znalezc sie na 22. stopniu?",
+          "hasImage": true,
+          "imageNote": "Schody z pchlą u podlogi, strzalki +3 w gore i -4 w dol.",
+          "choices": {
+            "A": "7",
+            "B": "9",
+            "C": "10",
+            "D": "12",
+            "E": "15"
+          },
+          "correct": "D"
+        },
+        {
+          "id": "kangur-maluch-2012-19",
+          "source": "kangur-maluch-2012-19",
+          "year": 2012,
+          "number": 19,
+          "difficulty": "5pkt",
+          "topic": "geometria_plaska",
+          "subtopic": "algorytm Euklidesa - kwadraty z prostokata",
+          "statement": "Prostokatna kartka 192 mm na 84 mm. Tnac wzdluz linii prostej odcinamy kwadrat, potem powtarzamy z pozostala czescia i tak dalej. Jaka jest dlugosc boku najmniejszego kwadratu jaki mozemy w ten sposob otrzymac?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "1 mm",
+            "B": "4 mm",
+            "C": "6 mm",
+            "D": "10 mm",
+            "E": "12 mm"
+          },
+          "correct": "E"
+        },
+        {
+          "id": "kangur-maluch-2012-23",
+          "source": "kangur-maluch-2012-23",
+          "year": 2012,
+          "number": 23,
+          "difficulty": "5pkt",
+          "topic": "logika",
+          "subtopic": "maksymalizacja porazek - punktacja meczowa",
+          "statement": "W meczu pilki noznej zwyciezca zdobywa 3 punkty, przegrany 0. Remis to po 1 punkcie. Druzyna rozegrala 38 meczow i zdobyla lacznie 80 punktow. Ile co najwyzej razy ta druzyna mogla przegrac?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "12",
+            "B": "11",
+            "C": "10",
+            "D": "9",
+            "E": "8"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "kangur-maluch-2013-20",
+          "source": "kangur-maluch-2013-20",
+          "year": 2013,
+          "number": 20,
+          "difficulty": "5pkt",
+          "topic": "lamiglowki",
+          "subtopic": "domino - najdluzszy rzad",
+          "statement": "Bartek ma 7 kamieni domino. Chce ulozyc je w rzad tak, by sasiednie pola mialy te sama liczbe oczek. Z ilu kamieni sklada sie najdluzszy taki rzad?",
+          "hasImage": true,
+          "imageNote": "Siedem kamieni domino z roznymi ukladami oczek.",
+          "choices": {
+            "A": "3",
+            "B": "4",
+            "C": "5",
+            "D": "6",
+            "E": "7"
+          },
+          "correct": "D"
+        },
+        {
+          "id": "kangur-maluch-2013-23",
+          "source": "kangur-maluch-2013-23",
+          "year": 2013,
+          "number": 23,
+          "difficulty": "5pkt",
+          "topic": "arytmetyka",
+          "subtopic": "suma liczb zlozonych z cyfr 0 i 1",
+          "statement": "Ula tworzy liczby uzywajac tylko cyfr 0 lub 1 (np. 1, 101, 1111). Co najmniej ile takich liczb musi dodac, aby otrzymac 2013?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "2",
+            "B": "3",
+            "C": "4",
+            "D": "5",
+            "E": "204"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "kangur-maluch-2013-24",
+          "source": "kangur-maluch-2013-24",
+          "year": 2013,
+          "number": 24,
+          "difficulty": "5pkt",
+          "topic": "logika",
+          "subtopic": "ulozenie szuflad wedlug warunkow",
+          "statement": "Komoda ma 4 szuflady. Rekawiczki lezą nizej niz szaliki. Parasolki lezą nizej niz czapki i nizej niz rekawiczki. Szaliki nie lezą najwyzej. Ktora to komoda (od gory)?",
+          "hasImage": true,
+          "imageNote": "Piec wariantow komody z roznym ulozeniem czapek, szalikow, rekawiczek, parasolek.",
+          "choices": {
+            "A": "Szaliki, Rekawiczki, Czapki, Parasolki",
+            "B": "Czapki, Parasolki, Szaliki, Rekawiczki",
+            "C": "Czapki, Szaliki, Rekawiczki, Parasolki",
+            "D": "Szaliki, Czapki, Rekawiczki, Parasolki",
+            "E": "Czapki, Szaliki, Parasolki, Rekawiczki"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "kangur-maluch-2014-24",
+          "source": "kangur-maluch-2014-24",
+          "year": 2014,
+          "number": 24,
+          "difficulty": "5pkt",
+          "topic": "lamiglowki",
+          "subtopic": "tabelka 3x3 z warunkami na sasiadow",
+          "statement": "Nikodem wpisal liczby 1-9 w tabelke 3x3, rogi to 1, 2, 4, 3. Dla liczby 5 suma sasiadow (pol o wspolnym boku) wynosi 13. To samo dla liczby 6. Jaka liczbe wpisal w szare pole (srodek)?",
+          "hasImage": true,
+          "imageNote": "Tabelka 3x3 z liczbami w rogach 1, 2, 4, 3 i szarym polem w srodku.",
+          "choices": {
+            "A": "5",
+            "B": "6",
+            "C": "7",
+            "D": "8",
+            "E": "9"
+          },
+          "correct": "D"
+        },
+        {
+          "id": "kangur-maluch-2018-18",
+          "source": "kangur-maluch-2018-18",
+          "year": 2018,
+          "number": 18,
+          "difficulty": "5pkt",
+          "topic": "logika",
+          "subtopic": "rownania z symbolami",
+          "statement": "W pewnym jezyku symbole A, B, C, D, E oznaczaja liczby 1, 2, 3, 4, 5 (kazdy inna). Wiadomo: C+C=E, B+B=C, B+E=D. Ktory symbol oznacza liczbe 3?",
+          "hasImage": true,
+          "imageNote": "Piec symboli (oko, slonce, kwiatek, ryba, grzbiet) i trzy rownania.",
+          "choices": {
+            "A": "oko",
+            "B": "slonce",
+            "C": "kwiatek",
+            "D": "ryba",
+            "E": "grzbiet"
+          },
+          "correct": "A"
+        }
+      ],
+      "solutions": [
+        {
+          "problemId": "kangur-maluch-2015-16",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "8 SMS-ow miedzy przyjaciolkami biedronkami.",
+          "steps": [
+            "8 SMS-ow miedzy przyjaciolkami biedronkami.",
+            "Poprawna odpowiedz: D"
+          ],
+          "answer": "D",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2016-9",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "6 psow daje +18 lap nad nosami.",
+          "steps": [
+            "6 psow daje +18 lap nad nosami.",
+            "Poprawna odpowiedz: C"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2016-13",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Miejsce 5 zawsze zajete (przeciecie wszystkich blokow 8 z 11).",
+          "steps": [
+            "Miejsce 5 zawsze zajete (przeciecie wszystkich blokow 8 z 11).",
+            "Poprawna odpowiedz: A"
+          ],
+          "answer": "A",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2016-14",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Niewidoczne strony kart: 11 i 4.",
+          "steps": [
+            "Niewidoczne strony kart: 11 i 4.",
+            "Poprawna odpowiedz: D"
+          ],
+          "answer": "D",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2012-18",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "12 skokow pchly do 22. stopnia (3a-4b=22, a+b min).",
+          "steps": [
+            "12 skokow pchly do 22. stopnia (3a-4b=22, a+b min).",
+            "Poprawna odpowiedz: D"
+          ],
+          "answer": "D",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2012-19",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "NMW(192,84)=12, najmniejszy kwadrat 12 mm.",
+          "steps": [
+            "NMW(192,84)=12, najmniejszy kwadrat 12 mm.",
+            "Poprawna odpowiedz: E"
+          ],
+          "answer": "E",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2012-23",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Max porazek 10.",
+          "steps": [
+            "Max porazek 10.",
+            "Poprawna odpowiedz: C"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2013-20",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Najdluzszy rzad domino 6 kamieni.",
+          "steps": [
+            "Najdluzszy rzad domino 6 kamieni.",
+            "Poprawna odpowiedz: D"
+          ],
+          "answer": "D",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2013-23",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "22 reczniki sposobem 1.",
+          "steps": [
+            "22 reczniki sposobem 1.",
+            "Poprawna odpowiedz: B"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2013-24",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Komoda wedlug warunkow - uklad C.",
+          "steps": [
+            "Komoda wedlug warunkow - uklad C.",
+            "Poprawna odpowiedz: C"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2014-24",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Srodek tabeli = 8.",
+          "steps": [
+            "Srodek tabeli = 8.",
+            "Poprawna odpowiedz: D"
+          ],
+          "answer": "D",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2018-18",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Symbol 3 = oko.",
+          "steps": [
+            "Symbol 3 = oko.",
+            "Poprawna odpowiedz: A"
+          ],
+          "answer": "A",
+          "alternative": null
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Po symulacji najwazniejsze:",
+      "choices": {
+        "A": "Wynik",
+        "B": "Omowic bledy",
+        "C": "Zapomnec"
+      },
+      "correct": "B",
+      "explain": "Zrozumienie bledow daje najwiecej nauki."
+    },
+    {
+      "q": "Zadanie za 5 pkt warte:",
+      "choices": {
+        "A": "Pominac",
+        "B": "Potrudzic sie",
+        "C": "Zgadnac"
+      },
+      "correct": "B",
+      "explain": "5 pkt to duzo - warte 5-7 min uwagi."
+    },
+    {
+      "q": "Klucz do sukcesu w Kangurku:",
+      "choices": {
+        "A": "Talent",
+        "B": "Trening i powtorki",
+        "C": "Szczescie"
+      },
+      "correct": "B",
+      "explain": "Powtorka + analiza bledow = sukces."
+    }
+  ]
+}

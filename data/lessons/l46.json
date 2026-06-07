@@ -1,0 +1,496 @@
+{
+  "id": "l46",
+  "number": 46,
+  "block": "Strategie konkursowe",
+  "blockCode": "I",
+  "title": "Jak czytac zadanie Kangurka",
+  "topic": "lamiglowki",
+  "estimatedMinutes": 14,
+  "theory": {
+    "intro": "Najczestszy blad w Kangurze: ktos rozwiazuje zadanie poprawnie, ale odpowiada na inne pytanie. 'Ile zostalo?' a uczen liczy 'ile bylo'. Czytanie zadania to klucz - przed liczeniem zatrzymaj sie i sprawdz: czego dokladnie pytaja?",
+    "tool": "Sztuczka 1: PRZECZYTAJ DWA RAZY. Najpierw szybko, potem powoli. Po drugim razie podkresl: co dane, czego szukam.\n\nSztuczka 2: WYPISZ DANE. Z zadania wyciagnij liczby, jednostki, warunki. Latwiej je polaczyc.\n\nSztuczka 3: SPRAWDZ JEDNOSTKE ODPOWIEDZI. Pyta o cm a odpowiedzi w m - moze pulapka. Albo pyta o LICZBE a odpowiedzi to OPISY.\n\nSztuczka 4: POMYSL O SENSIE. Czy mozliwe? Cena 1000 zl za jablko? Prawdopodobnie blad odczytu albo zlepa interpretacja.",
+    "trick": "Pulapka Kangurka: dlugie zadania z 3-4 zdaniami opisu. Czesto pierwsze 2 zdania to OZDOBNIK (postacie, kontekst), a kluczowe info w ostatnim zdaniu. Czytaj do konca - inaczej rozwiazesz inne zadanie."
+  },
+  "versions": [
+    {
+      "versionId": "v1",
+      "label": "Wersja 1 (oryginalna)",
+      "warmup": [
+        {
+          "id": "gen-l46-v1-w1",
+          "source": "generated-l46-v1-w1",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "lamiglowki",
+          "subtopic": "czego pytaja",
+          "statement": "Zadanie pyta 'Ile bananow zostalo?'. Na poczatku bylo 15, zjedzono 8. Co odpowiadasz?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "7 (zostalo)",
+            "B": "8 (zjedli)",
+            "C": "15 (poczatek)",
+            "D": "23 (suma)",
+            "E": "Nie wiadomo"
+          },
+          "correct": "A"
+        },
+        {
+          "id": "gen-l46-v1-w2",
+          "source": "generated-l46-v1-w2",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "lamiglowki",
+          "subtopic": "pulapka wyboru",
+          "statement": "Zadanie: 'Ola ma 3 czerwone, 4 zielone, 5 niebieskich kulek. Ile NIEBIESKICH?'",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "3",
+            "B": "4",
+            "C": "5",
+            "D": "12",
+            "E": "15"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "gen-l46-v1-w3",
+          "source": "generated-l46-v1-w3",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "lamiglowki",
+          "subtopic": "podkresl kluczowe",
+          "statement": "W zadaniu 'Mama kupila pol kg jablek po 4 zl za kg. Ile zaplacila?', co jest kluczem?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "Sama mama",
+            "B": "Pol kg i cena 4 zl/kg",
+            "C": "Tylko 4 zl",
+            "D": "Tylko pol kg",
+            "E": "Nic"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "kangur-maluch-2013-5",
+          "source": "kangur-maluch-2013-5",
+          "year": 2013,
+          "number": 5,
+          "difficulty": "3pkt",
+          "topic": "arytmetyka",
+          "subtopic": "dzielniki liczby",
+          "statement": "Daniel ma 36 zolnierzykow. Rozdzielil je rowno miedzy kolegow. Ktora z liczb na pewno NIE jest liczba kolegow Daniela?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "2",
+            "B": "3",
+            "C": "4",
+            "D": "5",
+            "E": "6"
+          },
+          "correct": "D"
+        },
+        {
+          "id": "kangur-maluch-2014-2",
+          "source": "kangur-maluch-2014-2",
+          "year": 2014,
+          "number": 2,
+          "difficulty": "3pkt",
+          "topic": "arytmetyka",
+          "subtopic": "wstawianie cyfry dla najmniejszej liczby",
+          "statement": "Jacek chce dopisac cyfre 3 do liczby 2014 (na poczatku, na koncu lub miedzy cyframi). Gdzie ja wstawic, by otrzymana liczba 5-cyfrowa byla najmniejsza?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "Przed cyfra 2",
+            "B": "Miedzy 2 a 0",
+            "C": "Miedzy 0 a 1",
+            "D": "Miedzy 1 a 4",
+            "E": "Za cyfra 4"
+          },
+          "correct": "D"
+        }
+      ],
+      "challenge": [
+        {
+          "id": "kangur-maluch-2013-11",
+          "source": "kangur-maluch-2013-11",
+          "year": 2013,
+          "number": 11,
+          "difficulty": "4pkt",
+          "topic": "arytmetyka",
+          "subtopic": "minimalizacja liczby opakowan",
+          "statement": "Pomarancze sa pakowane po 5, po 9 lub po 10 sztuk. Piotr chce dokladnie 48 pomarancz. Jaka jest najmniejsza liczba opakowan?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "8",
+            "B": "7",
+            "C": "6",
+            "D": "5",
+            "E": "4"
+          },
+          "correct": "D"
+        },
+        {
+          "id": "kangur-maluch-2015-12",
+          "source": "kangur-maluch-2015-12",
+          "year": 2015,
+          "number": 12,
+          "difficulty": "4pkt",
+          "topic": "arytmetyka",
+          "subtopic": "zadanie z reszta i niedoborem",
+          "statement": "Babcia dala kazdemu wnukowi po 4 cukierki i zostaly jej 2. Gdyby dala po 5, zabrakloby jej 2 cukierkow. Ilu wnukow miala babcia?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "3",
+            "B": "4",
+            "C": "5",
+            "D": "6",
+            "E": "7"
+          },
+          "correct": "B"
+        }
+      ],
+      "solutions": [
+        {
+          "problemId": "gen-l46-v1-w1",
+          "observation": "Pytaja o reszte - 15-8=7.",
+          "strategy": "Czytanie pytania.",
+          "steps": [
+            "Zostalo: 15 - 8 = 7"
+          ],
+          "answer": "A",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l46-v1-w2",
+          "observation": "Pytaja TYLKO o niebieskie.",
+          "strategy": "Selekcja informacji.",
+          "steps": [
+            "Niebieskich = 5"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l46-v1-w3",
+          "observation": "Klucz: ilosc + cena za jednostke.",
+          "strategy": "Identyfikacja danych.",
+          "steps": [
+            "Pol kg razy 4 zl/kg = 2 zl"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2013-5",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Daniel 36 zolnierzykow rozdziela rowno. 5 nie jest dzielnikiem 36.",
+          "steps": [
+            "Daniel 36 zolnierzykow rozdziela rowno. 5 nie jest dzielnikiem 36.",
+            "Poprawna odpowiedz: D"
+          ],
+          "answer": "D",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2014-2",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Wstawiamy 3 do 2014. Najmniejsza: 20134 (miedzy 1 a 4).",
+          "steps": [
+            "Wstawiamy 3 do 2014. Najmniejsza: 20134 (miedzy 1 a 4).",
+            "Poprawna odpowiedz: D"
+          ],
+          "answer": "D",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2013-11",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "48 pomarancz, opakowania 5, 9, 10. Najmniej opakowan: 5.",
+          "steps": [
+            "48 pomarancz, opakowania 5, 9, 10. Najmniej opakowan: 5.",
+            "Poprawna odpowiedz: D"
+          ],
+          "answer": "D",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2015-12",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Babcia, po 4 i zostane 2, po 5 i brakuje 2. Wnukow: 4.",
+          "steps": [
+            "Babcia, po 4 i zostane 2, po 5 i brakuje 2. Wnukow: 4.",
+            "Poprawna odpowiedz: B"
+          ],
+          "answer": "B",
+          "alternative": null
+        }
+      ]
+    },
+    {
+      "versionId": "v2",
+      "label": "Wersja 2 (powtorka)",
+      "warmup": [
+        {
+          "id": "gen-l46-v2-w1",
+          "source": "generated-l46-v2-w1",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "lamiglowki",
+          "subtopic": "ile wzielo",
+          "statement": "Pyta: 'Ile dzieci zostalo bez nagrody?'. Bylo 20, nagrody dostalo 15. Odpowiedz?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "5",
+            "B": "15",
+            "C": "20",
+            "D": "35",
+            "E": "Nie wiadomo"
+          },
+          "correct": "A"
+        },
+        {
+          "id": "gen-l46-v2-w2",
+          "source": "generated-l46-v2-w2",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "lamiglowki",
+          "subtopic": "co dane",
+          "statement": "Zadanie: 'Trojkat ma boki 3, 4, 5 cm. Ile wynosi obwod?'. Co liczymy?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "Pole",
+            "B": "Wysokosc",
+            "C": "Obwod = suma bokow",
+            "D": "Najdluzszy bok",
+            "E": "Najkrotszy bok"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "gen-l46-v2-w3",
+          "source": "generated-l46-v2-w3",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "lamiglowki",
+          "subtopic": "ostatnie zdanie",
+          "statement": "Zadanie zaczyna sie 'Bajka o smoku...' i konczy 'Ile lat ma smok?'. Co zwracac uwage?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "Na poczatek (bajke)",
+            "B": "Na konkretne pytanie (lat smoka)",
+            "C": "Na imie bohatera",
+            "D": "Na ilosc zdan",
+            "E": "Tylko na liczby"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "kangur-maluch-2016-3",
+          "source": "kangur-maluch-2016-3",
+          "year": 2016,
+          "number": 3,
+          "difficulty": "3pkt",
+          "topic": "arytmetyka",
+          "subtopic": "zmiana wagi i sumowanie",
+          "statement": "Szary kangurek wazyl 17 kg, brazowy 20 kg. Szary przytyl 3 kg, brazowy schudl 4 kg. Ile teraz waza lacznie oba kangurki?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "36 kg",
+            "B": "38 kg",
+            "C": "44 kg",
+            "D": "30 kg",
+            "E": "37 kg"
+          },
+          "correct": "A"
+        },
+        {
+          "id": "kangur-maluch-2013-6",
+          "source": "kangur-maluch-2013-6",
+          "year": 2013,
+          "number": 6,
+          "difficulty": "3pkt",
+          "topic": "arytmetyka",
+          "subtopic": "mnozenie i dzielenie z kontekstem",
+          "statement": "Mama robi kanapki, kazda z 2 kromek chleba. Bochenek to 24 kromki. Ile kanapek zrobi z dwoch i pol bochenkow?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "24",
+            "B": "30",
+            "C": "48",
+            "D": "34",
+            "E": "26"
+          },
+          "correct": "B"
+        }
+      ],
+      "challenge": [
+        {
+          "id": "kangur-maluch-2016-11",
+          "source": "kangur-maluch-2016-11",
+          "year": 2016,
+          "number": 11,
+          "difficulty": "4pkt",
+          "topic": "arytmetyka",
+          "subtopic": "najmniejsza liczba o danej sumie cyfr",
+          "statement": "Suma cyfr liczby 2016 jest rowna 9. Jaka jest najmniejsza liczba wieksza od 2016, ktora ma te sama sume cyfr?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "2007",
+            "B": "2025",
+            "C": "2034",
+            "D": "2108",
+            "E": "2134"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "kangur-maluch-2014-10",
+          "source": "kangur-maluch-2014-10",
+          "year": 2014,
+          "number": 10,
+          "difficulty": "4pkt",
+          "topic": "arytmetyka",
+          "subtopic": "odwracanie polowienia",
+          "statement": "W koszyku byly cukierki. Zosia wziela polowe, Tomek polowe reszty, Klara polowe tego co zostalo. W koszyku zostalo 6 cukierkow. Ile bylo na poczatku?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "12",
+            "B": "18",
+            "C": "24",
+            "D": "36",
+            "E": "48"
+          },
+          "correct": "E"
+        }
+      ],
+      "solutions": [
+        {
+          "problemId": "gen-l46-v2-w1",
+          "observation": "20 - 15 = 5 bez nagrody.",
+          "strategy": "Roznica.",
+          "steps": [
+            "20-15=5"
+          ],
+          "answer": "A",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l46-v2-w2",
+          "observation": "Obwod = suma bokow.",
+          "strategy": "Definicja obwodu.",
+          "steps": [
+            "3+4+5=12 cm"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l46-v2-w3",
+          "observation": "Skup sie na konkretnym pytaniu na koncu.",
+          "strategy": "Identyfikacja pytania.",
+          "steps": [
+            "Pytanie: ile lat ma smok"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2016-3",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Szary 17+3=20, brazowy 20-4=16. Razem 36 kg.",
+          "steps": [
+            "Szary 17+3=20, brazowy 20-4=16. Razem 36 kg.",
+            "Poprawna odpowiedz: A"
+          ],
+          "answer": "A",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2013-6",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Mama 2 i pol bochenka = 60 kromek = 30 kanapek.",
+          "steps": [
+            "Mama 2 i pol bochenka = 60 kromek = 30 kanapek.",
+            "Poprawna odpowiedz: B"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2016-11",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Suma cyfr 2016 = 9. Najmniejsza wieksza: 2025 (suma 9).",
+          "steps": [
+            "Suma cyfr 2016 = 9. Najmniejsza wieksza: 2025 (suma 9).",
+            "Poprawna odpowiedz: B"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2014-10",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Koszyk - polowa po polowie po polowie - 6. Poczatek = 48.",
+          "steps": [
+            "Koszyk - polowa po polowie po polowie - 6. Poczatek = 48.",
+            "Poprawna odpowiedz: E"
+          ],
+          "answer": "E",
+          "alternative": null
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Najczestszy blad w Kangurze:",
+      "choices": {
+        "A": "Liczenie",
+        "B": "Czytanie zadania",
+        "C": "Pisanie"
+      },
+      "correct": "B",
+      "explain": "Niedokladne czytanie - odpowiadanie na inne pytanie."
+    },
+    {
+      "q": "Przed liczeniem nalezy:",
+      "choices": {
+        "A": "Przeczytac dwa razy",
+        "B": "Zgadnac",
+        "C": "Pomijac"
+      },
+      "correct": "A",
+      "explain": "Dwukrotne czytanie - identyfikujesz dane i pytanie."
+    },
+    {
+      "q": "Klucz informacji w zadaniu zwykle:",
+      "choices": {
+        "A": "Na poczatku",
+        "B": "W ostatnim zdaniu",
+        "C": "W tytule"
+      },
+      "correct": "B",
+      "explain": "Pytanie i kluczowe info czesto w ostatnim zdaniu."
+    }
+  ]
+}

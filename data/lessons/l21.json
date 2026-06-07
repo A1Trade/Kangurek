@@ -1,0 +1,538 @@
+{
+  "id": "l21",
+  "number": 21,
+  "block": "Geometria plaska",
+  "blockCode": "C",
+  "title": "Tangram i ukladanie figur",
+  "topic": "geometria_plaska",
+  "estimatedMinutes": 16,
+  "theory": {
+    "intro": "Tangram to starochinska ukladanka - z kilku prostych ksztaltow ukladasz zwierzeta, ludzi, domy. Geometria ukladanek uczy najwazniejszej rzeczy: jak rozkladac i skladac figury. To umiejetnosc, ktora rozwiazuje setki zadan Kangurka.",
+    "tool": "Sztuczka 1: POLE SIE NIE ZMIENIA. Gdy ukladasz figure z kawalkow, ich laczne pole jest zawsze takie samo. Jezeli kawalki maja 12 kratek, gotowa figura tez ma 12 kratek.\n\nSztuczka 2: OBRACAJ I ODBIJAJ W MYSLI. Kawalek mozna obrocic albo odbic, by pasowal. Wyobraz sobie, jak wyglada po obroceniu, zanim go 'polozysz'.\n\nSztuczka 3: ZACZNIJ OD NAJWIEKSZEGO KAWALKA. Ukladajac, najpierw umiesc najwiekszy element - on najbardziej ogranicza mozliwosci. Mniejsze dopasujesz wokol niego.\n\nSztuczka 4: LICZ KRATKI BRZEGOWE. Sprawdzajac, czy kawalek pasuje, policz kratki wzdluz krawedzi - musza sie zgadzac z luka, ktora wypelniasz.",
+    "trick": "Kangur stawia pulapki w zadaniach 'czy da sie ulozyc'. Sprawdz najpierw POLE - jezeli kawalki maja inne laczne pole niz figura docelowa, odpowiedz brzmi 'nie da sie' bez zadnego ukladania. Pole to pierwszy i najszybszy test."
+  },
+  "versions": [
+    {
+      "versionId": "v1",
+      "label": "Wersja 1 (oryginalna)",
+      "warmup": [
+        {
+          "id": "gen-l21-v1-w1",
+          "source": "generated-l21-v1-w1",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "geometria_plaska",
+          "subtopic": "pole przy ukladaniu",
+          "statement": "Z kawalkow o lacznym polu 16 kratek ulozono kwadrat. Jakie pole ma ten kwadrat?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "4",
+            "B": "8",
+            "C": "12",
+            "D": "16",
+            "E": "32"
+          },
+          "correct": "D"
+        },
+        {
+          "id": "gen-l21-v1-w2",
+          "source": "generated-l21-v1-w2",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "geometria_plaska",
+          "subtopic": "skladanie kwadratu z trojkatow",
+          "statement": "Ile jednakowych trojkatow prostokatnych potrzeba, by zlozyc jeden kwadrat (najprosciej)?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "1",
+            "B": "2",
+            "C": "3",
+            "D": "5",
+            "E": "6"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "gen-l21-v1-w3",
+          "source": "generated-l21-v1-w3",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "geometria_plaska",
+          "subtopic": "obracanie kawalka",
+          "statement": "Kawalek ukladanki, ktory nie pasuje, czesto wystarczy:",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "Rozciac",
+            "B": "Obrocic lub odbic",
+            "C": "Wyrzucic",
+            "D": "Pomalowac",
+            "E": "Zgubic"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "kangur-maluch-2019-9",
+          "source": "kangur-maluch-2019-9",
+          "year": 2019,
+          "number": 9,
+          "difficulty": "4pkt",
+          "topic": "geometria_plaska",
+          "subtopic": "rozpoznanie wycinka",
+          "statement": "Przedstawiono kwadratową planszę 4x4 z obrazkami (trefl, pik, karo, kier). Jeden z pięciu prostokątów 1x2 (z dwoma symbolami) został wycięty z tej planszy. Który?",
+          "hasImage": true,
+          "imageNote": "Plansza 4x4 z symbolami kart. Wycinek to prostokąt 1x2 z określoną parą symboli.",
+          "choices": {
+            "A": "trefl-kier",
+            "B": "pik-gwiazda",
+            "C": "karo-karo",
+            "D": "karo-gwiazda",
+            "E": "trefl-pik"
+          },
+          "correct": "D"
+        },
+        {
+          "id": "kangur-maluch-2020-13",
+          "source": "kangur-maluch-2020-13",
+          "year": 2020,
+          "number": 13,
+          "difficulty": "4pkt",
+          "topic": "geometria_plaska",
+          "subtopic": "maksymalne pokrycie paska kartonikami",
+          "statement": "Kajtek ma 7 kartonikow roznej dlugosci. Uklada je na pasku bez nakladania i bez wystawania poza pasek. Ilu najwiecej kartonikow moze uzyc, by pokryc caly pasek?",
+          "hasImage": true,
+          "imageNote": "Siedem kartonikow roznej dlugosci i pasek do pokrycia.",
+          "choices": {
+            "A": "3",
+            "B": "4",
+            "C": "5",
+            "D": "6",
+            "E": "7"
+          },
+          "correct": "B"
+        }
+      ],
+      "challenge": [
+        {
+          "id": "kangur-maluch-2015-17",
+          "source": "kangur-maluch-2015-17",
+          "year": 2015,
+          "number": 17,
+          "difficulty": "5pkt",
+          "topic": "geometria_plaska",
+          "subtopic": "podzial figury na 3 identyczne czesci",
+          "statement": "Figure podzielono na trzy identyczne czesci. Ktory z ponizszych ksztaltow moga miec te czesci?",
+          "hasImage": true,
+          "imageNote": "Figura z kwadracikow i 5 wariantow ksztaltu czesci.",
+          "choices": {
+            "A": "ksztalt A",
+            "B": "ksztalt B",
+            "C": "ksztalt C",
+            "D": "ksztalt D",
+            "E": "ksztalt E"
+          },
+          "correct": "D"
+        },
+        {
+          "id": "kangur-maluch-2020-22",
+          "source": "kangur-maluch-2020-22",
+          "year": 2020,
+          "number": 22,
+          "difficulty": "5pkt",
+          "topic": "geometria_plaska",
+          "subtopic": "podzial figury na 3 rozne czesci",
+          "statement": "Ktorej z 5 figur NIE da sie pociac na trzy czesci tak, by kazda miala inny ksztalt i kazda byla zlozona z 5 zacieniowanych kratek (ciac tylko wzdluz linii)?",
+          "hasImage": true,
+          "imageNote": "Piec figur zlozonych z 15 zacieniowanych kratek kazda.",
+          "choices": {
+            "A": "figura A",
+            "B": "figura B",
+            "C": "figura C",
+            "D": "figura D",
+            "E": "figura E"
+          },
+          "correct": "D"
+        }
+      ],
+      "solutions": [
+        {
+          "problemId": "gen-l21-v1-w1",
+          "observation": "Pole nie zmienia sie przy ukladaniu.",
+          "strategy": "Zachowanie pola.",
+          "steps": [
+            "Kawalki maja 16 kratek",
+            "Zlozony kwadrat tez ma pole 16"
+          ],
+          "answer": "D",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l21-v1-w2",
+          "observation": "Dwa trojkaty prostokatne tworza kwadrat.",
+          "strategy": "Skladanie figur.",
+          "steps": [
+            "Dwa jednakowe trojkaty prostokatne zlozone wzdluz przeciwprostokatnej daja kwadrat"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l21-v1-w3",
+          "observation": "Obrot lub odbicie czesto dopasowuje kawalek.",
+          "strategy": "Obracanie kawalkow.",
+          "steps": [
+            "Kawalek mozna obrocic albo odbic, by pasowal"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2019-9",
+          "observation": "Rozpoznajemy wycinek z planszy 4x4.",
+          "strategy": "Dopasowanie wycinka.",
+          "steps": [
+            "Prostokat 1x2 wyciety z planszy z symbolami",
+            "Pasuje wycinek karo-gwiazda"
+          ],
+          "answer": "D",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2020-13",
+          "observation": "Maksymalne pokrycie paska kartonikami.",
+          "strategy": "Liczenie kartonikow.",
+          "steps": [
+            "Kartoniki ukladane bez nakladania i wystawania",
+            "Najwiecej mozna uzyc 4 kartonikow"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2015-17",
+          "observation": "Podzial figury na 3 identyczne czesci.",
+          "strategy": "Szukanie ksztaltu czesci.",
+          "steps": [
+            "Figura dzieli sie na 3 jednakowe czesci",
+            "Poprawny ksztalt to D"
+          ],
+          "answer": "D",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2020-22",
+          "observation": "Figura, ktorej nie da sie pociac na 3 rozne czesci.",
+          "strategy": "Sprawdzanie mozliwosci podzialu.",
+          "steps": [
+            "Cztery figury da sie pociac na 3 rozne czesci po 5 kratek",
+            "Figury D nie da sie tak pociac"
+          ],
+          "answer": "D",
+          "alternative": null
+        }
+      ]
+    },
+    {
+      "versionId": "v2",
+      "label": "Wersja 2 (powtorka)",
+      "warmup": [
+        {
+          "id": "gen-l21-v2-w1",
+          "source": "generated-l21-v2-w1",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "geometria_plaska",
+          "subtopic": "test pola",
+          "statement": "Kawalki maja laczne pole 10 kratek. Czy da sie z nich ulozyc kwadrat 3x3 (9 kratek)?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "Tak",
+            "B": "Nie - pola sie nie zgadzaja",
+            "C": "Tylko po obroceniu",
+            "D": "Tylko po odbiciu",
+            "E": "Zawsze"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "gen-l21-v2-w2",
+          "source": "generated-l21-v2-w2",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "geometria_plaska",
+          "subtopic": "skladanie prostokata",
+          "statement": "Dwa jednakowe kwadraty polozone obok siebie tworza:",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "Trojkat",
+            "B": "Prostokat",
+            "C": "Kolo",
+            "D": "Wieksze kwadrat",
+            "E": "Pieciokat"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "gen-l21-v2-w3",
+          "source": "generated-l21-v2-w3",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "geometria_plaska",
+          "subtopic": "kolejnosc ukladania",
+          "statement": "Ukladajac figure z kawalkow, najlepiej zaczac od:",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "Najmniejszego kawalka",
+            "B": "Najwiekszego kawalka",
+            "C": "Srodka",
+            "D": "Kolorowych",
+            "E": "Brzegow"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "kangur-maluch-2023-9",
+          "source": "kangur-maluch-2023-9",
+          "year": 2023,
+          "number": 9,
+          "difficulty": "4pkt",
+          "topic": "geometria_plaska",
+          "subtopic": "ktory kartonik przykryje punkt",
+          "statement": "Figure nalezy calkowicie przykryc piecioma kartonikami. Ktory kartonik przykryje czarne kolko?",
+          "hasImage": true,
+          "imageNote": "Figura z czarnym kolkiem i 5 kartonikow do przykrycia.",
+          "choices": {
+            "A": "kartonik A",
+            "B": "kartonik B",
+            "C": "kartonik C",
+            "D": "kartonik D",
+            "E": "kartonik E"
+          },
+          "correct": "E"
+        },
+        {
+          "id": "kangur-maluch-2018-10",
+          "source": "kangur-maluch-2018-10",
+          "year": 2018,
+          "number": 10,
+          "difficulty": "4pkt",
+          "topic": "geometria_plaska",
+          "subtopic": "ukladanie wzorow z kartonikow",
+          "statement": "Marysia uklada wzory z jednakowych kartonikow (czarno-biale). Ile z ponizszych 5 wzorow moze otrzymac, nie nakladajac kartonikow na siebie?",
+          "hasImage": true,
+          "imageNote": "Pieć wzorow do ukladania z identycznych kartonikow.",
+          "choices": {
+            "A": "1",
+            "B": "2",
+            "C": "3",
+            "D": "4",
+            "E": "5"
+          },
+          "correct": "C"
+        }
+      ],
+      "challenge": [
+        {
+          "id": "kangur-maluch-2013-12",
+          "source": "kangur-maluch-2013-12",
+          "year": 2013,
+          "number": 12,
+          "difficulty": "4pkt",
+          "topic": "geometria_plaska",
+          "subtopic": "ruch po siatce - skrety",
+          "statement": "Ania idzie wzdluz strzalki, na kazdym skrzyzowaniu skreca w prawo lub lewo: prawo, lewo, lewo, prawo, lewo, lewo, zatrzymuje sie. Przy ktorym obrazku konczy wedrowke?",
+          "hasImage": true,
+          "imageNote": "Siatka ulic z obrazkami na skrzyzowaniach, strzalka startowa Ani.",
+          "choices": {
+            "A": "obrazek A",
+            "B": "obrazek B",
+            "C": "obrazek C",
+            "D": "obrazek D",
+            "E": "obrazek E"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "kangur-maluch-2015-15",
+          "source": "kangur-maluch-2015-15",
+          "year": 2015,
+          "number": 15,
+          "difficulty": "4pkt",
+          "topic": "geometria_plaska",
+          "subtopic": "ruch po alejkach ze skretami",
+          "statement": "Pawel jezdzi rowerem po alejkach parku. Wyrusza z linii S, na skrzyzowaniach skreca na przemian: prawo, lewo, prawo, lewo... Kolo ktorego znaku NIE przejedzie?",
+          "hasImage": true,
+          "imageNote": "Park z alejkami w ksztalcie kwiatka, znaki A-E, linia startu S.",
+          "choices": {
+            "A": "A",
+            "B": "B",
+            "C": "C",
+            "D": "D",
+            "E": "E"
+          },
+          "correct": "C"
+        }
+      ],
+      "solutions": [
+        {
+          "problemId": "gen-l21-v2-w1",
+          "observation": "Najpierw sprawdz pole.",
+          "strategy": "Test pola.",
+          "steps": [
+            "Kawalki maja 10 kratek, kwadrat 3x3 ma 9",
+            "Pola sie nie zgadzaja - nie da sie"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l21-v2-w2",
+          "observation": "Dwa kwadraty obok siebie = prostokat.",
+          "strategy": "Skladanie figur.",
+          "steps": [
+            "Dwa jednakowe kwadraty obok siebie tworza prostokat"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l21-v2-w3",
+          "observation": "Najwiekszy kawalek najbardziej ogranicza.",
+          "strategy": "Strategia ukladania.",
+          "steps": [
+            "Najwiekszy kawalek umieszczamy pierwszy - reszte dopasowujemy wokol"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2023-9",
+          "observation": "Ktory kartonik przykryje czarne kolko.",
+          "strategy": "Sledzenie polozenia kartonikow.",
+          "steps": [
+            "Figure przykrywamy 5 kartonikami",
+            "Czarne kolko przykryje kartonik E"
+          ],
+          "answer": "E",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2018-10",
+          "observation": "Ukladanie wzorow z kartonikow.",
+          "strategy": "Sprawdzanie ulozen.",
+          "steps": [
+            "Wzory ukladane z jednakowych kartonikow bez nakladania",
+            "Da sie ulozyc 3 z 5 wzorow"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2013-12",
+          "observation": "Ruch po siatce ze skretami.",
+          "strategy": "Sledzenie trasy Ani.",
+          "steps": [
+            "Ania skreca: prawo, lewo, lewo, prawo, lewo, lewo",
+            "Konczy wedrowke przy obrazku B"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2015-15",
+          "observation": "Ruch po alejkach parku ze skretami.",
+          "strategy": "Sledzenie trasy roweru.",
+          "steps": [
+            "Pawel skreca na przemian prawo, lewo...",
+            "Nie przejedzie kolo znaku C"
+          ],
+          "answer": "C",
+          "alternative": null
+        }
+      ]
+    },
+    {
+      "versionId": "v3",
+      "label": "Wersja 3 (oryginaly Kangurka)",
+      "warmup": [
+        {
+          "id": "kangur-maluch-2023-21",
+          "source": "kangur-maluch-2023-21",
+          "year": 2023,
+          "number": 21,
+          "difficulty": "5pkt",
+          "topic": "geometria_plaska",
+          "subtopic": "kolejnosc operacji obrotu i druku",
+          "statement": "Wladek ma urzadzenie O (obraca kartke o cwierc obrotu) i D (drukuje znak trefl). W jakiej kolejnosci uzyl trzech urzadzen, by z kartki z czarnym rogiem otrzymac pokazany rezultat?",
+          "hasImage": true,
+          "imageNote": "Kartka z czarnym kwadracikiem, urzadzenia O i D, rezultat koncowy.",
+          "choices": {
+            "A": "DOO",
+            "B": "ODO",
+            "C": "ODD",
+            "D": "OOD",
+            "E": "DOD"
+          },
+          "correct": "D"
+        }
+      ],
+      "challenge": [],
+      "solutions": [
+        {
+          "problemId": "kangur-maluch-2023-21",
+          "observation": "Oryginalne zadanie Kangurka.",
+          "strategy": "Oryginalne zadanie Kangur Maluch 2023 nr 21.",
+          "steps": [
+            "Oryginalne zadanie Kangur Maluch 2023 nr 21.",
+            "Poprawna odpowiedz: D"
+          ],
+          "answer": "D",
+          "alternative": null
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Kawalki maja 20 kratek. Zlozona figura ma pole:",
+      "choices": {
+        "A": "10",
+        "B": "20",
+        "C": "40"
+      },
+      "correct": "B",
+      "explain": "Pole sie nie zmienia - zlozona figura ma 20 kratek."
+    },
+    {
+      "q": "Pierwszy test 'czy da sie ulozyc' to:",
+      "choices": {
+        "A": "Sprawdzic pole",
+        "B": "Sprawdzic kolory",
+        "C": "Zgadnac"
+      },
+      "correct": "A",
+      "explain": "Jezeli pola sie nie zgadzaja, nie da sie - bez ukladania."
+    },
+    {
+      "q": "Ukladanie zaczynamy od:",
+      "choices": {
+        "A": "Najwiekszego kawalka",
+        "B": "Najmniejszego",
+        "C": "Srodka"
+      },
+      "correct": "A",
+      "explain": "Najwiekszy kawalek najbardziej ogranicza - umieszczamy go pierwszy."
+    }
+  ]
+}

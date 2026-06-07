@@ -1,0 +1,498 @@
+{
+  "id": "l33",
+  "number": 33,
+  "block": "Czas i kalendarz",
+  "blockCode": "F",
+  "title": "Zegar - godziny i minuty",
+  "topic": "czas_kalendarz",
+  "estimatedMinutes": 14,
+  "theory": {
+    "intro": "Dwie wskazowki taneczne na tarczy zegara. Krotka pokazuje godziny, dluga - minuty. Czesc zegarow ma jeszcze trzecia, bardzo cienka - sekundowa. Odczytywanie zegara analogowego to wazna umiejetnosc, ktora Kangur lubi sprawdzac w roznych formach.",
+    "tool": "Sztuczka 1: GODZINA Z KROTKIEJ. Krotka wskazowka pokazuje godzine. Jest miedzy 3 a 4 = godzina 3 (zaczela sie ale jeszcze 4 nie). Minutowa pokazuje 30 = 3:30.\n\nSztuczka 2: MINUTOWA - PRZESKAKUJE PO 5. Liczby na zegarze 1-12 dla godzin, ale dla minut kazda to 5 minut. Na 6 = 30 minut, na 9 = 45, na 12 = 0/60.\n\nSztuczka 3: ODBICIE W LUSTRZE. Zegar w lustrze pokazuje 'odwrotny' czas: wskazowki sa odbite poziomo. Aby 'czytac' lustro - wyobraz sobie prawdziwa godzine.\n\nSztuczka 4: KAT MIEDZY WSKAZOWKAMI. O 3:00 wskazowki sa prostopadle (kat prosty). O 6:00 - na linii (kat polpelny). O 12:00 - razem (kat zerowy).",
+    "trick": "Pulapka Kangurka: zadanie 'spacer trwal X minut, wrocila o godzinie Y'. Najtrudniejsze sa zadania 'cofnij sie o X minut'. Zawsze cofaj najpierw o pelne godziny, potem o minuty. 12:05 - 38 min = 12:05 - 60 + 22 = 11:22? Nie - 11:27 (cofnij 5 min do 12:00, jeszcze 33 do 11:27)."
+  },
+  "versions": [
+    {
+      "versionId": "v1",
+      "label": "Wersja 1 (oryginalna)",
+      "warmup": [
+        {
+          "id": "gen-l33-v1-w1",
+          "source": "generated-l33-v1-w1",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "czas_kalendarz",
+          "subtopic": "odczyt zegara",
+          "statement": "Krotka wskazowka jest na 5, dluga na 12. Ktora godzine pokazuje zegar?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "5:00",
+            "B": "5:12",
+            "C": "12:05",
+            "D": "5:30",
+            "E": "12:30"
+          },
+          "correct": "A"
+        },
+        {
+          "id": "gen-l33-v1-w2",
+          "source": "generated-l33-v1-w2",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "czas_kalendarz",
+          "subtopic": "minutowa",
+          "statement": "Krotka wskazowka jest miedzy 2 a 3, dluga na 6. Ktora godzina?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "2:30",
+            "B": "3:30",
+            "C": "6:02",
+            "D": "6:03",
+            "E": "2:06"
+          },
+          "correct": "A"
+        },
+        {
+          "id": "gen-l33-v1-w3",
+          "source": "generated-l33-v1-w3",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "czas_kalendarz",
+          "subtopic": "kat o 3:00",
+          "statement": "O godzinie 3:00 wskazowki zegara tworza kat:",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "Ostry",
+            "B": "Prosty",
+            "C": "Rozwarty",
+            "D": "Polpelny",
+            "E": "Zerowy"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "kangur-maluch-2012-21",
+          "source": "kangur-maluch-2012-21",
+          "year": 2012,
+          "number": 21,
+          "difficulty": "5pkt",
+          "topic": "czas_kalendarz",
+          "subtopic": "zegar - identyfikacja wskazowek",
+          "statement": "Zegar ma trzy wskazowki roznej dlugosci (godzinowa, minutowa, sekundowa) i wskazuje prawidlowy czas. O godzinie 12:55:30 wskazowki sa w pewnym ustawieniu. Jak bedzie wygladal ten zegar o godzinie 8:11:00?",
+          "hasImage": true,
+          "imageNote": "Tarcza zegara o 12:55:30 i 5 wariantow ustawien dla 8:11:00.",
+          "choices": {
+            "A": "zegar A",
+            "B": "zegar B",
+            "C": "zegar C",
+            "D": "zegar D",
+            "E": "zegar E"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "kangur-maluch-2023-5",
+          "source": "kangur-maluch-2023-5",
+          "year": 2023,
+          "number": 5,
+          "difficulty": "3pkt",
+          "topic": "czas_kalendarz",
+          "subtopic": "liczby widoczne w obracanym kole",
+          "statement": "Na tarcze zegara nalozono szare kolo z dwoma otworami w stalej odleglosci. Obracajac kolo, ktore dwie liczby moga byc jednoczesnie widoczne w otworach?",
+          "hasImage": true,
+          "imageNote": "Tarcza zegara i szare kolo z dwoma otworami pokazujacymi 1 i 5.",
+          "choices": {
+            "A": "4 i 9",
+            "B": "5 i 10",
+            "C": "5 i 9",
+            "D": "6 i 9",
+            "E": "7 i 12"
+          },
+          "correct": "C"
+        }
+      ],
+      "challenge": [
+        {
+          "id": "kangur-maluch-2023-15",
+          "source": "kangur-maluch-2023-15",
+          "year": 2023,
+          "number": 15,
+          "difficulty": "4pkt",
+          "topic": "czas_kalendarz",
+          "subtopic": "ktory zegar chodzi poprawnie",
+          "statement": "Wisi 5 zegarow: 2 zepsute, 1 poprawny, 1 spieszy sie o 3 godziny, 1 spoznia o 3 godziny. Ktory zegar chodzi poprawnie?",
+          "hasImage": true,
+          "imageNote": "Piec zegarow A-E z roznymi czasami.",
+          "choices": {
+            "A": "A",
+            "B": "B",
+            "C": "C",
+            "D": "D",
+            "E": "E"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "gen-l33-v1-c1",
+          "source": "generated-l33-v1-c1",
+          "year": null,
+          "number": null,
+          "difficulty": "5pkt",
+          "topic": "czas_kalendarz",
+          "subtopic": "kat 6:00",
+          "statement": "O godzinie 6:00 wskazowki zegara tworza kat:",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "Prosty",
+            "B": "Ostry",
+            "C": "Rozwarty",
+            "D": "Polpelny",
+            "E": "Pelny"
+          },
+          "correct": "D"
+        }
+      ],
+      "solutions": [
+        {
+          "problemId": "gen-l33-v1-w1",
+          "observation": "Krotka na 5, dluga na 12 = 5:00.",
+          "strategy": "Odczyt godziny.",
+          "steps": [
+            "5:00"
+          ],
+          "answer": "A",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l33-v1-w2",
+          "observation": "Krotka miedzy 2 a 3 = godzina 2. Dluga na 6 = 30 min.",
+          "strategy": "Odczyt.",
+          "steps": [
+            "Krotka miedzy 2 a 3 = 2 godzina",
+            "Dluga na 6 = 30 minut",
+            "Razem 2:30"
+          ],
+          "answer": "A",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l33-v1-w3",
+          "observation": "3:00 wskazowki = jak rog kartki.",
+          "strategy": "Kat na zegarze.",
+          "steps": [
+            "O 3:00 krotka na 3, dluga na 12, tworza kat prosty"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2012-21",
+          "observation": "Trzy wskazowki o roznej dlugosci, zegar 12:55:30 -> 8:11:00.",
+          "strategy": "Identyfikacja wskazowek i nowego ustawienia.",
+          "steps": [
+            "Z polozenia o 12:55:30 ustalamy ktora wskazowka jest godzinowa, minutowa i sekundowa",
+            "O 8:11:00 wskazowki maja okreslony uklad",
+            "Poprawny obraz: C"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2023-5",
+          "observation": "Kolo z 2 otworami obracane na tarczy zegara.",
+          "strategy": "Stala roznica katowa miedzy otworami.",
+          "steps": [
+            "Otwory pierwotnie pokazuja 1 i 5 - roznica 4 godziny",
+            "Dla 2 otworow - musza tez roznic sie o 4",
+            "5 i 9 roznia sie o 4 - pasuja"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2023-15",
+          "observation": "5 zegarow: 2 zepsute, 1 dobry, 1 spieszy 3h, 1 spoznia 3h.",
+          "strategy": "Identyfikacja zegara poprawnego.",
+          "steps": [
+            "3 zegary chodzace pokazuja czasy w odstepach 3h",
+            "Srodkowy z tych 3 to zegar poprawny",
+            "Poprawny zegar: B"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l33-v1-c1",
+          "observation": "O 6:00 wskazowki sa naprzeciw siebie.",
+          "strategy": "Kat polpelny.",
+          "steps": [
+            "O 6:00 krotka na 6, dluga na 12, tworza linie - kat polpelny"
+          ],
+          "answer": "D",
+          "alternative": null
+        }
+      ]
+    },
+    {
+      "versionId": "v2",
+      "label": "Wersja 2 (powtorka)",
+      "warmup": [
+        {
+          "id": "gen-l33-v2-w1",
+          "source": "generated-l33-v2-w1",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "czas_kalendarz",
+          "subtopic": "odczyt godziny",
+          "statement": "Krotka wskazowka pokazuje 9, dluga 12. Ktora godzina?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "9:00",
+            "B": "12:09",
+            "C": "9:12",
+            "D": "9:30",
+            "E": "12:30"
+          },
+          "correct": "A"
+        },
+        {
+          "id": "gen-l33-v2-w2",
+          "source": "generated-l33-v2-w2",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "czas_kalendarz",
+          "subtopic": "odczyt z polowa",
+          "statement": "Krotka miedzy 8 a 9, dluga na 6. Ktora godzina?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "8:30",
+            "B": "9:30",
+            "C": "6:08",
+            "D": "8:06",
+            "E": "8:00"
+          },
+          "correct": "A"
+        },
+        {
+          "id": "gen-l33-v2-w3",
+          "source": "generated-l33-v2-w3",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "czas_kalendarz",
+          "subtopic": "kat o 12:00",
+          "statement": "O godzinie 12:00 wskazowki tworza kat:",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "Prosty",
+            "B": "Polpelny",
+            "C": "Zerowy",
+            "D": "Pelny",
+            "E": "Rozwarty"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "gen-l33-v2-w4",
+          "source": "generated-l33-v2-w4",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "czas_kalendarz",
+          "subtopic": "minuty z liczby",
+          "statement": "Dluga wskazowka pokazuje 3. Ile to minut?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "3",
+            "B": "15",
+            "C": "30",
+            "D": "45",
+            "E": "60"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "gen-l33-v2-w5",
+          "source": "generated-l33-v2-w5",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "czas_kalendarz",
+          "subtopic": "kat o 9:00",
+          "statement": "O godzinie 9:00 wskazowki tworza kat:",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "Ostry",
+            "B": "Prosty",
+            "C": "Rozwarty",
+            "D": "Polpelny",
+            "E": "Pelny"
+          },
+          "correct": "B"
+        }
+      ],
+      "challenge": [
+        {
+          "id": "gen-l33-v2-c1",
+          "source": "generated-l33-v2-c1",
+          "year": null,
+          "number": null,
+          "difficulty": "4pkt",
+          "topic": "czas_kalendarz",
+          "subtopic": "cofanie wstecz",
+          "statement": "Jest 14:20. Spacer trwal 1 godzine 15 minut. O ktorej godzinie sie zaczal?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "12:50",
+            "B": "13:00",
+            "C": "13:05",
+            "D": "13:15",
+            "E": "13:35"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "gen-l33-v2-c2",
+          "source": "generated-l33-v2-c2",
+          "year": null,
+          "number": null,
+          "difficulty": "5pkt",
+          "topic": "czas_kalendarz",
+          "subtopic": "odbicie zegara",
+          "statement": "Zegar w lustrze pokazuje wskazowki jakby na godzinie 9:00, ale to odbicie. Jaka jest prawdziwa godzina?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "3:00",
+            "B": "6:00",
+            "C": "9:00",
+            "D": "12:00",
+            "E": "15:00"
+          },
+          "correct": "A"
+        }
+      ],
+      "solutions": [
+        {
+          "problemId": "gen-l33-v2-w1",
+          "observation": "Krotka na 9, dluga na 12 = 9:00.",
+          "strategy": "Odczyt.",
+          "steps": [
+            "9:00"
+          ],
+          "answer": "A",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l33-v2-w2",
+          "observation": "8:30 - krotka miedzy 8 a 9, dluga na 6.",
+          "strategy": "Odczyt.",
+          "steps": [
+            "8:30"
+          ],
+          "answer": "A",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l33-v2-w3",
+          "observation": "Wskazowki nakladaja sie - kat zerowy.",
+          "strategy": "Kat o 12:00.",
+          "steps": [
+            "O 12:00 obie wskazowki sa na 12 - tworza kat zerowy"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l33-v2-w4",
+          "observation": "Dluga na 3 = 3 razy 5 min = 15 min.",
+          "strategy": "Minutowa z liczby.",
+          "steps": [
+            "15 minut"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l33-v2-w5",
+          "observation": "Wskazowki o 9:00 = prostopadle.",
+          "strategy": "Kat prosty.",
+          "steps": [
+            "O 9:00 krotka na 9, dluga na 12 - tworza kat prosty"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l33-v2-c1",
+          "observation": "Cofnij od 14:20 o 1 godz 15 min.",
+          "strategy": "Odejmowanie wstecz.",
+          "steps": [
+            "14:20 - 1 godz = 13:20",
+            "13:20 - 15 min = 13:05"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l33-v2-c2",
+          "observation": "Odbicie lustrzane zamienia 9 z 3.",
+          "strategy": "Odbicie.",
+          "steps": [
+            "W lustrze pozycje sa odbite",
+            "Lustrzane 9:00 to prawdziwe 3:00"
+          ],
+          "answer": "A",
+          "alternative": null
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Krotka wskazowka pokazuje:",
+      "choices": {
+        "A": "Godziny",
+        "B": "Minuty",
+        "C": "Sekundy"
+      },
+      "correct": "A",
+      "explain": "Krotka to godzinowa."
+    },
+    {
+      "q": "Dluga na 6 to ile minut?",
+      "choices": {
+        "A": "6",
+        "B": "30",
+        "C": "60"
+      },
+      "correct": "B",
+      "explain": "6 razy 5 = 30 minut."
+    },
+    {
+      "q": "O 6:00 wskazowki tworza:",
+      "choices": {
+        "A": "Kat prosty",
+        "B": "Kat polpelny",
+        "C": "Kat zerowy"
+      },
+      "correct": "B",
+      "explain": "O 6:00 wskazowki sa naprzeciw - linia prosta = kat polpelny."
+    }
+  ]
+}

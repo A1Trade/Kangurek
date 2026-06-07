@@ -1,0 +1,498 @@
+{
+  "id": "l30",
+  "number": 30,
+  "block": "Pomiary i jednostki",
+  "blockCode": "E",
+  "title": "Czas: minuty, godziny, doba",
+  "topic": "pomiary_jednostki",
+  "estimatedMinutes": 14,
+  "theory": {
+    "intro": "Ile trwa film? Ile minut do konca lekcji? O ktorej godzinie wstajesz? Czas to specjalna jednostka - dzielimy go na sekundy, minuty, godziny i doby. Najwazniejsze relacje: 60 sekund = 1 minuta, 60 minut = 1 godzina, 24 godziny = 1 doba.",
+    "tool": "Sztuczka 1: PODSTAWOWE ZAMIANY. 1 min = 60 sek, 1 godz = 60 min = 3600 sek, 1 doba = 24 godz. Mnoż lub dziel przez 60 (na/z min) lub 24 (na/z doby).\n\nSztuczka 2: OBLICZANIE CZASU TRWANIA. Film zaczyna sie o 16:00 i konczy o 17:30. Ile trwa? 17:30 - 16:00 = 1 godz 30 min.\n\nSztuczka 3: PRZEZ POLNOC. Z 22:00 do 6:00 rano: od 22:00 do polnocy = 2 godz, od polnocy do 6:00 = 6 godz. Razem 8 godzin.\n\nSztuczka 4: SZCZEGOLNE LICZBY. 15 min = cwierc godziny, 30 min = pol godziny, 45 min = 3/4 godziny. Te liczby pojawiaja sie czesto.",
+    "trick": "Pulapka Kangurka: zadania o czasie 'do tylu' albo 'przed'. Spacer 38 min, wrocila o 12:00 - kiedy wyszla? Najlatwiej odejmowac: 12:00 minus 38 min = 11:22. Najpierw od 12:00 odejmij 40 min (=11:20), potem dodaj 2 = 11:22."
+  },
+  "versions": [
+    {
+      "versionId": "v1",
+      "label": "Wersja 1 (oryginalna)",
+      "warmup": [
+        {
+          "id": "gen-l30-v1-w1",
+          "source": "generated-l30-v1-w1",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "pomiary_jednostki",
+          "subtopic": "zamiana godz na min",
+          "statement": "Ile minut ma 2 godziny?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "20",
+            "B": "60",
+            "C": "100",
+            "D": "120",
+            "E": "200"
+          },
+          "correct": "D"
+        },
+        {
+          "id": "gen-l30-v1-w2",
+          "source": "generated-l30-v1-w2",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "pomiary_jednostki",
+          "subtopic": "cwierc godziny",
+          "statement": "Cwierc godziny to ile minut?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "10",
+            "B": "15",
+            "C": "20",
+            "D": "25",
+            "E": "30"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "gen-l30-v1-w3",
+          "source": "generated-l30-v1-w3",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "pomiary_jednostki",
+          "subtopic": "doba",
+          "statement": "Ile godzin ma jedna doba?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "12",
+            "B": "20",
+            "C": "24",
+            "D": "60",
+            "E": "100"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "gen-l30-v1-w4",
+          "source": "generated-l30-v1-w4",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "pomiary_jednostki",
+          "subtopic": "czas trwania",
+          "statement": "Lekcja zaczyna sie o 8:00, konczy o 8:45. Ile trwa?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "35 min",
+            "B": "40 min",
+            "C": "45 min",
+            "D": "50 min",
+            "E": "1 godzina"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "kangur-maluch-2019-3",
+          "source": "kangur-maluch-2019-3",
+          "year": 2019,
+          "number": 3,
+          "difficulty": "3pkt",
+          "topic": "czas_kalendarz",
+          "subtopic": "obliczanie czasu wstecz, zegar",
+          "statement": "Asia wróciła ze spaceru o godzinie 12:05 (pokazana na zegarze). Spacer trwał 38 minut. O której godzinie Asia wyszła z domu na ten spacer?",
+          "hasImage": true,
+          "imageNote": "Zegar analogowy pokazujący godzinę 12:05.",
+          "choices": {
+            "A": "O 11:33.",
+            "B": "O 12:43.",
+            "C": "O 11:38.",
+            "D": "O 11:27.",
+            "E": "O 12:38."
+          },
+          "correct": "D"
+        }
+      ],
+      "challenge": [
+        {
+          "id": "gen-l30-v1-c1",
+          "source": "generated-l30-v1-c1",
+          "year": null,
+          "number": null,
+          "difficulty": "4pkt",
+          "topic": "pomiary_jednostki",
+          "subtopic": "czas przez polnoc",
+          "statement": "Pociag wyjechal o 22:00, dojechal o 5:00 rano. Ile godzin trwala podroz?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "3",
+            "B": "5",
+            "C": "7",
+            "D": "8",
+            "E": "17"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "gen-l30-v1-c2",
+          "source": "generated-l30-v1-c2",
+          "year": null,
+          "number": null,
+          "difficulty": "5pkt",
+          "topic": "pomiary_jednostki",
+          "subtopic": "odlicznie wstecz",
+          "statement": "Spotkanie konczy sie o 18:30. Trwalo 2 godziny i 45 minut. O ktorej godzinie sie zaczelo?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "15:30",
+            "B": "15:45",
+            "C": "16:00",
+            "D": "16:15",
+            "E": "17:00"
+          },
+          "correct": "B"
+        }
+      ],
+      "solutions": [
+        {
+          "problemId": "gen-l30-v1-w1",
+          "observation": "1 godz = 60 min.",
+          "strategy": "Mnozenie.",
+          "steps": [
+            "2 razy 60 = 120 min"
+          ],
+          "answer": "D",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l30-v1-w2",
+          "observation": "Cwierc godziny = polowa polowy.",
+          "strategy": "Dzielenie 60:4.",
+          "steps": [
+            "60:4 = 15 min"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l30-v1-w3",
+          "observation": "1 doba = 24 godz.",
+          "strategy": "Standard doby.",
+          "steps": [
+            "Doba ma 24 godziny"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l30-v1-w4",
+          "observation": "Roznica miedzy 8:45 a 8:00.",
+          "strategy": "Odejmowanie czasu.",
+          "steps": [
+            "8:45 - 8:00 = 45 min"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2019-3",
+          "observation": "Asia wrocila o 12:05, spacer trwal 38 min.",
+          "strategy": "Odejmowanie czasu wstecz.",
+          "steps": [
+            "12:05 - 38 min: cofamy o 38 min",
+            "12:05 - 35 min = 11:30",
+            "11:30 - 3 min = 11:27"
+          ],
+          "answer": "D",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l30-v1-c1",
+          "observation": "Z 22:00 do polnocy + z polnocy do 5:00.",
+          "strategy": "Czas przez polnoc.",
+          "steps": [
+            "22:00 do 24:00 = 2 godz",
+            "24:00 do 5:00 = 5 godz",
+            "Razem 7 godz"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l30-v1-c2",
+          "observation": "Cofnij sie o 2 godz 45 min od 18:30.",
+          "strategy": "Odejmowanie wstecz.",
+          "steps": [
+            "18:30 - 2 godz = 16:30",
+            "16:30 - 45 min = 15:45"
+          ],
+          "answer": "B",
+          "alternative": null
+        }
+      ]
+    },
+    {
+      "versionId": "v2",
+      "label": "Wersja 2 (powtorka)",
+      "warmup": [
+        {
+          "id": "gen-l30-v2-w1",
+          "source": "generated-l30-v2-w1",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "pomiary_jednostki",
+          "subtopic": "zamiana min na sek",
+          "statement": "Ile sekund ma 3 minuty?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "30",
+            "B": "60",
+            "C": "90",
+            "D": "180",
+            "E": "300"
+          },
+          "correct": "D"
+        },
+        {
+          "id": "gen-l30-v2-w2",
+          "source": "generated-l30-v2-w2",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "pomiary_jednostki",
+          "subtopic": "pol godziny",
+          "statement": "Pol godziny to ile minut?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "15",
+            "B": "20",
+            "C": "30",
+            "D": "45",
+            "E": "60"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "gen-l30-v2-w3",
+          "source": "generated-l30-v2-w3",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "pomiary_jednostki",
+          "subtopic": "trzy cwierci godziny",
+          "statement": "Trzy cwierci godziny to ile minut?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "15",
+            "B": "30",
+            "C": "45",
+            "D": "60",
+            "E": "75"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "gen-l30-v2-w4",
+          "source": "generated-l30-v2-w4",
+          "year": null,
+          "number": null,
+          "difficulty": "3pkt",
+          "topic": "pomiary_jednostki",
+          "subtopic": "czas trwania",
+          "statement": "Film zaczyna sie o 16:15, konczy o 18:00. Ile trwa?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "1 godz 15 min",
+            "B": "1 godz 30 min",
+            "C": "1 godz 45 min",
+            "D": "2 godz",
+            "E": "2 godz 15 min"
+          },
+          "correct": "C"
+        },
+        {
+          "id": "kangur-maluch-2014-11",
+          "source": "kangur-maluch-2014-11",
+          "year": 2014,
+          "number": 11,
+          "difficulty": "4pkt",
+          "topic": "czas_kalendarz",
+          "subtopic": "dodawanie wielu godzin do daty",
+          "statement": "Spiaca Krolewna zasnela o 23:00 w piatek i spala 150 godzin. Kiedy sie obudzila?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "W srode o 23:00",
+            "B": "W srode o 5:00",
+            "C": "W czwartek o 23:00",
+            "D": "W czwartek o 5:00",
+            "E": "W piatek o 5:00"
+          },
+          "correct": "E"
+        }
+      ],
+      "challenge": [
+        {
+          "id": "gen-l30-v2-c1",
+          "source": "generated-l30-v2-c1",
+          "year": null,
+          "number": null,
+          "difficulty": "4pkt",
+          "topic": "pomiary_jednostki",
+          "subtopic": "odjecie czasu",
+          "statement": "Pociag dotarl o 14:20. Podroz trwala 3 godz 35 min. O ktorej wyjechal?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "10:35",
+            "B": "10:45",
+            "C": "10:55",
+            "D": "11:00",
+            "E": "11:15"
+          },
+          "correct": "B"
+        },
+        {
+          "id": "gen-l30-v2-c2",
+          "source": "generated-l30-v2-c2",
+          "year": null,
+          "number": null,
+          "difficulty": "5pkt",
+          "topic": "pomiary_jednostki",
+          "subtopic": "ilosc minut na dobe",
+          "statement": "Ile minut ma cala doba?",
+          "hasImage": false,
+          "imageNote": null,
+          "choices": {
+            "A": "360",
+            "B": "720",
+            "C": "1440",
+            "D": "2400",
+            "E": "3600"
+          },
+          "correct": "C"
+        }
+      ],
+      "solutions": [
+        {
+          "problemId": "gen-l30-v2-w1",
+          "observation": "1 min = 60 sek.",
+          "strategy": "Mnozenie.",
+          "steps": [
+            "3 razy 60 = 180 sek"
+          ],
+          "answer": "D",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l30-v2-w2",
+          "observation": "Pol godziny = polowa 60 min.",
+          "strategy": "Polowa.",
+          "steps": [
+            "60:2 = 30 min"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l30-v2-w3",
+          "observation": "Trzy cwierci = 3 razy 15 min.",
+          "strategy": "Mnozenie.",
+          "steps": [
+            "3 razy 15 = 45 min"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l30-v2-w4",
+          "observation": "Czas trwania = roznica.",
+          "strategy": "Odejmowanie czasu.",
+          "steps": [
+            "Od 16:15 do 17:15 = 1 godz",
+            "Od 17:15 do 18:00 = 45 min",
+            "Razem 1 godz 45 min"
+          ],
+          "answer": "C",
+          "alternative": null
+        },
+        {
+          "problemId": "kangur-maluch-2014-11",
+          "observation": "Spiaca Krolewna spi 150 godzin od piatku 23:00.",
+          "strategy": "Dodawanie wielu godzin.",
+          "steps": [
+            "150 godz : 24 = 6 dni i 6 godz",
+            "Piatek 23:00 + 6 dni = czwartek 23:00",
+            "Czwartek 23:00 + 6 godz = piatek 5:00"
+          ],
+          "answer": "E",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l30-v2-c1",
+          "observation": "Cofnij 3 godz 35 min od 14:20.",
+          "strategy": "Odejmowanie czasu.",
+          "steps": [
+            "14:20 - 3 godz = 11:20",
+            "11:20 - 35 min = 10:45"
+          ],
+          "answer": "B",
+          "alternative": null
+        },
+        {
+          "problemId": "gen-l30-v2-c2",
+          "observation": "Doba = 24 godz razy 60 min.",
+          "strategy": "Mnozenie.",
+          "steps": [
+            "24 razy 60 = 1440 min"
+          ],
+          "answer": "C",
+          "alternative": null
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "1 godzina to ile minut?",
+      "choices": {
+        "A": "30",
+        "B": "60",
+        "C": "100"
+      },
+      "correct": "B",
+      "explain": "1 godz = 60 min."
+    },
+    {
+      "q": "Pol godziny to:",
+      "choices": {
+        "A": "20 min",
+        "B": "30 min",
+        "C": "45 min"
+      },
+      "correct": "B",
+      "explain": "Pol godziny = 30 min."
+    },
+    {
+      "q": "Liczac czas trwania zdarzenia:",
+      "choices": {
+        "A": "Dodajesz konce",
+        "B": "Odejmujesz koniec - poczatek",
+        "C": "Zgadujesz"
+      },
+      "correct": "B",
+      "explain": "Czas trwania = czas koncowy minus poczatkowy."
+    }
+  ]
+}
