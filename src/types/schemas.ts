@@ -31,6 +31,7 @@ export const Problem = z.object({
   statement: z.string().describe("tresc zadania, gotowa do wyswietlenia"),
   hasImage: z.boolean().default(false),
   imageNote: z.string().nullable().default(null).describe("jezeli zadanie wymaga rysunku, opis tego co przedstawia"),
+  imageSrc: z.string().nullable().default(null).describe("sciezka do obrazu w public/ (np. /images/orig/2020-6.png)"),
   choices: z.object({
     A: z.string(),
     B: z.string(),

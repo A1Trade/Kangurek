@@ -34,7 +34,8 @@
             "D": "Polpelne",
             "E": "Rozne"
           },
-          "correct": "B"
+          "correct": "B",
+          "imageSrc": null
         },
         {
           "id": "gen-l17-v1-w2",
@@ -54,7 +55,8 @@
             "D": "Zakrzywione",
             "E": "Krotsze"
           },
-          "correct": "B"
+          "correct": "B",
+          "imageSrc": null
         },
         {
           "id": "gen-l17-v1-w3",
@@ -74,7 +76,8 @@
             "D": "6",
             "E": "8"
           },
-          "correct": "B"
+          "correct": "B",
+          "imageSrc": null
         },
         {
           "id": "kangur-maluch-2023-4",
@@ -94,7 +97,8 @@
             "D": "Z 2 i 4",
             "E": "Z 1 i 4"
           },
-          "correct": "D"
+          "correct": "D",
+          "imageSrc": "/images/orig/2023-4.png"
         },
         {
           "id": "kangur-maluch-2025-14",
@@ -114,7 +118,8 @@
             "D": "karton D",
             "E": "karton E"
           },
-          "correct": "C"
+          "correct": "C",
+          "imageSrc": "/images/orig/2025-page3.png"
         }
       ],
       "challenge": [
@@ -136,7 +141,8 @@
             "D": "8",
             "E": "9"
           },
-          "correct": "C"
+          "correct": "C",
+          "imageSrc": "/images/orig/2018-12.png"
         },
         {
           "id": "kangur-maluch-2013-15",
@@ -156,7 +162,8 @@
             "D": "kawalek D",
             "E": "kawalek E"
           },
-          "correct": "B"
+          "correct": "B",
+          "imageSrc": "/images/orig/2013-15.png"
         }
       ],
       "solutions": [
@@ -265,7 +272,8 @@
             "D": "Prostokat ma 3 boki",
             "E": "Kwadrat ma 5 bokow"
           },
-          "correct": "B"
+          "correct": "B",
+          "imageSrc": null
         },
         {
           "id": "gen-l17-v2-w2",
@@ -285,7 +293,8 @@
             "D": "Same katy ostre",
             "E": "Piec wierzcholkow"
           },
-          "correct": "B"
+          "correct": "B",
+          "imageSrc": null
         },
         {
           "id": "gen-l17-v2-w3",
@@ -305,7 +314,8 @@
             "D": "12",
             "E": "16"
           },
-          "correct": "C"
+          "correct": "C",
+          "imageSrc": null
         },
         {
           "id": "kangur-maluch-2020-4",
@@ -325,7 +335,8 @@
             "D": "figura D",
             "E": "figura E"
           },
-          "correct": "D"
+          "correct": "D",
+          "imageSrc": "/images/orig/2020-4.png"
         },
         {
           "id": "kangur-maluch-2020-15",
@@ -345,7 +356,8 @@
             "D": "4",
             "E": "5"
           },
-          "correct": "B"
+          "correct": "B",
+          "imageSrc": "/images/orig/2020-15.png"
         }
       ],
       "challenge": [
@@ -367,7 +379,8 @@
             "D": "obrazek D",
             "E": "obrazek E"
           },
-          "correct": "E"
+          "correct": "E",
+          "imageSrc": "/images/orig/2012-2.png"
         },
         {
           "id": "gen-l17-v2-c1",
@@ -387,7 +400,8 @@
             "D": "8",
             "E": "9"
           },
-          "correct": "C"
+          "correct": "C",
+          "imageSrc": null
         }
       ],
       "solutions": [
@@ -497,7 +511,8 @@
             "D": "2 i 4",
             "E": "3 i 4"
           },
-          "correct": "D"
+          "correct": "D",
+          "imageSrc": "/images/orig/2025-page3.png"
         }
       ],
       "challenge": [],

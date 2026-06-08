@@ -34,7 +34,8 @@
             "D": "Roznobocznym",
             "E": "Plaskim"
           },
-          "correct": "C"
+          "correct": "C",
+          "imageSrc": null
         },
         {
           "id": "gen-l16-v1-w2",
@@ -54,7 +55,8 @@
             "D": "Polpelny",
             "E": "Pelny"
           },
-          "correct": "B"
+          "correct": "B",
+          "imageSrc": null
         },
         {
           "id": "gen-l16-v1-w3",
@@ -74,7 +76,8 @@
             "D": "5",
             "E": "6"
           },
-          "correct": "B"
+          "correct": "B",
+          "imageSrc": null
         },
         {
           "id": "kangur-maluch-2015-10",
@@ -94,7 +97,8 @@
             "D": "15",
             "E": "16"
           },
-          "correct": "E"
+          "correct": "E",
+          "imageSrc": "/images/orig/2015-10.png"
         },
         {
           "id": "kangur-maluch-2014-3",
@@ -114,7 +118,8 @@
             "D": "1, 4",
             "E": "1, 2, 4, 5"
           },
-          "correct": "D"
+          "correct": "D",
+          "imageSrc": "/images/orig/2014-3.png"
         }
       ],
       "challenge": [
@@ -136,7 +141,8 @@
             "D": "3",
             "E": "4"
           },
-          "correct": "D"
+          "correct": "D",
+          "imageSrc": "/images/orig/2012-9.png"
         },
         {
           "id": "kangur-maluch-2019-10",
@@ -156,7 +162,8 @@
             "D": "Cztery.",
             "E": "Pięć."
           },
-          "correct": "C"
+          "correct": "C",
+          "imageSrc": "/images/orig/2019-10.png"
         }
       ],
       "solutions": [
@@ -264,7 +271,8 @@
             "D": "Pelnym",
             "E": "Plaskim"
           },
-          "correct": "B"
+          "correct": "B",
+          "imageSrc": null
         },
         {
           "id": "gen-l16-v2-w2",
@@ -284,7 +292,8 @@
             "D": "5",
             "E": "6"
           },
-          "correct": "B"
+          "correct": "B",
+          "imageSrc": null
         },
         {
           "id": "gen-l16-v2-w3",
@@ -304,7 +313,8 @@
             "D": "4",
             "E": "6"
           },
-          "correct": "B"
+          "correct": "B",
+          "imageSrc": null
         },
         {
           "id": "kangur-maluch-2014-17",
@@ -324,7 +334,8 @@
             "D": "polozenie D",
             "E": "polozenie E"
           },
-          "correct": "C"
+          "correct": "C",
+          "imageSrc": "/images/orig/2014-17.png"
         },
         {
           "id": "kangur-maluch-2025-8",
@@ -344,7 +355,8 @@
             "D": "wzor D",
             "E": "wzor E"
           },
-          "correct": "C"
+          "correct": "C",
+          "imageSrc": "/images/orig/2025-page2.png"
         }
       ],
       "challenge": [
@@ -366,7 +378,8 @@
             "D": "5",
             "E": "6"
           },
-          "correct": "C"
+          "correct": "C",
+          "imageSrc": "/images/orig/2013-17.png"
         },
         {
           "id": "gen-l16-v2-c1",
@@ -386,7 +399,8 @@
             "D": "8",
             "E": "10"
           },
-          "correct": "B"
+          "correct": "B",
+          "imageSrc": null
         }
       ],
       "solutions": [
@@ -496,7 +510,8 @@
             "D": "4 krotsze i 2 dluzsze",
             "E": "6 dluzszych"
           },
-          "correct": "B"
+          "correct": "B",
+          "imageSrc": "/images/orig/2020-14.png"
         }
       ],
       "challenge": [],

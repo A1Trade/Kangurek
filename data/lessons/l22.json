@@ -34,7 +34,8 @@
             "D": "8",
             "E": "12"
           },
-          "correct": "C"
+          "correct": "C",
+          "imageSrc": null
         },
         {
           "id": "gen-l22-v1-w2",
@@ -54,7 +55,8 @@
             "D": "10",
             "E": "12"
           },
-          "correct": "C"
+          "correct": "C",
+          "imageSrc": null
         },
         {
           "id": "gen-l22-v1-w3",
@@ -74,7 +76,8 @@
             "D": "12",
             "E": "16"
           },
-          "correct": "D"
+          "correct": "D",
+          "imageSrc": null
         },
         {
           "id": "kangur-maluch-2025-5",
@@ -94,7 +97,8 @@
             "D": "kostka D",
             "E": "kostka E"
           },
-          "correct": "A"
+          "correct": "A",
+          "imageSrc": "/images/orig/2025-page1.png"
         },
         {
           "id": "kangur-maluch-2020-7",
@@ -114,7 +118,8 @@
             "D": "pies",
             "E": "mucha"
           },
-          "correct": "C"
+          "correct": "C",
+          "imageSrc": "/images/orig/2020-7.png"
         }
       ],
       "challenge": [
@@ -136,7 +141,8 @@
             "D": "budowla D",
             "E": "budowla E"
           },
-          "correct": "A"
+          "correct": "A",
+          "imageSrc": "/images/orig/2021-1.png"
         },
         {
           "id": "gen-l22-v1-c1",
@@ -156,7 +162,8 @@
             "D": "10",
             "E": "12"
           },
-          "correct": "B"
+          "correct": "B",
+          "imageSrc": null
         }
       ],
       "solutions": [
@@ -264,7 +271,8 @@
             "D": "Okragle",
             "E": "Pieciokatne"
           },
-          "correct": "C"
+          "correct": "C",
+          "imageSrc": null
         },
         {
           "id": "gen-l22-v2-w2",
@@ -284,7 +292,8 @@
             "D": "Okragle",
             "E": "Owalne"
           },
-          "correct": "B"
+          "correct": "B",
+          "imageSrc": null
         },
         {
           "id": "gen-l22-v2-w3",
@@ -304,7 +313,8 @@
             "D": "8",
             "E": "12"
           },
-          "correct": "C"
+          "correct": "C",
+          "imageSrc": null
         },
         {
           "id": "gen-l22-v2-w4",
@@ -324,7 +334,8 @@
             "D": "Wspolny kat",
             "E": "Nie maja nic wspolnego"
           },
-          "correct": "B"
+          "correct": "B",
+          "imageSrc": null
         },
         {
           "id": "gen-l22-v2-w5",
@@ -344,7 +355,8 @@
             "D": "4",
             "E": "6"
           },
-          "correct": "C"
+          "correct": "C",
+          "imageSrc": null
         }
       ],
       "challenge": [
@@ -366,7 +378,8 @@
             "D": "10",
             "E": "12"
           },
-          "correct": "C"
+          "correct": "C",
+          "imageSrc": null
         },
         {
           "id": "gen-l22-v2-c2",
@@ -386,7 +399,8 @@
             "D": "5",
             "E": "6"
           },
-          "correct": "B"
+          "correct": "B",
+          "imageSrc": null
         }
       ],
       "solutions": [

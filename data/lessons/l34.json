@@ -34,7 +34,8 @@
             "D": "Czwartek",
             "E": "Niedziela"
           },
-          "correct": "C"
+          "correct": "C",
+          "imageSrc": null
         },
         {
           "id": "gen-l34-v1-w2",
@@ -54,7 +55,8 @@
             "D": "Niedziela",
             "E": "Poniedzialek"
           },
-          "correct": "A"
+          "correct": "A",
+          "imageSrc": null
         },
         {
           "id": "gen-l34-v1-w3",
@@ -74,7 +76,8 @@
             "D": "Sobota",
             "E": "Niedziela"
           },
-          "correct": "D"
+          "correct": "D",
+          "imageSrc": null
         },
         {
           "id": "kangur-maluch-2019-1",
@@ -94,7 +97,8 @@
             "D": "Poniedziałek.",
             "E": "Sobota."
           },
-          "correct": "A"
+          "correct": "A",
+          "imageSrc": "/images/orig/2019-1.png"
         },
         {
           "id": "kangur-maluch-2015-8",
@@ -114,7 +118,8 @@
             "D": "sobota",
             "E": "niedziela"
           },
-          "correct": "D"
+          "correct": "D",
+          "imageSrc": "/images/orig/2015-8.png"
         }
       ],
       "challenge": [
@@ -136,7 +141,8 @@
             "D": "W czwartek",
             "E": "W piatek"
           },
-          "correct": "E"
+          "correct": "E",
+          "imageSrc": "/images/orig/2018-9.png"
         },
         {
           "id": "gen-l34-v1-c1",
@@ -156,7 +162,8 @@
             "D": "Piatek",
             "E": "Sobota"
           },
-          "correct": "D"
+          "correct": "D",
+          "imageSrc": null
         }
       ],
       "solutions": [
@@ -266,7 +273,8 @@
             "D": "Niedziela",
             "E": "Sobota"
           },
-          "correct": "A"
+          "correct": "A",
+          "imageSrc": null
         },
         {
           "id": "gen-l34-v2-w2",
@@ -286,7 +294,8 @@
             "D": "Poniedzialek",
             "E": "Wtorek"
           },
-          "correct": "B"
+          "correct": "B",
+          "imageSrc": null
         },
         {
           "id": "gen-l34-v2-w3",
@@ -306,7 +315,8 @@
             "D": "Czwartek",
             "E": "Piatek"
           },
-          "correct": "A"
+          "correct": "A",
+          "imageSrc": null
         },
         {
           "id": "gen-l34-v2-w4",
@@ -326,7 +336,8 @@
             "D": "Sroda",
             "E": "Czwartek"
           },
-          "correct": "B"
+          "correct": "B",
+          "imageSrc": null
         },
         {
           "id": "gen-l34-v2-w5",
@@ -346,7 +357,8 @@
             "D": "Wtorek",
             "E": "Czwartek"
           },
-          "correct": "B"
+          "correct": "B",
+          "imageSrc": null
         }
       ],
       "challenge": [
@@ -368,7 +380,8 @@
             "D": "Wtorek",
             "E": "Sroda"
           },
-          "correct": "B"
+          "correct": "B",
+          "imageSrc": null
         },
         {
           "id": "gen-l34-v2-c2",
@@ -388,7 +401,8 @@
             "D": "Sroda",
             "E": "Czwartek"
           },
-          "correct": "D"
+          "correct": "D",
+          "imageSrc": null
         }
       ],
       "solutions": [

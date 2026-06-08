@@ -83,12 +83,21 @@ export function ProblemCard({ problem, solution, showNumber, lessonId, versionId
 
       <p className="text-[17px] leading-relaxed text-slate-800">{problem.statement}</p>
 
-      {problem.hasImage && problem.imageNote && (
+      {problem.imageSrc ? (
+        <div className="rounded-2xl bg-white border border-slate-200 p-2 overflow-hidden">
+          <img
+            src={problem.imageSrc}
+            alt={problem.imageNote ?? "Rysunek do zadania"}
+            className="w-full h-auto rounded-xl"
+            loading="lazy"
+          />
+        </div>
+      ) : problem.hasImage && problem.imageNote ? (
         <div className="rounded-2xl bg-slate-100/70 backdrop-blur border border-slate-200 px-4 py-3 text-[13px] text-slate-600 italic flex gap-2">
           <span aria-hidden>🖼️</span>
-          <span>Wyobraz sobie: {problem.imageNote}</span>
+          <span>{problem.imageNote}</span>
         </div>
-      )}
+      ) : null}
 
       <div className="grid sm:grid-cols-2 gap-2.5">
         {(["A", "B", "C", "D", "E"] as const).map((letter) => {

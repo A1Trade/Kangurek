@@ -34,7 +34,8 @@
             "D": "800",
             "E": "108"
           },
-          "correct": "C"
+          "correct": "C",
+          "imageSrc": null
         },
         {
           "id": "gen-l27-v1-w2",
@@ -54,7 +55,8 @@
             "D": "2",
             "E": "22"
           },
-          "correct": "B"
+          "correct": "B",
+          "imageSrc": null
         },
         {
           "id": "gen-l27-v1-w3",
@@ -74,7 +76,8 @@
             "D": "1000",
             "E": "5000"
           },
-          "correct": "C"
+          "correct": "C",
+          "imageSrc": null
         },
         {
           "id": "gen-l27-v1-w4",
@@ -94,7 +97,8 @@
             "D": "Nie da sie porownac",
             "E": "Zalezy"
           },
-          "correct": "B"
+          "correct": "B",
+          "imageSrc": null
         },
         {
           "id": "kangur-maluch-2018-16",
@@ -114,7 +118,8 @@
             "D": "O 16 cm",
             "E": "O 20 cm"
           },
-          "correct": "B"
+          "correct": "B",
+          "imageSrc": "/images/orig/2018-16.png"
         }
       ],
       "challenge": [
@@ -136,7 +141,8 @@
             "D": "320",
             "E": "500"
           },
-          "correct": "C"
+          "correct": "C",
+          "imageSrc": null
         },
         {
           "id": "gen-l27-v1-c2",
@@ -156,7 +162,8 @@
             "D": "45000",
             "E": "75000"
           },
-          "correct": "C"
+          "correct": "C",
+          "imageSrc": null
         }
       ],
       "solutions": [
@@ -268,7 +275,8 @@
             "D": "0.5",
             "E": "500"
           },
-          "correct": "A"
+          "correct": "A",
+          "imageSrc": null
         },
         {
           "id": "gen-l27-v2-w2",
@@ -288,7 +296,8 @@
             "D": "30000",
             "E": "300000"
           },
-          "correct": "C"
+          "correct": "C",
+          "imageSrc": null
         },
         {
           "id": "gen-l27-v2-w3",
@@ -308,7 +317,8 @@
             "D": "16",
             "E": "66"
           },
-          "correct": "B"
+          "correct": "B",
+          "imageSrc": null
         },
         {
           "id": "gen-l27-v2-w4",
@@ -328,7 +338,8 @@
             "D": "10 dm",
             "E": "5 m"
           },
-          "correct": "E"
+          "correct": "E",
+          "imageSrc": null
         },
         {
           "id": "gen-l27-v2-w5",
@@ -348,7 +359,8 @@
             "D": "50 cm",
             "E": "1 km"
           },
-          "correct": "B"
+          "correct": "B",
+          "imageSrc": null
         }
       ],
       "challenge": [
@@ -370,7 +382,8 @@
             "D": "300",
             "E": "325"
           },
-          "correct": "A"
+          "correct": "A",
+          "imageSrc": null
         },
         {
           "id": "gen-l27-v2-c2",
@@ -390,7 +403,8 @@
             "D": "3.00",
             "E": "3.25"
           },
-          "correct": "C"
+          "correct": "C",
+          "imageSrc": null
         }
       ],
       "solutions": [

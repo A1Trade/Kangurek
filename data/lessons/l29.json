@@ -34,7 +34,8 @@
             "D": "20000",
             "E": "22"
           },
-          "correct": "C"
+          "correct": "C",
+          "imageSrc": null
         },
         {
           "id": "gen-l29-v1-w2",
@@ -54,7 +55,8 @@
             "D": "0.3",
             "E": "33"
           },
-          "correct": "A"
+          "correct": "A",
+          "imageSrc": null
         },
         {
           "id": "gen-l29-v1-w3",
@@ -74,7 +76,8 @@
             "D": "1/5 litra",
             "E": "2 litry"
           },
-          "correct": "B"
+          "correct": "B",
+          "imageSrc": null
         },
         {
           "id": "gen-l29-v1-w4",
@@ -94,7 +97,8 @@
             "D": "5",
             "E": "10"
           },
-          "correct": "C"
+          "correct": "C",
+          "imageSrc": null
         },
         {
           "id": "gen-l29-v1-w5",
@@ -114,7 +118,8 @@
             "D": "50 l",
             "E": "500 l"
           },
-          "correct": "B"
+          "correct": "B",
+          "imageSrc": null
         }
       ],
       "challenge": [
@@ -136,7 +141,8 @@
             "D": "8000",
             "E": "6500"
           },
-          "correct": "A"
+          "correct": "A",
+          "imageSrc": null
         },
         {
           "id": "gen-l29-v1-c2",
@@ -156,7 +162,8 @@
             "D": "25",
             "E": "50"
           },
-          "correct": "C"
+          "correct": "C",
+          "imageSrc": null
         }
       ],
       "solutions": [
@@ -263,7 +270,8 @@
             "D": "15000",
             "E": "50"
           },
-          "correct": "C"
+          "correct": "C",
+          "imageSrc": null
         },
         {
           "id": "gen-l29-v2-w2",
@@ -283,7 +291,8 @@
             "D": "5000",
             "E": "1000"
           },
-          "correct": "C"
+          "correct": "C",
+          "imageSrc": null
         },
         {
           "id": "gen-l29-v2-w3",
@@ -303,7 +312,8 @@
             "D": "Nie da sie ustalic",
             "E": "Zalezy"
           },
-          "correct": "B"
+          "correct": "B",
+          "imageSrc": null
         },
         {
           "id": "gen-l29-v2-w4",
@@ -323,7 +333,8 @@
             "D": "7",
             "E": "8"
           },
-          "correct": "C"
+          "correct": "C",
+          "imageSrc": null
         },
         {
           "id": "gen-l29-v2-w5",
@@ -343,7 +354,8 @@
             "D": "Butelka 0.5 l",
             "E": "Filizanka"
           },
-          "correct": "C"
+          "correct": "C",
+          "imageSrc": null
         }
       ],
       "challenge": [
@@ -365,7 +377,8 @@
             "D": "30",
             "E": "73"
           },
-          "correct": "C"
+          "correct": "C",
+          "imageSrc": null
         },
         {
           "id": "gen-l29-v2-c2",
@@ -385,7 +398,8 @@
             "D": "700",
             "E": "800"
           },
-          "correct": "C"
+          "correct": "C",
+          "imageSrc": null
         }
       ],
       "solutions": [

@@ -34,7 +34,8 @@
             "D": "60",
             "E": "100"
           },
-          "correct": "C"
+          "correct": "C",
+          "imageSrc": null
         },
         {
           "id": "gen-l47-v1-w2",
@@ -54,7 +55,8 @@
             "D": "32",
             "E": "35"
           },
-          "correct": "C"
+          "correct": "C",
+          "imageSrc": null
         },
         {
           "id": "gen-l47-v1-w3",
@@ -74,7 +76,8 @@
             "D": "Czwartek",
             "E": "Niedziela"
           },
-          "correct": "C"
+          "correct": "C",
+          "imageSrc": null
         },
         {
           "id": "kangur-maluch-2020-3",
@@ -94,7 +97,8 @@
             "D": "wzor D",
             "E": "wzor E"
           },
-          "correct": "A"
+          "correct": "A",
+          "imageSrc": "/images/orig/2020-3.png"
         },
         {
           "id": "kangur-maluch-2014-5",
@@ -114,7 +118,8 @@
             "D": "wzor D",
             "E": "wzor E"
           },
-          "correct": "E"
+          "correct": "E",
+          "imageSrc": "/images/orig/2014-5.png"
         }
       ],
       "challenge": [
@@ -136,7 +141,8 @@
             "D": "70",
             "E": "73"
           },
-          "correct": "D"
+          "correct": "D",
+          "imageSrc": "/images/orig/2020-11.png"
         },
         {
           "id": "kangur-maluch-2013-19",
@@ -156,7 +162,8 @@
             "D": "102",
             "E": "103"
           },
-          "correct": "D"
+          "correct": "D",
+          "imageSrc": "/images/orig/2013-19.png"
         }
       ],
       "solutions": [
@@ -279,7 +286,8 @@
             "D": "210",
             "E": "400"
           },
-          "correct": "D"
+          "correct": "D",
+          "imageSrc": null
         },
         {
           "id": "gen-l47-v2-w2",
@@ -299,7 +307,8 @@
             "D": "8",
             "E": "10"
           },
-          "correct": "C"
+          "correct": "C",
+          "imageSrc": null
         },
         {
           "id": "gen-l47-v2-w3",
@@ -319,7 +328,8 @@
             "D": "Zerem",
             "E": "Niewiazoma"
           },
-          "correct": "B"
+          "correct": "B",
+          "imageSrc": null
         },
         {
           "id": "kangur-maluch-2015-11",
@@ -339,7 +349,8 @@
             "D": "5",
             "E": "6"
           },
-          "correct": "B"
+          "correct": "B",
+          "imageSrc": "/images/orig/2015-11.png"
         },
         {
           "id": "kangur-maluch-2015-3",
@@ -359,7 +370,8 @@
             "D": "5",
             "E": "6"
           },
-          "correct": "E"
+          "correct": "E",
+          "imageSrc": "/images/orig/2015-3.png"
         }
       ],
       "challenge": [
@@ -381,7 +393,8 @@
             "D": "23 cm",
             "E": "31 cm"
           },
-          "correct": "D"
+          "correct": "D",
+          "imageSrc": "/images/orig/2013-10.png"
         },
         {
           "id": "kangur-maluch-2014-22",
@@ -401,7 +414,8 @@
             "D": "3",
             "E": "2"
           },
-          "correct": "B"
+          "correct": "B",
+          "imageSrc": "/images/orig/2014-22.png"
         }
       ],
       "solutions": [

@@ -34,7 +34,8 @@
             "D": "Kolo",
             "E": "Linie"
           },
-          "correct": "B"
+          "correct": "B",
+          "imageSrc": null
         },
         {
           "id": "gen-l23-v1-w2",
@@ -54,7 +55,8 @@
             "D": "Trojkat",
             "E": "Linia"
           },
-          "correct": "A"
+          "correct": "A",
+          "imageSrc": null
         },
         {
           "id": "gen-l23-v1-w3",
@@ -74,7 +76,8 @@
             "D": "Kolo",
             "E": "Kwadrat 3x3"
           },
-          "correct": "B"
+          "correct": "B",
+          "imageSrc": null
         },
         {
           "id": "kangur-maluch-2022-4",
@@ -94,7 +97,8 @@
             "D": "sam kwadrat",
             "E": "maly kwadrat w wiekszym"
           },
-          "correct": "B"
+          "correct": "B",
+          "imageSrc": "/images/orig/2022-4.png"
         },
         {
           "id": "kangur-maluch-2014-15",
@@ -114,7 +118,8 @@
             "D": "widok D",
             "E": "widok E"
           },
-          "correct": "B"
+          "correct": "B",
+          "imageSrc": "/images/orig/2014-15.png"
         }
       ],
       "challenge": [
@@ -136,7 +141,8 @@
             "D": "stempel D",
             "E": "stempel E"
           },
-          "correct": "D"
+          "correct": "D",
+          "imageSrc": "/images/orig/2013-9.png"
         },
         {
           "id": "kangur-maluch-2025-20",
@@ -156,7 +162,8 @@
             "D": "wzor D",
             "E": "wzor E"
           },
-          "correct": "D"
+          "correct": "D",
+          "imageSrc": "/images/orig/2025-page4.png"
         }
       ],
       "solutions": [
@@ -265,7 +272,8 @@
             "D": "Linie",
             "E": "Punkt"
           },
-          "correct": "C"
+          "correct": "C",
+          "imageSrc": null
         },
         {
           "id": "gen-l23-v2-w2",
@@ -285,7 +293,8 @@
             "D": "Kolo",
             "E": "Linie"
           },
-          "correct": "B"
+          "correct": "B",
+          "imageSrc": null
         },
         {
           "id": "gen-l23-v2-w3",
@@ -305,7 +314,8 @@
             "D": "Trojkat",
             "E": "Linia"
           },
-          "correct": "B"
+          "correct": "B",
+          "imageSrc": null
         },
         {
           "id": "gen-l23-v2-w4",
@@ -325,7 +335,8 @@
             "D": "Trojkat",
             "E": "Kwadrat 2x2"
           },
-          "correct": "C"
+          "correct": "C",
+          "imageSrc": null
         },
         {
           "id": "gen-l23-v2-w5",
@@ -345,7 +356,8 @@
             "D": "Trojkat",
             "E": "Krzyz"
           },
-          "correct": "B"
+          "correct": "B",
+          "imageSrc": null
         }
       ],
       "challenge": [
@@ -367,7 +379,8 @@
             "D": "4",
             "E": "6"
           },
-          "correct": "D"
+          "correct": "D",
+          "imageSrc": null
         },
         {
           "id": "gen-l23-v2-c2",
@@ -387,7 +400,8 @@
             "D": "6",
             "E": "12"
           },
-          "correct": "B"
+          "correct": "B",
+          "imageSrc": null
         }
       ],
       "solutions": [

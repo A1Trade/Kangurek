@@ -34,7 +34,8 @@
             "D": "16",
             "E": "32"
           },
-          "correct": "D"
+          "correct": "D",
+          "imageSrc": null
         },
         {
           "id": "gen-l21-v1-w2",
@@ -54,7 +55,8 @@
             "D": "5",
             "E": "6"
           },
-          "correct": "B"
+          "correct": "B",
+          "imageSrc": null
         },
         {
           "id": "gen-l21-v1-w3",
@@ -74,7 +76,8 @@
             "D": "Pomalowac",
             "E": "Zgubic"
           },
-          "correct": "B"
+          "correct": "B",
+          "imageSrc": null
         },
         {
           "id": "kangur-maluch-2019-9",
@@ -94,7 +97,8 @@
             "D": "karo-gwiazda",
             "E": "trefl-pik"
           },
-          "correct": "D"
+          "correct": "D",
+          "imageSrc": "/images/orig/2019-9.png"
         },
         {
           "id": "kangur-maluch-2020-13",
@@ -114,7 +118,8 @@
             "D": "6",
             "E": "7"
           },
-          "correct": "B"
+          "correct": "B",
+          "imageSrc": "/images/orig/2020-13.png"
         }
       ],
       "challenge": [
@@ -136,7 +141,8 @@
             "D": "ksztalt D",
             "E": "ksztalt E"
           },
-          "correct": "D"
+          "correct": "D",
+          "imageSrc": "/images/orig/2015-17.png"
         },
         {
           "id": "kangur-maluch-2020-22",
@@ -156,7 +162,8 @@
             "D": "figura D",
             "E": "figura E"
           },
-          "correct": "D"
+          "correct": "D",
+          "imageSrc": "/images/orig/2020-22.png"
         }
       ],
       "solutions": [
@@ -266,7 +273,8 @@
             "D": "Tylko po odbiciu",
             "E": "Zawsze"
           },
-          "correct": "B"
+          "correct": "B",
+          "imageSrc": null
         },
         {
           "id": "gen-l21-v2-w2",
@@ -286,7 +294,8 @@
             "D": "Wieksze kwadrat",
             "E": "Pieciokat"
           },
-          "correct": "B"
+          "correct": "B",
+          "imageSrc": null
         },
         {
           "id": "gen-l21-v2-w3",
@@ -306,7 +315,8 @@
             "D": "Kolorowych",
             "E": "Brzegow"
           },
-          "correct": "B"
+          "correct": "B",
+          "imageSrc": null
         },
         {
           "id": "kangur-maluch-2023-9",
@@ -326,7 +336,8 @@
             "D": "kartonik D",
             "E": "kartonik E"
           },
-          "correct": "E"
+          "correct": "E",
+          "imageSrc": "/images/orig/2023-9.png"
         },
         {
           "id": "kangur-maluch-2018-10",
@@ -346,7 +357,8 @@
             "D": "4",
             "E": "5"
           },
-          "correct": "C"
+          "correct": "C",
+          "imageSrc": "/images/orig/2018-10.png"
         }
       ],
       "challenge": [
@@ -368,7 +380,8 @@
             "D": "obrazek D",
             "E": "obrazek E"
           },
-          "correct": "B"
+          "correct": "B",
+          "imageSrc": "/images/orig/2013-12.png"
         },
         {
           "id": "kangur-maluch-2015-15",
@@ -388,7 +401,8 @@
             "D": "D",
             "E": "E"
           },
-          "correct": "C"
+          "correct": "C",
+          "imageSrc": "/images/orig/2015-15.png"
         }
       ],
       "solutions": [
@@ -498,7 +512,8 @@
             "D": "OOD",
             "E": "DOD"
           },
-          "correct": "D"
+          "correct": "D",
+          "imageSrc": "/images/orig/2023-21.png"
         }
       ],
       "challenge": [],

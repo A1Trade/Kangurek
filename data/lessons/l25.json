@@ -34,7 +34,8 @@
             "D": "8",
             "E": "12"
           },
-          "correct": "C"
+          "correct": "C",
+          "imageSrc": null
         },
         {
           "id": "gen-l25-v1-w2",
@@ -54,7 +55,8 @@
             "D": "Trojkat z kwadratow",
             "E": "Pierscien"
           },
-          "correct": "B"
+          "correct": "B",
+          "imageSrc": null
         },
         {
           "id": "gen-l25-v1-w3",
@@ -74,7 +76,8 @@
             "D": "8",
             "E": "12"
           },
-          "correct": "C"
+          "correct": "C",
+          "imageSrc": null
         },
         {
           "id": "kangur-maluch-2024-8",
@@ -94,7 +97,8 @@
             "D": "budowla D",
             "E": "budowla E"
           },
-          "correct": "C"
+          "correct": "C",
+          "imageSrc": "/images/orig/2024-8.png"
         },
         {
           "id": "gen-l25-v1-w5",
@@ -114,7 +118,8 @@
             "D": "Tylko przy obrocie",
             "E": "Nie wiadomo"
           },
-          "correct": "B"
+          "correct": "B",
+          "imageSrc": null
         }
       ],
       "challenge": [
@@ -136,7 +141,8 @@
             "D": "14",
             "E": "17"
           },
-          "correct": "D"
+          "correct": "D",
+          "imageSrc": "/images/orig/2015-18.png"
         },
         {
           "id": "kangur-maluch-2016-24",
@@ -156,7 +162,8 @@
             "D": "13",
             "E": "15"
           },
-          "correct": "C"
+          "correct": "C",
+          "imageSrc": "/images/orig/2016-page4.png"
         }
       ],
       "solutions": [
@@ -265,7 +272,8 @@
             "D": "Kule",
             "E": "Walec"
           },
-          "correct": "B"
+          "correct": "B",
+          "imageSrc": null
         },
         {
           "id": "gen-l25-v2-w2",
@@ -285,7 +293,8 @@
             "D": "12 krawedzi",
             "E": "4 krawedzie"
           },
-          "correct": "B"
+          "correct": "B",
+          "imageSrc": null
         },
         {
           "id": "gen-l25-v2-w3",
@@ -305,7 +314,8 @@
             "D": "6 kwadratow w jednym rzedzie",
             "E": "Kwadrat 3x3"
           },
-          "correct": "C"
+          "correct": "C",
+          "imageSrc": null
         },
         {
           "id": "gen-l25-v2-w4",
@@ -325,7 +335,8 @@
             "D": "Sciana naprzeciw",
             "E": "Nie istnieje"
           },
-          "correct": "A"
+          "correct": "A",
+          "imageSrc": null
         },
         {
           "id": "gen-l25-v2-w5",
@@ -345,7 +356,8 @@
             "D": "11",
             "E": "12"
           },
-          "correct": "D"
+          "correct": "D",
+          "imageSrc": null
         }
       ],
       "challenge": [
@@ -367,7 +379,8 @@
             "D": "Nie da sie zlozyc",
             "E": "Sa po przekatnej"
           },
-          "correct": "A"
+          "correct": "A",
+          "imageSrc": null
         },
         {
           "id": "gen-l25-v2-c2",
@@ -387,7 +400,8 @@
             "D": "Tylko gdy sa na tej samej krawedzi",
             "E": "Tylko gdy sa po obu stronach"
           },
-          "correct": "B"
+          "correct": "B",
+          "imageSrc": null
         }
       ],
       "solutions": [

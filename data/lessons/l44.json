@@ -34,7 +34,8 @@
             "D": "4",
             "E": "5"
           },
-          "correct": "B"
+          "correct": "B",
+          "imageSrc": null
         },
         {
           "id": "gen-l44-v1-w2",
@@ -54,7 +55,8 @@
             "D": "5",
             "E": "6"
           },
-          "correct": "B"
+          "correct": "B",
+          "imageSrc": null
         },
         {
           "id": "gen-l44-v1-w3",
@@ -74,7 +76,8 @@
             "D": "7",
             "E": "8"
           },
-          "correct": "C"
+          "correct": "C",
+          "imageSrc": null
         },
         {
           "id": "kangur-maluch-2016-12",
@@ -94,7 +97,8 @@
             "D": "6",
             "E": "7"
           },
-          "correct": "C"
+          "correct": "C",
+          "imageSrc": "/images/orig/2016-page2.png"
         },
         {
           "id": "kangur-maluch-2024-19",
@@ -114,7 +118,8 @@
             "D": "8",
             "E": "10"
           },
-          "correct": "E"
+          "correct": "E",
+          "imageSrc": "/images/orig/2024-19.png"
         }
       ],
       "challenge": [
@@ -136,7 +141,8 @@
             "D": "9 kg",
             "E": "13 kg"
           },
-          "correct": "D"
+          "correct": "D",
+          "imageSrc": "/images/orig/2022-24.png"
         },
         {
           "id": "gen-l44-v1-c1",
@@ -156,7 +162,8 @@
             "D": "15",
             "E": "20"
           },
-          "correct": "B"
+          "correct": "B",
+          "imageSrc": null
         }
       ],
       "solutions": [
@@ -277,7 +284,8 @@
             "D": "5",
             "E": "6"
           },
-          "correct": "B"
+          "correct": "B",
+          "imageSrc": null
         },
         {
           "id": "gen-l44-v2-w2",
@@ -297,7 +305,8 @@
             "D": "6",
             "E": "10"
           },
-          "correct": "B"
+          "correct": "B",
+          "imageSrc": null
         },
         {
           "id": "gen-l44-v2-w3",
@@ -317,7 +326,8 @@
             "D": "15",
             "E": "20"
           },
-          "correct": "C"
+          "correct": "C",
+          "imageSrc": null
         },
         {
           "id": "gen-l44-v2-w4",
@@ -337,7 +347,8 @@
             "D": "Pelne kolo",
             "E": "Dowolny ksztalt"
           },
-          "correct": "A"
+          "correct": "A",
+          "imageSrc": null
         },
         {
           "id": "gen-l44-v2-w5",
@@ -357,7 +368,8 @@
             "D": "3",
             "E": "4"
           },
-          "correct": "B"
+          "correct": "B",
+          "imageSrc": null
         }
       ],
       "challenge": [
@@ -379,7 +391,8 @@
             "D": "20",
             "E": "36"
           },
-          "correct": "D"
+          "correct": "D",
+          "imageSrc": null
         },
         {
           "id": "gen-l44-v2-c2",
@@ -399,7 +412,8 @@
             "D": "10",
             "E": "20"
           },
-          "correct": "D"
+          "correct": "D",
+          "imageSrc": null
         }
       ],
       "solutions": [

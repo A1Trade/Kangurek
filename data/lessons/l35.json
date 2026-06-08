@@ -34,7 +34,8 @@
             "D": "31",
             "E": "32"
           },
-          "correct": "A"
+          "correct": "A",
+          "imageSrc": null
         },
         {
           "id": "gen-l35-v1-w2",
@@ -54,7 +55,8 @@
             "D": "12",
             "E": "24"
           },
-          "correct": "D"
+          "correct": "D",
+          "imageSrc": null
         },
         {
           "id": "gen-l35-v1-w3",
@@ -74,7 +76,8 @@
             "D": "60",
             "E": "100"
           },
-          "correct": "B"
+          "correct": "B",
+          "imageSrc": null
         },
         {
           "id": "kangur-maluch-2012-8",
@@ -94,7 +97,8 @@
             "D": "24 lutego",
             "E": "26 lutego"
           },
-          "correct": "D"
+          "correct": "D",
+          "imageSrc": "/images/orig/2012-8.png"
         },
         {
           "id": "kangur-maluch-2013-16",
@@ -114,7 +118,8 @@
             "D": "Dorotka",
             "E": "Nie da sie rozstrzygnac"
           },
-          "correct": "D"
+          "correct": "D",
+          "imageSrc": "/images/orig/2013-16.png"
         }
       ],
       "challenge": [
@@ -136,7 +141,8 @@
             "D": "(31 - 7) razy 24",
             "E": "(30 - 7) razy 3 razy 24"
           },
-          "correct": "B"
+          "correct": "B",
+          "imageSrc": "/images/orig/2013-18.png"
         },
         {
           "id": "gen-l35-v1-c1",
@@ -156,7 +162,8 @@
             "D": "31",
             "E": "32"
           },
-          "correct": "C"
+          "correct": "C",
+          "imageSrc": null
         }
       ],
       "solutions": [
@@ -269,7 +276,8 @@
             "D": "30",
             "E": "31"
           },
-          "correct": "C"
+          "correct": "C",
+          "imageSrc": null
         },
         {
           "id": "gen-l35-v2-w2",
@@ -289,7 +297,8 @@
             "D": "Czerwiec",
             "E": "Lipiec"
           },
-          "correct": "D"
+          "correct": "D",
+          "imageSrc": null
         },
         {
           "id": "gen-l35-v2-w3",
@@ -309,7 +318,8 @@
             "D": "16",
             "E": "17"
           },
-          "correct": "B"
+          "correct": "B",
+          "imageSrc": null
         },
         {
           "id": "kangur-maluch-2020-18",
@@ -329,7 +339,8 @@
             "D": "5",
             "E": "6"
           },
-          "correct": "E"
+          "correct": "E",
+          "imageSrc": "/images/orig/2020-18.png"
         },
         {
           "id": "kangur-maluch-2025-22",
@@ -349,7 +360,8 @@
             "D": "We wtorek",
             "E": "W srode"
           },
-          "correct": "A"
+          "correct": "A",
+          "imageSrc": "/images/orig/2025-page4.png"
         }
       ],
       "challenge": [
@@ -371,7 +383,8 @@
             "D": "D",
             "E": "E"
           },
-          "correct": "D"
+          "correct": "D",
+          "imageSrc": "/images/orig/2023-18.png"
         },
         {
           "id": "gen-l35-v2-c1",
@@ -391,7 +404,8 @@
             "D": "20",
             "E": "30"
           },
-          "correct": "B"
+          "correct": "B",
+          "imageSrc": null
         }
       ],
       "solutions": [

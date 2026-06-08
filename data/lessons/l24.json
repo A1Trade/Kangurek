@@ -34,7 +34,8 @@
             "D": "12",
             "E": "16"
           },
-          "correct": "C"
+          "correct": "C",
+          "imageSrc": null
         },
         {
           "id": "gen-l24-v1-w2",
@@ -54,7 +55,8 @@
             "D": "27",
             "E": "36"
           },
-          "correct": "D"
+          "correct": "D",
+          "imageSrc": null
         },
         {
           "id": "gen-l24-v1-w3",
@@ -74,7 +76,8 @@
             "D": "12",
             "E": "16"
           },
-          "correct": "D"
+          "correct": "D",
+          "imageSrc": null
         },
         {
           "id": "kangur-maluch-2018-14",
@@ -94,7 +97,8 @@
             "D": "9",
             "E": "10"
           },
-          "correct": "B"
+          "correct": "B",
+          "imageSrc": "/images/orig/2018-14.png"
         },
         {
           "id": "kangur-maluch-2021-10",
@@ -114,7 +118,8 @@
             "D": "czesc D",
             "E": "czesc E"
           },
-          "correct": "B"
+          "correct": "B",
+          "imageSrc": "/images/orig/2021-10.png"
         }
       ],
       "challenge": [
@@ -136,7 +141,8 @@
             "D": "16",
             "E": "19"
           },
-          "correct": "C"
+          "correct": "C",
+          "imageSrc": "/images/orig/2022-17.png"
         },
         {
           "id": "kangur-maluch-2024-24",
@@ -156,7 +162,8 @@
             "D": "14",
             "E": "23"
           },
-          "correct": "D"
+          "correct": "D",
+          "imageSrc": "/images/orig/2024-24.png"
         }
       ],
       "solutions": [
@@ -265,7 +272,8 @@
             "D": "64",
             "E": "81"
           },
-          "correct": "D"
+          "correct": "D",
+          "imageSrc": null
         },
         {
           "id": "gen-l24-v2-w2",
@@ -285,7 +293,8 @@
             "D": "15",
             "E": "16"
           },
-          "correct": "C"
+          "correct": "C",
+          "imageSrc": null
         },
         {
           "id": "gen-l24-v2-w3",
@@ -305,7 +314,8 @@
             "D": "8",
             "E": "9"
           },
-          "correct": "B"
+          "correct": "B",
+          "imageSrc": null
         },
         {
           "id": "gen-l24-v2-w4",
@@ -325,7 +335,8 @@
             "D": "23",
             "E": "24"
           },
-          "correct": "C"
+          "correct": "C",
+          "imageSrc": null
         },
         {
           "id": "gen-l24-v2-w5",
@@ -345,7 +356,8 @@
             "D": "4",
             "E": "5"
           },
-          "correct": "E"
+          "correct": "E",
+          "imageSrc": null
         }
       ],
       "challenge": [
@@ -367,7 +379,8 @@
             "D": "12",
             "E": "18"
           },
-          "correct": "D"
+          "correct": "D",
+          "imageSrc": null
         },
         {
           "id": "gen-l24-v2-c2",
@@ -387,7 +400,8 @@
             "D": "60",
             "E": "62"
           },
-          "correct": "C"
+          "correct": "C",
+          "imageSrc": null
         }
       ],
       "solutions": [

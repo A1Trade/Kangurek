@@ -34,7 +34,8 @@
             "D": "4",
             "E": "8"
           },
-          "correct": "D"
+          "correct": "D",
+          "imageSrc": null
         },
         {
           "id": "gen-l20-v1-w2",
@@ -54,7 +55,8 @@
             "D": "3",
             "E": "4"
           },
-          "correct": "C"
+          "correct": "C",
+          "imageSrc": null
         },
         {
           "id": "gen-l20-v1-w3",
@@ -74,7 +76,8 @@
             "D": "L",
             "E": "G"
           },
-          "correct": "B"
+          "correct": "B",
+          "imageSrc": null
         },
         {
           "id": "kangur-maluch-2018-5",
@@ -94,7 +97,8 @@
             "D": "rysunek D",
             "E": "rysunek E"
           },
-          "correct": "B"
+          "correct": "B",
+          "imageSrc": "/images/orig/2018-5.png"
         },
         {
           "id": "kangur-maluch-2019-4",
@@ -114,7 +118,8 @@
             "D": "motocykl, samochód, traktor",
             "E": "samochód, ciężarówka, traktor"
           },
-          "correct": "E"
+          "correct": "E",
+          "imageSrc": "/images/orig/2019-4.png"
         }
       ],
       "challenge": [
@@ -136,7 +141,8 @@
             "D": "wzór D",
             "E": "wzór E"
           },
-          "correct": "B"
+          "correct": "B",
+          "imageSrc": "/images/orig/2019-14.png"
         },
         {
           "id": "kangur-maluch-2015-23",
@@ -156,7 +162,8 @@
             "D": "7",
             "E": "8"
           },
-          "correct": "D"
+          "correct": "D",
+          "imageSrc": "/images/orig/2015-23.png"
         }
       ],
       "solutions": [
@@ -267,7 +274,8 @@
             "D": "8",
             "E": "Nieskonczenie wiele"
           },
-          "correct": "E"
+          "correct": "E",
+          "imageSrc": null
         },
         {
           "id": "gen-l20-v2-w2",
@@ -287,7 +295,8 @@
             "D": "Trojkat rownoboczny",
             "E": "Prostokat"
           },
-          "correct": "C"
+          "correct": "C",
+          "imageSrc": null
         },
         {
           "id": "gen-l20-v2-w3",
@@ -307,7 +316,8 @@
             "D": "7",
             "E": "5"
           },
-          "correct": "C"
+          "correct": "C",
+          "imageSrc": null
         },
         {
           "id": "kangur-maluch-2023-6",
@@ -327,7 +337,8 @@
             "D": "widok D",
             "E": "widok E"
           },
-          "correct": "D"
+          "correct": "D",
+          "imageSrc": "/images/orig/2023-6.png"
         },
         {
           "id": "kangur-maluch-2023-8",
@@ -347,7 +358,8 @@
             "D": "widok D",
             "E": "widok E"
           },
-          "correct": "E"
+          "correct": "E",
+          "imageSrc": "/images/orig/2023-8.png"
         }
       ],
       "challenge": [
@@ -369,7 +381,8 @@
             "D": "wariant D",
             "E": "wariant E"
           },
-          "correct": "A"
+          "correct": "A",
+          "imageSrc": "/images/orig/2022-22.png"
         },
         {
           "id": "kangur-maluch-2020-9",
@@ -389,7 +402,8 @@
             "D": "4",
             "E": "5"
           },
-          "correct": "C"
+          "correct": "C",
+          "imageSrc": "/images/orig/2020-9.png"
         }
       ],
       "solutions": [
@@ -501,7 +515,8 @@
             "D": "Kolem",
             "E": "Nie da sie rozstrzygnac"
           },
-          "correct": "B"
+          "correct": "B",
+          "imageSrc": "/images/orig/2016-page1.png"
         }
       ],
       "challenge": [],

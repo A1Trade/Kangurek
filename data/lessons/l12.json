@@ -34,7 +34,8 @@
             "D": "4",
             "E": "5"
           },
-          "correct": "B"
+          "correct": "B",
+          "imageSrc": null
         },
         {
           "id": "gen-l12-w2",
@@ -54,7 +55,8 @@
             "D": "6",
             "E": "12"
           },
-          "correct": "B"
+          "correct": "B",
+          "imageSrc": null
         },
         {
           "id": "gen-l12-w3",
@@ -74,7 +76,8 @@
             "D": "5",
             "E": "6"
           },
-          "correct": "C"
+          "correct": "C",
+          "imageSrc": null
         },
         {
           "id": "gen-l12-w4",
@@ -94,7 +97,8 @@
             "D": "6",
             "E": "9"
           },
-          "correct": "B"
+          "correct": "B",
+          "imageSrc": null
         },
         {
           "id": "gen-l12-w5",
@@ -114,7 +118,8 @@
             "D": "5",
             "E": "6"
           },
-          "correct": "B"
+          "correct": "B",
+          "imageSrc": null
         }
       ],
       "challenge": [
@@ -136,7 +141,8 @@
             "D": "4",
             "E": "5"
           },
-          "correct": "C"
+          "correct": "C",
+          "imageSrc": null
         },
         {
           "id": "gen-l12-c2",
@@ -156,7 +162,8 @@
             "D": "9",
             "E": "12"
           },
-          "correct": "C"
+          "correct": "C",
+          "imageSrc": null
         }
       ],
       "solutions": [
@@ -282,7 +289,8 @@
             "D": "5",
             "E": "6"
           },
-          "correct": "B"
+          "correct": "B",
+          "imageSrc": null
         },
         {
           "id": "gen-l12-v2-w2",
@@ -302,7 +310,8 @@
             "D": "5",
             "E": "6"
           },
-          "correct": "B"
+          "correct": "B",
+          "imageSrc": null
         },
         {
           "id": "gen-l12-v2-w3",
@@ -322,7 +331,8 @@
             "D": "4",
             "E": "5"
           },
-          "correct": "B"
+          "correct": "B",
+          "imageSrc": null
         },
         {
           "id": "gen-l12-v2-w4",
@@ -342,7 +352,8 @@
             "D": "6",
             "E": "12"
           },
-          "correct": "B"
+          "correct": "B",
+          "imageSrc": null
         },
         {
           "id": "kangur-maluch-2021-3",
@@ -362,7 +373,8 @@
             "D": "24",
             "E": "33"
           },
-          "correct": "D"
+          "correct": "D",
+          "imageSrc": "/images/orig/2021-3.png"
         }
       ],
       "challenge": [
@@ -384,7 +396,8 @@
             "D": "14",
             "E": "15"
           },
-          "correct": "E"
+          "correct": "E",
+          "imageSrc": "/images/orig/2015-21.png"
         },
         {
           "id": "gen-l12-v2-c2",
@@ -404,7 +417,8 @@
             "D": "9",
             "E": "12"
           },
-          "correct": "D"
+          "correct": "D",
+          "imageSrc": null
         }
       ],
       "solutions": [

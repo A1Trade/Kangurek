@@ -34,7 +34,8 @@
             "D": "8",
             "E": "9"
           },
-          "correct": "C"
+          "correct": "C",
+          "imageSrc": null
         },
         {
           "id": "gen-l08-w2",
@@ -54,7 +55,8 @@
             "D": "1 - 2 - 3 - 4 - 5",
             "E": "1 + 2 + 3 - 4 - 5"
           },
-          "correct": "B"
+          "correct": "B",
+          "imageSrc": null
         },
         {
           "id": "gen-l08-w3",
@@ -74,7 +76,8 @@
             "D": "28",
             "E": "44"
           },
-          "correct": "B"
+          "correct": "B",
+          "imageSrc": null
         },
         {
           "id": "kangur-maluch-2012-11",
@@ -94,7 +97,8 @@
             "D": "8",
             "E": "10"
           },
-          "correct": "E"
+          "correct": "E",
+          "imageSrc": "/images/orig/2012-11.png"
         },
         {
           "id": "kangur-maluch-2025-16",
@@ -114,7 +118,8 @@
             "D": "12",
             "E": "23"
           },
-          "correct": "E"
+          "correct": "E",
+          "imageSrc": "/images/orig/2025-page3.png"
         }
       ],
       "challenge": [
@@ -136,7 +141,8 @@
             "D": "12",
             "E": "14"
           },
-          "correct": "D"
+          "correct": "D",
+          "imageSrc": "/images/orig/2022-23.png"
         },
         {
           "id": "kangur-maluch-2019-18",
@@ -156,7 +162,8 @@
             "D": "74",
             "E": "80"
           },
-          "correct": "A"
+          "correct": "A",
+          "imageSrc": "/images/orig/2019-18.png"
         }
       ],
       "solutions": [
@@ -278,7 +285,8 @@
             "D": "6",
             "E": "23"
           },
-          "correct": "C"
+          "correct": "C",
+          "imageSrc": null
         },
         {
           "id": "gen-l08-v2-w2",
@@ -298,7 +306,8 @@
             "D": "3",
             "E": "18"
           },
-          "correct": "B"
+          "correct": "B",
+          "imageSrc": null
         },
         {
           "id": "gen-l08-v2-w3",
@@ -318,7 +327,8 @@
             "D": "5 - 5 + 5",
             "E": "Nie da sie"
           },
-          "correct": "A"
+          "correct": "A",
+          "imageSrc": null
         },
         {
           "id": "kangur-maluch-2012-14",
@@ -338,7 +348,8 @@
             "D": "5",
             "E": "6"
           },
-          "correct": "C"
+          "correct": "C",
+          "imageSrc": "/images/orig/2012-14.png"
         },
         {
           "id": "kangur-maluch-2012-6",
@@ -358,7 +369,8 @@
             "D": "Wygral Kuba o 2",
             "E": "Wygral Michal o 4"
           },
-          "correct": "C"
+          "correct": "C",
+          "imageSrc": "/images/orig/2012-6.png"
         }
       ],
       "challenge": [
@@ -380,7 +392,8 @@
             "D": "6",
             "E": "10"
           },
-          "correct": "C"
+          "correct": "C",
+          "imageSrc": "/images/orig/2025-page4.png"
         },
         {
           "id": "kangur-maluch-2018-19",
@@ -400,7 +413,8 @@
             "D": "90",
             "E": "92"
           },
-          "correct": "E"
+          "correct": "E",
+          "imageSrc": "/images/orig/2018-19.png"
         }
       ],
       "solutions": [
@@ -515,7 +529,8 @@
             "D": "7",
             "E": "8"
           },
-          "correct": "D"
+          "correct": "D",
+          "imageSrc": "/images/orig/2013-2.png"
         },
         {
           "id": "kangur-maluch-2016-20",
@@ -535,7 +550,8 @@
             "D": "pasek D",
             "E": "pasek E"
           },
-          "correct": "E"
+          "correct": "E",
+          "imageSrc": "/images/orig/2016-page4.png"
         },
         {
           "id": "kangur-maluch-2019-12",
@@ -555,7 +571,8 @@
             "D": "Tylko 1.",
             "E": "Tylko 2."
           },
-          "correct": "A"
+          "correct": "A",
+          "imageSrc": "/images/orig/2019-12.png"
         },
         {
           "id": "kangur-maluch-2020-23",
@@ -575,7 +592,8 @@
             "D": "877",
             "E": "261"
           },
-          "correct": "C"
+          "correct": "C",
+          "imageSrc": "/images/orig/2020-23.png"
         },
         {
           "id": "kangur-maluch-2021-20",
@@ -595,7 +613,8 @@
             "D": "4",
             "E": "3"
           },
-          "correct": "D"
+          "correct": "D",
+          "imageSrc": "/images/orig/2021-20.png"
         },
         {
           "id": "kangur-maluch-2021-24",
@@ -615,7 +634,8 @@
             "D": "345",
             "E": "356"
           },
-          "correct": "E"
+          "correct": "E",
+          "imageSrc": "/images/orig/2021-24.png"
         },
         {
           "id": "kangur-maluch-2023-13",
@@ -635,7 +655,8 @@
             "D": "4",
             "E": "6"
           },
-          "correct": "B"
+          "correct": "B",
+          "imageSrc": "/images/orig/2023-13.png"
         },
         {
           "id": "kangur-maluch-2023-23",
@@ -655,7 +676,8 @@
             "D": "4",
             "E": "5"
           },
-          "correct": "D"
+          "correct": "D",
+          "imageSrc": "/images/orig/2023-23.png"
         },
         {
           "id": "kangur-maluch-2024-15",
@@ -675,7 +697,8 @@
             "D": "5",
             "E": "7"
           },
-          "correct": "C"
+          "correct": "C",
+          "imageSrc": "/images/orig/2024-15.png"
         },
         {
           "id": "kangur-maluch-2024-16",
@@ -695,7 +718,8 @@
             "D": "6",
             "E": "7"
           },
-          "correct": "B"
+          "correct": "B",
+          "imageSrc": "/images/orig/2024-16.png"
         },
         {
           "id": "kangur-maluch-2024-18",
@@ -715,7 +739,8 @@
             "D": "11",
             "E": "12"
           },
-          "correct": "D"
+          "correct": "D",
+          "imageSrc": "/images/orig/2024-18.png"
         },
         {
           "id": "kangur-maluch-2024-20",
@@ -735,7 +760,8 @@
             "D": "28",
             "E": "30"
           },
-          "correct": "D"
+          "correct": "D",
+          "imageSrc": "/images/orig/2024-20.png"
         }
       ],
       "challenge": [],

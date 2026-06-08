@@ -34,7 +34,8 @@
             "D": "64",
             "E": "72"
           },
-          "correct": "C"
+          "correct": "C",
+          "imageSrc": null
         },
         {
           "id": "gen-l02-w2",
@@ -54,7 +55,8 @@
             "D": "80",
             "E": "100"
           },
-          "correct": "D"
+          "correct": "D",
+          "imageSrc": null
         },
         {
           "id": "gen-l02-w3",
@@ -74,7 +76,8 @@
             "D": "84",
             "E": "94"
           },
-          "correct": "D"
+          "correct": "D",
+          "imageSrc": null
         },
         {
           "id": "gen-l02-w4",
@@ -94,7 +97,8 @@
             "D": "36",
             "E": "45"
           },
-          "correct": "D"
+          "correct": "D",
+          "imageSrc": null
         },
         {
           "id": "gen-l02-w5",
@@ -114,7 +118,8 @@
             "D": "12",
             "E": "16"
           },
-          "correct": "E"
+          "correct": "E",
+          "imageSrc": null
         }
       ],
       "challenge": [
@@ -136,7 +141,8 @@
             "D": "68",
             "E": "72"
           },
-          "correct": "D"
+          "correct": "D",
+          "imageSrc": null
         },
         {
           "id": "gen-l02-c2",
@@ -156,7 +162,8 @@
             "D": "143",
             "E": "153"
           },
-          "correct": "D"
+          "correct": "D",
+          "imageSrc": null
         }
       ],
       "solutions": [
@@ -270,7 +277,8 @@
             "D": "56",
             "E": "63"
           },
-          "correct": "C"
+          "correct": "C",
+          "imageSrc": null
         },
         {
           "id": "gen-l02-v2-w2",
@@ -290,7 +298,8 @@
             "D": "120",
             "E": "122"
           },
-          "correct": "D"
+          "correct": "D",
+          "imageSrc": null
         },
         {
           "id": "gen-l02-v2-w3",
@@ -310,7 +319,8 @@
             "D": "88",
             "E": "99"
           },
-          "correct": "D"
+          "correct": "D",
+          "imageSrc": null
         },
         {
           "id": "gen-l02-v2-w4",
@@ -330,7 +340,8 @@
             "D": "42",
             "E": "45"
           },
-          "correct": "C"
+          "correct": "C",
+          "imageSrc": null
         },
         {
           "id": "gen-l02-v2-w5",
@@ -350,7 +361,8 @@
             "D": "16",
             "E": "32"
           },
-          "correct": "D"
+          "correct": "D",
+          "imageSrc": null
         }
       ],
       "challenge": [
@@ -372,7 +384,8 @@
             "D": "76",
             "E": "86"
           },
-          "correct": "D"
+          "correct": "D",
+          "imageSrc": null
         },
         {
           "id": "gen-l02-v2-c2",
@@ -392,7 +405,8 @@
             "D": "285",
             "E": "297"
           },
-          "correct": "C"
+          "correct": "C",
+          "imageSrc": null
         }
       ],
       "solutions": [
@@ -507,7 +521,8 @@
             "D": "17",
             "E": "23"
           },
-          "correct": "A"
+          "correct": "A",
+          "imageSrc": "/images/orig/2020-12.png"
         },
         {
           "id": "kangur-maluch-2022-14",
@@ -527,7 +542,8 @@
             "D": "4",
             "E": "5"
           },
-          "correct": "C"
+          "correct": "C",
+          "imageSrc": "/images/orig/2022-14.png"
         },
         {
           "id": "kangur-maluch-2023-20",
@@ -547,7 +563,8 @@
             "D": "6",
             "E": "0"
           },
-          "correct": "B"
+          "correct": "B",
+          "imageSrc": "/images/orig/2023-20.png"
         }
       ],
       "challenge": [],

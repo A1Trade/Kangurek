@@ -34,7 +34,8 @@
             "D": "6",
             "E": "12"
           },
-          "correct": "C"
+          "correct": "C",
+          "imageSrc": null
         },
         {
           "id": "gen-l41-v1-w2",
@@ -54,7 +55,8 @@
             "D": "5 i zostanie 0",
             "E": "3 i zostanie 3"
           },
-          "correct": "A"
+          "correct": "A",
+          "imageSrc": null
         },
         {
           "id": "gen-l41-v1-w3",
@@ -74,7 +76,8 @@
             "D": "4",
             "E": "5"
           },
-          "correct": "A"
+          "correct": "A",
+          "imageSrc": null
         },
         {
           "id": "kangur-maluch-2015-19",
@@ -94,7 +97,8 @@
             "D": "7",
             "E": "8"
           },
-          "correct": "A"
+          "correct": "A",
+          "imageSrc": "/images/orig/2015-19.png"
         },
         {
           "id": "kangur-maluch-2018-21",
@@ -114,7 +118,8 @@
             "D": "5 litrow",
             "E": "6 litrow"
           },
-          "correct": "B"
+          "correct": "B",
+          "imageSrc": "/images/orig/2018-21.png"
         }
       ],
       "challenge": [
@@ -136,7 +141,8 @@
             "D": "9",
             "E": "10"
           },
-          "correct": "B"
+          "correct": "B",
+          "imageSrc": "/images/orig/2014-14.png"
         },
         {
           "id": "kangur-maluch-2019-19",
@@ -156,7 +162,8 @@
             "D": "8",
             "E": "10"
           },
-          "correct": "B"
+          "correct": "B",
+          "imageSrc": "/images/orig/2019-19.png"
         }
       ],
       "solutions": [
@@ -275,7 +282,8 @@
             "D": "15",
             "E": "25"
           },
-          "correct": "B"
+          "correct": "B",
+          "imageSrc": null
         },
         {
           "id": "gen-l41-v2-w2",
@@ -295,7 +303,8 @@
             "D": "5 i 0",
             "E": "3 i 4"
           },
-          "correct": "A"
+          "correct": "A",
+          "imageSrc": null
         },
         {
           "id": "gen-l41-v2-w3",
@@ -315,7 +324,8 @@
             "D": "15",
             "E": "16"
           },
-          "correct": "E"
+          "correct": "E",
+          "imageSrc": null
         },
         {
           "id": "kangur-maluch-2015-22",
@@ -335,7 +345,8 @@
             "D": "zestaw D",
             "E": "zestaw E"
           },
-          "correct": "C"
+          "correct": "C",
+          "imageSrc": "/images/orig/2015-22.png"
         },
         {
           "id": "kangur-maluch-2024-9",
@@ -355,7 +366,8 @@
             "D": "4",
             "E": "5"
           },
-          "correct": "C"
+          "correct": "C",
+          "imageSrc": "/images/orig/2024-9.png"
         }
       ],
       "challenge": [
@@ -377,7 +389,8 @@
             "D": "5",
             "E": "6"
           },
-          "correct": "D"
+          "correct": "D",
+          "imageSrc": "/images/orig/2018-2.png"
         },
         {
           "id": "kangur-maluch-2018-8",
@@ -397,7 +410,8 @@
             "D": "2",
             "E": "3"
           },
-          "correct": "E"
+          "correct": "E",
+          "imageSrc": "/images/orig/2018-8.png"
         }
       ],
       "solutions": [
@@ -507,7 +521,8 @@
             "D": "Trojkatow o dwa wiecej niz kol",
             "E": "Kol dwa razy wiecej niz kwadratow"
           },
-          "correct": "E"
+          "correct": "E",
+          "imageSrc": "/images/orig/2016-page2.png"
         },
         {
           "id": "kangur-maluch-2021-2",
@@ -527,7 +542,8 @@
             "D": "7",
             "E": "8"
           },
-          "correct": "C"
+          "correct": "C",
+          "imageSrc": "/images/orig/2021-2.png"
         },
         {
           "id": "kangur-maluch-2022-9",
@@ -547,7 +563,8 @@
             "D": "3,1,4,2,5",
             "E": "4,1,2,5,3"
           },
-          "correct": "A"
+          "correct": "A",
+          "imageSrc": "/images/orig/2022-9.png"
         },
         {
           "id": "kangur-maluch-2023-14",
@@ -567,7 +584,8 @@
             "D": "kreski na 10 i 20",
             "E": "kreski na 10 i 40"
           },
-          "correct": "E"
+          "correct": "E",
+          "imageSrc": "/images/orig/2023-14.png"
         }
       ],
       "challenge": [],
