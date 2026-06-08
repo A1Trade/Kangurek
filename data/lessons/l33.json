@@ -168,7 +168,8 @@
             "5:00"
           ],
           "answer": "A",
-          "alternative": null
+          "alternative": null,
+          "hint": "Krotka na 5, dluga na 12 = 5:00."
         },
         {
           "problemId": "gen-l33-v1-w2",
@@ -180,7 +181,8 @@
             "Razem 2:30"
           ],
           "answer": "A",
-          "alternative": null
+          "alternative": null,
+          "hint": "Krotka miedzy 2 a 3 = godzina 2. Dluga na 6 = 30 min."
         },
         {
           "problemId": "gen-l33-v1-w3",
@@ -190,7 +192,8 @@
             "O 3:00 krotka na 3, dluga na 12, tworza kat prosty"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "3:00 wskazowki = jak rog kartki."
         },
         {
           "problemId": "kangur-maluch-2012-21",
@@ -202,7 +205,8 @@
             "Poprawny obraz: C"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Trzy wskazowki o roznej dlugosci, zegar 12:55:30 -> 8:11:00."
         },
         {
           "problemId": "kangur-maluch-2023-5",
@@ -214,7 +218,8 @@
             "5 i 9 roznia sie o 4 - pasuja"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Kolo z 2 otworami obracane na tarczy zegara."
         },
         {
           "problemId": "kangur-maluch-2023-15",
@@ -226,7 +231,8 @@
             "Poprawny zegar: B"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "5 zegarow: 2 zepsute, 1 dobry, 1 spieszy 3h, 1 spoznia 3h."
         },
         {
           "problemId": "gen-l33-v1-c1",
@@ -236,7 +242,8 @@
             "O 6:00 krotka na 6, dluga na 12, tworza linie - kat polpelny"
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "O 6:00 wskazowki sa naprzeciw siebie."
         }
       ]
     },
@@ -396,7 +403,8 @@
             "9:00"
           ],
           "answer": "A",
-          "alternative": null
+          "alternative": null,
+          "hint": "Krotka na 9, dluga na 12 = 9:00."
         },
         {
           "problemId": "gen-l33-v2-w2",
@@ -406,7 +414,8 @@
             "8:30"
           ],
           "answer": "A",
-          "alternative": null
+          "alternative": null,
+          "hint": "8:30 - krotka miedzy 8 a 9, dluga na 6."
         },
         {
           "problemId": "gen-l33-v2-w3",
@@ -416,7 +425,8 @@
             "O 12:00 obie wskazowki sa na 12 - tworza kat zerowy"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Wskazowki nakladaja sie - kat zerowy."
         },
         {
           "problemId": "gen-l33-v2-w4",
@@ -426,7 +436,8 @@
             "15 minut"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Dluga na 3 = 3 razy 5 min = 15 min."
         },
         {
           "problemId": "gen-l33-v2-w5",
@@ -436,7 +447,8 @@
             "O 9:00 krotka na 9, dluga na 12 - tworza kat prosty"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Wskazowki o 9:00 = prostopadle."
         },
         {
           "problemId": "gen-l33-v2-c1",
@@ -447,7 +459,8 @@
             "13:20 - 15 min = 13:05"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Cofnij od 14:20 o 1 godz 15 min."
         },
         {
           "problemId": "gen-l33-v2-c2",
@@ -458,7 +471,8 @@
             "Lustrzane 9:00 to prawdziwe 3:00"
           ],
           "answer": "A",
-          "alternative": null
+          "alternative": null,
+          "hint": "Odbicie lustrzane zamienia 9 z 3."
         }
       ]
     }

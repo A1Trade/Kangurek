@@ -168,7 +168,8 @@
             "2 razy 60 = 120 min"
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "1 godz = 60 min."
         },
         {
           "problemId": "gen-l30-v1-w2",
@@ -178,7 +179,8 @@
             "60:4 = 15 min"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Cwierc godziny = polowa polowy."
         },
         {
           "problemId": "gen-l30-v1-w3",
@@ -188,7 +190,8 @@
             "Doba ma 24 godziny"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "1 doba = 24 godz."
         },
         {
           "problemId": "gen-l30-v1-w4",
@@ -198,7 +201,8 @@
             "8:45 - 8:00 = 45 min"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Roznica miedzy 8:45 a 8:00."
         },
         {
           "problemId": "kangur-maluch-2019-3",
@@ -210,7 +214,8 @@
             "11:30 - 3 min = 11:27"
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "Asia wrocila o 12:05, spacer trwal 38 min."
         },
         {
           "problemId": "gen-l30-v1-c1",
@@ -222,7 +227,8 @@
             "Razem 7 godz"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Z 22:00 do polnocy + z polnocy do 5:00."
         },
         {
           "problemId": "gen-l30-v1-c2",
@@ -233,7 +239,8 @@
             "16:30 - 45 min = 15:45"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Cofnij sie o 2 godz 45 min od 18:30."
         }
       ]
     },
@@ -393,7 +400,8 @@
             "3 razy 60 = 180 sek"
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "1 min = 60 sek."
         },
         {
           "problemId": "gen-l30-v2-w2",
@@ -403,7 +411,8 @@
             "60:2 = 30 min"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Pol godziny = polowa 60 min."
         },
         {
           "problemId": "gen-l30-v2-w3",
@@ -413,7 +422,8 @@
             "3 razy 15 = 45 min"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Trzy cwierci = 3 razy 15 min."
         },
         {
           "problemId": "gen-l30-v2-w4",
@@ -425,7 +435,8 @@
             "Razem 1 godz 45 min"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Czas trwania = roznica."
         },
         {
           "problemId": "kangur-maluch-2014-11",
@@ -437,7 +448,8 @@
             "Czwartek 23:00 + 6 godz = piatek 5:00"
           ],
           "answer": "E",
-          "alternative": null
+          "alternative": null,
+          "hint": "Spiaca Krolewna spi 150 godzin od piatku 23:00."
         },
         {
           "problemId": "gen-l30-v2-c1",
@@ -448,7 +460,8 @@
             "11:20 - 35 min = 10:45"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Cofnij 3 godz 35 min od 14:20."
         },
         {
           "problemId": "gen-l30-v2-c2",
@@ -458,7 +471,8 @@
             "24 razy 60 = 1440 min"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Doba = 24 godz razy 60 min."
         }
       ]
     }

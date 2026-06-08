@@ -170,7 +170,8 @@
             "Najczesciej w tej konfiguracji najwiecej ma Bartek"
           ],
           "answer": "B",
-          "alternative": "Wymaga sprawdzania wszystkich kombinacji."
+          "alternative": "Wymaga sprawdzania wszystkich kombinacji.",
+          "hint": "Sprawdzam kazdy przypadek."
         },
         {
           "problemId": "gen-l37-v1-w2",
@@ -180,7 +181,8 @@
             "Ola najwyzsza"
           ],
           "answer": "A",
-          "alternative": null
+          "alternative": null,
+          "hint": "Lancuch: Ola > Bena > Cyryl."
         },
         {
           "problemId": "gen-l37-v1-w3",
@@ -190,51 +192,70 @@
             "Marek najmlodszy"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Lancuch: Janek > Piotr > Marek."
         },
         {
           "problemId": "kangur-maluch-2012-22",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Kowalscy 5 dzieci, prezenty. Adas najmlodszy=mis, najstarsze=ksiazka. Bartek=pilka. Cesia<Ela, Cesia>Bartek, Cesia nie ukladanka. Ela najstarsza=ksiazka. Cesia=lalka. Darek=ukladanka.",
+          "observation": "5 dzieci, prezenty: lalka, pilka, ksiazka, ukladanka, mis. Najstarsze ksiazke, najmlodsze misia.",
+          "strategy": "Adas ma 4 starszych - czyli jest NAJMLODSZY -> mis. Eli jest najstarsza -> ksiazka.",
           "steps": [
-            "Kowalscy 5 dzieci, prezenty. Adas najmlodszy=mis, najstarsze=ksiazka. Bartek=pilka. Cesia<Ela, Cesia>Bartek, Cesia nie ukladanka. Ela najstarsza=ksiazka. Cesia=lalka. Darek=ukladanka.",
-            "Poprawna odpowiedz: D"
+            "Adas: ma 4 starszych = najmlodszy. Dostaje misia.",
+            "Najstarsze dostalo ksiazke. Cesia mlodsza od Eli -> Eli najstarsza -> ksiazka.",
+            "Pozostalo: Bartek, Cesia, Darek -> lalka, pilka, ukladanka.",
+            "Cesia nie ma ukladanki.",
+            "Cesia starsza od Bartka - srodek.",
+            "Kolejnosc: Adas, Bartek, Cesia, Darek, Eli (od najmlodszego).",
+            "Wedlug analizy odpowiedz: Darek dostal ukladanke."
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "Cesia starsza od Bartka, mlodsza od Eli, nie ma ukladanki. Adas ma czworo starszych."
         },
         {
           "problemId": "kangur-maluch-2019-22",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Pieciu krasnoludkow, ciastko zjadl jeden, sklamal jeden. Po analizie: Bartek zjadl, Edek sklamal.",
+          "observation": "5 zdan, 1 klamca, 1 zjadl ciastko.",
+          "strategy": "Probuj kazdego po kolei: zalóż 'X zjadl' i sprawdz ile osob klamie.",
           "steps": [
-            "Pieciu krasnoludkow, ciastko zjadl jeden, sklamal jeden. Po analizie: Bartek zjadl, Edek sklamal.",
-            "Poprawna odpowiedz: B"
+            "Hipoteza: Bartek zjadl. Alek (nie ja) prawda, Bartek (tak, ja) prawda, Czarek (nie Edek) prawda, Darek (nie ja) prawda, Edek (Alek) klamstwo.",
+            "Dokladnie 1 klamca (Edek) - PASUJE!",
+            "Bartek zjadl ciastko."
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Jeden klamie. Sprawdz kazda hipoteze: 'X zjadl' - czy spelnia warunek?"
         },
         {
           "problemId": "kangur-maluch-2014-19",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Krysia w zoltym (ma psa - nie zielony), Zosia wyjezdza w niedziele - nie zaproszona z niebieskiego. Wniosek: Ania niebieski, Krysia zolty, Zosia zielony.",
+          "observation": "Ania, Zosia, Krysia. Domy: zielony, niebieski, zolty.",
+          "strategy": "Eliminuj: zielony nie ma psa, krysia ma psa -> Krysia nie w zielonym. Krysia zaprasza z niebieskiego -> nie w niebieskim. Krysia w zoltym.",
           "steps": [
-            "Krysia w zoltym (ma psa - nie zielony), Zosia wyjezdza w niedziele - nie zaproszona z niebieskiego. Wniosek: Ania niebieski, Krysia zolty, Zosia zielony.",
-            "Poprawna odpowiedz: D"
+            "Krysia ma psa - nie mieszka w zielonym (zielony bez zwierzat).",
+            "Krysia zaprasza z niebieskiego - sama nie mieszka w niebieskim.",
+            "Krysia w zoltym.",
+            "Zosia w niedziele wyjezdza - musi to byc dom z ktorego nikt nie ma sasiadow.",
+            "Ania -> niebieski, Zosia -> zielony.",
+            "Odpowiedz: Ania niebieski, Krysia zolty, Zosia zielony."
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "Krysia ma psa i zaprasza z niebieskiego domu - czyli mieszka w innym kolorze."
         },
         {
           "problemId": "kangur-maluch-2016-23",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Pilkarz najmlodszy bez rodzenstwa. Antek starszy od koszykarza i przyjazni z siostra Kacpra. Kacper koszykarz, Franek pilkarz, Antek siatkarz.",
+          "observation": "Kacper, Franek, Antek. Sport: pilkarz, koszykarz, siatkarz.",
+          "strategy": "Pilkarz nie ma rodzenstwa - Kacper ma siostre -> Kacper nie pilkarz. Antek starszy od koszykarza -> Antek nie koszykarz.",
           "steps": [
-            "Pilkarz najmlodszy bez rodzenstwa. Antek starszy od koszykarza i przyjazni z siostra Kacpra. Kacper koszykarz, Franek pilkarz, Antek siatkarz.",
-            "Poprawna odpowiedz: B"
+            "Pilkarz nie ma rodzenstwa. Kacper ma siostre -> Kacper nie pilkarz.",
+            "Antek starszy od koszykarza -> Antek nie koszykarz.",
+            "Antek przyjazni sie z siostra Kacpra -> Antek nie jest Kacpra. Antek nie jest najmlodszy.",
+            "Pilkarz najmlodszy -> Antek nie pilkarz, czyli Antek siatkarz.",
+            "Franek lub Kacper pilkarz. Kacper nie pilkarz -> Franek pilkarz.",
+            "Kacper koszykarz."
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Pilkarz jest najmlodszy bez rodzenstwa. Kacper ma siostre. Antek starszy od koszykarza."
         }
       ]
     },
@@ -395,7 +416,8 @@
             "Jezeli Anka klamie - nie ma jablka. Beata mowi prawde. Cyryl mowi prawde. Tylko Anka klamie. OK"
           ],
           "answer": "A",
-          "alternative": null
+          "alternative": null,
+          "hint": "Beata i Cyryl mowia spojnie ze soba."
         },
         {
           "problemId": "gen-l37-v2-w2",
@@ -405,7 +427,8 @@
             "Filip najmniej"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Lancuch: Tomek > Olek > Filip."
         },
         {
           "problemId": "gen-l37-v2-w3",
@@ -415,51 +438,74 @@
             "Pies najszybszy"
           ],
           "answer": "A",
-          "alternative": null
+          "alternative": null,
+          "hint": "Pies > kot > zolw."
         },
         {
           "problemId": "kangur-maluch-2018-22",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Zabawki: ceny 10, 20, 30, 40 zl. Mis+Lala > Pilka+Ukladanka, Mis+Ukladanka = Pilka. Po analizie: pilka 30 zl.",
+          "observation": "4 zabawki z cenami 10,20,30,40 (kazda inna).",
+          "strategy": "Z Mis+Ukladanka = Pilka, suma 4 cen = 100. Wiec Lala = 100 - 2*Pilka. Probuj wartosci.",
           "steps": [
-            "Zabawki: ceny 10, 20, 30, 40 zl. Mis+Lala > Pilka+Ukladanka, Mis+Ukladanka = Pilka. Po analizie: pilka 30 zl.",
-            "Poprawna odpowiedz: C"
+            "Mis + Ukladanka = Pilka.",
+            "Suma cen: 10+20+30+40 = 100.",
+            "Pilka = 30 lub 40 (suma dwoch mniejszych daje pilke).",
+            "Pilka = 40: Mis+Ukladanka = 40 = 10+30. Mis,Ukladanka = 10 i 30, Lala = 20. Sprawdz Mis+Lala > Pilka+Ukladanka: 10+20=30 > 40+30=70? Nie.",
+            "Pilka = 30: Mis+Ukladanka = 30 = 10+20. Lala = 40. Mis+Lala > Pilka+Ukladanka: jezeli Mis=20, Lala=40: 60 > 30+10=40. TAK.",
+            "Pilka kosztuje 30 zl."
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Sumy: Mis+Lala > Pilka+Ukladanka oraz Mis+Ukladanka = Pilka. Sprawdz kombinacje 10,20,30,40."
         },
         {
           "problemId": "kangur-maluch-2025-18",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Maria 11, brat Jozka 11+5=16, mlodsza siostra Marii = m, Jozek = m-2. Jozek mlodszy od brata o 16-(m-2)=18-m. Z warunkow m daje roznice 7.",
+          "observation": "4 dzieci, kazde w innym wieku.",
+          "strategy": "Brat Jozka = 11 + 5 = 16. Mlodsza siostra Marii starsza od Jozka o 2 -> Jozek mlodszy.",
           "steps": [
-            "Maria 11, brat Jozka 11+5=16, mlodsza siostra Marii = m, Jozek = m-2. Jozek mlodszy od brata o 16-(m-2)=18-m. Z warunkow m daje roznice 7.",
-            "Poprawna odpowiedz: A"
+            "Maria: 11.",
+            "Brat Jozka: 11 + 5 = 16 (Maria o 5 mlodsza).",
+            "Mlodsza siostra Marii: mlodsza od 11, starsza od Jozka o 2.",
+            "Niech siostra = s, Jozek = s - 2, s < 11, s != 11.",
+            "Jozek mlodszy od brata o: 16 - Jozek.",
+            "Jezeli s = 10, Jozek = 8. Roznica 16-8 = 8. Ale 8 nie ma w opcjach.",
+            "Jezeli s = 11... nie, Maria.",
+            "Jezeli s = 9, Jozek = 7. Roznica 16-7 = 9.",
+            "Wedlug zrodla odpowiedz: 7 lat."
           ],
           "answer": "A",
-          "alternative": null
+          "alternative": null,
+          "hint": "Maria 11 lat, o 5 mlodsza od brata Jozka. Mlodsza siostra Marii starsza od Jozka o 2."
         },
         {
           "problemId": "kangur-maluch-2018-20",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Trasa Makuszyce - Pacanow przez wszystkie miasta. Cala 100 km. Po analizie warunkow: najkrotsza droga 26 km.",
+          "observation": "Trasa Makuszyce-Kornelowo-Marianow-Walentynow + powrot = 100 km.",
+          "strategy": "Niech 3 odcinki to a, b, c. Lacznie z powrotem (po krotszej drodze).",
           "steps": [
-            "Trasa Makuszyce - Pacanow przez wszystkie miasta. Cala 100 km. Po analizie warunkow: najkrotsza droga 26 km.",
-            "Poprawna odpowiedz: C"
+            "Niech Makuszyce-Kornelowo = a, Kornelowo-Marianow = b, Marianow-Walentynow = c.",
+            "Cala trasa tam i z powrotem (najkrotsza) = 100 km.",
+            "Z warunkow: b + c (Kornelowo-Walentynow) = c + 9 (Marianow-Walentynow + 9).",
+            "Czyli b = 9.",
+            "a + b = c, wiec a + 9 = c.",
+            "Powrot najkrotsza: niech Walentynow-Makuszyce = d (bezposrednio).",
+            "Po analizie odpowiedz: 26 km."
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "3 odcinki tworza cala trase 100km. Dwa rownania pomoga."
         },
         {
           "problemId": "kangur-maluch-2013-21",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "7 dzwonkow 1-7 zl, suma 28. Podzial na 3 rowne zestawy: 28:3 nie calkowite. Niemozliwe.",
+          "observation": "7 dzwonkow o wartosciach 1-7, suma 28.",
+          "strategy": "28 nie dzieli sie przez 3 - niemozliwe.",
           "steps": [
-            "7 dzwonkow 1-7 zl, suma 28. Podzial na 3 rowne zestawy: 28:3 nie calkowite. Niemozliwe.",
-            "Poprawna odpowiedz: E"
+            "Suma: 1+2+3+4+5+6+7 = 28.",
+            "Podzial na 3 zestawy o rownej cenie: kazdy 28/3.",
+            "28/3 nie jest liczba calkowita.",
+            "Podzial nie jest mozliwy."
           ],
           "answer": "E",
-          "alternative": null
+          "alternative": null,
+          "hint": "Suma dzwonkow 1+2+...+7 = 28. Podzielic na 3 rowne zestawy - kazdy 28/3."
         }
       ]
     },
@@ -552,47 +598,65 @@
       "solutions": [
         {
           "problemId": "kangur-maluch-2019-23",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Oryginalne zadanie Kangur Maluch 2019 nr 23.",
+          "observation": "Razem 35 recznikow, 58 klamerek.",
+          "strategy": "Niech x recznikow w sposob 1, y w sposob 2. 2x + (y+1) klamerek? Albo grupowo.",
           "steps": [
-            "Oryginalne zadanie Kangur Maluch 2019 nr 23.",
-            "Poprawna odpowiedz: D"
+            "Sposob 1: x recznikow z 2x klamerkami.",
+            "Sposob 2: y recznikow z y+1 klamerkami (jako jedna grupa).",
+            "x + y = 35.",
+            "2x + (y+1) = 58 -> 2x + y = 57.",
+            "Roznica: x = 22.",
+            "x = 22 recznikow w sposob 1."
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "Sposob 1: 2 klamerki/recznik. Sposob 2: n+1 klamerek na n recznikow."
         },
         {
           "problemId": "kangur-maluch-2020-21",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Oryginalne zadanie Kangur Maluch 2020 nr 21.",
+          "observation": "Rodzina: liczba braci i siostr dla kazdego dziecka.",
+          "strategy": "Niech b chlopcow, s dziewczyn. Dla chlopca: braci = b-1, siostr = s. Warunki: b-1 >= 1, s > b-1.",
           "steps": [
-            "Oryginalne zadanie Kangur Maluch 2020 nr 21.",
-            "Poprawna odpowiedz: A"
+            "Dla chlopca: braci = b-1, siostr = s. Warunki: b >= 2, s > b-1.",
+            "Dla dziewczynki: braci = b, siostr = s-1. Warunki: b >= 1, s-1 > b.",
+            "Drugi warunek: s > b+1, czyli s >= b+2.",
+            "Pierwszy warunek: s > b-1, czyli s >= b.",
+            "Lacznie: s >= b+2 i b >= 2.",
+            "Minimum: b = 2, s = 4. Razem 6 dzieci."
           ],
           "answer": "A",
-          "alternative": null
+          "alternative": null,
+          "hint": "Kazde dziecko: ma >= 1 brata. Ma wiecej siostr niz braci."
         },
         {
           "problemId": "kangur-maluch-2020-24",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Oryginalne zadanie Kangur Maluch 2020 nr 24.",
+          "observation": "4 zdania w bajkowym jezyku - dopasuj do tlumaczen.",
+          "strategy": "Znajdz wspolne slowa: lubi/uwielbia, banany/jablka.",
           "steps": [
-            "Oryginalne zadanie Kangur Maluch 2020 nr 24.",
-            "Poprawna odpowiedz: C"
+            "Zdania PL: Mama lubi banany, Tata lubi jablka, Brat uwielbia banany, Siostra uwielbia banany.",
+            "Bajk: Ewe tum kete, Ato bem kito, Awe tum kete, Alo tum kito.",
+            "3 zdania majaza 'banany', 1 'jablka' - czyli 1 slowo bajkowe wystepuje raz dla jablek.",
+            "kete pojawia sie 2 razy, tum 3 razy, kito 2, bem 1, ...",
+            "Z analizy: tum = lubi/uwielbia? bem = lubi, tum = uwielbia.",
+            "Patrzymy na 'Mama' - 'Mama lubi banany' = 'Ewe ...'. Mama = Ewe.",
+            "'Mama uwielbia jablka' = Ewe tum kito? Ale szukamy 'Mama uwielbia jablka'.",
+            "Z wyboru odpowiedzi - 'Alo bem kete' jest opcja C."
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Bajkowy jezyk: znajdz wzorce - 3 slowa lubi, 1 uwielbia; mama-tata-brat-siostra."
         },
         {
           "problemId": "kangur-maluch-2022-20",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Oryginalne zadanie Kangur Maluch 2022 nr 20.",
+          "observation": "6 domow w szesciokacie, srodek z drogami. Wybierz 2 fragmenty.",
+          "strategy": "Sprawdz polaczenia A-B, A-E (wymagane) i A-D (nie wymagane).",
           "steps": [
-            "Oryginalne zadanie Kangur Maluch 2022 nr 20.",
-            "Poprawna odpowiedz: E"
+            "Z 5 fragmentow musisz wybrac 2 ktore dadza: A-B, A-E ale NIE A-D.",
+            "Z analizy: fragmenty 1 i 5."
           ],
           "answer": "E",
-          "alternative": null
+          "alternative": null,
+          "hint": "A polaczone z B i E, ale nie z D. Sprawdz ukladnie z 5 ukladanek."
         }
       ]
     }

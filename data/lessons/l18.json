@@ -168,7 +168,8 @@
             "Obwod = 2 razy (6 + 4) = 2 razy 10 = 20 cm"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Obwod = suma bokow prostokata."
         },
         {
           "problemId": "gen-l18-v1-w2",
@@ -178,7 +179,8 @@
             "Obwod = 4 razy 7 = 28 cm"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Kwadrat - 4 rowne boki."
         },
         {
           "problemId": "gen-l18-v1-w3",
@@ -188,7 +190,8 @@
             "Obwod = 3 razy 5 = 15 cm"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Trojkat rownoboczny - 3 rowne boki."
         },
         {
           "problemId": "kangur-maluch-2019-16",
@@ -198,7 +201,8 @@
             "Ramka wokol 10x10: 4 razy 10 + 4 = 44 plytki"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Ramka wokol kwadratowego obrazka."
         },
         {
           "problemId": "kangur-maluch-2021-15",
@@ -209,7 +213,8 @@
             "Szukana dlugosc to 20 cm"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Szukamy dlugosci z wymiarow prostokatow."
         },
         {
           "problemId": "kangur-maluch-2019-20",
@@ -220,7 +225,8 @@
             "Jej dlugosc to 69 metrow"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Linia srodkiem zakrzywionego korytarza."
         },
         {
           "problemId": "kangur-maluch-2018-23",
@@ -231,7 +237,8 @@
             "Caly prostokat to 198 malych kwadratow"
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "Prostokat podzielony na kwadraty - skalowanie."
         }
       ]
     },
@@ -391,7 +398,8 @@
             "Obwod = 2 razy (8 + 5) = 2 razy 13 = 26 cm"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Obwod prostokata = 2 razy (dlugosc + szerokosc)."
         },
         {
           "problemId": "gen-l18-v2-w2",
@@ -401,7 +409,8 @@
             "Bok = obwod : 4 = 24 : 4 = 6 cm"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Obwod kwadratu = 4 razy bok."
         },
         {
           "problemId": "gen-l18-v2-w3",
@@ -411,7 +420,8 @@
             "Obwod = 2 razy (5 + 2) = 2 razy 7 = 14 boczkow"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Obwod = suma bokow prostokata."
         },
         {
           "problemId": "kangur-maluch-2024-11",
@@ -422,7 +432,8 @@
             "Z ukladu plytek bok kwadratowej to 6 cm"
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "Bok plytki kwadratowej z wymiarow plytki prostokatnej."
         },
         {
           "problemId": "gen-l18-v2-w5",
@@ -432,7 +443,8 @@
             "Obwod = 4 razy 9 = 36 cm"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Kwadrat - 4 rowne boki."
         },
         {
           "problemId": "kangur-maluch-2025-17",
@@ -443,7 +455,8 @@
             "Kazdy ma wymiary 12 cm na 40 cm"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Wymiary 11 identycznych prostokatow."
         },
         {
           "problemId": "kangur-maluch-2025-24",
@@ -454,7 +467,8 @@
             "Krotszy bok prostokata jest o 6 cm krotszy od boku kwadratu"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Prostokat ciety na kwadrat."
         }
       ]
     },
@@ -487,14 +501,19 @@
       "solutions": [
         {
           "problemId": "kangur-maluch-2022-18",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Oryginalne zadanie Kangur Maluch 2022 nr 18.",
+          "observation": "Kartka 6x6 (liczby 1-36) zgieta poziomo i pionowo. Otwor dziurkuje 4 liczby naraz.",
+          "strategy": "Sledz symetrie: kazda dziurka odpowiada 4 liczbom (po jednym z kazdej cwiartki).",
           "steps": [
-            "Oryginalne zadanie Kangur Maluch 2022 nr 18.",
-            "Poprawna odpowiedz: E"
+            "Zgiecie poziome: gorna polowa (1-18) lozy na dolnej (19-36). Para 1<->31, 2<->32, ..., 6<->36.",
+            "Wiersze 1<->6, 2<->5, 3<->4.",
+            "Zgiecie pionowe: lewa polowa na prawa. Kolumny 1<->6, 2<->5, 3<->4.",
+            "Otwor w gorny srodek 3x3 - liczba 14 (wiersz 3, kolumna 2).",
+            "Liczby symetryczne: 14, 17 (po pionie), 20, 23 (po poziomie i pionie).",
+            "Odpowiedz: 14, 17, 20, 23."
           ],
           "answer": "E",
-          "alternative": null
+          "alternative": null,
+          "hint": "Kazde zlozenie odbija liczby symetrycznie. Po dwoch zlozeniach jeden punkt = 4 liczby."
         }
       ]
     }

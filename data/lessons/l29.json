@@ -168,7 +168,8 @@
             "2 l = 2 razy 1000 = 2000 ml"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "1 l = 1000 ml."
         },
         {
           "problemId": "gen-l29-v1-w2",
@@ -178,7 +179,8 @@
             "3000 : 1000 = 3 l"
           ],
           "answer": "A",
-          "alternative": null
+          "alternative": null,
+          "hint": "Dziel przez 1000."
         },
         {
           "problemId": "gen-l29-v1-w3",
@@ -188,7 +190,8 @@
             "1 l = 1000 ml, 250 = 1000:4 = cwierc litra"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "250 ml = 1/4 litra."
         },
         {
           "problemId": "gen-l29-v1-w4",
@@ -198,7 +201,8 @@
             "1000 : 250 = 4 szklanki"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "4 razy 250 ml = 1000 ml."
         },
         {
           "problemId": "gen-l29-v1-w5",
@@ -208,7 +212,8 @@
             "Typowa butelka mineralnej to 500 ml"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Standardowa butelka ~500 ml."
         },
         {
           "problemId": "gen-l29-v1-c1",
@@ -219,7 +224,8 @@
             "8000 - 750 = 7250 ml"
           ],
           "answer": "A",
-          "alternative": null
+          "alternative": null,
+          "hint": "Sprowadz wszystko na ml."
         },
         {
           "problemId": "gen-l29-v1-c2",
@@ -230,7 +236,8 @@
             "5000 : 250 = 20 butelek"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Sprowadz na ml i dziel."
         }
       ]
     },
@@ -390,7 +397,8 @@
             "1.5 razy 1000 = 1500 ml"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "1.5 l to 1500 ml."
         },
         {
           "problemId": "gen-l29-v2-w2",
@@ -400,7 +408,8 @@
             "1000:2 = 500 ml"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Pol litra = 500 ml."
         },
         {
           "problemId": "gen-l29-v2-w3",
@@ -410,7 +419,8 @@
             "1 l = 1000 ml > 700 ml"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Zamien na ml i porownaj."
         },
         {
           "problemId": "gen-l29-v2-w4",
@@ -420,7 +430,8 @@
             "1500 : 250 = 6 szklanek"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "1.5 l = 1500 ml."
         },
         {
           "problemId": "gen-l29-v2-w5",
@@ -430,7 +441,8 @@
             "Wiadro ~10 l, reszta mniej"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Wiadro ma najwieksza pojemnosc."
         },
         {
           "problemId": "gen-l29-v2-c1",
@@ -440,7 +452,8 @@
             "50 - 23 = 27 l"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Akwarium 50 l minus 23 l."
         },
         {
           "problemId": "gen-l29-v2-c2",
@@ -453,7 +466,8 @@
             "Zostalo: 2000 - 1000 - 400 = 600 ml"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Sprowadz na ml."
         }
       ]
     }

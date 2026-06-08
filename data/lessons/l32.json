@@ -168,7 +168,8 @@
             "kg = masa"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Kilogramy mierza mase."
         },
         {
           "problemId": "gen-l32-v1-w2",
@@ -178,7 +179,8 @@
             "l = pojemnosc"
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "Litry mierza pojemnosc."
         },
         {
           "problemId": "gen-l32-v1-w3",
@@ -188,7 +190,8 @@
             "25 : 5 = 5 zl/m"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Cena za 1 m = cena lacznie : ilosc metrow."
         },
         {
           "problemId": "gen-l32-v1-w4",
@@ -198,7 +201,8 @@
             "4 razy 3 = 12 km"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Odleglosc = predkosc razy czas."
         },
         {
           "problemId": "kangur-maluch-2016-2",
@@ -210,7 +214,8 @@
             "36 - 15 = 21 mies"
           ],
           "answer": "E",
-          "alternative": null
+          "alternative": null,
+          "hint": "Witek 1 rok 3 miesiace, do 3 lat ile miesiecy."
         },
         {
           "problemId": "gen-l32-v1-c1",
@@ -221,7 +226,8 @@
             "2.5 razy 4 = 10 zl"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Zamien 2 kg 500 g na pol kg."
         },
         {
           "problemId": "gen-l32-v1-c2",
@@ -232,7 +238,8 @@
             "1500 : 100 = 15 min"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Sciezka 1500 m, predkosc 100 m/min."
         }
       ]
     },
@@ -392,7 +399,8 @@
             "sek = czas"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Sekundy mierza czas."
         },
         {
           "problemId": "gen-l32-v2-w2",
@@ -402,7 +410,8 @@
             "200 razy 5 = 1000 m"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Odleglosc = predkosc razy czas."
         },
         {
           "problemId": "gen-l32-v2-w3",
@@ -412,7 +421,8 @@
             "3 razy 6 = 18 zl"
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "Cena = stawka razy ilosc."
         },
         {
           "problemId": "gen-l32-v2-w4",
@@ -422,7 +432,8 @@
             "100 + 50 = 150 cm"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "1 m = 100 cm, plus 50 = 150 cm."
         },
         {
           "problemId": "gen-l32-v2-w5",
@@ -432,7 +443,8 @@
             "5 razy 3 zl = 15 zl"
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "Pol kg = 500 g = 5 razy 100 g."
         },
         {
           "problemId": "gen-l32-v2-c1",
@@ -442,7 +454,8 @@
             "42 : 6 = 7 godz"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Maraton 42 km, 6 km/h."
         },
         {
           "problemId": "gen-l32-v2-c2",
@@ -453,7 +466,8 @@
             "3 razy 4 zl = 12 zl"
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "2 butelki po 1.5 l = 3 l."
         }
       ]
     }

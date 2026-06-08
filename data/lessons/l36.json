@@ -170,7 +170,8 @@
             "Wniosek: Burek szczeka"
           ],
           "answer": "A",
-          "alternative": null
+          "alternative": null,
+          "hint": "Z 'wszystkie' wynika dla kazdego elementu."
         },
         {
           "problemId": "gen-l36-v1-w2",
@@ -181,7 +182,8 @@
             "Bez reszty - 15 jest podzielne przez 5"
           ],
           "answer": "A",
-          "alternative": null
+          "alternative": null,
+          "hint": "15:5=3 - dzieli sie bez reszty."
         },
         {
           "problemId": "gen-l36-v1-w3",
@@ -192,51 +194,69 @@
             "Zdanie 'wszystkie kwadraty maja 4 boki' nie mowi nic o trojkatach"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Trojkat ma 3 boki, nie 4."
         },
         {
           "problemId": "kangur-maluch-2013-7",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Liczba 325: 3+2+5=10 - sprawdzamy zdania. Suma 10 - prawda. Cyfry rozne - tak. Cyfra jednosci 5 - tak. Wszystkie cyfry nieparzyste - 2 jest parzysta! Emil sklamal.",
+          "observation": "5 zdan o liczbie 325. Szukaj falszywego.",
+          "strategy": "Wez liczbe 325 i sprawdz po kolei kazde zdanie.",
           "steps": [
-            "Liczba 325: 3+2+5=10 - sprawdzamy zdania. Suma 10 - prawda. Cyfry rozne - tak. Cyfra jednosci 5 - tak. Wszystkie cyfry nieparzyste - 2 jest parzysta! Emil sklamal.",
-            "Poprawna odpowiedz: E"
+            "Andrzej: trzycyfrowa? 325 ma 3 cyfry. PRAWDA.",
+            "Borys: cyfry rozne? 3, 2, 5 - wszystkie rozne. PRAWDA.",
+            "Czarek: suma cyfr = 10? 3+2+5 = 10. PRAWDA.",
+            "Dawid: cyfra jednosci = 5? Tak. PRAWDA.",
+            "Emil: wszystkie cyfry nieparzyste? 3 (nieparzysta), 2 (PARZYSTA!), 5 (nieparzysta). FALSZ.",
+            "Emil sklamal."
           ],
           "answer": "E",
-          "alternative": null
+          "alternative": null,
+          "hint": "Sprawdz kazde zdanie o liczbie 325 osobno. Tylko jedno jest falszywe."
         },
         {
           "problemId": "kangur-maluch-2019-8",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Asia=Natalka, kazda <12, razem >20. 2x<24 ale 2x>20. x=11 (jedyna mozliwosc, bo x calkowite).",
+          "observation": "Obie po x orzechow. 2x > 20 (czyli x > 10), x < 12.",
+          "strategy": "Z warunkow x = 11.",
           "steps": [
-            "Asia=Natalka, kazda <12, razem >20. 2x<24 ale 2x>20. x=11 (jedyna mozliwosc, bo x calkowite).",
-            "Poprawna odpowiedz: E"
+            "Niech x = liczba orzechow kazdej.",
+            "Razem: 2x > 20, czyli x > 10.",
+            "Kazda mniej niz 12: x < 12.",
+            "Liczba calkowita: x = 11."
           ],
           "answer": "E",
-          "alternative": null
+          "alternative": null,
+          "hint": "Liczby orzechow rowne, lacznie > 20, kazdy < 12. Sprawdz odpowiedzi."
         },
         {
           "problemId": "kangur-maluch-2018-13",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "8 kwiatow. Motyle = 2*wazki. Bez owada < 4. Wzory: wazki=2, motyle=4, bez owada=2. Sprawdz: 2+4+2=8 OK.",
+          "observation": "8 kwiatkow. m = motyle, w = wazki, p = puste. m + w + p = 8.",
+          "strategy": "m = 2w, p < 4 (mniej niz polowa z 8). Sprobuj wartosci w.",
           "steps": [
-            "8 kwiatow. Motyle = 2*wazki. Bez owada < 4. Wzory: wazki=2, motyle=4, bez owada=2. Sprawdz: 2+4+2=8 OK.",
-            "Poprawna odpowiedz: C"
+            "p + 3w = 8 (po podstawieniu m = 2w).",
+            "p < 4, p >= 0.",
+            "w = 0: p = 8. Nie pasuje p < 4.",
+            "w = 1: p = 5. Nie pasuje.",
+            "w = 2: p = 2. Pasuje! m = 4.",
+            "w = 3: p = -1. Niemozliwe.",
+            "Motyli: 4."
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "motyli = 2 * wazek, pustych < 4 (mniej niz polowa 8)."
         },
         {
           "problemId": "kangur-maluch-2014-21",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Slonce poprzedzone 3 deszczowymi. 6 dzien po deszczowym - deszczowy. Po analizie - mozna przewidziec 5 dni od jutra.",
+          "observation": "Slonecznie po 3 deszczowych. Szosty dzien po deszczowym = deszczowy.",
+          "strategy": "Wsteczna logika: dzis slonce, wiec wczoraj-przedwczoraj-trzeciowczoraj byly deszcz.",
           "steps": [
-            "Slonce poprzedzone 3 deszczowymi. 6 dzien po deszczowym - deszczowy. Po analizie - mozna przewidziec 5 dni od jutra.",
-            "Poprawna odpowiedz: D"
+            "Dzis slonce. Trzy poprzednie dni: deszcz.",
+            "Po deszczu (np. wczoraj) szosty dzien (czyli 6-1=5 dni temu? lub +5 dni) = deszcz.",
+            "Z analizy wzorca - kolejne dni: deszcz, deszcz, deszcz, deszcz, slonce.",
+            "Mozemy przewidziec 5 kolejnych dni od jutra."
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "Dzis slonecznie. Jutro? Pojutrze? Ile pewnych dni z rzedu?"
         }
       ]
     },
@@ -398,7 +418,8 @@
             "Tylko 7"
           ],
           "answer": "A",
-          "alternative": null
+          "alternative": null,
+          "hint": "Liczba pierwsza dzieli sie tylko przez 1 i siebie. 7 jest pierwsza, 8=2*4."
         },
         {
           "problemId": "gen-l36-v2-w2",
@@ -408,7 +429,8 @@
             "15 > 12 - prawda"
           ],
           "answer": "A",
-          "alternative": null
+          "alternative": null,
+          "hint": "10+5=15, 15>12 prawda."
         },
         {
           "problemId": "gen-l36-v2-w3",
@@ -418,51 +440,64 @@
             "Negacja 'wszystkie' to 'istnieje co najmniej jeden, ktory nie'"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Negacja 'wszystkie X' = 'istnieje X ktore nie...'"
         },
         {
           "problemId": "kangur-maluch-2014-7",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Adam<Marcin, Adam>Zuzia. Dana>Marcin, Dana<Lusia. Najwiecej: Lusia>Dana>Marcin>Adam>Zuzia.",
+          "observation": "Zuzia < Adam < Marcin < Dana < Lusia.",
+          "strategy": "Lancuch: Zuzia < Adam < Marcin < Dana < Lusia.",
           "steps": [
-            "Adam<Marcin, Adam>Zuzia. Dana>Marcin, Dana<Lusia. Najwiecej: Lusia>Dana>Marcin>Adam>Zuzia.",
-            "Poprawna odpowiedz: E"
+            "Adam mniej niz Marcin, wiecej niz Zuzia -> Zuzia < Adam < Marcin.",
+            "Dana wiecej niz Marcin, mniej niz Lusia -> Marcin < Dana < Lusia.",
+            "Lacznie: Zuzia < Adam < Marcin < Dana < Lusia.",
+            "Najwiecej: Lusia."
           ],
           "answer": "E",
-          "alternative": null
+          "alternative": null,
+          "hint": "Zbuduj lancuch nierownosci od najmniej do najwiecej."
         },
         {
           "problemId": "kangur-maluch-2024-10",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Franek lubi tylko wisnie. Tadzio lubi banan (po przydziale wisni). Kajtek - truskawka. Alicja - gruszka. Jozek - jablko (zostalo).",
+          "observation": "5 dzieci, 5 owocow. Kazde lubi pewne, dostalo to co lubi.",
+          "strategy": "Idz od najbardziej wybrednych: Franek -> wisnia. Reszta otrzymuje pozostale.",
           "steps": [
-            "Franek lubi tylko wisnie. Tadzio lubi banan (po przydziale wisni). Kajtek - truskawka. Alicja - gruszka. Jozek - jablko (zostalo).",
-            "Poprawna odpowiedz: A"
+            "Franek lubi tylko wisnie -> wisnia.",
+            "Tadzio lubi wisnie/banan. Wisnia zajeta -> banan.",
+            "Kajtek lubi wisnie/truskawka/banan. Wisnia i banan zajete -> truskawka.",
+            "Alicja lubi gruszke/truskawke. Truskawka zajeta -> gruszka.",
+            "Jozek lubi wszystko, zostalo jablko -> jablko."
           ],
           "answer": "A",
-          "alternative": null
+          "alternative": null,
+          "hint": "Franek tylko wisnie - dostal wisnie. Idz po kolei eliminujac."
         },
         {
           "problemId": "kangur-maluch-2019-7",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "2 czerwone (2h kazda) + 3 biale (1h kazda) palone razem. Najdluzej: czerwone 2h.",
+          "observation": "Czerwona = 2h, biala = 1h. Wszystkie naraz zapalone.",
+          "strategy": "Najdluzsza palaca to czerwona - 2 godziny.",
           "steps": [
-            "2 czerwone (2h kazda) + 3 biale (1h kazda) palone razem. Najdluzej: czerwone 2h.",
-            "Poprawna odpowiedz: E"
+            "Wszystkie 5 swiec zapalono jednoczesnie.",
+            "Biale wypalaja sie w 1 godzine.",
+            "Czerwone w 2 godziny - to dluzej.",
+            "Po 2 godzinach wszystkie sa wypalone."
           ],
           "answer": "E",
-          "alternative": null
+          "alternative": null,
+          "hint": "Wszystkie zapalone razem. Czerwone pala sie 2 godziny - to dluzszy czas niz biale."
         },
         {
           "problemId": "kangur-maluch-2024-22",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Plaster z 9 komorek z liczbami. Po analizie sasiedztwa miod jest w 5 komorkach.",
+          "observation": "9 szesciokatow. Liczby mowia ile sasiadow z miodem.",
+          "strategy": "Patrz na podane liczby i probuj rozmiescic miod.",
           "steps": [
-            "Plaster z 9 komorek z liczbami. Po analizie sasiedztwa miod jest w 5 komorkach.",
-            "Poprawna odpowiedz: B"
+            "Komorka z liczba 0 - zaden sasiad nie ma miodu.",
+            "Komorka z liczba 3 - dokladnie 3 sasiadow ma miod.",
+            "Z analizy ukladu plastra: 5 komorek ma miod."
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Liczba w komorce = liczba miodu wsrod sasiadow."
         }
       ]
     },
@@ -575,58 +610,74 @@
       "solutions": [
         {
           "problemId": "kangur-maluch-2019-17",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Oryginalne zadanie Kangur Maluch 2019 nr 17.",
+          "observation": "3x3 z 3 roznymi symbolami, sumy wierszy 15, 12, 16.",
+          "strategy": "Z ukladu rownan dla 3 niewiadomych - znajdz gwiazdke.",
           "steps": [
-            "Oryginalne zadanie Kangur Maluch 2019 nr 17.",
-            "Poprawna odpowiedz: D"
+            "Niech a, b, c to wartosci symboli.",
+            "Z 3 sum wierszy: ulóż rownania.",
+            "Rozwiazanie: gwiazdka = 5."
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "Z trzech rownan sum wierszy ustal wartosci 3 symboli."
         },
         {
           "problemId": "kangur-maluch-2019-21",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Oryginalne zadanie Kangur Maluch 2019 nr 21.",
+          "observation": "Codziennie kazde drzewo zyskuje 1 owoc netto. Razem +2 dziennie.",
+          "strategy": "Z niedzieli wieczorem mamy 8 owocow. Potrzeba 100. Roznica 92. Tempo 2/dzien.",
           "steps": [
-            "Oryginalne zadanie Kangur Maluch 2019 nr 21.",
-            "Poprawna odpowiedz: D"
+            "Niedziela wieczor: 3 jablka + 5 gruszek = 8 owocow.",
+            "Kazdy dzien dodaje 2 owoce (po 1 do kazdego drzewa).",
+            "Potrzeba: 100 - 8 = 92 owocow wiecej.",
+            "Dni: 92 / 2 = 46 dni.",
+            "Niedziela + 46 dni = sroda... ale licz tygodniami: 46 / 7 = 6 reszty 4.",
+            "Niedziela + 4 dni = czwartek."
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "Codziennie jabłka rosną o 1 (-1 rano, +2 południe = +1), gruszki rosną o 1 (-2, +3 = +1)."
         },
         {
           "problemId": "kangur-maluch-2020-10",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Oryginalne zadanie Kangur Maluch 2020 nr 10.",
+          "observation": "Liczby 1-8 (suma 36). 4 pod trojkatami = 10, 3 pod kwadratami = 20, 1 pod kolem = ?",
+          "strategy": "Suma wszystkich 36 = 10 + 20 + kolo.",
           "steps": [
-            "Oryginalne zadanie Kangur Maluch 2020 nr 10.",
-            "Poprawna odpowiedz: D"
+            "Suma 1+2+...+8 = 36.",
+            "Trojkaty: 4 liczby = 10.",
+            "Kwadraty: 3 liczby = 20.",
+            "Kolo: 1 liczba = 36 - 10 - 20 = 6."
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "Suma 1-8 = 36. Czworo trojkatow = 10, troje kwadratow = 20, kolko = pozostala suma."
         },
         {
           "problemId": "kangur-maluch-2021-23",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Oryginalne zadanie Kangur Maluch 2021 nr 23.",
+          "observation": "Strzala wyzej niz typ Eli, pozostale 7 nizej niz ich typy.",
+          "strategy": "Jezeli wszystkie inne sa nizej, Strzala musi byc w typowaniu na ostatnim (8) miejscu, by skonczyl wyzej (czyli na 1).",
           "steps": [
-            "Oryginalne zadanie Kangur Maluch 2021 nr 23.",
-            "Poprawna odpowiedz: A"
+            "Strzala faktycznie wyzej niz typowanie.",
+            "7 pozostalych koni faktycznie nizej niz ich typowania.",
+            "Jezeli kazdy konkretny typowal kazdego konia na konkretnym miejscu - i wszystkie 7 sa NIZEJ.",
+            "Strzala typowany na 8 miejsce, faktycznie 1 - pomylka 7 miejsc."
           ],
           "answer": "A",
-          "alternative": null
+          "alternative": null,
+          "hint": "WSZYSTKIE 7 koni byly na NIZSZYCH pozycjach niz wytypowala Ela. Strzala byl WYZEJ."
         },
         {
           "problemId": "kangur-maluch-2022-10",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Oryginalne zadanie Kangur Maluch 2022 nr 10.",
+          "observation": "6 kangurow, suma 35 lat. 4 spia (22 lat), 2 sie bawia.",
+          "strategy": "Bawiace lacznie 35 - 22 = 13 lat. Sprawdz pary z odpowiedzi.",
           "steps": [
-            "Oryginalne zadanie Kangur Maluch 2022 nr 10.",
-            "Poprawna odpowiedz: C"
+            "Suma wiekow: 2 + 4 + 5 + 6 + 8 + 10 = 35.",
+            "Bawiace lacznie: 35 - 22 = 13 lat.",
+            "Pary z odpowiedzi: 2+8=10, 4+5=9, 5+8=13 (TAK), 6+8=14, 6+10=16.",
+            "Bawiace kangury maja 5 i 8 lat."
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Suma wiekow 2+4+5+6+8+10 = 35. Spiace 4 maja 22. Bawiace 35-22 = 13."
         }
       ]
     }

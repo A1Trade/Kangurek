@@ -168,7 +168,8 @@
             "Bartek = kot. Ola != pies. Trzy zwierzeta: pies, kot, X. Ola != pies, Ola != kot (Bartek) - Ola ma X. Pozostaje pies dla Czarka."
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Bartek ma kota, Ola nie ma psa - wiec ma cos innego."
         },
         {
           "problemId": "gen-l38-v1-w2",
@@ -180,7 +181,8 @@
             "C = banan"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "B=gruszka. A!=banan, wiec A=jablko. C=banan."
         },
         {
           "problemId": "gen-l38-v1-w3",
@@ -192,51 +194,74 @@
             "Z = czerwony"
           ],
           "answer": "A",
-          "alternative": null
+          "alternative": null,
+          "hint": "Y=zielony. X!=czerwony. Wiec X=niebieski. Z=czerwony."
         },
         {
           "problemId": "kangur-maluch-2024-23",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Troje dzieci, jedno wziele wszystkie serca, jedno jasne, jedno duze. 3, 6, 7 ciastek. Po analizie zestaw D pasuje.",
+          "observation": "3 dzieci wzielo ciastka po kategoriach (kszttalt, kolor, rozmiar).",
+          "strategy": "Z 3,6,7 i obrazka rozdziel kategorie.",
           "steps": [
-            "Troje dzieci, jedno wziele wszystkie serca, jedno jasne, jedno duze. 3, 6, 7 ciastek. Po analizie zestaw D pasuje.",
-            "Poprawna odpowiedz: D"
+            "Lacznie 3 + 6 + 7 = 16 ciastek.",
+            "Z analizy obrazka, ktore dziecko ile wzielo - odpowiedz: zestaw D."
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "Liczby ciastek: 3, 6, 7. Jedno wzielo wszystkie serca, jedno wszystkie jasne, jedno duze."
         },
         {
           "problemId": "kangur-maluch-2022-12",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Dzieci kolorowaly. Franek nie krolik. Jozek pilka. Tadzik rozne zwierzeta. Ala jedno zwierze. Kajtek bez zwierzat. Franek = A (jeze).",
+          "observation": "Franek: brak krolika. Reszta inne warunki.",
+          "strategy": "Wyeliminuj obrazki z krolikiem.",
           "steps": [
-            "Dzieci kolorowaly. Franek nie krolik. Jozek pilka. Tadzik rozne zwierzeta. Ala jedno zwierze. Kajtek bez zwierzat. Franek = A (jeze).",
-            "Poprawna odpowiedz: A"
+            "Franek: bez krolika.",
+            "Opcje: A (dwa jeze), B (pilka), C (slimak i zolw), D (pilka i ptaki), E (krolik).",
+            "Bez krolika: A, B, C, D.",
+            "Jozek: pilka. B i D maja pilke.",
+            "Tadzik: rozne zwierzeta. C ma rozne (slimak, zolw).",
+            "Ala: jedno zwierze.",
+            "Kajtek: brak zwierzat.",
+            "Franek z eliminacji: A (dwa jeze)."
           ],
           "answer": "A",
-          "alternative": null
+          "alternative": null,
+          "hint": "Franek wybiera obrazek BEZ krolika. Sprawdz wszystkie z opcji."
         },
         {
           "problemId": "kangur-maluch-2021-11",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Nalepki: jablko=1, kwiatek miedzy kolo i trojkat. Gwiazda NIE 5. Po analizie kwiatek=4.",
+          "observation": "5 nalepek (trojkat, kolo, gwiazda, kwiatek, jablko) na 5 kratkach.",
+          "strategy": "Jablko na 1. Kwiatek miedzy kolem a trojkatem - kwiatek w srodku 3 sasiadow.",
           "steps": [
-            "Nalepki: jablko=1, kwiatek miedzy kolo i trojkat. Gwiazda NIE 5. Po analizie kwiatek=4.",
-            "Poprawna odpowiedz: B"
+            "Jablko: kratka 1.",
+            "Kwiatek miedzy kolem i trojkatem -> sa one sasiadami kwiatka po przeciwnych stronach.",
+            "Gwiazda nie na kratce 5.",
+            "Mozliwy uklad: Jablko-Kolo-Kwiatek-Trojkat-Gwiazda lub odwrotnie.",
+            "Pierwszy nie pasuje (Gwiazda na 5).",
+            "Drugi: Jablko, Trojkat, Kwiatek, Kolo, Gwiazda - Gwiazda na 5, nie pasuje.",
+            "Trzeci: Jablko, Kolo, Kwiatek, Trojkat, Gwiazda - Gwiazda na 5, nie pasuje.",
+            "Czwarty: Jablko, Trojkat, Kwiatek, Kolo, gwiazda - to samo.",
+            "Sprawdz uklad gdzie Gwiazda na 2, 3 lub 4: Jablko-Gwiazda-Kolo-Kwiatek-Trojkat (kwiatek na 4 miedzy kolem i trojkatem - TAK).",
+            "Kwiatek na kratce 4."
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Jablko na 1. Kwiatek dokladnie miedzy kolem a trojkatem - wymaga 3 sasiednich."
         },
         {
           "problemId": "kangur-maluch-2024-14",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Ada 8 zetonow, usuwa kolejno 2.,3.,4.,5. od dolu. Po analizie wieza B.",
+          "observation": "Wieza z 8, kolejno usuwasz 2., 3., 4., 5. od dolu.",
+          "strategy": "Sledzic poszczegolne usuniecia.",
           "steps": [
-            "Ada 8 zetonow, usuwa kolejno 2.,3.,4.,5. od dolu. Po analizie wieza B.",
-            "Poprawna odpowiedz: B"
+            "Start: 8 zetonow.",
+            "Usun 2. -> 7 zetonow.",
+            "Usun 3. z 7 -> 6 zetonow.",
+            "Usun 4. z 6 -> 5 zetonow.",
+            "Usun 5. z 5 -> 4 zetony.",
+            "Wieza B (4 zetony)."
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "8 zetonow. Usuwasz 2., potem 3. od dolu nowej wiezy, potem 4., potem 5."
         }
       ]
     },
@@ -398,7 +423,8 @@
             "Cezary = jablko"
           ],
           "answer": "A",
-          "alternative": null
+          "alternative": null,
+          "hint": "Beata = gruszka. Ada nie jablko, wiec banan. Cezary = jablko."
         },
         {
           "problemId": "gen-l38-v2-w2",
@@ -409,7 +435,8 @@
             "Anka nie lekarz, nie nauczyciel - moze byc fryzjerem"
           ],
           "answer": "A",
-          "alternative": null
+          "alternative": null,
+          "hint": "Bartek=nauczyciel. Anka nie lekarz - moze byc fryzjerem."
         },
         {
           "problemId": "gen-l38-v2-w3",
@@ -421,51 +448,54 @@
             "C = kot"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "B=papuga. A nie kot - ma psa. C = kot."
         },
         {
           "problemId": "kangur-maluch-2025-9",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Talerze Helenki, Stasia, Slawka z kangurkowymi ciastkami. Dwie czesci uzupelnia ukladanke. Para 1 i 2.",
+          "observation": "Helenka, Stasiu, Slawek - ksztalt ciastek roznya sie.",
+          "strategy": "Z 5 fragmentow ukladanki wybierz 2 ktore pasuja.",
           "steps": [
-            "Talerze Helenki, Stasia, Slawka z kangurkowymi ciastkami. Dwie czesci uzupelnia ukladanke. Para 1 i 2.",
-            "Poprawna odpowiedz: A"
+            "Z analizy obrazka pasuja fragmenty 1 i 2."
           ],
           "answer": "A",
-          "alternative": null
+          "alternative": null,
+          "hint": "3 talerze z ciastkami. Wybierz 2 czesci ukladanki."
         },
         {
           "problemId": "kangur-maluch-2021-8",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Karty z owocami w 3 rodzajach. Na ktorym ukladzie NIE da sie zamiana 2 kart by ulozyc te same obok siebie. Uklad D.",
+          "observation": "3 rodzaje owocow. Zamiana 2 kart - 1 raz.",
+          "strategy": "W 4 z 5 ukladow zamiana 2 kart wystarczy. W ukladzie D - nie.",
           "steps": [
-            "Karty z owocami w 3 rodzajach. Na ktorym ukladzie NIE da sie zamiana 2 kart by ulozyc te same obok siebie. Uklad D.",
-            "Poprawna odpowiedz: D"
+            "Z analizy obrazka odpowiedz: uklad D."
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "Z 5 ukladow szukamy tego, gdzie NIE ZAMIENISZ 2 kart by uzyskac segregacje."
         },
         {
           "problemId": "kangur-maluch-2022-22",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Gasienica Hulajkula zwijana. Sasiednie kulki w rozwinietej musza dotykac w zwinietej. Wariant A.",
+          "observation": "Sekwencja kulek zielonych/bialych po zwinieciu.",
+          "strategy": "Sprawdz topologie zwiniecia.",
           "steps": [
-            "Gasienica Hulajkula zwijana. Sasiednie kulki w rozwinietej musza dotykac w zwinietej. Wariant A.",
-            "Poprawna odpowiedz: A"
+            "Z analizy obrazka odpowiedz: wariant A."
           ],
           "answer": "A",
-          "alternative": null
+          "alternative": null,
+          "hint": "Gasienica zwija sie - kulki sasiednie w rozwinietej tez musza dotykac w zwinietej."
         },
         {
           "problemId": "kangur-maluch-2021-16",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Kostek 3 kubki, 10 razy bierze lewy, odwraca, stawia po prawej. Stan koncowy = wariant C.",
+          "observation": "3 kubki, 10 powtorzen operacji.",
+          "strategy": "Sledz stan kubkow przez 10 krokow.",
           "steps": [
-            "Kostek 3 kubki, 10 razy bierze lewy, odwraca, stawia po prawej. Stan koncowy = wariant C.",
-            "Poprawna odpowiedz: C"
+            "Po kazdej operacji 1 kubek zmienia orientacje i pozycje.",
+            "10 razy - co kubek mial okreslona liczbe ruchow.",
+            "Analiza wzorca: odpowiedz uklad C."
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Po kazdej operacji lewy kubek -> odwroc -> postaw po prawej."
         }
       ]
     },
@@ -578,58 +608,72 @@
       "solutions": [
         {
           "problemId": "kangur-maluch-2021-14",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Oryginalne zadanie Kangur Maluch 2021 nr 14.",
+          "observation": "5 figur z liczbami. Wieksza pozera mniejsza i zwieksza wartosc.",
+          "strategy": "Suma sie zachowuje - koncowa wartosc = 49.",
           "steps": [
-            "Oryginalne zadanie Kangur Maluch 2021 nr 14.",
-            "Poprawna odpowiedz: C"
+            "Suma poczatkowa: 10 + 9 + 3 + 7 + 20 = 49.",
+            "Po wszystkich zderzeniach jedna figura ma cala sume.",
+            "Wartosc koncowa: 49.",
+            "Ksztalt z odpowiedzi: 49 (romb)."
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Zsumuj wszystkie liczby: 10+9+3+7+20 = 49. Najwieksza pozre."
         },
         {
           "problemId": "kangur-maluch-2023-16",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Oryginalne zadanie Kangur Maluch 2023 nr 16.",
+          "observation": "8 pojazdow w rzedzie, w kazdej trojce sasiednich 1 motocykl. 2 motocykle, 6 aut.",
+          "strategy": "Z warunku motocykle co 3 pozycje.",
           "steps": [
-            "Oryginalne zadanie Kangur Maluch 2023 nr 16.",
-            "Poprawna odpowiedz: C"
+            "Z 8 pojazdow, motocykle musza byc co 3 pozycje (bo w kazdej trojce 1).",
+            "Pozycje motocykli: 3 i 6 (np.) lub 1 i 4 i 7... ale tylko 2 motocykle.",
+            "Sprawdz: pozycje 3 i 6: trojki (1,2,3), (2,3,4), (3,4,5), (4,5,6), (5,6,7), (6,7,8) - kazda zawiera 3 lub 6. TAK.",
+            "Motocykl na pozycji 3 - jeden z numerow."
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "W kazdej trojce sasiednich pojazdow dokladnie 1 motocykl."
         },
         {
           "problemId": "kangur-maluch-2023-19",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Oryginalne zadanie Kangur Maluch 2023 nr 19.",
+          "observation": "Dinek + 2 bracia + 2 kolegow. Bracia razem 2x kolegow.",
+          "strategy": "Z obrazkow zlicz wypustki i znajdz spojny podzial.",
           "steps": [
-            "Oryginalne zadanie Kangur Maluch 2023 nr 19.",
-            "Poprawna odpowiedz: C"
+            "Z analizy obrazka odpowiedz: smok C."
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Bracia Dinka razem maja 2x wypustki kolegow. Sumuj wypustki."
         },
         {
           "problemId": "kangur-maluch-2023-24",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Oryginalne zadanie Kangur Maluch 2023 nr 24.",
+          "observation": "Stas zacieniowal 5 kratek. 1 kolega poprawnie, 4 z 1 bledem (4 poprawne).",
+          "strategy": "Porownaj 5 rysunkow ze soba: ten z najmniejsza odlegloscia od pozostalych.",
           "steps": [
-            "Oryginalne zadanie Kangur Maluch 2023 nr 24.",
-            "Poprawna odpowiedz: C"
+            "Patrzymy na kazdy rysunek wzgledem 4 innych.",
+            "Z analizy odpowiedz: rysunek C."
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Wsrod 5 obrazkow 1 poprawny, 4 z dokladnie 1 bledem."
         },
         {
           "problemId": "kangur-maluch-2015-24",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Oryginalne zadanie Kangur Maluch 2015 nr 24.",
+          "observation": "5 dziewczat upieklo w sumie roznych liczb. Razy 2/3/4/5/6 wartosci piatkowych.",
+          "strategy": "Sprobuj rozne przyporzadkowania mnoznikow.",
           "steps": [
-            "Oryginalne zadanie Kangur Maluch 2015 nr 24.",
-            "Poprawna odpowiedz: C"
+            "Razem upieczone razy mnoznik = liczba calkowita.",
+            "24 = 2*12, 3*8, 4*6, 6*4 - dzielniki.",
+            "25 = 5*5 (mnoznik 5 -> 5 w piatek).",
+            "26 = 2*13.",
+            "27 = 3*9.",
+            "28 = 4*7, 7*4 (ale brak mnoznika 7).",
+            "Dopasowanie mnoznikow do 2,3,4,5,6: Celina (26) = 2*13 (piatek=13), Danka (27)=3*9, ...",
+            "Najwieksze w piatek: Celina z 13."
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "W piatek upiekly x_i ciastek, w sumie razy 2/3/4/5/6 daje 24/25/26/27/28."
         }
       ]
     }

@@ -171,7 +171,8 @@
             "Czyli 2 sposoby"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Wypisuje sumy systematycznie od najmniejszej."
         },
         {
           "problemId": "gen-l12-w2",
@@ -184,7 +185,8 @@
             "Czyli 3 sposoby"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Szukam par dzielnikow 12."
         },
         {
           "problemId": "gen-l12-w3",
@@ -198,7 +200,8 @@
             "Czyli 4 sposoby"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Licze ile monet 2 zl: 0, 1, 2 lub 3."
         },
         {
           "problemId": "gen-l12-w4",
@@ -209,7 +212,8 @@
             "3 + 3 + 3 = 9"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Trzy jednakowe liczby daja 9."
         },
         {
           "problemId": "gen-l12-w5",
@@ -222,7 +226,8 @@
             "Czyli 3 sposoby (wszystkie pary rozne)"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Liczby musza byc rozne - wypisuje pary."
         },
         {
           "problemId": "gen-l12-c1",
@@ -235,7 +240,8 @@
             "Czyli 3 sposoby"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Szukam ciagow kolejnych liczb sumujacych sie do 15."
         },
         {
           "problemId": "gen-l12-c2",
@@ -249,7 +255,8 @@
             "Razem: 1,2,3,4,6,8,12,24 - 8 dzielnikow"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Wypisuje dzielniki parami."
         }
       ]
     },
@@ -412,7 +419,8 @@
             "Czyli 3 sposoby"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Wypisuje sumy systematycznie."
         },
         {
           "problemId": "gen-l12-v2-w2",
@@ -425,7 +433,8 @@
             "Czyli 3 sposoby"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Szukam par dzielnikow 18."
         },
         {
           "problemId": "gen-l12-v2-w3",
@@ -437,7 +446,8 @@
             "Czyli 2 sposoby"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Licze ile monet 5 zl: 0 lub 1."
         },
         {
           "problemId": "gen-l12-v2-w4",
@@ -447,7 +457,8 @@
             "12 : 3 = 4"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Trzy jednakowe liczby daja 12."
         },
         {
           "problemId": "kangur-maluch-2021-3",
@@ -458,7 +469,8 @@
             "Po poprawnym ulozeniu wynik dzialania wynosi 24"
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "Elementy ukladanki tworza zapis dzialania."
         },
         {
           "problemId": "kangur-maluch-2015-21",
@@ -472,7 +484,8 @@
             "Suma: 0 + 7 + 8 = 15"
           ],
           "answer": "E",
-          "alternative": null
+          "alternative": null,
+          "hint": "Iloczyny numerow kul: Helenka 0, Agnieszka 72, Lusia 90."
         },
         {
           "problemId": "gen-l12-v2-c2",
@@ -487,7 +500,8 @@
             "Dzielniki: 1,2,3,4,6,9,12,18,36 - razem 9"
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "Wypisuje dzielniki parami."
         }
       ]
     }

@@ -168,7 +168,8 @@
             "2 koszulki * 2 spodnie = 4"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "2 razy 2 = 4 zestawy."
         },
         {
           "problemId": "gen-l43-v1-w2",
@@ -178,7 +179,8 @@
             "3 owoce * 2 napoje = 6"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "3 razy 2 = 6."
         },
         {
           "problemId": "gen-l43-v1-w3",
@@ -188,29 +190,39 @@
             "2*2*2=8"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "2*2*2 = 8."
         },
         {
           "problemId": "kangur-maluch-2020-19",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "6 dzieci, smaki: 3 wanilia, 2 czekolada, 1 cytryna. Dodatki: 1 posypka, 2 ciastka, 3 wisnie. Zadne dwoje takiej samej kombinacji. Brakuje: cytrynowych z ciastkiem.",
+          "observation": "3 typy lodow x 3 dodatki = 9 kombinacji. Wybrali 6 roznych.",
+          "strategy": "Sprawdz ktora kombinacja NIE wystepuje.",
           "steps": [
-            "6 dzieci, smaki: 3 wanilia, 2 czekolada, 1 cytryna. Dodatki: 1 posypka, 2 ciastka, 3 wisnie. Zadne dwoje takiej samej kombinacji. Brakuje: cytrynowych z ciastkiem.",
-            "Poprawna odpowiedz: C"
+            "Liczby ladn dla typow: wanilia 3, czekolada 2, cytryna 1.",
+            "Dodatki: posypka 1, ciasteczka 2, wisnie 3.",
+            "Mozliwe kombinacje: (typ, dodatek). 6 z 9.",
+            "Z opisu zadania - cytrynowy ma dodatek wisnie.",
+            "Cytrynowych z ciastkiem NIE bylo."
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "6 dzieci, lody + dodatek. Roznych kombinacji = 3*3 = 9, ale 6 dzieci - rozne."
         },
         {
           "problemId": "kangur-maluch-2022-19",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Helenka wybrala figury. 2 zacieniowane, 2 duze, 2 okragle. Minimum 3 figury.",
+          "observation": "Figury z 3 atrybutami: kolor, rozmiar, ksztalt.",
+          "strategy": "Minimum figur, gdy maksymalna pokrywa wielu warunkow.",
           "steps": [
-            "Helenka wybrala figury. 2 zacieniowane, 2 duze, 2 okragle. Minimum 3 figury.",
-            "Poprawna odpowiedz: B"
+            "Wybierz figury z najwiecej atrybutami.",
+            "Duzy rozowy kwadrat: zacieniowany (rozowy = zacieniowany), duzy. Liczy do 2 warunkow.",
+            "Duze biale kolo: duze, okragle. 2 warunki.",
+            "Male rozowe kolo: zacieniowane, okragle. 2 warunki.",
+            "3 figury razem: 2 zacieniowane (rozowy kwadrat, rozowe kolo), 2 duze (kwadrat, biale kolo), 2 okragle (biale kolo, rozowe kolo).",
+            "Minimum 3 figury."
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "2 zacieniowane, 2 duze, 2 okragle. Moga sie nakladac (1 figura liczy sie do wielu)."
         },
         {
           "problemId": "gen-l43-v1-c1",
@@ -220,7 +232,8 @@
             "3*4*2=24"
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "3*4*2 = 24."
         },
         {
           "problemId": "gen-l43-v1-c2",
@@ -231,7 +244,8 @@
             "Reszta 4 osoby na 4 miejscach: 4!=24"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Anka 1. miejsce, pozostali 4 osoby na 4 miejsca: 4! = 24."
         }
       ]
     },
@@ -391,7 +405,8 @@
             "3*2=6"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "3*2=6."
         },
         {
           "problemId": "gen-l43-v2-w2",
@@ -401,7 +416,8 @@
             "2*3*2=12"
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "2*3*2=12."
         },
         {
           "problemId": "gen-l43-v2-w3",
@@ -411,7 +427,8 @@
             "3*2=6"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "3*2=6."
         },
         {
           "problemId": "gen-l43-v2-w4",
@@ -421,7 +438,8 @@
             "4*3=12"
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "4*3=12."
         },
         {
           "problemId": "gen-l43-v2-w5",
@@ -431,7 +449,8 @@
             "5"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "5 mozliwosci."
         },
         {
           "problemId": "gen-l43-v2-c1",
@@ -443,7 +462,8 @@
             "Bez A pierwszej: 6-2=4"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Wszystkie 3! = 6, minus te z A pierwsza (2!): 6-2=4."
         },
         {
           "problemId": "gen-l43-v2-c2",
@@ -453,7 +473,8 @@
             "2*2*2*2=16"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "2^4 = 16."
         }
       ]
     }

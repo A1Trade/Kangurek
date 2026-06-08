@@ -168,7 +168,8 @@
             "2 razy 2 razy 2 = 8"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Szescian 2x2x2 = 2 razy 2 razy 2."
         },
         {
           "problemId": "gen-l24-v1-w2",
@@ -178,7 +179,8 @@
             "3 razy 3 razy 3 = 27"
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "Szescian 3x3x3 = 3 razy 3 razy 3."
         },
         {
           "problemId": "gen-l24-v1-w3",
@@ -188,7 +190,8 @@
             "3 razy 4 = 12 kostek"
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "3 warstwy po 4 kostki."
         },
         {
           "problemId": "kangur-maluch-2018-14",
@@ -199,7 +202,8 @@
             "Klockow z 4 pomalowanymi scianami jest 7"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Liczymy klocki z dokladnie 4 pomalowanymi scianami."
         },
         {
           "problemId": "kangur-maluch-2021-10",
@@ -210,7 +214,8 @@
             "Szara czesc to obraz B"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Szara czesc budowli z 18 kostek."
         },
         {
           "problemId": "kangur-maluch-2022-17",
@@ -221,7 +226,8 @@
             "Bialych malych szescianow uzyto 13"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Liczba bialych szescianow w bryle."
         },
         {
           "problemId": "kangur-maluch-2024-24",
@@ -232,7 +238,8 @@
             "Minimum bialych klockow do budowy duzego: 14"
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "Minimalna liczba bialych klockow."
         }
       ]
     },
@@ -392,7 +399,8 @@
             "4 razy 4 razy 4 = 64"
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "Szescian 4x4x4 = 4 razy 4 razy 4."
         },
         {
           "problemId": "gen-l24-v2-w2",
@@ -402,7 +410,8 @@
             "9 + 4 + 1 = 14"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Sumujemy warstwy: 9 + 4 + 1."
         },
         {
           "problemId": "gen-l24-v2-w3",
@@ -413,7 +422,8 @@
             "Tylko ta jedna jest niewidoczna z kazdej strony"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Tylko srodkowa kostka jest calkowicie ukryta."
         },
         {
           "problemId": "gen-l24-v2-w4",
@@ -423,7 +433,8 @@
             "27 kostek minus 5 usuniete = 22"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "27 - 5 = 22."
         },
         {
           "problemId": "gen-l24-v2-w5",
@@ -433,7 +444,8 @@
             "Patrzac na kostke widzimy gore, przod i bok - 3 sciany. Hmm wracajac do odpowiedzi - 'pojedyncza kostka stojaca na ziemi' moze byc widziana z gory + 4 boki = 5 scian (bez dna)"
           ],
           "answer": "E",
-          "alternative": "Z jednego punktu max 3, ale obracajac sie wokol widzimy 5 scian (wszystkie procz dna)."
+          "alternative": "Z jednego punktu max 3, ale obracajac sie wokol widzimy 5 scian (wszystkie procz dna).",
+          "hint": "Z jednego punktu widzimy max 3 sciany."
         },
         {
           "problemId": "gen-l24-v2-c1",
@@ -443,7 +455,8 @@
             "6 kolumn razy 2 kostki = 12 kostek"
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "Z gory 6 kolumn, w kazdej 2 kostki."
         },
         {
           "problemId": "gen-l24-v2-c2",
@@ -455,7 +468,8 @@
             "Zostalo: 64 - 8 = 56"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Pelny szescian 64 minus mniejszy 8."
         }
       ]
     }

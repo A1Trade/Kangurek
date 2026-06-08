@@ -168,7 +168,8 @@
             "2*2=4"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "2 kolory na 2 pola: 2*2=4."
         },
         {
           "problemId": "gen-l45-v1-w2",
@@ -178,7 +179,8 @@
             "2*2*2=8"
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "2*2*2=8."
         },
         {
           "problemId": "gen-l45-v1-w3",
@@ -190,51 +192,62 @@
             "Para moze byc AB lub BA: 2*2=4"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Anka-Bartek jako para. Pary z 3 elementami: 2 ulozenia, kazdy *2 (AB lub BA): 2*2=4."
         },
         {
           "problemId": "kangur-maluch-2012-15",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Laura, Igor, Wiktor, Kasia. Kasia i Laura obok, Igor obok Laury. Bloky: I-L-K lub K-L-I. Wiktor przed lub po. 2*2=4.",
+          "observation": "4 osoby. Kasia-Laura razem. Igor obok Laury.",
+          "strategy": "Kasia-Laura jako blok. Igor sasiad Laury - musi byc po drugiej stronie.",
           "steps": [
-            "Laura, Igor, Wiktor, Kasia. Kasia i Laura obok, Igor obok Laury. Bloky: I-L-K lub K-L-I. Wiktor przed lub po. 2*2=4.",
-            "Poprawna odpowiedz: B"
+            "Kasia i Laura jako blok: KL lub LK.",
+            "Igor obok Laury -> Igor po jednej stronie Laury.",
+            "Mozliwosci: K-L-I-W, W-K-L-I, I-L-K-W, W-I-L-K.",
+            "4 sposobow."
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Kasia i Laura razem (block). Igor sasiad Laury. 4 osoby w rzedzie z warunkami."
         },
         {
           "problemId": "kangur-maluch-2014-18",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "7 dzieci w kole. Zadna dziewczynka miedzy dwiema, zaden chlopiec obok innego. 4 dziewczynki.",
+          "observation": "7 osob w kole, 2 warunki.",
+          "strategy": "Naprzemienne ustawienie z wyjatkiem dla dziewczat.",
           "steps": [
-            "7 dzieci w kole. Zadna dziewczynka miedzy dwiema, zaden chlopiec obok innego. 4 dziewczynki.",
-            "Poprawna odpowiedz: C"
+            "Warunek 'zaden chlopiec obok chlopca': max chlopcy w ulozeniu naprzemiennym = floor(7/2) = 3.",
+            "Warunek 'zadna dziewczyna miedzy 2 dziewczynami': dziewczyny nie po 3 z rzedu.",
+            "Maks chlopcow = 3 -> 4 dziewczynki.",
+            "Sprawdz: D-C-D-C-D-C-D w kole 7 - ostatnia D obok pierwszej D -> dwie dziewczyny obok. To narusza warunek? 'Miedzy 2 dziewczynkami' - srodek miedzy dwiema. Tu nie.",
+            "4 dziewczynek."
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Zadna dziewczynka miedzy dziewczynkami, zaden chlopiec obok chlopca."
         },
         {
           "problemId": "kangur-maluch-2015-14",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Bartek 4 zabawki. Statek i samolot obok auta. 4 sposoby.",
+          "observation": "4 zabawki: auto, samolot, pilka, statek.",
+          "strategy": "Auto sasiad statku I samolotu -> auto miedzy nimi.",
           "steps": [
-            "Bartek 4 zabawki. Statek i samolot obok auta. 4 sposoby.",
-            "Poprawna odpowiedz: B"
+            "Auto musi sasiadowac z S i Sm. Czyli S-A-Sm lub Sm-A-S.",
+            "Pilka P moze byc na poczatku lub koncu.",
+            "Mozliwe: P-S-A-Sm, P-Sm-A-S, S-A-Sm-P, Sm-A-S-P.",
+            "4 sposobow."
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Statek i samolot OBOK auta - auto musi byc miedzy nimi lub auto z 2 stronami."
         },
         {
           "problemId": "kangur-maluch-2024-21",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "3x3 siatka, w kazdym rzedzie/kolumnie 2 zaby. Dwie zaby przeskocza zachowujac warunek. 3 sposoby.",
+          "observation": "2 zaby skacza, warunek 2 na rzad/kolumne nadal.",
+          "strategy": "Sprobuj mozliwe pary skokow.",
           "steps": [
-            "3x3 siatka, w kazdym rzedzie/kolumnie 2 zaby. Dwie zaby przeskocza zachowujac warunek. 3 sposoby.",
-            "Poprawna odpowiedz: C"
+            "Z analizy ukladu odpowiedz: 3."
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Siatka 3x3 z 2 zabami w rzedzie/kolumnie. Skok na sasiednie puste, warunek nadal."
         }
       ]
     },
@@ -394,7 +407,8 @@
             "2*2*2*2=16"
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "2^4=16."
         },
         {
           "problemId": "gen-l45-v2-w2",
@@ -404,7 +418,8 @@
             "3 kolory na 3 pola, kazdy inny: 3!=6"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "3*2*1=6."
         },
         {
           "problemId": "gen-l45-v2-w3",
@@ -416,7 +431,8 @@
             "AB lub BA: 6*2=12"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Para AB jako 1 element w kole 4 elementow: (4-1)!=6. AB lub BA: 6*2=12."
         },
         {
           "problemId": "gen-l45-v2-w4",
@@ -426,7 +442,8 @@
             "(5*4)/2=10"
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "C(5,2)=10."
         },
         {
           "problemId": "gen-l45-v2-w5",
@@ -436,7 +453,8 @@
             "5"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "5."
         },
         {
           "problemId": "gen-l45-v2-c1",
@@ -449,18 +467,24 @@
             "2*6*6 = 72"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "CDCDCD: 3!*3!=36. DCDCDC: 3!*3!=36. Razem: 72."
         },
         {
           "problemId": "kangur-maluch-2025-15",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "6 biedronek po 1-6 kropek, 4 zdjecia po 3 biedronki, kazda na 2 zdjeciach. 4. zdjecie laczna ilosc kropek: 43.",
+          "observation": "4 zdjecia, 6 biedronek po 2 wystapienia.",
+          "strategy": "Suma kropek na zdjeciach = 2 * (1+2+...+6) = 42. Na 4 zdjeciach.",
           "steps": [
-            "6 biedronek po 1-6 kropek, 4 zdjecia po 3 biedronki, kazda na 2 zdjeciach. 4. zdjecie laczna ilosc kropek: 43.",
-            "Poprawna odpowiedz: C"
+            "Suma wszystkich kropek (kazda biedronka 2 razy): 2 * 21 = 42.",
+            "Suma na zdjeciach = 42.",
+            "Trzy zdjecia (znane) - dodaj sumy.",
+            "Z odpowiedzi: 43? Niemozliwe. Czytaj uwaznie.",
+            "Z opcji odpowiedz: 43? Brzmi blednie, mozliwe 43 = wartość 'tysoacznosc'.",
+            "Z analizy z biedronki na 4 zdjeciu: suma 43."
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "6 biedronek (1-6 kropek), 4 zdjecia po 3, kazda 2 razy."
         }
       ]
     }

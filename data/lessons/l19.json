@@ -168,7 +168,8 @@
             "Pole = 6 razy 4 = 24 kratki"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Pole prostokata = dlugosc razy szerokosc."
         },
         {
           "problemId": "gen-l19-v1-w2",
@@ -178,7 +179,8 @@
             "Pole = 5 razy 5 = 25 kratek"
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "Pole kwadratu = bok razy bok."
         },
         {
           "problemId": "gen-l19-v1-w3",
@@ -190,7 +192,8 @@
             "Razem 6 + 2 = 8"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Dwie polowki to jedna cala kratka."
         },
         {
           "problemId": "kangur-maluch-2020-5",
@@ -201,7 +204,8 @@
             "Najwiekszy obszar ma rysunek E"
           ],
           "answer": "E",
-          "alternative": null
+          "alternative": null,
+          "hint": "Porownujemy pola zamalowane na 5 rysunkach."
         },
         {
           "problemId": "kangur-maluch-2024-3",
@@ -213,7 +217,8 @@
             "Niezamalowane: 28 - 16 = 12"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Liczymy pola niezamalowane po pokolorowaniu."
         },
         {
           "problemId": "kangur-maluch-2014-12",
@@ -224,7 +229,8 @@
             "Pasuje kwadracik D"
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "Uzupelniamy figure do rownego podzialu pola."
         },
         {
           "problemId": "kangur-maluch-2014-23",
@@ -236,7 +242,8 @@
             "Maksymalnie 20 kratek"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Maksymalne zamalowanie bez calego kwadratu 2x2."
         }
       ]
     },
@@ -396,7 +403,8 @@
             "Pole = 7 razy 3 = 21 kratek"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Pole = dlugosc razy szerokosc."
         },
         {
           "problemId": "gen-l19-v2-w2",
@@ -406,7 +414,8 @@
             "Pole = 6 razy 6 = 36 kratek"
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "Pole kwadratu = bok razy bok."
         },
         {
           "problemId": "gen-l19-v2-w3",
@@ -418,7 +427,8 @@
             "Razem 6 + 8 = 14"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Dwa prostokaty - liczymy pole kazdego."
         },
         {
           "problemId": "kangur-maluch-2024-4",
@@ -429,7 +439,8 @@
             "Pod plakatem jest 21 szarych plytek"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Liczymy szare plytki pod plakatem."
         },
         {
           "problemId": "kangur-maluch-2012-7",
@@ -440,7 +451,8 @@
             "Czarnych plytek odpadlo 9"
           ],
           "answer": "A",
-          "alternative": null
+          "alternative": null,
+          "hint": "Liczymy czarne plytki, ktore odpadly."
         },
         {
           "problemId": "kangur-maluch-2022-13",
@@ -451,7 +463,8 @@
             "Wszystkich kropek jest 44"
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "Liczymy kropki na zagietym dywanie."
         },
         {
           "problemId": "kangur-maluch-2013-22",
@@ -462,7 +475,8 @@
             "Ksiezycow jest 63"
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "Liczymy ksiezyce na zwinietym dywanie."
         }
       ]
     },
@@ -495,14 +509,17 @@
       "solutions": [
         {
           "problemId": "kangur-maluch-2023-17",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Oryginalne zadanie Kangur Maluch 2023 nr 17.",
+          "observation": "Kartka zgieta na cwiartki, odciety lewy dolny rog.",
+          "strategy": "Odgiecia tworza symetrie - rog w cwiartce odbija sie na 4 rogi w calej kartce.",
           "steps": [
-            "Oryginalne zadanie Kangur Maluch 2023 nr 17.",
-            "Poprawna odpowiedz: D"
+            "Po zlozeniu kartki na 4 czesci.",
+            "Odciecie lewego dolnego rogu - usuwa fragment z naroznika.",
+            "Po rozlozeniu otrzymujemy kartke z 4 wycietymi naroznikami w srodku.",
+            "Z 5 opcji pasuje wycinanka D."
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "Cwiartka kartki = 1 wyciety rog. Po rozlozeniu - 4 symetryczne dziury w narozach."
         }
       ]
     }

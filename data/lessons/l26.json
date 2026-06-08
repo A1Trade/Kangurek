@@ -168,7 +168,8 @@
             "Dwa sasiednie naroznikit szescianu sa polaczone 1 krawedzia"
           ],
           "answer": "A",
-          "alternative": null
+          "alternative": null,
+          "hint": "Sasiednie naroznikit polaczone 1 krawedzia."
         },
         {
           "problemId": "gen-l26-v1-w2",
@@ -178,7 +179,8 @@
             "Z naroznika do przeciwleglego: 3 krawedzie - musisz przejsc po 3 wymiarach"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Najdalsze naroznikit - 3 krawedzie."
         },
         {
           "problemId": "gen-l26-v1-w3",
@@ -189,7 +191,8 @@
             "Klasycznie po przewroceniu w prawo z 1 na gorze, na gorze jest 4"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Po przewroceniu w prawo - sciana boczna staje sie gorna."
         },
         {
           "problemId": "kangur-maluch-2022-16",
@@ -201,7 +204,8 @@
             "Przeszla 80 cm"
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "Mrowka idzie po piramidzie z klockow."
         },
         {
           "problemId": "kangur-maluch-2025-5",
@@ -212,7 +216,8 @@
             "Poprawna to A"
           ],
           "answer": "A",
-          "alternative": null
+          "alternative": null,
+          "hint": "Standardowa kostka - rozpoznanie."
         },
         {
           "problemId": "kangur-maluch-2019-24",
@@ -223,7 +228,8 @@
             "Suma 6 sklejonych scian to 20"
           ],
           "answer": "E",
-          "alternative": null
+          "alternative": null,
+          "hint": "Sklejone kostki - suma sklejonych scian."
         },
         {
           "problemId": "kangur-maluch-2014-20",
@@ -234,7 +240,8 @@
             "Tylna sciana ma sume 21"
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "Suma oczek na tylnej scianie budowli."
         }
       ]
     },
@@ -394,7 +401,8 @@
             "Sasiednie naroznikit polaczone sa 1 krawedzia"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Sasiednie - jedna krawedz."
         },
         {
           "problemId": "gen-l26-v2-w2",
@@ -404,7 +412,8 @@
             "Naroznikit na wspolnej krawedzi to sasiednie - 1 krawedz"
           ],
           "answer": "A",
-          "alternative": null
+          "alternative": null,
+          "hint": "Na tej samej krawedzi = sasiedni = 1."
         },
         {
           "problemId": "gen-l26-v2-w3",
@@ -415,7 +424,8 @@
             "Minus dolna (6): 21 - 6 = 15"
           ],
           "answer": "A",
-          "alternative": null
+          "alternative": null,
+          "hint": "Suma scian kostki = 21, minus dolna 6."
         },
         {
           "problemId": "gen-l26-v2-w4",
@@ -426,7 +436,8 @@
             "Minimum: 3 krawedzie"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Z naroznika do przeciwleglego = 3 krawedzie."
         },
         {
           "problemId": "gen-l26-v2-w5",
@@ -436,7 +447,8 @@
             "Szescian ma 6 scian"
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "Szescian ma 6 scian widocznych z zewnatrz."
         },
         {
           "problemId": "gen-l26-v2-c1",
@@ -447,7 +459,8 @@
             "Kolejnosc dowolna: 3! = 6 najkrotszych drog"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Z 8 naroznikow do przeciwleglego sa rozne sciezki dlugosci 3."
         },
         {
           "problemId": "kangur-maluch-2020-17",
@@ -458,7 +471,8 @@
             "Suma trzech ? scian wynosi 11"
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "Toczenie kostki - suma scian na koncu."
         }
       ]
     }

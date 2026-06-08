@@ -168,7 +168,8 @@
             "Zostalo: 15 - 8 = 7"
           ],
           "answer": "A",
-          "alternative": null
+          "alternative": null,
+          "hint": "Pytaja o reszte - 15-8=7."
         },
         {
           "problemId": "gen-l46-v1-w2",
@@ -178,7 +179,8 @@
             "Niebieskich = 5"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Pytaja TYLKO o niebieskie."
         },
         {
           "problemId": "gen-l46-v1-w3",
@@ -188,51 +190,65 @@
             "Pol kg razy 4 zl/kg = 2 zl"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Klucz: ilosc + cena za jednostke."
         },
         {
           "problemId": "kangur-maluch-2013-5",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Daniel 36 zolnierzykow rozdziela rowno. 5 nie jest dzielnikiem 36.",
+          "observation": "36 zolnierzykow rowno na kolegow.",
+          "strategy": "Sprawdz ktore liczby NIE dzieli 36.",
           "steps": [
-            "Daniel 36 zolnierzykow rozdziela rowno. 5 nie jest dzielnikiem 36.",
-            "Poprawna odpowiedz: D"
+            "Dzielniki 36: 1, 2, 3, 4, 6, 9, 12, 18, 36.",
+            "Sprawdz: 2 - dzieli, 3 - dzieli, 4 - dzieli, 5 - NIE DZIELI, 6 - dzieli.",
+            "Odpowiedz: 5."
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "36 podzielone na rowne czesci. Sprawdz dzielniki 36."
         },
         {
           "problemId": "kangur-maluch-2014-2",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Wstawiamy 3 do 2014. Najmniejsza: 20134 (miedzy 1 a 4).",
+          "observation": "Cyfre 3 wstawiamy w 2014.",
+          "strategy": "Wypisz 5 mozliwosci i porownaj.",
           "steps": [
-            "Wstawiamy 3 do 2014. Najmniejsza: 20134 (miedzy 1 a 4).",
-            "Poprawna odpowiedz: D"
+            "Pozycje: 32014, 23014, 20314, 20134, 20143.",
+            "Najmniejsza: 20134 (3 miedzy 1 a 4).",
+            "Czyli 'miedzy 1 a 4'."
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "Wstawienie 3 do liczby 2014 - 5 mozliwosci. Wybierz najmniejsza."
         },
         {
           "problemId": "kangur-maluch-2013-11",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "48 pomarancz, opakowania 5, 9, 10. Najmniej opakowan: 5.",
+          "observation": "Paczki po 5, 9, 10. Suma 48.",
+          "strategy": "Najwieksza paczka 10 - probuj zaczac od niej.",
           "steps": [
-            "48 pomarancz, opakowania 5, 9, 10. Najmniej opakowan: 5.",
-            "Poprawna odpowiedz: D"
+            "5a + 9b + 10c = 48, min a+b+c.",
+            "c = 4: 40 + 5a + 9b = 48, 5a+9b = 8. Nie da sie z calkowitych nieujemnych (9 > 8).",
+            "c = 3: 5a + 9b = 18. b=2, a = 0. TAK. Razem: 3+0+2 = 5.",
+            "c = 2: 5a + 9b = 28. b=2, 5a=10, a=2. 2+2+2 = 6.",
+            "c = 0: 5a + 9b = 48. b=2, 5a=30, a=6. 6+2+0 = 8.",
+            "Minimum: 5 opakowan."
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "48 = 5a + 9b + 10c. Mim opakowan = max wielkosc opakowan."
         },
         {
           "problemId": "kangur-maluch-2015-12",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Babcia, po 4 i zostane 2, po 5 i brakuje 2. Wnukow: 4.",
+          "observation": "4n + 2 = c, 5n - 2 = c. Rownanie.",
+          "strategy": "4n + 2 = 5n - 2 -> n = 4.",
           "steps": [
-            "Babcia, po 4 i zostane 2, po 5 i brakuje 2. Wnukow: 4.",
-            "Poprawna odpowiedz: B"
+            "Po 4: 4n + 2 cukierkow.",
+            "Po 5: 5n - 2 cukierkow.",
+            "4n + 2 = 5n - 2.",
+            "n = 4.",
+            "4 wnukow."
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Po 4: zostaja 2. Po 5: brakuje 2. Roznica 4 cukierki - tyle ilu wnukow razy 1."
         }
       ]
     },
@@ -392,7 +408,8 @@
             "20-15=5"
           ],
           "answer": "A",
-          "alternative": null
+          "alternative": null,
+          "hint": "20 - 15 = 5 bez nagrody."
         },
         {
           "problemId": "gen-l46-v2-w2",
@@ -402,7 +419,8 @@
             "3+4+5=12 cm"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Obwod = suma bokow."
         },
         {
           "problemId": "gen-l46-v2-w3",
@@ -412,51 +430,60 @@
             "Pytanie: ile lat ma smok"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Skup sie na konkretnym pytaniu na koncu."
         },
         {
           "problemId": "kangur-maluch-2016-3",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Szary 17+3=20, brazowy 20-4=16. Razem 36 kg.",
+          "observation": "Szary 17->20, brazowy 20->16. Razem 36.",
+          "strategy": "Sumuj wszystkie zmiany.",
           "steps": [
-            "Szary 17+3=20, brazowy 20-4=16. Razem 36 kg.",
-            "Poprawna odpowiedz: A"
+            "Szary po przybyciu: 17 + 3 = 20.",
+            "Brazowy po schudzeniu: 20 - 4 = 16.",
+            "Razem: 20 + 16 = 36."
           ],
           "answer": "A",
-          "alternative": null
+          "alternative": null,
+          "hint": "Szary +3, brazowy -4. Suma: 17 + 20 + 3 - 4 = 36."
         },
         {
           "problemId": "kangur-maluch-2013-6",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Mama 2 i pol bochenka = 60 kromek = 30 kanapek.",
+          "observation": "2.5 bochenkow po 24 kromki.",
+          "strategy": "60 kromek / 2 kromki na kanapke.",
           "steps": [
-            "Mama 2 i pol bochenka = 60 kromek = 30 kanapek.",
-            "Poprawna odpowiedz: B"
+            "2.5 * 24 = 60 kromek.",
+            "60 / 2 = 30 kanapek."
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Kanapka = 2 kromki. Bochenek = 24. 2.5 bochenkow = 60 kromek. Kanapek 30."
         },
         {
           "problemId": "kangur-maluch-2016-11",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Suma cyfr 2016 = 9. Najmniejsza wieksza: 2025 (suma 9).",
+          "observation": "Suma cyfr 2016 = 9. Szukaj kolejnej liczby z suma 9.",
+          "strategy": "Sprawdz kolejne liczby: 2017, 2018, ..., az suma = 9.",
           "steps": [
-            "Suma cyfr 2016 = 9. Najmniejsza wieksza: 2025 (suma 9).",
-            "Poprawna odpowiedz: B"
+            "2017: 2+0+1+7 = 10. Nie.",
+            "2018, 2019, 2020,..., 2025: 2+0+2+5 = 9. TAK.",
+            "Odpowiedz: 2025."
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "2016 ma sume 9. Najmniejsza wieksza z suma 9."
         },
         {
           "problemId": "kangur-maluch-2014-10",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Koszyk - polowa po polowie po polowie - 6. Poczatek = 48.",
+          "observation": "Trzy razy halfowanie.",
+          "strategy": "Odwracaj operacje od wyniku.",
           "steps": [
-            "Koszyk - polowa po polowie po polowie - 6. Poczatek = 48.",
-            "Poprawna odpowiedz: E"
+            "Pozostalo 6 cukierkow.",
+            "Klara wziela polowe -> przed Klara: 12.",
+            "Tomek wziel polowe -> przed Tomkiem: 24.",
+            "Zosia wziela polowe -> na poczatku: 48."
           ],
           "answer": "E",
-          "alternative": null
+          "alternative": null,
+          "hint": "Odwracaj od konca: zostalo 6. Klara wziela polowe -> przed klara 12. Tomek -> 24. Zosia -> 48."
         }
       ]
     }

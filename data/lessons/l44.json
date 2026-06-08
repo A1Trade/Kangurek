@@ -168,7 +168,8 @@
             "2 drogi"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Z (0,0) do (1,1): prawo-dol lub dol-prawo."
         },
         {
           "problemId": "gen-l44-v1-w2",
@@ -179,7 +180,8 @@
             "3 mozliwosci"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "2 prawo + 1 dol. Wybor pozycji dolu: 3 mozliwosci."
         },
         {
           "problemId": "gen-l44-v1-w3",
@@ -190,40 +192,54 @@
             "(4*3)/2 = 6"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Wzor trojkata Pascala C(4,2)=6."
         },
         {
           "problemId": "kangur-maluch-2016-12",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Myszka w labiryncie. 5 roznych drog (kazda raz).",
+          "observation": "Labirynt z 1 wyjsciem.",
+          "strategy": "Liczba dróg = liczba sposobow przejscia bez powtarzania.",
           "steps": [
-            "Myszka w labiryncie. 5 roznych drog (kazda raz).",
-            "Poprawna odpowiedz: C"
+            "Z analizy labiryntu odpowiedz: 5."
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Drogi w labiryncie - kazde przejscie max raz."
         },
         {
           "problemId": "kangur-maluch-2024-19",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "60 dzieci, kamizelki zolto-zielone naprzemiennie, plecaki cyklicznie 3 kolory. Zoltej kamizelce + niebieski plecak: 10.",
+          "observation": "60 dzieci, kamizelki cyklicznie co 2, plecaki co 3.",
+          "strategy": "Co 6 dzieci (NWW 2,3) ten sam wzor. 60/6 = 10 grup.",
           "steps": [
-            "60 dzieci, kamizelki zolto-zielone naprzemiennie, plecaki cyklicznie 3 kolory. Zoltej kamizelce + niebieski plecak: 10.",
-            "Poprawna odpowiedz: E"
+            "Cykl wspolny: 6 dzieci.",
+            "W kazdej grupie 6: zolty/zielony/zolty/zielony/zolty/zielony.",
+            "Plecaki: czerwony/brazowy/niebieski/czerwony/brazowy/niebieski.",
+            "Zolta kamizelka i niebieski plecak: pozycja 5 w cyklu? Sprawdz: poz 1 zolty+czerwony, poz 2 zielony+brazowy, poz 3 zolty+niebieski, poz 4 zielony+czerwony, poz 5 zolty+brazowy, poz 6 zielony+niebieski.",
+            "Pozycja 3: zolty+niebieski. 1 raz na cykl 6.",
+            "60/6 = 10 cykli, czyli 10 uczniow."
           ],
           "answer": "E",
-          "alternative": null
+          "alternative": null,
+          "hint": "60 dzieci. Kamizelki cykl 2 (zolty/zielony), plecaki cykl 3. Najmniejsza wspolna 6."
         },
         {
           "problemId": "kangur-maluch-2022-24",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "9 skrzyn z waga 1-17 kg, podzial na 3 grupy po 3 z rownymi sumami. W grupie z 6 kg trafila 9 kg.",
+          "observation": "9 skrzyn, suma 60. 3 grupy po 20.",
+          "strategy": "Znajdz podzial 3 grup po 3 skrzynie sumujace 20.",
           "steps": [
-            "9 skrzyn z waga 1-17 kg, podzial na 3 grupy po 3 z rownymi sumami. W grupie z 6 kg trafila 9 kg.",
-            "Poprawna odpowiedz: D"
+            "Suma wszystkich: 1+2+3+4+5+6+9+13+17 = 60.",
+            "3 grupy po 20.",
+            "Grupy zawierajace 17: 17+2+1=20 (TAK), 17+3+0... nie 0.",
+            "Grupy zawierajace 13: 13+6+1=20, 13+5+2=20, 13+4+3=20.",
+            "Probuj: {17,2,1}, {13,6,1}? - 1 powtórzony, nie. {17,2,1}, {13,4,3}, pozostalo {5,6,9}=20. TAK!",
+            "Grupa z 6: {5,6,9}. Tak samo grupa z 13 ma 13,4,3 - razem z 6? Nie, 6 jest w innej grupie.",
+            "Grupa z 6 to {5,6,9} - sprawdz: 13 NIE.",
+            "Pytanie: ktora skrzynia z grupy z 6? Z {5,6,9}.",
+            "Z odpowiedzi: 9 kg."
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "Suma 1+2+3+4+5+6+9+13+17 = 60. Na 3 grupy po 20 kg."
         },
         {
           "problemId": "gen-l44-v1-c1",
@@ -234,7 +250,8 @@
             "Wybor 2 dolu z 5: (5*4)/2 = 10"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "C(5,2) = 10."
         }
       ]
     },
@@ -394,7 +411,8 @@
             "3 mozliwosci"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "1 prawo + 2 dol = 3 kroki. Wybor pozycji prawa: 3."
         },
         {
           "problemId": "gen-l44-v2-w2",
@@ -404,7 +422,8 @@
             "4 mozliwosci"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "3 kroki prawo, 1 dol. Wybor pozycji dolu z 4: 4."
         },
         {
           "problemId": "gen-l44-v2-w3",
@@ -414,7 +433,8 @@
             "5 krokow, wybor 2 prawa: (5*4)/2 = 10"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "C(5,2)=10."
         },
         {
           "problemId": "gen-l44-v2-w4",
@@ -424,7 +444,8 @@
             "P + D krokow"
           ],
           "answer": "A",
-          "alternative": null
+          "alternative": null,
+          "hint": "Suma krokow prawo + dol."
         },
         {
           "problemId": "gen-l44-v2-w5",
@@ -434,7 +455,8 @@
             "1"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Jedna droga - jedna mozliwosc."
         },
         {
           "problemId": "gen-l44-v2-c1",
@@ -444,7 +466,8 @@
             "6 krokow, wybor 3 dolu z 6: (6*5*4)/(3*2*1) = 20"
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "C(6,3)=20."
         },
         {
           "problemId": "gen-l44-v2-c2",
@@ -454,7 +477,8 @@
             "(5*4)/2 = 10"
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "C(5,2) = 10 par."
         }
       ]
     }

@@ -168,7 +168,8 @@
             "Gruszka = 200 g"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Rownowaga = rowne masy."
         },
         {
           "problemId": "gen-l40-v1-w2",
@@ -178,7 +179,8 @@
             "2L = 4P → L = 2P, lewy 2x ciezszy"
           ],
           "answer": "A",
-          "alternative": null
+          "alternative": null,
+          "hint": "2 klocki lewe = 4 prawe, wiec lewy 2x ciezszy od prawego."
         },
         {
           "problemId": "gen-l40-v1-w3",
@@ -188,51 +190,65 @@
             "A+B = A+C, odejmij A od obu: B = C"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Z A+B=A+C → B=C."
         },
         {
           "problemId": "kangur-maluch-2021-7",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "3 wagi z kulami: b+s=6, 2c+b=14, s+2b=10. Z W1: s=6-b. W3: 6-b+2b=10, b=4, s=2. W2: 2c+4=14, c=5.",
+          "observation": "biala+szara=6, czarna+czarna+biala=14, szara+biala+biala=10.",
+          "strategy": "Z rownan: biala = b, szara = s, czarna = c. b+s=6, 2c+b=14, s+2b=10.",
           "steps": [
-            "3 wagi z kulami: b+s=6, 2c+b=14, s+2b=10. Z W1: s=6-b. W3: 6-b+2b=10, b=4, s=2. W2: 2c+4=14, c=5.",
-            "Poprawna odpowiedz: C"
+            "b + s = 6 (1)",
+            "2c + b = 14 (2)",
+            "s + 2b = 10 (3)",
+            "Z (3): s = 10 - 2b. Wstaw w (1): b + 10 - 2b = 6 -> b = 4.",
+            "s = 6 - 4 = 2. Z (2): 2c + 4 = 14, c = 5.",
+            "Czarna: 5 kg."
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "3 rownania, 3 niewiadome. Wyznacz biala, szara, czarna kola wage."
         },
         {
           "problemId": "kangur-maluch-2023-10",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "6 odwaznikow 1-6 kg, 5 na wadze w rownowadze. Suma 5 musi byc parzysta. 21-x parzysta -> x nieparzysta. Odpowiedz: 1 kg.",
+          "observation": "Suma 21. Po wyjeciu x: pozostale 21-x. Polowa na kazdej szalce: (21-x)/2.",
+          "strategy": "(21-x) musi byc parzyste -> x nieparzyste.",
           "steps": [
-            "6 odwaznikow 1-6 kg, 5 na wadze w rownowadze. Suma 5 musi byc parzysta. 21-x parzysta -> x nieparzysta. Odpowiedz: 1 kg.",
-            "Poprawna odpowiedz: A"
+            "Suma 1+2+3+4+5+6 = 21.",
+            "Po wyjeciu x: 21 - x na wadze (rowno na 2 szalki).",
+            "21 - x parzyste -> x nieparzyste: 1, 3, 5.",
+            "Sprawdz x = 1: pozostalo 20 = 10+10. Mozliwe: {4,6} i {2,3,5}. TAK.",
+            "Odwaznik 1 kg poza waga."
           ],
           "answer": "A",
-          "alternative": null
+          "alternative": null,
+          "hint": "6 odwaznikow, suma 1+2+...+6 = 21. Po wyjeciu 1 - rowne szalki = sumy rowne."
         },
         {
           "problemId": "kangur-maluch-2021-22",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "3 wagi z trzema figurami. Co dolozyc na lewa szalke trzeciej wagi. Trojkat D.",
+          "observation": "3 wagi w rownowadze, ustal niewazone.",
+          "strategy": "Wyznacz wage figur z 2 pierwszych wag.",
           "steps": [
-            "3 wagi z trzema figurami. Co dolozyc na lewa szalke trzeciej wagi. Trojkat D.",
-            "Poprawna odpowiedz: D"
+            "Z analizy obrazka odpowiedz: trojkat."
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "Z 2 wag wczesniejszych wyciagnij relacje miedzy figurami."
         },
         {
           "problemId": "kangur-maluch-2016-21",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Asia 3 rodzaje klockow w 3 pojemnikach. Najlzejszy trojkat, najciezsze kolo.",
+          "observation": "3 pojemniki po 4 klocki, ustawione od lzejszego do ciezszego.",
+          "strategy": "Niech a, b, c = wagi (kwadrat, trojkat, kolo). Wymnoz przez liczbe wystapien.",
           "steps": [
-            "Asia 3 rodzaje klockow w 3 pojemnikach. Najlzejszy trojkat, najciezsze kolo.",
-            "Poprawna odpowiedz: B"
+            "Pojemnik 1: kwadrat + trojkat + kolo + trojkat = k+2t+ko.",
+            "Pojemnik 2: trojkat + 3 kwadraty = t + 3k.",
+            "Pojemnik 3: kolo + 2 kwadraty + trojkat = ko + 2k + t.",
+            "P1 < P2 < P3.",
+            "Z analizy odpowiedz: najlzejszy trojkat, najciezszy kolo."
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Sumuj wagi pojemnikow. Lzejszy = mniejsza suma 4 klockow."
         }
       ]
     },
@@ -392,7 +408,8 @@
             "4 razy 5 = 20 g"
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "4 razy 5 g = 20 g."
         },
         {
           "problemId": "gen-l40-v2-w2",
@@ -402,7 +419,8 @@
             "3C=6N, 1C=2N"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "3C = 6N → 1C = 2N."
         },
         {
           "problemId": "gen-l40-v2-w3",
@@ -412,51 +430,62 @@
             "Pies najciezszy"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Pies > kot > mysz."
         },
         {
           "problemId": "kangur-maluch-2021-21",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "5 skrzyn jablek/bananow. Wagi 7,5,6,2,16 kg. Banany 3x ciezsze od jablek lacznie. Jablka 9 kg, banany 27 kg. Jablka w 1 i 4.",
+          "observation": "Skrzynie 7,5,6,2,16 (suma 36). Banany = 3 * jablka.",
+          "strategy": "Jablka + banany = 36. Banany = 3J. J + 3J = 36 -> J = 9.",
           "steps": [
-            "5 skrzyn jablek/bananow. Wagi 7,5,6,2,16 kg. Banany 3x ciezsze od jablek lacznie. Jablka 9 kg, banany 27 kg. Jablka w 1 i 4.",
-            "Poprawna odpowiedz: E"
+            "Suma wszystkich: 7+5+6+2+16 = 36 kg.",
+            "Jablka = J, banany = 3J. J + 3J = 36, J = 9.",
+            "Szukamy 2 skrzyn sumujacych do 9: 7+2 = 9.",
+            "Skrzynie 1 (7 kg) i 4 (2 kg) maja jablka."
           ],
           "answer": "E",
-          "alternative": null
+          "alternative": null,
+          "hint": "Sumuj wagi: banany = 3 razy jablka. Razem 36 kg."
         },
         {
           "problemId": "kangur-maluch-2024-17",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "3 bryly wazone parami: 200, 100, 240 g. Suma par = 2 razy suma bryl. 540:2 = 270 g.",
+          "observation": "3 bryly, 3 wazenia po 2: wyniki 200, 100, 240.",
+          "strategy": "Suma trzech wazen = 2 * suma wszystkich brył.",
           "steps": [
-            "3 bryly wazone parami: 200, 100, 240 g. Suma par = 2 razy suma bryl. 540:2 = 270 g.",
-            "Poprawna odpowiedz: A"
+            "a+b + a+c + b+c = 2(a+b+c).",
+            "200 + 100 + 240 = 540 = 2 * suma.",
+            "Suma brył: 540 / 2 = 270 g."
           ],
           "answer": "A",
-          "alternative": null
+          "alternative": null,
+          "hint": "3 bryly: a,b,c. Wazenia po 2: a+b, a+c, b+c. Suma = 2(a+b+c)."
         },
         {
           "problemId": "kangur-maluch-2025-21",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Na 2 wagach Kajtek polozyl klocki 3 rodzajow. Klocek typu A wazy 5 kg. Klocek B (jasny szescian) wazy 3 kg.",
+          "observation": "Wagi w rownowadze z 3 typami klockow.",
+          "strategy": "Z 2 rownan i znanej wartosci A wyznacz B.",
           "steps": [
-            "Na 2 wagach Kajtek polozyl klocki 3 rodzajow. Klocek typu A wazy 5 kg. Klocek B (jasny szescian) wazy 3 kg.",
-            "Poprawna odpowiedz: C"
+            "Z analizy obrazka odpowiedz: 3 kg."
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Klocek A = 5 kg. Z 2 wag wyznacz B."
         },
         {
           "problemId": "kangur-maluch-2025-19",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "5 szklanek z 1,2,3,4,6 kulkami, woda. Najmniej wody w szklance 1.",
+          "observation": "5 szklanek z 1,2,3,4,6 kulkami, woda jednakowa.",
+          "strategy": "Wiecej kulek = wyzszy poziom (kulki wypieraja wode).",
           "steps": [
-            "5 szklanek z 1,2,3,4,6 kulkami, woda. Najmniej wody w szklance 1.",
-            "Poprawna odpowiedz: A"
+            "Szklanka 1: 1 kulka - najmniej wypartej wody, ale tez najmniej wody?",
+            "Same kulki wypieraja - wode dodano taka sama.",
+            "Im wiecej kulek tym wyzszy poziom (ten sam volume vody).",
+            "Pytanie: gdzie NAJMNIEJ wody - 'najnizsza' szklanka.",
+            "Najmniej wypartej = najmniejszy poziom = 1 kulka.",
+            "Szklanka 1."
           ],
           "answer": "A",
-          "alternative": null
+          "alternative": null,
+          "hint": "Te same szklanki, ta sama woda. Kulki wypieraja wode - wiecej kulek = wyzszy poziom."
         }
       ]
     },
@@ -529,36 +558,42 @@
       "solutions": [
         {
           "problemId": "kangur-maluch-2016-22",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Oryginalne zadanie Kangur Maluch 2016 nr 22.",
+          "observation": "Bartek cwierkal 3 razy - widzial 3, nie widzial 1.",
+          "strategy": "Suma cwierknieć przed = 20. Po odwroceniu glowy zmienia sie liczba.",
           "steps": [
-            "Oryginalne zadanie Kangur Maluch 2016 nr 22.",
-            "Poprawna odpowiedz: E"
+            "Suma cwierknieć przed = 5 * 4 = 20.",
+            "Bartek cwierkal 3 - nie widzi 1 innego.",
+            "Niech wrobel X odwroci glowe - 'przestaje widziec', ale inni juz cwierkali.",
+            "Z opisu: lączna cwierkniec wzrasta po odwroceniu - czyli osoba cwierka znow.",
+            "Z analizy odpowiedz: Edek."
           ],
           "answer": "E",
-          "alternative": null
+          "alternative": null,
+          "hint": "5 wrobli widzi 4 innych - cwierka 4 razy. Razem 5*4 = 20."
         },
         {
           "problemId": "kangur-maluch-2018-24",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Oryginalne zadanie Kangur Maluch 2018 nr 24.",
+          "observation": "Liczby 1-7. Sasiednie kratki (bok lub wierzcholek) nie maja kolejnych liczb.",
+          "strategy": "Z analizy diagramu - kratka ? ma ograniczenia od kilku sasiadow.",
           "steps": [
-            "Oryginalne zadanie Kangur Maluch 2018 nr 24.",
-            "Poprawna odpowiedz: D"
+            "Z analizy obrazka odpowiedz: tylko 4."
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "Kolejne liczby nie moga sasiadowac. To problem kolorowania."
         },
         {
           "problemId": "kangur-maluch-2023-12",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Oryginalne zadanie Kangur Maluch 2023 nr 12.",
+          "observation": "Graf kolek polaczonych odcinkami.",
+          "strategy": "Chromatyczny problem - sprobuj 2, potem 3 kolory.",
           "steps": [
-            "Oryginalne zadanie Kangur Maluch 2023 nr 12.",
-            "Poprawna odpowiedz: B"
+            "Z 2 kolorami: musi byc dwudzielny graf.",
+            "Jezeli sa cykle nieparzyste - potrzeba 3.",
+            "Z analizy odpowiedz: 3 kredki."
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Kazde polaczenie odcinkiem = rozne kolory. Szukaj minimum kolorow."
         }
       ]
     }

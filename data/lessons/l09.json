@@ -169,7 +169,8 @@
             "Nastepna: 8 + 2 = 10"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Roznica stala - liczymy ja."
         },
         {
           "problemId": "gen-l09-w2",
@@ -180,7 +181,8 @@
             "Nastepna: 20 + 5 = 25"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Ciag rosnie co 5."
         },
         {
           "problemId": "gen-l09-w3",
@@ -191,7 +193,8 @@
             "16 razy 2 = 32"
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "Liczby szybko rosna - to mnozenie."
         },
         {
           "problemId": "gen-l09-w4",
@@ -202,7 +205,8 @@
             "18 - 4 = 14"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Ciag maleje - roznica ujemna."
         },
         {
           "problemId": "gen-l09-w5",
@@ -214,7 +218,8 @@
             "10 + 5 = 15"
           ],
           "answer": "C",
-          "alternative": "To liczby trojkatne: 1, 3, 6, 10, 15."
+          "alternative": "To liczby trojkatne: 1, 3, 6, 10, 15.",
+          "hint": "Roznice rosna: 2, 3, 4."
         },
         {
           "problemId": "gen-l09-c1",
@@ -227,7 +232,8 @@
             "23 razy 2 + 1 = 47"
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "Roznice rosna szybko - sprawdz regule mnozenia."
         },
         {
           "problemId": "gen-l09-c2",
@@ -238,7 +244,8 @@
             "Nastepna: 5 + 8 = 13"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Kazda liczba to suma dwoch przed nia."
         }
       ]
     },
@@ -399,7 +406,8 @@
             "12 + 3 = 15"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Roznica stala 3."
         },
         {
           "problemId": "gen-l9-v2-w2",
@@ -410,7 +418,8 @@
             "35 - 5 = 30"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Ciag maleje co 5."
         },
         {
           "problemId": "gen-l9-v2-w3",
@@ -421,7 +430,8 @@
             "27 razy 3 = 81"
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "Liczby szybko rosna - mnozenie."
         },
         {
           "problemId": "gen-l9-v2-w4",
@@ -432,7 +442,8 @@
             "11 + 3 = 14"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Roznica stala 3."
         },
         {
           "problemId": "kangur-maluch-2020-6",
@@ -444,7 +455,8 @@
             "22 nie ma narysowanego, najwieksza osiagalna to 19"
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "Skok co 3 od liczby 1, ale tylko po dostepnych liczbach."
         },
         {
           "problemId": "gen-l9-v2-c1",
@@ -455,7 +467,8 @@
             "Nastepna: 5x5 = 25"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Liczby to kwadraty: 1x1, 2x2, 3x3, 4x4."
         },
         {
           "problemId": "gen-l9-v2-c2",
@@ -467,7 +480,8 @@
             "18 + 6 = 24"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Roznice rosna o 1."
         }
       ]
     }

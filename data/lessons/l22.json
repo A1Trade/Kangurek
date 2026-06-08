@@ -168,7 +168,8 @@
             "Szescian to bryla o 6 kwadratowych scianach"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Szescian ma 6 jednakowych scian."
         },
         {
           "problemId": "gen-l22-v1-w2",
@@ -178,7 +179,8 @@
             "4 wierzcholki gornej sciany + 4 dolnej = 8"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Szescian ma 8 wierzcholkow (4 gora + 4 dol)."
         },
         {
           "problemId": "gen-l22-v1-w3",
@@ -188,7 +190,8 @@
             "4 krawedzie gornej sciany + 4 dolnej + 4 pionowe = 12"
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "Szescian ma 12 krawedzi."
         },
         {
           "problemId": "kangur-maluch-2025-5",
@@ -199,7 +202,8 @@
             "Sprawdzamy 5 kostek - poprawna to A"
           ],
           "answer": "A",
-          "alternative": null
+          "alternative": null,
+          "hint": "Standardowa kostka - przeciwlegle sciany daja sume 7."
         },
         {
           "problemId": "kangur-maluch-2020-7",
@@ -210,7 +214,8 @@
             "Naprzeciw kaczki jest biedronka"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Kostka z obrazkami - sciana naprzeciw kaczki."
         },
         {
           "problemId": "kangur-maluch-2021-1",
@@ -221,7 +226,8 @@
             "Poprawna budowla to A"
           ],
           "answer": "A",
-          "alternative": null
+          "alternative": null,
+          "hint": "Budowla z 4 klockow."
         },
         {
           "problemId": "gen-l22-v1-c1",
@@ -231,7 +237,8 @@
             "Prostopadlosc1an ma 6 prostokatnych scian (jak szescian, tylko nie wszystkie kwadratowe)"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Prostopadloscian tez ma 6 scian."
         }
       ]
     },
@@ -391,7 +398,8 @@
             "Szescian to bryla z 6 jednakowych kwadratowych scian"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Sciany szescianu - same kwadraty."
         },
         {
           "problemId": "gen-l22-v2-w2",
@@ -401,7 +409,8 @@
             "Sciany prostopadlosc1anu sa prostokatami"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Prostopadlosc1an ma prostokatne sciany."
         },
         {
           "problemId": "gen-l22-v2-w3",
@@ -411,7 +420,8 @@
             "1 i 6, 2 i 5, 3 i 4 - kazda para daje 7"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Standardowa kostka - przeciwlegle daja 7."
         },
         {
           "problemId": "gen-l22-v2-w4",
@@ -421,7 +431,8 @@
             "Sciany sasiednie stykaja sie wzdluz krawedzi"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Sasiednie sciany maja wspolna krawedz."
         },
         {
           "problemId": "gen-l22-v2-w5",
@@ -431,7 +442,8 @@
             "Patrzac na szescian widzimy gore, przod i jeden bok - razem 3 sciany"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Z jednego punktu widzimy 3 sciany szescianu."
         },
         {
           "problemId": "gen-l22-v2-c1",
@@ -442,7 +454,8 @@
             "6 zewnetrznych krawedzi obrysu + 3 wewnetrzne miedzy scianami = 9"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Z trzech widocznych scian powstaje 9 krawedzi."
         },
         {
           "problemId": "gen-l22-v2-c2",
@@ -453,7 +466,8 @@
             "Kwadratowych jest 2"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Prostopadlosc1an 3x3x5 - sprawdzam ksztalty scian."
         }
       ]
     }

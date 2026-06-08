@@ -168,7 +168,8 @@
             "Trojkat z 3 rownymi bokami to rownoboczny"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Wszystkie boki rowne = rownoboczny."
         },
         {
           "problemId": "gen-l16-v1-w2",
@@ -178,7 +179,8 @@
             "Trojkat prostokatny ma jeden kat prosty"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Prostokatny ma kat prosty."
         },
         {
           "problemId": "gen-l16-v1-w3",
@@ -188,7 +190,8 @@
             "Kazdy trojkat ma 3 boki"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Trojkat - trzy boki."
         },
         {
           "problemId": "kangur-maluch-2015-10",
@@ -199,7 +202,8 @@
             "Wychodzi 16 trojkatow"
           ],
           "answer": "E",
-          "alternative": null
+          "alternative": null,
+          "hint": "Figure dzielimy na jednakowe trojkaty."
         },
         {
           "problemId": "kangur-maluch-2014-3",
@@ -210,7 +214,8 @@
             "Pasuja domki 1 i 4"
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "Porownujemy zestawy klockow domkow."
         },
         {
           "problemId": "kangur-maluch-2012-9",
@@ -220,7 +225,8 @@
             "Z kartonikow w ksztalcie L mozna ulozyc 3 z podanych figur"
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "Ukladamy figury z kartonikow L."
         },
         {
           "problemId": "kangur-maluch-2019-10",
@@ -231,7 +237,8 @@
             "Mozna otrzymac 3 rozne figury"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Usuwamy jeden kartonik z figury z 5 kwadratow."
         }
       ]
     },
@@ -391,7 +398,8 @@
             "Trojkat z 2 rownymi bokami to rownoramienny"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Dwa rowne boki = rownoramienny."
         },
         {
           "problemId": "gen-l16-v2-w2",
@@ -401,7 +409,8 @@
             "Kazdy trojkat ma 3 wierzcholki i 3 katy"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Trojkat ma 3 katy."
         },
         {
           "problemId": "gen-l16-v2-w3",
@@ -411,7 +420,8 @@
             "Jedna przekatna kwadratu tworzy 2 trojkaty prostokatne"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Przekatna dzieli kwadrat na 2 trojkaty."
         },
         {
           "problemId": "kangur-maluch-2014-17",
@@ -422,7 +432,8 @@
             "Szukany klocek lezy w polozeniu C"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Szukamy polozenia konkretnego klocka w figurze."
         },
         {
           "problemId": "kangur-maluch-2025-8",
@@ -433,7 +444,8 @@
             "Poprawne ulozenie to C"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Ukladamy wiatraczek z 3 figur."
         },
         {
           "problemId": "kangur-maluch-2013-17",
@@ -444,7 +456,8 @@
             "Najmniejszy kwadrat wymaga 4 takich figur"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Ukladamy najmniejszy kwadrat z jednakowych figur."
         },
         {
           "problemId": "gen-l16-v2-c1",
@@ -456,7 +469,8 @@
             "Razem 5 trojkatow"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Liczymy male trojkaty i duzy zlozony."
         }
       ]
     },
@@ -489,14 +503,18 @@
       "solutions": [
         {
           "problemId": "kangur-maluch-2020-14",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Oryginalne zadanie Kangur Maluch 2020 nr 14.",
+          "observation": "Patyczki 1 cm i 3 cm. Trzeba zlozyc kwadrat z 4 rownych bokow.",
+          "strategy": "Kazdy bok kwadratu rownej dlugosci - sprawdz mozliwosci.",
           "steps": [
-            "Oryginalne zadanie Kangur Maluch 2020 nr 14.",
-            "Poprawna odpowiedz: B"
+            "Bok = 1 cm (czterech patyczkow po 1 cm): potrzeba 4 krotszych. Nie ma takiego zestawu.",
+            "Bok = 2 cm (kazdy z 2 krotszych): potrzeba 8 krotszych. Nie ma.",
+            "Bok = 3 cm (1 dluzszy ALBO 3 krotsze): potrzeba 4 boków po 3 cm.",
+            "Z B: 3 krotsze + 3 dluzsze -> 3 krotsze daja 1 bok (3*1=3cm), 3 dluzsze daja 3 boki. Razem 4 boki po 3 cm.",
+            "Odpowiedz: 3 krotsze i 3 dluzsze."
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Kwadrat ma 4 boki. Patrz ktory zestaw daje 4 rowne dlugosci."
         }
       ]
     }

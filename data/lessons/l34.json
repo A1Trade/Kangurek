@@ -168,7 +168,8 @@
             "Po wtorku jest sroda"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Wtorek + 1 dzien = sroda."
         },
         {
           "problemId": "gen-l34-v1-w2",
@@ -178,7 +179,8 @@
             "Piatek + 7 = piatek"
           ],
           "answer": "A",
-          "alternative": null
+          "alternative": null,
+          "hint": "+ 7 dni = ten sam dzien."
         },
         {
           "problemId": "gen-l34-v1-w3",
@@ -188,7 +190,8 @@
             "Pon+1=wt, +2=sr, +3=czw, +4=pt, +5=sob"
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "Poniedzialek + 5 dni = sobota."
         },
         {
           "problemId": "kangur-maluch-2019-1",
@@ -200,7 +203,8 @@
             "Jutro wtorek"
           ],
           "answer": "A",
-          "alternative": null
+          "alternative": null,
+          "hint": "Wczoraj niedziela = dzis poniedzialek = jutro wtorek."
         },
         {
           "problemId": "kangur-maluch-2015-8",
@@ -211,7 +215,8 @@
             "Czwartek + 2 dni = sobota"
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "19 marca = czwartek, za 30 dni jaki dzien?"
         },
         {
           "problemId": "kangur-maluch-2018-9",
@@ -222,7 +227,8 @@
             "Srodaa to 6 dzien, zaczal 5 dni wczesniej = piatek"
           ],
           "answer": "E",
-          "alternative": null
+          "alternative": null,
+          "hint": "Krolik 20 marchewek, codziennie 2, w srode 12. dzien."
         },
         {
           "problemId": "gen-l34-v1-c1",
@@ -233,7 +239,8 @@
             "Sroda + 2 = piatek"
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "100:7 = 14 reszta 2."
         }
       ]
     },
@@ -393,7 +400,8 @@
             "Pon przed wt"
           ],
           "answer": "A",
-          "alternative": null
+          "alternative": null,
+          "hint": "Wtorek - 1 dzien = poniedzialek."
         },
         {
           "problemId": "gen-l34-v2-w2",
@@ -403,7 +411,8 @@
             "14 dzieli sie przez 7"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Sobota + 14 = sobota."
         },
         {
           "problemId": "gen-l34-v2-w3",
@@ -415,7 +424,8 @@
             "Niedziela + 1 = poniedzialek"
           ],
           "answer": "A",
-          "alternative": null
+          "alternative": null,
+          "hint": "50:7 = 7 reszta 1."
         },
         {
           "problemId": "gen-l34-v2-w4",
@@ -426,7 +436,8 @@
             "Czwartek - 3 = poniedzialek"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "10:7 = 1 reszta 3."
         },
         {
           "problemId": "gen-l34-v2-w5",
@@ -436,7 +447,8 @@
             "Piatek + 2 = niedziela"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Pojutrze = jutro + 1."
         },
         {
           "problemId": "gen-l34-v2-c1",
@@ -448,7 +460,8 @@
             "Czwartek + 3 = niedziela"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "31 dni do 1 kwietnia."
         },
         {
           "problemId": "gen-l34-v2-c2",
@@ -459,7 +472,8 @@
             "Poniedzialek - 5 = sroda"
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "Cofnij 12 dni od poniedzialku."
         }
       ]
     }

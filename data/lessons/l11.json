@@ -169,7 +169,8 @@
             "Srodek = 15 : 3 = 5"
           ],
           "answer": "C",
-          "alternative": "Srodek nalezy do 4 linii (wiersz, kolumna, 2 przekatne) - dlatego jest specjalny."
+          "alternative": "Srodek nalezy do 4 linii (wiersz, kolumna, 2 przekatne) - dlatego jest specjalny.",
+          "hint": "Magiczny kwadrat 3x3 z 1-9 - srodek to zawsze suma magiczna : 3."
         },
         {
           "problemId": "gen-l11-w2",
@@ -179,7 +180,8 @@
             "15 - 8 - 1 = 6"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Brakujaca = suma magiczna minus dwie znane."
         },
         {
           "problemId": "gen-l11-w3",
@@ -189,7 +191,8 @@
             "18 - 7 - 5 = 6"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Brakujaca = suma minus dwie znane."
         },
         {
           "problemId": "gen-l11-w4",
@@ -200,7 +203,8 @@
             "To wlasnie suma magiczna"
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "Przekatna tez musi dac sume magiczna."
         },
         {
           "problemId": "kangur-maluch-2022-5",
@@ -214,7 +218,8 @@
             "Zamiana 3 na 2 naprawia obie linie"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Policz sumy wierszy i kolumn, znajdz odstajaca."
         },
         {
           "problemId": "kangur-maluch-2012-12",
@@ -226,7 +231,8 @@
             "Po uzupelnieniu w szarym polu wychodzi 3"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Wyniki dzialan wpisane do siatki, potem uzupelnianie jak sudoku."
         },
         {
           "problemId": "gen-l11-c2",
@@ -236,7 +242,8 @@
             "24 - 11 - 7 = 6"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Brakujaca = suma magiczna minus dwie znane."
         }
       ]
     },
@@ -396,7 +403,8 @@
             "12 - 7 - 2 = 3"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Brakujaca = suma minus dwie znane."
         },
         {
           "problemId": "gen-l11-v2-w2",
@@ -408,7 +416,8 @@
             "45 : 3 = 15"
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "Magiczny kwadrat 3x3 z 1-9 - suma kazdej linii."
         },
         {
           "problemId": "gen-l11-v2-w3",
@@ -418,7 +427,8 @@
             "15 - 4 - 5 = 6"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Brakujaca = suma magiczna minus dwie znane."
         },
         {
           "problemId": "gen-l11-v2-w4",
@@ -428,7 +438,8 @@
             "21 - 9 - 4 = 8"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Brakujaca = suma minus dwie znane."
         },
         {
           "problemId": "kangur-maluch-2014-6",
@@ -441,7 +452,8 @@
             "Po wyliczeniu w szarym polu wychodzi 4"
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "Iloczyn dwoch sasiednich liczb daje liczbe nad nimi."
         },
         {
           "problemId": "kangur-maluch-2016-16",
@@ -453,7 +465,8 @@
             "Suma dwoch zacieniowanych pol wynosi 4"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Latinski kwadrat 3x3 z liczb 1, 2, 3."
         },
         {
           "problemId": "kangur-maluch-2015-20",
@@ -466,7 +479,8 @@
             "W pole ? mozna wpisac 3, 5 lub 7"
           ],
           "answer": "E",
-          "alternative": null
+          "alternative": null,
+          "hint": "Krzyz z 5 pol, suma kolumny = suma rzedu."
         }
       ]
     }

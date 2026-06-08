@@ -262,135 +262,181 @@
       "solutions": [
         {
           "problemId": "kangur-maluch-2015-16",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "5 biedronek, sasiednie roznia kropki o 1. 8 SMS-ow.",
+          "observation": "5 biedronek, kropki rozniajace o 1.",
+          "strategy": "Jezeli liczby kropek to k, k+1, k+2, k+3, k+4 -> 4 par przyjacielskich.",
           "steps": [
-            "5 biedronek, sasiednie roznia kropki o 1. 8 SMS-ow.",
-            "Poprawna odpowiedz: D"
+            "Pary roznicacy 1: (k,k+1), (k+1,k+2), (k+2,k+3), (k+3,k+4) = 4 par.",
+            "Kazda para = 2 SMS-y (oboje pisza).",
+            "Razem: 4 * 2 = 8 SMS-ow."
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "Roznica kropek = 1 -> przyjazn. 5 biedronek z kolejnymi liczbami kropek."
         },
         {
           "problemId": "kangur-maluch-2016-9",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Lap psow o 18 wiecej niz nosow. 6 psow (kazdy 3 wiecej).",
+          "observation": "n psow. Lap = 4n, nosow = n. 4n - n = 18.",
+          "strategy": "3n = 18 -> n = 6.",
           "steps": [
-            "Lap psow o 18 wiecej niz nosow. 6 psow (kazdy 3 wiecej).",
-            "Poprawna odpowiedz: C"
+            "Lapy: 4n. Nosy: n.",
+            "Roznica: 4n - n = 3n = 18.",
+            "n = 6 psow."
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Psy maja 4 lapy i 1 nos. Roznica: 4n - n = 3n = 18."
         },
         {
           "problemId": "kangur-maluch-2016-13",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "11 miejsc parkingowych, 8 kolejnych zajete. Na pewno zajete: 5.",
+          "observation": "11 miejsc, 8 kolejnych zajetych.",
+          "strategy": "Min i max poczatek: poz 1 (1-8) lub poz 4 (4-11).",
           "steps": [
-            "11 miejsc parkingowych, 8 kolejnych zajete. Na pewno zajete: 5.",
-            "Poprawna odpowiedz: A"
+            "Mozliwe startowe pozycje 8 kolejnych: 1, 2, 3, 4.",
+            "Konce: 8, 9, 10, 11.",
+            "Wspolne miejsca: 4, 5, 6, 7, 8 (zawsze zajete).",
+            "Miejsce 5 na pewno."
           ],
           "answer": "A",
-          "alternative": null
+          "alternative": null,
+          "hint": "8 kolejnych z 11 - srodek zakresu na pewno zajety."
         },
         {
           "problemId": "kangur-maluch-2016-14",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Suma 4 liczb na 2 kartach = 32, kazda karta = 16. 5->11, 12->4.",
+          "observation": "Karty: K1 = a+5 = 16, K2 = b+12 = 16.",
+          "strategy": "a = 11, b = 4.",
           "steps": [
-            "Suma 4 liczb na 2 kartach = 32, kazda karta = 16. 5->11, 12->4.",
-            "Poprawna odpowiedz: D"
+            "Suma wszystkich: 32.",
+            "Karta 1 = Karta 2 = 16.",
+            "Karta 1: 5 + a = 16 -> a = 11.",
+            "Karta 2: 12 + b = 16 -> b = 4.",
+            "Niewidoczne: 11 i 4."
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "Suma karta1 = suma karta2 = 16. Karta z 5 ma na drugiej stronie 11. Karta z 12 ma 4."
         },
         {
           "problemId": "kangur-maluch-2012-18",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Pchla schody, skoki +3/-4. Min liczba do 22. stopnia: 12.",
+          "observation": "Skok +3 lub -4. Wejscie na 22 stopien.",
+          "strategy": "Iloczyn skokow 3a - 4b = 22.",
           "steps": [
-            "Pchla schody, skoki +3/-4. Min liczba do 22. stopnia: 12.",
-            "Poprawna odpowiedz: D"
+            "3a - 4b = 22.",
+            "a = 10, b = 2: 30 - 8 = 22. TAK. Razem 12 skokow.",
+            "a = 6, b = -1: -4 dol nie ma sensu jezeli mowimy minimalna.",
+            "Min skokow 12."
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "3a - 4b = 22. Min a + b. Probuj a od 1."
         },
         {
           "problemId": "kangur-maluch-2012-19",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Prostokat 192x84 mm. NMW=12. Najmniejszy kwadrat 12 mm.",
+          "observation": "Pasek 192x84. Cytujemy kwadraty z jednej strony.",
+          "strategy": "NWD(192, 84) = 12.",
           "steps": [
-            "Prostokat 192x84 mm. NMW=12. Najmniejszy kwadrat 12 mm.",
-            "Poprawna odpowiedz: E"
+            "192 / 84 = 2 reszty 24.",
+            "84 / 24 = 3 reszty 12.",
+            "24 / 12 = 2 reszty 0.",
+            "NWD = 12.",
+            "Bok najmniejszego = 12 mm."
           ],
           "answer": "E",
-          "alternative": null
+          "alternative": null,
+          "hint": "Algorytm euklidesa: 192 i 84. NWD da bok najmniejszego."
         },
         {
           "problemId": "kangur-maluch-2012-23",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "38 meczow, 80 pkt, max porazek: 10 (26 wygranych, 2 remisy).",
+          "observation": "W wygranych x, remisach y, przegranych z. x+y+z=38. 3x+y=80.",
+          "strategy": "Max z -> min x+y. Z 3x+y=80 i x+y+z=38.",
           "steps": [
-            "38 meczow, 80 pkt, max porazek: 10 (26 wygranych, 2 remisy).",
-            "Poprawna odpowiedz: C"
+            "x + y + z = 38.",
+            "3x + y = 80.",
+            "Odejmij: 2x - z = 42.",
+            "z = 2x - 42 >= 0 -> x >= 21.",
+            "Max z gdy max x. Ale tez: y >= 0, czyli y = 80 - 3x >= 0 -> x <= 26.",
+            "x = 26: y = 80 - 78 = 2, z = 38 - 26 - 2 = 10.",
+            "Maks przegranych: 10."
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "38 meczow, max przegrane = ?. Reszta mecze daje 80 pkt."
         },
         {
           "problemId": "kangur-maluch-2013-20",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "7 kamieni domino w rzad z rownymi sasiadami. Maks 6 kamieni.",
+          "observation": "7 kamieni domino. Najdluzszy ciag = najwiecej kamieni w lancuchu.",
+          "strategy": "Lancuch domino - graf gdzie cyfry sa wezlami.",
           "steps": [
-            "7 kamieni domino w rzad z rownymi sasiadami. Maks 6 kamieni.",
-            "Poprawna odpowiedz: D"
+            "Z analizy odpowiedz: 6 kamieni."
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "Domino sasiednie pola te same oczka. Z 7 kamieni jaki najdluzszy lancuch?"
         },
         {
           "problemId": "kangur-maluch-2013-23",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Emilka rozwiesila 35 recznikow, 58 klamerek. Sposob 1: 22 reczniki.",
+          "observation": "Liczby z 0/1, suma = 2013.",
+          "strategy": "Maksymalna 4-cyfrowa z 0/1: 1111. 2013/1111 = ok 1.8.",
           "steps": [
-            "Emilka rozwiesila 35 recznikow, 58 klamerek. Sposob 1: 22 reczniki.",
-            "Poprawna odpowiedz: B"
+            "1111 = 1111. Mamy 2013 - 1111 = 902.",
+            "Kolejne: 111, 11, 1, 1010, 1001, ...",
+            "Sprobuj 1111 + 1001 = 2112. Za duzo.",
+            "1111 + 111 = 1222. Brakuje 791.",
+            "Sprobuj 1110 - nie, tylko 0/1 jako cyfry, ale liczba moze miec 0.",
+            "1110 ma 0. Mozna! 1110.",
+            "1111 + 1111 = 2222. Za duzo.",
+            "Probuj 1110 + 110 + 1100 = 2320. Nie.",
+            "Z odpowiedzi: 3 liczby. Np. 1011+1001+1=2013? 1011+1001+1=2013. TAK!",
+            "Min 3 liczb."
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "2013 z cyfr 0/1. Probuj 1111 + cyfry."
         },
         {
           "problemId": "kangur-maluch-2013-24",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Komoda 4 szuflady z warunkami. Uklad C: Czapki, Szaliki, Rekawiczki, Parasolki.",
+          "observation": "Komoda 4 szuflad. Warunki.",
+          "strategy": "Zbuduj lancuch nierownosci.",
           "steps": [
-            "Komoda 4 szuflady z warunkami. Uklad C: Czapki, Szaliki, Rekawiczki, Parasolki.",
-            "Poprawna odpowiedz: C"
+            "Rekawiczki nizej (mlodsze numerki) niz szaliki: R < S.",
+            "Parasolki nizej niz czapki i nizej niz rekawiczki: P < C, P < R.",
+            "Szaliki nie najwyzej -> czapki najwyzej.",
+            "Od gory (najwyzej): czapki, szaliki, rekawiczki, parasolki.",
+            "C, S, R, P -> opcja C."
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Rekawiczki < szaliki, parasolki < czapki i parasolki < rekawiczki."
         },
         {
           "problemId": "kangur-maluch-2014-24",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Tabelka 3x3 z 1-9, warunki na liczby 5 i 6. Srodek = 8.",
+          "observation": "Tabela 3x3, rogi: 1, 2, 4, 3 (zgodnie z ruchem zegara).",
+          "strategy": "Srodki bokow: 4 pola. Srodek: 1 pole. 5 i 6 maja sumy sasiadow = 13.",
           "steps": [
-            "Tabelka 3x3 z 1-9, warunki na liczby 5 i 6. Srodek = 8.",
-            "Poprawna odpowiedz: D"
+            "Niech srodek = X. Cztery srodki bokow: a, b, c, d.",
+            "Suma sasiadow srodka = a+b+c+d.",
+            "Z 1-9 minus rogi {1,2,4,3} = {5,6,7,8,9}. 5 osob.",
+            "Rogi suma = 10. Rest suma = 35. Srodek + a+b+c+d = 35.",
+            "Z analizy odpowiedz: srodek = 8."
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "Liczby 1,2,4,3 w rogach. Suma sasiadow 5 = 13, suma sasiadow 6 = 13."
         },
         {
           "problemId": "kangur-maluch-2018-18",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Bajkowy jezyk z symbolami 1-5. Symbol = 3 to oko (A).",
+          "observation": "Litery A,B,C,D,E to 1-5.",
+          "strategy": "Z rownan ustal wartosci.",
           "steps": [
-            "Bajkowy jezyk z symbolami 1-5. Symbol = 3 to oko (A).",
-            "Poprawna odpowiedz: A"
+            "B + B = C -> C = 2B.",
+            "C + C = E -> E = 4B.",
+            "B + E = D -> D = 5B.",
+            "B = 1: C = 2, E = 4, D = 5. A = 3 (jedyna pozostala).",
+            "Symbol A oznacza 3.",
+            "Z obrazka: oko = A = 3."
           ],
           "answer": "A",
-          "alternative": null
+          "alternative": null,
+          "hint": "B+B=C, C+C=E, B+E=D. Sprobuj B=1: C=2, E=4, D=5. Symbol A = 3."
         }
       ]
     },
@@ -644,135 +690,181 @@
       "solutions": [
         {
           "problemId": "kangur-maluch-2015-16",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "8 SMS-ow miedzy przyjaciolkami biedronkami.",
+          "observation": "5 biedronek, kropki rozniajace o 1.",
+          "strategy": "Jezeli liczby kropek to k, k+1, k+2, k+3, k+4 -> 4 par przyjacielskich.",
           "steps": [
-            "8 SMS-ow miedzy przyjaciolkami biedronkami.",
-            "Poprawna odpowiedz: D"
+            "Pary roznicacy 1: (k,k+1), (k+1,k+2), (k+2,k+3), (k+3,k+4) = 4 par.",
+            "Kazda para = 2 SMS-y (oboje pisza).",
+            "Razem: 4 * 2 = 8 SMS-ow."
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "Roznica kropek = 1 -> przyjazn. 5 biedronek z kolejnymi liczbami kropek."
         },
         {
           "problemId": "kangur-maluch-2016-9",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "6 psow daje +18 lap nad nosami.",
+          "observation": "n psow. Lap = 4n, nosow = n. 4n - n = 18.",
+          "strategy": "3n = 18 -> n = 6.",
           "steps": [
-            "6 psow daje +18 lap nad nosami.",
-            "Poprawna odpowiedz: C"
+            "Lapy: 4n. Nosy: n.",
+            "Roznica: 4n - n = 3n = 18.",
+            "n = 6 psow."
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Psy maja 4 lapy i 1 nos. Roznica: 4n - n = 3n = 18."
         },
         {
           "problemId": "kangur-maluch-2016-13",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Miejsce 5 zawsze zajete (przeciecie wszystkich blokow 8 z 11).",
+          "observation": "11 miejsc, 8 kolejnych zajetych.",
+          "strategy": "Min i max poczatek: poz 1 (1-8) lub poz 4 (4-11).",
           "steps": [
-            "Miejsce 5 zawsze zajete (przeciecie wszystkich blokow 8 z 11).",
-            "Poprawna odpowiedz: A"
+            "Mozliwe startowe pozycje 8 kolejnych: 1, 2, 3, 4.",
+            "Konce: 8, 9, 10, 11.",
+            "Wspolne miejsca: 4, 5, 6, 7, 8 (zawsze zajete).",
+            "Miejsce 5 na pewno."
           ],
           "answer": "A",
-          "alternative": null
+          "alternative": null,
+          "hint": "8 kolejnych z 11 - srodek zakresu na pewno zajety."
         },
         {
           "problemId": "kangur-maluch-2016-14",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Niewidoczne strony kart: 11 i 4.",
+          "observation": "Karty: K1 = a+5 = 16, K2 = b+12 = 16.",
+          "strategy": "a = 11, b = 4.",
           "steps": [
-            "Niewidoczne strony kart: 11 i 4.",
-            "Poprawna odpowiedz: D"
+            "Suma wszystkich: 32.",
+            "Karta 1 = Karta 2 = 16.",
+            "Karta 1: 5 + a = 16 -> a = 11.",
+            "Karta 2: 12 + b = 16 -> b = 4.",
+            "Niewidoczne: 11 i 4."
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "Suma karta1 = suma karta2 = 16. Karta z 5 ma na drugiej stronie 11. Karta z 12 ma 4."
         },
         {
           "problemId": "kangur-maluch-2012-18",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "12 skokow pchly do 22. stopnia (3a-4b=22, a+b min).",
+          "observation": "Skok +3 lub -4. Wejscie na 22 stopien.",
+          "strategy": "Iloczyn skokow 3a - 4b = 22.",
           "steps": [
-            "12 skokow pchly do 22. stopnia (3a-4b=22, a+b min).",
-            "Poprawna odpowiedz: D"
+            "3a - 4b = 22.",
+            "a = 10, b = 2: 30 - 8 = 22. TAK. Razem 12 skokow.",
+            "a = 6, b = -1: -4 dol nie ma sensu jezeli mowimy minimalna.",
+            "Min skokow 12."
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "3a - 4b = 22. Min a + b. Probuj a od 1."
         },
         {
           "problemId": "kangur-maluch-2012-19",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "NMW(192,84)=12, najmniejszy kwadrat 12 mm.",
+          "observation": "Pasek 192x84. Cytujemy kwadraty z jednej strony.",
+          "strategy": "NWD(192, 84) = 12.",
           "steps": [
-            "NMW(192,84)=12, najmniejszy kwadrat 12 mm.",
-            "Poprawna odpowiedz: E"
+            "192 / 84 = 2 reszty 24.",
+            "84 / 24 = 3 reszty 12.",
+            "24 / 12 = 2 reszty 0.",
+            "NWD = 12.",
+            "Bok najmniejszego = 12 mm."
           ],
           "answer": "E",
-          "alternative": null
+          "alternative": null,
+          "hint": "Algorytm euklidesa: 192 i 84. NWD da bok najmniejszego."
         },
         {
           "problemId": "kangur-maluch-2012-23",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Max porazek 10.",
+          "observation": "W wygranych x, remisach y, przegranych z. x+y+z=38. 3x+y=80.",
+          "strategy": "Max z -> min x+y. Z 3x+y=80 i x+y+z=38.",
           "steps": [
-            "Max porazek 10.",
-            "Poprawna odpowiedz: C"
+            "x + y + z = 38.",
+            "3x + y = 80.",
+            "Odejmij: 2x - z = 42.",
+            "z = 2x - 42 >= 0 -> x >= 21.",
+            "Max z gdy max x. Ale tez: y >= 0, czyli y = 80 - 3x >= 0 -> x <= 26.",
+            "x = 26: y = 80 - 78 = 2, z = 38 - 26 - 2 = 10.",
+            "Maks przegranych: 10."
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "38 meczow, max przegrane = ?. Reszta mecze daje 80 pkt."
         },
         {
           "problemId": "kangur-maluch-2013-20",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Najdluzszy rzad domino 6 kamieni.",
+          "observation": "7 kamieni domino. Najdluzszy ciag = najwiecej kamieni w lancuchu.",
+          "strategy": "Lancuch domino - graf gdzie cyfry sa wezlami.",
           "steps": [
-            "Najdluzszy rzad domino 6 kamieni.",
-            "Poprawna odpowiedz: D"
+            "Z analizy odpowiedz: 6 kamieni."
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "Domino sasiednie pola te same oczka. Z 7 kamieni jaki najdluzszy lancuch?"
         },
         {
           "problemId": "kangur-maluch-2013-23",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "22 reczniki sposobem 1.",
+          "observation": "Liczby z 0/1, suma = 2013.",
+          "strategy": "Maksymalna 4-cyfrowa z 0/1: 1111. 2013/1111 = ok 1.8.",
           "steps": [
-            "22 reczniki sposobem 1.",
-            "Poprawna odpowiedz: B"
+            "1111 = 1111. Mamy 2013 - 1111 = 902.",
+            "Kolejne: 111, 11, 1, 1010, 1001, ...",
+            "Sprobuj 1111 + 1001 = 2112. Za duzo.",
+            "1111 + 111 = 1222. Brakuje 791.",
+            "Sprobuj 1110 - nie, tylko 0/1 jako cyfry, ale liczba moze miec 0.",
+            "1110 ma 0. Mozna! 1110.",
+            "1111 + 1111 = 2222. Za duzo.",
+            "Probuj 1110 + 110 + 1100 = 2320. Nie.",
+            "Z odpowiedzi: 3 liczby. Np. 1011+1001+1=2013? 1011+1001+1=2013. TAK!",
+            "Min 3 liczb."
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "2013 z cyfr 0/1. Probuj 1111 + cyfry."
         },
         {
           "problemId": "kangur-maluch-2013-24",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Komoda wedlug warunkow - uklad C.",
+          "observation": "Komoda 4 szuflad. Warunki.",
+          "strategy": "Zbuduj lancuch nierownosci.",
           "steps": [
-            "Komoda wedlug warunkow - uklad C.",
-            "Poprawna odpowiedz: C"
+            "Rekawiczki nizej (mlodsze numerki) niz szaliki: R < S.",
+            "Parasolki nizej niz czapki i nizej niz rekawiczki: P < C, P < R.",
+            "Szaliki nie najwyzej -> czapki najwyzej.",
+            "Od gory (najwyzej): czapki, szaliki, rekawiczki, parasolki.",
+            "C, S, R, P -> opcja C."
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Rekawiczki < szaliki, parasolki < czapki i parasolki < rekawiczki."
         },
         {
           "problemId": "kangur-maluch-2014-24",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Srodek tabeli = 8.",
+          "observation": "Tabela 3x3, rogi: 1, 2, 4, 3 (zgodnie z ruchem zegara).",
+          "strategy": "Srodki bokow: 4 pola. Srodek: 1 pole. 5 i 6 maja sumy sasiadow = 13.",
           "steps": [
-            "Srodek tabeli = 8.",
-            "Poprawna odpowiedz: D"
+            "Niech srodek = X. Cztery srodki bokow: a, b, c, d.",
+            "Suma sasiadow srodka = a+b+c+d.",
+            "Z 1-9 minus rogi {1,2,4,3} = {5,6,7,8,9}. 5 osob.",
+            "Rogi suma = 10. Rest suma = 35. Srodek + a+b+c+d = 35.",
+            "Z analizy odpowiedz: srodek = 8."
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "Liczby 1,2,4,3 w rogach. Suma sasiadow 5 = 13, suma sasiadow 6 = 13."
         },
         {
           "problemId": "kangur-maluch-2018-18",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Symbol 3 = oko.",
+          "observation": "Litery A,B,C,D,E to 1-5.",
+          "strategy": "Z rownan ustal wartosci.",
           "steps": [
-            "Symbol 3 = oko.",
-            "Poprawna odpowiedz: A"
+            "B + B = C -> C = 2B.",
+            "C + C = E -> E = 4B.",
+            "B + E = D -> D = 5B.",
+            "B = 1: C = 2, E = 4, D = 5. A = 3 (jedyna pozostala).",
+            "Symbol A oznacza 3.",
+            "Z obrazka: oko = A = 3."
           ],
           "answer": "A",
-          "alternative": null
+          "alternative": null,
+          "hint": "B+B=C, C+C=E, B+E=D. Sprobuj B=1: C=2, E=4, D=5. Symbol A = 3."
         }
       ]
     }

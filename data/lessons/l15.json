@@ -168,7 +168,8 @@
             "Kazdy rog prostokatnej kartki to kat prosty"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Rog kartki to wzorzec kata prostego."
         },
         {
           "problemId": "gen-l15-v1-w2",
@@ -178,7 +179,8 @@
             "Kat ostry jest mniejszy niz kat prosty"
           ],
           "answer": "A",
-          "alternative": null
+          "alternative": null,
+          "hint": "Mniejszy od prostego = ostry."
         },
         {
           "problemId": "gen-l15-v1-w3",
@@ -189,7 +191,8 @@
             "Tworza kat prosty"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "O 3:00 wskazowki sa pod katem rogu kartki."
         },
         {
           "problemId": "kangur-maluch-2022-8",
@@ -200,7 +203,8 @@
             "Po przejsciu wszystkich luster trafia w punkt C"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Promien lasera odbija sie od luster."
         },
         {
           "problemId": "kangur-maluch-2013-3",
@@ -211,7 +215,8 @@
             "Wskazowki odbijaja sie - obraz D"
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "Odbicie lustrzane zegara 15:00."
         },
         {
           "problemId": "kangur-maluch-2016-10",
@@ -222,7 +227,8 @@
             "Poprawne odbicie to E"
           ],
           "answer": "E",
-          "alternative": null
+          "alternative": null,
+          "hint": "Odbicie lustrzane pajacyka."
         },
         {
           "problemId": "gen-l15-v1-c1",
@@ -233,7 +239,8 @@
             "Wskazowki tworza linie prosta - kat polpelny"
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "O 6:00 wskazowki sa naprzeciw siebie."
         }
       ]
     },
@@ -393,7 +400,8 @@
             "Kat rozwarty jest miedzy prostym a polpelnym"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Wiekszy od prostego, mniejszy od polpelnego = rozwarty."
         },
         {
           "problemId": "gen-l15-v2-w2",
@@ -403,7 +411,8 @@
             "Dwie polproste tworza linie prosta"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Kat polpelny to wyprostowana linia."
         },
         {
           "problemId": "gen-l15-v2-w3",
@@ -413,7 +422,8 @@
             "Kazdy z 4 rogow kwadratu to kat prosty"
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "Kwadrat ma 4 rogi proste."
         },
         {
           "problemId": "kangur-maluch-2015-9",
@@ -424,7 +434,8 @@
             "Po obrocie poprawny obraz to E"
           ],
           "answer": "E",
-          "alternative": null
+          "alternative": null,
+          "hint": "Parasol z napisem KANGAROO obrocony."
         },
         {
           "problemId": "kangur-maluch-2025-2",
@@ -435,7 +446,8 @@
             "Mozliwy obraz to B"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Wiatraczek obrocony - katy zachowane."
         },
         {
           "problemId": "kangur-maluch-2014-8",
@@ -446,7 +458,8 @@
             "Poprawne odbicie to B"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Bukiet kwiatow z drugiej strony okna - odbicie."
         },
         {
           "problemId": "kangur-maluch-2018-15",
@@ -457,7 +470,8 @@
             "Po obrocie poprawny obraz to D"
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "Inwersja kolorow i obrot figury."
         }
       ]
     },
@@ -490,14 +504,20 @@
       "solutions": [
         {
           "problemId": "kangur-maluch-2025-3",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Oryginalne zadanie Kangur Maluch 2025 nr 3.",
+          "observation": "Kangurek wykonuje 7 skokow (4 ze szkoly do ZOO, 3 z ZOO).",
+          "strategy": "Policz przesuniecie wzdluz osi X (prawo/lewo) i Y (gora/dol) osobno.",
           "steps": [
-            "Oryginalne zadanie Kangur Maluch 2025 nr 3.",
-            "Poprawna odpowiedz: B"
+            "Faza 1: gora 1, skos prawo-dol 2, skos prawo-gora 1, lewo 4.",
+            "Suma X (prawo+): 0 + 2 + 1 - 4 = -1 (1 w lewo).",
+            "Suma Y (gora+): 1 - 2 + 1 + 0 = 0 (bez zmiany).",
+            "Z ZOO: prawo 3, skos prawo-gora 2, gora 2.",
+            "Pelne przesuniecie X: -1 + 3 + 2 = 4 (4 w prawo od szkoly).",
+            "Pelne Y: 0 + 0 + 2 + 2 = 4 (4 w gore).",
+            "Z mapki - punkt B."
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Zsumuj wszystkie ruchy w pionie i poziomie - to przesuniecie netto."
         }
       ]
     }

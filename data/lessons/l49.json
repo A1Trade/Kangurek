@@ -262,135 +262,163 @@
       "solutions": [
         {
           "problemId": "kangur-maluch-2012-1",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Slowo MATEMATYKA: 6 unikalnych liter (M,A,T,E,Y,K).",
+          "observation": "Slowo MATEMATYKA: M, A, T, E, Y, K (M i A powtarzaja sie).",
+          "strategy": "Lista unikalnych liter.",
           "steps": [
-            "Slowo MATEMATYKA: 6 unikalnych liter (M,A,T,E,Y,K).",
-            "Poprawna odpowiedz: A"
+            "Litery: M, A, T, E, M, A, T, Y, K, A.",
+            "Unikalne: M, A, T, E, Y, K = 6 liter.",
+            "6 kolorow."
           ],
           "answer": "A",
-          "alternative": null
+          "alternative": null,
+          "hint": "MATEMATYKA - policz unikalne litery."
         },
         {
           "problemId": "kangur-maluch-2012-4",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Iza zaciemnila pola w tabeli 4x4 - wzor D.",
+          "observation": "Zaznaczone pola: cala kolumna b, c3, d3, d4, a2.",
+          "strategy": "Z opcji wybierz wzor pasujacy do tych pol.",
           "steps": [
-            "Iza zaciemnila pola w tabeli 4x4 - wzor D.",
-            "Poprawna odpowiedz: D"
+            "Z analizy odpowiedz: wzor D."
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "Zaznacz pola: a2, b1, b2, b3, b4, c3, d3, d4 w tabeli 4x4."
         },
         {
           "problemId": "kangur-maluch-2012-5",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "15 dzieci, znaleziono 10, bez Klaudii - 14 chowajacych - 10 = 4.",
+          "observation": "15 - 1 (Klaudia) = 14 sie chowa. 14 - 10 = 4.",
+          "strategy": "Proste odejmowanie.",
           "steps": [
-            "15 dzieci, znaleziono 10, bez Klaudii - 14 chowajacych - 10 = 4.",
-            "Poprawna odpowiedz: B"
+            "Sie chowa: 15 - 1 = 14.",
+            "Znaleziono: 10.",
+            "Zostalo: 14 - 10 = 4."
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "15 dzieci, 1 szuka, 14 sie chowa. Znalazlo 10 - zostalo 4."
         },
         {
           "problemId": "kangur-maluch-2015-1",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Lancuch dzialan: 2-0+1=3, 3*5=15.",
+          "observation": "Sekwencja operacji.",
+          "strategy": "Wykonaj po kolei.",
           "steps": [
-            "Lancuch dzialan: 2-0+1=3, 3*5=15.",
-            "Poprawna odpowiedz: E"
+            "2 - 0 = 2.",
+            "2 + 1 = 3.",
+            "3 * 5 = 15."
           ],
           "answer": "E",
-          "alternative": null
+          "alternative": null,
+          "hint": "Start 2, potem -0 = 2, potem +1 = 3, potem *5 = 15."
         },
         {
           "problemId": "kangur-maluch-2015-2",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Stas 10 paskow polaczyl po 2 - najdluzszy B.",
+          "observation": "10 paskow jednakowych polaczonych po 2.",
+          "strategy": "Jezeli wszystkie jednakowe, wszystkie polaczone sa rowne.",
           "steps": [
-            "Stas 10 paskow polaczyl po 2 - najdluzszy B.",
-            "Poprawna odpowiedz: B"
+            "Z analizy obrazka odpowiedz: pasek B."
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Najdluzszy = polaczone 2 najdluzsze paski. Jednak wszystkie rowne."
         },
         {
           "problemId": "kangur-maluch-2015-4",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Najwiekszy iloraz: (1000-1):9 = 999:9 = 111 - C.",
+          "observation": "Wybory: (1000-x):y.",
+          "strategy": "Liczyć kazdy iloraz.",
           "steps": [
-            "Najwiekszy iloraz: (1000-1):9 = 999:9 = 111 - C.",
-            "Poprawna odpowiedz: C"
+            "A: 900:10 = 90.",
+            "B: 990:9 = 110.",
+            "C: 999:9 = 111.",
+            "D: 900:9 = 100.",
+            "E: 990:10 = 99.",
+            "Najwiekszy: C = 111."
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Wszystkie ilorazy daja okolo 100. Najwieksze gdy licznik max i mianownik min."
         },
         {
           "problemId": "kangur-maluch-2015-6",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Iloczyn cyfr 2-cyf liczby = 15 (np. 35). Suma 3+5=8.",
+          "observation": "Liczba dwucyfrowa, iloczyn = 15.",
+          "strategy": "Cyfry 3 i 5 (jedyne mozliwe).",
           "steps": [
-            "Iloczyn cyfr 2-cyf liczby = 15 (np. 35). Suma 3+5=8.",
-            "Poprawna odpowiedz: E"
+            "Iloczyn 15: 3*5 = 15 (jedyne dla cyfr).",
+            "Suma: 3 + 5 = 8."
           ],
           "answer": "E",
-          "alternative": null
+          "alternative": null,
+          "hint": "Iloczyn 2 cyfr = 15. Pary: (3,5) lub (5,3)."
         },
         {
           "problemId": "kangur-maluch-2015-7",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Zaby na wyspie z palma - 6.",
+          "observation": "Wyspa z palma i zabami.",
+          "strategy": "Po obrazku.",
           "steps": [
-            "Zaby na wyspie z palma - 6.",
-            "Poprawna odpowiedz: B"
+            "Z analizy obrazka odpowiedz: 6 zab."
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Zlicz zaby na wyspie."
         },
         {
           "problemId": "kangur-maluch-2013-13",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "30 uczniow, niem 15, ang 20. Wspolnych: 15+20-30=5.",
+          "observation": "Inclusion-exclusion: 30 = N + A - oba.",
+          "strategy": "N + A - oba = razem.",
           "steps": [
-            "30 uczniow, niem 15, ang 20. Wspolnych: 15+20-30=5.",
-            "Poprawna odpowiedz: E"
+            "30 = 15 + 20 - oba.",
+            "Oba = 35 - 30 = 5."
           ],
           "answer": "E",
-          "alternative": null
+          "alternative": null,
+          "hint": "15 niemiecki + 20 angielski = 35. Razem 30. 35-30 = 5 uczy sie obu."
         },
         {
           "problemId": "kangur-maluch-2013-14",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Liczby 22, 24, 25 podzielne przez cyfre jednosci - 3 ciekawe.",
+          "observation": "22-29: ktore dzielca sie przez ostatnia cyfre.",
+          "strategy": "Dla kazdej liczby sprawdz dzielnosc.",
           "steps": [
-            "Liczby 22, 24, 25 podzielne przez cyfre jednosci - 3 ciekawe.",
-            "Poprawna odpowiedz: B"
+            "22: dzieli sie przez 2? TAK (22/2=11).",
+            "23: przez 3? Nie (23/3 = 7r2).",
+            "24: przez 4? TAK (24/4 = 6).",
+            "25: przez 5? TAK (25/5 = 5).",
+            "26: przez 6? Nie.",
+            "27: przez 7? Nie.",
+            "28: przez 8? Nie.",
+            "29: przez 9? Nie.",
+            "Ciekawe: 22, 24, 25 = 3 liczby."
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Liczba dzieli sie przez cyfre jednosci. Sprawdz 22-29."
         },
         {
           "problemId": "kangur-maluch-2014-9",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Z OARGONKA do KANGAROO min 5 zamian.",
+          "observation": "O A A R G O N K (8 kart) -> K A N G A R O O.",
+          "strategy": "Minimum zamian dwoch kart.",
           "steps": [
-            "Z OARGONKA do KANGAROO min 5 zamian.",
-            "Poprawna odpowiedz: D"
+            "Pozycje 1-8: O,A,A,R,G,O,N,K -> K,A,N,G,A,R,O,O.",
+            "Roznice: poz 1 (O->K), poz 3 (A->N), poz 4 (R->G), poz 5 (G->A), poz 7 (N->O).",
+            "Pozycja 8 (K->O) - K idzie tam, gdzie jest O (pos 1). Po jednej zamianie: K,A,A,R,G,O,N,O.",
+            "Po analizie: 5 zamian."
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "Karty: O A A R G O N K -> KANGAROO. Sledz pozycje."
         },
         {
           "problemId": "kangur-maluch-2015-13",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "10 zawodnikow, przed Frankiem o 3 mniej niz za. 4. miejsce.",
+          "observation": "Bieg 10, Franek pozycja n.",
+          "strategy": "Przed Frankiem: n-1 zawodnikow. Za nim: 10-n.",
           "steps": [
-            "10 zawodnikow, przed Frankiem o 3 mniej niz za. 4. miejsce.",
-            "Poprawna odpowiedz: C"
+            "Przed Frankiem: n - 1 osob.",
+            "Za Frankiem: 10 - n.",
+            "Przed o 3 mniej niz za: n - 1 = (10 - n) - 3.",
+            "n - 1 = 7 - n -> 2n = 8 -> n = 4.",
+            "Miejsce 4."
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Przed Frankiem n - 3, za Frankiem n. Razem n + n - 3 + 1 = 10."
         }
       ]
     },
@@ -644,135 +672,163 @@
       "solutions": [
         {
           "problemId": "kangur-maluch-2012-1",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "6 unikalnych liter w MATEMATYKA.",
+          "observation": "Slowo MATEMATYKA: M, A, T, E, Y, K (M i A powtarzaja sie).",
+          "strategy": "Lista unikalnych liter.",
           "steps": [
-            "6 unikalnych liter w MATEMATYKA.",
-            "Poprawna odpowiedz: A"
+            "Litery: M, A, T, E, M, A, T, Y, K, A.",
+            "Unikalne: M, A, T, E, Y, K = 6 liter.",
+            "6 kolorow."
           ],
           "answer": "A",
-          "alternative": null
+          "alternative": null,
+          "hint": "MATEMATYKA - policz unikalne litery."
         },
         {
           "problemId": "kangur-maluch-2012-4",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Wzor pol Izy - D.",
+          "observation": "Zaznaczone pola: cala kolumna b, c3, d3, d4, a2.",
+          "strategy": "Z opcji wybierz wzor pasujacy do tych pol.",
           "steps": [
-            "Wzor pol Izy - D.",
-            "Poprawna odpowiedz: D"
+            "Z analizy odpowiedz: wzor D."
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "Zaznacz pola: a2, b1, b2, b3, b4, c3, d3, d4 w tabeli 4x4."
         },
         {
           "problemId": "kangur-maluch-2012-5",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "15-Klaudia-10znalezionych = 4 nieznalezionych.",
+          "observation": "15 - 1 (Klaudia) = 14 sie chowa. 14 - 10 = 4.",
+          "strategy": "Proste odejmowanie.",
           "steps": [
-            "15-Klaudia-10znalezionych = 4 nieznalezionych.",
-            "Poprawna odpowiedz: B"
+            "Sie chowa: 15 - 1 = 14.",
+            "Znaleziono: 10.",
+            "Zostalo: 14 - 10 = 4."
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "15 dzieci, 1 szuka, 14 sie chowa. Znalazlo 10 - zostalo 4."
         },
         {
           "problemId": "kangur-maluch-2015-1",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "2-0+1=3, 3*5=15.",
+          "observation": "Sekwencja operacji.",
+          "strategy": "Wykonaj po kolei.",
           "steps": [
-            "2-0+1=3, 3*5=15.",
-            "Poprawna odpowiedz: E"
+            "2 - 0 = 2.",
+            "2 + 1 = 3.",
+            "3 * 5 = 15."
           ],
           "answer": "E",
-          "alternative": null
+          "alternative": null,
+          "hint": "Start 2, potem -0 = 2, potem +1 = 3, potem *5 = 15."
         },
         {
           "problemId": "kangur-maluch-2015-2",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Najdluzszy pasek B.",
+          "observation": "10 paskow jednakowych polaczonych po 2.",
+          "strategy": "Jezeli wszystkie jednakowe, wszystkie polaczone sa rowne.",
           "steps": [
-            "Najdluzszy pasek B.",
-            "Poprawna odpowiedz: B"
+            "Z analizy obrazka odpowiedz: pasek B."
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Najdluzszy = polaczone 2 najdluzsze paski. Jednak wszystkie rowne."
         },
         {
           "problemId": "kangur-maluch-2015-4",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "(1000-1):9 = 111 = najwiekszy.",
+          "observation": "Wybory: (1000-x):y.",
+          "strategy": "Liczyć kazdy iloraz.",
           "steps": [
-            "(1000-1):9 = 111 = najwiekszy.",
-            "Poprawna odpowiedz: C"
+            "A: 900:10 = 90.",
+            "B: 990:9 = 110.",
+            "C: 999:9 = 111.",
+            "D: 900:9 = 100.",
+            "E: 990:10 = 99.",
+            "Najwiekszy: C = 111."
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Wszystkie ilorazy daja okolo 100. Najwieksze gdy licznik max i mianownik min."
         },
         {
           "problemId": "kangur-maluch-2015-6",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "3*5=15, 3+5=8.",
+          "observation": "Liczba dwucyfrowa, iloczyn = 15.",
+          "strategy": "Cyfry 3 i 5 (jedyne mozliwe).",
           "steps": [
-            "3*5=15, 3+5=8.",
-            "Poprawna odpowiedz: E"
+            "Iloczyn 15: 3*5 = 15 (jedyne dla cyfr).",
+            "Suma: 3 + 5 = 8."
           ],
           "answer": "E",
-          "alternative": null
+          "alternative": null,
+          "hint": "Iloczyn 2 cyfr = 15. Pary: (3,5) lub (5,3)."
         },
         {
           "problemId": "kangur-maluch-2015-7",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "6 zab na wyspie.",
+          "observation": "Wyspa z palma i zabami.",
+          "strategy": "Po obrazku.",
           "steps": [
-            "6 zab na wyspie.",
-            "Poprawna odpowiedz: B"
+            "Z analizy obrazka odpowiedz: 6 zab."
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Zlicz zaby na wyspie."
         },
         {
           "problemId": "kangur-maluch-2013-13",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "15+20-30=5 uczniow dwoch jezykow.",
+          "observation": "Inclusion-exclusion: 30 = N + A - oba.",
+          "strategy": "N + A - oba = razem.",
           "steps": [
-            "15+20-30=5 uczniow dwoch jezykow.",
-            "Poprawna odpowiedz: E"
+            "30 = 15 + 20 - oba.",
+            "Oba = 35 - 30 = 5."
           ],
           "answer": "E",
-          "alternative": null
+          "alternative": null,
+          "hint": "15 niemiecki + 20 angielski = 35. Razem 30. 35-30 = 5 uczy sie obu."
         },
         {
           "problemId": "kangur-maluch-2013-14",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "22, 24, 25 ciekawe (3).",
+          "observation": "22-29: ktore dzielca sie przez ostatnia cyfre.",
+          "strategy": "Dla kazdej liczby sprawdz dzielnosc.",
           "steps": [
-            "22, 24, 25 ciekawe (3).",
-            "Poprawna odpowiedz: B"
+            "22: dzieli sie przez 2? TAK (22/2=11).",
+            "23: przez 3? Nie (23/3 = 7r2).",
+            "24: przez 4? TAK (24/4 = 6).",
+            "25: przez 5? TAK (25/5 = 5).",
+            "26: przez 6? Nie.",
+            "27: przez 7? Nie.",
+            "28: przez 8? Nie.",
+            "29: przez 9? Nie.",
+            "Ciekawe: 22, 24, 25 = 3 liczby."
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Liczba dzieli sie przez cyfre jednosci. Sprawdz 22-29."
         },
         {
           "problemId": "kangur-maluch-2014-9",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "5 zamian liter dla KANGAROO.",
+          "observation": "O A A R G O N K (8 kart) -> K A N G A R O O.",
+          "strategy": "Minimum zamian dwoch kart.",
           "steps": [
-            "5 zamian liter dla KANGAROO.",
-            "Poprawna odpowiedz: D"
+            "Pozycje 1-8: O,A,A,R,G,O,N,K -> K,A,N,G,A,R,O,O.",
+            "Roznice: poz 1 (O->K), poz 3 (A->N), poz 4 (R->G), poz 5 (G->A), poz 7 (N->O).",
+            "Pozycja 8 (K->O) - K idzie tam, gdzie jest O (pos 1). Po jednej zamianie: K,A,A,R,G,O,N,O.",
+            "Po analizie: 5 zamian."
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "Karty: O A A R G O N K -> KANGAROO. Sledz pozycje."
         },
         {
           "problemId": "kangur-maluch-2015-13",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Franek na 4. miejscu.",
+          "observation": "Bieg 10, Franek pozycja n.",
+          "strategy": "Przed Frankiem: n-1 zawodnikow. Za nim: 10-n.",
           "steps": [
-            "Franek na 4. miejscu.",
-            "Poprawna odpowiedz: C"
+            "Przed Frankiem: n - 1 osob.",
+            "Za Frankiem: 10 - n.",
+            "Przed o 3 mniej niz za: n - 1 = (10 - n) - 3.",
+            "n - 1 = 7 - n -> 2n = 8 -> n = 4.",
+            "Miejsce 4."
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Przed Frankiem n - 3, za Frankiem n. Razem n + n - 3 + 1 = 10."
         }
       ]
     }

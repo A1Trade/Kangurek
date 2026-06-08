@@ -168,7 +168,8 @@
             "8 jedyna parzysta"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Suma parzystych = parzysta. Tylko 8 parzysta."
         },
         {
           "problemId": "gen-l48-v1-w2",
@@ -178,7 +179,8 @@
             "Klasa max 30-40, 100 niemoz."
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "100 dzieci to za duzo na klase."
         },
         {
           "problemId": "gen-l48-v1-w3",
@@ -188,51 +190,52 @@
             "13*4=52, kon. 2"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Ostatnia cyfra 52 = 2."
         },
         {
           "problemId": "kangur-maluch-2013-1",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Czarnych kangurow wiecej niz bialych - rysunek D.",
+          "observation": "Siatki 4x4 z kangurami.",
+          "strategy": "Policz w kazdej z 5 opcji.",
           "steps": [
-            "Czarnych kangurow wiecej niz bialych - rysunek D.",
-            "Poprawna odpowiedz: D"
+            "Z analizy odpowiedz: siatka D."
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "Policz czarne vs biale w kazdej siatce 4x4."
         },
         {
           "problemId": "kangur-maluch-2016-1",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Ania, Basia, Cesia, Dorotka, Ela kostka 2 razy. Dorotka najwiecej oczek.",
+          "observation": "Suma 2 rzutow dla kazdej.",
+          "strategy": "Z obrazka identyfikuj wyniki.",
           "steps": [
-            "Ania, Basia, Cesia, Dorotka, Ela kostka 2 razy. Dorotka najwiecej oczek.",
-            "Poprawna odpowiedz: D"
+            "Z analizy odpowiedz: Dorotka."
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "5 dzieci, kazda dwa rzuty. Najwiecej oczek."
         },
         {
           "problemId": "kangur-maluch-2016-7",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Ania i 5 kolezanek dziela jablka po pol - 3 jablka.",
+          "observation": "6 osob * 1/2 = 3 jablka.",
+          "strategy": "Mnozenie.",
           "steps": [
-            "Ania i 5 kolezanek dziela jablka po pol - 3 jablka.",
-            "Poprawna odpowiedz: B"
+            "6 * 1/2 = 3 jablka."
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "6 dzieci, kazda 1/2 jablka. Lacznie 3 jablka."
         },
         {
           "problemId": "kangur-maluch-2021-5",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Franek 5 tarcz, 3 strzaly kazda. Najwiecej Franek - tarcza A.",
+          "observation": "5 tarcz. Pierscienie 10-6 (max 10 w centrum).",
+          "strategy": "Policz max sume 3 strzałów na kazdej tarczy.",
           "steps": [
-            "Franek 5 tarcz, 3 strzaly kazda. Najwiecej Franek - tarcza A.",
-            "Poprawna odpowiedz: A"
+            "Z analizy obrazka odpowiedz: tarcza A."
           ],
           "answer": "A",
-          "alternative": null
+          "alternative": null,
+          "hint": "Franek najwiecej punktow. Sprawdz tarcze - ta z najwiekszymi punktami."
         }
       ]
     },
@@ -392,7 +395,8 @@
             "Pole nie moze byc 0"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Pole 5*4=20. 0 niemozliwe."
         },
         {
           "problemId": "gen-l48-v2-w2",
@@ -402,7 +406,8 @@
             "27*3=81, kon.1"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Ostatnia cyfra 81 = 1."
         },
         {
           "problemId": "gen-l48-v2-w3",
@@ -412,51 +417,56 @@
             "60 max"
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "Godzina ma 60 minut. 100 niemozliwe."
         },
         {
           "problemId": "kangur-maluch-2014-4",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Koala 50 g lisci na godz. Spal 13 godz, nie 11. 550 g.",
+          "observation": "Czas jedzenia: 24 - 13 = 11 godzin.",
+          "strategy": "11 * 50 = 550 g.",
           "steps": [
-            "Koala 50 g lisci na godz. Spal 13 godz, nie 11. 550 g.",
-            "Poprawna odpowiedz: A"
+            "Niedziela: 24 godzin.",
+            "Spal: 13 godzin. Nie jadl.",
+            "Jadl: 11 godzin.",
+            "Jadl: 11 * 50 = 550 g."
           ],
           "answer": "A",
-          "alternative": null
+          "alternative": null,
+          "hint": "Doba = 24 h. Spal 13 h. Jadl 11 h * 50 g."
         },
         {
           "problemId": "kangur-maluch-2018-4",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Biedronka Misia 5 kropek prawo, 3 lewo. NIE jest biedronka C.",
+          "observation": "Biedronka Misia z konkretnym ukladem kropek.",
+          "strategy": "Sprawdz obrazki - ktora nie ma 5 prawo i 3 lewo.",
           "steps": [
-            "Biedronka Misia 5 kropek prawo, 3 lewo. NIE jest biedronka C.",
-            "Poprawna odpowiedz: C"
+            "Z analizy odpowiedz: biedronka C."
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Misia: 5 prawo, 3 lewo. Suma 8 kropek."
         },
         {
           "problemId": "kangur-maluch-2019-2",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Trzecie miejsce na podium = zawodnik nr 2.",
+          "observation": "Podium z 5 zawodnikami.",
+          "strategy": "Sortuj wedlug wysokosci.",
           "steps": [
-            "Trzecie miejsce na podium = zawodnik nr 2.",
-            "Poprawna odpowiedz: B"
+            "Z analizy odpowiedz: zawodnik 2."
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Wyzszy poziom = lepszy wynik. Trzeci najlepszy = trzeci od gory."
         },
         {
           "problemId": "kangur-maluch-2020-2",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Grzyb rosnie codziennie. Wtorek = drugi dzien = drugie zdjecie B.",
+          "observation": "5 dni, 5 obrazkow.",
+          "strategy": "Drugi z chronologicznych.",
           "steps": [
-            "Grzyb rosnie codziennie. Wtorek = drugi dzien = drugie zdjecie B.",
-            "Poprawna odpowiedz: B"
+            "Wtorek = drugi dzien.",
+            "Z obrazkow: zdjecie B."
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Grzyb rosnie kazdy dzien. Wtorek = drugi z 5 obrazkow."
         }
       ]
     }

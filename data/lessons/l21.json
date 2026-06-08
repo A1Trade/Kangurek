@@ -169,7 +169,8 @@
             "Zlozony kwadrat tez ma pole 16"
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "Pole nie zmienia sie przy ukladaniu."
         },
         {
           "problemId": "gen-l21-v1-w2",
@@ -179,7 +180,8 @@
             "Dwa jednakowe trojkaty prostokatne zlozone wzdluz przeciwprostokatnej daja kwadrat"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Dwa trojkaty prostokatne tworza kwadrat."
         },
         {
           "problemId": "gen-l21-v1-w3",
@@ -189,7 +191,8 @@
             "Kawalek mozna obrocic albo odbic, by pasowal"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Obrot lub odbicie czesto dopasowuje kawalek."
         },
         {
           "problemId": "kangur-maluch-2019-9",
@@ -200,7 +203,8 @@
             "Pasuje wycinek karo-gwiazda"
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "Rozpoznajemy wycinek z planszy 4x4."
         },
         {
           "problemId": "kangur-maluch-2020-13",
@@ -211,7 +215,8 @@
             "Najwiecej mozna uzyc 4 kartonikow"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Maksymalne pokrycie paska kartonikami."
         },
         {
           "problemId": "kangur-maluch-2015-17",
@@ -222,7 +227,8 @@
             "Poprawny ksztalt to D"
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "Podzial figury na 3 identyczne czesci."
         },
         {
           "problemId": "kangur-maluch-2020-22",
@@ -233,7 +239,8 @@
             "Figury D nie da sie tak pociac"
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "Figura, ktorej nie da sie pociac na 3 rozne czesci."
         }
       ]
     },
@@ -394,7 +401,8 @@
             "Pola sie nie zgadzaja - nie da sie"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Najpierw sprawdz pole."
         },
         {
           "problemId": "gen-l21-v2-w2",
@@ -404,7 +412,8 @@
             "Dwa jednakowe kwadraty obok siebie tworza prostokat"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Dwa kwadraty obok siebie = prostokat."
         },
         {
           "problemId": "gen-l21-v2-w3",
@@ -414,7 +423,8 @@
             "Najwiekszy kawalek umieszczamy pierwszy - reszte dopasowujemy wokol"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Najwiekszy kawalek najbardziej ogranicza."
         },
         {
           "problemId": "kangur-maluch-2023-9",
@@ -425,7 +435,8 @@
             "Czarne kolko przykryje kartonik E"
           ],
           "answer": "E",
-          "alternative": null
+          "alternative": null,
+          "hint": "Ktory kartonik przykryje czarne kolko."
         },
         {
           "problemId": "kangur-maluch-2018-10",
@@ -436,7 +447,8 @@
             "Da sie ulozyc 3 z 5 wzorow"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Ukladanie wzorow z kartonikow."
         },
         {
           "problemId": "kangur-maluch-2013-12",
@@ -447,7 +459,8 @@
             "Konczy wedrowke przy obrazku B"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Ruch po siatce ze skretami."
         },
         {
           "problemId": "kangur-maluch-2015-15",
@@ -458,7 +471,8 @@
             "Nie przejedzie kolo znaku C"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Ruch po alejkach parku ze skretami."
         }
       ]
     },
@@ -491,14 +505,18 @@
       "solutions": [
         {
           "problemId": "kangur-maluch-2023-21",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Oryginalne zadanie Kangur Maluch 2023 nr 21.",
+          "observation": "O = obrot o 90 stopni, D = wydruk trefla. Wynik to pewien ukladd.",
+          "strategy": "Symuluj dzialanie kazdej sekwencji 3 urzadzen.",
           "steps": [
-            "Oryginalne zadanie Kangur Maluch 2023 nr 21.",
-            "Poprawna odpowiedz: D"
+            "Start: kartka z czarnym rogiem.",
+            "Sekwencja DOO: drukuj trefl (w pozycji obecnej), obroc, obroc -> trefl jest na poczatkowej pozycji rogu.",
+            "Sekwencja ODO: obroc, drukuj, obroc -> trefl po obrocie, potem obrocony.",
+            "Sekwencja OOD: obroc, obroc (czyli obrot o 180), drukuj -> trefl w pozycji przeciwnej do rogu.",
+            "Wedlug rysunku rezultatu odpowiedz: OOD."
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "Symulacja - sprobuj kazdej sekwencji na kartce z czarnym rogiem."
         }
       ]
     }

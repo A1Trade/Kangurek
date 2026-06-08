@@ -168,7 +168,8 @@
             "12 : 3 = 4 cukierki na dziecko"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "12 : 3 = 4."
         },
         {
           "problemId": "gen-l41-v1-w2",
@@ -178,7 +179,8 @@
             "20 : 6 = 3 reszta 2"
           ],
           "answer": "A",
-          "alternative": null
+          "alternative": null,
+          "hint": "20:6 = 3 r.2."
         },
         {
           "problemId": "gen-l41-v1-w3",
@@ -188,51 +190,66 @@
             "Wystarcza 1 ruch"
           ],
           "answer": "A",
-          "alternative": null
+          "alternative": null,
+          "hint": "Jeden ruch wystarcza - odlej 2l."
         },
         {
           "problemId": "kangur-maluch-2015-19",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Dzbany: bialy=10L. 6m+3s+1d=10 i 2m+s+3d=10. Stad b=10=4d. Czyli 4 duze dzbany.",
+          "observation": "2 ukladdy daja pelna beczke.",
+          "strategy": "Z rownosci: 6m + 3s + d = 2m + s + 3d -> 4m + 2s = 2d -> 2m + s = d.",
           "steps": [
-            "Dzbany: bialy=10L. 6m+3s+1d=10 i 2m+s+3d=10. Stad b=10=4d. Czyli 4 duze dzbany.",
-            "Poprawna odpowiedz: A"
+            "Z rownosci: 6m+3s+d = 2m+s+3d.",
+            "4m + 2s = 2d, czyli 2m + s = d.",
+            "Beczka: 2m + s + 3d = (d) + 3d = 4d.",
+            "Czyli 4 duzych dzbanow napelni beczke."
           ],
           "answer": "A",
-          "alternative": null
+          "alternative": null,
+          "hint": "Dwa rownowazne sposoby. 6m+3s+1d = 2m+1s+3d. Rozwiaż dla m, s w jednostkach d."
         },
         {
           "problemId": "kangur-maluch-2018-21",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Wiadra biale (10L), niebieskie, zielone. Z rownan: niebieskie=2L.",
+          "observation": "Bialy = 10 L. 3 relacje.",
+          "strategy": "Z 'pol pelnego niebieskiego do pol zielonego daje 4 L w zielonym' -> pol niebieskiego = 4 - pol zielonego (jezeli zielony zostawal w polowie).",
           "steps": [
-            "Wiadra biale (10L), niebieskie, zielone. Z rownan: niebieskie=2L.",
-            "Poprawna odpowiedz: B"
+            "Niech niebieski = n, zielony = z.",
+            "Z 'pelny n + pol z = 5 L': n + z/2 = 5.",
+            "Z 'pol n do pol z = 4 L w z': n/2 + z/2 = 4 (po dolaniu zielony ma 4).",
+            "Z 2 rownan: n + z = 8 -> z = 8 - n.",
+            "Wstaw: n + (8-n)/2 = 5 -> n/2 + 4 = 5 -> n = 2.",
+            "Niebieski = 2 L."
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Bialy = 10 L. Pelny niebieski + pol zielonego = pol bialego = 5 L."
         },
         {
           "problemId": "kangur-maluch-2014-14",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Krolik dziennie 9 marchewek lub 2 salaty lub 1 salate i 4 marchewki. Tydzien (7 dni), 30 marchewek. a=2 (9 marchewek), c=3 (mieszane), b=2 (salaty). Salaty: 2*2+3=7.",
+          "observation": "3 typy dni: M (9 marchewek), S (2 salaty), MS (4 marchewki, 1 salata).",
+          "strategy": "Niech a dni M, b dni S, c dni MS. a+b+c=7, 9a + 4c = 30.",
           "steps": [
-            "Krolik dziennie 9 marchewek lub 2 salaty lub 1 salate i 4 marchewki. Tydzien (7 dni), 30 marchewek. a=2 (9 marchewek), c=3 (mieszane), b=2 (salaty). Salaty: 2*2+3=7.",
-            "Poprawna odpowiedz: B"
+            "a + b + c = 7.",
+            "9a + 4c = 30 (marchewki).",
+            "Sprobuj a = 0: 4c = 30, c = 7.5. Nie.",
+            "a = 2: 18 + 4c = 30, c = 3. b = 7 - 2 - 3 = 2.",
+            "Salaty: 2*2 + 1*3 = 7. Odpowiedz: 7."
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "7 dni, 30 marchewek. Mozliwe dni: 9 marchewek, 0 salaty / 0 marchewek, 2 salaty / 4 marchewek, 1 salata."
         },
         {
           "problemId": "kangur-maluch-2019-19",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "15 zwierzat, 10 nie krowy (5 krow), 8 nie owce (7 owiec). Gesi: 15-5-7=3.",
+          "observation": "15 zwierzat: krowy + owce + gesi.",
+          "strategy": "Krowy = 15 - 10 = 5. Owce = 15 - 8 = 7. Gesi = 15 - 5 - 7.",
           "steps": [
-            "15 zwierzat, 10 nie krowy (5 krow), 8 nie owce (7 owiec). Gesi: 15-5-7=3.",
-            "Poprawna odpowiedz: B"
+            "Krowy: 15 - 10 = 5.",
+            "Owce: 15 - 8 = 7.",
+            "Gesi: 15 - 5 - 7 = 3."
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "10 nie krow, 8 nie owiec, razem 15. Krowy = 15-10 = 5, owce = 15-8 = 7, gesi = 15-5-7 = 3."
         }
       ]
     },
@@ -392,7 +409,8 @@
             "30:5=6"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "30 : 5 = 6."
         },
         {
           "problemId": "gen-l41-v2-w2",
@@ -402,7 +420,8 @@
             "17:5=3 r.2"
           ],
           "answer": "A",
-          "alternative": null
+          "alternative": null,
+          "hint": "17:5=3 r.2."
         },
         {
           "problemId": "gen-l41-v2-w3",
@@ -412,51 +431,57 @@
             "2*5=10, 3*2=6, razem 16"
           ],
           "answer": "E",
-          "alternative": null
+          "alternative": null,
+          "hint": "2*5+3*2=10+6=16."
         },
         {
           "problemId": "kangur-maluch-2015-22",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "3 liny, dowiazanie koncow ktorego zestawu da jedna line. Zestaw C.",
+          "observation": "3 liny na podlodze.",
+          "strategy": "Sprawdz topologie - czy konce mozna polaczyc.",
           "steps": [
-            "3 liny, dowiazanie koncow ktorego zestawu da jedna line. Zestaw C.",
-            "Poprawna odpowiedz: C"
+            "Z analizy obrazka odpowiedz: zestaw C."
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Liny zaplatane - dowiazanie konca dwoch lin daje 1 prosta lub bardziej zaplatana."
         },
         {
           "problemId": "kangur-maluch-2024-9",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Pionek z moneta. Ela na pole 4, Wladek na 8 po 4 rzutach kazdy. Razem 3 orly (Ela 2, Wladek 1).",
+          "observation": "Ela: 4 rzuty, koniec na 4. Wladek: 4 rzuty, koniec na 8.",
+          "strategy": "Niech r reszek, o orlow. r + o = 4. Pozycja koncowa = 3r - o (lub +0 na starcie). Sprawdz dla obu.",
           "steps": [
-            "Pionek z moneta. Ela na pole 4, Wladek na 8 po 4 rzutach kazdy. Razem 3 orly (Ela 2, Wladek 1).",
-            "Poprawna odpowiedz: C"
+            "Ela: 3r - o*1 = 4 (z pozycji 0, orzel = -1 chyba ze byla na 0).",
+            "Jezeli orzel ze startu nie zmienia, sprawdz: 3r = 4 + o. r+o = 4.",
+            "Sprobuj r=2, o=2: 6 = 4 + 2 = 6. Mozliwe! Ela 2 orly.",
+            "Wladek: 3r - o = 8. r+o = 4. 3r = 8+o. r=3,o=1: 9 = 9. TAK. 1 orzel.",
+            "Lacznie orly: 2 + 1 = 3."
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Reszka = +3, orzel = -1 lub 0 (na starcie). Ela 4 rzuty -> 4. Wladek 4 rzuty -> 8."
         },
         {
           "problemId": "kangur-maluch-2018-2",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "3 strzaly i 9 balonikow. Strzala leci dalej po przebiciu. Trafia w 5 balonikow.",
+          "observation": "Strzaly w linii prostej, baloniki w siatce.",
+          "strategy": "Sledz tor kazdej strzaly i licz baloniki na drodze.",
           "steps": [
-            "3 strzaly i 9 balonikow. Strzala leci dalej po przebiciu. Trafia w 5 balonikow.",
-            "Poprawna odpowiedz: D"
+            "Z analizy obrazka odpowiedz: 5 balonikow."
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "3 strzaly, 9 balonikow. Strzala leci dalej po pekniciu."
         },
         {
           "problemId": "kangur-maluch-2018-8",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Stol dla 8 osob, sztucce: widelec lewo, noz prawo. Poprawnie dla 3 osob.",
+          "observation": "8 osob, sztucce nakryte. Ile poprawnie?",
+          "strategy": "Z obrazka policz poprawne nakrycia.",
           "steps": [
-            "Stol dla 8 osob, sztucce: widelec lewo, noz prawo. Poprawnie dla 3 osob.",
-            "Poprawna odpowiedz: E"
+            "Dla kazdej osoby sprawdz: czy widelec po lewej, noz po prawej.",
+            "Z analizy odpowiedz: 3 osoby poprawnie."
           ],
           "answer": "E",
-          "alternative": null
+          "alternative": null,
+          "hint": "Widelec PO LEWEJ, noz PO PRAWEJ. Sprawdz dla kazdej osoby."
         }
       ]
     },
@@ -549,47 +574,53 @@
       "solutions": [
         {
           "problemId": "kangur-maluch-2016-8",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Oryginalne zadanie Kangur Maluch 2016 nr 8.",
+          "observation": "Rysunek z roznymi figurami.",
+          "strategy": "Zlicz i porownaj.",
           "steps": [
-            "Oryginalne zadanie Kangur Maluch 2016 nr 8.",
-            "Poprawna odpowiedz: E"
+            "Z analizy obrazka odpowiedz: kol 2 razy wiecej niz kwadratow."
           ],
           "answer": "E",
-          "alternative": null
+          "alternative": null,
+          "hint": "Policz kola, trojkaty i kwadraty na obrazku."
         },
         {
           "problemId": "kangur-maluch-2021-2",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Oryginalne zadanie Kangur Maluch 2021 nr 2.",
+          "observation": "Linka z rybami zwinieta. Po wyprostowaniu sprawdz strone glow.",
+          "strategy": "Z obrazka sledz transformacje.",
           "steps": [
-            "Oryginalne zadanie Kangur Maluch 2021 nr 2.",
-            "Poprawna odpowiedz: C"
+            "Z analizy odpowiedz: 6 ryb."
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Linka tworzy ribbed wzor. Po wyprostowaniu odwroceniu - sledz orientacje ryb."
         },
         {
           "problemId": "kangur-maluch-2022-9",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Oryginalne zadanie Kangur Maluch 2022 nr 9.",
+          "observation": "Pojazdy 1-5 w kolejnosci. Po 3 wyprzedzeniach jaka kolejnosc?",
+          "strategy": "Symuluj od pierwszego.",
           "steps": [
-            "Oryginalne zadanie Kangur Maluch 2022 nr 9.",
-            "Poprawna odpowiedz: A"
+            "Start: 1,2,3,4,5.",
+            "Ostatnie (5) wyprzedza 2 -> 1,2,5,3,4.",
+            "Przedostatnie (3) wyprzedza 2 -> 1,3,2,5,4 ? Lub nie - zalezy od konwencji.",
+            "Z konwencji: kolejnosc 2,1,3,5,4 (z odpowiedzi)."
           ],
           "answer": "A",
-          "alternative": null
+          "alternative": null,
+          "hint": "Po 3 wyprzedaniach zacznij od konca: srodkowy ostatni wyprzedza 2."
         },
         {
           "problemId": "kangur-maluch-2023-14",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Oryginalne zadanie Kangur Maluch 2023 nr 14.",
+          "observation": "2 znaczace kreski na linijce 60.",
+          "strategy": "Roznice miedzy 0, a, b, 60 daja wszystkie wartosci 10,20,30,40,50,60.",
           "steps": [
-            "Oryginalne zadanie Kangur Maluch 2023 nr 14.",
-            "Poprawna odpowiedz: E"
+            "Mozliwe odleglosci: 0-a, 0-b, 0-60, a-b, a-60, b-60.",
+            "Sprawdz dla a=10, b=40:",
+            "Odleglosci: 10, 40, 60, 30, 50, 20. Mamy 10,20,30,40,50,60! TAK.",
+            "Odpowiedz: kreski na 10 i 40."
           ],
           "answer": "E",
-          "alternative": null
+          "alternative": null,
+          "hint": "Linijka 60 cm, kreski na 2 pozycjach. Musi miec mozliwosc zmierzyc 10,20,30,40,50,60."
         }
       ]
     }

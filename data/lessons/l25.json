@@ -168,7 +168,8 @@
             "Siatka odpowiada 6 scianom szescianu"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Szescian ma 6 scian - siatka tez 6."
         },
         {
           "problemId": "gen-l25-v1-w2",
@@ -178,7 +179,8 @@
             "Krzyzowa siatka: 4 kwadraty w rzedzie, jeden z gory, jeden z dolu"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Krzyz to typowa siatka."
         },
         {
           "problemId": "gen-l25-v1-w3",
@@ -188,7 +190,8 @@
             "Sciany 1+6, 2+5, 3+4 - kazda para daje 7"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Standardowa kostka - przeciwlegle daja 7."
         },
         {
           "problemId": "kangur-maluch-2024-8",
@@ -199,7 +202,8 @@
             "Poprawna budowla to C"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Budowla przed straceniem klocka."
         },
         {
           "problemId": "gen-l25-v1-w5",
@@ -209,7 +213,8 @@
             "W prostokacie 2x3 sciany nie polaczone sa krawedzia po zgieciu - nie tworzy szescianu"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Prostokat 2x3 z 6 kwadratow - czy mozna zlozyc?"
         },
         {
           "problemId": "kangur-maluch-2015-18",
@@ -220,7 +225,8 @@
             "Bialych klockow 14 (i szarych 13)"
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "Kolorowanie szescianu - klocki bez wspolnych scian."
         },
         {
           "problemId": "kangur-maluch-2016-24",
@@ -232,7 +238,8 @@
             "Po zmianach czarnych klockow jest 12"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Rozprzestrzenianie czarnego koloru w szescianie."
         }
       ]
     },
@@ -392,7 +399,8 @@
             "Siatka szescianu to plaski zarys, ktory po zlozeniu daje szescian"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Siatka szescianu zlozona daje szescian."
         },
         {
           "problemId": "gen-l25-v2-w2",
@@ -403,7 +411,8 @@
             "Trzeba skleic pozostale: 12 - 5 = 7"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Szescian ma 12 krawedzi, siatka 5 polaczonych, sklejamy 7."
         },
         {
           "problemId": "gen-l25-v2-w3",
@@ -413,7 +422,8 @@
             "Siatka to 6 kwadratow, kazda para sasiednich ma wspolna krawedz w siatce"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Siatka - 6 kwadratow polaczonych krawedziami."
         },
         {
           "problemId": "gen-l25-v2-w4",
@@ -423,7 +433,8 @@
             "Sasiednie sciany w siatce maja wspolna krawedz"
           ],
           "answer": "A",
-          "alternative": null
+          "alternative": null,
+          "hint": "Sasiednie - stykaja sie krawedzia."
         },
         {
           "problemId": "gen-l25-v2-w5",
@@ -433,7 +444,8 @@
             "Z dokladnoscia do obrotow i odbic jest 11 roznych siatek szescianu"
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "Jest 11 roznych siatek szescianu."
         },
         {
           "problemId": "gen-l25-v2-c1",
@@ -443,7 +455,8 @@
             "W siatce krzyzowej (4 w rzedzie) sciany na pozycjach 2 i 4 staja sie przeciwlegle po zlozeniu"
           ],
           "answer": "A",
-          "alternative": null
+          "alternative": null,
+          "hint": "W krzyzu 2 i 4 sa naprzeciw siebie po zlozeniu."
         },
         {
           "problemId": "gen-l25-v2-c2",
@@ -454,7 +467,8 @@
             "Zalezy od polozenia 2 dodatkowych kwadratow"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Polozenie 2 dodatkowych kwadratow decyduje."
         }
       ]
     }

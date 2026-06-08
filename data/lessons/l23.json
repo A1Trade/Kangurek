@@ -168,7 +168,8 @@
             "Sciana gorna kostki to kwadrat"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Z gory widzimy gorna sciane - kwadrat."
         },
         {
           "problemId": "gen-l23-v1-w2",
@@ -178,7 +179,8 @@
             "Patrzac z gory widzimy tylko najwyzsza kostke - 1 kwadrat"
           ],
           "answer": "A",
-          "alternative": null
+          "alternative": null,
+          "hint": "Trzy kostki jedna na drugiej - z gory widac tylko gorna."
         },
         {
           "problemId": "gen-l23-v1-w3",
@@ -188,7 +190,8 @@
             "Wieza z 3 kostek - z przodu 3 kwadraty jeden nad drugim, czyli pionowy prostokat"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Trzy kostki pionowo - z przodu pionowy prostokat."
         },
         {
           "problemId": "kangur-maluch-2022-4",
@@ -199,7 +202,8 @@
             "Z gory widac 2 wpisane kwadraty"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Konstrukcja z klockow - widok z gory."
         },
         {
           "problemId": "kangur-maluch-2014-15",
@@ -210,7 +214,8 @@
             "Poprawny widok to B"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Bryla z 8 kostek - widok z gory."
         },
         {
           "problemId": "kangur-maluch-2013-9",
@@ -221,7 +226,8 @@
             "Stempel D nie moze powstac"
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "Stemple ze scian bryly z 23 klockow."
         },
         {
           "problemId": "kangur-maluch-2025-20",
@@ -232,7 +238,8 @@
             "Z gory widac wzor D"
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "Widok wiezy z gory."
         }
       ]
     },
@@ -392,7 +399,8 @@
             "Szescian ma wszystkie sciany kwadratowe"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Kazda sciana szescianu to kwadrat."
         },
         {
           "problemId": "gen-l23-v2-w2",
@@ -402,7 +410,8 @@
             "Gorna sciana pudelka to prostokat"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Pudelko z gory - prostokatna gorna sciana."
         },
         {
           "problemId": "gen-l23-v2-w3",
@@ -412,7 +421,8 @@
             "Dwie kostki na podlodze - z gory zarys to 2 kwadraty obok siebie"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Dwie kostki obok siebie - z gory widac 2 kwadraty."
         },
         {
           "problemId": "gen-l23-v2-w4",
@@ -423,7 +433,8 @@
             "Z gory widac 3 kwadraty w rzedzie"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Schody - kazda kostka w innej kolumnie z gory."
         },
         {
           "problemId": "gen-l23-v2-w5",
@@ -433,7 +444,8 @@
             "4 kostki na ziemi w ukladzie 2x2 - z gory widac kwadrat 2x2"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Kwadrat 2x2 z 4 kostek - z gory caly kwadrat 2x2."
         },
         {
           "problemId": "gen-l23-v2-c1",
@@ -445,7 +457,8 @@
             "4 boczne widoki sa identyczne"
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "Wieza 2 kostek - 4 boczne strony daja prostokat, gora i dol kwadrat."
         },
         {
           "problemId": "gen-l23-v2-c2",
@@ -458,7 +471,8 @@
             "Minimum: 1 wieza 2 kostek + 2 pojedyncze kostki = 4 kostki"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Z widokow ustalamy minimalna liczbe kostek."
         }
       ]
     }

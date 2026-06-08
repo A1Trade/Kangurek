@@ -168,7 +168,8 @@
             "Kwadrat ma 4 katy proste"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Kwadrat - rowne boki, kat prosty."
         },
         {
           "problemId": "gen-l17-v1-w2",
@@ -178,7 +179,8 @@
             "W prostokacie przeciwlegle boki maja te sama dlugosc"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Przeciwlegle boki prostokata sa rowne."
         },
         {
           "problemId": "gen-l17-v1-w3",
@@ -188,7 +190,8 @@
             "Kazdy czworokat ma 4 boki"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Czworokat - cztery boki."
         },
         {
           "problemId": "kangur-maluch-2023-4",
@@ -199,7 +202,8 @@
             "Pasuja kartoniki 2 i 4"
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "Skladamy kwadrat z dwoch kartonikow."
         },
         {
           "problemId": "kangur-maluch-2025-14",
@@ -210,7 +214,8 @@
             "Czwarta czesc to kartonik C"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Czwarty kartonik kwadratu."
         },
         {
           "problemId": "kangur-maluch-2018-12",
@@ -221,7 +226,8 @@
             "Potrzeba 7 kawalkow"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Liczymy kawalki potrzebne do ulozenia figury."
         },
         {
           "problemId": "kangur-maluch-2013-15",
@@ -232,7 +238,8 @@
             "Pasuje kawalek B"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Dopasowujemy kawalek ukladanki do prostokata."
         }
       ]
     },
@@ -393,7 +400,8 @@
             "Kazdy kwadrat jest prostokatem"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Kwadrat ma wszystko co prostokat i wiecej."
         },
         {
           "problemId": "gen-l17-v2-w2",
@@ -403,7 +411,8 @@
             "Trapez ma dokladnie jedna pare bokow rownoleglych"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Trapez - jedna para bokow rownoleglych."
         },
         {
           "problemId": "gen-l17-v2-w3",
@@ -413,7 +422,8 @@
             "3 rzedy po 3 kratki = 9 kratek"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Kwadrat 3x3 kratki."
         },
         {
           "problemId": "kangur-maluch-2020-4",
@@ -424,7 +434,8 @@
             "Poprawna figura to D"
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "Ukladamy figure z 6 kartonikow."
         },
         {
           "problemId": "kangur-maluch-2020-15",
@@ -435,7 +446,8 @@
             "W szarym trojkacie wychodzi 2"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Ukladamy wzor korony z pieciokatow."
         },
         {
           "problemId": "kangur-maluch-2012-2",
@@ -446,7 +458,8 @@
             "Na rysunku E nie sa rowne"
           ],
           "answer": "E",
-          "alternative": null
+          "alternative": null,
+          "hint": "Szukamy rysunku z nierownymi polami."
         },
         {
           "problemId": "gen-l17-v2-c1",
@@ -457,7 +470,8 @@
             "6 razy 6 = 36, czyli bok 6"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "36 kratek tworzy kwadrat - szukamy boku."
         }
       ]
     },
@@ -490,14 +504,17 @@
       "solutions": [
         {
           "problemId": "kangur-maluch-2025-13",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Oryginalne zadanie Kangur Maluch 2025 nr 13.",
+          "observation": "Pizza z plasterkami pomidora. Szukaj 2 prostych dzielacych pomidory na rowne polowy.",
+          "strategy": "Dla kazdej prostej policz pomidory po obu stronach.",
           "steps": [
-            "Oryginalne zadanie Kangur Maluch 2025 nr 13.",
-            "Poprawna odpowiedz: D"
+            "Proste sa ponumerowane 1, 2, 3, 4.",
+            "Sprawdz kazda proste: ile pomidorow po lewej, ile po prawej.",
+            "Tylko 2 proste dziela rowno - to proste 2 i 4.",
+            "Odpowiedz: 2 i 4."
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "Sprawdz dla kazdej z 4 prostych: czy dzieli pomidory na rowne polowy?"
         }
       ]
     }

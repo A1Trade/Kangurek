@@ -168,7 +168,8 @@
             "28 dni"
           ],
           "answer": "A",
-          "alternative": null
+          "alternative": null,
+          "hint": "Luty w zwyklym roku = 28 dni."
         },
         {
           "problemId": "gen-l35-v1-w2",
@@ -178,7 +179,8 @@
             "12 miesiecy w roku"
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "Rok = 12 miesiecy."
         },
         {
           "problemId": "gen-l35-v1-w3",
@@ -188,7 +190,8 @@
             "365:7 = 52 r.1, 52 pelne tygodnie"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "365:7 = 52 reszta 1."
         },
         {
           "problemId": "kangur-maluch-2012-8",
@@ -200,7 +203,8 @@
             "Hmm liczmy: 15 marca minus 20 dni. 15 - 15 dni = polowa lutego. 15 marca - 15 = 29 lutego (przestepny). - 5 wiecej = 24 lutego"
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "15 marca 2012 (przestepny), kurczeta 20 dni temu."
         },
         {
           "problemId": "kangur-maluch-2013-16",
@@ -213,7 +217,8 @@
             "Najstarsza (najwczesniejsza data): Dorotka"
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "Daty: 20 lutego, 12 kwietnia, 12 maja, 25 maja. Najstarsza."
         },
         {
           "problemId": "kangur-maluch-2013-18",
@@ -225,7 +230,8 @@
             "Nie spal: 31 - 7*3 dni, w godzinach: (31 - 7*3) razy 24"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Niedzwiedz spal 3 tygodnie w grudniu (31 dni)."
         },
         {
           "problemId": "gen-l35-v1-c1",
@@ -236,7 +242,8 @@
             "+ 1 dzien (1 kwietnia) = 17 dni"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Od 15 marca do 31 marca = 16 dni, plus 1 kwietnia = 17."
         }
       ]
     },
@@ -396,7 +403,8 @@
             "29 dni w lutym co 4 lata"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Luty w przestepnym = 29 dni."
         },
         {
           "problemId": "gen-l35-v2-w2",
@@ -408,7 +416,8 @@
             "Czerwiec (VI) - 30 dni"
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "Czerwiec ma 30 dni."
         },
         {
           "problemId": "gen-l35-v2-w3",
@@ -418,7 +427,8 @@
             "17 - 3 = 14 dni"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Odstep w tym samym miesiacu = roznica."
         },
         {
           "problemId": "kangur-maluch-2020-18",
@@ -430,7 +440,8 @@
             "Wszystkie 6 obchodzilo lub bedzie obchodzic"
           ],
           "answer": "E",
-          "alternative": null
+          "alternative": null,
+          "hint": "6 dzieci, urodziny w marcu, konkurs trzeci czwartek."
         },
         {
           "problemId": "kangur-maluch-2025-22",
@@ -442,7 +453,8 @@
             "1. dzien tego miesiaca to czwartek"
           ],
           "answer": "A",
-          "alternative": null
+          "alternative": null,
+          "hint": "Suma 4 dat na prostej kalendarza = 29."
         },
         {
           "problemId": "kangur-maluch-2023-18",
@@ -454,7 +466,8 @@
             "96 mod 10 = 6, przystanek 6 = D"
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "Metro 6 stacji, ruch wahadlowy, 96. przystanek."
         },
         {
           "problemId": "gen-l35-v2-c1",
@@ -465,7 +478,8 @@
             "+ 10 dni (do 10 maja) = 15 dni"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Od 25 kwietnia do konca + maj."
         }
       ]
     }

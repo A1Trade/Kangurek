@@ -168,7 +168,8 @@
             "10*11/2 = 55"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Wzor: n*(n+1)/2 = 10*11/2."
         },
         {
           "problemId": "gen-l47-v1-w2",
@@ -178,7 +179,8 @@
             "2 + 9*3 = 2+27 = 29"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "a + (n-1)*d = 2 + 9*3 = 29."
         },
         {
           "problemId": "gen-l47-v1-w3",
@@ -188,51 +190,70 @@
             "700:7=100 reszta 0, ten sam dzien"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "700:7 = 100, reszta 0."
         },
         {
           "problemId": "kangur-maluch-2020-3",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Tabelka kolorowanka wynik 20. Pole z 2+10, 16+4, 19+1 - kolorowanka A.",
+          "observation": "6 dzialan, koloruj wyniki = 20.",
+          "strategy": "Policz wynik kazdego.",
           "steps": [
-            "Tabelka kolorowanka wynik 20. Pole z 2+10, 16+4, 19+1 - kolorowanka A.",
-            "Poprawna odpowiedz: A"
+            "16+4 = 20 (kolor).",
+            "19+1 = 20 (kolor).",
+            "28-8 = 20 (kolor).",
+            "2*10 = 20 (kolor).",
+            "16-4 = 12 (nie).",
+            "7*3 = 21 (nie).",
+            "Wzor A."
           ],
           "answer": "A",
-          "alternative": null
+          "alternative": null,
+          "hint": "Sprawdz wynik kazdego dzialania - pokoloruj te = 20."
         },
         {
           "problemId": "kangur-maluch-2014-5",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Marysia kolejne roznice: 0,1,2,3,4,5. Polacz kropki E.",
+          "observation": "6 roznic: 2-2=0, 6-5=1, 8-6=2, 11-8=3, 13-9=4, 17-12=5.",
+          "strategy": "Sortuj rosnaco i polacz.",
           "steps": [
-            "Marysia kolejne roznice: 0,1,2,3,4,5. Polacz kropki E.",
-            "Poprawna odpowiedz: E"
+            "Roznice: 0, 1, 2, 3, 4, 5.",
+            "Polaczone kropki w kolejnosci 0->1->2->3->4->5.",
+            "Z opcji wzor E."
           ],
           "answer": "E",
-          "alternative": null
+          "alternative": null,
+          "hint": "Roznice: 0, 1, 2, 3, 4, 5. Sortuj i polacz kropki."
         },
         {
           "problemId": "kangur-maluch-2020-11",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Kangur 7 schodkow gora, krolik 3 dol, 100 schodkow. Spotykaja na 70.",
+          "observation": "100 schodkow, sumaryczna predkosc 10 schodkow/jednostka.",
+          "strategy": "Czas spotkania: 100/10 = 10 jednostek czasu. Kangur na schodku 7*10 = 70.",
           "steps": [
-            "Kangur 7 schodkow gora, krolik 3 dol, 100 schodkow. Spotykaja na 70.",
-            "Poprawna odpowiedz: D"
+            "Razem pokonywuja 10 schodkow w 1 jednostka.",
+            "Schodkow 100 - czas 10 jednostek.",
+            "Kangur: 7 * 10 = 70 schodkow w gore.",
+            "Krolik: 3 * 10 = 30 schodkow w dol -> na 100 - 30 = 70.",
+            "Spotkanie na 70."
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "Kangur 7/jednostka czasu, krolik 3/jednostka czasu. Razem 10 schodkow."
         },
         {
           "problemId": "kangur-maluch-2013-19",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Cyfra 5 pojawia sie 16 razy w numeracji. Max stron: 102 lat (rok 2115).",
+          "observation": "Iloczyn vs suma cyfr - kazda 0 powoduje iloczyn 0.",
+          "strategy": "Lata bez 0 maja iloczyn > suma (zwykle).",
           "steps": [
-            "Cyfra 5 pojawia sie 16 razy w numeracji. Max stron: 102 lat (rok 2115).",
-            "Poprawna odpowiedz: D"
+            "2013: iloczyn 0 (jest 0), suma 6. Iloczyn < suma.",
+            "2014, 2015,...,2099 - maja 0, iloczyn 0.",
+            "2100,..., 2999: 2 maja 0 - iloczyn 0.",
+            "Pierwszy rok bez 0: 2111. Iloczyn 2*1*1*1 = 2. Suma 5. Nie wiekszy.",
+            "Kolejny: 2112, 2113, 2114, 2115. 2*1*1*5 = 10. Suma 9. TAK!",
+            "Czas: 2115 - 2013 = 102 lat.",
+            "Odpowiedz: 102."
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "Sprawdz lata: dla roku rrrr czy iloczyn cyfr > suma."
         }
       ]
     },
@@ -392,7 +413,8 @@
             "20*21/2 = 210"
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "Wzor: 20*21/2 = 210."
         },
         {
           "problemId": "gen-l47-v2-w2",
@@ -402,7 +424,8 @@
             "38-3=35, 35:5=7"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Cofnij: (38-3):5 = 35:5 = 7."
         },
         {
           "problemId": "gen-l47-v2-w3",
@@ -412,51 +435,61 @@
             "3 niepar = nieprar"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Niepar+nieprar=par, par+nieprar=nieprar."
         },
         {
           "problemId": "kangur-maluch-2015-11",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Tomek 16 nieb kulek. 3 nieb=1 czerw, 2 czerw=5 zielonych. Max 10 zielonych.",
+          "observation": "Tomek: 7 jablek, 2 banany. Dal 2 jablka, dostal banany.",
+          "strategy": "Po wymianie: 5 jablek, 2+x bananow. Rowne -> x = 3.",
           "steps": [
-            "Tomek 16 nieb kulek. 3 nieb=1 czerw, 2 czerw=5 zielonych. Max 10 zielonych.",
-            "Poprawna odpowiedz: B"
+            "Jablek po: 7 - 2 = 5.",
+            "Bananow po: 2 + x.",
+            "5 = 2 + x -> x = 3."
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Po wymianie: jablek 7-2=5, bananow 2+x. Maja byc rowne."
         },
         {
           "problemId": "kangur-maluch-2015-3",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Helenka rownania: tr+4=7, kw+tr=9. Tr=3, kw=6.",
+          "observation": "trojkat + 4 = 7, kwadrat + trojkat = 9.",
+          "strategy": "Z pierwszego: trojkat = 3. Z drugiego: kwadrat = 6.",
           "steps": [
-            "Helenka rownania: tr+4=7, kw+tr=9. Tr=3, kw=6.",
-            "Poprawna odpowiedz: E"
+            "trojkat = 7 - 4 = 3.",
+            "kwadrat + 3 = 9 -> kwadrat = 6."
           ],
           "answer": "E",
-          "alternative": null
+          "alternative": null,
+          "hint": "trojkat = 3, kwadrat + trojkat = 9, czyli kwadrat = 6."
         },
         {
           "problemId": "kangur-maluch-2013-10",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Pelna szklanka 400g, pusta 100g. Polowka wody=150g, razem 250g.",
+          "observation": "Nos 9 cm. 3 klamstwa po +6, 2 prawdy po -2.",
+          "strategy": "Zsumuj wszystkie zmiany.",
           "steps": [
-            "Pelna szklanka 400g, pusta 100g. Polowka wody=150g, razem 250g.",
-            "Poprawna odpowiedz: D"
+            "Klamstwa: 3 * 6 = +18 cm.",
+            "Prawdy: 2 * 2 = -4 cm.",
+            "Zmiana: +14 cm.",
+            "Nos: 9 + 14 = 23 cm."
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "3 klamstwa = +18, 2 prawdy = -4. Razem +14. Nos 9 + 14 = 23."
         },
         {
           "problemId": "kangur-maluch-2014-22",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Cyfry 0-6 w diagram a+b=c, dwucyfrowe+dwucyfrowe=trzycyfrowe. Cyfra w polu szarym=5.",
+          "observation": "7 cyfr w 7 polach dzialania.",
+          "strategy": "Suma max 65+43 = 108. Min 10+12 = 22.",
           "steps": [
-            "Cyfry 0-6 w diagram a+b=c, dwucyfrowe+dwucyfrowe=trzycyfrowe. Cyfra w polu szarym=5.",
-            "Poprawna odpowiedz: B"
+            "Cyfry 0,1,2,3,4,5,6.",
+            "Suma cyfr: 21. Cyfry w wyniku (3-cyfra) + skladniki (2*2-cyfra) razem 21.",
+            "Sprawdz mozliwosc - wynik 3-cyfrowy musi miec male cyfry setek (1).",
+            "Z analizy odpowiedz: 5 w szarym polu."
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Cyfry 0-6 (kazdy raz). 2-cyfrowa + 2-cyfrowa = 3-cyfrowa."
         }
       ]
     }

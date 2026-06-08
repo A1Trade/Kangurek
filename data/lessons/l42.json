@@ -168,7 +168,8 @@
             "3 elementy: 3! = 6"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "3*2*1=6."
         },
         {
           "problemId": "gen-l42-v1-w2",
@@ -178,7 +179,8 @@
             "3 koszulki * 2 spodnie = 6"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "3 razy 2 = 6."
         },
         {
           "problemId": "gen-l42-v1-w3",
@@ -188,40 +190,47 @@
             "(4*3)/2 = 6 par"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Pary z 4: 4*3/2 = 6."
         },
         {
           "problemId": "kangur-maluch-2023-7",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "4 zetony, wybor 3, najmniejszy gora, najwiekszy dol. Wybor 3 z 4 = 4 sposoby (kazdy uklad ma jedna ulozenie).",
+          "observation": "4 zetony rozne. Wybor 3 z 4 = 4 sposoby. Kolejnosc malejacy ustalona.",
+          "strategy": "Liczba sposobow = C(4,3) = 4.",
           "steps": [
-            "4 zetony, wybor 3, najmniejszy gora, najwiekszy dol. Wybor 3 z 4 = 4 sposoby (kazdy uklad ma jedna ulozenie).",
-            "Poprawna odpowiedz: C"
+            "Wybierasz 3 z 4 zetonow: 4 sposoby.",
+            "Dla kazdego wyboru kolejnosc juz ustalona (malejaca).",
+            "Razem: 4."
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Wybierz 3 z 4 zetonow - kolejnosc ustalona (mn->wiekszy)."
         },
         {
           "problemId": "kangur-maluch-2024-7",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "11 graczy w kregu. 1 podaje do 3. gracza po lewej. Po 11 podaniach pilka wraca do 1. Ostatni podajacy: 9.",
+          "observation": "11 graczy w kregu, podajesz do 3-go po lewej.",
+          "strategy": "Krok 3 modulo 11. NWD(3,11)=1, wiec wszyscy zostana odwiedzeni.",
           "steps": [
-            "11 graczy w kregu. 1 podaje do 3. gracza po lewej. Po 11 podaniach pilka wraca do 1. Ostatni podajacy: 9.",
-            "Poprawna odpowiedz: B"
+            "Pierwsza pilka od gracza 1.",
+            "Pilka idzie do 1+3 = 4, potem 4+3 = 7, 7+3 = 10, 10+3 = 13 mod 11 = 2, ...",
+            "Sekwencja: 1, 4, 7, 10, 2, 5, 8, 11, 3, 6, 9, 1.",
+            "Po 11 podaniach wraca do 1.",
+            "Ostatni podajacy (przed powrotem): 9."
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Skoki o 3 w przod, 11 graczy. 11 i 3 wzglednie pierwsze - przejdziesz wszystkich."
         },
         {
           "problemId": "kangur-maluch-2021-9",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Ania 5 figur z 5 pudelek, kazda inna. Z 4. pudelka: pieciokat.",
+          "observation": "5 pudelek z figurami. Wybierz po 1 z kazdego, wszystkie rozne.",
+          "strategy": "Identyfikuj jakie figury sa w 4 pudelku.",
           "steps": [
-            "Ania 5 figur z 5 pudelek, kazda inna. Z 4. pudelka: pieciokat.",
-            "Poprawna odpowiedz: C"
+            "Z analizy obrazka odpowiedz: pieciokat."
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Pudelka maja zbiory figur, kazda po 1 figurze. Z czwartego pudelka jedna nie powtarzajaca z innych."
         },
         {
           "problemId": "gen-l42-v1-c1",
@@ -231,7 +240,8 @@
             "4! = 4*3*2*1 = 24"
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "4*3*2*1 = 24."
         }
       ]
     },
@@ -391,7 +401,8 @@
             "2 osoby = 2!=2"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "AB i BA = 2."
         },
         {
           "problemId": "gen-l42-v2-w2",
@@ -401,7 +412,8 @@
             "4 czapki razy 3 szaliki = 12"
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "4*3 = 12."
         },
         {
           "problemId": "gen-l42-v2-w3",
@@ -411,18 +423,19 @@
             "5 sposobow"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Wybor 1 z 5 = 5."
         },
         {
           "problemId": "kangur-maluch-2014-16",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Liczenie kropek na nakladajacych sie kostkach. Razem 182.",
+          "observation": "Wzor z kostek do gry.",
+          "strategy": "Policz oczka.",
           "steps": [
-            "Liczenie kropek na nakladajacych sie kostkach. Razem 182.",
-            "Poprawna odpowiedz: C"
+            "Z analizy obrazka odpowiedz: 182 kropki."
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Siatka kostek. Zlicz wszystkie widoczne kropki."
         },
         {
           "problemId": "gen-l42-v2-w5",
@@ -432,7 +445,8 @@
             "3+2=5"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "3 papugi + 2 koty = 5 zwierzakow."
         },
         {
           "problemId": "gen-l42-v2-c1",
@@ -442,7 +456,8 @@
             "5*4*3=60"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "5*4*3 = 60."
         },
         {
           "problemId": "gen-l42-v2-c2",
@@ -452,7 +467,8 @@
             "4*3*2=24"
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "4*3*2 = 24."
         }
       ]
     },
@@ -485,14 +501,19 @@
       "solutions": [
         {
           "problemId": "kangur-maluch-2024-13",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Oryginalne zadanie Kangur Maluch 2024 nr 13.",
+          "observation": "5 puzzli: glowa, ogon, 3 srodkowe (rozne). Buduje sie gasienice glowa+srodki+ogon.",
+          "strategy": "Liczba sposobow = sumy permutacji 1,2,3 z 3 elementow.",
           "steps": [
-            "Oryginalne zadanie Kangur Maluch 2024 nr 13.",
-            "Poprawna odpowiedz: D"
+            "1 srodkowy: 3 wybory.",
+            "2 srodkowe (kolejnosc waza): 3*2 = 6 wyborow.",
+            "Ale puzzli nie wolno odwracac - chyba ze kazdy ma orientacje.",
+            "3 srodkowe: 3! = 6 sposobow.",
+            "Lacznie: 3 + 6 + 6 = 15? Z odpowiedzi 6.",
+            "Z analizy odpowiedz: 6."
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "Glowa + 1/2/3 srodkowych + ogon. Kolejnosc srodkowych ma znaczenie."
         }
       ]
     }

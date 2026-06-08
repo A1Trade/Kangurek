@@ -168,7 +168,8 @@
             "3 kg = 3 razy 1000 g = 3000 g"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "1 kg = 1000 g."
         },
         {
           "problemId": "gen-l28-v1-w2",
@@ -178,7 +179,8 @@
             "5 dag = 5 razy 10 g = 50 g"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "1 dag = 10 g."
         },
         {
           "problemId": "gen-l28-v1-w3",
@@ -188,7 +190,8 @@
             "1 kg = 1000 g, pol kg = 500 g"
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "Pol kg = polowa 1000 g."
         },
         {
           "problemId": "gen-l28-v1-w4",
@@ -199,7 +202,8 @@
             "2000 g > 1500 g, wiec 2 kg ciezsze"
           ],
           "answer": "A",
-          "alternative": null
+          "alternative": null,
+          "hint": "Zamien na te sama jednostke."
         },
         {
           "problemId": "kangur-maluch-2019-13",
@@ -211,7 +215,8 @@
             "Pusta szklanka + 150 g wody = 100 + 150 = 250 g"
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "Szklanka pelna 400g, pusta 100g, do polowy?"
         },
         {
           "problemId": "gen-l28-v1-c1",
@@ -222,7 +227,8 @@
             "2000 + 500 + 250 = 2750 g"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Sprowadz wszystko do g."
         },
         {
           "problemId": "gen-l28-v1-c2",
@@ -233,7 +239,8 @@
             "5 razy 4 zl = 20 zl"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Pol kg to 5 razy 100 g."
         }
       ]
     },
@@ -393,7 +400,8 @@
             "80 g : 10 = 8 dag"
           ],
           "answer": "A",
-          "alternative": null
+          "alternative": null,
+          "hint": "1 dag = 10 g, dziel przez 10."
         },
         {
           "problemId": "gen-l28-v2-w2",
@@ -403,7 +411,8 @@
             "2 t = 2 razy 1000 kg = 2000 kg"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "1 t = 1000 kg."
         },
         {
           "problemId": "gen-l28-v2-w3",
@@ -413,7 +422,8 @@
             "1000 g : 4 = 250 g"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Cwierc = czwarta czesc 1000 g."
         },
         {
           "problemId": "gen-l28-v2-w4",
@@ -424,7 +434,8 @@
             "Najwiecej: 5000 g"
           ],
           "answer": "E",
-          "alternative": null
+          "alternative": null,
+          "hint": "Sprowadz wszystko do g."
         },
         {
           "problemId": "gen-l28-v2-w5",
@@ -434,7 +445,8 @@
             "Standard tabliczki to 100 g"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Tabliczka czekolady ~100 g."
         },
         {
           "problemId": "gen-l28-v2-c1",
@@ -446,7 +458,8 @@
             "5000 - 1200 = 3800 g"
           ],
           "answer": "A",
-          "alternative": null
+          "alternative": null,
+          "hint": "Sprowadz na gramy."
         },
         {
           "problemId": "gen-l28-v2-c2",
@@ -456,7 +469,8 @@
             "1 kg + 1.5 kg + 0.5 kg = 3 kg"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Sprowadz na kg."
         }
       ]
     }

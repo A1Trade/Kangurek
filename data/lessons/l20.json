@@ -169,7 +169,8 @@
             "Razem 4 osie"
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "Kwadrat - 4 osie symetrii."
         },
         {
           "problemId": "gen-l20-v1-w2",
@@ -180,7 +181,8 @@
             "Razem 2 osie (przekatne nie sa osiami)"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Prostokat - 2 osie symetrii."
         },
         {
           "problemId": "gen-l20-v1-w3",
@@ -190,7 +192,8 @@
             "Litera A zlozona w pionie - obie polowy sie pokrywaja"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Litera A ma pionowa os symetrii."
         },
         {
           "problemId": "kangur-maluch-2018-5",
@@ -201,7 +204,8 @@
             "Poprawny obraz to B"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Kartka zlozona na pol, wyciety ksztalt."
         },
         {
           "problemId": "kangur-maluch-2019-4",
@@ -212,7 +216,8 @@
             "Widac samochod, ciezarowke i traktor"
           ],
           "answer": "E",
-          "alternative": null
+          "alternative": null,
+          "hint": "Ksiazeczka z okienkami zlozona na pol."
         },
         {
           "problemId": "kangur-maluch-2019-14",
@@ -223,7 +228,8 @@
             "Poprawny obraz to B"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Plecionka odwrocona na druga strone."
         },
         {
           "problemId": "kangur-maluch-2015-23",
@@ -234,7 +240,8 @@
             "Maksymalnie widac 7 czarnych kwadracikow"
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "Nakladanie przezroczystych arkuszy."
         }
       ]
     },
@@ -395,7 +402,8 @@
             "Jest ich nieskonczenie wiele"
           ],
           "answer": "E",
-          "alternative": null
+          "alternative": null,
+          "hint": "Kolo ma nieskonczenie wiele osi symetrii."
         },
         {
           "problemId": "gen-l20-v2-w2",
@@ -406,7 +414,8 @@
             "Pochylony rownolegloboik - nie ma"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Pochylony rownolegloboik nie ma osi symetrii."
         },
         {
           "problemId": "gen-l20-v2-w3",
@@ -416,7 +425,8 @@
             "Cyfra 8 po odbiciu w pionowym lustrze wyglada tak samo"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Cyfra 8 jest symetryczna w pionie."
         },
         {
           "problemId": "kangur-maluch-2023-6",
@@ -427,7 +437,8 @@
             "Poprawny widok to D"
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "Folia zlozona na pol - widok cyfr."
         },
         {
           "problemId": "kangur-maluch-2023-8",
@@ -438,7 +449,8 @@
             "Niemozliwy jest widok E"
           ],
           "answer": "E",
-          "alternative": null
+          "alternative": null,
+          "hint": "Nakladanie polkola i cwiartki na czarne kolo."
         },
         {
           "problemId": "kangur-maluch-2022-22",
@@ -449,7 +461,8 @@
             "Poprawny obraz to A"
           ],
           "answer": "A",
-          "alternative": null
+          "alternative": null,
+          "hint": "Zwijanie gasienicy Hulajkula."
         },
         {
           "problemId": "kangur-maluch-2020-9",
@@ -461,7 +474,8 @@
             "Czerwonych obszarow jest 3"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Kolorowanie obszarow trzema kolorami."
         }
       ]
     },
@@ -494,14 +508,17 @@
       "solutions": [
         {
           "problemId": "kangur-maluch-2016-6",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Oryginalne zadanie Kangur Maluch 2016 nr 6.",
+          "observation": "Czarny prostokat czesciowo zaslonety - widoczna czesc to prostokat z kantami pod katem prostym.",
+          "strategy": "Kazdy fragment prostokata to tez prostokat (linie proste pod katem prostym).",
           "steps": [
-            "Oryginalne zadanie Kangur Maluch 2016 nr 6.",
-            "Poprawna odpowiedz: B"
+            "Prostokat ma proste linie i proste kanty.",
+            "Czesc zaslonieta tez ma proste linie i proste kanty.",
+            "Wiec zaslonieta czesc to prostokat (moze byc kwadratem - to szczegolny prostokat).",
+            "Odpowiedz: Prostokat."
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Wszystkie 4 kanty prostokata sa proste - nie mozna ich zmienic na inny ksztalt."
         }
       ]
     }

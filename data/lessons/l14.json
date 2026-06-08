@@ -169,7 +169,8 @@
             "Razem 6 odcinkow"
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "4 punkty, kazda para tworzy odcinek."
         },
         {
           "problemId": "gen-l14-v1-w2",
@@ -179,7 +180,8 @@
             "Dwie rozne proste przecinaja sie w jednym punkcie"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Dwie proste przecinaja sie w jednym miejscu."
         },
         {
           "problemId": "gen-l14-v1-w3",
@@ -189,7 +191,8 @@
             "Trojkat ma 3 wierzcholki i 3 boki"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Trojkat ma 3 boki."
         },
         {
           "problemId": "kangur-maluch-2013-4",
@@ -201,7 +204,8 @@
             "Razem wychodzi 10"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Liczymy trojkaty systematycznie - male i zlozone."
         },
         {
           "problemId": "kangur-maluch-2015-5",
@@ -212,7 +216,8 @@
             "Powstaje gwiazda dziewiecioramienna"
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "Laczymy co druga liczbe na okregu od 1."
         },
         {
           "problemId": "kangur-maluch-2013-8",
@@ -223,7 +228,8 @@
             "Wlasciwy kawalek to czesc C"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Dopasowujemy odlamany kawalek do reszty lustra."
         },
         {
           "problemId": "gen-l14-v1-c1",
@@ -234,7 +240,8 @@
             "Razem 10 odcinkow"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "5 punktow, kazda para to odcinek."
         }
       ]
     },
@@ -395,7 +402,8 @@
             "Razem 3 odcinki"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "3 punkty, kazda para tworzy odcinek."
         },
         {
           "problemId": "gen-l14-v2-w2",
@@ -407,7 +415,8 @@
             "Odcinek ma dwa konce"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Odcinek ma poczatek i koniec."
         },
         {
           "problemId": "gen-l14-v2-w3",
@@ -417,7 +426,8 @@
             "Polprosta ma jeden koniec, druga strona biegnie w nieskonczonosc"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Polprosta zaczyna sie w punkcie i biegnie bez konca."
         },
         {
           "problemId": "kangur-maluch-2014-1",
@@ -428,7 +438,8 @@
             "Pasuje fragment B"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Szukamy fragmentu pasujacego do gwiazdy."
         },
         {
           "problemId": "kangur-maluch-2021-4",
@@ -439,7 +450,8 @@
             "Fragment D nie pasuje"
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "Szukamy fragmentu, ktory NIE pasuje do sloneczka."
         },
         {
           "problemId": "kangur-maluch-2016-4",
@@ -450,7 +462,8 @@
             "Taka sama jest karta E"
           ],
           "answer": "E",
-          "alternative": null
+          "alternative": null,
+          "hint": "Porownujemy karte wzorcowa z 5 wariantami."
         },
         {
           "problemId": "kangur-maluch-2024-1",
@@ -461,7 +474,8 @@
             "Ciecie lamane daje dwie rozne czesci - kwadrat A"
           ],
           "answer": "A",
-          "alternative": null
+          "alternative": null,
+          "hint": "Szukamy kwadratu rozcietego na dwie ROZNE czesci."
         }
       ]
     },
@@ -494,14 +508,17 @@
       "solutions": [
         {
           "problemId": "kangur-maluch-2016-15",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Oryginalne zadanie Kangur Maluch 2016 nr 15.",
+          "observation": "5 stosow z 3 figur (kolo, kwadrat, trojkat) w roznych kolejnosciach.",
+          "strategy": "Sprawdz kazdy stos osobno - patrz tylko na pozycje trojkata i kwadratu.",
           "steps": [
-            "Oryginalne zadanie Kangur Maluch 2016 nr 15.",
-            "Poprawna odpowiedz: C"
+            "Dla kazdego z 5 stosow popatrz: czy trojkat jest wyzej niz kwadrat?",
+            "Pomijaj pozycje kola - nie liczy sie.",
+            "Stos liczy sie tylko gdy trojkat jest na wyzszym poziomie niz kwadrat.",
+            "Zliczamy: 4 stosy spelniaja warunek."
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Z 5 stosow patrz tylko na te, gdzie trojkat lezy WYZEJ niz kwadrat."
         }
       ]
     }

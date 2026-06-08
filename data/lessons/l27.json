@@ -168,7 +168,8 @@
             "8 cm = 8 razy 10 mm = 80 mm"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "1 cm = 10 mm."
         },
         {
           "problemId": "gen-l27-v1-w2",
@@ -178,7 +179,8 @@
             "2 m = 2 razy 100 cm = 200 cm"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "1 m = 100 cm."
         },
         {
           "problemId": "gen-l27-v1-w3",
@@ -189,7 +191,8 @@
             "Pol km = 500 m"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "1 km = 1000 m, polowa = 500 m."
         },
         {
           "problemId": "gen-l27-v1-w4",
@@ -200,7 +203,8 @@
             "200 cm > 150 cm"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Zamiana na te sama jednostke."
         },
         {
           "problemId": "kangur-maluch-2018-16",
@@ -211,7 +215,8 @@
             "Pasek na 1. dziurke jest dluzszy o 8 cm"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Pasek z 5 dziurkami co 2 cm."
         },
         {
           "problemId": "gen-l27-v1-c1",
@@ -224,7 +229,8 @@
             "Razem: 30 + 200 + 50 = 280 cm"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Sprowadz wszystko do cm."
         },
         {
           "problemId": "gen-l27-v1-c2",
@@ -235,7 +241,8 @@
             "Razem: 7000 + 4500 = 11500 m"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Wszystko do metrow."
         }
       ]
     },
@@ -395,7 +402,8 @@
             "50 mm : 10 = 5 cm"
           ],
           "answer": "A",
-          "alternative": null
+          "alternative": null,
+          "hint": "1 cm = 10 mm, wiec dziel przez 10."
         },
         {
           "problemId": "gen-l27-v2-w2",
@@ -405,7 +413,8 @@
             "3 km = 3 razy 1000 m = 3000 m"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "1 km = 1000 m."
         },
         {
           "problemId": "gen-l27-v2-w3",
@@ -415,7 +424,8 @@
             "6 dm = 6 razy 10 cm = 60 cm"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "1 dm = 10 cm."
         },
         {
           "problemId": "gen-l27-v2-w4",
@@ -425,7 +435,8 @@
             "100 cm = 1 m, 1000 mm = 1 m, 10 dm = 1 m, 5 m - najwieksze"
           ],
           "answer": "E",
-          "alternative": null
+          "alternative": null,
+          "hint": "Sprowadz do tej samej jednostki."
         },
         {
           "problemId": "gen-l27-v2-w5",
@@ -435,7 +446,8 @@
             "Typowy pisak ma 15 cm"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Pisak ~15 cm."
         },
         {
           "problemId": "gen-l27-v2-c1",
@@ -446,7 +458,8 @@
             "300 - 75 = 225 cm"
           ],
           "answer": "A",
-          "alternative": null
+          "alternative": null,
+          "hint": "Zamien 3 m na cm."
         },
         {
           "problemId": "gen-l27-v2-c2",
@@ -457,7 +470,8 @@
             "285 cm = 2.85 m"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Sprowadz wszystko do cm, potem na metry."
         }
       ]
     }

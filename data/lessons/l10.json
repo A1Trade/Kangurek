@@ -170,7 +170,8 @@
             "5 trojkatow: 3 + 2+2+2+2 = 3 + 8 = 11"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Pierwszy trojkat 3, kazdy kolejny +2."
         },
         {
           "problemId": "gen-l10-w2",
@@ -182,7 +183,8 @@
             "6 kwadratow: 4 + 3 razy 5 = 4 + 15 = 19"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Pierwszy kwadrat 4, kazdy kolejny +3."
         },
         {
           "problemId": "gen-l10-w3",
@@ -194,7 +196,8 @@
             "Rzad 6: 1, 3, 5, 7, 9, 11 - czyli 11"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Liczby kropek: 1, 3, 5, 7... rosna o 2."
         },
         {
           "problemId": "kangur-maluch-2012-3",
@@ -206,7 +209,8 @@
             "12 recznikow: 2 + 11 = 13"
           ],
           "answer": "B",
-          "alternative": "Wzor: liczba klamerek = liczba recznikow + 1."
+          "alternative": "Wzor: liczba klamerek = liczba recznikow + 1.",
+          "hint": "Sasiednie reczniki dziela klamerke."
         },
         {
           "problemId": "kangur-maluch-2019-6",
@@ -217,7 +221,8 @@
             "7 zdjec: 4 + 2 razy 6 = 4 + 12 = 16"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Pierwsze zdjecie 4 pinezki, kazde kolejne +2."
         },
         {
           "problemId": "gen-l10-c1",
@@ -228,7 +233,8 @@
             "Suma: 1+3+5+7+9 = 25"
           ],
           "answer": "C",
-          "alternative": "Suma pierwszych n liczb nieparzystych to n razy n: 5 razy 5 = 25."
+          "alternative": "Suma pierwszych n liczb nieparzystych to n razy n: 5 razy 5 = 25.",
+          "hint": "Poziomy maja 1, 3, 5, 7, 9 klockow. Sumujemy."
         },
         {
           "problemId": "gen-l10-c2",
@@ -240,7 +246,8 @@
             "10x10: 4 razy 10 - 4 = 36"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Liczba plytek na brzegu: 8, 12, 16 - rosnie o 4."
         }
       ]
     },
@@ -402,7 +409,8 @@
             "5 domkow: 6 + 5 razy 4 = 6 + 20 = 26"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Pierwszy domek 6, kazdy kolejny +5."
         },
         {
           "problemId": "gen-l10-v2-w2",
@@ -413,7 +421,8 @@
             "Rzad 8: 2 razy 8 = 16"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Liczby kropek: 2, 4, 6... rosna o 2."
         },
         {
           "problemId": "gen-l10-v2-w3",
@@ -423,7 +432,8 @@
             "2 + 4 + 6 + 8 = 20"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Poziomy 2, 4, 6, 8 - sumujemy."
         },
         {
           "problemId": "gen-l10-v2-w4",
@@ -435,7 +445,8 @@
             "10 sekcji: 3 + 2 razy 9 = 3 + 18 = 21"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Pierwsza sekcja 3 deski, kazda kolejna +2."
         },
         {
           "problemId": "kangur-maluch-2020-8",
@@ -447,7 +458,8 @@
             "Po przeliczeniu struktury wychodzi 34 listwy"
           ],
           "answer": "E",
-          "alternative": "Wymaga policzenia listew poziomych i pionowych w jednym metrze plotu."
+          "alternative": "Wymaga policzenia listew poziomych i pionowych w jednym metrze plotu.",
+          "hint": "Plot z listew - liczymy strukture."
         },
         {
           "problemId": "gen-l10-v2-c1",
@@ -459,7 +471,8 @@
             "4x4: 2 razy 4 razy 5 = 40"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Liczby zapalek: 4, 12, 24 - rosna szybciej."
         },
         {
           "problemId": "gen-l10-v2-c2",
@@ -469,7 +482,8 @@
             "1 + 3 + 5 + 7 + 9 + 11 = 36"
           ],
           "answer": "C",
-          "alternative": "Suma pierwszych 6 liczb nieparzystych to 6 razy 6 = 36."
+          "alternative": "Suma pierwszych 6 liczb nieparzystych to 6 razy 6 = 36.",
+          "hint": "Sumujemy klocki ze wszystkich poziomow."
         }
       ]
     }

@@ -169,7 +169,8 @@
             "15 jest nieparzysta - eliminuje"
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "Suma parzystych jest parzysta."
         },
         {
           "problemId": "gen-l39-v1-w2",
@@ -180,7 +181,8 @@
             "Tylko 115 konczy sie na 5"
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "Ostatnia cyfra 3*5=15, czyli 5."
         },
         {
           "problemId": "gen-l39-v1-w3",
@@ -191,51 +193,53 @@
             "100 znacznie wieksze - eliminuje"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Pole 5x4=20. 100 to za duzo."
         },
         {
           "problemId": "kangur-maluch-2018-6",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "5 wkretow, 4 rownej dlugosci, 1 krotszy. Krotszy = wkret C.",
+          "observation": "5 wkretow, 4 rownej dlugosci, 1 krotszy.",
+          "strategy": "Krotszy = mniej widocznej czesci (gleboko wkrecony przy tej samej dlugosci wystajacej) lub ta krotsza calkowita.",
           "steps": [
-            "5 wkretow, 4 rownej dlugosci, 1 krotszy. Krotszy = wkret C.",
-            "Poprawna odpowiedz: C"
+            "Z analizy obrazka odpowiedz: wkret 3."
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Patrz na widoczna czesc wkretow nad drewnem."
         },
         {
           "problemId": "kangur-maluch-2025-4",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Wezel powstanie tylko na jednym sznurku. Sznurek C.",
+          "observation": "5 sznurkow zaplatanych. Pociagniecie konce.",
+          "strategy": "Identyfikuj topologie petli.",
           "steps": [
-            "Wezel powstanie tylko na jednym sznurku. Sznurek C.",
-            "Poprawna odpowiedz: C"
+            "Z analizy obrazka odpowiedz: sznurek C."
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Sznurek tworzy wezel gdy konce sa po przeciwnych stronach petli."
         },
         {
           "problemId": "kangur-maluch-2025-6",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Ela i Ewa muszle (6) + zetony (1) = 16. Sposob B.",
+          "observation": "Muszelki = 6, zetony = 1.",
+          "strategy": "Z opcji wybierz zestaw o wartosci 16.",
           "steps": [
-            "Ela i Ewa muszle (6) + zetony (1) = 16. Sposob B.",
-            "Poprawna odpowiedz: B"
+            "Mozliwosci: 2*6 + 4*1 = 16, 1*6 + 10*1 = 16.",
+            "Z analizy obrazka odpowiedz: zestaw B."
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "6 = muszelka, 1 = zeton. Wartosc 16 = 2 muszelki + 4 zetony lub 1 muszelka + 10 zetonow."
         },
         {
           "problemId": "kangur-maluch-2020-20",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Kod, ktorego symbole na danych pozycjach nie wystepuja w innych. Kod D.",
+          "observation": "Wiele kodow z 4 symbolami. Szukamy unikalnego.",
+          "strategy": "Dla kazdego kodu sprawdz czy zaden inny ma ten sam symbol na tej samej pozycji.",
           "steps": [
-            "Kod, ktorego symbole na danych pozycjach nie wystepuja w innych. Kod D.",
-            "Poprawna odpowiedz: D"
+            "Z analizy odpowiedz: kod D."
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "Poprawny kod: kazdy jego symbol na danej pozycji unikalny wsrod wszystkich kodow."
         }
       ]
     },
@@ -396,7 +400,8 @@
             "11 nieparzysta - eliminuje"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Nieparzysta + nieparzysta = parzysta. 11 nieparzysta - nie pasuje."
         },
         {
           "problemId": "gen-l39-v2-w2",
@@ -407,7 +412,8 @@
             "Tylko 141 konczy sie na 1"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "7*3=21, ostatnia 1."
         },
         {
           "problemId": "gen-l39-v2-w3",
@@ -417,51 +423,53 @@
             "4 razy 2 = 8 zl"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "4 razy 2 = 8 zl."
         },
         {
           "problemId": "kangur-maluch-2018-1",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Pieczatki cyfr 0-9. Data 15032018: cyfry rozne to 0,1,2,3,5,8 = 6 pieczatek.",
+          "observation": "Cyfry uzyte w 15032018.",
+          "strategy": "Zaznacz unikalne: 1, 5, 0, 3, 2, 8.",
           "steps": [
-            "Pieczatki cyfr 0-9. Data 15032018: cyfry rozne to 0,1,2,3,5,8 = 6 pieczatek.",
-            "Poprawna odpowiedz: B"
+            "Cyfry w dacie 15 03 2018: 1, 5, 0, 3, 2, 0, 1, 8.",
+            "Unikalne: 0, 1, 2, 3, 5, 8 = 6 cyfr."
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Data 15 03 2018. Policz unikalne cyfry."
         },
         {
           "problemId": "kangur-maluch-2023-2",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Bilety z kodami. Wylosowany pasuje do zoo.",
+          "observation": "5 biletow z kodami i 5 miejscami.",
+          "strategy": "Z obrazka zidentyfikuj kod biletu Tadzia.",
           "steps": [
-            "Bilety z kodami. Wylosowany pasuje do zoo.",
-            "Poprawna odpowiedz: D"
+            "Z analizy odpowiedz: zoo."
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "Dopasuj kod (czarno-bialy wzor) do biletu Tadzia."
         },
         {
           "problemId": "kangur-maluch-2022-3",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Pudelka, by otworzyc 'pociag' trzeba zdjac 5 pudelek nad nim.",
+          "observation": "Pudelka uloczone na sobie. Trzeba dosiec do szarego pociagu.",
+          "strategy": "Policz pudelka nad i wokol pociagu.",
           "steps": [
-            "Pudelka, by otworzyc 'pociag' trzeba zdjac 5 pudelek nad nim.",
-            "Poprawna odpowiedz: C"
+            "Z analizy obrazka odpowiedz: 5 pudelek."
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Liczy sie 'tylko zdjac', bez ruszania szarego pudelka pociag."
         },
         {
           "problemId": "kangur-maluch-2022-1",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Pszczola na siatce do kwiatka. Sekwencja A.",
+          "observation": "Pszczola: prawo (R) lub dol (D). Z lewej gory na kwiatek w prawej dolnej.",
+          "strategy": "Z obrazka policz pola: ile prawo i ile dol.",
           "steps": [
-            "Pszczola na siatce do kwiatka. Sekwencja A.",
-            "Poprawna odpowiedz: A"
+            "Z analizy odpowiedz: 'prawo dol prawo dol dol prawo' (3 prawo + 3 dol = 6 ruchow)."
           ],
           "answer": "A",
-          "alternative": null
+          "alternative": null,
+          "hint": "Lewa gora -> prawa dolna w siatce. Policz ile ruchow w prawo i ile w dol."
         }
       ]
     },
@@ -594,69 +602,85 @@
       "solutions": [
         {
           "problemId": "kangur-maluch-2016-5",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Oryginalne zadanie Kangur Maluch 2016 nr 5.",
+          "observation": "Tablica z mapowaniem miejsc na strzalki.",
+          "strategy": "71 i 72 oba w zakresie 61-80.",
           "steps": [
-            "Oryginalne zadanie Kangur Maluch 2016 nr 5.",
-            "Poprawna odpowiedz: D"
+            "Mapowanie: 61-80 -> ukosna gora-prawo.",
+            "71, 72 oba w tym zakresie.",
+            "Strzalka: ukosna gora-prawo."
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "Miejsca 61-80 = strzalka ukosna gora-prawo. 71 i 72 sa w tym zakresie."
         },
         {
           "problemId": "kangur-maluch-2016-19",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Oryginalne zadanie Kangur Maluch 2016 nr 19.",
+          "observation": "5 rzutow, suma 10. Sredia 2/rzut.",
+          "strategy": "Sprawdz mozliwosci.",
           "steps": [
-            "Oryginalne zadanie Kangur Maluch 2016 nr 19.",
-            "Poprawna odpowiedz: E"
+            "A: 4 rzuty po 2 + 1 rzut x = 8 + x = 10, x = 2. Czyli wszystkie 5 to 2. Ale A mowi 'tylko' 4 po 2 - falsz.",
+            "B: 3 rzuty po 3 = 9 + 2 rzuty = 10, suma 2 reszty = 1. Mozliwe? 1+0? Nie, kostka >= 1. 1 nie da z 2 kostek dac sume 1.",
+            "C: 2 rzuty po 4 = 8 + 3 rzuty = 10, suma 2 = 3. Tak (1+1+1).",
+            "D: 6 + 2 + 3 inne = 10, suma 3 = 2 (rzuty po 1, 1, 0 - niemoze).",
+            "E: 4 rzuty po 1 = 4 + 1 rzut = 10, rzut = 6. Mozliwe!",
+            "Odpowiedz: E."
           ],
           "answer": "E",
-          "alternative": null
+          "alternative": null,
+          "hint": "Kostka ma oczka 1-6. Suma 5 rzutow = 10. Sredio 2 na rzut."
         },
         {
           "problemId": "kangur-maluch-2022-7",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Oryginalne zadanie Kangur Maluch 2022 nr 7.",
+          "observation": "5 elementow ukladanki, wybierz dla srodka.",
+          "strategy": "Sprawdz dla kazdego elementu czy psuje warunek.",
           "steps": [
-            "Oryginalne zadanie Kangur Maluch 2022 nr 7.",
-            "Poprawna odpowiedz: E"
+            "Z analizy odpowiedz: wzor E."
           ],
           "answer": "E",
-          "alternative": null
+          "alternative": null,
+          "hint": "Ukladanka - srodek nie moze miec sasiadow tej samej liczby."
         },
         {
           "problemId": "kangur-maluch-2022-2",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Oryginalne zadanie Kangur Maluch 2022 nr 2.",
+          "observation": "Plansza 4x4, 5 pionkow, warunek 2 na rzad/kolumne.",
+          "strategy": "Policz pionki w kazdym rzedzie i kolumnie.",
           "steps": [
-            "Oryginalne zadanie Kangur Maluch 2022 nr 2.",
-            "Poprawna odpowiedz: D"
+            "5 pionkow nie da rownego rozkladu (rzedy potrzebuja 4+4 = 8 pionkow).",
+            "Z analizy: trzeba przeniesc 1 pionek.",
+            "Z 5 opcji ten ktory psuje rownowage to D."
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "W kazdym rzedzie i kolumnie ma byc po 2 pionki. Sprawdz ktory rzad/kolumna ma blad."
         },
         {
           "problemId": "kangur-maluch-2021-19",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Oryginalne zadanie Kangur Maluch 2021 nr 19.",
+          "observation": "Punkty 3,9,13,14,18, suma 30.",
+          "strategy": "Sprawdz wszystkie podzbiory: 18+9+3 = 30 (TAK).",
           "steps": [
-            "Oryginalne zadanie Kangur Maluch 2021 nr 19.",
-            "Poprawna odpowiedz: A"
+            "Mozliwe sumy: 18 + 9 + 3 = 30 (TAK).",
+            "Czy jest inna kombinacja? 18 + 13 - 1? Brak. 14 + 13 + 3 = 30 (TAK).",
+            "13 + 9 + 3 + 5 - brak 5.",
+            "Dwie kombinacje: {18,9,3} i {14,13,3}.",
+            "Wspolny element: 3.",
+            "Stas NA PEWNO trafil w 3."
           ],
           "answer": "A",
-          "alternative": null
+          "alternative": null,
+          "hint": "Suma musi byc 30. Sprawdz mozliwe podzbiory z {3,9,13,14,18}."
         },
         {
           "problemId": "kangur-maluch-2023-1",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Oryginalne zadanie Kangur Maluch 2023 nr 1.",
+          "observation": "5 identycznych swiec, kazda zgasla w innym czasie.",
+          "strategy": "Najszybsza = ta o najkrotszym czasie palenia.",
           "steps": [
-            "Oryginalne zadanie Kangur Maluch 2023 nr 1.",
-            "Poprawna odpowiedz: A"
+            "Identyczne swiece - czas palenia ten sam.",
+            "Jezeli zgasla pierwsza, to musi byc krotsza widocznie.",
+            "Z analizy obrazka odpowiedz: swieca A."
           ],
           "answer": "A",
-          "alternative": null
+          "alternative": null,
+          "hint": "Zgasla pierwsza = wypalila sie najszybciej."
         }
       ]
     }

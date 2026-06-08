@@ -168,7 +168,8 @@
             "50 - 27 = 23 zl"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Reszta = 50 - 27."
         },
         {
           "problemId": "gen-l31-v1-w2",
@@ -178,7 +179,8 @@
             "30:5 = 6 czekolad"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Ile razy 5 miesci sie w 30."
         },
         {
           "problemId": "gen-l31-v1-w3",
@@ -189,7 +191,8 @@
             "200 + 50 = 250 gr"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "1 zl = 100 gr."
         },
         {
           "problemId": "kangur-maluch-2024-6",
@@ -200,7 +203,8 @@
             "Najdrozsze ciastko: 4 zl"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "3 rozne ciastka, lacznie 7 zl, ceny calkowite."
         },
         {
           "problemId": "kangur-maluch-2012-10",
@@ -212,7 +216,8 @@
             "1 balon: 120:3 = 40 gr"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "5 balonow drozsze od 2 balonow o 1.20 zl."
         },
         {
           "problemId": "kangur-maluch-2014-13",
@@ -226,7 +231,8 @@
             "Ostatecznie: Mis, Puzzle, Klocki"
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "Zabawki, suma 3 kupionych = 200 - 18 = 182."
         },
         {
           "problemId": "kangur-maluch-2019-15",
@@ -237,7 +243,8 @@
             "Suma trzech owocow: 10:2 = 5 zl"
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "3 ceny par owocow: 3.50 + 2.50 + 4.00."
         }
       ]
     },
@@ -397,7 +404,8 @@
             "100 - 47 = 53 zl"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "100 - 47."
         },
         {
           "problemId": "gen-l31-v2-w2",
@@ -407,7 +415,8 @@
             "8 + 5 + 3 = 16 zl"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Sumuj ceny."
         },
         {
           "problemId": "gen-l31-v2-w3",
@@ -417,7 +426,8 @@
             "1 zl = 100 gr, cwierc = 25 gr"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "100 gr : 4 = 25 gr."
         },
         {
           "problemId": "kangur-maluch-2021-13",
@@ -430,7 +440,8 @@
             "Poczatkowa kwota: 70 - 30 = 40 zl"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Kasa po 6 porcji = 70 zl, po 16 = 120 zl."
         },
         {
           "problemId": "gen-l31-v2-w5",
@@ -440,7 +451,8 @@
             "35 - 28 = 7 zl"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Roznica cen."
         },
         {
           "problemId": "gen-l31-v2-c1",
@@ -450,7 +462,8 @@
             "200:4 = 50 zl"
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "200 podziel na 4 rowne czesci."
         },
         {
           "problemId": "gen-l31-v2-c2",
@@ -461,7 +474,8 @@
             "Tygodni: 65 : 13 = 5"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Brakuje 80-15=65 zl, zbiera 13 zl/tydzien."
         }
       ]
     }
