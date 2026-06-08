@@ -36,9 +36,7 @@ export function ProblemCard({ problem, solution, showNumber, lessonId, versionId
   const [selected, setSelected] = useState<string | null>(null);
   const [revealed, setRevealed] = useState(false);
   const [showSolution, setShowSolution] = useState(false);
-  const [hint, setHint] = useState<string | null>(null);
   const [explain, setExplain] = useState<string | null>(null);
-  const [loadingHint, setLoadingHint] = useState(false);
   const [loadingExplain, setLoadingExplain] = useState(false);
 
   const origin = problemOrigin(problem);
@@ -48,39 +46,6 @@ export function ProblemCard({ problem, solution, showNumber, lessonId, versionId
     setRevealed(true);
     if (lessonId && versionId) {
       recordProblemAttempt(lessonId, versionId, problem.id, selected, selected === problem.correct);
-    }
-  };
-
-  const requestHint = async () => {
-    // 1) jezeli mamy statyczny hint w solution - pokaz go natychmiast (zero API)
-    if (!hint && solution?.hint) {
-      setHint(solution.hint);
-      return;
-    }
-    // 2) drugi klik lub brak statycznego - sprobuj API
-    setLoadingHint(true);
-    try {
-      const r = await fetch("/api/podpowiedz", {
-        method: "POST",
-        headers: { "content-type": "application/json" },
-        body: JSON.stringify({ problem, level: hint ? 2 : 1 }),
-      });
-      if (!r.ok) {
-        setHint(
-          hint
-            ? hint + "\n\n(Dalsza podpowiedz AI niedostepna - brak klucza API.)"
-            : "Podpowiedz AI niedostepna - brak klucza API w .env.local.",
-        );
-      } else {
-        const data = await r.json();
-        setHint((prev) =>
-          prev ? prev + "\n\nJeszcze: " + (data.hint ?? "") : data.hint ?? "(brak podpowiedzi)",
-        );
-      }
-    } catch {
-      setHint(hint ?? "Nie udalo sie pobrac podpowiedzi.");
-    } finally {
-      setLoadingHint(false);
     }
   };
 
@@ -168,24 +133,6 @@ export function ProblemCard({ problem, solution, showNumber, lessonId, versionId
           >
             ✓ Zatwierdz {selected ?? ""}
           </button>
-          <button
-            type="button"
-            onClick={requestHint}
-            className="kbtn kbtn-secondary kbtn-sm"
-            disabled={loadingHint}
-          >
-            💡 {loadingHint ? "..." : hint ? "Daj jeszcze podpowiedz" : "Podpowiedz"}
-          </button>
-        </div>
-      )}
-
-      {hint && !revealed && (
-        <div className="rounded-2xl border border-sky-200/60 px-4 py-3 text-sm text-sky-900"
-             style={{ background: "linear-gradient(180deg, rgba(90,200,250,0.10), rgba(90,200,250,0.04))" }}>
-          <div className="font-semibold mb-1 flex items-center gap-1.5">
-            <span aria-hidden>💡</span> Podpowiedz
-          </div>
-          <div className="whitespace-pre-wrap">{hint}</div>
         </div>
       )}
 
