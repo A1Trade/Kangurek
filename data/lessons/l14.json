@@ -7,9 +7,9 @@
   "topic": "geometria_plaska",
   "estimatedMinutes": 14,
   "theory": {
-    "intro": "Bawiac sie patyczkami i kropkami, budujesz caly swiat geometrii. Punkt to malutkie miejsce. Odcinek to kawalek prostej z dwoma koncami. Prosta nie ma konca - ciagnie sie w obie strony bez konca. Polprosta ma jeden koniec, a druga strona biegnie w nieskonczonosc.",
-    "tool": "Sztuczka 1: ODCINEK MA DWA KONCE. Liczac odcinki w figurze, szukaj par punktow polaczonych linia. Patrz uwaznie - jeden dlugi odcinek moze sie skladac z kilku krotszych.\n\nSztuczka 2: PUNKTY PRZECIECIA. Gdy dwie proste sie przecinaja, powstaje jeden punkt. Trzy proste moga dac do 3 punktow przeciec. Licz ostroznie.\n\nSztuczka 3: LICZ SYSTEMATYCZNIE. Liczac odcinki albo trojkaty na rysunku, idz po kolei: najpierw najmniejsze, potem zlozone z dwoch, potem z trzech. Nie skacz losowo.",
-    "trick": "Kangur uwielbia zadania 'ile odcinkow' albo 'ile trojkatow'. Pulapka: uczniowie licza tylko najmniejsze figury i zapominaja o tych zlozonych z kilku czesci. Zawsze sprawdz: czy z dwoch malych odcinkow nie powstaje jeden wiekszy?"
+    "intro": "Bawiac sie patyczkami i kropkami, budujesz cały swiat geometrii. Punkt to malutkie miejsce. Odcinek to kawalek prostej z dwoma koncami. Prosta nie ma końca - ciagnie sie w obie strony bez końca. Polprosta ma jeden koniec, a druga strona biegnie w nieskonczonosc.",
+    "tool": "Sztuczka 1: ODCINEK Ma DWA KONCE. Liczac odcinki w figurze, szukaj par punktów polaczonych linia. Patrz uwaznie - jeden długi odcinek może sie skladac z kilku krotszych.\n\nSztuczka 2: Punkty PRZECIECIA. Gdy dwie proste sie przecinaja, powstaje jeden punkt. Trzy proste mogą dac do 3 punktów przeciec. Licz ostroznie.\n\nSztuczka 3: LICZ SYSTEMATYCZNIE. Liczac odcinki albo trójkąty na rysunku, idz po kolei: najpierw najmniejsze, potem zlozone z dwóch, potem z trzech. Nie skacz losowo.",
+    "trick": "Kangur uwielbia zadania 'ile odcinkow' albo 'ile trójkątów'. Pulapka: uczniowie licza tylko najmniejsze figury i zapominaja o tych zlozonych z kilku czesci. Zawsze sprawdz: czy z dwóch małych odcinkow nie powstaje jeden wiekszy?"
   },
   "versions": [
     {
@@ -24,7 +24,7 @@
           "difficulty": "3pkt",
           "topic": "geometria_plaska",
           "subtopic": "liczenie odcinkow",
-          "statement": "Na prostej zaznaczono 4 punkty: A, B, C, D (w tej kolejnosci). Ile roznych odcinkow lacza pary tych punktow?",
+          "statement": "Na prostej zaznaczono 4 punkty: A, B, C, D (w tej kolejnosci). Ile różnych odcinkow lacza pary tych punktów?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -45,7 +45,7 @@
           "difficulty": "3pkt",
           "topic": "geometria_plaska",
           "subtopic": "punkty przeciecia",
-          "statement": "Dwie proste przecinaja sie. Ile punktow przeciecia powstaje?",
+          "statement": "Dwie proste przecinaja sie. Ile punktów przeciecia powstaje?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -66,7 +66,7 @@
           "difficulty": "3pkt",
           "topic": "geometria_plaska",
           "subtopic": "odcinki w figurze",
-          "statement": "Trojkat ma 3 wierzcholki. Ile odcinkow (bokow) lacza te wierzcholki?",
+          "statement": "Trójkąt ma 3 wierzcholki. Ile odcinkow (bokow) lacza te wierzcholki?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -86,10 +86,10 @@
           "number": 4,
           "difficulty": "3pkt",
           "topic": "geometria_plaska",
-          "subtopic": "liczenie trojkatow w figurze",
-          "statement": "Ile trojkatow widac na rysunku (duzy trojkat podzielony liniami na mniejsze)?",
+          "subtopic": "liczenie trójkątów w figurze",
+          "statement": "Ile trójkątów widać na rysunku obok?",
           "hasImage": true,
-          "imageNote": "Duzy trojkat podzielony wewnetrznymi liniami na mniejsze trojkaty.",
+          "imageNote": "Duzy trójkąt podzielony wewnetrznymi liniami na mniejsze trójkąty.",
           "choices": {
             "A": "8",
             "B": "9",
@@ -108,7 +108,7 @@
           "difficulty": "3pkt",
           "topic": "geometria_plaska",
           "subtopic": "rysowanie gwiazdy co druga liczba",
-          "statement": "Na okregu rozmieszczono liczby 1-9. Od liczby 1 rysujemy odcinki laczace co druga liczbe, az wrocimy do 1. Ktory obrazek otrzymamy?",
+          "statement": "Na okręgu rozmieszczono kolejno liczby od 1 do 9. Rozpoczynając od liczby 1, rysujemy odcinki łączące co drugą liczbę na tym okręgu, aż wró- cimy do liczby 1. Dwa pierwsze odcinki przedstawiono na rysunku obok. Który obrazek otrzymamy po zakończeniu rysowania? 1 2 3 4 5 6 7 8 9",
           "hasImage": true,
           "imageNote": "Okrag z liczbami 1-9, dwa pierwsze odcinki narysowane, 5 wariantow gwiazdy.",
           "choices": {
@@ -131,7 +131,7 @@
           "difficulty": "3pkt",
           "topic": "geometria_plaska",
           "subtopic": "dopasowanie odlamanej czesci",
-          "statement": "Prostokatne lustro pekło i jedna czesc odpadla. Ktora z 5 czesci to odlamany kawalek?",
+          "statement": "Prostokątne lustro pękło i jedna część odpadła (patrz rysunek obok). Która to część?",
           "hasImage": true,
           "imageNote": "Prostokatne lustro z pekniec i 5 wariantow odlamanej czesci.",
           "choices": {
@@ -152,7 +152,7 @@
           "difficulty": "5pkt",
           "topic": "geometria_plaska",
           "subtopic": "liczenie odcinkow zlozonych",
-          "statement": "Na prostej zaznaczono 5 punktow w rzedzie. Ile roznych odcinkow mozna wyznaczyc, biorac kazda pare punktow?",
+          "statement": "Na prostej zaznaczono 5 punktów w rzedzie. Ile różnych odcinkow można wyznaczyc, biorac każda pare punktów?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -169,7 +169,7 @@
       "solutions": [
         {
           "problemId": "gen-l14-v1-w1",
-          "observation": "4 punkty, kazda para tworzy odcinek.",
+          "observation": "4 punkty, każda para tworzy odcinek.",
           "strategy": "Liczenie par.",
           "steps": [
             "Pary: AB, AC, AD, BC, BD, CD",
@@ -177,14 +177,14 @@
           ],
           "answer": "D",
           "alternative": null,
-          "hint": "4 punkty, kazda para tworzy odcinek."
+          "hint": "4 punkty, każda para tworzy odcinek."
         },
         {
           "problemId": "gen-l14-v1-w2",
           "observation": "Dwie proste przecinaja sie w jednym miejscu.",
           "strategy": "Punkt przeciecia.",
           "steps": [
-            "Dwie rozne proste przecinaja sie w jednym punkcie"
+            "Dwie różne proste przecinaja sie w jednym punkcie"
           ],
           "answer": "B",
           "alternative": null,
@@ -192,27 +192,27 @@
         },
         {
           "problemId": "gen-l14-v1-w3",
-          "observation": "Trojkat ma 3 boki.",
+          "observation": "Trójkąt ma 3 boki.",
           "strategy": "Liczenie bokow.",
           "steps": [
-            "Trojkat ma 3 wierzcholki i 3 boki"
+            "Trójkąt ma 3 wierzcholki i 3 boki"
           ],
           "answer": "B",
           "alternative": null,
-          "hint": "Trojkat ma 3 boki."
+          "hint": "Trójkąt ma 3 boki."
         },
         {
           "problemId": "kangur-maluch-2013-4",
-          "observation": "Liczymy trojkaty systematycznie - male i zlozone.",
+          "observation": "Liczymy trójkąty systematycznie - małe i zlozone.",
           "strategy": "Systematyczne liczenie.",
           "steps": [
-            "Najpierw najmniejsze trojkaty",
-            "Potem trojkaty zlozone z kilku malych",
+            "Najpierw najmniejsze trójkąty",
+            "Potem trójkąty zlozone z kilku małych",
             "Razem wychodzi 10"
           ],
           "answer": "C",
           "alternative": null,
-          "hint": "Liczymy trojkaty systematycznie - male i zlozone."
+          "hint": "Liczymy trójkąty systematycznie - małe i zlozone."
         },
         {
           "problemId": "kangur-maluch-2015-5",
@@ -232,7 +232,7 @@
           "strategy": "Dopasowanie ksztaltu.",
           "steps": [
             "Krawedz pekniecia odlamanego kawalka pasuje do reszty",
-            "Wlasciwy kawalek to czesc C"
+            "Właściwy kawalek to czesc C"
           ],
           "answer": "C",
           "alternative": null,
@@ -240,15 +240,15 @@
         },
         {
           "problemId": "gen-l14-v1-c1",
-          "observation": "5 punktow, kazda para to odcinek.",
+          "observation": "5 punktów, każda para to odcinek.",
           "strategy": "Liczenie par.",
           "steps": [
-            "Pary z 5 punktow: 4+3+2+1 = 10",
+            "Pary z 5 punktów: 4+3+2+1 = 10",
             "Razem 10 odcinkow"
           ],
           "answer": "C",
           "alternative": null,
-          "hint": "5 punktow, kazda para to odcinek."
+          "hint": "5 punktów, każda para to odcinek."
         }
       ]
     },
@@ -264,7 +264,7 @@
           "difficulty": "3pkt",
           "topic": "geometria_plaska",
           "subtopic": "liczenie odcinkow",
-          "statement": "Na prostej sa 3 punkty. Ile roznych odcinkow lacza pary tych punktow?",
+          "statement": "Na prostej sa 3 punkty. Ile różnych odcinkow lacza pary tych punktów?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -285,7 +285,7 @@
           "difficulty": "3pkt",
           "topic": "geometria_plaska",
           "subtopic": "rodzaje linii",
-          "statement": "Ktora linia ma DWA konce?",
+          "statement": "Która linia ma DWA konce?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -327,7 +327,7 @@
           "difficulty": "3pkt",
           "topic": "geometria_plaska",
           "subtopic": "rozpoznanie fragmentu figury",
-          "statement": "Ktory z 5 rysunkow jest fragmentem przedstawionej obok gwiazdy?",
+          "statement": "Który rysunek jest fragmentem przedstawionej obok gwiazdy?",
           "hasImage": true,
           "imageNote": "Osmioramienna gwiazda i 5 wariantow fragmentow.",
           "choices": {
@@ -348,7 +348,7 @@
           "difficulty": "3pkt",
           "topic": "geometria_plaska",
           "subtopic": "rozpoznanie fragmentu rysunku",
-          "statement": "Ala narysowala sloneczko. Ktory z 5 obrazkow NIE przedstawia fragmentu rysunku Ali?",
+          "statement": "Ala narysowała słoneczko. Który z obrazków nie przedstawia fragmentu ry- sunku Ali?",
           "hasImage": true,
           "imageNote": "Sloneczko z promieniami i 5 wariantow fragmentow.",
           "choices": {
@@ -371,7 +371,7 @@
           "difficulty": "3pkt",
           "topic": "geometria_plaska",
           "subtopic": "rozpoznanie identycznej karty",
-          "statement": "Ktora z 5 ponizszych kart jest taka sama jak na rysunku obok (kwadrat czesciowo zamalowany)?",
+          "statement": "Która z 5 ponizszych kart jest taka sama jak na rysunku obok (kwadrat czesciowo zamalowany)?",
           "hasImage": true,
           "imageNote": "Karta wzorcowa z polkolem zamalowanym i 5 wariantow.",
           "choices": {
@@ -391,10 +391,10 @@
           "number": 1,
           "difficulty": "3pkt",
           "topic": "geometria_plaska",
-          "subtopic": "rozciecie kwadratu na rozne czesci",
-          "statement": "Ktory kwadrat zostal rozciety wzdluz pogrubionych linii na dwie czesci o ROZNYCH ksztaltach?",
+          "subtopic": "rozciecie kwadratu na różne czesci",
+          "statement": "Który kwadrat został rozcięty wzdłuż pogrubionych linii na dwie części o różnych kształtach?",
           "hasImage": true,
-          "imageNote": "Piec kwadratow z roznymi liniami ciecia.",
+          "imageNote": "Pięć kwadratów z roznymi liniami ciecia.",
           "choices": {
             "A": "kwadrat A",
             "B": "kwadrat B",
@@ -409,7 +409,7 @@
       "solutions": [
         {
           "problemId": "gen-l14-v2-w1",
-          "observation": "3 punkty, kazda para tworzy odcinek.",
+          "observation": "3 punkty, każda para tworzy odcinek.",
           "strategy": "Liczenie par.",
           "steps": [
             "Pary: AB, AC, BC",
@@ -417,7 +417,7 @@
           ],
           "answer": "B",
           "alternative": null,
-          "hint": "3 punkty, kazda para tworzy odcinek."
+          "hint": "3 punkty, każda para tworzy odcinek."
         },
         {
           "problemId": "gen-l14-v2-w2",
@@ -434,21 +434,21 @@
         },
         {
           "problemId": "gen-l14-v2-w3",
-          "observation": "Polprosta zaczyna sie w punkcie i biegnie bez konca.",
+          "observation": "Polprosta zaczyna sie w punkcie i biegnie bez końca.",
           "strategy": "Definicja polprostej.",
           "steps": [
             "Polprosta ma jeden koniec, druga strona biegnie w nieskonczonosc"
           ],
           "answer": "B",
           "alternative": null,
-          "hint": "Polprosta zaczyna sie w punkcie i biegnie bez konca."
+          "hint": "Polprosta zaczyna sie w punkcie i biegnie bez końca."
         },
         {
           "problemId": "kangur-maluch-2014-1",
           "observation": "Szukamy fragmentu pasujacego do gwiazdy.",
           "strategy": "Dopasowanie fragmentu.",
           "steps": [
-            "Fragment musi miec ramiona zgodne z gwiazda",
+            "Fragment musi mieć ramiona zgodne z gwiazda",
             "Pasuje fragment B"
           ],
           "answer": "B",
@@ -457,7 +457,7 @@
         },
         {
           "problemId": "kangur-maluch-2021-4",
-          "observation": "Szukamy fragmentu, ktory NIE pasuje do sloneczka.",
+          "observation": "Szukamy fragmentu, który NIE pasuje do sloneczka.",
           "strategy": "Eliminacja niepasujacych.",
           "steps": [
             "Cztery fragmenty pasuja do rysunku sloneczka",
@@ -465,7 +465,7 @@
           ],
           "answer": "D",
           "alternative": null,
-          "hint": "Szukamy fragmentu, ktory NIE pasuje do sloneczka."
+          "hint": "Szukamy fragmentu, który NIE pasuje do sloneczka."
         },
         {
           "problemId": "kangur-maluch-2016-4",
@@ -481,15 +481,15 @@
         },
         {
           "problemId": "kangur-maluch-2024-1",
-          "observation": "Szukamy kwadratu rozcietego na dwie ROZNE czesci.",
+          "observation": "Szukamy kwadratu rozcietego na dwie Różne czesci.",
           "strategy": "Sprawdzanie symetrii ciecia.",
           "steps": [
             "Ciecie po przekatnej daje dwie jednakowe czesci",
-            "Ciecie lamane daje dwie rozne czesci - kwadrat A"
+            "Ciecie lamane daje dwie różne czesci - kwadrat A"
           ],
           "answer": "A",
           "alternative": null,
-          "hint": "Szukamy kwadratu rozcietego na dwie ROZNE czesci."
+          "hint": "Szukamy kwadratu rozcietego na dwie Różne czesci."
         }
       ]
     },
@@ -505,9 +505,9 @@
           "difficulty": "4pkt",
           "topic": "geometria_plaska",
           "subtopic": "kolejnosc figur w stosach",
-          "statement": "Pieciorо dzieci ulozylo stos z trzech figur: kola, kwadratu i trojkata. W ilu z 5 stosow trojkat lezy WYZEJ niz kwadrat?",
+          "statement": "Pieciorо dzieci ulozylo stos z trzech figur: koła, kwadratu i trójkąta. W ilu z 5 stosow trójkąt lezy WYZEJ niz kwadrat?",
           "hasImage": true,
-          "imageNote": "Piec stosow z rozna kolejnoscia kola, kwadratu i trojkata.",
+          "imageNote": "Pięć stosow z różna kolejnoscia koła, kwadratu i trójkąta.",
           "choices": {
             "A": "3",
             "B": "1",
@@ -523,17 +523,17 @@
       "solutions": [
         {
           "problemId": "kangur-maluch-2016-15",
-          "observation": "5 stosow z 3 figur (kolo, kwadrat, trojkat) w roznych kolejnosciach.",
-          "strategy": "Sprawdz kazdy stos osobno - patrz tylko na pozycje trojkata i kwadratu.",
+          "observation": "5 stosow z 3 figur (koło, kwadrat, trójkąt) w różnych kolejnosciach.",
+          "strategy": "Sprawdz każdy stos osobno - patrz tylko na pozycje trójkąta i kwadratu.",
           "steps": [
-            "Dla kazdego z 5 stosow popatrz: czy trojkat jest wyzej niz kwadrat?",
-            "Pomijaj pozycje kola - nie liczy sie.",
-            "Stos liczy sie tylko gdy trojkat jest na wyzszym poziomie niz kwadrat.",
+            "Dla każdego z 5 stosow popatrz: czy trójkąt jest wyzej niz kwadrat?",
+            "Pomijaj pozycje koła - nie liczy sie.",
+            "Stos liczy sie tylko gdy trójkąt jest na wyzszym poziomie niz kwadrat.",
             "Zliczamy: 4 stosy spelniaja warunek."
           ],
           "answer": "C",
           "alternative": null,
-          "hint": "Z 5 stosow patrz tylko na te, gdzie trojkat lezy WYZEJ niz kwadrat."
+          "hint": "Z 5 stosow patrz tylko na te, gdzie trójkąt lezy WYZEJ niz kwadrat."
         }
       ]
     }
@@ -547,7 +547,7 @@
         "C": "Dwa"
       },
       "correct": "A",
-      "explain": "Prosta biegnie bez konca w obie strony - nie ma koncow."
+      "explain": "Prosta biegnie bez końca w obie strony - nie ma koncow."
     },
     {
       "q": "Ile odcinkow wyznaczaja 4 punkty na prostej?",
@@ -557,17 +557,17 @@
         "C": "8"
       },
       "correct": "B",
-      "explain": "Kazda para punktow to odcinek: 6 par z 4 punktow."
+      "explain": "Każda para punktów to odcinek: 6 par z 4 punktów."
     },
     {
-      "q": "Liczac trojkaty w figurze najczesciej zapominamy o:",
+      "q": "Liczac trójkąty w figurze najczesciej zapominamy o:",
       "choices": {
         "A": "Najmniejszych",
-        "B": "Zlozonych z kilku malych",
+        "B": "Zlozonych z kilku małych",
         "C": "Kolorach"
       },
       "correct": "B",
-      "explain": "Trojkaty zlozone z 2-3 malych latwo przeoczyc."
+      "explain": "Trójkąty zlozone z 2-3 małych latwo przeoczyc."
     }
   ]
 }

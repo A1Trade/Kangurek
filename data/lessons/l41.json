@@ -8,8 +8,8 @@
   "estimatedMinutes": 16,
   "theory": {
     "intro": "Klasyczna zagadka: mam dzbanki 3l i 5l, muszę odmierzyć dokladnie 4l. Jak? Te zadania nazywaja sie 'przelewania' - polegaja na sledzeniu sekwencji ruchow, az dojdziemy do celu. Wymaga to planowania kilku krokow naprzod.",
-    "tool": "Sztuczka 1: ZAPISUJ STANY. Po kazdym ruchu zapisz, ile jest w kazdym naczyniu. Latwo sledzic.\n\nSztuczka 2: ZACZNIJ OD CELU. Czego chce dostac? Jakim ruchem do tego dojde? Cofnij sie krok po kroku.\n\nSztuczka 3: WYKORZYSTUJ ROZNICE. 5l - 3l = 2l. Czesto roznice pojemnosci daja kluczowe ilosci.\n\nSztuczka 4: PODZIAL = PRZELEWANIE. Tlumacz zadania o podziale (np. cukierki na 3 czesci) jako przelewanie - rownie systematyczne.",
-    "trick": "Pulapka Kangurka: zadania z minimalna liczba krokow. Czesto pierwszy pomysl daje za duzo krokow. Sprawdz, czy nie ma 'sprytniejszego' sposobu - np. przelej raz duzo, zamiast po troche."
+    "tool": "Sztuczka 1: ZAPISUJ STANY. Po każdym ruchu zapisz, ile jest w każdym naczyniu. Latwo sledzic.\n\nSztuczka 2: ZACZNIJ OD CELU. Czego chce dostac? Jakim ruchem do tego dojde? Cofnij sie krok po kroku.\n\nSztuczka 3: WYKORZYSTUJ ROZNICE. 5l - 3l = 2l. Czesto roznice pojemnosci daja kluczowe ilosci.\n\nSztuczka 4: PODZIAL = PRZELEWANIE. Tlumacz zadania o podziale (np. cukierki na 3 czesci) jako przelewanie - równie systematyczne.",
+    "trick": "Pulapka Kangurka: zadania z minimalna liczba krokow. Czesto pierwszy pomyśl daje za duzo krokow. Sprawdz, czy nie ma 'sprytniejszego' sposobu - np. przelej raz duzo, zamiast po troche."
   },
   "versions": [
     {
@@ -23,8 +23,8 @@
           "number": null,
           "difficulty": "3pkt",
           "topic": "logika",
-          "subtopic": "podzial po rowno",
-          "statement": "Mama ma 12 cukierkow i 3 dzieci. Po ile cukierkow dostanie kazde dziecko, jezeli dzieli rowno?",
+          "subtopic": "podzial po równo",
+          "statement": "Mama ma 12 cukierkow i 3 dzieci. Po ile cukierkow dostanie każde dziecko, jeżeli dzieli równo?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -45,7 +45,7 @@
           "difficulty": "3pkt",
           "topic": "logika",
           "subtopic": "podzial z reszta",
-          "statement": "20 jablek na 6 dzieci po rowno. Ile dostanie kazde, ile zostanie?",
+          "statement": "20 jabłek na 6 dzieci po równo. Ile dostanie każde, ile zostanie?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -87,7 +87,7 @@
           "difficulty": "5pkt",
           "topic": "logika",
           "subtopic": "uklad rownan - pojemnosci dzbanow",
-          "statement": "Beczka napelni sie woda z 6 malych dzbanuszkow + 3 srednich dzbankow + 1 duzy dzban. Napelni sie tez z 2 malych + 1 sredni + 3 duze. Ile duzych dzbanow wody potrzeba, by napelnic beczke?",
+          "statement": "Beczka napełni się, jeżeli wlejemy do niej wodę z 6 małych dzbanuszków, 3 średnich dzbanków i z jednego dużego dzbana. Beczka ta napełni się również, gdy wlejemy do niej wodę z 2 małych dzbanuszków, 1 średniego dzbanka i z 3 dużych dzbanów. Ile dużych dzbanów wody potrzeba, by napełnić beczkę?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -108,15 +108,15 @@
           "difficulty": "5pkt",
           "topic": "logika",
           "subtopic": "uklad rownan - pojemnosci wiader",
-          "statement": "Bialе wiadro ma pojemnosc 10 L. Pelne niebieskie + pol zielonego = pol bialego. Pol pelnego niebieskiego do pol zielonego daje 4 L w zielonym. Jaka pojemnosc ma niebieskie wiadro?",
+          "statement": "Mamy trzy wiadra różnej wielkości i w różnych kolorach: białe, niebieskie i zielone. Białe wiadro ma pojemność 10 litrów. Gdy do pustego białego wiadra przelejemy zawartość całkowicie napełnio- nego niebieskiego oraz w połowie napełnionego zielonego, to białe będzie napełnione w połowie. Gdy zaś połowę zawartości całkowicie napełnionego niebieskiego przelejemy do w połowie wypełnionego zielonego, okaże się, że w zielonym są 4 litry płynu. Jaką pojemność ma niebieskie wiadro?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
             "A": "1 litr",
             "B": "2 litry",
             "C": "3 litry",
-            "D": "5 litrow",
-            "E": "6 litrow"
+            "D": "5 litrów",
+            "E": "6 litrów"
           },
           "correct": "B",
           "imageSrc": "/images/orig/2018-21.png"
@@ -130,8 +130,8 @@
           "number": 14,
           "difficulty": "4pkt",
           "topic": "logika",
-          "subtopic": "uklad rownan - dieta krolika",
-          "statement": "Krolik Borys kazdego dnia zjada albo 9 marchewek, albo 2 glowki salaty, albo 1 glowke salaty i 4 marchewki. W tygodniu (7 dni) zjadl 30 marchewek. Ile glowek salaty zjadl?",
+          "subtopic": "uklad rownan - dieta królika",
+          "statement": "Królik Borys każdego dnia zjada albo 9 marchewek, albo 2 główki sałaty, albo 1 główkę sa- łaty i 4 marchewki. W ubiegłym tygodniu Borys zjadł 30 marchewek. Ile główek sałaty zjadł on w ubiegłym tygodniu?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -152,7 +152,7 @@
           "difficulty": "5pkt",
           "topic": "logika",
           "subtopic": "warunki negacji w trzech grupach",
-          "statement": "Na łące pasą się krowy, owce i gęsi - łącznie 15 zwierząt. Wiemy, że 10 z nich nie jest krowami, a 8 z nich nie jest owcami. Ile gęsi pasie się na łące?",
+          "statement": "Na łące pasą się krowy, owce i gęsi, łącznie 15 zwierząt. Wiemy, że 10 z nich nie jest krowami, a 8 z nich nie jest owcami. Ile gęsi pasie się na łące?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -170,7 +170,7 @@
         {
           "problemId": "gen-l41-v1-w1",
           "observation": "12 : 3 = 4.",
-          "strategy": "Dzielenie po rowno.",
+          "strategy": "Dzielenie po równo.",
           "steps": [
             "12 : 3 = 4 cukierki na dziecko"
           ],
@@ -203,9 +203,9 @@
         {
           "problemId": "kangur-maluch-2015-19",
           "observation": "2 ukladdy daja pelna beczke.",
-          "strategy": "Z rownosci: 6m + 3s + d = 2m + s + 3d -> 4m + 2s = 2d -> 2m + s = d.",
+          "strategy": "Z równości: 6m + 3s + d = 2m + s + 3d -> 4m + 2s = 2d -> 2m + s = d.",
           "steps": [
-            "Z rownosci: 6m+3s+d = 2m+s+3d.",
+            "Z równości: 6m+3s+d = 2m+s+3d.",
             "4m + 2s = 2d, czyli 2m + s = d.",
             "Beczka: 2m + s + 3d = (d) + 3d = 4d.",
             "Czyli 4 duzych dzbanow napelni beczke."
@@ -216,8 +216,8 @@
         },
         {
           "problemId": "kangur-maluch-2018-21",
-          "observation": "Bialy = 10 L. 3 relacje.",
-          "strategy": "Z 'pol pelnego niebieskiego do pol zielonego daje 4 L w zielonym' -> pol niebieskiego = 4 - pol zielonego (jezeli zielony zostawal w polowie).",
+          "observation": "Biały = 10 L. 3 relacje.",
+          "strategy": "Z 'pol pelnego niebieskiego do pol zielonego daje 4 L w zielonym' -> pol niebieskiego = 4 - pol zielonego (jeżeli zielony zostawal w połowie).",
           "steps": [
             "Niech niebieski = n, zielony = z.",
             "Z 'pelny n + pol z = 5 L': n + z/2 = 5.",
@@ -228,7 +228,7 @@
           ],
           "answer": "B",
           "alternative": null,
-          "hint": "Bialy = 10 L. Pelny niebieski + pol zielonego = pol bialego = 5 L."
+          "hint": "Biały = 10 L. Pelny niebieski + pol zielonego = pol bialego = 5 L."
         },
         {
           "problemId": "kangur-maluch-2014-14",
@@ -247,16 +247,16 @@
         },
         {
           "problemId": "kangur-maluch-2019-19",
-          "observation": "15 zwierzat: krowy + owce + gesi.",
-          "strategy": "Krowy = 15 - 10 = 5. Owce = 15 - 8 = 7. Gesi = 15 - 5 - 7.",
+          "observation": "15 zwierząt: krowy + owce + gęsi.",
+          "strategy": "Krowy = 15 - 10 = 5. Owce = 15 - 8 = 7. Gęsi = 15 - 5 - 7.",
           "steps": [
             "Krowy: 15 - 10 = 5.",
             "Owce: 15 - 8 = 7.",
-            "Gesi: 15 - 5 - 7 = 3."
+            "Gęsi: 15 - 5 - 7 = 3."
           ],
           "answer": "B",
           "alternative": null,
-          "hint": "10 nie krow, 8 nie owiec, razem 15. Krowy = 15-10 = 5, owce = 15-8 = 7, gesi = 15-5-7 = 3."
+          "hint": "10 nie krow, 8 nie owiec, razem 15. Krowy = 15-10 = 5, owce = 15-8 = 7, gęsi = 15-5-7 = 3."
         }
       ]
     },
@@ -271,7 +271,7 @@
           "number": null,
           "difficulty": "3pkt",
           "topic": "logika",
-          "subtopic": "podzial rowny",
+          "subtopic": "podzial równy",
           "statement": "30 piłeczek na 5 koszykow po rowno. Ile w kazdym?",
           "hasImage": false,
           "imageNote": null,
@@ -293,7 +293,7 @@
           "difficulty": "3pkt",
           "topic": "logika",
           "subtopic": "reszta z dzielenia",
-          "statement": "17 ciastek na 5 dzieci po rowno. Ile dostanie kazde, ile zostanie?",
+          "statement": "17 ciastek na 5 dzieci po równo. Ile dostanie każde, ile zostanie?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -335,7 +335,7 @@
           "difficulty": "5pkt",
           "topic": "logika",
           "subtopic": "laczenie lin w jedna",
-          "statement": "Trzy liny leza na podlodze. Dowiazanie koncow lin jednego z zestawow daje jedna line. Ktory zestaw ma te wlasnosc?",
+          "statement": "Rysunek obok przedstawia trzy liny leżące na podłodze. Dowiązanie do nich końców lin jednego z poniższych zestawów (bez zmiany ich położenia) powoduje, że otrzymamy jedną linę. Który z tych zestawów ma tę własność?",
           "hasImage": true,
           "imageNote": "Trzy liny i 5 wariantow zestawow dowiazan koncow.",
           "choices": {
@@ -355,8 +355,8 @@
           "number": 9,
           "difficulty": "4pkt",
           "topic": "logika",
-          "subtopic": "ruch pionka wedlug rzutow moneta",
-          "statement": "Reszka przesuwa pionek o 3 pola w prawo, orzel o 1 pole w lewo (lub pozostanie na START). Ela i Wladek zaczeli na START, kazdy rzucil 4 razy. Ela stanela na polu 4, Wladek na polu 8. Ile razy lacznie wyrzucili orla?",
+          "subtopic": "ruch pionka wedlug rzutów moneta",
+          "statement": "Ela i Władek rzucają na zmianę monetą. Jeżeli wypadnie reszka (strona monety z liczbą), prze- suwają swój pionek o 3 pola w prawo. Jeśli wypadnie orzeł, przesuwają pionek o jedno pole w lewo lub pozostają na polu START. Oboje zaczęli na polu START i każdy rzucił monetą 4 razy. Ela stanęła na polu z numerem 4, a Władek na polu z numerem 8. Ile razy ogółem wyrzucili orła? 1 2 3 4 5 6 7 8 9 10 11 12 META START",
           "hasImage": true,
           "imageNote": "Plansza z polami START, 1-12, META.",
           "choices": {
@@ -379,7 +379,7 @@
           "difficulty": "3pkt",
           "topic": "logika",
           "subtopic": "trajektorie - strzaly i baloniki",
-          "statement": "Rysunek pokazuje 3 lecace strzaly i 9 nieruchomych balonikow. Gdy strzala trafi w balonik, ten peka, a strzala leci dalej bez zmiany kierunku. W ile balonikow trafia strzaly?",
+          "statement": "Rysunek przedstawia 3 lecące strzały i 9 nieruchomych baloników. Gdy strzała traﬁw balonik, ten pęka, a strzała leci dalej, nie zmieniając kierunku lotu. W ile baloników traﬁą strzały?",
           "hasImage": true,
           "imageNote": "3 strzaly w 3 rzedach, 9 balonikow rozmieszczonych pomiedzy.",
           "choices": {
@@ -400,9 +400,9 @@
           "difficulty": "3pkt",
           "topic": "logika",
           "subtopic": "orientacja prawo-lewo wokol stolu",
-          "statement": "Ewa nakryla stol dla 8 osob: kazda osoba ma miec widelec po lewej i noz po prawej. Dla ilu osob Ewa polozyla sztucce poprawnie?",
+          "statement": "Mama poleciła Ewie nakryć stół dla 8 osób. Ewa miała położyć talerze i sztućce obok nich tak, aby osoba siedzą- ca przy stole miała przy swoim talerzu widelec po lewej, a nóż po prawej stronie. Dla ilu osób Ewa położyła sztućce poprawnie?",
           "hasImage": true,
-          "imageNote": "Stol z 8 talerzami i sztuccami, kazda osoba siedzi pod innym katem.",
+          "imageNote": "Stół z 8 talerzami i sztuccami, każda osoba siedzi pod innym katem.",
           "choices": {
             "A": "5",
             "B": "4",
@@ -451,24 +451,24 @@
         {
           "problemId": "kangur-maluch-2015-22",
           "observation": "3 liny na podlodze.",
-          "strategy": "Sprawdz topologie - czy konce mozna polaczyc.",
+          "strategy": "Sprawdz topologie - czy konce można połączyć.",
           "steps": [
             "Z analizy obrazka odpowiedz: zestaw C."
           ],
           "answer": "C",
           "alternative": null,
-          "hint": "Liny zaplatane - dowiazanie konca dwoch lin daje 1 prosta lub bardziej zaplatana."
+          "hint": "Liny zaplatane - dowiazanie końca dwóch lin daje 1 prosta lub bardziej zaplatana."
         },
         {
           "problemId": "kangur-maluch-2024-9",
           "observation": "Ela: 4 rzuty, koniec na 4. Wladek: 4 rzuty, koniec na 8.",
           "strategy": "Niech r reszek, o orlow. r + o = 4. Pozycja koncowa = 3r - o (lub +0 na starcie). Sprawdz dla obu.",
           "steps": [
-            "Ela: 3r - o*1 = 4 (z pozycji 0, orzel = -1 chyba ze byla na 0).",
-            "Jezeli orzel ze startu nie zmienia, sprawdz: 3r = 4 + o. r+o = 4.",
+            "Ela: 3r - o*1 = 4 (z pozycji 0, orzel = -1 chyba że była na 0).",
+            "Jeżeli orzel że startu nie zmienia, sprawdz: 3r = 4 + o. r+o = 4.",
             "Sprobuj r=2, o=2: 6 = 4 + 2 = 6. Mozliwe! Ela 2 orly.",
             "Wladek: 3r - o = 8. r+o = 4. 3r = 8+o. r=3,o=1: 9 = 9. TAK. 1 orzel.",
-            "Lacznie orly: 2 + 1 = 3."
+            "Łącznie orly: 2 + 1 = 3."
           ],
           "answer": "C",
           "alternative": null,
@@ -477,7 +477,7 @@
         {
           "problemId": "kangur-maluch-2018-2",
           "observation": "Strzaly w linii prostej, baloniki w siatce.",
-          "strategy": "Sledz tor kazdej strzaly i licz baloniki na drodze.",
+          "strategy": "Sledz tor każdej strzaly i licz baloniki na drodze.",
           "steps": [
             "Z analizy obrazka odpowiedz: 5 balonikow."
           ],
@@ -490,12 +490,12 @@
           "observation": "8 osob, sztucce nakryte. Ile poprawnie?",
           "strategy": "Z obrazka policz poprawne nakrycia.",
           "steps": [
-            "Dla kazdej osoby sprawdz: czy widelec po lewej, noz po prawej.",
+            "Dla każdej osoby sprawdz: czy widelec po lewej, noz po prawej.",
             "Z analizy odpowiedz: 3 osoby poprawnie."
           ],
           "answer": "E",
           "alternative": null,
-          "hint": "Widelec PO LEWEJ, noz PO PRAWEJ. Sprawdz dla kazdej osoby."
+          "hint": "Widelec PO Lewej, noz PO Prawej. Sprawdz dla każdej osoby."
         }
       ]
     },
@@ -511,15 +511,15 @@
           "difficulty": "3pkt",
           "topic": "logika",
           "subtopic": "porownywanie liczby figur",
-          "statement": "Na rysunku sa kola, trojkaty i kwadraty. Ktore zdanie poprawnie opisuje sytuacje: kol jest 2 razy wiecej niz kwadratow, czy inne?",
+          "statement": "Na rysunku sa koła, trójkąty i kwadraty. Które zdanie poprawnie opisuje sytuacje: kół jest 2 razy więcej niz kwadratów, czy inne?",
           "hasImage": true,
           "imageNote": "Rysunek z 4 kolami, 2 trojkatami i 2 kwadratami.",
           "choices": {
-            "A": "Kol tyle samo co kwadratow",
-            "B": "Kol mniej niz trojkatow",
-            "C": "Kwadratow wiecej niz trojkatow",
-            "D": "Trojkatow o dwa wiecej niz kol",
-            "E": "Kol dwa razy wiecej niz kwadratow"
+            "A": "Kół tyle samo co kwadratów",
+            "B": "Kół mniej niz trójkątów",
+            "C": "Kwadratów więcej niz trójkątów",
+            "D": "Trójkątów o dwa więcej niz kół",
+            "E": "Kół dwa razy więcej niz kwadratów"
           },
           "correct": "E",
           "imageSrc": "/images/orig/2016-page2.png"
@@ -532,7 +532,7 @@
           "difficulty": "3pkt",
           "topic": "logika",
           "subtopic": "liczenie ryb po wyprostowaniu linki",
-          "statement": "Ile ryb bedzie mialo glowe zwrocona w strone kolka, gdy wyprostujemy linke?",
+          "statement": "Ile ryb będzie miało głowę zwróconą w stronę kółka, gdy wyprostujemy linkę?",
           "hasImage": true,
           "imageNote": "Zakrecona linka z rybami i kolkiem na koncu.",
           "choices": {
@@ -553,9 +553,9 @@
           "difficulty": "4pkt",
           "topic": "logika",
           "subtopic": "kolejka pojazdow - wyprzedzania",
-          "statement": "Pojazdy 1,2,3,4,5 jada jeden za drugim. Najpierw ostatnie auto wyprzedza dwa samochody. Potem ten ktory jest przedostatni wyprzedza dwa. Na koncu srodkowy wyprzedza dwa. Jaka jest koncowa kolejnosc?",
+          "statement": "Pięć ponumerowanych pojazdów poruszało się jeden za drugim w tym samym kierunku. 1 2 3 4 5 Najpierw ostatnie auto wyprzedziło dwa samochody. Następnie samochód, który po tych ma- newrach okazał się przedostatni, wyprzedził dwa auta. Na koniec pojazd, jadący wówczas jako środkowy, wyprzedził dwa samochody. W jakiej kolejności jadą teraz te auta?",
           "hasImage": true,
-          "imageNote": "Piec ponumerowanych samochodow w rzedzie 1,2,3,4,5.",
+          "imageNote": "Pięć ponumerowanych samochodow w rzedzie 1,2,3,4,5.",
           "choices": {
             "A": "2,1,3,5,4",
             "B": "1,2,3,4,5",
@@ -574,9 +574,9 @@
           "difficulty": "4pkt",
           "topic": "logika",
           "subtopic": "linijka z kreskami - mierzenie odleglosci",
-          "statement": "Franek ma linijke 60 cm z czesciowo zatarta podzialka. Przykladajac ja raz, potrafi zmierzyc 10, 20, 30, 40, 50 i 60 cm. Ktory obrazek przedstawia linijke Franka?",
+          "statement": "Franek ma linijkę o długości 60 cm, na której częściowo zatarła się podziałka. Franek zauwa- żył jednak, że przykładając linijkę do mierzonego obiektu tylko jeden raz, potraﬁzmierzyć każdą z długości 10, 20, 30, 40, 50 i 60 centymetrów. Który obrazek może przedstawiać linijkę Franka?",
           "hasImage": true,
-          "imageNote": "Piec linijek 60 cm z dwoma kreskami w roznych miejscach.",
+          "imageNote": "Pięć linijek 60 cm z dwoma kreskami w różnych miejscach.",
           "choices": {
             "A": "kreski na 10 i 30",
             "B": "kreski na 20 i 40",
@@ -595,15 +595,15 @@
           "observation": "Rysunek z roznymi figurami.",
           "strategy": "Zlicz i porownaj.",
           "steps": [
-            "Z analizy obrazka odpowiedz: kol 2 razy wiecej niz kwadratow."
+            "Z analizy obrazka odpowiedz: kół 2 razy więcej niz kwadratów."
           ],
           "answer": "E",
           "alternative": null,
-          "hint": "Policz kola, trojkaty i kwadraty na obrazku."
+          "hint": "Policz koła, trójkąty i kwadraty na obrazku."
         },
         {
           "problemId": "kangur-maluch-2021-2",
-          "observation": "Linka z rybami zwinieta. Po wyprostowaniu sprawdz strone glow.",
+          "observation": "Linka z rybami zwinieta. Po wyprostowaniu sprawdz stronę glow.",
           "strategy": "Z obrazka sledz transformacje.",
           "steps": [
             "Z analizy odpowiedz: 6 ryb."
@@ -624,12 +624,12 @@
           ],
           "answer": "A",
           "alternative": null,
-          "hint": "Po 3 wyprzedaniach zacznij od konca: srodkowy ostatni wyprzedza 2."
+          "hint": "Po 3 wyprzedaniach zacznij od końca: srodkowy ostatni wyprzedza 2."
         },
         {
           "problemId": "kangur-maluch-2023-14",
           "observation": "2 znaczace kreski na linijce 60.",
-          "strategy": "Roznice miedzy 0, a, b, 60 daja wszystkie wartosci 10,20,30,40,50,60.",
+          "strategy": "Roznice między 0, a, b, 60 daja wszystkie wartosci 10,20,30,40,50,60.",
           "steps": [
             "Mozliwe odleglosci: 0-a, 0-b, 0-60, a-b, a-60, b-60.",
             "Sprawdz dla a=10, b=40:",
@@ -638,7 +638,7 @@
           ],
           "answer": "E",
           "alternative": null,
-          "hint": "Linijka 60 cm, kreski na 2 pozycjach. Musi miec mozliwosc zmierzyc 10,20,30,40,50,60."
+          "hint": "Linijka 60 cm, kreski na 2 pozycjach. Musi mieć mozliwosc zmierzyc 10,20,30,40,50,60."
         }
       ]
     }
@@ -652,7 +652,7 @@
         "C": "Pomijaj"
       },
       "correct": "A",
-      "explain": "Po kazdym ruchu zapisz ile w kazdym naczyniu."
+      "explain": "Po każdym ruchu zapisz ile w każdym naczyniu."
     },
     {
       "q": "20:6 daje:",

@@ -1,0 +1,2632 @@
+{
+  "kangur-maluch-2012-1": {
+    "statement": "Bartek napisał na kartce słowo MATEMATYKA. Różne litery napisał różnymi kolorami, zaś te same litery tym samym kolorem. Ilu różnych kolorów użył?",
+    "choices": {
+      "A": "6",
+      "B": "7",
+      "C": "8",
+      "D": "9",
+      "E": "5"
+    }
+  },
+  "kangur-maluch-2012-2": {
+    "statement": "Marysia namalowała ołówkiem pięć obrazków na białych kwadratowych kartkach papieru. Tylko na jednym rysunku część zamalowana i część niezamalowana nie są równe. Na którym?",
+    "choices": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "",
+      "E": ""
+    }
+  },
+  "kangur-maluch-2012-3": {
+    "statement": "Tata wiesza mokre ręczniki na lince przypinając je klamerkami tak, jak pokazano na rysunku obok. Ilu klamerek użyje tata do powieszenia dwunastu ręczników?",
+    "choices": {
+      "A": "11",
+      "B": "13",
+      "C": "12",
+      "D": "14",
+      "E": "15 Klamerka"
+    }
+  },
+  "kangur-maluch-2012-4": {
+    "statement": "W przedstawionej obok tabeli Iza zaciemniła ołówkiem pola: a2, b1, b2, b3, b4, c3, d3 i d4. Który z poniższych obrazków otrzymała Iza? a b c d 1 2 3 4",
+    "choices": {
+      "A": "a b c d 1 2 3 4",
+      "B": "a b c d 1 2 3 4",
+      "C": "a b c d 1 2 3 4",
+      "D": "a b c d 1 2 3 4",
+      "E": "a b c d 1 2 3 4 www.kangur-mat.pl www.kangur-mat.pl"
+    }
+  },
+  "kangur-maluch-2012-5": {
+    "statement": "Piętnaścioro dzieci bawi się w chowanego. Jedno z nich, Klaudia, szuka pozostałych dzieci. Po pewnym czasie Klaudia znalazła dziesięcioro swoich kolegów. Ile dzieci nie zostało jeszcze znalezio- nych?",
+    "choices": {
+      "A": "3",
+      "B": "4",
+      "C": "5",
+      "D": "9",
+      "E": "25"
+    }
+  },
+  "kangur-maluch-2012-6": {
+    "statement": "Michał i Kuba grają w rzutki. Każdy z nich wykonał trzy rzuty. Uzyskali wyniki przedstawione na poniższym rysunku. Wygrywa ten, u którego suma wszystkich traﬁonych liczb jest większa. Który z chłopców wygrał i o ile punktów więcej od rywala zdobył zwycięzca? 1 1 1 1 3 3 4 4 5 5 6 6 7 7 8 8 9 9 10 10 15 15 20 20 25 25 30 30 35 35 40 40 45 45 50 50 55 55 60 60 60 60 65 65 70 70 75 75 100 100 Michał Kuba",
+    "choices": {
+      "A": "Wygrał Michał i zdobył o 3 punkty więcej od Kuby.",
+      "B": "Wygrał Kuba i zdobył o 4 punkty więcej od Michała.",
+      "C": "Wygrał Michał i zdobył o 2 punkty więcej od Kuby.",
+      "D": "Wygrał Kuba i zdobył o 2 punkty więcej od Michała.",
+      "E": "Wygrał Michał i zdobył o 4 punkty więcej od Kuby."
+    }
+  },
+  "kangur-maluch-2012-7": {
+    "statement": "Na ścianie wykonano regularny wzór z naprzemiennie ułożonych płytek w dwóch kolorach – białym i czarnym. Niektóre płytki odpadły od ściany odsłaniając szary tynk (patrz rysunek). Ile czarnych płytek odpadło?",
+    "choices": {
+      "A": "9",
+      "B": "8",
+      "C": "7",
+      "D": "6",
+      "E": "5"
+    }
+  },
+  "kangur-maluch-2012-8": {
+    "statement": "Rok 2012 jest rokiem przestępnym, to znaczy, że luty ma 29 dni. Dzisiaj, czyli 15 marca 2012 roku, kurczęta mojego dziadka mają dwadzieścia dni. Kiedy wykluły się z jajek?",
+    "choices": {
+      "A": "19 lutego.",
+      "B": "21 lutego.",
+      "C": "23 lutego.",
+      "D": "24 lutego.",
+      "E": "26 lutego. Pytania po 4 punkty"
+    }
+  },
+  "kangur-maluch-2012-9": {
+    "statement": "Ile z przedstawionych obok ﬁgur można ułożyć mając do dyspozycji identyczne kartoniki, każdy w następującym kształcie: ?",
+    "choices": {
+      "A": "0",
+      "B": "1",
+      "C": "2",
+      "D": "3",
+      "E": "4"
+    }
+  },
+  "kangur-maluch-2012-10": {
+    "statement": "Pięć balonów kosztuje o 1 złoty i 20 groszy więcej niż dwa balony. Ile kosztuje jeden balon?",
+    "choices": {
+      "A": "24 gr",
+      "B": "30 gr",
+      "C": "40 gr",
+      "D": "60 gr",
+      "E": "1 zł"
+    }
+  },
+  "kangur-maluch-2012-11": {
+    "statement": "Babcia upiekła 20 ciastek dla swoich wnucząt. Udekorowała 15 ciastek rodzynkami i 15 ciastek orzechami w taki sposób, że liczba ciastek udekorowanych zarówno rodzynkami, jak i orzechami była najmniejsza z możliwych. Tą liczbą ciastek jest",
+    "choices": {
+      "A": "4.",
+      "B": "5.",
+      "C": "6.",
+      "D": "8.",
+      "E": "10. www.kangur-mat.pl"
+    }
+  },
+  "kangur-maluch-2012-12": {
+    "statement": "Patryk wykonuje działania przedstawione w po- lach tabelki 1. Otrzymane wyniki wpisuje w te same pola tabelki 2, a następnie uzupełnia ją w taki sposób, aby każda z liczb 1, 2, 3 oraz 4 pojawiła się tylko raz w każdej kolumnie i tylko raz w każdym wierszu. Jaką liczbę powinien wpisać Patryk w szare pole?",
+    "choices": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4",
+      "E": "1 lub 2 1 · 1 1 · 3 6−3 6−5 4−1 1+3 9−7 Tabelka 1 Tabelka 2"
+    }
+  },
+  "kangur-maluch-2012-13": {
+    "statement": "W szkole dla zwierząt uczą się 3 pieski, 4 kaczuszki, 2 gąski i kilka owieczek. Pani Sowa policzyła, że wszyscy jej uczniowie mają łącznie 44 nogi. Ile owieczek uczy się w tej szkole?",
+    "choices": {
+      "A": "6",
+      "B": "5",
+      "C": "4",
+      "D": "3",
+      "E": "2"
+    }
+  },
+  "kangur-maluch-2012-14": {
+    "statement": "Franek ułożył węża z siedmiu kamieni domino. Ułożył go w taki sposób, że sąsiadujące ze sobą pola mają po ty- le samo oczek. Wąż ułożony przez Franka miał łącznie 33 oczka. Młodszy brat Franka zabrał dwa kamienie, co poka- zano na rysunku obok. ? Ile oczek było na polu oznaczonym znakiem zapytania?",
+    "choices": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "5",
+      "E": "6"
+    }
+  },
+  "kangur-maluch-2012-15": {
+    "statement": "Laura, Igor, Wiktor i Kasia chcieli zrobić sobie wspólne zdjęcie. Kasia i Laura są przyjaciółkami i chciały stać obok siebie. Igor chciał stać obok Laury, ponieważ bardzo ją lubi. Na ile sposobów mogą ustawić się oni w jednym rzędzie, aby spełnić podane warunki?",
+    "choices": {
+      "A": "3",
+      "B": "4",
+      "C": "5",
+      "D": "6",
+      "E": "7"
+    }
+  },
+  "kangur-maluch-2012-16": {
+    "statement": "Krzyś uczestniczył w szkolnym konkursie recytatorskim. Wśród jego rywali było dwa razy więcej dziewcząt niż chłopców. Która z poniższych liczb może oznaczać liczbę wszystkich uczniów biorących udział w tym konkursie?",
+    "choices": {
+      "A": "30",
+      "B": "20",
+      "C": "24",
+      "D": "25",
+      "E": "29 Pytania po 5 punktów"
+    }
+  },
+  "kangur-maluch-2012-17": {
+    "statement": "Grześ zbudował dwie liczby trzycyfrowe używając cyfr 1, 2, 3, 4, 5 i 6. Każdej z tych cyfr użył dokładnie raz. Następnie Grześ dodał do siebie obie liczby. Ile jest równa największa suma jaką mógł w ten sposób uzyskać?",
+    "choices": {
+      "A": "975",
+      "B": "999",
+      "C": "1083",
+      "D": "1173",
+      "E": "1221"
+    }
+  },
+  "kangur-maluch-2012-18": {
+    "statement": "Pchła chce pokonać schody z wieloma stopniami. Umie wykony- wać tylko dwa rodzaje skoków: skok o 3 stopnie w górę oraz skok o 4 stopnie w dół. Jaka jest najmniejsza liczba skoków, które musi wyko- nać, aby znaleźć się na 22. stopniu, zakładając, że zaczyna z poziomu podłogi?",
+    "choices": {
+      "A": "7",
+      "B": "9",
+      "C": "10",
+      "D": "12",
+      "E": "15 1 2 3 Podłoga www.kangur-mat.pl"
+    }
+  },
+  "kangur-maluch-2012-19": {
+    "statement": "Prostokątna kartka papieru ma wymiary 192 mm na 84 mm. Tnąc taką kartkę wzdłuż jednej linii prostej odcinamy kwadrat, a następnie powtarzamy to samo z pozostałą częścią kartki, i tak dalej. Jaka jest długość boku najmniejszego kwadratu jaki możemy w ten sposób otrzymać?",
+    "choices": {
+      "A": "1 mm",
+      "B": "4 mm",
+      "C": "6 mm",
+      "D": "10 mm",
+      "E": "12 mm"
+    }
+  },
+  "kangur-maluch-2012-20": {
+    "statement": "Wśród 496 owoców (gruszek, jabłek, mandarynek i śliwek) było trzy razy mniej gruszek niż jabłek, pięć razy mniej jabłek niż mandarynek oraz siedem razy mniej mandarynek niż śliwek. Ile było śliwek?",
+    "choices": {
+      "A": "350",
+      "B": "315",
+      "C": "455",
+      "D": "385",
+      "E": "420"
+    }
+  },
+  "kangur-maluch-2012-21": {
+    "statement": "Zegar przedstawiony obok ma trzy wskazówki różnej długości: godzinową, minutową i sekundową. Nie wiemy, która wskazówka jest której długości, wie- my tylko, że zegar wskazuje prawidłowy czas. O godzinie 12:55:30 wskazówki znajdują się w ustawieniu pokazanym na rysunku obok. Jak będzie wyglądał ten zegar o godzinie 8:11:00 ? 1 2 3 4 5 6 7 8 9 10 11 12",
+    "choices": {
+      "A": "1 2 3 4 5 6 7 8 9 10 11 12",
+      "B": "1 2 3 4 5 6 7 8 9 10 11 12",
+      "C": "1 2 3 4 5 6 7 8 9 10 11 12",
+      "D": "1 2 3 4 5 6 7 8 9 10 11 12",
+      "E": "1 2 3 4 5 6 7 8 9 10 11 12"
+    }
+  },
+  "kangur-maluch-2012-22": {
+    "statement": "W rodzinie państwa Kowalskich jest pięcioro dzieci: Adaś, Bartek, Cesia, Darek i Ela. Babcia przygotowała dla nich pięć następujących prezentów: lalkę, piłkę, książkę, układankę, misia. Każde z dzieci dostało od babci jeden z tych prezentów. Wiemy, że: • Najstarsze dziecko dostało książkę, a najmłodsze misia. • Cesia jest starsza od Bartka i młodsza od Eli, i nie dostała układanki. • Adaś ma czworo starszego rodzeństwa. • Bartek dostał piłkę. • Darek nie jest najstarszy. Co dostał Darek?",
+    "choices": {
+      "A": "Lalkę.",
+      "B": "Piłkę.",
+      "C": "Książkę.",
+      "D": "Układankę.",
+      "E": "Misia."
+    }
+  },
+  "kangur-maluch-2012-23": {
+    "statement": "W meczu piłki nożnej zwycięzca zdobywa 3 punkty, zaś przegrany 0 punktów. Remis oznacza po 1 punkcie dla każdej drużyny. Pewna drużyna rozegrała 38 meczów zdobywając łącznie 80 punktów. Ile co najwyżej razy drużyna ta mogła przegrać?",
+    "choices": {
+      "A": "12",
+      "B": "11",
+      "C": "10",
+      "D": "9",
+      "E": "8"
+    }
+  },
+  "kangur-maluch-2012-24": {
+    "statement": "Michał pomnożył liczbę swoich lat przez siebie, następnie dodał 1, otrzymaną liczbę pomnożył przez 10, następnie dodał 3, wynik pomnożył przez 4 i otrzymał 2012. Ile lat ma Michał?",
+    "choices": {
+      "A": "11",
+      "B": "9",
+      "C": "8",
+      "D": "7",
+      "E": "5 c⃝Kangourou Sans Fronti`eres www.math-ksf.org/ c⃝Towarzystwo Upowszechniania Wiedzy i Nauk Matematycznych www.kangur-mat.pl"
+    }
+  },
+  "kangur-maluch-2013-1": {
+    "statement": "Na którym z poniższych rysunków czarnych kangurów jest więcej niż białych?",
+    "choices": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "",
+      "E": ""
+    }
+  },
+  "kangur-maluch-2013-2": {
+    "statement": "Ala zapisała prawidłowo wykonane działanie. Następnie zakryła dwie jednakowe cyfry i otrzy- mała 4■+ 5■= 104. Jakie cyfry zakryła Ala?",
+    "choices": {
+      "A": "2",
+      "B": "4",
+      "C": "5",
+      "D": "7",
+      "E": "8"
+    }
+  },
+  "kangur-maluch-2013-3": {
+    "statement": "Na ścianie naprzeciwko lustra wisi zegar, który wskazuje godzinę 15:00. Który z rysunków przed- stawia odbicie tego zegara w lustrze?",
+    "choices": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "",
+      "E": ""
+    }
+  },
+  "kangur-maluch-2013-4": {
+    "statement": "Ile trójkątów widać na rysunku obok?",
+    "choices": {
+      "A": "8",
+      "B": "9",
+      "C": "10",
+      "D": "11",
+      "E": "12 www.kangur-mat.pl www.kangur-mat.pl"
+    }
+  },
+  "kangur-maluch-2013-5": {
+    "statement": "Daniel ma 36 żołnierzyków. Rozdzielił wszystkie pomiędzy swoich kolegów każdemu dając tyle samo. Która z poniższych liczb na pewno nie jest liczbą kolegów Daniela?",
+    "choices": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "5",
+      "E": "6"
+    }
+  },
+  "kangur-maluch-2013-6": {
+    "statement": "Mama przygotowuje kanapki, każdą z nich robiąc z dwóch kromek chleba. Bochenek chleba składa się z 24 kromek. Ile kanapek zrobi mama z dwóch i pół takich bochenków chleba?",
+    "choices": {
+      "A": "24",
+      "B": "30",
+      "C": "48",
+      "D": "34",
+      "E": "26"
+    }
+  },
+  "kangur-maluch-2013-7": {
+    "statement": "Pięciu chłopców wypowiedziało zdanie o liczbie 325. Który z nich powiedział nieprawdę? • Andrzej: Ta liczba jest trzycyfrowa. • Borys: Wszystkie cyfry tej liczby są różne. • Czarek: Suma cyfr tej liczby jest równa 10. • Dawid: Cyfrą jedności tej liczby jest 5. • Emil: Wszystkie cyfry tej liczby są nieparzyste.",
+    "choices": {
+      "A": "Andrzej",
+      "B": "Borys",
+      "C": "Czarek",
+      "D": "Dawid",
+      "E": "Emil"
+    }
+  },
+  "kangur-maluch-2013-8": {
+    "statement": "Prostokątne lustro pękło i jedna część odpadła (patrz rysunek obok). Która to część?",
+    "choices": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "",
+      "E": "Pytania po 4 punkty"
+    }
+  },
+  "kangur-maluch-2013-9": {
+    "statement": "Duża kostka była zbudowana z 27 jednakowych klocków. Hania usunęła cztery klocki i otrzymała ﬁgurę przedstawioną na rysunku obok. Następnie ścianami tej ﬁgury robiła stemple. Którego z poniż- szych stempli Hania nie mogła otrzymać?",
+    "choices": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "",
+      "E": ""
+    }
+  },
+  "kangur-maluch-2013-10": {
+    "statement": "Gdy Pinokio kłamie, jego nos wydłuża się o 6 cm. Gdy mówi prawdę, jego nos skraca się o 2cm. W pewnym momencie nos Pinokia miał 9cm długości. Następnie Pinokio wypowiedział trzy kłamstwa i dwa zdania prawdziwe. Jak długi jest teraz nos Pinokia?",
+    "choices": {
+      "A": "14 cm",
+      "B": "15 cm",
+      "C": "19 cm",
+      "D": "23 cm",
+      "E": "31 cm"
+    }
+  },
+  "kangur-maluch-2013-11": {
+    "statement": "W pewnym sklepie można kupić pomarańcze pakowane na trzy sposoby: po 5, po 9 oraz po 10 sztuk w opakowaniu. Piotr chce kupić dokładnie 48 pomarańczy. Jaka jest najmniejsza liczba opakowań, jakie musi on zakupić?",
+    "choices": {
+      "A": "8",
+      "B": "7",
+      "C": "6",
+      "D": "5",
+      "E": "4 www.kangur-mat.pl"
+    }
+  },
+  "kangur-maluch-2013-12": {
+    "statement": "Ania wyrusza w kierunku wyznaczonym przez strzałkę i na każdym skrzyżowaniu albo skręca w prawo, albo skręca w lewo. Najpierw skręciła w prawo, potem dwa razy w lewo, potem w prawo, potem dwa razy w lewo i zatrzymała się na następnym skrzyżowaniu. Ania zakończyła wędrówkę przy",
+    "choices": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "",
+      "E": "Ania"
+    }
+  },
+  "kangur-maluch-2013-13": {
+    "statement": "Każdy uczeń 30-osobowej klasy uczy się przynajmniej jednego z dwóch języków: angielskiego lub niemieckiego. Języka niemieckiego uczy się 15 z nich, a angielskiego 20. Ilu uczniów uczy się obu tych języków?",
+    "choices": {
+      "A": "25",
+      "B": "15",
+      "C": "30",
+      "D": "10",
+      "E": "5"
+    }
+  },
+  "kangur-maluch-2013-14": {
+    "statement": "Liczbę nazwiemy ciekawą, gdy dzieli się ona przez swoją cyfrę jedności. Na przykład liczba 35 jest ciekawa, gdyż 35 dzieli się przez 5, a liczba 38 nie jest ciekawa, gdyż 38 nie dzieli się przez 8. Ile jest ciekawych liczb, które są większe od 21 i mniejsze od 30?",
+    "choices": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "5",
+      "E": "6"
+    }
+  },
+  "kangur-maluch-2013-15": {
+    "statement": "Który z poniższych kawałków układanki pasuje do narysowanego obok, tak aby dało się złożyć z nich prostokąt?",
+    "choices": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "",
+      "E": ""
+    }
+  },
+  "kangur-maluch-2013-16": {
+    "statement": "Asia, Basia, Cesia i Dorotka urodziły się w tym samym roku. Ich urodziny wypadają w na- stępujących dniach: 20 lutego, 12 kwietnia, 12 maja oraz 25 maja (niekoniecznie w tej kolejności). Basia i Asia urodziły się w tym samym miesiącu, zaś Asia i Cesia urodziły się w różnych miesiącach, ale w dniach o tych samych numerach. Która z dziewcząt jest najstarsza?",
+    "choices": {
+      "A": "Asia",
+      "B": "Basia",
+      "C": "Cesia",
+      "D": "Dorotka",
+      "E": "Nie da się tego rozstrzygnąć. Pytania po 5 punktów"
+    }
+  },
+  "kangur-maluch-2013-17": {
+    "statement": "Wiktoria wycięła z papieru w kratkę kilka jednakowych ﬁgur, z których jed- na pokazana jest na rysunku obok. Chce ułożyć z nich jak najmniejszy kwadrat, tak aby ﬁgury te nie zachodziły na siebie. Ilu takich ﬁgur potrzebuje Wiktoria?",
+    "choices": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "5",
+      "E": "6"
+    }
+  },
+  "kangur-maluch-2013-18": {
+    "statement": "W grudniu stary niedźwiedź spał dokładnie 3 tygodnie. Ile godzin w tym miesiącu stary niedź- wiedź nie spał?",
+    "choices": {
+      "A": "(31 −7) · 3 · 24",
+      "B": "(31 −7 · 3) · 24",
+      "C": "(30 −7 · 3) · 24",
+      "D": "(31 −7) · 24",
+      "E": "(30 −7) · 3 · 24 www.kangur-mat.pl"
+    }
+  },
+  "kangur-maluch-2013-19": {
+    "statement": "Ile lat musi upłynąć od dnia 1 stycznia 2013 roku, aby po raz pierwszy nastąpił rok, taki że iloczyn wszystkich cyfr występujących w zapisie tego roku jest większy od sumy tych cyfr?",
+    "choices": {
+      "A": "87",
+      "B": "98",
+      "C": "101",
+      "D": "102",
+      "E": "103"
+    }
+  },
+  "kangur-maluch-2013-20": {
+    "statement": "Bartek ma siedem kamieni domino (patrz rysunek). Chce ułożyć je w jeden rząd, tak aby obok siebie znajdo- wały się pola z tą samą liczbą oczek. Z ilu kamieni składa się najdłuższy taki rząd?",
+    "choices": {
+      "A": "3",
+      "B": "4",
+      "C": "5",
+      "D": "6",
+      "E": "7"
+    }
+  },
+  "kangur-maluch-2013-21": {
+    "statement": "Krzyś ma do sprzedania 7 szklanych dzwonków o wartości: 1 zł, 2 zł, 3 zł, 4 zł, 5 zł, 6 zł, 7 zł. Na ile sposobów może on rozdzielić te dzwonki na trzy zestawy, tak aby każdy zestaw kosztował tyle samo?",
+    "choices": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4",
+      "E": "Taki podział nie jest możliwy."
+    }
+  },
+  "kangur-maluch-2013-22": {
+    "statement": "Na rysunku obok przedstawiony jest dywan o szerokości 36 dm i długości 60 dm, który został częściowo zwinięty. Wzór na całym dywanie jest taki, jak widać na rysunku: składa się z małych naprzemiennie ułożonych kwadratów z księżycem lub słońcem. Ile księżyców jest na całym dywanie?",
+    "choices": {
+      "A": "68",
+      "B": "67",
+      "C": "65",
+      "D": "63",
+      "E": "60 36 dm 60 dm"
+    }
+  },
+  "kangur-maluch-2013-23": {
+    "statement": "Ula tworzy liczby używając tylko cyfr 0 lub 1 (np. 0, 101, 1111). Co najmniej ile takich liczb musi ona dodać, aby otrzymać 2013?",
+    "choices": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "5",
+      "E": "204"
+    }
+  },
+  "kangur-maluch-2013-24": {
+    "statement": "W komodzie w przedpokoju są cztery szuﬂady (patrz rysunek). W każdej z nich leżą albo czapki, albo szaliki, albo rękawiczki, albo parasolki. Rękawicz- ki leżą niżej niż szaliki. Parasolki leżą niżej niż czapki i niżej niż rękawiczki. Szaliki nie leżą najwyżej. Która to komoda? • • • •",
+    "choices": {
+      "A": "Szaliki Rękawiczki Czapki Parasolki",
+      "B": "Czapki Parasolki Szaliki Rękawiczki",
+      "C": "Czapki Szaliki Rękawiczki Parasolki",
+      "D": "Szaliki Czapki Rękawiczki Parasolki",
+      "E": "Czapki Szaliki Parasolki Rękawiczki c⃝Kangourou Sans Fronti`eres www.math-ksf.org c⃝Towarzystwo Upowszechniania Wiedzy i Nauk Matematycznych www.kangur-mat.pl"
+    }
+  },
+  "kangur-maluch-2014-1": {
+    "statement": "Który rysunek jest fragmentem przedstawionej obok gwiazdy?",
+    "choices": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "",
+      "E": ""
+    }
+  },
+  "kangur-maluch-2014-2": {
+    "statement": "Jacek chce dopisać cyfrę 3 do liczby 2014, wstawiając ją albo na początku, albo na końcu, albo pomiędzy jej cyfry. Gdzie powinien ją wstawić, aby otrzymana liczba pięciocyfrowa była najmniejszą z możliwych?",
+    "choices": {
+      "A": "Przed cyfrą 2. B) Pomiędzy 2 a 0. C) Pomiędzy 0 a 1. D) Pomiędzy 1 a 4. E) Za cyfrą 4.",
+      "B": "",
+      "C": "",
+      "D": "",
+      "E": ""
+    }
+  },
+  "kangur-maluch-2014-3": {
+    "statement": "Które z poniższych domków składają się z takiego samego zestawu trójkątnych i prostokątnych klocków? 1 2 3 4 5",
+    "choices": {
+      "A": "3, 4",
+      "B": "1, 4, 3",
+      "C": "1, 3",
+      "D": "1, 4",
+      "E": "1, 2, 4, 5"
+    }
+  },
+  "kangur-maluch-2014-4": {
+    "statement": "Gdy miś koala nie śpi, zjada 50 gramów liści eukaliptusa w każdej godzinie. Minionej doby spał 13 godzin. Ile gramów liści zjadł on minionej doby?",
+    "choices": {
+      "A": "550",
+      "B": "130",
+      "C": "650",
+      "D": "50",
+      "E": "450"
+    }
+  },
+  "kangur-maluch-2014-5": {
+    "statement": "Marysia obliczyła podane różnice. Następnie połączyła kropki kolejno od najmniejszej do największej różnicy. Który z poniższych rysunków otrzymała? 2 −2 6 −5 8 −6 11 −8 13 −9 17 −12",
+    "choices": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "",
+      "E": "www.kangur-mat.pl www.kangur-mat.pl"
+    }
+  },
+  "kangur-maluch-2014-6": {
+    "statement": "Monika uzupełnia diagram liczbami w taki sposób, aby iloczyn dwóch sąsied- nich liczb w każdym rzędzie był równy liczbie w polu bezpośrednio nad nimi. Jaką liczbę wpisze ona w szare pole?",
+    "choices": {
+      "A": "0",
+      "B": "1",
+      "C": "2",
+      "D": "4",
+      "E": "8 1 1 2 2 64"
+    }
+  },
+  "kangur-maluch-2014-7": {
+    "statement": "Dzieci budowały zamki z piasku. Adam zbudował ich mniej niż Marcin, ale więcej niż Zuzia. Dana zbudowała więcej niż Marcin, ale mniej niż Lusia. Kto z nich zbudował najwięcej zamków z piasku?",
+    "choices": {
+      "A": "Marcin",
+      "B": "Adam",
+      "C": "Zuzia",
+      "D": "Dana",
+      "E": "Lusia"
+    }
+  },
+  "kangur-maluch-2014-8": {
+    "statement": "Kasia namalowała na szybie okna bukiet kwiatów przedstawiony na rysunku obok. Jak wygląda on z drugiej strony okna?",
+    "choices": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "",
+      "E": "Pytania po 4 punkty"
+    }
+  },
+  "kangur-maluch-2014-9": {
+    "statement": "Ewa ułożyła karty z literami w następujący sposób: A A G K N O O R . W każdym ruchu Ewa może zamienić miejscami dwie dowolne karty. Jaka jest najmniejsza liczba ruchów, jakie musi ona wykonać, aby z podanego ułożenia otrzymać angielskie słowo KANGAROO?",
+    "choices": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "5",
+      "E": "6"
+    }
+  },
+  "kangur-maluch-2014-10": {
+    "statement": "W koszyku była pewna liczba cukierków. Zosia wzięła ich połowę, po czym Tomek wziął połowę z tego, co zostało. Następnie Klara wzięła połowę tego co pozostało w koszyku i wówczas okazało się, że w koszyku zostało 6 cukierków. Ile cukierków było w koszyku na początku?",
+    "choices": {
+      "A": "12",
+      "B": "18",
+      "C": "24",
+      "D": "36",
+      "E": "48"
+    }
+  },
+  "kangur-maluch-2014-11": {
+    "statement": "Śpiąca Królewna zasnęła o godzinie 23:00 w piątek i spała 150 godzin. Kiedy obudziła się Śpiąca Królewna?",
+    "choices": {
+      "A": "W środę o godzinie 23:00.",
+      "B": "W środę o godzinie 5:00.",
+      "C": "W czwartek o godzinie 23:00.",
+      "D": "W czwartek o godzinie 5:00.",
+      "E": "W piątek o godzinie 5:00."
+    }
+  },
+  "kangur-maluch-2014-12": {
+    "statement": "Którym z poniższych kwadracików należy uzupełnić ﬁgurę pokazaną na rysunku, aby w otrzymanym kwadracie było tyle samo powierzchni zamalowanej, co nie zamalowanej?",
+    "choices": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "",
+      "E": "?"
+    }
+  },
+  "kangur-maluch-2014-13": {
+    "statement": "Zosi spodobało się w sklepie 5 zabawek, których ceny widzimy poniżej. Wybrała trzy z nich i zapłaciła banknotem 200-złotowym. Otrzymała 18 zł reszty. Następnie zmieniła zdanie i wymieniła jedną z zabawek na inną, po czym otrzymała dodatkowo 25 zł reszty. Które zabawki ostatecznie kupiła Zosia? Piłka 40 zł Lalka 73 zł Miś 52 zł Puzzle 48 zł Klocki 57 zł",
+    "choices": {
+      "A": "Piłkę, lalkę i misia.",
+      "B": "Piłkę, misia i puzzle.",
+      "C": "Lalkę, misia i klocki.",
+      "D": "Misia, puzzle i klocki.",
+      "E": "Piłkę, puzzle i klocki. www.kangur-mat.pl"
+    }
+  },
+  "kangur-maluch-2014-14": {
+    "statement": "Królik Borys każdego dnia zjada albo 9 marchewek, albo 2 główki sałaty, albo 1 główkę sa- łaty i 4 marchewki. W ubiegłym tygodniu Borys zjadł 30 marchewek. Ile główek sałaty zjadł on w ubiegłym tygodniu?",
+    "choices": {
+      "A": "6",
+      "B": "7",
+      "C": "8",
+      "D": "9",
+      "E": "10"
+    }
+  },
+  "kangur-maluch-2014-15": {
+    "statement": "Bryła pokazana na rysunku obok, została sklejona z ośmiu jednakowych sześcien- nych klocków. Który z poniższych rysunków przedstawia widok tej bryły z góry?",
+    "choices": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "",
+      "E": ""
+    }
+  },
+  "kangur-maluch-2014-16": {
+    "statement": "Ile kropek znajduje się na rysunku?",
+    "choices": {
+      "A": "180",
+      "B": "181",
+      "C": "182",
+      "D": "183",
+      "E": "265 Pytania po 5 punktów"
+    }
+  },
+  "kangur-maluch-2014-17": {
+    "statement": "Figurę na rysunku obok ułożono z czterech następujących klocków: , , , . Gdzie leży klocek ?",
+    "choices": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "",
+      "E": ""
+    }
+  },
+  "kangur-maluch-2014-18": {
+    "statement": "Pani ustawiła siedmioro dzieci w kółku, tak że żadna dziewczynka nie stoi pomiędzy dwiema dziewczynkami oraz żaden chłopiec nie stoi obok innego chłopca. Ile dziewcząt znajduje się w tym kółku?",
+    "choices": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "5",
+      "E": "6 www.kangur-mat.pl"
+    }
+  },
+  "kangur-maluch-2014-19": {
+    "statement": "W każdym z trzech domów: zielonym, niebieskim i żółtym mieszka jedna z trzech osób: pani Ania, pani Zosia i pani Krysia. Pani Zosia zawsze w niedzielę wyjeżdża na całodniową wycieczkę. Pani Krysia lubi spacery ze swoim psem, a w każdą niedzielę w południe zaprasza do siebie na obiad sąsiadkę z niebieskiego domu. Mieszkanka zielonego domu nie ma zwierząt. Które zdanie jest prawdziwe?",
+    "choices": {
+      "A": "Pani Ania mieszka w niebieskim domu, pani Krysia w zielonym, a pani Zosia w żółtym.",
+      "B": "Pani Ania mieszka w żółtym domu, pani Krysia w zielonym, a pani Zosia w niebieskim.",
+      "C": "Pani Ania mieszka w zielonym domu, pani Krysia w niebieskim, a pani Zosia w żółtym.",
+      "D": "Pani Ania mieszka w niebieskim domu, pani Krysia w żółtym, a pani Zosia w zielonym.",
+      "E": "Pani Ania mieszka w żółtym domu, pani Krysia w niebieskim, a pani Zosia w zielonym."
+    }
+  },
+  "kangur-maluch-2014-20": {
+    "statement": "Na rysunku obok zacieniowano przednią ścianę budowli, która została ułożona z sześciu identycznych kostek. Ile jest równa suma oczek na tylnej ścianie tej budowli?",
+    "choices": {
+      "A": "25",
+      "B": "23",
+      "C": "22",
+      "D": "21",
+      "E": "20"
+    }
+  },
+  "kangur-maluch-2014-21": {
+    "statement": "W bajkowym kraju, każdy słoneczny dzień jest bezpośrednio poprzedzony trzema kolejnymi dniami deszczowymi. Ponadto szósty dzień po każdym deszczowym dniu jest także deszczowy. Dziś jest słoneczny dzień. Jaka jest największa liczba następujących po sobie dni, zaczynając od dnia jutrzejszego, na które można przewidzieć pogodę?",
+    "choices": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "5",
+      "E": "6"
+    }
+  },
+  "kangur-maluch-2014-22": {
+    "statement": "Cyfry 0, 1, 2, 3, 4, 5, 6 wpisujemy w pola diagramu + = w taki sposób, aby przedstawiał on poprawnie wykonane dodawanie. W różne pola diagramu wpisujemy różne cyfry. Która cyfra będzie w szarym polu?",
+    "choices": {
+      "A": "6",
+      "B": "5",
+      "C": "4",
+      "D": "3",
+      "E": "2"
+    }
+  },
+  "kangur-maluch-2014-23": {
+    "statement": "Basia chce zamalować małe kwadraciki w ﬁgurze przedstawionej na rysunku obok, tak aby nie dało się z niej wyciąć zamalowanego kwadratu . Jaką największą liczbę małych kwadracików może ona zamalować?",
+    "choices": {
+      "A": "18",
+      "B": "19",
+      "C": "20",
+      "D": "21",
+      "E": "22"
+    }
+  },
+  "kangur-maluch-2014-24": {
+    "statement": "Nikodem wpisał każdą z liczb od 1 do 9 w pola tabelki, przy czym cztery z nich są pokazane (patrz rysunek). Sąsiednimi polami w tabelce nazwiemy te, które mają wspólny bok. Nikodem zauważył, że dla liczby 5 suma liczb z sąsiednich pól jest równa 13. Tę samą własność zauważył dla liczby 6. Którą liczbę wpisał on w szare pole? 1 2 3 4",
+    "choices": {
+      "A": "5",
+      "B": "6",
+      "C": "7",
+      "D": "8",
+      "E": "9 c⃝Kangourou Sans Fronti`eres www.math-ksf.org c⃝Towarzystwo Upowszechniania Wiedzy i Nauk Matematycznych www.kangur-mat.pl"
+    }
+  },
+  "kangur-maluch-2015-1": {
+    "statement": "Pod szarymi chmurkami kryją się liczby. Jaka liczba ukrywa się pod chmurką oznaczoną znakiem zapytania? 2 ? −0 + 1 · 5",
+    "choices": {
+      "A": "6",
+      "B": "7",
+      "C": "8",
+      "D": "10",
+      "E": "15"
+    }
+  },
+  "kangur-maluch-2015-2": {
+    "statement": "Staś miał 10 jednakowych blaszanych pasków (rysunek 1). Połączył je po dwa i otrzymał 5 dłuższych pasków (rysunek 2). Który z tych pasków jest najdłuższy? Rysunek 1. Rysunek 2.",
+    "choices": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D",
+      "E": "E"
+    }
+  },
+  "kangur-maluch-2015-3": {
+    "statement": "Helenka poprawnie wykonała dwa działania – rysunek obok. Następnie dwie jednakowe liczby zakryła trójkątami, a inną liczbę zakryła kwadratem. Jaką liczbę Helenka zakryła kwadratem?",
+    "choices": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "5",
+      "E": "6 + + = = 4 7 9"
+    }
+  },
+  "kangur-maluch-2015-4": {
+    "statement": "Który z poniższych ilorazów jest największy?",
+    "choices": {
+      "A": "(1000−100):10",
+      "B": "(1000−10):9",
+      "C": "(1000−1):9",
+      "D": "(1000−100):9",
+      "E": "(1000−10):10 www.kangur-mat.pl www.kangur-mat.pl"
+    }
+  },
+  "kangur-maluch-2015-5": {
+    "statement": "Na okręgu rozmieszczono kolejno liczby od 1 do 9. Rozpoczynając od liczby 1, rysujemy odcinki łączące co drugą liczbę na tym okręgu, aż wró- cimy do liczby 1. Dwa pierwsze odcinki przedstawiono na rysunku obok. Który obrazek otrzymamy po zakończeniu rysowania? 1 2 3 4 5 6 7 8 9",
+    "choices": {
+      "A": "1 2 3 4 5 6 7 8 9",
+      "B": "1 2 3 4 5 6 7 8 9",
+      "C": "1 2 3 4 5 6 7 8 9",
+      "D": "1 2 3 4 5 6 7 8 9",
+      "E": "1 2 3 4 5 6 7 8 9"
+    }
+  },
+  "kangur-maluch-2015-6": {
+    "statement": "Iloczyn cyfr pewnej liczby dwucyfrowej jest równy 15. Ile jest równa suma cyfr tej liczby?",
+    "choices": {
+      "A": "2",
+      "B": "4",
+      "C": "6",
+      "D": "7",
+      "E": "8"
+    }
+  },
+  "kangur-maluch-2015-7": {
+    "statement": "Rysunek obok przedstawia wyspę o bardzo zawiłej linii brzegowej z rosnącą na niej palmą oraz żaby. Ile z tych żab siedzi na wyspie?",
+    "choices": {
+      "A": "4",
+      "B": "6",
+      "C": "7",
+      "D": "8",
+      "E": "10"
+    }
+  },
+  "kangur-maluch-2015-8": {
+    "statement": "Dziś, 19 marca, jest czwartek. Jaki dzień tygodnia będzie za 30 dni?",
+    "choices": {
+      "A": "środa",
+      "B": "czwartek",
+      "C": "piątek",
+      "D": "sobota",
+      "E": "niedziela Pytania po 4 punkty"
+    }
+  },
+  "kangur-maluch-2015-9": {
+    "statement": "Mój australijski parasol ma na górze napis KANGAROO, co po angielsku znaczy „kangur” (rysunek obok). Na jednym z poniższych rysunków przed- stawiono ten sam parasol. Na którym? R A G N A K O O",
+    "choices": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "",
+      "E": ""
+    }
+  },
+  "kangur-maluch-2015-10": {
+    "statement": "Franek pociął narysowaną na kratkowanym papierze ﬁgurę (rysunek 1) na jednakowe trójkąty (rysunek 2). Ile takich trójkątów otrzymał?",
+    "choices": {
+      "A": "8",
+      "B": "12",
+      "C": "14",
+      "D": "15",
+      "E": "16 Rysunek 1 Rysunek 2 www.kangur-mat.pl"
+    }
+  },
+  "kangur-maluch-2015-11": {
+    "statement": "Tomek miał 7 jabłek i 2 banany. Dał 2 jabłka Sławkowi, w zamian otrzymał banany. Teraz Tomek ma tyle samo jabłek co bananów. Ile bananów otrzymał od Sławka?",
+    "choices": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "5",
+      "E": "6"
+    }
+  },
+  "kangur-maluch-2015-12": {
+    "statement": "Babcia kupiła swoim wnukom cukierki. Dała każdemu z nich po 4 i zostały jej 2 cukierki. Gdyby chciała dać każdemu po 5, zabrakłoby jej 2 cukierków. Ilu wnuków miała babcia?",
+    "choices": {
+      "A": "3",
+      "B": "4",
+      "C": "5",
+      "D": "6",
+      "E": "7"
+    }
+  },
+  "kangur-maluch-2015-13": {
+    "statement": "Szkolny bieg na 1500 m ukończyło 10 zawodników. Przed Frankiem przybiegło o 3 zawodników mniej niż za nim. Które miejsce w biegu zajął Franek?",
+    "choices": {
+      "A": "1",
+      "B": "3",
+      "C": "4",
+      "D": "6",
+      "E": "7"
+    }
+  },
+  "kangur-maluch-2015-14": {
+    "statement": "Bartek ma 4 zabawki: auto, samolot, piłkę i statek. Postanowił ustawić je w rzędzie na półce, tak aby zarówno statek, jak i samolot stały obok auta. Na ile sposobów może to uczynić?",
+    "choices": {
+      "A": "2",
+      "B": "4",
+      "C": "5",
+      "D": "6",
+      "E": "8"
+    }
+  },
+  "kangur-maluch-2015-15": {
+    "statement": "Paweł jeździ rowerem po alejkach w parku (rysunek obok). Wy- rusza z linii S w kierunku wskazanym strzałką. Na pierwszym skrzy- żowaniu (obok znaku B ) skręca w prawo, na drugim w lewo, na kolejnym w prawo, potem w lewo, i tak dalej. Koło którego znaku nie przejedzie?",
+    "choices": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D",
+      "E": "E A B C D E S"
+    }
+  },
+  "kangur-maluch-2015-16": {
+    "statement": "Na krzaku porzeczek mieszka 5 biedronek (rysunek obok). Dwie biedronki przyjaźnią się, o ile liczby ich kropek różnią się o 1. W dniu konkursu „Kangur Matematyczny” każda biedronka wysłała swojej przyjaciółce okolicznościowy SMS. Ile SMS-ów wysłały łącznie wszystkie biedronki?",
+    "choices": {
+      "A": "3",
+      "B": "4",
+      "C": "6",
+      "D": "8",
+      "E": "9 Pytania po 5 punktów"
+    }
+  },
+  "kangur-maluch-2015-17": {
+    "statement": "Figura przedstawiona na rysunku obok została podzielona na trzy iden- tyczne części. Który z następujących kształtów mogą mieć te części?",
+    "choices": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "",
+      "E": "www.kangur-mat.pl"
+    }
+  },
+  "kangur-maluch-2015-18": {
+    "statement": "Na rysunku obok widzimy sześcian zbudowany z 27 małych sześcien- nych klocków, z których każdy jest albo biały, albo szary. W sześcianie żadne dwa klocki tego samego koloru nie mają wspólnej ściany. Ilu białych klocków użyto do zbudowania sześcianu?",
+    "choices": {
+      "A": "9",
+      "B": "12",
+      "C": "13",
+      "D": "14",
+      "E": "17"
+    }
+  },
+  "kangur-maluch-2015-19": {
+    "statement": "Beczka napełni się, jeżeli wlejemy do niej wodę z 6 małych dzbanuszków, 3 średnich dzbanków i z jednego dużego dzbana. Beczka ta napełni się również, gdy wlejemy do niej wodę z 2 małych dzbanuszków, 1 średniego dzbanka i z 3 dużych dzbanów. Ile dużych dzbanów wody potrzeba, by napełnić beczkę?",
+    "choices": {
+      "A": "4",
+      "B": "5",
+      "C": "6",
+      "D": "7",
+      "E": "8"
+    }
+  },
+  "kangur-maluch-2015-20": {
+    "statement": "W kwadraty ﬁgury na rysunku obok wpisujemy liczby: 2, 3, 5, 6, 7 w taki sposób, aby suma trzech liczb w kolumnie była równa sumie trzech liczb w rzędzie. Którą liczbę można wpisać w pole oznaczone znakiem zapytania?",
+    "choices": {
+      "A": "Tylko 3.",
+      "B": "Tylko 5.",
+      "C": "Tylko 7.",
+      "D": "Tylko 5 i 7.",
+      "E": "Tylko 3, 5 i 7. ?"
+    }
+  },
+  "kangur-maluch-2015-21": {
+    "statement": "Helenka miała 10 kul ponumerowanych od 0 do 9. Cztery z nich dała Agnieszce, a trzy dała Lusi. Następnie każda z dziewcząt pomnożyła przez siebie numery swoich kul. Okazało się, że Helence wyszło 0, Agnieszce 72, Lusi 90. Ile jest równa suma numerów kul, które zatrzymała sobie Helenka? 0 1 2 3 4 5 6 7 8 9",
+    "choices": {
+      "A": "11",
+      "B": "12",
+      "C": "13",
+      "D": "14",
+      "E": "15"
+    }
+  },
+  "kangur-maluch-2015-22": {
+    "statement": "Rysunek obok przedstawia trzy liny leżące na podłodze. Dowiązanie do nich końców lin jednego z poniższych zestawów (bez zmiany ich położenia) powoduje, że otrzymamy jedną linę. Który z tych zestawów ma tę własność?",
+    "choices": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "",
+      "E": ""
+    }
+  },
+  "kangur-maluch-2015-23": {
+    "statement": "Trzy kwadratowe arkusze wykonane z przezroczystej fo- lii pokratkowano i zamalowano na nich po kilka kwadraci- ków (rysunek obok). Arkusze te możemy obracać, ale nie wolno ich odwracać na drugą stronę. Układamy je jeden na drugim w taki sposób, że otrzymujemy kwadrat. Ile co naj- wyżej czarnych kwadracików możemy wówczas zobaczyć?",
+    "choices": {
+      "A": "4",
+      "B": "5",
+      "C": "6",
+      "D": "7",
+      "E": "8"
+    }
+  },
+  "kangur-maluch-2015-24": {
+    "statement": "Ania, Basia, Celina, Danka i Ewa piekły w piątek i w sobotę ciastka. Ania upiekła ich w sumie 24, Basia 25, Celina 26, Danka 27, Ewa 28. Ponadto jedna z dziewcząt upiekła ich łącznie 2 razy tyle, ile upiekła w piątek, jedna 3 razy tyle, ile upiekła w piątek, jedna 4 razy tyle, jedna 5 razy tyle, jedna 6 razy tyle. Która z dziewcząt upiekła najwięcej ciastek w piątek?",
+    "choices": {
+      "A": "Ania",
+      "B": "Basia",
+      "C": "Celina",
+      "D": "Danka",
+      "E": "Ewa c⃝Kangourou Sans Fronti`eres www.aksf.org c⃝Towarzystwo Upowszechniania Wiedzy i Nauk Matematycznych www.kangur-mat.pl"
+    }
+  },
+  "kangur-maluch-2018-1": {
+    "statement": "Ala ma 10 pieczątek z cyframi: 0 , 1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 . Używając tych pieczątek, odbiła datę konkursu „Kangur Matematyczny”: 1 5 0 3 2 0 1 8 . Ilu pieczątek użyła?",
+    "choices": {
+      "A": "5",
+      "B": "6",
+      "C": "7",
+      "D": "8",
+      "E": "10"
+    }
+  },
+  "kangur-maluch-2018-2": {
+    "statement": "Rysunek przedstawia 3 lecące strzały i 9 nieruchomych baloników. Gdy strzała traﬁw balonik, ten pęka, a strzała leci dalej, nie zmieniając kierunku lotu. W ile baloników traﬁą strzały?",
+    "choices": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "5",
+      "E": "6"
+    }
+  },
+  "kangur-maluch-2018-3": {
+    "statement": "Hela ma 6 lat. Jej siostra jest od niej o dwa lata młodsza, a brat o dwa lata starszy. Po dodaniu do siebie liczb lat tej trójki rodzeństwa otrzymamy",
+    "choices": {
+      "A": "10.",
+      "B": "15.",
+      "C": "18.",
+      "D": "21.",
+      "E": "30."
+    }
+  },
+  "kangur-maluch-2018-4": {
+    "statement": "Biedronka Misia wygląda tak: . Który z poniższych obrazków na pewno nie przedstawia Misi?",
+    "choices": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "",
+      "E": ""
+    }
+  },
+  "kangur-maluch-2018-5": {
+    "statement": "Kasia złożyła kartkę papieru na pół i z tak złożonego papieru wycięła następujący kształt: . Jeden z poniższych rysunków przedstawia tę kartkę po rozłożeniu. Który?",
+    "choices": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "",
+      "E": ""
+    }
+  },
+  "kangur-maluch-2018-6": {
+    "statement": "Na rysunku widzisz pięć wkrętów wkręconych w kawałek drewna. Cztery z tych wkrętów są równej długości, a jeden jest krótszy. Który?",
+    "choices": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4",
+      "E": "5 1 2 3 4 5 www.kangur-mat.pl www.kangur-mat.pl"
+    }
+  },
+  "kangur-maluch-2018-7": {
+    "statement": "Franek strzelał do tarczy (patrz rysunek). W pierwszej próbie uzyskał trzema strzałami 27 punktów. W drugiej uzy- skał 23 punkty. Ile punktów uzyskał w trzeciej próbie?",
+    "choices": {
+      "A": "15",
+      "B": "19",
+      "C": "20",
+      "D": "21",
+      "E": "22 27 pkt. 23 pkt. ?"
+    }
+  },
+  "kangur-maluch-2018-8": {
+    "statement": "Mama poleciła Ewie nakryć stół dla 8 osób. Ewa miała położyć talerze i sztućce obok nich tak, aby osoba siedzą- ca przy stole miała przy swoim talerzu widelec po lewej, a nóż po prawej stronie. Dla ilu osób Ewa położyła sztućce poprawnie?",
+    "choices": {
+      "A": "5",
+      "B": "4",
+      "C": "6",
+      "D": "2",
+      "E": "3 Pytania po 4 punkty"
+    }
+  },
+  "kangur-maluch-2018-9": {
+    "statement": "Królik Mniam miał 20 marchewek. Codziennie zjadał po dwie. W środę zjadł dwunastą mar- chewkę. W jakim dniu tygodnia zaczął zjadać swoje marchewki?",
+    "choices": {
+      "A": "W poniedziałek.",
+      "B": "We wtorek.",
+      "C": "W środę.",
+      "D": "W czwartek.",
+      "E": "W piątek."
+    }
+  },
+  "kangur-maluch-2018-10": {
+    "statement": "Marysia ma dużo jednakowych kartoników i układa z nich wzory. Jeden taki kartonik wygląda tak: . Ile z następujących wzorów może otrzymać Marysia, nie nakładając kartoników na siebie?",
+    "choices": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4",
+      "E": "5"
+    }
+  },
+  "kangur-maluch-2018-11": {
+    "statement": "Kuba zapisał na tablicy liczbę składającą się z pięciu dziewiątek. Następnie dodał dwie pierwsze cyfry tej liczby, po czym zmazał je i w ich miejsce wpisał otrzymaną sumę. Następnie to samo uczynił z nowo otrzymaną liczbą i powtarzał tę czynność z każdą kolejną liczbą tak długo, aż uzyskał liczbę jednocyfrową. Ile razy Kuba wykonał opisaną czynność zamiany pierwszych dwóch cyfr liczby na ich sumę?",
+    "choices": {
+      "A": "4",
+      "B": "5",
+      "C": "6",
+      "D": "7",
+      "E": "8"
+    }
+  },
+  "kangur-maluch-2018-12": {
+    "statement": "Zosia pocięła kartkę w kratkę na dwa rodzaje kawałków: Ilu takich kawałków potrzebuje, by ułożyć z nich ﬁgurę pokazaną na rysunku obok? (Kawałki papieru nie mogą na siebie nachodzić).",
+    "choices": {
+      "A": "5",
+      "B": "6",
+      "C": "7",
+      "D": "8",
+      "E": "9"
+    }
+  },
+  "kangur-maluch-2018-13": {
+    "statement": "Na krzaku róży jest 8 kwiatków. Na każdym kwiatku albo siedzi jeden motyl, albo jedna ważka, albo nie siedzi żaden owad. Kwiatków, na których nie siedzi żaden owad, jest mniej niż połowa. Łączna liczba motyli na tych kwiatkach jest dwa razy większa od łącznej liczby ważek. Ile motyli siedzi na kwiatkach?",
+    "choices": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "5",
+      "E": "6 www.kangur-mat.pl"
+    }
+  },
+  "kangur-maluch-2018-14": {
+    "statement": "Sławek skleił 10 sześciennych drewnianych klocków, tak jak na rysunku obok. Następnie pomalował otrzymaną bryłę ze wszystkich stron. Ile z tych dziesięciu klocków ma pomalowane dokładnie cztery ściany?",
+    "choices": {
+      "A": "5",
+      "B": "7",
+      "C": "8",
+      "D": "9",
+      "E": "10"
+    }
+  },
+  "kangur-maluch-2018-15": {
+    "statement": "Na obrazku pokazanym obok kolor biały zamieniono na czarny, a kolor czarny na biały. Tak zmienioną ﬁgurę obrócono. Który z poniższych rysunków przedstawia otrzymaną ﬁgurę?",
+    "choices": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "",
+      "E": ""
+    }
+  },
+  "kangur-maluch-2018-16": {
+    "statement": "Zosia zrobiła pasek dla lalki. Do nierozciągliwej tasiemki przyszyła z jednej strony guzik, a z dru- giej strony wykonała pięć dziurek w odległości co 2 cm (patrz rysunek). Pasek niezapięty 2 cm Pasek zapięty na pierwszą dziurkę O ile dłuższy jest pasek zapięty na pierwszą dziurkę od paska zapiętego na piątą dziurkę?",
+    "choices": {
+      "A": "O 4 cm.",
+      "B": "O 8 cm.",
+      "C": "O 10 cm.",
+      "D": "O 16 cm.",
+      "E": "O 20 cm. Pytania po 5 punktów"
+    }
+  },
+  "kangur-maluch-2018-17": {
+    "statement": "Kangur Skoczek wykonuje tylko skoki o długości 2 m i porusza się według następującej zasa- dy: po każdych trzech skokach do przodu wykonuje jeden skok do tyłu. Pokonał on pewną trasę wykonując w ten sposób łącznie czternaście skoków. Ile metrów liczyła ta trasa?",
+    "choices": {
+      "A": "8 metrów",
+      "B": "16 metrów",
+      "C": "15 metrów",
+      "D": "24 metry",
+      "E": "10 metrów"
+    }
+  },
+  "kangur-maluch-2018-18": {
+    "statement": "W pewnym starożytnym języku każdy z symboli oznacza jedną z liczb 1, 2, 3, 4, 5, przy czym każdy symbol oznacza inną liczbę. Wiadomo, że + = + = + = Który symbol oznacza liczbę 3?",
+    "choices": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "",
+      "E": ""
+    }
+  },
+  "kangur-maluch-2018-19": {
+    "statement": "Dana jest pewna liczba dwucyfrowa. Jeśli dodamy do niej 11, to wynik będzie liczbą trzycy- frową, jeśli zaś odejmiemy od niej 11, to wynik będzie równy iloczynowi dwóch jednakowych liczb jednocyfrowych. Daną liczbą dwucyfrową jest",
+    "choices": {
+      "A": "75.",
+      "B": "81.",
+      "C": "89.",
+      "D": "90.",
+      "E": "92. www.kangur-mat.pl"
+    }
+  },
+  "kangur-maluch-2018-20": {
+    "statement": "Koziołek Matołek postanowił przejść z Makuszyc do Pacanowa przez wszystkie miasta zaznaczone na mapie i wrócić do Makuszyc najkrótszą drogą. Długość całej trasy wynosi 100 km. Pewne odległości podane są na mapie – patrz rysunek. Ponadto wiadomo, że: (a) odległość z Marianowa do Walentynowa jest o 9 km krótsza niż odległość z Kornelowa do Walentynowa przez Marianów; (b) odległość z Makuszyc do Marianowa przez Kor- nelowo jest równa odległości z Marianowa do Walentynowa. 26 km 17 km Kornelowo Makuszyce Marianów Pacanów Walentynów Jak daleko jest z Makuszyc do Pacanowa, jeśli idziemy najkrótszą drogą?",
+    "choices": {
+      "A": "17 km",
+      "B": "23 km",
+      "C": "26 km",
+      "D": "22 km",
+      "E": "35 km"
+    }
+  },
+  "kangur-maluch-2018-21": {
+    "statement": "Mamy trzy wiadra różnej wielkości i w różnych kolorach: białe, niebieskie i zielone. Białe wiadro ma pojemność 10 litrów. Gdy do pustego białego wiadra przelejemy zawartość całkowicie napełnio- nego niebieskiego oraz w połowie napełnionego zielonego, to białe będzie napełnione w połowie. Gdy zaś połowę zawartości całkowicie napełnionego niebieskiego przelejemy do w połowie wypełnionego zielonego, okaże się, że w zielonym są 4 litry płynu. Jaką pojemność ma niebieskie wiadro?",
+    "choices": {
+      "A": "1 litr",
+      "B": "2 litry",
+      "C": "3 litry",
+      "D": "5 litrów",
+      "E": "6 litrów"
+    }
+  },
+  "kangur-maluch-2018-22": {
+    "statement": "Ola ogląda cztery zabawki: lalę, misia, piłkę i układankę. Każda zabawka ma inną cenę. Jedna z tych zabawek kosztuje 10 zł, inna 20 zł, a pozostałe 30 zł i 40 zł. Wiemy, że kupując misia i lalę, zapłacimy więcej niż kupując piłkę i układankę. Miś i układanka łącznie kosztują tyle samo co piłka. Która zabawka kosztuje 30 zł?",
+    "choices": {
+      "A": "Lala.",
+      "B": "Miś.",
+      "C": "Piłka.",
+      "D": "Układanka.",
+      "E": "Może być lala lub miś."
+    }
+  },
+  "kangur-maluch-2018-23": {
+    "statement": "Duży prostokąt został podzielony na 7 kwadratów – jak na rysunku. Zacieniowano trzy najmniejsze kwadraty. Ile takich małych kwadratów wypełni cały duży prostokąt?",
+    "choices": {
+      "A": "165",
+      "B": "176",
+      "C": "187",
+      "D": "198",
+      "E": "200"
+    }
+  },
+  "kangur-maluch-2018-24": {
+    "statement": "Jurek chce wpisać liczby od 1 do 7 do diagramu przedstawionego na rysunku obok w taki sposób, aby w kratkach stykających się bokami lub wierzchołkami nie wystąpiły dwie kolejne liczby. Jaką liczbę może Jurek wpisać w kratkę oznaczoną znakiem zapytania?",
+    "choices": {
+      "A": "Każdą z siedmiu liczb.",
+      "B": "Tylko 1, 3, 5 lub 7.",
+      "C": "Tylko 2, 4 lub 6.",
+      "D": "Tylko liczbę 4.",
+      "E": "Tylko 1 lub 7. ? c⃝Kangourou Sans Fronti`eres www.aksf.org c⃝Towarzystwo Upowszechniania Wiedzy i Nauk Matematycznych www.kangur-mat.pl"
+    }
+  },
+  "kangur-maluch-2019-1": {
+    "statement": "Jaki dzień tygodnia będzie jutro, jeżeli wczoraj była niedziela?",
+    "choices": {
+      "A": "Wtorek.",
+      "B": "Czwartek.",
+      "C": "Środa.",
+      "D": "Poniedziałek.",
+      "E": "Sobota."
+    }
+  },
+  "kangur-maluch-2019-2": {
+    "statement": "Wyższy poziom na podium oznacza lepszy wynik zawodnika (patrz rysunek). Trzecie miejsce zajął zawodnik z numerem",
+    "choices": {
+      "A": "1.",
+      "B": "2.",
+      "C": "3.",
+      "D": "4.",
+      "E": "5. 1 2 3 4 5"
+    }
+  },
+  "kangur-maluch-2019-3": {
+    "statement": "Asia wróciła ze spaceru o godzinie pokazanej na zegarze obok. Spacer trwał 38 minut. O której godzinie Asia wyszła z domu na ten spacer?",
+    "choices": {
+      "A": "O 11:33.",
+      "B": "O 12:43.",
+      "C": "O 11:38.",
+      "D": "O 11:27.",
+      "E": "O 12:38. 1 2 3 4 5 6 7 8 9 10 11 12"
+    }
+  },
+  "kangur-maluch-2019-4": {
+    "statement": "W okładce książeczki dla dzieci są dwa otwory – „okienka”. Otwarta książeczka wygląda tak: Które pojazdy zobaczy Sławek w „okienkach” po zamknięciu książeczki?",
+    "choices": {
+      "A": ", ,",
+      "B": ", ,",
+      "C": ", ,",
+      "D": ", ,",
+      "E": ", , www.kangur-mat.pl www.kangur-mat.pl"
+    }
+  },
+  "kangur-maluch-2019-5": {
+    "statement": "W krzyżówce obok działania wykonujemy tylko poziomo lub pio- nowo. Jaką liczbę otrzymamy w polu oznaczonym znakiem zapytania w poprawnie uzupełnionej krzyżówce?",
+    "choices": {
+      "A": "4",
+      "B": "5",
+      "C": "6",
+      "D": "7",
+      "E": "8 0 1 2 9 − + + + = = = = ?"
+    }
+  },
+  "kangur-maluch-2019-6": {
+    "statement": "Ola na korkowej tablicy przypięła za pomocą 8 pinezek 3 zdjęcia w taki sposób, że każde kolejne zdjęcie nachodzi na poprzednie i przypięte jest razem z nim dwiema pinezkami (patrz rysunek). Marysia w taki sam sposób chce przypiąć 7 zdjęć. Ile pinezek będzie do tego potrzebować?",
+    "choices": {
+      "A": "14",
+      "B": "16",
+      "C": "18",
+      "D": "22",
+      "E": "26"
+    }
+  },
+  "kangur-maluch-2019-7": {
+    "statement": "Czerwona świeczka wypala się w ciągu 2 godzin, a biała w ciągu 1 godziny. Zapalono jednocześnie dwie świeczki czerwone i trzy świeczki białe. Ile potrzeba czasu, aby świeczki te wypaliły się?",
+    "choices": {
+      "A": "7 godzin.",
+      "B": "5 godzin.",
+      "C": "4 godziny.",
+      "D": "3 godziny.",
+      "E": "2 godziny."
+    }
+  },
+  "kangur-maluch-2019-8": {
+    "statement": "Asia i Natalka mają po tyle samo orzechów. Każda ma ich mniej niż 12, a razem mają ich więcej niż 20. Ile orzechów ma każda z dziewczynek?",
+    "choices": {
+      "A": "7",
+      "B": "8",
+      "C": "9",
+      "D": "10",
+      "E": "11 Pytania po 4 punkty"
+    }
+  },
+  "kangur-maluch-2019-9": {
+    "statement": "Na rysunku obok przedstawiono kwadratową planszę z obrazkami. Jeden z poniższych prostokątów został wycięty z tej planszy. Który?",
+    "choices": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "",
+      "E": ""
+    }
+  },
+  "kangur-maluch-2019-10": {
+    "statement": "Franek ułożył ﬁgurę z pięciu kwadratowych kartoników (patrz rysunek obok). Chce usunąć z niej jeden kartonik. Ile z poniżej narysowanych ﬁgur może otrzymać Franek?",
+    "choices": {
+      "A": "Jedną.",
+      "B": "Dwie.",
+      "C": "Trzy.",
+      "D": "Cztery.",
+      "E": "Pięć."
+    }
+  },
+  "kangur-maluch-2019-11": {
+    "statement": "Tomek ma 16 niebieskich kulek. Może je wymienić na inne tylko w następujący sposób: za 3 niebieskie kulki może otrzymać 1 czerwoną, a za 2 czerwone 5 zielonych kulek. Jaką największą liczbę zielonych kulek może otrzymać Tomek?",
+    "choices": {
+      "A": "5",
+      "B": "10",
+      "C": "13",
+      "D": "15",
+      "E": "20"
+    }
+  },
+  "kangur-maluch-2019-12": {
+    "statement": "Kuba chce tak wpisać cyfry 2, 0, 1 i 9 w kratki diagramu obok, aby w każdej kratce była inna cyfra i aby wynik dodawania był największy z możliwych. Jaką cyfrę powinien wpisać w kratkę ze znakiem zapytania? + ?",
+    "choices": {
+      "A": "0 lub 1.",
+      "B": "0 lub 2.",
+      "C": "Tylko 0.",
+      "D": "Tylko 1.",
+      "E": "Tylko 2. www.kangur-mat.pl"
+    }
+  },
+  "kangur-maluch-2019-13": {
+    "statement": "Szklanka pełna wody waży 400 gramów, a pusta 100 gramów. Ile gra- mów waży szklanka napełniona wodą do połowy?",
+    "choices": {
+      "A": "150",
+      "B": "200",
+      "C": "225",
+      "D": "250",
+      "E": "300 400 g 100 g ?"
+    }
+  },
+  "kangur-maluch-2019-14": {
+    "statement": "Z trzech jasnych i trzech ciemnych pasków Helenka wykonała plecioną pod- stawkę (patrz rysunek). Jak będzie wyglądać ta podstawka, gdy Helenka od- wróci ją na drugą stronę?",
+    "choices": {
+      "A": "8 zł",
+      "B": "9 zł",
+      "C": "10 zł",
+      "D": "5 zł",
+      "E": "15. Razem kosztujemy 3 zł 50 gr. Razem kosztujemy 2 zł 50 gr. Razem kosztujemy 4 zł. Ile kosztujemy razem? 6 zł"
+    }
+  },
+  "kangur-maluch-2019-16": {
+    "statement": "Kwadratowy obrazek utworzony z 49 kwadracików Hania otoczy- ła ramką składającą się z 32 białych kwadracików (patrz rysunek). Ile takich białych kwadracików będzie potrzebowała dziewczynka, by obramować w taki sam sposób kwadratowy obrazek zbudowany ze 100 kwadracików?",
+    "choices": {
+      "A": "36",
+      "B": "40",
+      "C": "44",
+      "D": "48",
+      "E": "52 Pytania po 5 punktów"
+    }
+  },
+  "kangur-maluch-2019-17": {
+    "statement": "Pod każdym obrazkiem w diagramie ukryta jest liczba. Taki sam obrazek oznacza taką samą liczbę. Suma liczb z pierwszego wiersza jest równa 15, z dru- giego 12, a z trzeciego 16. Jaka liczba jest ukryta pod symbolem ?",
+    "choices": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "5",
+      "E": "6"
+    }
+  },
+  "kangur-maluch-2019-18": {
+    "statement": "Wszystkie strony książki są ponumerowane kolejnymi liczbami: 1, 2, 3, 4, 5, . . . Cyfra 5 pojawia się w numerach stron dokładnie 16 razy. Ile co najwyżej stron może mieć ta książka?",
+    "choices": {
+      "A": "59",
+      "B": "64",
+      "C": "66",
+      "D": "74",
+      "E": "80 www.kangur-mat.pl"
+    }
+  },
+  "kangur-maluch-2019-19": {
+    "statement": "Na łące pasą się krowy, owce i gęsi, łącznie 15 zwierząt. Wiemy, że 10 z nich nie jest krowami, a 8 z nich nie jest owcami. Ile gęsi pasie się na łące?",
+    "choices": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "8",
+      "E": "10"
+    }
+  },
+  "kangur-maluch-2019-20": {
+    "statement": "Na rysunku przedstawione są wymiary kory- tarza. Przez środek korytarza narysowano linię. Jaką długość ma ta linia?",
+    "choices": {
+      "A": "63 metry.",
+      "B": "68 metrów.",
+      "C": "69 metrów.",
+      "D": "71 metrów.",
+      "E": "83 metry. 6 m 8 m 20 m 28 m 36 m 40 m"
+    }
+  },
+  "kangur-maluch-2019-21": {
+    "statement": "W bajkowym sadzie rośnie jabłoń i grusza. Każdego dnia rano z jabłoni spada jedno jabłko, a w południe odrastają dwa, z gruszy zaś każdego dnia rano spadają dwie gruszki, a w południe odrastają trzy. W niedzielę wieczorem na tych drzewach były 3 jabłka i 5 gruszek. W jakim dniu tygodnia wieczorem na obu drzewach będzie łącznie 100 owoców?",
+    "choices": {
+      "A": "W poniedziałek.",
+      "B": "We wtorek.",
+      "C": "W środę.",
+      "D": "W czwartek.",
+      "E": "W piątek."
+    }
+  },
+  "kangur-maluch-2019-22": {
+    "statement": "Jeden z pięciu krasnoludków zjadł ciastko. Następnie każdy z nich wypowiedział jedno zdanie. Alek: Nie zjadłem ciastka. Bartek: Zjadłem ciastko. Czarek: Edek nie zjadł ciastka. Darek: Nie zjadłem ciastka. Edek: Ciastko zjadł Alek. Skłamał tylko jeden krasnoludek. Który z nich zjadł ciastko?",
+    "choices": {
+      "A": "Alek.",
+      "B": "Bartek.",
+      "C": "Czarek.",
+      "D": "Darek.",
+      "E": "Edek."
+    }
+  },
+  "kangur-maluch-2019-23": {
+    "statement": "Emilka rozwieszała pranie. Na sznurku zaczepiała każdy ręcznik dwiema klamerkami tak jak na rysunku 1. Zauważyła jednak, że zabraknie jej klamerek, więc od pewnego momentu zaczęła rozwieszać ręczniki w sposób przedstawiony na rysunku 2. Ogółem powiesiła 35 ręczników i użyła 58 klamerek. Ile ręczników Emilka powiesiła w sposób przedstawiony na rysunku 1? Rysunek 1 Rysunek 2",
+    "choices": {
+      "A": "12",
+      "B": "13",
+      "C": "21",
+      "D": "22",
+      "E": "23"
+    }
+  },
+  "kangur-maluch-2019-24": {
+    "statement": "Ściany kostki ponumerowane są liczbami od 1 do 6. Cztery iden- tyczne takie kostki Ula skleiła w sposób pokazany na rysunku. Ile wynosi suma liczb na sześciu sklejonych ścianach?",
+    "choices": {
+      "A": "25",
+      "B": "18",
+      "C": "21",
+      "D": "22",
+      "E": "20 4 2 3 5 c⃝Kangourou Sans Fronti`eres www.aksf.org c⃝Towarzystwo Upowszechniania Wiedzy i Nauk Matematycznych www.kangur-mat.pl"
+    }
+  },
+  "kangur-maluch-2020-1": {
+    "statement": "Ile to jest: 1 + 2 + 3 + 4 + 5 + 4 + 3 + 2 + 1?",
+    "choices": {
+      "A": "20",
+      "B": "22",
+      "C": "24",
+      "D": "25",
+      "E": "31"
+    }
+  },
+  "kangur-maluch-2020-2": {
+    "statement": "W poniedziałek wyrósł grzyb i każdego dnia podrastał. W każdy z 5 kolejnych dni od poniedziałku do piątku Alicja zrobiła jedno zdjęcie tego grzyba. Które zdjęcie Alicja zrobiła we wtorek?",
+    "choices": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "",
+      "E": ""
+    }
+  },
+  "kangur-maluch-2020-3": {
+    "statement": "Którą kolorowankę otrzymamy, gdy pokolorujemy wszystkie te kratki tabelki obok, w których wynik wynosi 20?",
+    "choices": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "",
+      "E": "16 + 4 19 + 1 28 −8 2 · 10 16 −4 7 · 3"
+    }
+  },
+  "kangur-maluch-2020-4": {
+    "statement": "Franek miał 6 kartoników — patrz rysunek obok. Ułożył z nich jedną z poniższych ﬁgur. Którą?",
+    "choices": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "",
+      "E": ""
+    }
+  },
+  "kangur-maluch-2020-5": {
+    "statement": "Na którym rysunku obszar zamalowany na szaro jest największy?",
+    "choices": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "",
+      "E": "www.kangur-mat.pl www.kangur-mat.pl"
+    }
+  },
+  "kangur-maluch-2020-6": {
+    "statement": "Ela narysowała kredą na chodniku kwadraty z liczbami — patrz rysunek. Stanęła na kwadracie z liczbą 1 i przeskakiwała kolejno na liczbę, która jest o 3 większa od tej, na której stała. Jaka jest największa liczba, na której mogła stanąć Ela?",
+    "choices": {
+      "A": "11",
+      "B": "14",
+      "C": "18",
+      "D": "19",
+      "E": "24 1 4 5 7 8 10 11 13 14 16 18 19 20 21 23 24"
+    }
+  },
+  "kangur-maluch-2020-7": {
+    "statement": "Na ścianach sześciennej kostki jest 6 obrazków: Na rysunku obok widzimy tę kostkę w dwóch pozycjach. Który obrazek znajduje się na ścianie naprzeciw kaczki?",
+    "choices": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "",
+      "E": ""
+    }
+  },
+  "kangur-maluch-2020-8": {
+    "statement": "Z listew o długości 1 metra Józek buduje ogro- dzenie. Obrazek przedstawia płot Józka o długości 4 metrów. Ilu listew potrzebuje Józek, by zbudować taki płot o długości 8 metrów?",
+    "choices": {
+      "A": "36",
+      "B": "22",
+      "C": "23",
+      "D": "32",
+      "E": "34 4 m Pytania po 4 punkty"
+    }
+  },
+  "kangur-maluch-2020-9": {
+    "statement": "Kasia miała obrazek (patrz rysunek obok) i pomalowała go trzema kolorami — żółtym, niebieskim i czerwonym. Uczyniła to tak, że każdy obszar był jednokolorowy, a sąsiadujące ze sobą ob- szary były pomalowane różnymi kolorami. Zewnętrzny pierścień dziewczynka zabarwiła na czerwono. Ile ogółem obszarów Kasia pokolorowała na czerwono?",
+    "choices": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4",
+      "E": "5"
+    }
+  },
+  "kangur-maluch-2020-10": {
+    "statement": "Na tablicy zapisano liczby od 1 do 8. Nauczycielka zakryła je ma- gnesami w kształcie trójkątów, kwadratów i koła. Suma czterech liczb zasłoniętych trójkątami wynosi 10, suma trzech liczb pod kwadratami wynosi 20. Jaką liczbę przykrywa koło?",
+    "choices": {
+      "A": "3",
+      "B": "4",
+      "C": "5",
+      "D": "6",
+      "E": "7"
+    }
+  },
+  "kangur-maluch-2020-11": {
+    "statement": "W czasie, gdy kangur wchodzi 7 schodków do góry, królik schodzi w dół 3 schodki. Ogółem jest 100 schod- ków. Na którym schodku spotkają się zwierzęta, jeżeli zaczęły poruszać się jednocześnie — kangur do góry, a królik w dół?",
+    "choices": {
+      "A": "53",
+      "B": "60",
+      "C": "63",
+      "D": "70",
+      "E": "73 1 2 3 99 100 www.kangur-mat.pl"
+    }
+  },
+  "kangur-maluch-2020-12": {
+    "statement": "Helena zapisała na kartce trzy liczby. Ich suma wynosi 50. Od każdej z tych liczb Helena odjęła pewną, tę samą liczbę i otrzymała następujące wyniki: 24, 13 i 7. Która z poniższych liczb jest jedną z tych, które Helena zapisała na początku?",
+    "choices": {
+      "A": "9",
+      "B": "11",
+      "C": "13",
+      "D": "17",
+      "E": "23"
+    }
+  },
+  "kangur-maluch-2020-13": {
+    "statement": "Kajtek ma 7 kartoników: Kartoniki układa na pasku w taki sposób, że nie mogą one zachodzić na siebie ani wystawać poza pasek. Ilu najwięcej kartoników może użyć Kajtek, by pokryć nimi cały pasek?",
+    "choices": {
+      "A": "3",
+      "B": "4",
+      "C": "5",
+      "D": "6",
+      "E": "7"
+    }
+  },
+  "kangur-maluch-2020-14": {
+    "statement": "Jurek ma dwa rodzaje patyczków — krótsze o długości 1cm i dłuższe o długości 3cm. Z którego z poniższych zestawów takich patyczków Jurek może ułożyć kwadrat? Patyczków nie wolno łamać ani układać jeden na drugim.",
+    "choices": {
+      "A": "5 krótszych i 2 dłuższe.",
+      "B": "3 krótsze i 3 dłuższe.",
+      "C": "6 krótszych.",
+      "D": "4 krótsze i 2 dłuższe.",
+      "E": "6 dłuższych."
+    }
+  },
+  "kangur-maluch-2020-15": {
+    "statement": "Zosia ma dużo jednakowych pięciokątnych kartoników: 1 2 3 4 5 Układa z nich wzór w kształcie korony, tak aby kartoniki stykały się ze sobą bokami trójkątów oznaczonych takimi samymi licz- bami. Zosia ułożyła już 4 kartoniki. Jaka liczba będzie w szarym trójkącie, gdy Zosia skończy układać cały wzór?",
+    "choices": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4",
+      "E": "5 1 1 2 2 3 3 4 4 5 5 1 1 2 2 3 3 4 4 5 5"
+    }
+  },
+  "kangur-maluch-2020-16": {
+    "statement": "Na obóz kangurowy przybyły jedynie drużyny składające się z 5 lub 6 osób. Ogółem na obozie było 43 uczestników. Ile drużyn przybyło na ten obóz?",
+    "choices": {
+      "A": "9",
+      "B": "8",
+      "C": "7",
+      "D": "6",
+      "E": "4 Pytania po 5 punktów"
+    }
+  },
+  "kangur-maluch-2020-17": {
+    "statement": "Suma oczek na ścianach kostki, leżących naprzeciwko siebie, jest równa 7. Kostkę tę położono na pierwszy kwadra- cik w sposób przedstawiony na obrazku. Następnie kostkę toczymy, obracając w prawo, aż znajdzie się ona na ostat- nim kwadraciku. 1 2 3 4 5 6 ? ? ? Jaka będzie suma oczek na trzech ściankach oznaczonych znakami zapytania?",
+    "choices": {
+      "A": "6",
+      "B": "7",
+      "C": "9",
+      "D": "11",
+      "E": "12"
+    }
+  },
+  "kangur-maluch-2020-18": {
+    "statement": "Sześcioro dzieci obchodziło urodziny w następujących dniach marca: 14, 15, 20, 21, 22 i 27. Ile spośród nich obchodziło lub będzie obchodzić urodziny w dniu konkursu Kangur Matematyczny, to znaczy w trzeci czwartek marca?",
+    "choices": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "5",
+      "E": "6 www.kangur-mat.pl"
+    }
+  },
+  "kangur-maluch-2020-19": {
+    "statement": "Każde z sześciorga dzieci kupiło po gałce lodów. Troje z nich wybrało smak waniliowy, dwoje czekoladowy i jedno cytrynowy. Jako dodatek do lodów jedno dziecko wybrało posypkę czekoladową, dwoje ciasteczka, troje zaś — wiśnie. Żadne dwoje dzieci nie kupiło lodów o takim samym smaku i z takim samym dodatkiem. Jakich lodów nie kupiło żadne z tych dzieci?",
+    "choices": {
+      "A": "Czekoladowych z wiśniami.",
+      "B": "Waniliowych z wiśniami.",
+      "C": "Cytrynowych z ciastkiem.",
+      "D": "Czekoladowych z ciastkiem.",
+      "E": "Waniliowych z posypką czekoladową."
+    }
+  },
+  "kangur-maluch-2020-20": {
+    "statement": "By wyjść z pokoju zagadek, dzieci muszą wybrać jeden z pięciu poniższych kodów, przy użyciu którego otworzą drzwi. Kod tworzą cztery symbole ustawione na czterech pozycjach. Kod otwiera- jący drzwi ma tę własność, że każdy symbol występujący w nim na danej pozycji, w żadnym innym kodzie na tej pozycji nie występuje. Którego kodu muszą użyć dzieci, by opuścić pokój zagadek?",
+    "choices": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "",
+      "E": ""
+    }
+  },
+  "kangur-maluch-2020-21": {
+    "statement": "W pewnej rodzinie każde dziecko ma co najmniej jednego brata i każde dziecko ma więcej sióstr niż braci. Ile co najmniej dzieci jest w tej rodzinie?",
+    "choices": {
+      "A": "6",
+      "B": "5",
+      "C": "4",
+      "D": "3",
+      "E": "2"
+    }
+  },
+  "kangur-maluch-2020-22": {
+    "statement": "Której z poniższych ﬁgur nie da się tak pociąć na trzy części, by każda część miała inny kształt i każda była utworzona z 5 zacieniowanych kratek (ciąć można tylko wzdłuż linii)?",
+    "choices": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "",
+      "E": ""
+    }
+  },
+  "kangur-maluch-2020-23": {
+    "statement": "W łamigłówce arytmetycznej NAR −RAC + JA pod każdą literą jest ukryta jedna z cyfr od 1 do 9. Takim samym literom odpowiada taka sama cyfra, różnym literom — różne cyfry. Jaki największy wynik można otrzymać po wykonaniu działań w tej łamigłówce?",
+    "choices": {
+      "A": "976",
+      "B": "929",
+      "C": "886",
+      "D": "877",
+      "E": "261"
+    }
+  },
+  "kangur-maluch-2020-24": {
+    "statement": "Pani Magdalena podczas zabawy z córeczkami wymyśliła pewien bajkowy język. Tłumaczenia następujących zdań: „Mama lubi banany”, „Tata lubi jabłka”, „Brat uwielbia banany”, „Siostra uwielbia banany” w owym języku, ale niekoniecznie w takiej samej kolejności, brzmią tak: „Ewe tum kete”, „Ato bem kito”, „Awe tum kete”, „Alo tum kito”. Które z poniższych zdań jest tłumaczeniem zdania „Mama uwielbia jabłka” na bajkowy język pani Magdaleny?",
+    "choices": {
+      "A": "Alo tum kete.",
+      "B": "Ewe bem kete.",
+      "C": "Alo bem kete.",
+      "D": "Alo tum kito.",
+      "E": "Alo bem kito. c⃝Kangourou Sans Fronti`eres www.aksf.org c⃝Towarzystwo Upowszechniania Wiedzy i Nauk Matematycznych www.kangur-mat.pl"
+    }
+  },
+  "kangur-maluch-2021-1": {
+    "statement": "Kajtek ma cztery klocki: . Którą z poniższych budowli mógł on z nich zbudować?",
+    "choices": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "",
+      "E": ""
+    }
+  },
+  "kangur-maluch-2021-2": {
+    "statement": "Ile ryb będzie miało głowę zwróconą w stronę kółka, gdy wyprostujemy linkę?",
+    "choices": {
+      "A": "3",
+      "B": "5",
+      "C": "6",
+      "D": "7",
+      "E": "8"
+    }
+  },
+  "kangur-maluch-2021-3": {
+    "statement": "Z czterech elementów układanki Józek ułożył prostokąt i zo- baczył na nim zapis pewnego działania arytmetycznego. Jaki jest wynik tego działania? 1 3 + 2",
+    "choices": {
+      "A": "6",
+      "B": "15",
+      "C": "18",
+      "D": "24",
+      "E": "33"
+    }
+  },
+  "kangur-maluch-2021-4": {
+    "statement": "Ala narysowała słoneczko. Który z obrazków nie przedstawia fragmentu ry- sunku Ali?",
+    "choices": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "",
+      "E": ""
+    }
+  },
+  "kangur-maluch-2021-5": {
+    "statement": "Franek i czterej jego koledzy strzelali po trzy razy do tarczy, każdy do swojej. Franek zdobył najwięcej punktów. Do której tarczy strzelał Franek?",
+    "choices": {
+      "A": "6 7 8 9 10",
+      "B": "6 7 8 9 10",
+      "C": "6 7 8 9 10",
+      "D": "6 7 8 9 10",
+      "E": "6 7 8 9 10"
+    }
+  },
+  "kangur-maluch-2021-6": {
+    "statement": "Dziadek Mieczysław podczas spaceru zebrał 20 grzybów. Były to koźlarze i borowiki, przy czym borowików było o 6 więcej niż koźlarzy. Ile borowików zebrał dziadek?",
+    "choices": {
+      "A": "9",
+      "B": "10",
+      "C": "12",
+      "D": "13",
+      "E": "15 www.kangur-mat.pl www.kangur-mat.pl"
+    }
+  },
+  "kangur-maluch-2021-7": {
+    "statement": "Na obrazkach przedstawione są kule w trzech barwach leżące na wagach. Kule tego samego koloru ważą tyle samo. Ile waży czarna kula?",
+    "choices": {
+      "A": "3 kg",
+      "B": "4 kg",
+      "C": "5 kg",
+      "D": "6 kg",
+      "E": "7 kg 6 kg 14 kg 10 kg"
+    }
+  },
+  "kangur-maluch-2021-8": {
+    "statement": "Ignacy ma karty z owocami w trzech rodzajach: , , . Na którym z pięciu poniższych obrazków nie może on tak zamienić dwóch kart miejscami, aby wszystkie owoce tego samego rodzaju leżały obok siebie?",
+    "choices": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "",
+      "E": "Pytania po 4 punkty"
+    }
+  },
+  "kangur-maluch-2021-9": {
+    "statement": "Ania chce wyjąć z pudełek 5 ﬁgur — wszystkie o różnych kształtach. Z każdego pudełka może wy- jąć tylko jedną ﬁgurę. Którą ﬁgurę powinna wyjąć z czwartego pudełka?",
+    "choices": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "",
+      "E": "1 2 3 4 5"
+    }
+  },
+  "kangur-maluch-2021-10": {
+    "statement": "Sławek skleił osobno klocki białe (rysunek 1), osobno klocki czarne (rysunek 2) i osobno szare. Z tych trzech części zbudował prostopadłościenną budowlę składającą się z 18 sześciennych kostek (rysunek 3). Na którym obrazku przedstawiona jest szara część budowli Sławka? Rysunek 1 Rysunek 2 Rysunek 3",
+    "choices": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "",
+      "E": ""
+    }
+  },
+  "kangur-maluch-2021-11": {
+    "statement": "Ewa miała 5 nalepek: . Nakleiła je na pokratkowany prostokąt — na każdą kratkę jedną nalepkę: 1 2 3 4 5 . Nalepka nie znalazła się na kwadracie 5, nalepkę nakleiła na kwadrat 1, a znajdował się dokładnie między i . Na którym kwadracie Ewa nakleiła kwiatek?",
+    "choices": {
+      "A": "5",
+      "B": "4",
+      "C": "3",
+      "D": "2",
+      "E": "1 www.kangur-mat.pl"
+    }
+  },
+  "kangur-maluch-2021-12": {
+    "statement": "Na każdej z trzech gałęzi eukaliptusa rosło po 20 liści. Z pierwszej gałęzi koala zjadł kilka liści. Z drugiej gałęzi koala zjadł tyle liści, ile pozostało niezjedzonych na pierwszej gałęzi. Z trzeciej gałęzi zjadł 2 liście. Ile liści łącznie pozostało na tych trzech gałęziach?",
+    "choices": {
+      "A": "38",
+      "B": "32",
+      "C": "28",
+      "D": "22",
+      "E": "20"
+    }
+  },
+  "kangur-maluch-2021-13": {
+    "statement": "W kasie przed otwarciem lodziarni znajdowała się pewna kwota pieniędzy. Po sprzedaży 6 jed- nakowych porcji lodów w kasie było 70 złotych. Po sprzedaży ogółem 16 takich porcji stan gotówki w kasie wynosił 120 złotych. Ile złotych było w kasie przed otwarciem lodziarni?",
+    "choices": {
+      "A": "20",
+      "B": "30",
+      "C": "40",
+      "D": "50",
+      "E": "60"
+    }
+  },
+  "kangur-maluch-2021-14": {
+    "statement": "W pewnej krainie 5 ﬁgur z zapisanymi na nich liczbami wyruszyło do bitwy. Poruszały się one jedna za drugą wzdłuż jednej linii w zaznaczonych strzałkami kierunkach. 3 7 9 10 20 Gdy dwie ﬁgury poruszające się w przeciwnych kierunkach zderzają się, ﬁgura z większą licz- bą pożera ﬁgurę z liczbą mniejszą. Zwycięska ﬁgura zachowuje swój kształt i kierunek ruchu, ale zwiększa swą wartość o liczbę z ﬁgury pokonanej. Oto przykład i wynik zderzenia się dwóch ﬁgur: 4 10 14 =⇒ Jaki będzie wynik zderzenia się tych pięciu ﬁgur?",
+    "choices": {
+      "A": "50",
+      "B": "48",
+      "C": "49",
+      "D": "50",
+      "E": "49"
+    }
+  },
+  "kangur-maluch-2021-15": {
+    "statement": "Na obrazku widzimy prostokąty oraz podane są pewne wy- miary. Jaką długość oznaczono znakiem zapytania?",
+    "choices": {
+      "A": "22 cm",
+      "B": "20 cm",
+      "C": "16 cm",
+      "D": "14 cm",
+      "E": "12 cm ? 32 cm 36 cm 48 cm"
+    }
+  },
+  "kangur-maluch-2021-16": {
+    "statement": "Kostek ustawił przed sobą 3 kubki. Następnie 10 razy powtórzył taką oto czynność. Brał skrajny kubek z lewej strony, odwracał go i stawiał po prawej stronie pozostałych dwóch kubków, przy czym jeżeli lewy skrajny kubek stał dnem do dołu, to odwracał go dnem do góry, a jeżeli stał dnem do góry, odwracał go dnem do dołu. Jak wyglądały kubki po wykonaniu tych 10 czynności?",
+    "choices": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "",
+      "E": "Pytania po 5 punktów"
+    }
+  },
+  "kangur-maluch-2021-17": {
+    "statement": "W kratki diagramu Helenka wpisuje wszystkie liczby od 1 do 9, w każdą kratkę jedną liczbę. Strzałki prowadzą od liczby mniejszej do większej. Dwie liczby Helenka już wpisała. Jaką liczbę powinna wpisać w miejscu znaku zapytania?",
+    "choices": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "6",
+      "E": "8 5 7 ? www.kangur-mat.pl"
+    }
+  },
+  "kangur-maluch-2021-18": {
+    "statement": "W pudełku jest mniej niż 50 ciastek. Można je podzielić po równo między dwoje, troje i czworo dzieci. Gdybyśmy chcieli te ciastka podzielić po równo pomiędzy siedmioro dzieci, to zabrakłoby nam 6 ciastek. Ile ciastek jest w pudełku?",
+    "choices": {
+      "A": "12",
+      "B": "24",
+      "C": "30",
+      "D": "36",
+      "E": "48"
+    }
+  },
+  "kangur-maluch-2021-19": {
+    "statement": "Staś rzucał lotkami do baloników z zapisanymi na nich punktami. W su- mie zdobył 30 punktów. W balonik z jaką liczbą na pewno traﬁł Staś?",
+    "choices": {
+      "A": "3",
+      "B": "9",
+      "C": "13",
+      "D": "14",
+      "E": "18 3 9 13 14 18"
+    }
+  },
+  "kangur-maluch-2021-20": {
+    "statement": "W kratki diagramu należy wpisać wszystkie liczby od 1 do 9, w każdą kratkę jedną liczbę. Nad i pod diagramem zapisano, ile powinny wynosić sumy liczb z dwóch zazna- czonych sąsiednich pól. Jaką liczbę należy wpisać w kratkę ze znakiem zapytania?",
+    "choices": {
+      "A": "7",
+      "B": "6",
+      "C": "5",
+      "D": "4",
+      "E": "3 ? = 7 z }| { = 9 z }| { = 9 z }| { = 11 z }| { | {z } = 3 | {z } = 8 | {z } = 15 | {z } = 15"
+    }
+  },
+  "kangur-maluch-2021-21": {
+    "statement": "W każdej z pięciu skrzyń znajdują się albo wyłącznie jabłka, albo wyłącznie banany. Na obrazku zapisano, ile ważą owoce w każdej skrzyni. 1 2 3 4 5 2 kg 5 kg 6 kg 7 kg 16 kg Wiadomo, że wszystkie banany ważą 3 razy więcej niż wszystkie jabłka. W których skrzyniach są jabłka?",
+    "choices": {
+      "A": "1 i 2",
+      "B": "2 i 3",
+      "C": "2 i 4",
+      "D": "3 i 4",
+      "E": "1 i 4"
+    }
+  },
+  "kangur-maluch-2021-22": {
+    "statement": "Na wagach leżą trzy rodzaje ﬁgur: , , . Figury tego samego rodzaju ważą tyle samo. Co należy dołożyć na lewą szalkę trzeciej wagi, by znalazła się ona w równowadze?",
+    "choices": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "",
+      "E": ""
+    }
+  },
+  "kangur-maluch-2021-23": {
+    "statement": "Przed gonitwą Ela wytypowała kolejność na mecie 8 startujących w niej koni. Po ukończonym wyścigu okazało się, że żadne dwa konie nie przybiegły na metę równocześnie. Koń Strzała ukończył bieg na pozycji wyższej niż wytypowała Ela, a pozostałe 7 koni na niższych. O ile miejsc pomyliła się Ela w określeniu miejsca, które zajęła Strzała?",
+    "choices": {
+      "A": "7",
+      "B": "4",
+      "C": "2",
+      "D": "1",
+      "E": "Nie da się tego ustalić."
+    }
+  },
+  "kangur-maluch-2021-24": {
+    "statement": "Do następujących kratek + = należy tak wpisać trzy liczby trzycyfrowe, aby w każdej z dziewięciu kratek była inna cyfra i wynik był poprawny. Oto przykład takiego wypełnienia diagramu: + = 0 1 2 3 4 5 6 7 8 . Jaką najmniejszą sumę można uzyskać w ten sposób?",
+    "choices": {
+      "A": "249",
+      "B": "365",
+      "C": "305",
+      "D": "345",
+      "E": "356 © Kangourou Sans Fronti`eres www.aksf.org © Towarzystwo Upowszechniania Wiedzy i Nauk Matematycznych www.kangur-mat.pl"
+    }
+  },
+  "kangur-maluch-2022-1": {
+    "statement": "Gdy Ania wciska klawisz ze znakiem ⇒, pszczoła przemieszcza się o jedną kratkę w prawo, gdy wciska klawisz ⇓— o jedną kratkę w dół. Której z poniż- szych kombinacji klawiszy powinna użyć Ania, by pszczoła traﬁła na kwiatek?",
+    "choices": {
+      "A": "⇒⇓⇒⇓⇓⇒",
+      "B": "⇓⇓⇒⇓⇓",
+      "C": "⇒⇓⇒⇓⇒",
+      "D": "⇒⇒⇓⇓⇓",
+      "E": "⇓⇒⇒⇓⇓⇓"
+    }
+  },
+  "kangur-maluch-2022-2": {
+    "statement": "Który pionek na planszy należy przestawić, by w każdym rzędzie i w każ- dej kolumnie planszy były dokładnie dwa pionki?",
+    "choices": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D",
+      "E": "E A B C D E"
+    }
+  },
+  "kangur-maluch-2022-3": {
+    "statement": "W pudełkach otwieranych z góry leżą zabawki. Co najmniej ile pudełek powinien zdjąć Sławek, by móc otworzyć szare pudełko z napisem „po- ciąg”? Pozostałe pudełka nie mogą być poruszo- ne.",
+    "choices": {
+      "A": "3",
+      "B": "4",
+      "C": "5",
+      "D": "6",
+      "E": "7"
+    }
+  },
+  "kangur-maluch-2022-4": {
+    "statement": "Z drewnianych klocków Ignaś ustawił konstrukcję pokazaną na rysunku obok. Jak wygląda ta konstrukcja z góry?",
+    "choices": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "",
+      "E": ""
+    }
+  },
+  "kangur-maluch-2022-5": {
+    "statement": "Suma trzech liczb w każdym rzędzie i w każdej kolumnie tabeli powinna być taka sama. Jedna liczba została wpisana niepoprawnie. Która?",
+    "choices": {
+      "A": "1",
+      "B": "3",
+      "C": "5",
+      "D": "Jedna z czwórek.",
+      "E": "Jedna z siódemek. 1 3 4 4 5 6 7 7 9"
+    }
+  },
+  "kangur-maluch-2022-6": {
+    "statement": "Kangur najpierw wykonał skok o długości dwóch metrów, póź- niej w tym samym kierunku dwa skoki metrowe. Następnie kilka- krotnie powtórzył ten zestaw trzech skoków. Ile skoków wykonał kangur, jeżeli przebył w taki sposób 16 metrów?",
+    "choices": {
+      "A": "4",
+      "B": "7",
+      "C": "8",
+      "D": "9",
+      "E": "12 0 2 3 4 www.kangur-mat.pl www.kangur-mat.pl"
+    }
+  },
+  "kangur-maluch-2022-7": {
+    "statement": "Który z poniższych elementów należy położyć na środku układanki, by kwadraciki oznaczone taką samą liczbą nie sąsiadowały ze sobą?",
+    "choices": {
+      "A": "1 2 3 4",
+      "B": "1 2 3 4",
+      "C": "1 2 3 4",
+      "D": "1 2 3 4",
+      "E": "1 2 3 4 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 3 3 3 3 3 3 3 4 4 4 4 4 4 5 5 5 5"
+    }
+  },
+  "kangur-maluch-2022-8": {
+    "statement": "Na obrazkach obok ukośne kreski oznaczają lu- stra. Gdy promień lasera natraﬁna lustro, odbija się od niego w sposób pokazany na rysunku 1. Przez jaki punkt przejdzie promień lasera na ry- sunku 2, jeżeli wypuścimy go wzdłuż strzałki?",
+    "choices": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D",
+      "E": "E A B C D E Rysunek 1 Rysunek 2 Pytania po 4 punkty"
+    }
+  },
+  "kangur-maluch-2022-9": {
+    "statement": "Pięć ponumerowanych pojazdów poruszało się jeden za drugim w tym samym kierunku. 1 2 3 4 5 Najpierw ostatnie auto wyprzedziło dwa samochody. Następnie samochód, który po tych ma- newrach okazał się przedostatni, wyprzedził dwa auta. Na koniec pojazd, jadący wówczas jako środkowy, wyprzedził dwa samochody. W jakiej kolejności jadą teraz te auta?",
+    "choices": {
+      "A": "2, 1, 3, 5, 4",
+      "B": "1, 2, 3, 4, 5",
+      "C": "2, 1, 5, 3, 4",
+      "D": "3, 1, 4, 2, 5",
+      "E": "4, 1, 2, 5, 3"
+    }
+  },
+  "kangur-maluch-2022-10": {
+    "statement": "Wiek sześciu kangurów to 2, 4, 5, 6, 8 i 10 lat. Cztery kangury, które w sumie mają 22 lata, poszły spać. Pozostałe kangury bawią się. Ile lat mają bawiące się kangury?",
+    "choices": {
+      "A": "2 i 8",
+      "B": "4 i 5",
+      "C": "5 i 8",
+      "D": "6 i 8",
+      "E": "6 i 10"
+    }
+  },
+  "kangur-maluch-2022-11": {
+    "statement": "Dzieci ustawiono w kilku rzędach, po tyle samo w każdym rzędzie. Kostek zauważył, że przed nim są dwa rzędy dzieci, a za nim jeden rząd. Zauważył też, że w jego rzędzie, po jego prawej stronie stoi pięcioro dzieci, zaś po jego lewej stronie w tym rzędzie jest troje dzieci. Ile dzieci ustawiono?",
+    "choices": {
+      "A": "36",
+      "B": "27",
+      "C": "18",
+      "D": "17",
+      "E": "10"
+    }
+  },
+  "kangur-maluch-2022-12": {
+    "statement": "Dzieci kolorowały obrazki. Na obrazku Franka nie ma królika. Na obrazku Józka jest piłka. Na obrazu Tadzika są zwierzęta różnego rodzaju. Obrazek Ali przedstawia jedno zwierzę. Na obrazku Kajtka nie ma zwierząt. Który obrazek kolorował Franek?",
+    "choices": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "",
+      "E": "www.kangur-mat.pl"
+    }
+  },
+  "kangur-maluch-2022-13": {
+    "statement": "Dywan Aladyna ma kształt kwadratu. Wzdłuż każdego jego boku znaj- duje się po tyle samo kropek, które są rozmieszczone w dwóch rzędach. Dywan zagiął się, jak na obrazku. Ile jest wszystkich kropek na tym dy- wanie?",
+    "choices": {
+      "A": "32",
+      "B": "36",
+      "C": "40",
+      "D": "44",
+      "E": "48"
+    }
+  },
+  "kangur-maluch-2022-14": {
+    "statement": "Hanik i Gerszon wyszli z punktu A z taką samą prędko- ścią w przeciwnych kierunkach wskazanych przez strzałki. Hanik spacerował dookoła kwadratowej rabatki o boku 5 metrów, Ger- szon dookoła prostokątnej rabatki o bokach 5 i 10 metrów. Co najmniej ile razy Hanik powinien obejść dookoła kwadrat, by ponownie spotkać się z Gerszonem?",
+    "choices": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4",
+      "E": "5 5 m 5 m 5 m 10 m A"
+    }
+  },
+  "kangur-maluch-2022-15": {
+    "statement": "W turnieju piłki nożnej uczestniczyły trzy drużyny. Każda drużyna grała z każdą z pozostałych jeden raz. Za wygrany mecz drużyna zdobywała 3 punkty, za przegrany — 0, za remis — 1 punkt. Ilu ogółem punktów nie mogła zdobyć żadna z drużyn po rozegraniu wszystkich meczów?",
+    "choices": {
+      "A": "1",
+      "B": "2",
+      "C": "4",
+      "D": "5",
+      "E": "6"
+    }
+  },
+  "kangur-maluch-2022-16": {
+    "statement": "Piramida jest zbudowana z sześciennych klocków o kra- wędzi 10 centymetrów. Na piramidę weszła mrówka (pogru- biona linia na rysunku to trasa mrówki), a następnie zeszła z niej z drugiej strony. Drugi obrazek przedstawia piramidę i drogę mrówki widziane z góry. Ile centymetrów przeszła mrówka podczas tego spaceru?",
+    "choices": {
+      "A": "30",
+      "B": "60",
+      "C": "70",
+      "D": "80",
+      "E": "90 Pytania po 5 punktów"
+    }
+  },
+  "kangur-maluch-2022-17": {
+    "statement": "Staś zbudował sześcian z trzech rodza- jów drewnianych klocków — patrz obrazek. Ilu białych sześciennych klocków użył Staś?",
+    "choices": {
+      "A": "8",
+      "B": "11",
+      "C": "13",
+      "D": "16",
+      "E": "19"
+    }
+  },
+  "kangur-maluch-2022-18": {
+    "statement": "Na stole leżała kwadratowa kartka z liczbami. Ela zgięła ją na pół wzdłuż poziomej linii zazna- czonej na pierwszym rysunku, unosząc górną część kartki i układając ją na dolnej. Następnie drugi raz zgięła ją na pół wzdłuż pionowej linii, układając lewą część na prawej. Nie obracając tak zgiętej kartki zrobiła w niej otwór przez wszystkie warstwy w miejscu czarnej kropki. Kwadraty z jakimi liczbami przedziurkowała Ela? 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36",
+    "choices": {
+      "A": "8, 11, 26, 29",
+      "B": "2, 5, 20, 23",
+      "C": "15, 16, 21, 22",
+      "D": "14, 17, 32, 35",
+      "E": "14, 17, 20, 23 www.kangur-mat.pl"
+    }
+  },
+  "kangur-maluch-2022-19": {
+    "statement": "Spośród przedstawionych niżej ﬁgur Helenka wybrała pewne ﬁgury i powiedziała: Wśród wybranych ﬁgur są dwie zacieniowane. Wśród wybranych ﬁgur są dwie duże. Wśród wybranych ﬁgur są dwie okrągłe. Co najmniej ile ﬁgur wybrała Helenka?",
+    "choices": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "5",
+      "E": "6"
+    }
+  },
+  "kangur-maluch-2022-20": {
+    "statement": "Ewa chce na środek układanki położyć taki jej fragment, by dom A był połączony ścieżkami z domami B i E, ale nie był połączony z domem D. Które dwa elementy układanki spełniają te wszystkie warunki? A B C D E F 1 2 3 4 5",
+    "choices": {
+      "A": "1 i 2",
+      "B": "2 i 3",
+      "C": "1 i 4",
+      "D": "4 i 5",
+      "E": "1 i 5"
+    }
+  },
+  "kangur-maluch-2022-21": {
+    "statement": "Pięcioro dzieci jadło śliwki. Kinga zjadła o dwie śliwki więcej niż Magda. Emilka zjadła o trzy śliwki mniej niż Kinga. Jola zjadła o jedną śliwkę więcej niż Emilka, ale o trzy mniej niż Władek. Które dzieci zjadły po tyle samo śliwek?",
+    "choices": {
+      "A": "Jola i Kinga.",
+      "B": "Kinga i Władek.",
+      "C": "Magda i Władek.",
+      "D": "Władek i Emilka.",
+      "E": "Jola i Magda."
+    }
+  },
+  "kangur-maluch-2022-22": {
+    "statement": "Obrazek przedstawia zabawną gąsienicę Hulajkulę . Może ona zwijać się na różne sposoby pod warunkiem, że kulki sąsiadujące ze sobą w rozwiniętej gąsienicy będą dotykać się także w zwiniętej. Który obrazek przedstawia zwiniętą Hulajkulę?",
+    "choices": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "",
+      "E": ""
+    }
+  },
+  "kangur-maluch-2022-23": {
+    "statement": "W polach kwadratu pod taką samą ﬁgurą ukryta jest taka sama liczba. Suma trzech liczb wiersza jest wpisana obok każdego z nich. Jaka liczba ukryta jest pod kółkiem?",
+    "choices": {
+      "A": "6",
+      "B": "8",
+      "C": "10",
+      "D": "12",
+      "E": "14 34 32 26"
+    }
+  },
+  "kangur-maluch-2022-24": {
+    "statement": "Na każdej skrzyni zapisano wagę umieszczonych w niej owoców. 1 kg 2 kg 3 kg 4 kg 5 kg 6 kg 9 kg 13 kg 17 kg Sadownik podzielił skrzynie na 3 grupy po 3 skrzynie w taki sposób, że owoce w każdej grupie ważą łącznie tyle samo. Która z poniższych skrzyń znalazła się w tej samej grupie co skrzynia zawierająca 6 kilogramów owoców?",
+    "choices": {
+      "A": "2 kg",
+      "B": "3 kg",
+      "C": "4 kg",
+      "D": "9 kg",
+      "E": "13 kg © Kangourou Sans Fronti`eres www.aksf.org © Towarzystwo Upowszechniania Wiedzy i Nauk Matematycznych www.kangur-mat.pl"
+    }
+  },
+  "kangur-maluch-2023-1": {
+    "statement": "Jednocześnie zapalono pięć identycznych świec. Każda świeca zgasła o innej porze — patrz obrazek. Która świeca zgasła pierwsza?",
+    "choices": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D",
+      "E": "E A B C D E"
+    }
+  },
+  "kangur-maluch-2023-2": {
+    "statement": "Na loterii można wygrać bilety wstępu z następującymi kodami: cyrk kino zoo pokój zagadek basen Dokąd może pójść Tadzio, jeżeli wylosował taki oto bilet: ?",
+    "choices": {
+      "A": "Do cyrku.",
+      "B": "Do kina.",
+      "C": "Do pokoju zagadek.",
+      "D": "Do zoo.",
+      "E": "Na basen."
+    }
+  },
+  "kangur-maluch-2023-3": {
+    "statement": "Jaka jest wartość każdej z dwóch jednakowych monet ze znakami zapytania? 1 1 ? ? 10 10 20 50 + + + + + + =",
+    "choices": {
+      "A": "1",
+      "B": "2",
+      "C": "5",
+      "D": "10",
+      "E": "20"
+    }
+  },
+  "kangur-maluch-2023-4": {
+    "statement": "Helenka ma cztery kartoniki: 1 2 3 4 Z których dwóch może tak ułożyć pokazany kwadrat, aby kartoniki nie zachodziły na siebie?",
+    "choices": {
+      "A": "Z 1 i 2.",
+      "B": "Z 1 i 3.",
+      "C": "Z 2 i 3.",
+      "D": "Z 2 i 4.",
+      "E": "Z 1 i 4. www.kangur-mat.pl www.kangur-mat.pl"
+    }
+  },
+  "kangur-maluch-2023-5": {
+    "statement": "Na tarczę zegara (obrazek pierwszy) nałożono szare koło z dwoma otworami (obrazek drugi). Bez poruszenia zegara ob- rócono koło dookoła jego środka. Które dwie spośród podanych liczb mogą być jednocześnie widoczne w otworach koła?",
+    "choices": {
+      "A": "4 i 9",
+      "B": "5 i 10",
+      "C": "5 i 9",
+      "D": "6 i 9",
+      "E": "7 i 12 1 2 3 4 5 6 7 8 9 10 11 12 1 5"
+    }
+  },
+  "kangur-maluch-2023-6": {
+    "statement": "Kajtek zgiął na pół przeźroczystą folię z nadrukiem wzdłuż przerywanej poziomej linii, nakładając górną jej część na dolną. Jaki widok zobaczył?",
+    "choices": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "",
+      "E": ""
+    }
+  },
+  "kangur-maluch-2023-7": {
+    "statement": "Ignaś ma 4 różne żetony. Z trzech z nich chce zbudować wieżę, tak aby najmniejszy z wybranych żetonów był na górze, a największy na dole. Na ile różnych sposobów może zbudować wieżę w zaplanowany przez siebie sposób?",
+    "choices": {
+      "A": "1",
+      "B": "2",
+      "C": "4",
+      "D": "5",
+      "E": "6"
+    }
+  },
+  "kangur-maluch-2023-8": {
+    "statement": "Na czarne koło (patrz rysunek obok) Ania położyła wycięte z papieru szare półkole oraz ćwierć białego koła (niekoniecznie w tej kolejności). Którego widoku nie mogła zobaczyć?",
+    "choices": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "",
+      "E": "Pytania po 4 punkty"
+    }
+  },
+  "kangur-maluch-2023-9": {
+    "statement": "Figurę z obrazka należy całkowicie przykryć pięcioma kartonikami pokaza- nymi w odpowiedziach. Który kartonik przykryje czarne kółko?",
+    "choices": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "",
+      "E": ""
+    }
+  },
+  "kangur-maluch-2023-10": {
+    "statement": "Ewa ma sześć odważników, które ważą 1, 2, 3, 4, 5 i 6 kilo- gramów. Pięć z nich położyła na wadze i waga pozostała w rów- nowadze. Który odważnik został poza wagą?",
+    "choices": {
+      "A": "1 kg",
+      "B": "2 kg",
+      "C": "3 kg",
+      "D": "4 kg",
+      "E": "Niemożliwe, by waga pozostała w równowadze. ? 5 6"
+    }
+  },
+  "kangur-maluch-2023-11": {
+    "statement": "W ośmiu samochodach znajduje się 19 osób. W każdym z tych aut jest dwoje albo troje ludzi. W ilu samochodach są dokładnie po 2 osoby?",
+    "choices": {
+      "A": "6",
+      "B": "5",
+      "C": "4",
+      "D": "3",
+      "E": "2"
+    }
+  },
+  "kangur-maluch-2023-12": {
+    "statement": "Ala chce pomalować wszystkie kółka z obrazka w taki sposób, by każde dwa kółka połączone jednym odcinkiem były w różnych kolorach. Co najmniej ile kredek w różnych kolorach powinna mieć Ala?",
+    "choices": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "5",
+      "E": "6 www.kangur-mat.pl"
+    }
+  },
+  "kangur-maluch-2023-13": {
+    "statement": "W trzech skrzyniach znajdują się jednakowe złote kule, jednakowe złote sztabki i jednakowe złote gwiazdki. Skarb w każdej skrzyni jest wart 40 dukatów. Ile dukatów jest warta złota gwiazdka?",
+    "choices": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4",
+      "E": "6"
+    }
+  },
+  "kangur-maluch-2023-14": {
+    "statement": "Franek ma linijkę o długości 60 cm, na której częściowo zatarła się podziałka. Franek zauwa- żył jednak, że przykładając linijkę do mierzonego obiektu tylko jeden raz, potraﬁzmierzyć każdą z długości 10, 20, 30, 40, 50 i 60 centymetrów. Który obrazek może przedstawiać linijkę Franka?",
+    "choices": {
+      "A": "60 cm 10 30",
+      "B": "60 cm 20 40",
+      "C": "60 cm 30 50",
+      "D": "60 cm 10 20",
+      "E": "60 cm 10 40"
+    }
+  },
+  "kangur-maluch-2023-15": {
+    "statement": "Na ścianie wisi pięć zegarów. Dwa z nich są zepsute i nie chodzą, jeden pokazuje poprawny czas, jeden zegar śpieszy się o trzy godziny, a jeden o trzy godziny się spóźnia. Który zegar chodzi poprawnie? 1 1 1 1 1 2 2 2 2 2 3 3 3 3 3 4 4 4 4 4 5 5 5 5 5 6 6 6 6 6 7 7 7 7 7 8 8 8 8 8 9 9 9 9 9 10 10 10 10 10 11 11 11 11 1112 12 12 12 12 A B C D E",
+    "choices": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D",
+      "E": "E"
+    }
+  },
+  "kangur-maluch-2023-16": {
+    "statement": "Kostek ustawił wzdłuż linii 6 autek oraz 2 moto- cykle i ponumerował kolejno wszystkie pojazdy. 1 2 3 4 5 6 7 8 Pośród każdych trzech kolejno stojących pojazdów był dokładnie jeden motocykl. Którym z po- niższych numerów Kostek oznaczył jeden z motocykli?",
+    "choices": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4",
+      "E": "5 Pytania po 5 punktów"
+    }
+  },
+  "kangur-maluch-2023-17": {
+    "statement": "Ela złożyła kwadratową kartkę papieru na połowę, układając dolną część kwadratu na górnej. Następnie otrzymany prostokąt złożyła na połowę, układając lewą jego część na prawej. Na koniec odcięła lewy dolny róg otrzymanego kwadratu i rozłożyła kartkę. Jaką wycinankę otrzymała Ela?",
+    "choices": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "",
+      "E": ""
+    }
+  },
+  "kangur-maluch-2023-18": {
+    "statement": "Linia metra ma 6 stacji: A, B, C, D, E i F. Pociąg zatrzymuje się na każdej z nich. Kiedy dotrze do stacji A lub do stacji F, to zmienia kierunek jazdy. A B C D E F Maszynista zaczął pracę na stacji B, a jego pierwszym przystankiem była stacja C. Która stacja będzie jego 96. przystankiem?",
+    "choices": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D",
+      "E": "E www.kangur-mat.pl"
+    }
+  },
+  "kangur-maluch-2023-19": {
+    "statement": "Na obrazkach jest przedstawiony Dinek, jego dwaj bracia i dwaj koledzy. Na grzbiecie braci Dinka jest w sumie dwa razy więcej trójkątnych wypustek niż łącznie na grzbietach jego kolegów. Na którym obrazku widnieje Dinek?",
+    "choices": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "",
+      "E": ""
+    }
+  },
+  "kangur-maluch-2023-20": {
+    "statement": "Marysia i Józek mieli po 9 piłek w dwóch kolorach. Ogółem mieli 8 niebieskich i 10 białych piłek. Marysia miała dwa razy więcej piłek białych niż niebieskich. Ile białych piłek miał Józek?",
+    "choices": {
+      "A": "3",
+      "B": "4",
+      "C": "5",
+      "D": "6",
+      "E": "0"
+    }
+  },
+  "kangur-maluch-2023-21": {
+    "statement": "Władek ma dwa urządzenia. Urządzenie O obraca wkładaną kartkę o ćwierć pełnego obrotu, jak pokazano na pierwszym obrazku. Urządzenie D drukuje na kartce znak ♣. Urządzenie O obrót . Urządzenie D ♣ W jakiej kolejności Władek użył swych maszyn, jeśli po włożeniu kartki widocznej z lewej strony otrzymał następujący rezultat? Urządzenie ? Urządzenie ? Urządzenie ? ♣",
+    "choices": {
+      "A": "DOO",
+      "B": "ODO",
+      "C": "ODD",
+      "D": "OOD",
+      "E": "DOD"
+    }
+  },
+  "kangur-maluch-2023-22": {
+    "statement": "Za 9 lat Sławek będzie miał 4 razy więcej lat niż miał 3 lata temu. Ile lat miał Sławek trzy lata temu?",
+    "choices": {
+      "A": "7",
+      "B": "6",
+      "C": "5",
+      "D": "4",
+      "E": "3"
+    }
+  },
+  "kangur-maluch-2023-23": {
+    "statement": "Do kółek należy wpisać każdą z liczb od 1 do 7 w taki sposób, by suma liczb w sąsiednich kółkach połączonych odcinkiem była równa liczbie zapisanej przy tym odcinku. Jaką liczbę należy wpisać w za- malowane kółko?",
+    "choices": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4",
+      "E": "5 6 7 8 8 9 9 9"
+    }
+  },
+  "kangur-maluch-2023-24": {
+    "statement": "Na pokratkowanej tablicy Staś zacieniował 5 kwadracików, na krótką chwilę pokazał obrazek pięciu kolegom i poprosił, by każdy z nich narysował taki rysunek. Po obejrzeniu rysunków Staś powiedział: „Jeden z was zacieniował kratki poprawnie, pozostała czwórka jedną kratkę zacieniowała błędnie, a cztery poprawnie.” Który z obrazków był taki sam, jak rysunek Stasia?",
+    "choices": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "",
+      "E": "© Kangourou Sans Fronti`eres www.aksf.org © Towarzystwo Upowszechniania Wiedzy i Nauk Matematycznych www.kangur-mat.pl"
+    }
+  },
+  "kangur-maluch-2024-1": {
+    "statement": "Który kwadrat został rozcięty wzdłuż pogrubionych linii na dwie części o różnych kształtach?",
+    "choices": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "",
+      "E": ""
+    }
+  },
+  "kangur-maluch-2024-2": {
+    "statement": "Która z następujących sum jest największa?",
+    "choices": {
+      "A": "202 + 4",
+      "B": "20 + 24",
+      "C": "2 + 0 + 2 + 4",
+      "D": "20 + 2 + 4",
+      "E": "2 + 0 + 24"
+    }
+  },
+  "kangur-maluch-2024-3": {
+    "statement": "Tabelka składa się z 28 pól. Dominika pokolorowała wszystkie pola znaj- dujące się w dwóch wierszach i wszystkie pola w jednej kolumnie tej tabelki. Ile pól pozostało niezamalowanych?",
+    "choices": {
+      "A": "8",
+      "B": "10",
+      "C": "12",
+      "D": "14",
+      "E": "16"
+    }
+  },
+  "kangur-maluch-2024-4": {
+    "statement": "Ściana kuchni była wyłożona naprzemiennie białymi i szarymi płytkami. Marysia nakleiła na niej prostokątny plakat konkursu Kangur — patrz obrazek. Ile szarych płytek przykrył ten plakat? Kangur Matematyczny 2024",
+    "choices": {
+      "A": "15",
+      "B": "21",
+      "C": "25",
+      "D": "30",
+      "E": "35"
+    }
+  },
+  "kangur-maluch-2024-5": {
+    "statement": "Staś zapisał trzy kolejne liczby czterocyfrowe. Następnie zasłonił niektóre cyfry (patrz rysunek). Co zostało zakryte? , , 7 898 48",
+    "choices": {
+      "A": "389, 3, 99",
+      "B": "489, 3, 96",
+      "C": "489, 4, 98",
+      "D": "488, 4, 99",
+      "E": "489, 4, 99 www.kangur-mat.pl www.kangur-mat.pl"
+    }
+  },
+  "kangur-maluch-2024-6": {
+    "statement": "Za trzy różne ciastka Helenka zapłaciła 7 złotych. Każde ciastko kosztowało całkowitą liczbę złotych i miało inną cenę. Ile kosztowało najdroższe ciastko?",
+    "choices": {
+      "A": "2 złote",
+      "B": "3 złote",
+      "C": "4 złote",
+      "D": "5 złotych",
+      "E": "6 złotych"
+    }
+  },
+  "kangur-maluch-2024-7": {
+    "statement": "Piłkarze z numerami od 1 do 11 stoją w kręgu przodem do siebie. Gracz z numerem 1 ma piłkę i podaje ją do trzeciego gracza po swojej lewej stronie. Ten, po otrzymaniu piłki, też podaje ją do trzeciego gracza po swojej lewej stronie (patrz rysunek). Taki schemat podań powtarza się, dopóki piłka nie traﬁdo któregoś z graczy po raz drugi. Jaki jest numer zawodnika, który jako ostatni podał piłkę?",
+    "choices": {
+      "A": "11",
+      "B": "9",
+      "C": "8",
+      "D": "6",
+      "E": "3 1 2 3 4 5 6 7 8 9 10 11"
+    }
+  },
+  "kangur-maluch-2024-8": {
+    "statement": "Ignaś zbudował konstrukcję z klocków. Kot strącił z niej jeden klocek — patrz obrazek. Jak mogła wyglądać ta budowla przed strąceniem klocka?",
+    "choices": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "",
+      "E": "Pytania po 4 punkty"
+    }
+  },
+  "kangur-maluch-2024-9": {
+    "statement": "Ela i Władek rzucają na zmianę monetą. Jeżeli wypadnie reszka (strona monety z liczbą), prze- suwają swój pionek o 3 pola w prawo. Jeśli wypadnie orzeł, przesuwają pionek o jedno pole w lewo lub pozostają na polu START. Oboje zaczęli na polu START i każdy rzucił monetą 4 razy. Ela stanęła na polu z numerem 4, a Władek na polu z numerem 8. Ile razy ogółem wyrzucili orła? 1 2 3 4 5 6 7 8 9 10 11 12 META START",
+    "choices": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4",
+      "E": "5"
+    }
+  },
+  "kangur-maluch-2024-10": {
+    "statement": "Na tacy leżało pięć owoców: . Kajtek lubi , Franek lubi , Józek lubi , Tadzio lubi , Alicja lubi . Każde dziecko dostało taki owoc, jaki lubi. Co dostał Józek?",
+    "choices": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "",
+      "E": "www.kangur-mat.pl"
+    }
+  },
+  "kangur-maluch-2024-11": {
+    "statement": "Podłoga jest wyłożona płytkami dwóch rodzajów: jasny- mi prostokątnymi i ciemnymi kwadratowymi . Jasna płytka ma wymiary 23 cm × 11 cm. Fragment tej podłogi jest pokazany na obrazku. Jaką długość ma bok płytki kwadratowej?",
+    "choices": {
+      "A": "3 cm",
+      "B": "4 cm",
+      "C": "5 cm",
+      "D": "6 cm",
+      "E": "7 cm"
+    }
+  },
+  "kangur-maluch-2024-12": {
+    "statement": "Pingwin Czarnuś codziennie przynosi 9 ryb swoim dwojgu pisklętom. Każdego dnia daje pierw- szemu napotkanemu pisklęciu 5 ryb, a drugiemu 4 ryby. W ciągu ostatnich kilku dni jedno z piskląt otrzymało 26 ryb. Ile ryb dostało w tym czasie drugie pisklę?",
+    "choices": {
+      "A": "19",
+      "B": "22",
+      "C": "25",
+      "D": "28",
+      "E": "31"
+    }
+  },
+  "kangur-maluch-2024-13": {
+    "statement": "Julek ma 5 puzzli i chce ułożyć z nich gąsienicę, która ma głowę, ogon i albo jeden, albo dwa, albo trzy inne elementy układanki pomiędzy nimi. Na ile różnych sposobów Julek może zbudować taką gąsienicę? (Puzzli nie wolno odwracać). −→ głowa ←−ogon",
+    "choices": {
+      "A": "3",
+      "B": "4",
+      "C": "5",
+      "D": "6",
+      "E": "7"
+    }
+  },
+  "kangur-maluch-2024-14": {
+    "statement": "Ada zbudowała wieżę z ośmiu żetonów — patrz obrazek. Usunęła z niej drugi żeton od dołu. Później usunęła trzeci od dołu żeton nowej wieży. Z otrzymanej wieży usunęła żeton czwarty od dołu. Z tak powstałej wieży usunęła żeton piąty od dołu. Jaką wieżę Ada otrzymała na koniec?",
+    "choices": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "",
+      "E": ""
+    }
+  },
+  "kangur-maluch-2024-15": {
+    "statement": "Siedem kart z liczbami od 1 do 7 ułożono w czterech okrę- gach. Dwie karty odkryto — patrz rysunek. Suma liczb w każ- dym okręgu wynosi 10. Jaka liczba jest na karcie ze znakiem zapytania?",
+    "choices": {
+      "A": "1",
+      "B": "2",
+      "C": "4",
+      "D": "5",
+      "E": "7 3 6 ?"
+    }
+  },
+  "kangur-maluch-2024-16": {
+    "statement": "Na zacieniowanej stronie kartki Ania zapisała cztery liczby. Następnie, wzdłuż krawędzi przechodzącej przez przerywaną linię, odwróciła kartkę na białą stronę. Zapisała na niej cztery inne liczby — patrz obrazek. Na koniec przecięła kartkę na cztery równe części 5 6 ? ? Ile wynosi suma liczb ukrytych pod znakami zapytania?",
+    "choices": {
+      "A": "3",
+      "B": "4",
+      "C": "5",
+      "D": "6",
+      "E": "7 1 2 3 4 5 6 7 8 Pytania po 5 punktów"
+    }
+  },
+  "kangur-maluch-2024-17": {
+    "statement": "Ewa ma trzy różne bryły. Kładła je po dwie na wadze i otrzymała następujące wyniki — patrz obrazki. Ile ważą razem te trzy bryły? 200 g 100 g 240 g ?",
+    "choices": {
+      "A": "270 g",
+      "B": "280 g",
+      "C": "290 g",
+      "D": "300 g",
+      "E": "310 g www.kangur-mat.pl"
+    }
+  },
+  "kangur-maluch-2024-18": {
+    "statement": "Kostek dodał trzy liczby trzycyfrowe i zapisał ich sumę 782. Niestety, zachlapał atramentem trzy cyfry: 243 + 124 + 415 = 782 Jaka jest suma cyfr pod trzema kleksami?",
+    "choices": {
+      "A": "8",
+      "B": "9",
+      "C": "10",
+      "D": "11",
+      "E": "12"
+    }
+  },
+  "kangur-maluch-2024-19": {
+    "statement": "Przed wycieczką 60 dzieci ustawiło się w szeregu. Dwa kolory ich kamizelek odblaskowych, zaczynając od pierwszego dziecka, to naprzemiennie: żółty, zielony, żółty, zielony . . . Trzy kolory plecaków dzieci, rozpoczynając od pierwszego, powtarzają się według schematu: czerwony, brązowy, niebieski, czerwony, brązowy, niebieski . . . Ilu uczniów w żółtej kamizelce miało niebieski plecak?",
+    "choices": {
+      "A": "3",
+      "B": "4",
+      "C": "6",
+      "D": "8",
+      "E": "10"
+    }
+  },
+  "kangur-maluch-2024-20": {
+    "statement": "Na diagramie obok pod taką samą ﬁgurą jest ukryta taka sama cyfra, pod różnymi ﬁgurami różne cyfry. Ile wynosi wynik mnożenia ? · ·",
+    "choices": {
+      "A": "0",
+      "B": "15",
+      "C": "18",
+      "D": "28",
+      "E": "30 + + = ="
+    }
+  },
+  "kangur-maluch-2024-21": {
+    "statement": "W każdym rzędzie i w każdej kolumnie znajdują się dokładnie dwie żaby. Żaby ustaliły, że dwie z nich jednocześnie przeskoczą na sąsiednie puste pola, ale tak, by nadal w każdym rzędzie i w każdej kolumnie były dokładnie dwie żaby. (Sąsiednie pola to takie, które mają wspólny bok). Na ile sposobów żaby mogą to zrobić?",
+    "choices": {
+      "A": "5",
+      "B": "4",
+      "C": "3",
+      "D": "2",
+      "E": "1"
+    }
+  },
+  "kangur-maluch-2024-22": {
+    "statement": "Plaster jest utworzony z dziewięciu sześciokątnych komórek. W nie- których z nich jest miód. Liczba w komórce wskazuje, w ilu sąsiadujących z nią komórkach, czyli mających z nią wspólny bok, jest miód. W ilu ko- mórkach znajduje się miód?",
+    "choices": {
+      "A": "4",
+      "B": "5",
+      "C": "6",
+      "D": "7",
+      "E": "8 1 1 2 2 3 3 3 4 4"
+    }
+  },
+  "kangur-maluch-2024-23": {
+    "statement": "Troje dzieci jedno po drugim podchodziło do tacy i brało ciastka, niekoniecznie w przedstawionej kolejności. Jedno z dzieci wzięło z tacy wszystkie ciastka w kształcie serca. Inne dziecko zabrało wszystkie jasne ciastka. Jeszcze inne dziecko wzięło wszystkie duże ciastka. Liczba ciastek, które wzięły dzieci, to 3, 6 i 7 (niekoniecznie w tej kolejności). Który z poniższych zestawów ciastek wzięło jedno z dzieci?",
+    "choices": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "",
+      "E": ""
+    }
+  },
+  "kangur-maluch-2024-24": {
+    "statement": "Sławek ma dwa rodzaje klocków: białe i szare . Mały sze- ścian buduje albo z czterech białych klocków, albo z jednego białego i jednego szarego klocka. Z małych sześcianów Sławek zbudował większy sześcian — patrz obrazek. Jaka jest najmniejsza liczba białych klocków, których mógł użyć Sła- wek do swej budowli?",
+    "choices": {
+      "A": "8",
+      "B": "11",
+      "C": "13",
+      "D": "14",
+      "E": "23 © Kangourou Sans Fronti`eres www.aksf.org © Towarzystwo Upowszechniania Wiedzy i Nauk Matematycznych www.kangur-mat.pl"
+    }
+  }
+}

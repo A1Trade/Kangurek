@@ -7,9 +7,9 @@
   "topic": "geometria_plaska",
   "estimatedMinutes": 15,
   "theory": {
-    "intro": "Mrowka idzie dookola kartki i wraca do startu. Droga, ktora przeszla, to obwod. Obwod to suma dlugosci wszystkich bokow figury. Plot wokol ogrodu, ramka obrazka, listwa wokol stolu - to wszystko obwody.",
-    "tool": "Sztuczka 1: OBWOD TO SUMA BOKOW. Po prostu dodaj dlugosci wszystkich bokow. Prostokat o bokach 5 i 3: obwod = 5 + 3 + 5 + 3 = 16.\n\nSztuczka 2: PROSTOKAT - SZYBKI WZOR. Obwod prostokata = 2 razy (dlugosc + szerokosc). Bo masz dwa dlugie boki i dwa krotkie.\n\nSztuczka 3: FIGURA ZLOZONA - PRZESUWAJ BOKI. W figurze schodkowej mozesz w mysli przesunac boki tak, by utworzyly prostokat. Obwod czesto wychodzi taki sam jak prostokata, ktory ja otacza.\n\nSztuczka 4: OBWOD NA KRATCE. Licz boczki kratek wzdluz brzegu figury. Kazdy bok kratki to jedna jednostka.",
-    "trick": "Pulapka Kangurka: figura wycieta z prostokata moze miec TAKI SAM obwod jak caly prostokat. Wciecie 'do srodka' nie zmienia obwodu, jezeli brzeg idzie tymi samymi liniami. Zawsze przesuwaj boki w mysli, zanim zaczniesz dodawac."
+    "intro": "Mrowka idzie dookola kartki i wraca do startu. Droga, która przeszla, to obwod. Obwod to suma długości wszystkich bokow figury. Plot wokol ogrodu, ramka obrazka, listwa wokol stolu - to wszystko obwody.",
+    "tool": "Sztuczka 1: OBWOD TO SUMA BOKOW. Po prostu dodaj długości wszystkich bokow. Prostokat o bokach 5 i 3: obwod = 5 + 3 + 5 + 3 = 16.\n\nSztuczka 2: PROSTOKAT - SZYBKI WZOR. Obwod prostokata = 2 razy (długość + szerokosc). Bo masz dwa długie boki i dwa krotkie.\n\nSztuczka 3: FIGURA ZLOZONA - PRZESUWAJ BOKI. W figurze schodkowej mozesz w mysli przesunac boki tak, by utworzyly prostokat. Obwod czesto wychodzi taki sam jak prostokata, który ja otacza.\n\nSztuczka 4: OBWOD NA KRATCE. Licz boczki kratek wzdłuż brzegu figury. Każdy bok kratki to jedna jednostka.",
+    "trick": "Pulapka Kangurka: figura wycieta z prostokata może mieć TAKI SAM obwod jak cały prostokat. Wciecie 'do srodka' nie zmienia obwodu, jeżeli brzeg idzie tymi samymi liniami. Zawsze przesuwaj boki w mysli, zanim zaczniesz dodawac."
   },
   "versions": [
     {
@@ -65,8 +65,8 @@
           "number": null,
           "difficulty": "3pkt",
           "topic": "geometria_plaska",
-          "subtopic": "obwod trojkata",
-          "statement": "Trojkat rownoboczny ma bok 5 cm. Ile wynosi jego obwod?",
+          "subtopic": "obwod trójkąta",
+          "statement": "Trójkąt rownoboczny ma bok 5 cm. Ile wynosi jego obwod?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -87,7 +87,7 @@
           "difficulty": "4pkt",
           "topic": "geometria_plaska",
           "subtopic": "ramka wokół kwadratu",
-          "statement": "Kwadratowy obrazek 7x7 (49 kratek) Hania otoczyła ramką z 32 białych kwadracików. Ile takich białych kwadracików będzie potrzebowała, by tak samo obramować obrazek kwadratowy 10x10 (100 kratek)?",
+          "statement": "Kwadratowy obrazek utworzony z 49 kwadracików Hania otoczy- ła ramką składającą się z 32 białych kwadracików (patrz rysunek). Ile takich białych kwadracików będzie potrzebowała dziewczynka, by obramować w taki sam sposób kwadratowy obrazek zbudowany ze 100 kwadracików?",
           "hasImage": true,
           "imageNote": "Obrazek 7x7 z kangurem otoczony ramką jednego rzędu białych kwadracików.",
           "choices": {
@@ -107,8 +107,8 @@
           "number": 15,
           "difficulty": "4pkt",
           "topic": "geometria_plaska",
-          "subtopic": "dlugosc z wymiarow prostokatow",
-          "statement": "Na obrazku widzimy prostokaty z wymiarami 32 cm, 36 cm i 48 cm. Jaka dlugosc oznaczono znakiem zapytania?",
+          "subtopic": "długość z wymiarow prostokatow",
+          "statement": "Na obrazku widzimy prostokąty oraz podane są pewne wy- miary. Jaką długość oznaczono znakiem zapytania?",
           "hasImage": true,
           "imageNote": "Uklad prostokatow z wymiarami 32, 36, 48 cm i odcinkiem ?.",
           "choices": {
@@ -131,7 +131,7 @@
           "difficulty": "5pkt",
           "topic": "geometria_plaska",
           "subtopic": "długość linii środkowej zakrzywionego korytarza",
-          "statement": "Korytarz w kształcie litery Z ma wymiary zewnętrzne: 36m i 40m (długie boki poziome), 28m (krótki bok poziomy), 6m, 8m i 20m (boki pionowe). Przez środek korytarza narysowano linię. Jaką długość ma ta linia?",
+          "statement": "Na rysunku przedstawione są wymiary kory- tarza. Przez środek korytarza narysowano linię. Jaką długość ma ta linia?",
           "hasImage": true,
           "imageNote": "Korytarz w kształcie litery Z z wymiarami zewnętrznymi.",
           "choices": {
@@ -139,7 +139,7 @@
             "B": "68 metrów.",
             "C": "69 metrów.",
             "D": "71 metrów.",
-            "E": "83 metry."
+            "E": "83 metry. 6 m 8 m 20 m 28 m 36 m 40 m"
           },
           "correct": "C",
           "imageSrc": "/images/orig/2019-20.png"
@@ -151,8 +151,8 @@
           "number": 23,
           "difficulty": "5pkt",
           "topic": "geometria_plaska",
-          "subtopic": "prostokat z kwadratow - skalowanie",
-          "statement": "Duzy prostokat zostal podzielony na 7 kwadratow. Zacieniowano 3 najmniejsze kwadraty. Ile takich malych kwadratow wypelni caly duzy prostokat?",
+          "subtopic": "prostokat z kwadratów - skalowanie",
+          "statement": "Duży prostokąt został podzielony na 7 kwadratów – jak na rysunku. Zacieniowano trzy najmniejsze kwadraty. Ile takich małych kwadratów wypełni cały duży prostokąt?",
           "hasImage": true,
           "imageNote": "Prostokat podzielony na kwadraty roznej wielkosci, 3 najmniejsze zacieniowane.",
           "choices": {
@@ -180,25 +180,25 @@
         },
         {
           "problemId": "gen-l18-v1-w2",
-          "observation": "Kwadrat - 4 rowne boki.",
+          "observation": "Kwadrat - 4 równe boki.",
           "strategy": "Obwod kwadratu.",
           "steps": [
             "Obwod = 4 razy 7 = 28 cm"
           ],
           "answer": "C",
           "alternative": null,
-          "hint": "Kwadrat - 4 rowne boki."
+          "hint": "Kwadrat - 4 równe boki."
         },
         {
           "problemId": "gen-l18-v1-w3",
-          "observation": "Trojkat rownoboczny - 3 rowne boki.",
-          "strategy": "Obwod trojkata.",
+          "observation": "Trójkąt rownoboczny - 3 równe boki.",
+          "strategy": "Obwod trójkąta.",
           "steps": [
             "Obwod = 3 razy 5 = 15 cm"
           ],
           "answer": "B",
           "alternative": null,
-          "hint": "Trojkat rownoboczny - 3 rowne boki."
+          "hint": "Trójkąt rownoboczny - 3 równe boki."
         },
         {
           "problemId": "kangur-maluch-2019-16",
@@ -213,23 +213,23 @@
         },
         {
           "problemId": "kangur-maluch-2021-15",
-          "observation": "Szukamy dlugosci z wymiarow prostokatow.",
+          "observation": "Szukamy długości z wymiarow prostokatow.",
           "strategy": "Roznice wymiarow.",
           "steps": [
             "Z ukladu prostokatow 32, 36, 48 cm",
-            "Szukana dlugosc to 20 cm"
+            "Szukana długość to 20 cm"
           ],
           "answer": "B",
           "alternative": null,
-          "hint": "Szukamy dlugosci z wymiarow prostokatow."
+          "hint": "Szukamy długości z wymiarow prostokatow."
         },
         {
           "problemId": "kangur-maluch-2019-20",
           "observation": "Linia srodkiem zakrzywionego korytarza.",
-          "strategy": "Sumowanie dlugosci wzdluz linii.",
+          "strategy": "Sumowanie długości wzdłuż linii.",
           "steps": [
             "Linia srodkowa biegnie przez zakrety korytarza",
-            "Jej dlugosc to 69 metrow"
+            "Jej długość to 69 metrow"
           ],
           "answer": "C",
           "alternative": null,
@@ -238,10 +238,10 @@
         {
           "problemId": "kangur-maluch-2018-23",
           "observation": "Prostokat podzielony na kwadraty - skalowanie.",
-          "strategy": "Stosunki bokow kwadratow.",
+          "strategy": "Stosunki bokow kwadratów.",
           "steps": [
-            "Prostokat z 7 kwadratow, 3 najmniejsze zacieniowane",
-            "Caly prostokat to 198 malych kwadratow"
+            "Prostokat z 7 kwadratów, 3 najmniejsze zacieniowane",
+            "Cały prostokat to 198 małych kwadratów"
           ],
           "answer": "D",
           "alternative": null,
@@ -303,7 +303,7 @@
           "difficulty": "3pkt",
           "topic": "geometria_plaska",
           "subtopic": "obwod figury z kratek",
-          "statement": "Prostokat na kratce ma 5 kratek dlugosci i 2 kratki szerokosci. Ile boczkow kratek ma jego obwod?",
+          "statement": "Prostokat na kratce ma 5 kratek długości i 2 kratki szerokosci. Ile boczkow kratek ma jego obwod?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -324,7 +324,7 @@
           "difficulty": "4pkt",
           "topic": "geometria_plaska",
           "subtopic": "bok kwadratowej plytki z wymiarow",
-          "statement": "Podloga wylozona plytkami: jasnymi prostokatnymi 23 cm x 11 cm i ciemnymi kwadratowymi. Jaka dlugosc ma bok plytki kwadratowej?",
+          "statement": "Podłoga jest wyłożona płytkami dwóch rodzajów: jasny- mi prostokątnymi i ciemnymi kwadratowymi . Jasna płytka ma wymiary 23 cm × 11 cm. Fragment tej podłogi jest pokazany na obrazku. Jaką długość ma bok płytki kwadratowej?",
           "hasImage": true,
           "imageNote": "Fragment podlogi z plytkami prostokatnymi i kwadratowymi.",
           "choices": {
@@ -368,7 +368,7 @@
           "difficulty": "5pkt",
           "topic": "geometria_plaska",
           "subtopic": "prostokaty w prostokacie - wymiary",
-          "statement": "Kostek narysowal i zacieniowal 11 identycznych prostokatow. Rysunek ma 100 cm dlugosci i 60 cm szerokosci. Jakie wymiary ma kazdy z 11 prostokatow?",
+          "statement": "Kostek narysował i zacieniowal 11 identycznych prostokatow. Rysunek ma 100 cm długości i 60 cm szerokosci. Jakie wymiary ma każdy z 11 prostokatow?",
           "hasImage": true,
           "imageNote": "Prostokat 100x60 wypelniony 11 identycznymi prostokatami.",
           "choices": {
@@ -389,7 +389,7 @@
           "difficulty": "5pkt",
           "topic": "geometria_plaska",
           "subtopic": "prostokat z 2 identycznych czesci - kwadrat",
-          "statement": "Prostokat przeciety na 2 identyczne czesci. Ulozono z nich kwadrat. Dluzszy bok prostokata mial 27 cm. O ile cm krotszy bok prostokata jest krotszy od dluzszego boku tego kwadratu?",
+          "statement": "Prostokat przeciety na 2 identyczne czesci. Ulozono z nich kwadrat. Dłuższy bok prostokata miał 27 cm. O ile cm krótszy bok prostokata jest krótszy od dluzszego boku tego kwadratu?",
           "hasImage": true,
           "imageNote": "Prostokat ciety w 'schody' i przeksztalcony w kwadrat.",
           "choices": {
@@ -406,14 +406,14 @@
       "solutions": [
         {
           "problemId": "gen-l18-v2-w1",
-          "observation": "Obwod prostokata = 2 razy (dlugosc + szerokosc).",
+          "observation": "Obwod prostokata = 2 razy (długość + szerokosc).",
           "strategy": "Wzor na obwod.",
           "steps": [
             "Obwod = 2 razy (8 + 5) = 2 razy 13 = 26 cm"
           ],
           "answer": "B",
           "alternative": null,
-          "hint": "Obwod prostokata = 2 razy (dlugosc + szerokosc)."
+          "hint": "Obwod prostokata = 2 razy (długość + szerokosc)."
         },
         {
           "problemId": "gen-l18-v2-w2",
@@ -440,7 +440,7 @@
         {
           "problemId": "kangur-maluch-2024-11",
           "observation": "Bok plytki kwadratowej z wymiarow plytki prostokatnej.",
-          "strategy": "Zaleznosc miedzy plytkami.",
+          "strategy": "Zaleznosc między plytkami.",
           "steps": [
             "Plytka jasna 23 cm na 11 cm",
             "Z ukladu plytek bok kwadratowej to 6 cm"
@@ -451,14 +451,14 @@
         },
         {
           "problemId": "gen-l18-v2-w5",
-          "observation": "Kwadrat - 4 rowne boki.",
+          "observation": "Kwadrat - 4 równe boki.",
           "strategy": "Obwod kwadratu.",
           "steps": [
             "Obwod = 4 razy 9 = 36 cm"
           ],
           "answer": "C",
           "alternative": null,
-          "hint": "Kwadrat - 4 rowne boki."
+          "hint": "Kwadrat - 4 równe boki."
         },
         {
           "problemId": "kangur-maluch-2025-17",
@@ -466,7 +466,7 @@
           "strategy": "Podzial prostokata 100 na 60.",
           "steps": [
             "11 identycznych prostokatow w prostokacie 100 cm na 60 cm",
-            "Kazdy ma wymiary 12 cm na 40 cm"
+            "Każdy ma wymiary 12 cm na 40 cm"
           ],
           "answer": "C",
           "alternative": null,
@@ -478,7 +478,7 @@
           "strategy": "Roznica bokow prostokata i kwadratu.",
           "steps": [
             "Prostokat z dluzszym bokiem 27 cm pociety i zlozony w kwadrat",
-            "Krotszy bok prostokata jest o 6 cm krotszy od boku kwadratu"
+            "Krótszy bok prostokata jest o 6 cm krótszy od boku kwadratu"
           ],
           "answer": "B",
           "alternative": null,
@@ -498,7 +498,7 @@
           "difficulty": "5pkt",
           "topic": "geometria_plaska",
           "subtopic": "dwa zgiecia i przebicie kartki",
-          "statement": "Kwadratowa kartka 6x6 z liczbami 1-36. Ela zagiela ja poziomo (gorna polowa na dolna), potem pionowo (lewa na prawa). Zrobila otwor w jednej kratce (gorny srodek 3x3). Ktore liczby przedziurkowala?",
+          "statement": "Na stole leżała kwadratowa kartka z liczbami. Ela zgięła ją na pół wzdłuż poziomej linii zazna- czonej na pierwszym rysunku, unosząc górną część kartki i układając ją na dolnej. Następnie drugi raz zgięła ją na pół wzdłuż pionowej linii, układając lewą część na prawej. Nie obracając tak zgiętej kartki zrobiła w niej otwór przez wszystkie warstwy w miejscu czarnej kropki. Kwadraty z jakimi liczbami przedziurkowała Ela? 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36",
           "hasImage": true,
           "imageNote": "Tabela 6x6 z liczbami 1-36, schematy zgiecia, kratka 3x3 z kropka.",
           "choices": {
@@ -517,18 +517,18 @@
         {
           "problemId": "kangur-maluch-2022-18",
           "observation": "Kartka 6x6 (liczby 1-36) zgieta poziomo i pionowo. Otwor dziurkuje 4 liczby naraz.",
-          "strategy": "Sledz symetrie: kazda dziurka odpowiada 4 liczbom (po jednym z kazdej cwiartki).",
+          "strategy": "Sledz symetrie: każda dziurka odpowiada 4 liczbom (po jednym z każdej cwiartki).",
           "steps": [
-            "Zgiecie poziome: gorna polowa (1-18) lozy na dolnej (19-36). Para 1<->31, 2<->32, ..., 6<->36.",
+            "Zgiecie poziome: gorna połowa (1-18) lozy na dolnej (19-36). Para 1<->31, 2<->32, ..., 6<->36.",
             "Wiersze 1<->6, 2<->5, 3<->4.",
-            "Zgiecie pionowe: lewa polowa na prawa. Kolumny 1<->6, 2<->5, 3<->4.",
-            "Otwor w gorny srodek 3x3 - liczba 14 (wiersz 3, kolumna 2).",
+            "Zgiecie pionowe: lewa połowa na prawa. Kolumny 1<->6, 2<->5, 3<->4.",
+            "Otwor w górny srodek 3x3 - liczba 14 (wiersz 3, kolumna 2).",
             "Liczby symetryczne: 14, 17 (po pionie), 20, 23 (po poziomie i pionie).",
             "Odpowiedz: 14, 17, 20, 23."
           ],
           "answer": "E",
           "alternative": null,
-          "hint": "Kazde zlozenie odbija liczby symetrycznie. Po dwoch zlozeniach jeden punkt = 4 liczby."
+          "hint": "Każde zlozenie odbija liczby symetrycznie. Po dwóch zlozeniach jeden punkt = 4 liczby."
         }
       ]
     }
@@ -552,7 +552,7 @@
         "C": "Najdluzszy bok"
       },
       "correct": "A",
-      "explain": "Obwod to suma dlugosci wszystkich bokow figury."
+      "explain": "Obwod to suma długości wszystkich bokow figury."
     },
     {
       "q": "Kwadrat o obwodzie 20 cm ma bok:",

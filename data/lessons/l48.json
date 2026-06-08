@@ -7,9 +7,9 @@
   "topic": "lamiglowki",
   "estimatedMinutes": 14,
   "theory": {
-    "intro": "Kazda odpowiedz w Kangurku to A, B, C, D albo E - jedna z 5. Zamiast szukac poprawnej, ELIMINUJ niepoprawne. Czesto 3 z 5 mozna wyrzucic w 10 sekund - zostaja 2, miedzy ktorymi wybierasz dokladniej.",
-    "tool": "Sztuczka 1: ROZMIAR. Jezeli wynik powinien byc okolo 50, odpowiedzi 5 i 500 mozna wyrzucic od razu.\n\nSztuczka 2: PARZYSTOSC. Wynik MUSI byc parzysty/nieparzysty? Wyrzuc te o zlej parzystosci.\n\nSztuczka 3: OSTATNIA CYFRA. 23 razy 7 - 3*7=21, ostatnia 1. Z odpowiedzi szukaj tylko konczacych sie na 1.\n\nSztuczka 4: SENS. Liczba dzieci ujemna? Negatywne pole? Zero powierzchni? Eliminuj 'niemozliwe' odpowiedzi.",
-    "trick": "Pulapka: nie WSZYSTKIE odpowiedzi sa eliminowane technikami. Zostaja 2-3 'realnie mozliwe'. Tutaj juz musisz sprawdzic dokladniej. Eliminacja to sposob na PRZYSPIESZENIE, nie na pominiecie liczenia w 100%."
+    "intro": "Każda odpowiedz w Kangurku to A, B, C, D albo E - jedna z 5. Zamiast szukac poprawnej, ELIMINUJ niepoprawne. Czesto 3 z 5 można wyrzucic w 10 sekund - zostaja 2, między ktorymi wybierasz dokladniej.",
+    "tool": "Sztuczka 1: ROZMIAR. Jeżeli wynik powinien byc okolo 50, odpowiedzi 5 i 500 można wyrzucic od razu.\n\nSztuczka 2: PARZYSTOSC. Wynik Musi byc parzysty/nieparzysty? Wyrzuc te o zlej parzystosci.\n\nSztuczka 3: OSTATNIA CYFRA. 23 razy 7 - 3*7=21, ostatnia 1. Z odpowiedzi szukaj tylko konczacych sie na 1.\n\nSztuczka 4: SENS. Liczba dzieci ujemna? Negatywne pole? Zero powierzchni? Eliminuj 'niemozliwe' odpowiedzi.",
+    "trick": "Pulapka: nie Wszystkie odpowiedzi sa eliminowane technikami. Zostaja 2-3 'realnie mozliwe'. Tutaj juz musisz sprawdzic dokladniej. Eliminacja to sposob na PRZYSPIESZENIE, nie na pominiecie liczenia w 100%."
   },
   "versions": [
     {
@@ -24,7 +24,7 @@
           "difficulty": "3pkt",
           "topic": "lamiglowki",
           "subtopic": "eliminacja parzystosci",
-          "statement": "Suma trzech parzystych. Eliminuj odpowiedzi nieparzyste. Ktorych odpowiedzi NIE eliminujesz?",
+          "statement": "Suma trzech parzystych. Eliminuj odpowiedzi nieparzyste. Których odpowiedzi NIE eliminujesz?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -45,7 +45,7 @@
           "difficulty": "3pkt",
           "topic": "lamiglowki",
           "subtopic": "eliminacja rozmiaru",
-          "statement": "Liczba dzieci w klasie. Ktora odpowiedz NA PEWNO NIE pasuje?",
+          "statement": "Liczba dzieci w klasie. Która odpowiedz NA PEWNO NIE pasuje?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -66,7 +66,7 @@
           "difficulty": "3pkt",
           "topic": "lamiglowki",
           "subtopic": "eliminacja ostatniej cyfry",
-          "statement": "13 razy 4 - ostatnia cyfra wyniku to 3*4=12, czyli 2. Ktora odpowiedz pasuje?",
+          "statement": "13 razy 4 - ostatnia cyfra wyniku to 3*4=12, czyli 2. Która odpowiedz pasuje?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -87,9 +87,9 @@
           "difficulty": "3pkt",
           "topic": "logika",
           "subtopic": "porownywanie liczby obiektow",
-          "statement": "Na ktorym z ponizszych rysunkow (siatki 4x4 z kangurami) czarnych kangurow jest WIECEJ niz bialych?",
+          "statement": "Na którym z poniższych rysunków czarnych kangurów jest więcej niż białych?",
           "hasImage": true,
-          "imageNote": "Piec siatek 4x4 z czarnymi i bialymi kangurami w roznych ukladach.",
+          "imageNote": "Pięć siatek 4x4 z czarnymi i bialymi kangurami w różnych ukladach.",
           "choices": {
             "A": "siatka A",
             "B": "siatka B",
@@ -107,10 +107,10 @@
           "number": 1,
           "difficulty": "3pkt",
           "topic": "arytmetyka",
-          "subtopic": "suma oczek z dwoch rzutow kostka",
-          "statement": "Ania, Basia, Cesia, Dorotka i Ela rzucaly kostka do gry, kazda dwa razy. Ktora wyrzucila lacznie najwiecej oczek?",
+          "subtopic": "suma oczek z dwóch rzutów kostka",
+          "statement": "Ania, Basia, Cesia, Dorotka i Ela rzucaly kostka do gry, każda dwa razy. Która wyrzucila łącznie najwiecej oczek?",
           "hasImage": true,
-          "imageNote": "Piec par kostek z roznymi liczbami oczek dla kazdej dziewczynki.",
+          "imageNote": "Pięć par kostek z roznymi liczbami oczek dla każdej dziewczynki.",
           "choices": {
             "A": "Ania",
             "B": "Basia",
@@ -131,7 +131,7 @@
           "difficulty": "3pkt",
           "topic": "arytmetyka",
           "subtopic": "dzielenie z ulamkiem - polowki",
-          "statement": "W koszyku byly jablka. Ania i jej piec kolezanek podzielily je miedzy siebie. Kazda dostala pol jablka. Ile jablek bylo w koszyku?",
+          "statement": "W koszyku były jabłka. Ania i jej pięć kolezanek podzielily je między siebie. Każda dostała pol jabłka. Ile jabłek było w koszyku?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -151,10 +151,10 @@
           "number": 5,
           "difficulty": "3pkt",
           "topic": "arytmetyka",
-          "subtopic": "najwieksza suma punktow na tarczy",
-          "statement": "Franek i czterej koledzy strzelali po 3 razy do tarczy (pierscienie 10, 9, 8, 7, 6 - srodek 10). Franek zdobyl najwiecej punktow. Do ktorej tarczy strzelal Franek?",
+          "subtopic": "najwieksza suma punktów na tarczy",
+          "statement": "Franek i czterej jego koledzy strzelali po trzy razy do tarczy, każdy do swojej. Franek zdobył najwięcej punktów. Do której tarczy strzelał Franek?",
           "hasImage": true,
-          "imageNote": "Piec tarcz z trzema trafieniami kazda.",
+          "imageNote": "Pięć tarcz z trzema trafieniami każda.",
           "choices": {
             "A": "tarcza A",
             "B": "tarcza B",
@@ -203,35 +203,35 @@
         {
           "problemId": "kangur-maluch-2013-1",
           "observation": "Siatki 4x4 z kangurami.",
-          "strategy": "Policz w kazdej z 5 opcji.",
+          "strategy": "Policz w każdej z 5 opcji.",
           "steps": [
             "Z analizy odpowiedz: siatka D."
           ],
           "answer": "D",
           "alternative": null,
-          "hint": "Policz czarne vs biale w kazdej siatce 4x4."
+          "hint": "Policz czarne vs białe w każdej siatce 4x4."
         },
         {
           "problemId": "kangur-maluch-2016-1",
-          "observation": "Suma 2 rzutow dla kazdej.",
+          "observation": "Suma 2 rzutów dla każdej.",
           "strategy": "Z obrazka identyfikuj wyniki.",
           "steps": [
             "Z analizy odpowiedz: Dorotka."
           ],
           "answer": "D",
           "alternative": null,
-          "hint": "5 dzieci, kazda dwa rzuty. Najwiecej oczek."
+          "hint": "5 dzieci, każda dwa rzuty. Najwiecej oczek."
         },
         {
           "problemId": "kangur-maluch-2016-7",
-          "observation": "6 osob * 1/2 = 3 jablka.",
+          "observation": "6 osob * 1/2 = 3 jabłka.",
           "strategy": "Mnozenie.",
           "steps": [
-            "6 * 1/2 = 3 jablka."
+            "6 * 1/2 = 3 jabłka."
           ],
           "answer": "B",
           "alternative": null,
-          "hint": "6 dzieci, kazda 1/2 jablka. Lacznie 3 jablka."
+          "hint": "6 dzieci, każda 1/2 jabłka. Łącznie 3 jabłka."
         },
         {
           "problemId": "kangur-maluch-2021-5",
@@ -242,7 +242,7 @@
           ],
           "answer": "A",
           "alternative": null,
-          "hint": "Franek najwiecej punktow. Sprawdz tarcze - ta z najwiekszymi punktami."
+          "hint": "Franek najwiecej punktów. Sprawdz tarcze - ta z najwiekszymi punktami."
         }
       ]
     },
@@ -258,7 +258,7 @@
           "difficulty": "3pkt",
           "topic": "lamiglowki",
           "subtopic": "eliminacja zerem",
-          "statement": "Pole prostokata 5x4 cm. Ktora odpowiedz NA PEWNO NIE pasuje?",
+          "statement": "Pole prostokata 5x4 cm. Która odpowiedz NA PEWNO NIE pasuje?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -278,8 +278,8 @@
           "number": null,
           "difficulty": "3pkt",
           "topic": "lamiglowki",
-          "subtopic": "kazda eliminacja",
-          "statement": "Cyfra ostatnia 27*3 to 7*3=21, czyli 1. Ktora odp pasuje?",
+          "subtopic": "każda eliminacja",
+          "statement": "Cyfra ostatnia 27*3 to 7*3=21, czyli 1. Która odp pasuje?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -300,7 +300,7 @@
           "difficulty": "3pkt",
           "topic": "lamiglowki",
           "subtopic": "logiczna eliminacja",
-          "statement": "Liczba minut w godzinie - ktora odp NA PEWNO bledna?",
+          "statement": "Liczba minut w godzinie - która odp NA PEWNO bledna?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -321,7 +321,7 @@
           "difficulty": "3pkt",
           "topic": "arytmetyka",
           "subtopic": "mnozenie z odejmowaniem czasu",
-          "statement": "Mis koala gdy nie spi zjada 50 g lisci eukaliptusa na godzine. Minionej doby spal 13 godzin. Ile gramow lisci zjadl tej doby?",
+          "statement": "Gdy miś koala nie śpi, zjada 50 gramów liści eukaliptusa w każdej godzinie. Minionej doby spał 13 godzin. Ile gramów liści zjadł on minionej doby?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -342,7 +342,7 @@
           "difficulty": "3pkt",
           "topic": "logika",
           "subtopic": "rozpoznanie biedronki",
-          "statement": "Biedronka Misia ma 5 kropek po prawej stronie i 3 po lewej. Ktory z ponizszych obrazkow na pewno NIE przedstawia Misi?",
+          "statement": "Biedronka Misia wygląda tak: . Który z poniższych obrazków na pewno nie przedstawia Misi?",
           "hasImage": true,
           "imageNote": "Pieć biedronek z roznymi ukladami kropek.",
           "choices": {
@@ -365,7 +365,7 @@
           "difficulty": "3pkt",
           "topic": "logika",
           "subtopic": "porównywanie wysokości, miejsca na podium",
-          "statement": "Wyższy poziom na podium oznacza lepszy wynik zawodnika. Trzecie miejsce zajął zawodnik z numerem:",
+          "statement": "Wyższy poziom na podium oznacza lepszy wynik zawodnika (patrz rysunek). Trzecie miejsce zajął zawodnik z numerem",
           "hasImage": true,
           "imageNote": "Pięcioro dzieci stoi na podium na pięciu różnych wysokościach, z przypisanymi numerami od 1 do 5. Trzecie miejsce zajmuje zawodnik nr 2.",
           "choices": {
@@ -386,9 +386,9 @@
           "difficulty": "3pkt",
           "topic": "logika",
           "subtopic": "kolejnosc wzrostu - drugi etap",
-          "statement": "W poniedzialek wyrosl grzyb i kazdego dnia podrastal. Alicja zrobila zdjecie kazdego dnia od poniedzialku do piatku. Ktore zdjecie zrobila we wtorek (drugi dzien)?",
+          "statement": "W poniedziałek wyrósł grzyb i każdego dnia podrastał. W każdy z 5 kolejnych dni od poniedziałku do piątku Alicja zrobiła jedno zdjęcie tego grzyba. Które zdjęcie Alicja zrobiła we wtorek?",
           "hasImage": true,
-          "imageNote": "Piec zdjec grzyba o rosnacej wielkosci.",
+          "imageNote": "Pięć zdjec grzyba o rosnacej wielkosci.",
           "choices": {
             "A": "zdjecie A",
             "B": "zdjecie B",
@@ -406,7 +406,7 @@
           "observation": "Pole 5*4=20. 0 niemozliwe.",
           "strategy": "Eliminacja zerem.",
           "steps": [
-            "Pole nie moze byc 0"
+            "Pole nie może byc 0"
           ],
           "answer": "C",
           "alternative": null,
@@ -451,7 +451,7 @@
         {
           "problemId": "kangur-maluch-2018-4",
           "observation": "Biedronka Misia z konkretnym ukladem kropek.",
-          "strategy": "Sprawdz obrazki - ktora nie ma 5 prawo i 3 lewo.",
+          "strategy": "Sprawdz obrazki - która nie ma 5 prawo i 3 lewo.",
           "steps": [
             "Z analizy odpowiedz: biedronka C."
           ],
@@ -468,19 +468,19 @@
           ],
           "answer": "B",
           "alternative": null,
-          "hint": "Wyzszy poziom = lepszy wynik. Trzeci najlepszy = trzeci od gory."
+          "hint": "Wyzszy poziom = lepszy wynik. Trzeci najlepszy = trzeci od góry."
         },
         {
           "problemId": "kangur-maluch-2020-2",
-          "observation": "5 dni, 5 obrazkow.",
+          "observation": "5 dni, 5 obrazków.",
           "strategy": "Drugi z chronologicznych.",
           "steps": [
-            "Wtorek = drugi dzien.",
-            "Z obrazkow: zdjecie B."
+            "Wtorek = drugi dzień.",
+            "Z obrazków: zdjecie B."
           ],
           "answer": "B",
           "alternative": null,
-          "hint": "Grzyb rosnie kazdy dzien. Wtorek = drugi z 5 obrazkow."
+          "hint": "Grzyb rosnie każdy dzień. Wtorek = drugi z 5 obrazków."
         }
       ]
     }

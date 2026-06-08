@@ -7,7 +7,7 @@
   "topic": "pomiary_jednostki",
   "estimatedMinutes": 14,
   "theory": {
-    "intro": "Wagi w sklepie, na poczcie, w aptece. Masa to ile czegos wazy. Jednostki: gram (g), dekagram (dag), kilogram (kg) i tona (t). Tabliczka czekolady ~100 g, jablko ~150 g, dziecko ~30 kg, slon ~5 ton.",
+    "intro": "Wagi w sklepie, na poczcie, w aptece. Masa to ile czegos wazy. Jednostki: gram (g), dekagram (dag), kilogram (kg) i tona (t). Tabliczka czekolady ~100 g, jabłko ~150 g, dziecko ~30 kg, slon ~5 ton.",
     "tool": "Sztuczka 1: ZAMIANY MASY. 1 dag = 10 g, 1 kg = 100 dag = 1000 g, 1 t = 1000 kg.\n\nSztuczka 2: NA WIEKSZA - DZIEL, NA MNIEJSZA - MNOZ. 2500 g na kg: dziel przez 1000 = 2,5 kg. 3 kg na g: mnoż przez 1000 = 3000 g.\n\nSztuczka 3: WAGI W SKLEPIE. Cena czesto za 100 g (dag) lub za kg. Liczac koszt: cena za 100g razy ilosc 100g.\n\nSztuczka 4: SZACUJ MASY. List ~20 g, jablko ~150 g, bochenek chleba ~500 g, mlotek ~1 kg, plecak szkolny ~5 kg.",
     "trick": "Pulapka Kangurka: zadania z 'pol kg' albo 'cwierc kg'. 1 kg = 1000 g, wiec pol kg = 500 g, cwierc = 250 g. Często mieszane z dag - pamietaj, ze 1 kg = 100 dag."
   },
@@ -65,7 +65,7 @@
           "number": null,
           "difficulty": "3pkt",
           "topic": "pomiary_jednostki",
-          "subtopic": "polowa kg",
+          "subtopic": "połowa kg",
           "statement": "Pol kilograma to ile gramow?",
           "hasImage": false,
           "imageNote": null,
@@ -108,7 +108,7 @@
           "difficulty": "4pkt",
           "topic": "pomiary_jednostki",
           "subtopic": "masa, połowa zawartości",
-          "statement": "Szklanka pełna wody waży 400 gramów, a pusta 100 gramów. Ile gramów waży szklanka napełniona wodą do połowy?",
+          "statement": "Szklanka pełna wody waży 400 gramów, a pusta 100 gramów. Ile gra- mów waży szklanka napełniona wodą do połowy?",
           "hasImage": true,
           "imageNote": "Trzy szklanki: pełna 400g, pusta 100g, do połowy ?.",
           "choices": {
@@ -130,8 +130,8 @@
           "number": null,
           "difficulty": "4pkt",
           "topic": "pomiary_jednostki",
-          "subtopic": "laczna masa zakupow",
-          "statement": "Ola kupila 2 kg jablek, 500 g masla i 250 g czekolady. Ile gramow razem?",
+          "subtopic": "łączna masa zakupow",
+          "statement": "Ola kupiła 2 kg jabłek, 500 g masla i 250 g czekolady. Ile gramow razem?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -191,14 +191,14 @@
         },
         {
           "problemId": "gen-l28-v1-w3",
-          "observation": "Pol kg = polowa 1000 g.",
+          "observation": "Pol kg = połowa 1000 g.",
           "strategy": "Dzielenie przez 2.",
           "steps": [
             "1 kg = 1000 g, pol kg = 500 g"
           ],
           "answer": "D",
           "alternative": null,
-          "hint": "Pol kg = polowa 1000 g."
+          "hint": "Pol kg = połowa 1000 g."
         },
         {
           "problemId": "gen-l28-v1-w4",
@@ -214,16 +214,16 @@
         },
         {
           "problemId": "kangur-maluch-2019-13",
-          "observation": "Szklanka pelna 400g, pusta 100g, do polowy?",
-          "strategy": "Polowa zawartosci wody.",
+          "observation": "Szklanka pelna 400g, pusta 100g, do połowy?",
+          "strategy": "Połowa zawartosci wody.",
           "steps": [
             "Woda w pelnej szklance: 400 - 100 = 300 g",
-            "Polowa wody: 150 g",
+            "Połowa wody: 150 g",
             "Pusta szklanka + 150 g wody = 100 + 150 = 250 g"
           ],
           "answer": "D",
           "alternative": null,
-          "hint": "Szklanka pelna 400g, pusta 100g, do polowy?"
+          "hint": "Szklanka pelna 400g, pusta 100g, do połowy?"
         },
         {
           "problemId": "gen-l28-v1-c1",
@@ -390,8 +390,8 @@
           "number": null,
           "difficulty": "5pkt",
           "topic": "pomiary_jednostki",
-          "subtopic": "masy roznych produktow",
-          "statement": "Trzy paczki: 1 kg, 1500 g i pol kg. Ile to lacznie kilogramow?",
+          "subtopic": "masy różnych produktow",
+          "statement": "Trzy paczki: 1 kg, 1500 g i pol kg. Ile to łącznie kilogramow?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -511,9 +511,9 @@
       "explain": "Pol kg = 500 g."
     },
     {
-      "q": "Co ciezsze: 1 kg ksiazek czy 1 kg pierza?",
+      "q": "Co ciezsze: 1 kg książek czy 1 kg pierza?",
       "choices": {
-        "A": "Ksiazki",
+        "A": "Książki",
         "B": "Pierze",
         "C": "Tyle samo"
       },

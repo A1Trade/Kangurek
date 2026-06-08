@@ -3,7 +3,7 @@
   "number": 27,
   "block": "Pomiary i jednostki",
   "blockCode": "E",
-  "title": "Dlugosc: mm, cm, dm, m, km",
+  "title": "Długość: mm, cm, dm, m, km",
   "topic": "pomiary_jednostki",
   "estimatedMinutes": 14,
   "theory": {
@@ -86,14 +86,14 @@
           "number": null,
           "difficulty": "3pkt",
           "topic": "pomiary_jednostki",
-          "subtopic": "porownanie dlugosci",
-          "statement": "Co jest dluzsze: 150 cm czy 2 metry?",
+          "subtopic": "porownanie długości",
+          "statement": "Co jest dłuższe: 150 cm czy 2 metry?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
             "A": "150 cm",
             "B": "2 metry",
-            "C": "Sa rowne",
+            "C": "Sa równe",
             "D": "Nie da sie porownac",
             "E": "Zalezy"
           },
@@ -107,16 +107,16 @@
           "number": 16,
           "difficulty": "4pkt",
           "topic": "pomiary_jednostki",
-          "subtopic": "dlugosci paska z roznymi dziurkami",
-          "statement": "Pasek dla lalki z guzikiem z jednej strony i 5 dziurkami z drugiej, w odleglosci 2 cm. O ile dluzszy jest pasek zapiety na pierwsza (najblizsza guzika) dziurke od paska zapietego na piata (najdalsza)?",
+          "subtopic": "długości paska z roznymi dziurkami",
+          "statement": "Zosia zrobiła pasek dla lalki. Do nierozciągliwej tasiemki przyszyła z jednej strony guzik, a z dru- giej strony wykonała pięć dziurek w odległości co 2 cm (patrz rysunek). Pasek niezapięty 2 cm Pasek zapięty na pierwszą dziurkę O ile dłuższy jest pasek zapięty na pierwszą dziurkę od paska zapiętego na piątą dziurkę?",
           "hasImage": true,
-          "imageNote": "Pasek niezapiety z guzikiem i 5 dziurkami co 2 cm, pasek zapiety pokazany jako kolo.",
+          "imageNote": "Pasek niezapiety z guzikiem i 5 dziurkami co 2 cm, pasek zapiety pokazany jako koło.",
           "choices": {
-            "A": "O 4 cm",
-            "B": "O 8 cm",
-            "C": "O 10 cm",
-            "D": "O 16 cm",
-            "E": "O 20 cm"
+            "A": "O 4 cm.",
+            "B": "O 8 cm.",
+            "C": "O 10 cm.",
+            "D": "O 16 cm.",
+            "E": "O 20 cm."
           },
           "correct": "B",
           "imageSrc": "/images/orig/2018-16.png"
@@ -130,8 +130,8 @@
           "number": null,
           "difficulty": "4pkt",
           "topic": "pomiary_jednostki",
-          "subtopic": "suma dlugosci",
-          "statement": "Linijka ma 30 cm, lina 2 m, sznur 50 cm. Ile to lacznie w centymetrach?",
+          "subtopic": "suma długości",
+          "statement": "Linijka ma 30 cm, lina 2 m, sznur 50 cm. Ile to łącznie w centymetrach?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -151,8 +151,8 @@
           "number": null,
           "difficulty": "5pkt",
           "topic": "pomiary_jednostki",
-          "subtopic": "odleglosc miedzy miastami",
-          "statement": "Z miasta A do B jest 7 km. Z B do C jest 4500 m. Ile metrow lacznie z A do C przez B?",
+          "subtopic": "odleglosc między miastami",
+          "statement": "Z miasta A do B jest 7 km. Z B do C jest 4500 m. Ile metrow łącznie z A do C przez B?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -191,15 +191,15 @@
         },
         {
           "problemId": "gen-l27-v1-w3",
-          "observation": "1 km = 1000 m, polowa = 500 m.",
-          "strategy": "Polowa 1000.",
+          "observation": "1 km = 1000 m, połowa = 500 m.",
+          "strategy": "Połowa 1000.",
           "steps": [
             "1 km = 1000 m",
             "Pol km = 500 m"
           ],
           "answer": "C",
           "alternative": null,
-          "hint": "1 km = 1000 m, polowa = 500 m."
+          "hint": "1 km = 1000 m, połowa = 500 m."
         },
         {
           "problemId": "gen-l27-v1-w4",
@@ -218,8 +218,8 @@
           "observation": "Pasek z 5 dziurkami co 2 cm.",
           "strategy": "Liczenie roznicy obwodow.",
           "steps": [
-            "Roznica miedzy 1. a 5. dziurka to 4 odstepy razy 2 cm = 8 cm",
-            "Pasek na 1. dziurke jest dluzszy o 8 cm"
+            "Roznica między 1. a 5. dziurka to 4 odstepy razy 2 cm = 8 cm",
+            "Pasek na 1. dziurke jest dłuższy o 8 cm"
           ],
           "answer": "B",
           "alternative": null,
@@ -328,7 +328,7 @@
           "difficulty": "3pkt",
           "topic": "pomiary_jednostki",
           "subtopic": "najwiecej",
-          "statement": "Ktora dlugosc jest najwieksza?",
+          "statement": "Która długość jest najwieksza?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -349,7 +349,7 @@
           "difficulty": "3pkt",
           "topic": "pomiary_jednostki",
           "subtopic": "praktyczna miara",
-          "statement": "Pisak ma najczesciej dlugosc okolo:",
+          "statement": "Pisak ma najczesciej długość okolo:",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -372,7 +372,7 @@
           "difficulty": "4pkt",
           "topic": "pomiary_jednostki",
           "subtopic": "odejmowanie z jednostkami",
-          "statement": "Mama ma wstazke 3 m. Odcia 75 cm. Ile cm wstazki zostalo?",
+          "statement": "Mama ma wstazke 3 m. Odcia 75 cm. Ile cm wstazki zostało?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -393,7 +393,7 @@
           "difficulty": "5pkt",
           "topic": "pomiary_jednostki",
           "subtopic": "skladanie kawalkow",
-          "statement": "Z czterech kawalkow tasiemki: 50 cm, 60 cm, 75 cm i 1 m zlozono jeden dlugi pasek. Ile metrow ma ten pasek?",
+          "statement": "Z czterech kawalkow tasiemki: 50 cm, 60 cm, 75 cm i 1 m zlozono jeden długi pasek. Ile metrow ma ten pasek?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -512,14 +512,14 @@
       "explain": "1 km = 1000 m."
     },
     {
-      "q": "Co dluzsze: 250 cm czy 2.5 m?",
+      "q": "Co dłuższe: 250 cm czy 2.5 m?",
       "choices": {
         "A": "250 cm",
         "B": "2.5 m",
-        "C": "Rowne"
+        "C": "Równe"
       },
       "correct": "C",
-      "explain": "250 cm = 2.5 m - sa rowne."
+      "explain": "250 cm = 2.5 m - sa równe."
     }
   ]
 }

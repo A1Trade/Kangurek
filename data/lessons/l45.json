@@ -8,8 +8,8 @@
   "estimatedMinutes": 16,
   "theory": {
     "intro": "Na ile sposobow mozesz pomalowac 3 pola, majac 2 kolory? Na ile sposobow ustawisz 4 osoby tak, by Adas i Bartek byli obok? Te zadania lacza podstawy kombinatoryki z dodatkowymi warunkami - daja Kangurowi mnostwo zabawy.",
-    "tool": "Sztuczka 1: KOLORY PER POLE. Jezeli kazde pole moze byc dowolnego koloru, mnoz: 2 kolory * 3 pola = 2*2*2=8.\n\nSztuczka 2: WARUNKI SASIEDZTWA. 'Adas i Bartek obok' - traktuj ich jako PARE (jedna jednostka). Permutuj pary z innymi, potem mnoz przez 2 (Adas-Bartek lub Bartek-Adas).\n\nSztuczka 3: KOLO. W kole 'Adas obok B' liczy sie inaczej niz w rzedzie (np. pierwszy i ostatni nie sa obok w rzedzie, ale sa w kole).\n\nSztuczka 4: WYKLUCZENIE. Wszystkie mozliwosci minus te z naruszeniem warunku.",
-    "trick": "Pulapka: 'rozne kolory sasiednie' - to dodatkowy warunek. Jezeli 3 pola sasiedzi i 2 kolory, to nie da sie pokolorowac wszystkich roznymi. Sprawdz wykonalnosc."
+    "tool": "Sztuczka 1: KOLORY PER POLE. Jeżeli każde pole może byc dowolnego koloru, mnoz: 2 kolory * 3 pola = 2*2*2=8.\n\nSztuczka 2: WARUNKI SASIEDZTWA. 'Adas i Bartek obok' - traktuj ich jako PARE (jedna jednostka). Permutuj pary z innymi, potem mnoz przez 2 (Adas-Bartek lub Bartek-Adas).\n\nSztuczka 3: Koło. W kole 'Adas obok B' liczy sie inaczej niz w rzedzie (np. pierwszy i ostatni nie sa obok w rzedzie, ale sa w kole).\n\nSztuczka 4: WYKLUCZENIE. Wszystkie mozliwosci minus te z naruszeniem warunku.",
+    "trick": "Pulapka: 'różne kolory sąsiednie' - to dodatkowy warunek. Jeżeli 3 pola sasiedzi i 2 kolory, to nie da sie pokolorowac wszystkich roznymi. Sprawdz wykonalnosc."
   },
   "versions": [
     {
@@ -24,7 +24,7 @@
           "difficulty": "3pkt",
           "topic": "kombinatoryka",
           "subtopic": "kolorowanie 2 pola 2 kolory",
-          "statement": "2 pola, 2 kolory. Ile sposobow pomalowania (kazde pole jakims kolorem)?",
+          "statement": "2 pola, 2 kolory. Ile sposobow pomalowania (każde pole jakims kolorem)?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -65,7 +65,7 @@
           "number": null,
           "difficulty": "3pkt",
           "topic": "kombinatoryka",
-          "subtopic": "sasiednie razem",
+          "subtopic": "sąsiednie razem",
           "statement": "Anka i Bartek chca stac obok siebie w rzedzie 3 osob. Ile mozliwosci?",
           "hasImage": false,
           "imageNote": null,
@@ -87,7 +87,7 @@
           "difficulty": "4pkt",
           "topic": "kombinatoryka",
           "subtopic": "permutacje z warunkami sasiedztwa",
-          "statement": "Laura, Igor, Wiktor i Kasia chca zrobic wspolne zdjecie. Kasia i Laura sa przyjaciolkami i chca stac obok siebie. Igor chce stac obok Laury, bo bardzo ja lubi. Na ile sposobow moga ustawic sie w jednym rzedzie?",
+          "statement": "Laura, Igor, Wiktor i Kasia chcieli zrobić sobie wspólne zdjęcie. Kasia i Laura są przyjaciółkami i chciały stać obok siebie. Igor chciał stać obok Laury, ponieważ bardzo ją lubi. Na ile sposobów mogą ustawić się oni w jednym rzędzie, aby spełnić podane warunki?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -108,7 +108,7 @@
           "difficulty": "5pkt",
           "topic": "kombinatoryka",
           "subtopic": "ustawienie dzieci w kole z warunkami",
-          "statement": "Siedmioro dzieci stoi w kole tak, ze zadna dziewczynka nie stoi miedzy dwiema dziewczynkami, a zaden chlopiec nie stoi obok innego chlopca. Ile dziewczat jest w tym kole?",
+          "statement": "Pani ustawiła siedmioro dzieci w kółku, tak że żadna dziewczynka nie stoi pomiędzy dwiema dziewczynkami oraz żaden chłopiec nie stoi obok innego chłopca. Ile dziewcząt znajduje się w tym kółku?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -131,7 +131,7 @@
           "difficulty": "4pkt",
           "topic": "kombinatoryka",
           "subtopic": "ustawienia z warunkiem sasiedztwa",
-          "statement": "Bartek ma 4 zabawki: auto, samolot, pilke, statek. Ustawia je w rzedzie tak, aby zarowno statek jak i samolot staly obok auta. Na ile sposobow moze to zrobic?",
+          "statement": "Bartek ma 4 zabawki: auto, samolot, piłkę i statek. Postanowił ustawić je w rzędzie na półce, tak aby zarówno statek, jak i samolot stały obok auta. Na ile sposobów może to uczynić?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -152,7 +152,7 @@
           "difficulty": "5pkt",
           "topic": "kombinatoryka",
           "subtopic": "przeskoki zab z zachowaniem warunku",
-          "statement": "W siatce 3x3 w kazdym rzedzie i kolumnie sa dokladnie 2 zaby. Dwie zaby jednoczesnie przeskocza na sasiednie puste pola tak, by warunek nadal byl spelniony. Na ile sposobow zaby moga to zrobic?",
+          "statement": "W każdym rzędzie i w każdej kolumnie znajdują się dokładnie dwie żaby. Żaby ustaliły, że dwie z nich jednocześnie przeskoczą na sąsiednie puste pola, ale tak, by nadal w każdym rzędzie i w każdej kolumnie były dokładnie dwie żaby. (Sąsiednie pola to takie, które mają wspólny bok). Na ile sposobów żaby mogą to zrobić?",
           "hasImage": true,
           "imageNote": "Siatka 3x3 z 6 zabami, 3 pola puste.",
           "choices": {
@@ -191,21 +191,21 @@
         },
         {
           "problemId": "gen-l45-v1-w3",
-          "observation": "Anka-Bartek jako para. Pary z 3 elementami: 2 ulozenia, kazdy *2 (AB lub BA): 2*2=4.",
+          "observation": "Anka-Bartek jako para. Pary z 3 elementami: 2 ulozenia, każdy *2 (AB lub BA): 2*2=4.",
           "strategy": "Sasiedztwo.",
           "steps": [
             "3 osoby, Anka i Bartek razem (jako para)",
             "Para + 1 osoba = 2 jednostki, 2! ulozenia = 2",
-            "Para moze byc AB lub BA: 2*2=4"
+            "Para może byc AB lub BA: 2*2=4"
           ],
           "answer": "C",
           "alternative": null,
-          "hint": "Anka-Bartek jako para. Pary z 3 elementami: 2 ulozenia, kazdy *2 (AB lub BA): 2*2=4."
+          "hint": "Anka-Bartek jako para. Pary z 3 elementami: 2 ulozenia, każdy *2 (AB lub BA): 2*2=4."
         },
         {
           "problemId": "kangur-maluch-2012-15",
           "observation": "4 osoby. Kasia-Laura razem. Igor obok Laury.",
-          "strategy": "Kasia-Laura jako blok. Igor sasiad Laury - musi byc po drugiej stronie.",
+          "strategy": "Kasia-Laura jako blok. Igor sąsiad Laury - musi byc po drugiej stronie.",
           "steps": [
             "Kasia i Laura jako blok: KL lub LK.",
             "Igor obok Laury -> Igor po jednej stronie Laury.",
@@ -214,7 +214,7 @@
           ],
           "answer": "B",
           "alternative": null,
-          "hint": "Kasia i Laura razem (block). Igor sasiad Laury. 4 osoby w rzedzie z warunkami."
+          "hint": "Kasia i Laura razem (block). Igor sąsiad Laury. 4 osoby w rzedzie z warunkami."
         },
         {
           "problemId": "kangur-maluch-2014-18",
@@ -222,39 +222,39 @@
           "strategy": "Naprzemienne ustawienie z wyjatkiem dla dziewczat.",
           "steps": [
             "Warunek 'zaden chlopiec obok chlopca': max chlopcy w ulozeniu naprzemiennym = floor(7/2) = 3.",
-            "Warunek 'zadna dziewczyna miedzy 2 dziewczynami': dziewczyny nie po 3 z rzedu.",
+            "Warunek 'zadna dziewczyna między 2 dziewczynami': dziewczyny nie po 3 z rzedu.",
             "Maks chlopcow = 3 -> 4 dziewczynki.",
-            "Sprawdz: D-C-D-C-D-C-D w kole 7 - ostatnia D obok pierwszej D -> dwie dziewczyny obok. To narusza warunek? 'Miedzy 2 dziewczynkami' - srodek miedzy dwiema. Tu nie.",
+            "Sprawdz: D-C-D-C-D-C-D w kole 7 - ostatnia D obok pierwszej D -> dwie dziewczyny obok. To narusza warunek? 'Między 2 dziewczynkami' - srodek między dwiema. Tu nie.",
             "4 dziewczynek."
           ],
           "answer": "C",
           "alternative": null,
-          "hint": "Zadna dziewczynka miedzy dziewczynkami, zaden chlopiec obok chlopca."
+          "hint": "Zadna dziewczynka między dziewczynkami, zaden chlopiec obok chlopca."
         },
         {
           "problemId": "kangur-maluch-2015-14",
           "observation": "4 zabawki: auto, samolot, pilka, statek.",
-          "strategy": "Auto sasiad statku I samolotu -> auto miedzy nimi.",
+          "strategy": "Auto sąsiad statku I samolotu -> auto między nimi.",
           "steps": [
             "Auto musi sasiadowac z S i Sm. Czyli S-A-Sm lub Sm-A-S.",
-            "Pilka P moze byc na poczatku lub koncu.",
+            "Pilka P może byc na poczatku lub koncu.",
             "Mozliwe: P-S-A-Sm, P-Sm-A-S, S-A-Sm-P, Sm-A-S-P.",
             "4 sposobow."
           ],
           "answer": "B",
           "alternative": null,
-          "hint": "Statek i samolot OBOK auta - auto musi byc miedzy nimi lub auto z 2 stronami."
+          "hint": "Statek i samolot Obok auta - auto musi byc między nimi lub auto z 2 stronami."
         },
         {
           "problemId": "kangur-maluch-2024-21",
           "observation": "2 zaby skacza, warunek 2 na rzad/kolumne nadal.",
-          "strategy": "Sprobuj mozliwe pary skokow.",
+          "strategy": "Sprobuj mozliwe pary skoków.",
           "steps": [
             "Z analizy ukladu odpowiedz: 3."
           ],
           "answer": "C",
           "alternative": null,
-          "hint": "Siatka 3x3 z 2 zabami w rzedzie/kolumnie. Skok na sasiednie puste, warunek nadal."
+          "hint": "Siatka 3x3 z 2 zabami w rzedzie/kolumnie. Skok na sąsiednie puste, warunek nadal."
         }
       ]
     },
@@ -291,7 +291,7 @@
           "difficulty": "3pkt",
           "topic": "kombinatoryka",
           "subtopic": "kolorowanie 3 pola 3 kolory",
-          "statement": "3 pola, 3 kolory, kazde pole inny kolor. Ile sposobow?",
+          "statement": "3 pola, 3 kolory, każde pole inny kolor. Ile sposobow?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -398,7 +398,7 @@
           "difficulty": "4pkt",
           "topic": "kombinatoryka",
           "subtopic": "liczenie kropek na biedronkach",
-          "statement": "6 biedronek ma rozne liczby kropek (1-6). Tadzio zrobil 4 zdjecia, na kazdym 3 biedronki, kazda biedronka pojawila sie tyle samo razy (2). 3 zdjecia pokazane sa konturem, brakuje 4. Ile lacznie kropek maja 3 biedronki na czwartym zdjeciu?",
+          "statement": "6 biedronek ma różne liczby kropek (1-6). Tadzio zrobil 4 zdjecia, na każdym 3 biedronki, każda biedronka pojawila sie tyle samo razy (2). 3 zdjecia pokazane sa konturem, brakuje 4. Ile łącznie kropek maja 3 biedronki na czwartym zdjeciu?",
           "hasImage": true,
           "imageNote": "6 biedronek z 1-6 kropkami + 3 wyswietlone zdjecia + kontur 4.",
           "choices": {
@@ -429,7 +429,7 @@
           "observation": "3*2*1=6.",
           "strategy": "Permutacje.",
           "steps": [
-            "3 kolory na 3 pola, kazdy inny: 3!=6"
+            "3 kolory na 3 pola, każdy inny: 3!=6"
           ],
           "answer": "B",
           "alternative": null,
@@ -441,7 +441,7 @@
           "strategy": "Sasiedztwo w kole.",
           "steps": [
             "Para AB + 3 osoby = 4 jednostki w kole",
-            "Kolo z 4: (4-1)!=6",
+            "Koło z 4: (4-1)!=6",
             "AB lub BA: 6*2=12"
           ],
           "answer": "C",
@@ -489,7 +489,7 @@
           "observation": "4 zdjecia, 6 biedronek po 2 wystapienia.",
           "strategy": "Suma kropek na zdjeciach = 2 * (1+2+...+6) = 42. Na 4 zdjeciach.",
           "steps": [
-            "Suma wszystkich kropek (kazda biedronka 2 razy): 2 * 21 = 42.",
+            "Suma wszystkich kropek (każda biedronka 2 razy): 2 * 21 = 42.",
             "Suma na zdjeciach = 42.",
             "Trzy zdjecia (znane) - dodaj sumy.",
             "Z odpowiedzi: 43? Niemozliwe. Czytaj uwaznie.",
@@ -498,7 +498,7 @@
           ],
           "answer": "C",
           "alternative": null,
-          "hint": "6 biedronek (1-6 kropek), 4 zdjecia po 3, kazda 2 razy."
+          "hint": "6 biedronek (1-6 kropek), 4 zdjecia po 3, każda 2 razy."
         }
       ]
     }

@@ -8,8 +8,8 @@
   "estimatedMinutes": 15,
   "theory": {
     "intro": "Idziesz do sklepu z 50 zl. Kupujesz cos za 32 zl. Ile reszty? 50 - 32 = 18 zl. To codzienna matematyka. Pieniadze to liczby z konkretnym sensem - zlotowki (zl) i grosze (gr). 1 zl = 100 gr.",
-    "tool": "Sztuczka 1: ZL I GROSZE. 1 zl = 100 gr. Cena 4 zl 50 gr = 450 gr. Konce zawsze sumuj do zlotowek (np. 50 + 50 = 100 = 1 zl).\n\nSztuczka 2: RESZTA. Reszta = ile dales minus cena. 50 zl - 32 zl = 18 zl. Jezeli dales za malo, reszty nie ma (musisz doplaty).\n\nSztuczka 3: ILE MOZESZ KUPIC. Masz 20 zl, jablko 2 zl - kupisz 10 jablek. Dzielisz: 20:2 = 10. Jezeli wychodzi z reszta, kupujesz tyle co wynosi calkowita czesc.\n\nSztuczka 4: ZAOKRAGLENIE PRZY ROZWAGANIU. Wybor 3 z 5 produktow - sprawdzaj kombinacje od najwiekszych do najmniejszych cen.",
-    "trick": "Pulapka: zadania o reszcie i wymianie. 'Dostal 18 zl reszty' - to nie cena, to roznica! Kupil 3 zabawki za X zl, dal banknot 50 zl, dostal 18 reszty. X = 50 - 18 = 32 zl - to suma cen 3 zabawek."
+    "tool": "Sztuczka 1: ZL I GROSZE. 1 zl = 100 gr. Cena 4 zl 50 gr = 450 gr. Konce zawsze sumuj do zlotowek (np. 50 + 50 = 100 = 1 zl).\n\nSztuczka 2: RESZTA. Reszta = ile dales minus cena. 50 zl - 32 zl = 18 zl. Jeżeli dales za malo, reszty nie ma (musisz doplaty).\n\nSztuczka 3: ILE MOZESZ Kupić. Masz 20 zl, jabłko 2 zl - kupisz 10 jabłek. Dzielisz: 20:2 = 10. Jeżeli wychodzi z reszta, kupujesz tyle co wynosi calkowita czesc.\n\nSztuczka 4: ZAOKRAGLENIE PRZY ROZWAGANIU. Wybor 3 z 5 produktow - sprawdzaj kombinacje od najwiekszych do najmniejszych cen.",
+    "trick": "Pulapka: zadania o reszcie i wymianie. 'Dostał 18 zl reszty' - to nie cena, to roznica! Kupił 3 zabawki za X zl, dal banknot 50 zl, dostał 18 reszty. X = 50 - 18 = 32 zl - to suma cen 3 zabawek."
   },
   "versions": [
     {
@@ -44,8 +44,8 @@
           "number": null,
           "difficulty": "3pkt",
           "topic": "pieniadze",
-          "subtopic": "ile mozna kupic",
-          "statement": "Ola ma 30 zl, czekolada 5 zl. Ile czekolad moze kupic?",
+          "subtopic": "ile można kupić",
+          "statement": "Ola ma 30 zl, czekolada 5 zl. Ile czekolad może kupić?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -86,16 +86,16 @@
           "number": 6,
           "difficulty": "3pkt",
           "topic": "pieniadze",
-          "subtopic": "trzy rozne ceny calkowite",
-          "statement": "Za trzy rozne ciastka Helenka zaplacila 7 zlotych. Kazde ciastko kosztowalo calkowita liczbe zlotych i mialo inna cene. Ile kosztowalo najdrozsze ciastko?",
+          "subtopic": "trzy różne ceny calkowite",
+          "statement": "Za trzy różne ciastka Helenka zapłaciła 7 złotych. Każde ciastko kosztowało całkowitą liczbę złotych i miało inną cenę. Ile kosztowało najdroższe ciastko?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
-            "A": "2 zlote",
-            "B": "3 zlote",
-            "C": "4 zlote",
-            "D": "5 zlotych",
-            "E": "6 zlotych"
+            "A": "2 złote",
+            "B": "3 złote",
+            "C": "4 złote",
+            "D": "5 złotych",
+            "E": "6 złotych"
           },
           "correct": "C",
           "imageSrc": "/images/orig/2024-6.png"
@@ -108,7 +108,7 @@
           "difficulty": "4pkt",
           "topic": "pieniadze",
           "subtopic": "cena z roznicy ilosci",
-          "statement": "Piec balonow kosztuje o 1 zlote i 20 groszy wiecej niz dwa balony. Ile kosztuje jeden balon?",
+          "statement": "Pięć balonów kosztuje o 1 złoty i 20 groszy więcej niż dwa balony. Ile kosztuje jeden balon?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -116,7 +116,7 @@
             "B": "30 gr",
             "C": "40 gr",
             "D": "60 gr",
-            "E": "1 zl"
+            "E": "1 zł"
           },
           "correct": "C",
           "imageSrc": "/images/orig/2012-10.png"
@@ -131,15 +131,15 @@
           "difficulty": "4pkt",
           "topic": "pieniadze",
           "subtopic": "dobor zabawek wg reszty",
-          "statement": "Zabawki: Pilka 40 zl, Lalka 73 zl, Mis 52 zl, Puzzle 48 zl, Klocki 57 zl. Zosia wybrala 3, zaplacila 200 zl, dostala 18 zl reszty. Potem wymienila jedna zabawke na inna i dostala dodatkowo 25 zl reszty. Ktore zabawki ostatecznie kupila?",
+          "statement": "Zosi spodobało się w sklepie 5 zabawek, których ceny widzimy poniżej. Wybrała trzy z nich i zapłaciła banknotem 200-złotowym. Otrzymała 18 zł reszty. Następnie zmieniła zdanie i wymieniła jedną z zabawek na inną, po czym otrzymała dodatkowo 25 zł reszty. Które zabawki ostatecznie kupiła Zosia? Piłka 40 zł Lalka 73 zł Miś 52 zł Puzzle 48 zł Klocki 57 zł",
           "hasImage": false,
           "imageNote": null,
           "choices": {
-            "A": "Pilke, lalke i misia",
-            "B": "Pilke, misia i puzzle",
-            "C": "Lalke, misia i klocki",
-            "D": "Misia, puzzle i klocki",
-            "E": "Pilke, puzzle i klocki"
+            "A": "Piłkę, lalkę i misia.",
+            "B": "Piłkę, misia i puzzle.",
+            "C": "Lalkę, misia i klocki.",
+            "D": "Misia, puzzle i klocki.",
+            "E": "Piłkę, puzzle i klocki."
           },
           "correct": "D",
           "imageSrc": "/images/orig/2014-13.png"
@@ -203,15 +203,15 @@
         },
         {
           "problemId": "kangur-maluch-2024-6",
-          "observation": "3 rozne ciastka, lacznie 7 zl, ceny calkowite.",
-          "strategy": "Rozklad na sume 3 roznych liczb dodatnich.",
+          "observation": "3 różne ciastka, łącznie 7 zl, ceny calkowite.",
+          "strategy": "Rozklad na sume 3 różnych liczb dodatnich.",
           "steps": [
-            "7 = 1 + 2 + 4 (jedyny rozklad na 3 rozne dodatnie)",
+            "7 = 1 + 2 + 4 (jedyny rozklad na 3 różne dodatnie)",
             "Najdrozsze ciastko: 4 zl"
           ],
           "answer": "C",
           "alternative": null,
-          "hint": "3 rozne ciastka, lacznie 7 zl, ceny calkowite."
+          "hint": "3 różne ciastka, łącznie 7 zl, ceny calkowite."
         },
         {
           "problemId": "kangur-maluch-2012-10",
@@ -243,15 +243,15 @@
         },
         {
           "problemId": "kangur-maluch-2019-15",
-          "observation": "3 ceny par owocow: 3.50 + 2.50 + 4.00.",
-          "strategy": "Suma trzech par = 2 razy suma trzech owocow.",
+          "observation": "3 ceny par owoców: 3.50 + 2.50 + 4.00.",
+          "strategy": "Suma trzech par = 2 razy suma trzech owoców.",
           "steps": [
             "Suma par: 3.50 + 2.50 + 4.00 = 10 zl",
-            "Suma trzech owocow: 10:2 = 5 zl"
+            "Suma trzech owoców: 10:2 = 5 zl"
           ],
           "answer": "D",
           "alternative": null,
-          "hint": "3 ceny par owocow: 3.50 + 2.50 + 4.00."
+          "hint": "3 ceny par owoców: 3.50 + 2.50 + 4.00."
         }
       ]
     },
@@ -267,7 +267,7 @@
           "difficulty": "3pkt",
           "topic": "pieniadze",
           "subtopic": "reszta z banknotu",
-          "statement": "Tomek ma 100 zl, kupil ksiazke za 47 zl. Ile dostal reszty?",
+          "statement": "Tomek ma 100 zl, kupił książkę za 47 zl. Ile dostał reszty?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -288,7 +288,7 @@
           "difficulty": "3pkt",
           "topic": "pieniadze",
           "subtopic": "sumowanie cen",
-          "statement": "Lody 8 zl, sok 5 zl, batonik 3 zl. Ile lacznie?",
+          "statement": "Lody 8 zl, sok 5 zl, batonik 3 zl. Ile łącznie?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -329,8 +329,8 @@
           "number": 13,
           "difficulty": "4pkt",
           "topic": "pieniadze",
-          "subtopic": "kwota poczatkowa z dwoch stanow kasy",
-          "statement": "W kasie lodziarni byla pewna kwota. Po sprzedazy 6 porcji lodow bylo 70 zl, po sprzedazy 16 porcji bylo 120 zl. Ile zlotych bylo w kasie przed otwarciem?",
+          "subtopic": "kwota poczatkowa z dwóch stanow kasy",
+          "statement": "W kasie przed otwarciem lodziarni znajdowała się pewna kwota pieniędzy. Po sprzedaży 6 jed- nakowych porcji lodów w kasie było 70 złotych. Po sprzedaży ogółem 16 takich porcji stan gotówki w kasie wynosił 120 złotych. Ile złotych było w kasie przed otwarciem lodziarni?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -395,7 +395,7 @@
           "difficulty": "5pkt",
           "topic": "pieniadze",
           "subtopic": "zbieranie na cel",
-          "statement": "Ada chce kupic gre za 80 zl. Ma juz 15 zl, a kazdy tydzien oszczedza 13 zl. Po ilu tygodniach zbierze potrzebna kwote?",
+          "statement": "Ada chce kupić gre za 80 zl. Ma juz 15 zl, a każdy tydzień oszczedza 13 zl. Po ilu tygodniach zbierze potrzebna kwote?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -470,18 +470,18 @@
         },
         {
           "problemId": "gen-l31-v2-c1",
-          "observation": "200 podziel na 4 rowne czesci.",
+          "observation": "200 podziel na 4 równe czesci.",
           "strategy": "Dzielenie.",
           "steps": [
             "200:4 = 50 zl"
           ],
           "answer": "D",
           "alternative": null,
-          "hint": "200 podziel na 4 rowne czesci."
+          "hint": "200 podziel na 4 równe czesci."
         },
         {
           "problemId": "gen-l31-v2-c2",
-          "observation": "Brakuje 80-15=65 zl, zbiera 13 zl/tydzien.",
+          "observation": "Brakuje 80-15=65 zl, zbiera 13 zl/tydzień.",
           "strategy": "Dzielenie.",
           "steps": [
             "Brakuje: 80 - 15 = 65 zl",
@@ -489,7 +489,7 @@
           ],
           "answer": "C",
           "alternative": null,
-          "hint": "Brakuje 80-15=65 zl, zbiera 13 zl/tydzien."
+          "hint": "Brakuje 80-15=65 zl, zbiera 13 zl/tydzień."
         }
       ]
     }
@@ -516,14 +516,14 @@
       "explain": "1 zl = 100 gr."
     },
     {
-      "q": "Masz 30 zl, lody po 4 zl. Ile lodow mozesz kupic?",
+      "q": "Masz 30 zl, lody po 4 zl. Ile lodów mozesz kupić?",
       "choices": {
         "A": "6",
         "B": "7",
         "C": "8"
       },
       "correct": "B",
-      "explain": "30:4 = 7 reszta 2 - kupisz 7 lodow."
+      "explain": "30:4 = 7 reszta 2 - kupisz 7 lodów."
     }
   ]
 }

@@ -7,8 +7,8 @@
   "topic": "wzory_i_ciagi",
   "estimatedMinutes": 15,
   "theory": {
-    "intro": "Masz 6 zlotych w monetach 2 zl i 1 zl. Na ile sposobow mozesz je ulozyc? To pytanie o rozklad liczby. Liczby mozna rozkladac na sumy i na iloczyny - a Kangur czesto pyta 'na ile sposobow'.",
-    "tool": "Sztuczka 1: WYPISUJ SYSTEMATYCZNIE. Zeby nie zgubic zadnego sposobu, idz po kolei. Liczba 5 jako suma dwoch dodatnich: 1+4, 2+3. Zaczynaj od najmniejszej i zwiekszaj.\n\nSztuczka 2: ILOCZYN - SZUKAJ PAR DZIELNIKOW. Liczba 12 jako iloczyn: 1x12, 2x6, 3x4. Sprawdzaj po kolei 1, 2, 3... az dojdziesz do srodka.\n\nSztuczka 3: KOLEJNOSC CZASEM NIE LICZY SIE. Zwroc uwage, czy 1+4 i 4+1 to ten sam sposob czy dwa rozne. W zadaniach Kangurka zwykle to ten sam sposob.\n\nSztuczka 4: DZIELNIKI. Dzielnik liczby to liczba, przez ktora dzieli sie ona bez reszty. Liczba 12 ma dzielniki: 1, 2, 3, 4, 6, 12 - czyli 6 dzielnikow.",
+    "intro": "Masz 6 zlotych w monetach 2 zl i 1 zl. Na ile sposobow mozesz je ułożyć? To pytanie o rozklad liczby. Liczby można rozkladac na sumy i na iloczyny - a Kangur czesto pyta 'na ile sposobow'.",
+    "tool": "Sztuczka 1: WYPISUJ SYSTEMATYCZNIE. Zeby nie zgubic zadnego sposobu, idz po kolei. Liczba 5 jako suma dwóch dodatnich: 1+4, 2+3. Zaczynaj od najmniejszej i zwiekszaj.\n\nSztuczka 2: ILOCZYN - SZUKAJ PAR DZIELNIKOW. Liczba 12 jako iloczyn: 1x12, 2x6, 3x4. Sprawdzaj po kolei 1, 2, 3... aż dojdziesz do srodka.\n\nSztuczka 3: KOLEJNOSC CZASEM NIE LICZY SIE. Zwroc uwage, czy 1+4 i 4+1 to ten sam sposob czy dwa różne. W zadaniach Kangurka zwykle to ten sam sposob.\n\nSztuczka 4: DZIELNIKI. Dzielnik liczby to liczba, przez która dzieli sie ona bez reszty. Liczba 12 ma dzielniki: 1, 2, 3, 4, 6, 12 - czyli 6 dzielnikow.",
     "trick": "Klucz do zadan 'na ile sposobow' to SYSTEMATYCZNOSC. Nie skacz losowo - idz po kolei od najmniejszej liczby. Wtedy nie zgubisz zadnego sposobu i nie policzysz dwa razy tego samego."
   },
   "versions": [
@@ -23,8 +23,8 @@
           "number": null,
           "difficulty": "3pkt",
           "topic": "wzory_i_ciagi",
-          "subtopic": "rozklad na sume dwoch liczb",
-          "statement": "Na ile sposobow mozna zapisac liczbe 5 jako sume dwoch liczb wiekszych od 0? (kolejnosc nie ma znaczenia)",
+          "subtopic": "rozklad na sume dwóch liczb",
+          "statement": "Na ile sposobow można zapisać liczbe 5 jako sume dwóch liczb wiekszych od 0? (kolejnosc nie ma znaczenia)",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -45,7 +45,7 @@
           "difficulty": "3pkt",
           "topic": "wzory_i_ciagi",
           "subtopic": "rozklad na iloczyn",
-          "statement": "Na ile sposobow mozna zapisac liczbe 12 jako iloczyn dwoch liczb? (np. 2 razy 6)",
+          "statement": "Na ile sposobow można zapisać liczbe 12 jako iloczyn dwóch liczb? (np. 2 razy 6)",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -66,7 +66,7 @@
           "difficulty": "3pkt",
           "topic": "wzory_i_ciagi",
           "subtopic": "rozmiana monet",
-          "statement": "Na ile sposobow mozna ulozyc 6 zlotych z monet 2 zl i 1 zl?",
+          "statement": "Na ile sposobow można ułożyć 6 zlotych z monet 2 zl i 1 zl?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -107,8 +107,8 @@
           "number": null,
           "difficulty": "3pkt",
           "topic": "wzory_i_ciagi",
-          "subtopic": "rozklad na dwie rozne liczby",
-          "statement": "Na ile sposobow zapisac 7 jako sume dwoch ROZNYCH liczb wiekszych od 0?",
+          "subtopic": "rozklad na dwie różne liczby",
+          "statement": "Na ile sposobow zapisać 7 jako sume dwóch Różnych liczb wiekszych od 0?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -131,7 +131,7 @@
           "difficulty": "4pkt",
           "topic": "wzory_i_ciagi",
           "subtopic": "suma kolejnych liczb",
-          "statement": "Liczbe 15 mozna zapisac jako sume kolejnych liczb naturalnych, np. 7+8 lub 4+5+6. Na ile sposobow da sie to zrobic (nie liczac samej liczby 15)?",
+          "statement": "Liczbe 15 można zapisać jako sume kolejnych liczb naturalnych, np. 7+8 lub 4+5+6. Na ile sposobow da sie to zrobic (nie liczac samej liczby 15)?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -152,7 +152,7 @@
           "difficulty": "5pkt",
           "topic": "wzory_i_ciagi",
           "subtopic": "liczba dzielnikow",
-          "statement": "Ile dzielnikow ma liczba 24 (liczb, przez ktore dzieli sie bez reszty)?",
+          "statement": "Ile dzielnikow ma liczba 24 (liczb, przez które dzieli sie bez reszty)?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -224,17 +224,17 @@
         },
         {
           "problemId": "gen-l12-w5",
-          "observation": "Liczby musza byc rozne - wypisuje pary.",
+          "observation": "Liczby muszą byc różne - wypisuje pary.",
           "strategy": "Systematyczne wypisywanie.",
           "steps": [
             "1 + 6 = 7",
             "2 + 5 = 7",
             "3 + 4 = 7",
-            "Czyli 3 sposoby (wszystkie pary rozne)"
+            "Czyli 3 sposoby (wszystkie pary różne)"
           ],
           "answer": "B",
           "alternative": null,
-          "hint": "Liczby musza byc rozne - wypisuje pary."
+          "hint": "Liczby muszą byc różne - wypisuje pary."
         },
         {
           "problemId": "gen-l12-c1",
@@ -243,7 +243,7 @@
           "steps": [
             "Dwie liczby: 7 + 8 = 15",
             "Trzy liczby: 4 + 5 + 6 = 15",
-            "Piec liczb: 1 + 2 + 3 + 4 + 5 = 15",
+            "Pięć liczb: 1 + 2 + 3 + 4 + 5 = 15",
             "Czyli 3 sposoby"
           ],
           "answer": "C",
@@ -278,8 +278,8 @@
           "number": null,
           "difficulty": "3pkt",
           "topic": "wzory_i_ciagi",
-          "subtopic": "rozklad na sume dwoch liczb",
-          "statement": "Na ile sposobow mozna zapisac liczbe 6 jako sume dwoch liczb wiekszych od 0? (kolejnosc nie ma znaczenia)",
+          "subtopic": "rozklad na sume dwóch liczb",
+          "statement": "Na ile sposobow można zapisać liczbe 6 jako sume dwóch liczb wiekszych od 0? (kolejnosc nie ma znaczenia)",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -300,7 +300,7 @@
           "difficulty": "3pkt",
           "topic": "wzory_i_ciagi",
           "subtopic": "rozklad na iloczyn",
-          "statement": "Na ile sposobow mozna zapisac liczbe 18 jako iloczyn dwoch liczb?",
+          "statement": "Na ile sposobow można zapisać liczbe 18 jako iloczyn dwóch liczb?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -321,7 +321,7 @@
           "difficulty": "3pkt",
           "topic": "wzory_i_ciagi",
           "subtopic": "rozmiana monet",
-          "statement": "Na ile sposobow mozna ulozyc 8 zlotych z monet 5 zl i 1 zl?",
+          "statement": "Na ile sposobow można ułożyć 8 zlotych z monet 5 zl i 1 zl?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -363,7 +363,7 @@
           "difficulty": "3pkt",
           "topic": "lamiglowki",
           "subtopic": "dzialanie z elementow ukladanki",
-          "statement": "Z czterech elementow ukladanki Jozek ulozyl prostokat z zapisem dzialania arytmetycznego (cyfry 3, 2, 1 i znak +). Jaki jest wynik tego dzialania?",
+          "statement": "Z czterech elementów układanki Józek ułożył prostokąt i zo- baczył na nim zapis pewnego działania arytmetycznego. Jaki jest wynik tego działania? 1 3 + 2",
           "hasImage": true,
           "imageNote": "Cztery elementy ukladanki z cyframi 3, 2, 1 i znakiem +.",
           "choices": {
@@ -386,9 +386,9 @@
           "difficulty": "5pkt",
           "topic": "lamiglowki",
           "subtopic": "podzial kul wg iloczynow",
-          "statement": "Helenka miala 10 kul ponumerowanych 0-9. Cztery dala Agnieszce, trzy Lusi, trzy zatrzymala. Iloczyn numerow: Helenka 0, Agnieszka 72, Lusia 90. Ile wynosi suma numerow kul Helenki?",
+          "statement": "Helenka miała 10 kul ponumerowanych od 0 do 9. Cztery z nich dała Agnieszce, a trzy dała Lusi. Następnie każda z dziewcząt pomnożyła przez siebie numery swoich kul. Okazało się, że Helence wyszło 0, Agnieszce 72, Lusi 90. Ile jest równa suma numerów kul, które zatrzymała sobie Helenka? 0 1 2 3 4 5 6 7 8 9",
           "hasImage": true,
-          "imageNote": "Dziesiec kul z numerami 0-9.",
+          "imageNote": "Dziesięć kul z numerami 0-9.",
           "choices": {
             "A": "11",
             "B": "12",
@@ -407,7 +407,7 @@
           "difficulty": "5pkt",
           "topic": "wzory_i_ciagi",
           "subtopic": "liczba dzielnikow",
-          "statement": "Ile dzielnikow ma liczba 36 (liczb, przez ktore dzieli sie bez reszty)?",
+          "statement": "Ile dzielnikow ma liczba 36 (liczb, przez które dzieli sie bez reszty)?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -532,7 +532,7 @@
       "explain": "Systematyczne wypisywanie po kolei gwarantuje komplet."
     },
     {
-      "q": "Liczba 10 jako iloczyn dwoch liczb - ile par?",
+      "q": "Liczba 10 jako iloczyn dwóch liczb - ile par?",
       "choices": {
         "A": "1",
         "B": "2",

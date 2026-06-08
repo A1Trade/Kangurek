@@ -8,8 +8,8 @@
   "estimatedMinutes": 12,
   "theory": {
     "intro": "Butelka wody, sok, mleko. Pojemnosc to ile plynu miesci sie w naczyniu. Jednostki: mililitr (ml) i litr (l). 1 l = 1000 ml. Szklanka ma okolo 250 ml, butelka wody 500 ml lub 1.5 l, baniak na mleko 5 l.",
-    "tool": "Sztuczka 1: 1 LITR = 1000 ML. To podstawa. Zamiany jak w innych jednostkach: na wieksza dziel przez 1000, na mniejsza mnoz przez 1000.\n\nSztuczka 2: SZACUJ POJEMNOSCI. Szklanka ~250 ml = cwierc litra. 4 szklanki = 1 litr. Wanna ~150 l. Basen ogrodowy ~2000 l.\n\nSztuczka 3: ZADANIA Z PRZELEWANIEM. Mama nalala soku z duzej butelki 2 l do trzech szklanek po 250 ml. Ile zostalo? 2000 ml - 3 razy 250 ml = 2000 - 750 = 1250 ml.\n\nSztuczka 4: TA SAMA JEDNOSTKA. Porownujac 750 ml i 1 l, zamien oba na ml: 750 ml < 1000 ml.",
-    "trick": "Pulapka: czesto w zadaniach jest 'butelka' bez podanej pojemnosci - musisz zalozyc standard (np. 1 l) albo informacja jest na obrazku. Czytaj uwaznie - jezeli nie ma jednoznacznej miary, to nie ma rozwiazania."
+    "tool": "Sztuczka 1: 1 LITR = 1000 ML. To podstawa. Zamiany jak w innych jednostkach: na wieksza dziel przez 1000, na mniejsza mnoz przez 1000.\n\nSztuczka 2: SZACUJ POJEMNOSCI. Szklanka ~250 ml = cwierc litra. 4 szklanki = 1 litr. Wanna ~150 l. Basen ogrodowy ~2000 l.\n\nSztuczka 3: ZADANIA Z PRZELEWANIEM. Mama nalala soku z duzej butelki 2 l do trzech szklanek po 250 ml. Ile zostało? 2000 ml - 3 razy 250 ml = 2000 - 750 = 1250 ml.\n\nSztuczka 4: TA SAMA JEDNOSTKA. Porownujac 750 ml i 1 l, zamien oba na ml: 750 ml < 1000 ml.",
+    "trick": "Pulapka: czesto w zadaniach jest 'butelka' bez podanej pojemnosci - musisz zalozyc standard (np. 1 l) albo informacja jest na obrazku. Czytaj uwaznie - jeżeli nie ma jednoznacznej miary, to nie ma rozwiazania."
   },
   "versions": [
     {
@@ -72,7 +72,7 @@
           "choices": {
             "A": "Pol litra",
             "B": "Cwierc litra",
-            "C": "Caly litr",
+            "C": "Cały litr",
             "D": "1/5 litra",
             "E": "2 litry"
           },
@@ -131,7 +131,7 @@
           "difficulty": "4pkt",
           "topic": "pomiary_jednostki",
           "subtopic": "odejmowanie pojemnosci",
-          "statement": "Wiadro ma 8 litrow wody. Mama wziela 750 ml na podlewanie. Ile ml wody zostalo w wiadrze?",
+          "statement": "Wiadro ma 8 litrow wody. Mama wzięła 750 ml na podlewanie. Ile ml wody zostało w wiadrze?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -152,7 +152,7 @@
           "difficulty": "5pkt",
           "topic": "pomiary_jednostki",
           "subtopic": "ile butelek z duzej",
-          "statement": "Z 5-litrowego baniaka mleka napelniono male butelki po 250 ml. Ile butelek udalo sie napelnic?",
+          "statement": "Z 5-litrowego baniaka mleka napelniono małe butelki po 250 ml. Ile butelek udalo sie napelnic?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -302,13 +302,13 @@
           "difficulty": "3pkt",
           "topic": "pomiary_jednostki",
           "subtopic": "wieksze",
-          "statement": "Co miesci WIECEJ wody: 700 ml czy 1 litr?",
+          "statement": "Co miesci Więcej wody: 700 ml czy 1 litr?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
             "A": "700 ml",
             "B": "1 litr",
-            "C": "Sa rowne",
+            "C": "Sa równe",
             "D": "Nie da sie ustalic",
             "E": "Zalezy"
           },
@@ -323,7 +323,7 @@
           "difficulty": "3pkt",
           "topic": "pomiary_jednostki",
           "subtopic": "szklanki",
-          "statement": "Dzbanek 1.5 l wody. Ile szklanek po 250 ml mozna nim napelnic?",
+          "statement": "Dzbanek 1.5 l wody. Ile szklanek po 250 ml można nim napelnic?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -387,8 +387,8 @@
           "number": null,
           "difficulty": "5pkt",
           "topic": "pomiary_jednostki",
-          "subtopic": "sciezka przelewania",
-          "statement": "Z butelki 2 l wlano sok do 4 szklanek po 250 ml i 2 kubeczkow po 200 ml. Ile ml soku zostalo w butelce?",
+          "subtopic": "ścieżka przelewania",
+          "statement": "Z butelki 2 l wlano sok do 4 szklanek po 250 ml i 2 kubeczkow po 200 ml. Ile ml soku zostało w butelce?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -417,7 +417,7 @@
         {
           "problemId": "gen-l29-v2-w2",
           "observation": "Pol litra = 500 ml.",
-          "strategy": "Polowa 1000.",
+          "strategy": "Połowa 1000.",
           "steps": [
             "1000:2 = 500 ml"
           ],
@@ -477,7 +477,7 @@
             "Butelka: 2 l = 2000 ml",
             "Szklanki: 4 razy 250 = 1000 ml",
             "Kubeczki: 2 razy 200 = 400 ml",
-            "Zostalo: 2000 - 1000 - 400 = 600 ml"
+            "Zostało: 2000 - 1000 - 400 = 600 ml"
           ],
           "answer": "C",
           "alternative": null,
@@ -508,7 +508,7 @@
       "explain": "Pol litra = 500 ml."
     },
     {
-      "q": "Cwierc litra to tyle, ile mniej wiecej:",
+      "q": "Cwierc litra to tyle, ile mniej więcej:",
       "choices": {
         "A": "Lyzeczka",
         "B": "Szklanka",

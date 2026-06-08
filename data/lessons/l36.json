@@ -8,8 +8,8 @@
   "estimatedMinutes": 14,
   "theory": {
     "intro": "Detektyw matematyczny czyta zdanie i pyta: 'Czy to prawda?' Logika to umiejetnosc oceniania, czy cos jest prawda, na podstawie znanych faktow. Kangur lubi takie zadania - testuja umiejetnosc precyzyjnego myslenia.",
-    "tool": "Sztuczka 1: KONTRPRZYKLAD OBALA 'WSZYSTKIE'. Jezeli ktos mowi 'wszystkie kangury sa szare' - wystarczy znalezc JEDNEGO zielonego, by zdanie bylo falszywe.\n\nSztuczka 2: 'ISTNIEJE' WYMAGA TYLKO JEDNEGO. Zdanie 'istnieje liczba parzysta wieksza od 10' jest prawdziwe, bo np. 12.\n\nSztuczka 3: NEGACJA ZAMIENIA WSZYSTKIE/JEST. Negacja 'wszystkie kangury sa szare' to 'istnieje kangur, ktory NIE jest szary'.\n\nSztuczka 4: SPRAWDZAJ KAZDE ZDANIE OSOBNO. Gdy zadanie pyta 'ktore zdanie jest falszywe', oceniaj kazde po kolei, nie odgaduj.",
-    "trick": "Pulapka Kangurka: zdania ze slowem 'wszystkie' lub 'zaden'. Jezeli choc jeden przyklad zaprzecza - cale zdanie falszywe. Ale 'niektore' wystarczy jeden przyklad potwierdzajacy."
+    "tool": "Sztuczka 1: KONTRPRZYKLAD OBALA 'Wszystkie'. Jeżeli ktos mowi 'wszystkie kangury sa szare' - wystarczy znalezc JEDNEGO zielonego, by zdanie było falszywe.\n\nSztuczka 2: 'ISTNIEJE' WYMAGA TYLKO JEDNEGO. Zdanie 'istnieje liczba parzysta wieksza od 10' jest prawdziwe, bo np. 12.\n\nSztuczka 3: NEGACJA ZAMIENIA Wszystkie/JEST. Negacja 'wszystkie kangury sa szare' to 'istnieje kangur, który NIE jest szary'.\n\nSztuczka 4: SPRAWDZAJ Każde ZDANIE OSOBNO. Gdy zadanie pyta 'które zdanie jest falszywe', oceniaj każde po kolei, nie odgaduj.",
+    "trick": "Pulapka Kangurka: zdania że slowem 'wszystkie' lub 'zaden'. Jeżeli choc jeden przyklad zaprzecza - cale zdanie falszywe. Ale 'niektore' wystarczy jeden przyklad potwierdzajacy."
   },
   "versions": [
     {
@@ -66,7 +66,7 @@
           "difficulty": "3pkt",
           "topic": "logika",
           "subtopic": "kontrprzyklad",
-          "statement": "Wszystkie kwadraty maja 4 boki. Czy trojkat ma 4 boki?",
+          "statement": "Wszystkie kwadraty maja 4 boki. Czy trójkąt ma 4 boki?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -87,7 +87,7 @@
           "difficulty": "3pkt",
           "topic": "logika",
           "subtopic": "ocena prawdziwosci zdan o liczbie",
-          "statement": "Pieciu chlopcow powiedzialo zdanie o liczbie 325. Andrzej: jest trzycyfrowa. Borys: wszystkie cyfry rozne. Czarek: suma cyfr = 10. Dawid: cyfra jednosci to 5. Emil: wszystkie cyfry nieparzyste. Ktory powiedzial NIEPRAWDE?",
+          "statement": "Pięciu chłopców wypowiedziało zdanie o liczbie 325. Który z nich powiedział nieprawdę? • Andrzej: Ta liczba jest trzycyfrowa. • Borys: Wszystkie cyfry tej liczby są różne. • Czarek: Suma cyfr tej liczby jest równa 10. • Dawid: Cyfrą jedności tej liczby jest 5. • Emil: Wszystkie cyfry tej liczby są nieparzyste.",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -131,7 +131,7 @@
           "difficulty": "4pkt",
           "topic": "logika",
           "subtopic": "rownanie z proporcjami i ograniczeniami",
-          "statement": "Na krzaku 8 kwiatkow. Na kazdym albo motyl, albo wazka, albo nic. Kwiatkow bez owada jest mniej niz polowa. Liczba motyli jest dwa razy wieksza niz liczba wazek. Ile motyli siedzi na kwiatkach?",
+          "statement": "Na krzaku róży jest 8 kwiatków. Na każdym kwiatku albo siedzi jeden motyl, albo jedna ważka, albo nie siedzi żaden owad. Kwiatków, na których nie siedzi żaden owad, jest mniej niż połowa. Łączna liczba motyli na tych kwiatkach jest dwa razy większa od łącznej liczby ważek. Ile motyli siedzi na kwiatkach?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -152,7 +152,7 @@
           "difficulty": "5pkt",
           "topic": "logika",
           "subtopic": "przewidywanie pogody wedlug regul",
-          "statement": "W bajkowym kraju kazdy sloneczny dzien jest poprzedzony 3 dniami deszczowymi. Szosty dzien po kazdym deszczowym dniu tez jest deszczowy. Dzis jest slonecznie. Jaka najwieksza liczba kolejnych dni od jutra mozna z pewnoscia przewidziec?",
+          "statement": "W bajkowym kraju, każdy słoneczny dzień jest bezpośrednio poprzedzony trzema kolejnymi dniami deszczowymi. Ponadto szósty dzień po każdym deszczowym dniu jest także deszczowy. Dziś jest słoneczny dzień. Jaka jest największa liczba następujących po sobie dni, zaczynając od dnia jutrzejszego, na które można przewidzieć pogodę?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -169,7 +169,7 @@
       "solutions": [
         {
           "problemId": "gen-l36-v1-w1",
-          "observation": "Z 'wszystkie' wynika dla kazdego elementu.",
+          "observation": "Z 'wszystkie' wynika dla każdego elementu.",
           "strategy": "Wnioskowanie.",
           "steps": [
             "Wszystkie psy szczekaja",
@@ -178,7 +178,7 @@
           ],
           "answer": "A",
           "alternative": null,
-          "hint": "Z 'wszystkie' wynika dla kazdego elementu."
+          "hint": "Z 'wszystkie' wynika dla każdego elementu."
         },
         {
           "problemId": "gen-l36-v1-w2",
@@ -194,23 +194,23 @@
         },
         {
           "problemId": "gen-l36-v1-w3",
-          "observation": "Trojkat ma 3 boki, nie 4.",
+          "observation": "Trójkąt ma 3 boki, nie 4.",
           "strategy": "Sprawdzenie faktu.",
           "steps": [
-            "Trojkat ma 3 boki",
+            "Trójkąt ma 3 boki",
             "Zdanie 'wszystkie kwadraty maja 4 boki' nie mowi nic o trojkatach"
           ],
           "answer": "B",
           "alternative": null,
-          "hint": "Trojkat ma 3 boki, nie 4."
+          "hint": "Trójkąt ma 3 boki, nie 4."
         },
         {
           "problemId": "kangur-maluch-2013-7",
           "observation": "5 zdan o liczbie 325. Szukaj falszywego.",
-          "strategy": "Wez liczbe 325 i sprawdz po kolei kazde zdanie.",
+          "strategy": "Wez liczbe 325 i sprawdz po kolei każde zdanie.",
           "steps": [
             "Andrzej: trzycyfrowa? 325 ma 3 cyfry. PRAWDA.",
-            "Borys: cyfry rozne? 3, 2, 5 - wszystkie rozne. PRAWDA.",
+            "Borys: cyfry różne? 3, 2, 5 - wszystkie różne. PRAWDA.",
             "Czarek: suma cyfr = 10? 3+2+5 = 10. PRAWDA.",
             "Dawid: cyfra jednosci = 5? Tak. PRAWDA.",
             "Emil: wszystkie cyfry nieparzyste? 3 (nieparzysta), 2 (PARZYSTA!), 5 (nieparzysta). FALSZ.",
@@ -218,26 +218,26 @@
           ],
           "answer": "E",
           "alternative": null,
-          "hint": "Sprawdz kazde zdanie o liczbie 325 osobno. Tylko jedno jest falszywe."
+          "hint": "Sprawdz każde zdanie o liczbie 325 osobno. Tylko jedno jest falszywe."
         },
         {
           "problemId": "kangur-maluch-2019-8",
           "observation": "Obie po x orzechow. 2x > 20 (czyli x > 10), x < 12.",
           "strategy": "Z warunkow x = 11.",
           "steps": [
-            "Niech x = liczba orzechow kazdej.",
+            "Niech x = liczba orzechow każdej.",
             "Razem: 2x > 20, czyli x > 10.",
-            "Kazda mniej niz 12: x < 12.",
+            "Każda mniej niz 12: x < 12.",
             "Liczba calkowita: x = 11."
           ],
           "answer": "E",
           "alternative": null,
-          "hint": "Liczby orzechow rowne, lacznie > 20, kazdy < 12. Sprawdz odpowiedzi."
+          "hint": "Liczby orzechow równe, łącznie > 20, każdy < 12. Sprawdz odpowiedzi."
         },
         {
           "problemId": "kangur-maluch-2018-13",
           "observation": "8 kwiatkow. m = motyle, w = wazki, p = puste. m + w + p = 8.",
-          "strategy": "m = 2w, p < 4 (mniej niz polowa z 8). Sprobuj wartosci w.",
+          "strategy": "m = 2w, p < 4 (mniej niz połowa z 8). Sprobuj wartosci w.",
           "steps": [
             "p + 3w = 8 (po podstawieniu m = 2w).",
             "p < 4, p >= 0.",
@@ -249,21 +249,21 @@
           ],
           "answer": "C",
           "alternative": null,
-          "hint": "motyli = 2 * wazek, pustych < 4 (mniej niz polowa 8)."
+          "hint": "motyli = 2 * wazek, pustych < 4 (mniej niz połowa 8)."
         },
         {
           "problemId": "kangur-maluch-2014-21",
-          "observation": "Slonecznie po 3 deszczowych. Szosty dzien po deszczowym = deszczowy.",
-          "strategy": "Wsteczna logika: dzis slonce, wiec wczoraj-przedwczoraj-trzeciowczoraj byly deszcz.",
+          "observation": "Slonecznie po 3 deszczowych. Szosty dzień po deszczowym = deszczowy.",
+          "strategy": "Wsteczna logika: dziś slonce, wiec wczoraj-przedwczoraj-trzeciowczoraj były deszcz.",
           "steps": [
-            "Dzis slonce. Trzy poprzednie dni: deszcz.",
-            "Po deszczu (np. wczoraj) szosty dzien (czyli 6-1=5 dni temu? lub +5 dni) = deszcz.",
+            "Dziś slonce. Trzy poprzednie dni: deszcz.",
+            "Po deszczu (np. wczoraj) szosty dzień (czyli 6-1=5 dni temu? lub +5 dni) = deszcz.",
             "Z analizy wzorca - kolejne dni: deszcz, deszcz, deszcz, deszcz, slonce.",
             "Mozemy przewidziec 5 kolejnych dni od jutra."
           ],
           "answer": "D",
           "alternative": null,
-          "hint": "Dzis slonecznie. Jutro? Pojutrze? Ile pewnych dni z rzedu?"
+          "hint": "Dziś slonecznie. Jutro? Pojutrze? Ile pewnych dni z rzedu?"
         }
       ]
     },
@@ -279,7 +279,7 @@
           "difficulty": "3pkt",
           "topic": "logika",
           "subtopic": "prawda zdan",
-          "statement": "Liczba 7 jest pierwsza. Liczba 8 jest pierwsza. Ktora z dwoch jest pierwsza?",
+          "statement": "Liczba 7 jest pierwsza. Liczba 8 jest pierwsza. Która z dwóch jest pierwsza?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -326,7 +326,7 @@
           "imageNote": null,
           "choices": {
             "A": "Wszystkie koty nie mrucza",
-            "B": "Istnieje kot, ktory nie mruczy",
+            "B": "Istnieje kot, który nie mruczy",
             "C": "Zaden kot nie mruczy",
             "D": "Wszystkie psy mrucza",
             "E": "Niektore kota mrucza"
@@ -342,7 +342,7 @@
           "difficulty": "3pkt",
           "topic": "logika",
           "subtopic": "porzadkowanie wg nierownosci",
-          "statement": "Adam zbudowal mniej zamkow niz Marcin, ale wiecej niz Zuzia. Dana zbudowala wiecej niz Marcin, ale mniej niz Lusia. Kto zbudowal najwiecej zamkow?",
+          "statement": "Dzieci budowały zamki z piasku. Adam zbudował ich mniej niż Marcin, ale więcej niż Zuzia. Dana zbudowała więcej niż Marcin, ale mniej niż Lusia. Kto z nich zbudował najwięcej zamków z piasku?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -362,12 +362,12 @@
           "number": 10,
           "difficulty": "4pkt",
           "topic": "logika",
-          "subtopic": "przyporzadkowanie owocow dzieciom",
-          "statement": "Na tacy 5 owocow: jablko, gruszka, wisnia, truskawka, banan. Franek lubi tylko wisnie. Tadzio lubi wisnie i banan. Kajtek lubi wisnie, truskawke, banan. Alicja lubi gruszke i truskawke. Jozek lubi wszystkie. Kazde dziecko dostalo owoc, ktory lubi. Co dostal Jozek?",
+          "subtopic": "przyporzadkowanie owoców dzieciom",
+          "statement": "Na tacy leżało pięć owoców: . Kajtek lubi , Franek lubi , Józek lubi , Tadzio lubi , Alicja lubi . Każde dziecko dostało taki owoc, jaki lubi. Co dostał Józek?",
           "hasImage": true,
-          "imageNote": "Piec owocow na tacy.",
+          "imageNote": "Pięć owoców na tacy.",
           "choices": {
-            "A": "jablko",
+            "A": "jabłko",
             "B": "gruszka",
             "C": "wisnia",
             "D": "truskawka",
@@ -386,7 +386,7 @@
           "difficulty": "3pkt",
           "topic": "logika",
           "subtopic": "czas palenia świec równocześnie",
-          "statement": "Czerwona świeczka wypala się w ciągu 2 godzin, a biała w ciągu 1 godziny. Zapalono jednocześnie dwie świeczki czerwone i trzy świeczki białe. Ile potrzeba czasu, aby wszystkie świeczki się wypaliły?",
+          "statement": "Czerwona świeczka wypala się w ciągu 2 godzin, a biała w ciągu 1 godziny. Zapalono jednocześnie dwie świeczki czerwone i trzy świeczki białe. Ile potrzeba czasu, aby świeczki te wypaliły się?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -407,7 +407,7 @@
           "difficulty": "5pkt",
           "topic": "logika",
           "subtopic": "lamiglowka typu saper na plastrze",
-          "statement": "Plaster z 9 szesciokatnych komorek. Liczba w komorce mowi, w ilu sasiednich komorkach jest miod. W ilu komorkach jest miod?",
+          "statement": "Plaster jest utworzony z dziewięciu sześciokątnych komórek. W nie- których z nich jest miód. Liczba w komórce wskazuje, w ilu sąsiadujących z nią komórkach, czyli mających z nią wspólny bok, jest miód. W ilu ko- mórkach znajduje się miód?",
           "hasImage": true,
           "imageNote": "Plaster z 9 komorek, niektore z liczbami 1, 2, 3, 4.",
           "choices": {
@@ -448,23 +448,23 @@
         },
         {
           "problemId": "gen-l36-v2-w3",
-          "observation": "Negacja 'wszystkie X' = 'istnieje X ktore nie...'",
+          "observation": "Negacja 'wszystkie X' = 'istnieje X które nie...'",
           "strategy": "Logika negacji.",
           "steps": [
-            "Negacja 'wszystkie' to 'istnieje co najmniej jeden, ktory nie'"
+            "Negacja 'wszystkie' to 'istnieje co najmniej jeden, który nie'"
           ],
           "answer": "B",
           "alternative": null,
-          "hint": "Negacja 'wszystkie X' = 'istnieje X ktore nie...'"
+          "hint": "Negacja 'wszystkie X' = 'istnieje X które nie...'"
         },
         {
           "problemId": "kangur-maluch-2014-7",
           "observation": "Zuzia < Adam < Marcin < Dana < Lusia.",
           "strategy": "Lancuch: Zuzia < Adam < Marcin < Dana < Lusia.",
           "steps": [
-            "Adam mniej niz Marcin, wiecej niz Zuzia -> Zuzia < Adam < Marcin.",
-            "Dana wiecej niz Marcin, mniej niz Lusia -> Marcin < Dana < Lusia.",
-            "Lacznie: Zuzia < Adam < Marcin < Dana < Lusia.",
+            "Adam mniej niz Marcin, więcej niz Zuzia -> Zuzia < Adam < Marcin.",
+            "Dana więcej niz Marcin, mniej niz Lusia -> Marcin < Dana < Lusia.",
+            "Łącznie: Zuzia < Adam < Marcin < Dana < Lusia.",
             "Najwiecej: Lusia."
           ],
           "answer": "E",
@@ -473,39 +473,39 @@
         },
         {
           "problemId": "kangur-maluch-2024-10",
-          "observation": "5 dzieci, 5 owocow. Kazde lubi pewne, dostalo to co lubi.",
+          "observation": "5 dzieci, 5 owoców. Każde lubi pewne, dostalo to co lubi.",
           "strategy": "Idz od najbardziej wybrednych: Franek -> wisnia. Reszta otrzymuje pozostale.",
           "steps": [
             "Franek lubi tylko wisnie -> wisnia.",
             "Tadzio lubi wisnie/banan. Wisnia zajeta -> banan.",
             "Kajtek lubi wisnie/truskawka/banan. Wisnia i banan zajete -> truskawka.",
             "Alicja lubi gruszke/truskawke. Truskawka zajeta -> gruszka.",
-            "Jozek lubi wszystko, zostalo jablko -> jablko."
+            "Jozek lubi wszystko, zostało jabłko -> jabłko."
           ],
           "answer": "A",
           "alternative": null,
-          "hint": "Franek tylko wisnie - dostal wisnie. Idz po kolei eliminujac."
+          "hint": "Franek tylko wisnie - dostał wisnie. Idz po kolei eliminujac."
         },
         {
           "problemId": "kangur-maluch-2019-7",
-          "observation": "Czerwona = 2h, biala = 1h. Wszystkie naraz zapalone.",
+          "observation": "Czerwona = 2h, biała = 1h. Wszystkie naraz zapalone.",
           "strategy": "Najdluzsza palaca to czerwona - 2 godziny.",
           "steps": [
-            "Wszystkie 5 swiec zapalono jednoczesnie.",
-            "Biale wypalaja sie w 1 godzine.",
+            "Wszystkie 5 świec zapalono jednoczesnie.",
+            "Białe wypalaja sie w 1 godzinę.",
             "Czerwone w 2 godziny - to dluzej.",
             "Po 2 godzinach wszystkie sa wypalone."
           ],
           "answer": "E",
           "alternative": null,
-          "hint": "Wszystkie zapalone razem. Czerwone pala sie 2 godziny - to dluzszy czas niz biale."
+          "hint": "Wszystkie zapalone razem. Czerwone pala sie 2 godziny - to dłuższy czas niz białe."
         },
         {
           "problemId": "kangur-maluch-2024-22",
           "observation": "9 szesciokatow. Liczby mowia ile sasiadow z miodem.",
           "strategy": "Patrz na podane liczby i probuj rozmiescic miod.",
           "steps": [
-            "Komorka z liczba 0 - zaden sasiad nie ma miodu.",
+            "Komorka z liczba 0 - zaden sąsiad nie ma miodu.",
             "Komorka z liczba 3 - dokladnie 3 sasiadow ma miod.",
             "Z analizy ukladu plastra: 5 komorek ma miod."
           ],
@@ -527,7 +527,7 @@
           "difficulty": "5pkt",
           "topic": "logika",
           "subtopic": "układ równań z symboli, sumy wierszy",
-          "statement": "W diagramie 3x3 pod każdym obrazkiem ukryta jest liczba (taki sam obrazek = ta sama liczba). Suma liczb pierwszego wiersza = 15, drugiego = 12, trzeciego = 16. Jaka liczba jest ukryta pod symbolem gwiazdki?",
+          "statement": "Pod każdym obrazkiem w diagramie ukryta jest liczba. Taki sam obrazek oznacza taką samą liczbę. Suma liczb z pierwszego wiersza jest równa 15, z dru- giego 12, a z trzeciego 16. Jaka liczba jest ukryta pod symbolem ?",
           "hasImage": true,
           "imageNote": "Diagram 3x3: koła, gwiazdy, serca. Sumy wierszy 15, 12, 16.",
           "choices": {
@@ -548,7 +548,7 @@
           "difficulty": "5pkt",
           "topic": "logika",
           "subtopic": "przyrost dzienny, modulo 7",
-          "statement": "W bajkowym sadzie rośnie jabłoń i grusza. Każdego dnia rano z jabłoni spada 1 jabłko, a w południe odrastają 2. Z gruszy rano spadają 2 gruszki, a w południe odrastają 3. W niedzielę wieczorem były 3 jabłka i 5 gruszek. W jakim dniu tygodnia wieczorem na obu drzewach będzie łącznie 100 owoców?",
+          "statement": "W bajkowym sadzie rośnie jabłoń i grusza. Każdego dnia rano z jabłoni spada jedno jabłko, a w południe odrastają dwa, z gruszy zaś każdego dnia rano spadają dwie gruszki, a w południe odrastają trzy. W niedzielę wieczorem na tych drzewach były 3 jabłka i 5 gruszek. W jakim dniu tygodnia wieczorem na obu drzewach będzie łącznie 100 owoców?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -569,7 +569,7 @@
           "difficulty": "4pkt",
           "topic": "logika",
           "subtopic": "suma calkowita minus zaslonięte grupy",
-          "statement": "Na tablicy zapisano liczby 1-8. Cztery liczby pod trojkatami daja sume 10, trzy pod kwadratami sume 20. Jaka liczbe przykrywa kolo?",
+          "statement": "Na tablicy zapisano liczby od 1 do 8. Nauczycielka zakryła je ma- gnesami w kształcie trójkątów, kwadratów i koła. Suma czterech liczb zasłoniętych trójkątami wynosi 10, suma trzech liczb pod kwadratami wynosi 20. Jaką liczbę przykrywa koło?",
           "hasImage": true,
           "imageNote": "Liczby 1-8 zaslonięte magnesami w ksztaltach trojkatow, kwadratow i kola.",
           "choices": {
@@ -590,7 +590,7 @@
           "difficulty": "5pkt",
           "topic": "logika",
           "subtopic": "pomylka w typowaniu kolejnosci",
-          "statement": "Ela wytypowala kolejnosc na mecie 8 koni. Kon Strzala ukonczyl bieg na pozycji WYZSZEJ niz wytypowala Ela, a pozostale 7 koni na pozycjach NIZSZYCH. O ile miejsc pomylila sie Ela co do Strzaly?",
+          "statement": "Przed gonitwą Ela wytypowała kolejność na mecie 8 startujących w niej koni. Po ukończonym wyścigu okazało się, że żadne dwa konie nie przybiegły na metę równocześnie. Koń Strzała ukończył bieg na pozycji wyższej niż wytypowała Ela, a pozostałe 7 koni na niższych. O ile miejsc pomyliła się Ela w określeniu miejsca, które zajęła Strzała?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -598,7 +598,7 @@
             "B": "4",
             "C": "2",
             "D": "1",
-            "E": "Nie da sie ustalic"
+            "E": "Nie da się tego ustalić."
           },
           "correct": "A",
           "imageSrc": "/images/orig/2021-23.png"
@@ -611,9 +611,9 @@
           "difficulty": "4pkt",
           "topic": "logika",
           "subtopic": "dwie liczby z sumy",
-          "statement": "Wiek 6 kangurow: 2, 4, 5, 6, 8, 10 lat. 4 kangury (lacznie 22 lata) idza spac. Pozostale dwa sie bawia. Ile lat maja bawiace sie kangury?",
+          "statement": "Wiek sześciu kangurów to 2, 4, 5, 6, 8 i 10 lat. Cztery kangury, które w sumie mają 22 lata, poszły spać. Pozostałe kangury bawią się. Ile lat mają bawiące się kangury?",
           "hasImage": true,
-          "imageNote": "Szesc kangurow z roznymi wiekami.",
+          "imageNote": "Sześć kangurow z roznymi wiekami.",
           "choices": {
             "A": "2 i 8",
             "B": "4 i 5",
@@ -642,12 +642,12 @@
         },
         {
           "problemId": "kangur-maluch-2019-21",
-          "observation": "Codziennie kazde drzewo zyskuje 1 owoc netto. Razem +2 dziennie.",
-          "strategy": "Z niedzieli wieczorem mamy 8 owocow. Potrzeba 100. Roznica 92. Tempo 2/dzien.",
+          "observation": "Codziennie każde drzewo zyskuje 1 owoc netto. Razem +2 dziennie.",
+          "strategy": "Z niedzieli wieczorem mamy 8 owoców. Potrzeba 100. Roznica 92. Tempo 2/dzień.",
           "steps": [
-            "Niedziela wieczor: 3 jablka + 5 gruszek = 8 owocow.",
-            "Kazdy dzien dodaje 2 owoce (po 1 do kazdego drzewa).",
-            "Potrzeba: 100 - 8 = 92 owocow wiecej.",
+            "Niedziela wieczór: 3 jabłka + 5 gruszek = 8 owoców.",
+            "Każdy dzień dodaje 2 owoce (po 1 do każdego drzewa).",
+            "Potrzeba: 100 - 8 = 92 owoców więcej.",
             "Dni: 92 / 2 = 46 dni.",
             "Niedziela + 46 dni = sroda... ale licz tygodniami: 46 / 7 = 6 reszty 4.",
             "Niedziela + 4 dni = czwartek."
@@ -659,38 +659,38 @@
         {
           "problemId": "kangur-maluch-2020-10",
           "observation": "Liczby 1-8 (suma 36). 4 pod trojkatami = 10, 3 pod kwadratami = 20, 1 pod kolem = ?",
-          "strategy": "Suma wszystkich 36 = 10 + 20 + kolo.",
+          "strategy": "Suma wszystkich 36 = 10 + 20 + koło.",
           "steps": [
             "Suma 1+2+...+8 = 36.",
-            "Trojkaty: 4 liczby = 10.",
+            "Trójkąty: 4 liczby = 10.",
             "Kwadraty: 3 liczby = 20.",
-            "Kolo: 1 liczba = 36 - 10 - 20 = 6."
+            "Koło: 1 liczba = 36 - 10 - 20 = 6."
           ],
           "answer": "D",
           "alternative": null,
-          "hint": "Suma 1-8 = 36. Czworo trojkatow = 10, troje kwadratow = 20, kolko = pozostala suma."
+          "hint": "Suma 1-8 = 36. Czworo trójkątów = 10, troje kwadratów = 20, kółko = pozostala suma."
         },
         {
           "problemId": "kangur-maluch-2021-23",
           "observation": "Strzala wyzej niz typ Eli, pozostale 7 nizej niz ich typy.",
-          "strategy": "Jezeli wszystkie inne sa nizej, Strzala musi byc w typowaniu na ostatnim (8) miejscu, by skonczyl wyzej (czyli na 1).",
+          "strategy": "Jeżeli wszystkie inne sa nizej, Strzala musi byc w typowaniu na ostatnim (8) miejscu, by skonczyl wyzej (czyli na 1).",
           "steps": [
             "Strzala faktycznie wyzej niz typowanie.",
             "7 pozostalych koni faktycznie nizej niz ich typowania.",
-            "Jezeli kazdy konkretny typowal kazdego konia na konkretnym miejscu - i wszystkie 7 sa NIZEJ.",
+            "Jeżeli każdy konkretny typowal każdego konia na konkretnym miejscu - i wszystkie 7 sa NIZEJ.",
             "Strzala typowany na 8 miejsce, faktycznie 1 - pomylka 7 miejsc."
           ],
           "answer": "A",
           "alternative": null,
-          "hint": "WSZYSTKIE 7 koni byly na NIZSZYCH pozycjach niz wytypowala Ela. Strzala byl WYZEJ."
+          "hint": "Wszystkie 7 koni były na NIZSZYCH pozycjach niz wytypowala Ela. Strzala był WYZEJ."
         },
         {
           "problemId": "kangur-maluch-2022-10",
           "observation": "6 kangurow, suma 35 lat. 4 spia (22 lat), 2 sie bawia.",
-          "strategy": "Bawiace lacznie 35 - 22 = 13 lat. Sprawdz pary z odpowiedzi.",
+          "strategy": "Bawiace łącznie 35 - 22 = 13 lat. Sprawdz pary z odpowiedzi.",
           "steps": [
             "Suma wiekow: 2 + 4 + 5 + 6 + 8 + 10 = 35.",
-            "Bawiace lacznie: 35 - 22 = 13 lat.",
+            "Bawiace łącznie: 35 - 22 = 13 lat.",
             "Pary z odpowiedzi: 2+8=10, 4+5=9, 5+8=13 (TAK), 6+8=14, 6+10=16.",
             "Bawiace kangury maja 5 i 8 lat."
           ],
@@ -713,7 +713,7 @@
       "explain": "Z 'wszystkie X maja Y' i 'A to X' wynika 'A ma Y'."
     },
     {
-      "q": "Kontrprzyklad obala zdanie ze slowem:",
+      "q": "Kontrprzyklad obala zdanie że slowem:",
       "choices": {
         "A": "Wszystkie",
         "B": "Niektore",

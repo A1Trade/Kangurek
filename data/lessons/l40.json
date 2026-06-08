@@ -7,9 +7,9 @@
   "topic": "logika",
   "estimatedMinutes": 14,
   "theory": {
-    "intro": "Stara waga szalkowa: dwie miseczki, jedna z odwaznikami, druga z towarem. Rownowaga = ten sam ciezar. Wagi to klasyczne logiczne zagadki - od porownywania, kto ciezszy, po zlozone uklady rownan z trzema rodzajami klockow.",
-    "tool": "Sztuczka 1: ROWNOWAGA = ROWNE CIEZARY. Jezeli waga jest w rownowadze, lewa szalka = prawej.\n\nSztuczka 2: PORownujac TRZECH. Jezeli A+B=C+B (waga rowna), to A=C. Mozemy 'odjac' B od obu stron.\n\nSztuczka 3: UKLAD ROWNAN. 3 wagi z 3 rodzajami klockow = 3 rownania. Sprowadzaj do jednego klocka.\n\nSztuczka 4: PORZADEK WAG. Trzy paczki, dwie wagi: A+B<A+C i B+C<A+C. Wniosek: B najmniejszy, A=C lub C najwiekszy.",
-    "trick": "Pulapka: czasem wagi nie sa w rownowadze - jedna strona ciezsza. Wtedy NIE oznacza rownosci, tylko nierownosc. Czytaj uwaznie - 'waga w rownowadze' vs 'jedna szalka opadla'."
+    "intro": "Stara waga szalkowa: dwie miseczki, jedna z odwaznikami, druga z towarem. Rownowaga = ten sam ciezar. Wagi to klasyczne logiczne zagadki - od porownywania, kto ciezszy, po zlozone uklady rownan z trzema rodzajami klocków.",
+    "tool": "Sztuczka 1: ROWNOWAGA = Równe CIEZARY. Jeżeli waga jest w równowadze, lewa szalka = prawej.\n\nSztuczka 2: PORownujac Trzech. Jeżeli A+B=C+B (waga równa), to A=C. Mozemy 'odjac' B od obu stron.\n\nSztuczka 3: UKLAD ROWNAN. 3 wagi z 3 rodzajami klocków = 3 rownania. Sprowadzaj do jednego klocka.\n\nSztuczka 4: PORZADEK WAG. Trzy paczki, dwie wagi: A+B<A+C i B+C<A+C. Wniosek: B najmniejszy, A=C lub C najwiekszy.",
+    "trick": "Pulapka: czasem wagi nie sa w równowadze - jedna strona ciezsza. Wtedy NIE oznacza równości, tylko nierownosc. Czytaj uwaznie - 'waga w równowadze' vs 'jedna szalka opadla'."
   },
   "versions": [
     {
@@ -45,13 +45,13 @@
           "difficulty": "3pkt",
           "topic": "logika",
           "subtopic": "porownanie",
-          "statement": "Na lewej szalce 2 klocki, na prawej 4. Waga w rownowadze. Co z tego wynika?",
+          "statement": "Na lewej szalce 2 klocki, na prawej 4. Waga w równowadze. Co z tego wynika?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
             "A": "Klocki lewe ciezsze (po 2x)",
             "B": "Klocki prawe ciezsze",
-            "C": "Wszystkie rowne",
+            "C": "Wszystkie równe",
             "D": "Nic",
             "E": "Bledna waga"
           },
@@ -73,7 +73,7 @@
             "A": "A=B",
             "B": "B=C",
             "C": "A=C",
-            "D": "Wszystko rowne",
+            "D": "Wszystko równe",
             "E": "Nic"
           },
           "correct": "B",
@@ -87,7 +87,7 @@
           "difficulty": "3pkt",
           "topic": "logika",
           "subtopic": "uklad rownan - wagi z kulami",
-          "statement": "Na wagach leza kule trzech kolorow (te same kolory waza tyle samo). Waga 1: biala + szara = 6 kg. Waga 2: czarna + czarna + biala = 14 kg. Waga 3: szara + biala + biala = 10 kg. Ile wazy czarna kula?",
+          "statement": "Na obrazkach przedstawione są kule w trzech barwach leżące na wagach. Kule tego samego koloru ważą tyle samo. Ile waży czarna kula?",
           "hasImage": true,
           "imageNote": "Trzy wagi z kulami w trzech kolorach.",
           "choices": {
@@ -107,16 +107,16 @@
           "number": 10,
           "difficulty": "4pkt",
           "topic": "logika",
-          "subtopic": "rownowaga wagi - ktory odwaznik poza",
-          "statement": "Ewa ma 6 odwaznikow: 1, 2, 3, 4, 5 i 6 kg. Piec z nich polozyla na wadze szalkowej, ktora pozostala w rownowadze. Ktory odwaznik zostal poza waga?",
+          "subtopic": "rownowaga wagi - który odwaznik poza",
+          "statement": "Ewa ma sześć odważników, które ważą 1, 2, 3, 4, 5 i 6 kilo- gramów. Pięć z nich położyła na wadze i waga pozostała w rów- nowadze. Który odważnik został poza wagą?",
           "hasImage": true,
-          "imageNote": "Waga szalkowa z 5 odwaznikami w rownowadze.",
+          "imageNote": "Waga szalkowa z 5 odwaznikami w równowadze.",
           "choices": {
             "A": "1 kg",
             "B": "2 kg",
             "C": "3 kg",
             "D": "4 kg",
-            "E": "Niemozliwe, by waga byla w rownowadze"
+            "E": "Niemożliwe, by waga pozostała w równowadze. ? 5 6"
           },
           "correct": "A",
           "imageSrc": "/images/orig/2023-10.png"
@@ -131,15 +131,15 @@
           "difficulty": "5pkt",
           "topic": "logika",
           "subtopic": "rownowaga wagi - co dolozyc",
-          "statement": "Na wagach leza trzy rodzaje figur (trojkat, kwadrat, kolo - te same waza tyle samo). Co nalezy dolozyc na lewa szalke trzeciej wagi, by byla w rownowadze?",
+          "statement": "Na wagach leżą trzy rodzaje ﬁgur: , , . Figury tego samego rodzaju ważą tyle samo. Co należy dołożyć na lewą szalkę trzeciej wagi, by znalazła się ona w równowadze?",
           "hasImage": true,
           "imageNote": "Trzy wagi z figurami, trzecia niewyrownana.",
           "choices": {
             "A": "kwadrat",
             "B": "dwa kwadraty",
-            "C": "kolo",
-            "D": "trojkat",
-            "E": "dwa trojkaty"
+            "C": "koło",
+            "D": "trójkąt",
+            "E": "dwa trójkąty"
           },
           "correct": "D",
           "imageSrc": "/images/orig/2021-22.png"
@@ -151,16 +151,16 @@
           "number": 21,
           "difficulty": "5pkt",
           "topic": "logika",
-          "subtopic": "porownywanie wag klockow",
-          "statement": "Asia ma 3 rodzaje klockow: trojkat, kolo, kwadrat (rozne wagi). Wlozyla po 4 do trzech pojemnikow i ustawila je od najlzejszego do najciezszego. Pojemniki: (kwadrat,trojkat,kolo,trojkat), (trojkat,kwadrat,kwadrat,kwadrat), (kolo,kwadrat,trojkat,kwadrat). Ktory klocek jest najlzejszy, a ktory najciezszy?",
+          "subtopic": "porownywanie wag klocków",
+          "statement": "Asia ma 3 rodzaje klocków: trójkąt, koło, kwadrat (różne wagi). Wlozyla po 4 do trzech pojemnikow i ustawila je od najlzejszego do najciezszego. Pojemniki: (kwadrat,trójkąt,koło,trójkąt), (trójkąt,kwadrat,kwadrat,kwadrat), (koło,kwadrat,trójkąt,kwadrat). Który klocek jest najlzejszy, a który najciezszy?",
           "hasImage": true,
           "imageNote": "Trzy pojemniki z klockami ustawione wg ciezaru.",
           "choices": {
-            "A": "Najlzejszy trojkat, najciezszy kwadrat",
-            "B": "Najlzejszy trojkat, najciezszy kolo",
-            "C": "Najlzejszy kwadrat, najciezszy kolo",
-            "D": "Najlzejszy kolo, najciezszy kwadrat",
-            "E": "Najlzejszy kolo, najciezszy trojkat"
+            "A": "Najlzejszy trójkąt, najciezszy kwadrat",
+            "B": "Najlzejszy trójkąt, najciezszy koło",
+            "C": "Najlzejszy kwadrat, najciezszy koło",
+            "D": "Najlzejszy koło, najciezszy kwadrat",
+            "E": "Najlzejszy koło, najciezszy trójkąt"
           },
           "correct": "B",
           "imageSrc": "/images/orig/2016-page4.png"
@@ -169,14 +169,14 @@
       "solutions": [
         {
           "problemId": "gen-l40-v1-w1",
-          "observation": "Rownowaga = rowne masy.",
+          "observation": "Rownowaga = równe masy.",
           "strategy": "Rownowaga.",
           "steps": [
             "Gruszka = 200 g"
           ],
           "answer": "C",
           "alternative": null,
-          "hint": "Rownowaga = rowne masy."
+          "hint": "Rownowaga = równe masy."
         },
         {
           "problemId": "gen-l40-v1-w2",
@@ -202,8 +202,8 @@
         },
         {
           "problemId": "kangur-maluch-2021-7",
-          "observation": "biala+szara=6, czarna+czarna+biala=14, szara+biala+biala=10.",
-          "strategy": "Z rownan: biala = b, szara = s, czarna = c. b+s=6, 2c+b=14, s+2b=10.",
+          "observation": "biała+szara=6, czarna+czarna+biała=14, szara+biała+biała=10.",
+          "strategy": "Z rownan: biała = b, szara = s, czarna = c. b+s=6, 2c+b=14, s+2b=10.",
           "steps": [
             "b + s = 6 (1)",
             "2c + b = 14 (2)",
@@ -214,48 +214,48 @@
           ],
           "answer": "C",
           "alternative": null,
-          "hint": "3 rownania, 3 niewiadome. Wyznacz biala, szara, czarna kola wage."
+          "hint": "3 rownania, 3 niewiadome. Wyznacz biała, szara, czarna koła wage."
         },
         {
           "problemId": "kangur-maluch-2023-10",
-          "observation": "Suma 21. Po wyjeciu x: pozostale 21-x. Polowa na kazdej szalce: (21-x)/2.",
+          "observation": "Suma 21. Po wyjeciu x: pozostale 21-x. Połowa na każdej szalce: (21-x)/2.",
           "strategy": "(21-x) musi byc parzyste -> x nieparzyste.",
           "steps": [
             "Suma 1+2+3+4+5+6 = 21.",
-            "Po wyjeciu x: 21 - x na wadze (rowno na 2 szalki).",
+            "Po wyjeciu x: 21 - x na wadze (równo na 2 szalki).",
             "21 - x parzyste -> x nieparzyste: 1, 3, 5.",
             "Sprawdz x = 1: pozostalo 20 = 10+10. Mozliwe: {4,6} i {2,3,5}. TAK.",
             "Odwaznik 1 kg poza waga."
           ],
           "answer": "A",
           "alternative": null,
-          "hint": "6 odwaznikow, suma 1+2+...+6 = 21. Po wyjeciu 1 - rowne szalki = sumy rowne."
+          "hint": "6 odwaznikow, suma 1+2+...+6 = 21. Po wyjeciu 1 - równe szalki = sumy równe."
         },
         {
           "problemId": "kangur-maluch-2021-22",
-          "observation": "3 wagi w rownowadze, ustal niewazone.",
+          "observation": "3 wagi w równowadze, ustal niewazone.",
           "strategy": "Wyznacz wage figur z 2 pierwszych wag.",
           "steps": [
-            "Z analizy obrazka odpowiedz: trojkat."
+            "Z analizy obrazka odpowiedz: trójkąt."
           ],
           "answer": "D",
           "alternative": null,
-          "hint": "Z 2 wag wczesniejszych wyciagnij relacje miedzy figurami."
+          "hint": "Z 2 wag wczesniejszych wyciagnij relacje między figurami."
         },
         {
           "problemId": "kangur-maluch-2016-21",
           "observation": "3 pojemniki po 4 klocki, ustawione od lzejszego do ciezszego.",
-          "strategy": "Niech a, b, c = wagi (kwadrat, trojkat, kolo). Wymnoz przez liczbe wystapien.",
+          "strategy": "Niech a, b, c = wagi (kwadrat, trójkąt, koło). Wymnoz przez liczbe wystapien.",
           "steps": [
-            "Pojemnik 1: kwadrat + trojkat + kolo + trojkat = k+2t+ko.",
-            "Pojemnik 2: trojkat + 3 kwadraty = t + 3k.",
-            "Pojemnik 3: kolo + 2 kwadraty + trojkat = ko + 2k + t.",
+            "Pojemnik 1: kwadrat + trójkąt + koło + trójkąt = k+2t+ko.",
+            "Pojemnik 2: trójkąt + 3 kwadraty = t + 3k.",
+            "Pojemnik 3: koło + 2 kwadraty + trójkąt = ko + 2k + t.",
             "P1 < P2 < P3.",
-            "Z analizy odpowiedz: najlzejszy trojkat, najciezszy kolo."
+            "Z analizy odpowiedz: najlzejszy trójkąt, najciezszy koło."
           ],
           "answer": "B",
           "alternative": null,
-          "hint": "Sumuj wagi pojemnikow. Lzejszy = mniejsza suma 4 klockow."
+          "hint": "Sumuj wagi pojemnikow. Lzejszy = mniejsza suma 4 klocków."
         }
       ]
     },
@@ -313,7 +313,7 @@
           "difficulty": "3pkt",
           "topic": "logika",
           "subtopic": "najciezsze",
-          "statement": "Kot wazy wiecej niz mysz. Pies wazy wiecej niz kot. Kto wazy najwiecej?",
+          "statement": "Kot wazy więcej niz mysz. Pies wazy więcej niz kot. Kto wazy najwiecej?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -333,10 +333,10 @@
           "number": 21,
           "difficulty": "5pkt",
           "topic": "logika",
-          "subtopic": "podzial owocow wedlug wagi",
-          "statement": "W 5 skrzyniach sa jablka lub banany. Wagi: 7, 5, 6, 2, 16 kg. Wszystkie banany waza 3 razy wiecej niz wszystkie jablka. W ktorych skrzyniach sa jablka?",
+          "subtopic": "podzial owoców wedlug wagi",
+          "statement": "W każdej z pięciu skrzyń znajdują się albo wyłącznie jabłka, albo wyłącznie banany. Na obrazku zapisano, ile ważą owoce w każdej skrzyni. 1 2 3 4 5 2 kg 5 kg 6 kg 7 kg 16 kg Wiadomo, że wszystkie banany ważą 3 razy więcej niż wszystkie jabłka. W których skrzyniach są jabłka?",
           "hasImage": true,
-          "imageNote": "Piec skrzyn z wagami 7, 5, 6, 2, 16 kg.",
+          "imageNote": "Pięć skrzyn z wagami 7, 5, 6, 2, 16 kg.",
           "choices": {
             "A": "1 i 2",
             "B": "2 i 3",
@@ -355,7 +355,7 @@
           "difficulty": "5pkt",
           "topic": "logika",
           "subtopic": "suma trzech bryl z wazen parami",
-          "statement": "Ewa wazyla trzy rozne bryly po dwie. Wyniki to 200 g, 100 g i 240 g. Ile waza razem te trzy bryly?",
+          "statement": "Ewa ma trzy różne bryły. Kładła je po dwie na wadze i otrzymała następujące wyniki — patrz obrazki. Ile ważą razem te trzy bryły? 200 g 100 g 240 g ?",
           "hasImage": true,
           "imageNote": "Trzy bryly wazone parami na wadze.",
           "choices": {
@@ -377,7 +377,7 @@
           "number": 21,
           "difficulty": "5pkt",
           "topic": "logika",
-          "subtopic": "wagi z roznymi rodzajami klockow",
+          "subtopic": "wagi z roznymi rodzajami klocków",
           "statement": "Na dwoch wagach Kajtek polozyl klocki w 3 rodzajach. Klocek typu A wazy 5 kg. Wagi sa zrownowazone wedlug obrazka. Ile kilogramow waży klocek typu B (jasny szescian)?",
           "hasImage": true,
           "imageNote": "Dwie szalkowe wagi z roznymi klockami w roznowadze.",
@@ -399,7 +399,7 @@
           "difficulty": "5pkt",
           "topic": "logika",
           "subtopic": "poziom wody w szklankach z kulkami",
-          "statement": "Do 5 identycznych szklanek z 1, 2, 3, 4 i 6 jednakowymi kulkami wlano taka sama ilosc wody. W szklankach 1, 2 i 3 poziom wody jest taki sam. W szklance 4 poziom jest taki sam jak w pierwszych 3. W piatej dwa razy wyzszy niz w pierwszych trzech. W ktorej szklance jest najmniej wody?",
+          "statement": "Do 5 identycznych szklanek z 1, 2, 3, 4 i 6 jednakowymi kulkami wlano taka sama ilosc wody. W szklankach 1, 2 i 3 poziom wody jest taki sam. W szklance 4 poziom jest taki sam jak w pierwszych 3. W piatej dwa razy wyzszy niz w pierwszych trzech. W której szklance jest najmniej wody?",
           "hasImage": true,
           "imageNote": "5 szklanek z roznym liczbami kulek (1, 2, 3, 4, 6).",
           "choices": {
@@ -449,17 +449,17 @@
         },
         {
           "problemId": "kangur-maluch-2021-21",
-          "observation": "Skrzynie 7,5,6,2,16 (suma 36). Banany = 3 * jablka.",
-          "strategy": "Jablka + banany = 36. Banany = 3J. J + 3J = 36 -> J = 9.",
+          "observation": "Skrzynie 7,5,6,2,16 (suma 36). Banany = 3 * jabłka.",
+          "strategy": "Jabłka + banany = 36. Banany = 3J. J + 3J = 36 -> J = 9.",
           "steps": [
             "Suma wszystkich: 7+5+6+2+16 = 36 kg.",
-            "Jablka = J, banany = 3J. J + 3J = 36, J = 9.",
+            "Jabłka = J, banany = 3J. J + 3J = 36, J = 9.",
             "Szukamy 2 skrzyn sumujacych do 9: 7+2 = 9.",
-            "Skrzynie 1 (7 kg) i 4 (2 kg) maja jablka."
+            "Skrzynie 1 (7 kg) i 4 (2 kg) maja jabłka."
           ],
           "answer": "E",
           "alternative": null,
-          "hint": "Sumuj wagi: banany = 3 razy jablka. Razem 36 kg."
+          "hint": "Sumuj wagi: banany = 3 razy jabłka. Razem 36 kg."
         },
         {
           "problemId": "kangur-maluch-2024-17",
@@ -476,7 +476,7 @@
         },
         {
           "problemId": "kangur-maluch-2025-21",
-          "observation": "Wagi w rownowadze z 3 typami klockow.",
+          "observation": "Wagi w równowadze z 3 typami klocków.",
           "strategy": "Z 2 rownan i znanej wartosci A wyznacz B.",
           "steps": [
             "Z analizy obrazka odpowiedz: 3 kg."
@@ -488,18 +488,18 @@
         {
           "problemId": "kangur-maluch-2025-19",
           "observation": "5 szklanek z 1,2,3,4,6 kulkami, woda jednakowa.",
-          "strategy": "Wiecej kulek = wyzszy poziom (kulki wypieraja wode).",
+          "strategy": "Więcej kulek = wyzszy poziom (kulki wypieraja wode).",
           "steps": [
-            "Szklanka 1: 1 kulka - najmniej wypartej wody, ale tez najmniej wody?",
+            "Szklanka 1: 1 kulka - najmniej wypartej wody, ale też najmniej wody?",
             "Same kulki wypieraja - wode dodano taka sama.",
-            "Im wiecej kulek tym wyzszy poziom (ten sam volume vody).",
+            "Im więcej kulek tym wyzszy poziom (ten sam volume vody).",
             "Pytanie: gdzie NAJMNIEJ wody - 'najnizsza' szklanka.",
             "Najmniej wypartej = najmniejszy poziom = 1 kulka.",
             "Szklanka 1."
           ],
           "answer": "A",
           "alternative": null,
-          "hint": "Te same szklanki, ta sama woda. Kulki wypieraja wode - wiecej kulek = wyzszy poziom."
+          "hint": "Te same szklanki, ta sama woda. Kulki wypieraja wode - więcej kulek = wyzszy poziom."
         }
       ]
     },
@@ -517,7 +517,7 @@
           "subtopic": "zagadka z kierunkiem patrzenia wrobli",
           "statement": "Piec wrobli na galezi (Edek, Darek, Czarek, Bartek, Arek). Kazdy cwierkal tyle razy, ile widzial innych wrobli. Bartek cwierkal 3 razy. Potem jeden wrobel odwrocil glowe i lączna liczba cwierknieć byla wieksza. Ktory wrobel odwrocil glowe?",
           "hasImage": true,
-          "imageNote": "Piec wrobli na galezi w rzedzie: Edek, Darek, Czarek, Bartek, Arek.",
+          "imageNote": "Pięć wrobli na galezi w rzedzie: Edek, Darek, Czarek, Bartek, Arek.",
           "choices": {
             "A": "Arek",
             "B": "Bartek",
@@ -536,15 +536,15 @@
           "difficulty": "5pkt",
           "topic": "logika",
           "subtopic": "diagram z liczbami nie-kolejne",
-          "statement": "Jurek chce wpisac liczby 1-7 do diagramu tak, by w kratkach stykajacych sie bokami lub wierzcholkami nie wystapily dwie kolejne liczby. Jaka liczbe moze wpisac w kratke ze znakiem zapytania?",
+          "statement": "Jurek chce wpisać liczby od 1 do 7 do diagramu przedstawionego na rysunku obok w taki sposób, aby w kratkach stykających się bokami lub wierzchołkami nie wystąpiły dwie kolejne liczby. Jaką liczbę może Jurek wpisać w kratkę oznaczoną znakiem zapytania?",
           "hasImage": true,
           "imageNote": "Diagram z 7 kratek o specyficznym ksztalcie, jedna oznaczona ?.",
           "choices": {
-            "A": "Kazda z 7",
-            "B": "Tylko 1, 3, 5 lub 7",
-            "C": "Tylko 2, 4 lub 6",
-            "D": "Tylko 4",
-            "E": "Tylko 1 lub 7"
+            "A": "Każdą z siedmiu liczb.",
+            "B": "Tylko 1, 3, 5 lub 7.",
+            "C": "Tylko 2, 4 lub 6.",
+            "D": "Tylko liczbę 4.",
+            "E": "Tylko 1 lub 7. ? c⃝Kangourou Sans Fronti`eres www.aksf.org c⃝Towarzystwo Upowszechniania Wiedzy i Nauk Matematycznych"
           },
           "correct": "D",
           "imageSrc": "/images/orig/2018-24.png"
@@ -557,7 +557,7 @@
           "difficulty": "4pkt",
           "topic": "logika",
           "subtopic": "kolorowanie grafu - minimalna liczba kolorow",
-          "statement": "Ala chce pomalowac wszystkie kolka tak, by kazde dwa polaczone odcinkiem mialy rozne kolory. Co najmniej ile kredek w roznych kolorach potrzebuje?",
+          "statement": "Ala chce pomalować wszystkie kółka z obrazka w taki sposób, by każde dwa kółka połączone jednym odcinkiem były w różnych kolorach. Co najmniej ile kredek w różnych kolorach powinna mieć Ala?",
           "hasImage": true,
           "imageNote": "Graf z kolkami polaczonymi odcinkami.",
           "choices": {
@@ -590,14 +590,14 @@
         },
         {
           "problemId": "kangur-maluch-2018-24",
-          "observation": "Liczby 1-7. Sasiednie kratki (bok lub wierzcholek) nie maja kolejnych liczb.",
+          "observation": "Liczby 1-7. Sąsiednie kratki (bok lub wierzcholek) nie maja kolejnych liczb.",
           "strategy": "Z analizy diagramu - kratka ? ma ograniczenia od kilku sasiadow.",
           "steps": [
             "Z analizy obrazka odpowiedz: tylko 4."
           ],
           "answer": "D",
           "alternative": null,
-          "hint": "Kolejne liczby nie moga sasiadowac. To problem kolorowania."
+          "hint": "Kolejne liczby nie mogą sasiadowac. To problem kolorowania."
         },
         {
           "problemId": "kangur-maluch-2023-12",
@@ -605,26 +605,26 @@
           "strategy": "Chromatyczny problem - sprobuj 2, potem 3 kolory.",
           "steps": [
             "Z 2 kolorami: musi byc dwudzielny graf.",
-            "Jezeli sa cykle nieparzyste - potrzeba 3.",
+            "Jeżeli sa cykle nieparzyste - potrzeba 3.",
             "Z analizy odpowiedz: 3 kredki."
           ],
           "answer": "B",
           "alternative": null,
-          "hint": "Kazde polaczenie odcinkiem = rozne kolory. Szukaj minimum kolorow."
+          "hint": "Każde polaczenie odcinkiem = różne kolory. Szukaj minimum kolorow."
         }
       ]
     }
   ],
   "quiz": [
     {
-      "q": "Waga w rownowadze oznacza:",
+      "q": "Waga w równowadze oznacza:",
       "choices": {
         "A": "Lewa = prawa",
         "B": "Lewa > prawa",
         "C": "Lewa < prawa"
       },
       "correct": "A",
-      "explain": "Rownowaga = rowne ciezary po obu stronach."
+      "explain": "Rownowaga = równe ciezary po obu stronach."
     },
     {
       "q": "Z A+B=A+C wynika:",
@@ -637,14 +637,14 @@
       "explain": "Odejmij A od obu stron: B=C."
     },
     {
-      "q": "3 wagi z 3 rodzajami klockow to:",
+      "q": "3 wagi z 3 rodzajami klocków to:",
       "choices": {
         "A": "3 rownania",
         "B": "3 zagadki",
         "C": "3 mozliwosci"
       },
       "correct": "A",
-      "explain": "Kazda waga to jedno rownanie - razem uklad rownan."
+      "explain": "Każda waga to jedno rownanie - razem uklad rownan."
     }
   ]
 }

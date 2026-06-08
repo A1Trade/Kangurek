@@ -7,7 +7,7 @@
   "topic": "geometria_plaska",
   "estimatedMinutes": 14,
   "theory": {
-    "intro": "Otwierasz drzwi - powstaje kat. Wskazowki zegara tworza kat. Kat to dwie polproste wychodzace z jednego punktu. Im szerzej je rozsuniesz, tym wiekszy kat. Geometria katow zaczyna sie od rozpoznawania, czy kat jest maly, prosty czy szeroki.",
+    "intro": "Otwierasz drzwi - powstaje kat. Wskazowki zegara tworza kat. Kat to dwie polproste wychodzace z jednego punktu. Im szerzej je rozsuniesz, tym wiekszy kat. Geometria katow zaczyna sie od rozpoznawania, czy kat jest mały, prosty czy szeroki.",
     "tool": "Sztuczka 1: KAT PROSTY TO ROG KARTKI. Kazdy rog kartki to kat prosty. Kat mniejszy od prostego nazywamy ostrym, a wiekszy - rozwartym. Kat polpelny to prosta linia.\n\nSztuczka 2: PORÓWNUJ Z ROGIEM. Nie znasz miary kata? Przyloz w mysli rog kartki. Jezeli kat jest 'ciasniejszy' - ostry. Szerszy - rozwarty.\n\nSztuczka 3: KATY NA ZEGARZE. Wskazowki zegara tworza katy. Co godzine duza wskazowka przesuwa sie o pelne kolo. Miedzy sasiednimi cyframi jest zawsze taki sam kat.",
     "trick": "Kangur lubi katy w odbiciach i obrotach. Gdy figura sie obraca albo odbija w lustrze, katy NIE zmieniaja swojej miary - zmienia sie tylko ich polozenie. To klucz do zadan z lustrami i obracaniem."
   },
@@ -31,7 +31,7 @@
             "A": "Rozwarte nozyczki",
             "B": "Rog kartki",
             "C": "Prosta linia",
-            "D": "Pelne kolo",
+            "D": "Pelne koło",
             "E": "Czubek igly"
           },
           "correct": "B",
@@ -87,9 +87,9 @@
           "difficulty": "3pkt",
           "topic": "geometria_plaska",
           "subtopic": "odbicia od lustra - tor lasera",
-          "statement": "Ukosne kreski to lustra. Promien lasera odbija sie od lustra. Przez ktory punkt (A,B,C,D,E) przejdzie promien wpuszczony wzdluz strzalki na rysunku 2?",
+          "statement": "Na obrazkach obok ukośne kreski oznaczają lu- stra. Gdy promień lasera natraﬁna lustro, odbija się od niego w sposób pokazany na rysunku 1. Przez jaki punkt przejdzie promień lasera na ry- sunku 2, jeżeli wypuścimy go wzdłuż strzałki?",
           "hasImage": true,
-          "imageNote": "Rysunek 1 - przyklad odbicia. Rysunek 2 - prostokat z lustrami i strzalka oraz 5 punktow.",
+          "imageNote": "Rysunek 1 - przyklad odbicia. Rysunek 2 - prostokat z lustrami i strzalka oraz 5 punktów.",
           "choices": {
             "A": "A",
             "B": "B",
@@ -108,7 +108,7 @@
           "difficulty": "3pkt",
           "topic": "geometria_plaska",
           "subtopic": "odbicie lustrzane zegara",
-          "statement": "Na scianie naprzeciwko lustra wisi zegar wskazujacy godzine 15:00. Ktory z rysunkow przedstawia odbicie tego zegara w lustrze?",
+          "statement": "Na ścianie naprzeciwko lustra wisi zegar, który wskazuje godzinę 15:00. Który z rysunków przed- stawia odbicie tego zegara w lustrze?",
           "hasImage": true,
           "imageNote": "Zegar 15:00 i 5 wariantow odbicia lustrzanego.",
           "choices": {
@@ -131,7 +131,7 @@
           "difficulty": "4pkt",
           "topic": "geometria_plaska",
           "subtopic": "odbicie lustrzane pajacyka",
-          "statement": "Pajacyk przeglada sie w lustrze. Ktory z 5 rysunkow przedstawia jego odbicie?",
+          "statement": "Pajacyk przeglada sie w lustrze. Który z 5 rysunkow przedstawia jego odbicie?",
           "hasImage": true,
           "imageNote": "Pajacyk i 5 wariantow odbicia.",
           "choices": {
@@ -151,7 +151,7 @@
           "number": null,
           "difficulty": "5pkt",
           "topic": "geometria_plaska",
-          "subtopic": "kat miedzy wskazowkami",
+          "subtopic": "kat między wskazowkami",
           "statement": "O godzinie 6:00 wskazowki zegara (godzinowa i minutowa) tworza kat:",
           "hasImage": false,
           "imageNote": null,
@@ -172,7 +172,7 @@
           "observation": "Rog kartki to wzorzec kata prostego.",
           "strategy": "Porownanie z rogiem.",
           "steps": [
-            "Kazdy rog prostokatnej kartki to kat prosty"
+            "Każdy rog prostokatnej kartki to kat prosty"
           ],
           "answer": "B",
           "alternative": null,
@@ -206,7 +206,7 @@
           "observation": "Promien lasera odbija sie od luster.",
           "strategy": "Sledzenie toru odbic.",
           "steps": [
-            "Przy kazdym lustrze promien zmienia kierunek",
+            "Przy każdym lustrze promien zmienia kierunek",
             "Po przejsciu wszystkich luster trafia w punkt C"
           ],
           "answer": "C",
@@ -230,7 +230,7 @@
           "observation": "Odbicie lustrzane pajacyka.",
           "strategy": "Lustrzane odwrocenie obrazu.",
           "steps": [
-            "Pajacyk w lustrze ma odbita prawa i lewa strone",
+            "Pajacyk w lustrze ma odbita prawa i lewa stronę",
             "Poprawne odbicie to E"
           ],
           "answer": "E",
@@ -291,7 +291,7 @@
             "A": "Rog kartki",
             "B": "Prosta linia",
             "C": "Czubek olowka",
-            "D": "Pelne kolo",
+            "D": "Pelne koło",
             "E": "Kropka"
           },
           "correct": "B",
@@ -326,7 +326,7 @@
           "difficulty": "4pkt",
           "topic": "geometria_plaska",
           "subtopic": "obroty napisu na parasolu",
-          "statement": "Parasol ma na gorze napis KANGAROO ulozony dookola. Na ktorym z 5 rysunkow przedstawiono ten sam parasol (obrocony)?",
+          "statement": "Mój australijski parasol ma na górze napis KANGAROO, co po angielsku znaczy „kangur” (rysunek obok). Na jednym z poniższych rysunków przed- stawiono ten sam parasol. Na którym? R A G N A K O O",
           "hasImage": true,
           "imageNote": "Parasol z napisem KANGAROO dookola i 5 wariantow obroconych.",
           "choices": {
@@ -347,9 +347,9 @@
           "difficulty": "3pkt",
           "topic": "geometria_plaska",
           "subtopic": "obrot wiatraczka",
-          "statement": "Emilka ma wiatraczek (szescioboczny z trojkatami w roznych kolorach). Dziewczynka obrocila jego tarcze. Jak teraz moze wygladac wiatraczek?",
+          "statement": "Emilka ma wiatraczek (szescioboczny z trojkatami w różnych kolorach). Dziewczynka obrocila jego tarcze. Jak teraz może wygladac wiatraczek?",
           "hasImage": true,
-          "imageNote": "Heksagon podzielony na 6 trojkatow, czesc czarna, czesc biala. 5 wariantow po obrocie.",
+          "imageNote": "Heksagon podzielony na 6 trójkątów, czesc czarna, czesc biała. 5 wariantow po obrocie.",
           "choices": {
             "A": "wzor A",
             "B": "wzor B",
@@ -370,7 +370,7 @@
           "difficulty": "3pkt",
           "topic": "geometria_plaska",
           "subtopic": "odbicie lustrzane bukietu",
-          "statement": "Kasia namalowala na szybie okna bukiet kwiatow. Jak wyglada on z drugiej strony okna?",
+          "statement": "Kasia namalowała na szybie okna bukiet kwiatów przedstawiony na rysunku obok. Jak wygląda on z drugiej strony okna?",
           "hasImage": true,
           "imageNote": "Bukiet kwiatow i 5 wariantow odbicia lustrzanego.",
           "choices": {
@@ -391,7 +391,7 @@
           "difficulty": "4pkt",
           "topic": "geometria_plaska",
           "subtopic": "inwersja kolorow + obrot",
-          "statement": "Na obrazku zamieniono kolor bialy na czarny i odwrotnie, a nastepnie obrocono. Ktory z rysunkow przedstawia otrzymana figure?",
+          "statement": "Na obrazku pokazanym obok kolor biały zamieniono na czarny, a kolor czarny na biały. Tak zmienioną ﬁgurę obrócono. Który z poniższych rysunków przedstawia otrzymaną ﬁgurę?",
           "hasImage": true,
           "imageNote": "Kolisty obrazek z punktami i kolami w kolorach. Po inwersji i obrocie - 5 wariantow.",
           "choices": {
@@ -411,7 +411,7 @@
           "observation": "Wiekszy od prostego, mniejszy od polpelnego = rozwarty.",
           "strategy": "Klasyfikacja.",
           "steps": [
-            "Kat rozwarty jest miedzy prostym a polpelnym"
+            "Kat rozwarty jest między prostym a polpelnym"
           ],
           "answer": "C",
           "alternative": null,
@@ -433,7 +433,7 @@
           "observation": "Kwadrat ma 4 rogi proste.",
           "strategy": "Katy w kwadracie.",
           "steps": [
-            "Kazdy z 4 rogow kwadratu to kat prosty"
+            "Każdy z 4 rogow kwadratu to kat prosty"
           ],
           "answer": "D",
           "alternative": null,
@@ -441,7 +441,7 @@
         },
         {
           "problemId": "kangur-maluch-2015-9",
-          "observation": "Parasol z napisem KANGAROO obrocony.",
+          "observation": "Parasol z napisem KANGAROO obrócony.",
           "strategy": "Sledzenie obrotu napisu.",
           "steps": [
             "Napis dookola parasola zachowuje kolejnosc liter",
@@ -449,19 +449,19 @@
           ],
           "answer": "E",
           "alternative": null,
-          "hint": "Parasol z napisem KANGAROO obrocony."
+          "hint": "Parasol z napisem KANGAROO obrócony."
         },
         {
           "problemId": "kangur-maluch-2025-2",
-          "observation": "Wiatraczek obrocony - katy zachowane.",
+          "observation": "Wiatraczek obrócony - katy zachowane.",
           "strategy": "Obrot tarczy.",
           "steps": [
-            "Przy obrocie uklad trojkatow zachowuje swoje katy",
+            "Przy obrocie uklad trójkątów zachowuje swoje katy",
             "Mozliwy obraz to B"
           ],
           "answer": "B",
           "alternative": null,
-          "hint": "Wiatraczek obrocony - katy zachowane."
+          "hint": "Wiatraczek obrócony - katy zachowane."
         },
         {
           "problemId": "kangur-maluch-2014-8",
@@ -480,7 +480,7 @@
           "observation": "Inwersja kolorow i obrot figury.",
           "strategy": "Zamiana kolorow + obrot.",
           "steps": [
-            "Bialy zamieniony na czarny i odwrotnie",
+            "Biały zamieniony na czarny i odwrotnie",
             "Po obrocie poprawny obraz to D"
           ],
           "answer": "D",
@@ -501,7 +501,7 @@
           "difficulty": "3pkt",
           "topic": "geometria_plaska",
           "subtopic": "ruch po siatce z wektorami",
-          "statement": "Z szkoly do ZOO kangurek wykonal skoki: gora 1, skos prawo-dol 2, skos prawo-gora 1, lewo 4. Potem od ZOO wykonal: prawo 3, skos prawo-gora 2, gora 2. Do ktorego punktu (A,B,C,D,E) trafil Kangurek?",
+          "statement": "Z szkoly do ZOO kangurek wykonal skoki: góra 1, skos prawo-dół 2, skos prawo-góra 1, lewo 4. Potem od ZOO wykonal: prawo 3, skos prawo-góra 2, góra 2. Do którego punktu (A,B,C,D,E) trafił Kangurek?",
           "hasImage": true,
           "imageNote": "Siatka z zaznaczonymi punktami Szkola, ZOO i punktami A-E.",
           "choices": {
@@ -519,15 +519,15 @@
       "solutions": [
         {
           "problemId": "kangur-maluch-2025-3",
-          "observation": "Kangurek wykonuje 7 skokow (4 ze szkoly do ZOO, 3 z ZOO).",
-          "strategy": "Policz przesuniecie wzdluz osi X (prawo/lewo) i Y (gora/dol) osobno.",
+          "observation": "Kangurek wykonuje 7 skoków (4 że szkoly do ZOO, 3 z ZOO).",
+          "strategy": "Policz przesuniecie wzdłuż osi X (prawo/lewo) i Y (góra/dół) osobno.",
           "steps": [
-            "Faza 1: gora 1, skos prawo-dol 2, skos prawo-gora 1, lewo 4.",
+            "Faza 1: góra 1, skos prawo-dół 2, skos prawo-góra 1, lewo 4.",
             "Suma X (prawo+): 0 + 2 + 1 - 4 = -1 (1 w lewo).",
-            "Suma Y (gora+): 1 - 2 + 1 + 0 = 0 (bez zmiany).",
-            "Z ZOO: prawo 3, skos prawo-gora 2, gora 2.",
+            "Suma Y (góra+): 1 - 2 + 1 + 0 = 0 (bez zmiany).",
+            "Z ZOO: prawo 3, skos prawo-góra 2, góra 2.",
             "Pelne przesuniecie X: -1 + 3 + 2 = 4 (4 w prawo od szkoly).",
-            "Pelne Y: 0 + 0 + 2 + 2 = 4 (4 w gore).",
+            "Pelne Y: 0 + 0 + 2 + 2 = 4 (4 w górę).",
             "Z mapki - punkt B."
           ],
           "answer": "B",

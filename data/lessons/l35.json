@@ -3,12 +3,12 @@
   "number": 35,
   "block": "Czas i kalendarz",
   "blockCode": "F",
-  "title": "Daty, miesiace, odstepy",
+  "title": "Daty, miesiące, odstepy",
   "topic": "czas_kalendarz",
   "estimatedMinutes": 16,
   "theory": {
-    "intro": "Kalendarz ma 12 miesiecy. Kazdy ma 28, 29, 30 lub 31 dni. Luty jest specjalny - zwykle 28, ale w roku przestepnym 29. Liczenie dat, odstepow miedzy nimi, dni do urodzin - to czesta tresc zadan Kangurka.",
-    "tool": "Sztuczka 1: DLUGOSCI MIESIACOW. 31 dni: I, III, V, VII, VIII, X, XII (styczen, marzec, maj, lipiec, sierpien, pazdziernik, grudzien). 30 dni: IV, VI, IX, XI (kwiecien, czerwiec, wrzesien, listopad). 28-29 dni: II (luty).\n\nSztuczka 2: ROK PRZESTEPNY. Co 4 lata (2012, 2016, 2020, 2024). Wtedy luty ma 29 dni. Sprawdz: rok dzieli sie przez 4? Tak = przestepny (z drobnym wyjatkiem co 100 lat).\n\nSztuczka 3: ODSTEPY DAT W TYM SAMYM MIESIACU. Od 5 marca do 19 marca: 19-5 = 14 dni.\n\nSztuczka 4: ODSTEPY MIEDZY MIESIACAMI. Od 25 kwietnia do 3 maja: 30-25 = 5 dni (do konca kwietnia) + 3 dni (maj) = 8 dni.",
+    "intro": "Kalendarz ma 12 miesięcy. Każdy ma 28, 29, 30 lub 31 dni. Luty jest specjalny - zwykle 28, ale w roku przestepnym 29. Liczenie dat, odstepow między nimi, dni do urodzin - to czesta tresc zadan Kangurka.",
+    "tool": "Sztuczka 1: Długości MIESIACOW. 31 dni: I, III, V, VII, VIII, X, XII (styczen, marzec, maj, lipiec, sierpien, pazdziernik, grudzien). 30 dni: IV, VI, IX, XI (kwiecien, czerwiec, wrzesien, listopad). 28-29 dni: II (luty).\n\nSztuczka 2: Rok PRZESTEPNY. Co 4 lata (2012, 2016, 2020, 2024). Wtedy luty ma 29 dni. Sprawdz: rok dzieli sie przez 4? Tak = przestepny (z drobnym wyjatkiem co 100 lat).\n\nSztuczka 3: ODSTEPY DAT W TYM SAMYM MIESIACU. Od 5 marca do 19 marca: 19-5 = 14 dni.\n\nSztuczka 4: ODSTEPY Między MIESIACAMI. Od 25 kwietnia do 3 maja: 30-25 = 5 dni (do końca kwietnia) + 3 dni (maj) = 8 dni.",
     "trick": "Pulapka Kangurka: zadania z konkursem 'trzeci czwartek marca'. Liczysz tylko czwartki: 1., 2., 3. czwartek. Marzec ma 4 lub 5 czwartkow zaleznie od roku. 'Trzeci czwartek' nie zawsze jest 21. dnia."
   },
   "versions": [
@@ -23,7 +23,7 @@
           "number": null,
           "difficulty": "3pkt",
           "topic": "czas_kalendarz",
-          "subtopic": "dlugosc lutego",
+          "subtopic": "długość lutego",
           "statement": "Ile dni ma luty w zwyklym (nieprzestepnym) roku?",
           "hasImage": false,
           "imageNote": null,
@@ -44,8 +44,8 @@
           "number": null,
           "difficulty": "3pkt",
           "topic": "czas_kalendarz",
-          "subtopic": "ile miesiecy",
-          "statement": "Ile miesiecy ma rok?",
+          "subtopic": "ile miesięcy",
+          "statement": "Ile miesięcy ma rok?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -87,7 +87,7 @@
           "difficulty": "3pkt",
           "topic": "czas_kalendarz",
           "subtopic": "liczenie wstecz z kalendarzem (rok przestepny)",
-          "statement": "Rok 2012 jest rokiem przestepnym (luty ma 29 dni). Dzisiaj, 15 marca 2012, kurczeta dziadka maja dwadziescia dni. Kiedy wykluly sie z jajek?",
+          "statement": "Rok 2012 jest rokiem przestępnym, to znaczy, że luty ma 29 dni. Dzisiaj, czyli 15 marca 2012 roku, kurczęta mojego dziadka mają dwadzieścia dni. Kiedy wykluły się z jajek?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -108,7 +108,7 @@
           "difficulty": "4pkt",
           "topic": "czas_kalendarz",
           "subtopic": "zagadka z datami urodzin",
-          "statement": "Asia, Basia, Cesia i Dorotka urodzily sie w datach: 20 lutego, 12 kwietnia, 12 maja, 25 maja. Basia i Asia w tym samym miesiacu. Asia i Cesia w roznych miesiacach, ale w dniach o tych samych numerach. Ktora jest najstarsza?",
+          "statement": "Asia, Basia, Cesia i Dorotka urodziły się w tym samym roku. Ich urodziny wypadają w na- stępujących dniach: 20 lutego, 12 kwietnia, 12 maja oraz 25 maja (niekoniecznie w tej kolejności). Basia i Asia urodziły się w tym samym miesiącu, zaś Asia i Cesia urodziły się w różnych miesiącach, ale w dniach o tych samych numerach. Która z dziewcząt jest najstarsza?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -116,7 +116,7 @@
             "B": "Basia",
             "C": "Cesia",
             "D": "Dorotka",
-            "E": "Nie da sie rozstrzygnac"
+            "E": "Nie da się tego rozstrzygnąć."
           },
           "correct": "D",
           "imageSrc": "/images/orig/2013-16.png"
@@ -131,7 +131,7 @@
           "difficulty": "5pkt",
           "topic": "czas_kalendarz",
           "subtopic": "wyrazenie z dzialaniami - godziny",
-          "statement": "W grudniu (31 dni) stary niedzwiedz spal dokladnie 3 tygodnie. Ktore wyrazenie podaje liczbe godzin, ktore niedzwiedz NIE spal?",
+          "statement": "W grudniu stary niedźwiedź spał dokładnie 3 tygodnie. Ile godzin w tym miesiącu stary niedź- wiedź nie spał?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -170,7 +170,7 @@
         {
           "problemId": "gen-l35-v1-w1",
           "observation": "Luty w zwyklym roku = 28 dni.",
-          "strategy": "Dlugosc lutego.",
+          "strategy": "Długość lutego.",
           "steps": [
             "28 dni"
           ],
@@ -180,14 +180,14 @@
         },
         {
           "problemId": "gen-l35-v1-w2",
-          "observation": "Rok = 12 miesiecy.",
+          "observation": "Rok = 12 miesięcy.",
           "strategy": "Standard.",
           "steps": [
-            "12 miesiecy w roku"
+            "12 miesięcy w roku"
           ],
           "answer": "D",
           "alternative": null,
-          "hint": "Rok = 12 miesiecy."
+          "hint": "Rok = 12 miesięcy."
         },
         {
           "problemId": "gen-l35-v1-w3",
@@ -207,7 +207,7 @@
           "steps": [
             "Od 15 marca - 14 dni = 1 marca",
             "- 6 dni = 23 lutego",
-            "Hmm liczmy: 15 marca minus 20 dni. 15 - 15 dni = polowa lutego. 15 marca - 15 = 29 lutego (przestepny). - 5 wiecej = 24 lutego"
+            "Hmm liczmy: 15 marca minus 20 dni. 15 - 15 dni = połowa lutego. 15 marca - 15 = 29 lutego (przestepny). - 5 więcej = 24 lutego"
           ],
           "answer": "D",
           "alternative": null,
@@ -219,7 +219,7 @@
           "strategy": "Najwczesniejsza data = najstarsza.",
           "steps": [
             "Basia i Asia w tym samym miesiacu = maj (12 i 25 maja)",
-            "Asia i Cesia rozne miesiace, ten sam dzien = 12. Asia=12 maja, Cesia=12 kwietnia",
+            "Asia i Cesia różne miesiące, ten sam dzień = 12. Asia=12 maja, Cesia=12 kwietnia",
             "Basia=25 maja, Dorotka=20 lutego",
             "Najstarsza (najwczesniejsza data): Dorotka"
           ],
@@ -245,8 +245,8 @@
           "observation": "Od 15 marca do 31 marca = 16 dni, plus 1 kwietnia = 17.",
           "strategy": "Liczenie odstepu.",
           "steps": [
-            "31 - 15 = 16 dni do konca marca",
-            "+ 1 dzien (1 kwietnia) = 17 dni"
+            "31 - 15 = 16 dni do końca marca",
+            "+ 1 dzień (1 kwietnia) = 17 dni"
           ],
           "answer": "C",
           "alternative": null,
@@ -286,8 +286,8 @@
           "number": null,
           "difficulty": "3pkt",
           "topic": "czas_kalendarz",
-          "subtopic": "najdluzsze miesiace",
-          "statement": "Ktory miesiac NIE ma 31 dni?",
+          "subtopic": "najdluzsze miesiące",
+          "statement": "Który miesiąc NIE ma 31 dni?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -329,7 +329,7 @@
           "difficulty": "5pkt",
           "topic": "czas_kalendarz",
           "subtopic": "urodziny w marcu wzgledem dnia konkursu",
-          "statement": "Szescioro dzieci ma urodziny w marcu: 14, 15, 20, 21, 22 i 27. Ile z nich obchodzilo juz lub bedzie obchodzic urodziny w marcu, liczac od dnia konkursu (trzeci czwartek marca)?",
+          "statement": "Sześcioro dzieci obchodziło urodziny w następujących dniach marca: 14, 15, 20, 21, 22 i 27. Ile spośród nich obchodziło lub będzie obchodzić urodziny w dniu konkursu Kangur Matematyczny, to znaczy w trzeci czwartek marca?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -350,7 +350,7 @@
           "difficulty": "5pkt",
           "topic": "czas_kalendarz",
           "subtopic": "suma 4 dat z prostej linii kalendarza",
-          "statement": "Kartka z kalendarza przedstawia pewien miesiac. Suma liczb (dat) na czterech polach lezacych na pewnej prostej linii wynosi 29. W jaki dzien tygodnia wypadl pierwszy dzien tego miesiaca?",
+          "statement": "Kartka z kalendarza przedstawia pewien miesiąc. Suma liczb (dat) na czterech polach lezacych na pewnej prostej linii wynosi 29. W jaki dzień tygodnia wypadl pierwszy dzień tego miesiaca?",
           "hasImage": true,
           "imageNote": "Tabela kalendarza miesiecznego z dniami Pon, Wt, Sr, Czw, Pt, Sob, Nd.",
           "choices": {
@@ -373,9 +373,9 @@
           "difficulty": "5pkt",
           "topic": "czas_kalendarz",
           "subtopic": "cykliczny ruch pociagu metra",
-          "statement": "Linia metra ma 6 stacji A-F. Pociag zmienia kierunek na A i na F. Maszynista zaczal na stacji B, pierwszy przystanek to C. Ktora stacja bedzie jego 96. przystankiem?",
+          "statement": "Linia metra ma 6 stacji: A, B, C, D, E i F. Pociąg zatrzymuje się na każdej z nich. Kiedy dotrze do stacji A lub do stacji F, to zmienia kierunek jazdy. A B C D E F Maszynista zaczął pracę na stacji B, a jego pierwszym przystankiem była stacja C. Która stacja będzie jego 96. przystankiem?",
           "hasImage": true,
-          "imageNote": "Linia metra ze stacjami A, B, C, D, E, F.",
+          "imageNote": "Linia metra że stacjami A, B, C, D, E, F.",
           "choices": {
             "A": "A",
             "B": "B",
@@ -393,7 +393,7 @@
           "number": null,
           "difficulty": "5pkt",
           "topic": "czas_kalendarz",
-          "subtopic": "odstep przez miesiac",
+          "subtopic": "odstep przez miesiąc",
           "statement": "Od 25 kwietnia do 10 maja ile dni (kwiecien ma 30)?",
           "hasImage": false,
           "imageNote": null,
@@ -423,7 +423,7 @@
         {
           "problemId": "gen-l35-v2-w2",
           "observation": "Czerwiec ma 30 dni.",
-          "strategy": "Dlugosci miesiecy.",
+          "strategy": "Długości miesięcy.",
           "steps": [
             "31 dni: I, III, V, VII, VIII, X, XII",
             "30 dni: IV, VI, IX, XI",
@@ -447,9 +447,9 @@
         {
           "problemId": "kangur-maluch-2020-18",
           "observation": "6 dzieci, urodziny w marcu, konkurs trzeci czwartek.",
-          "strategy": "Wszystkie urodziny w marcu - przed lub w dzien konkursu lub po.",
+          "strategy": "Wszystkie urodziny w marcu - przed lub w dzień konkursu lub po.",
           "steps": [
-            "Konkurs to dzien w marcu",
+            "Konkurs to dzień w marcu",
             "Urodziny 14, 15, 20, 21, 22, 27 marca",
             "Wszystkie 6 obchodzilo lub bedzie obchodzic"
           ],
@@ -463,8 +463,8 @@
           "strategy": "Analiza ukladu dat.",
           "steps": [
             "Suma 4 dat na pewnej prostej = 29",
-            "Po analizie roznych konfiguracji w kalendarzu",
-            "1. dzien tego miesiaca to czwartek"
+            "Po analizie różnych konfiguracji w kalendarzu",
+            "1. dzień tego miesiaca to czwartek"
           ],
           "answer": "A",
           "alternative": null,
@@ -476,7 +476,7 @@
           "strategy": "Cykliczny ruch.",
           "steps": [
             "Z B przez C... do F i z powrotem",
-            "Cykl ma dlugosc 10 przystankow",
+            "Cykl ma długość 10 przystankow",
             "96 mod 10 = 6, przystanek 6 = D"
           ],
           "answer": "D",
@@ -485,29 +485,29 @@
         },
         {
           "problemId": "gen-l35-v2-c1",
-          "observation": "Od 25 kwietnia do konca + maj.",
-          "strategy": "Odstep przez miesiac.",
+          "observation": "Od 25 kwietnia do końca + maj.",
+          "strategy": "Odstep przez miesiąc.",
           "steps": [
-            "30 - 25 = 5 dni do konca kwietnia",
+            "30 - 25 = 5 dni do końca kwietnia",
             "+ 10 dni (do 10 maja) = 15 dni"
           ],
           "answer": "B",
           "alternative": null,
-          "hint": "Od 25 kwietnia do konca + maj."
+          "hint": "Od 25 kwietnia do końca + maj."
         }
       ]
     }
   ],
   "quiz": [
     {
-      "q": "Ile miesiecy ma rok?",
+      "q": "Ile miesięcy ma rok?",
       "choices": {
         "A": "10",
         "B": "12",
         "C": "24"
       },
       "correct": "B",
-      "explain": "Rok = 12 miesiecy."
+      "explain": "Rok = 12 miesięcy."
     },
     {
       "q": "Luty zwykle ma:",

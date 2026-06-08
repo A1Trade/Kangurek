@@ -7,9 +7,9 @@
   "topic": "arytmetyka",
   "estimatedMinutes": 15,
   "theory": {
-    "intro": "Babcia kupila 17 jablek, 26 gruszek i 33 sliwki. Liczysz po kolei: 17+26=43, potem 43+33=76. Ale jest sprytniej: zauwaz, ze 17 + 33 = 50. Wtedy 50 + 26 = 76 w glowie. Drobna zmiana kolejnosci - znacznie mniej kalkulacji.",
-    "tool": "Sztuczka 1: LACZNOSC. Mozesz zmienic kolejnosc dodawania - szukaj par dajacych okragle liczby (do 10, 50, 100).\n\nSztuczka 2: ROZDZIELNOSC. 25*4 + 25*6 to to samo co 25*(4+6) = 25*10 = 250.\n\nSztuczka 3: GRUPOWANIE CZYNNIKOW. 8 razy 25 - rozbij 8 na 4*2, wtedy 4*(2*25)=4*50=200. Szukaj 'okraglych' produktow jak 4*25, 5*20, 2*50.\n\nSztuczka 4: ODWRACANIE OPERACJI. Gdy ktos mowi 'pomyslalem liczbe, dodalem 5, pomnozylem przez 2 i wyszlo 14', odwroc: 14:2=7, 7-5=2.",
-    "trick": "Kangur uwielbia zadania ze sciezka operacji. Zamiast podstawiac kolejne odpowiedzi, odwroc operacje od wyniku do startu. To 5 razy szybsze i mniej miejsca na blad."
+    "intro": "Babcia kupiła 17 jabłek, 26 gruszek i 33 sliwki. Liczysz po kolei: 17+26=43, potem 43+33=76. Ale jest sprytniej: zauwaz, że 17 + 33 = 50. Wtedy 50 + 26 = 76 w glowie. Drobna zmiana kolejnosci - znacznie mniej kalkulacji.",
+    "tool": "Sztuczka 1: Łączność. Mozesz zmienic kolejnosc dodawania - szukaj par dajacych okrągłe liczby (do 10, 50, 100).\n\nSztuczka 2: ROZDZIELNOSC. 25*4 + 25*6 to to samo co 25*(4+6) = 25*10 = 250.\n\nSztuczka 3: GRUPOWANIE CZYNNIKOW. 8 razy 25 - rozbij 8 na 4*2, wtedy 4*(2*25)=4*50=200. Szukaj 'okraglych' produktow jak 4*25, 5*20, 2*50.\n\nSztuczka 4: ODWRACANIE OPERACJI. Gdy ktos mowi 'pomyslalem liczbe, dodalem 5, pomnozylem przez 2 i wyszlo 14', odwroc: 14:2=7, 7-5=2.",
+    "trick": "Kangur uwielbia zadania że ścieżka operacji. Zamiast podstawiac kolejne odpowiedzi, odwroc operacje od wyniku do startu. To 5 razy szybsze i mniej miejsca na blad."
   },
   "versions": [
     {
@@ -65,7 +65,7 @@
           "number": null,
           "difficulty": "3pkt",
           "topic": "arytmetyka",
-          "subtopic": "lacznosc dodawania",
+          "subtopic": "łączność dodawania",
           "statement": "Ile to 99 + 17 + 1?",
           "hasImage": false,
           "imageNote": null,
@@ -108,7 +108,7 @@
           "difficulty": "4pkt",
           "topic": "arytmetyka",
           "subtopic": "iteracyjna redukcja liczby",
-          "statement": "Kuba zapisal liczbe 99999 (piec dziewiatek). Dodal dwie pierwsze cyfry, zmazal je i wpisal sume. Powtarzal to dopoki nie otrzymal liczby jednocyfrowej. Ile razy wykonal te czynnosc?",
+          "statement": "Kuba zapisał na tablicy liczbę składającą się z pięciu dziewiątek. Następnie dodał dwie pierwsze cyfry tej liczby, po czym zmazał je i w ich miejsce wpisał otrzymaną sumę. Następnie to samo uczynił z nowo otrzymaną liczbą i powtarzał tę czynność z każdą kolejną liczbą tak długo, aż uzyskał liczbę jednocyfrową. Ile razy Kuba wykonał opisaną czynność zamiany pierwszych dwóch cyfr liczby na ich sumę?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -131,7 +131,7 @@
           "difficulty": "5pkt",
           "topic": "arytmetyka",
           "subtopic": "rownanie odwracajace - z wyniku do liczby lat",
-          "statement": "Michal pomnozyl liczbe swoich lat przez siebie, dodal 1, otrzymana liczbe pomnozyl przez 10, dodal 3, wynik pomnozyl przez 4 i otrzymal 2012. Ile lat ma Michal?",
+          "statement": "Michał pomnożył liczbę swoich lat przez siebie, następnie dodał 1, otrzymaną liczbę pomnożył przez 10, następnie dodał 3, wynik pomnożył przez 4 i otrzymał 2012. Ile lat ma Michał?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -170,13 +170,13 @@
         {
           "problemId": "gen-l06-w1",
           "observation": "Szukam par do okraglej liczby.",
-          "strategy": "Lacznosc.",
+          "strategy": "Łączność.",
           "steps": [
             "17 + 33 = 50",
             "50 + 26 = 76"
           ],
           "answer": "B",
-          "alternative": "Mozna tez po kolei: 17+26=43, 43+33=76.",
+          "alternative": "Można też po kolei: 17+26=43, 43+33=76.",
           "hint": "Szukaj par do okraglej liczby: 17 + 33 = 50."
         },
         {
@@ -193,7 +193,7 @@
         {
           "problemId": "gen-l06-w3",
           "observation": "99 + 1 = 100 - zacznij od tej pary.",
-          "strategy": "Lacznosc - zamien kolejnosc.",
+          "strategy": "Łączność - zamien kolejnosc.",
           "steps": [
             "99 + 1 = 100",
             "100 + 17 = 117"
@@ -216,18 +216,18 @@
         {
           "problemId": "kangur-maluch-2018-11",
           "observation": "Suma cyfr 9+9=18, potem zastapienie itd.",
-          "strategy": "Iteracja - kazdy krok zmienia liczbe.",
+          "strategy": "Iteracja - każdy krok zmienia liczbe.",
           "steps": [
             "99999 -> 18999 -> 9999 -> 1899 -> 999 -> 189 -> 99 -> 18 -> 9",
             "Liczba operacji: 8"
           ],
           "answer": "E",
-          "alternative": "Trzeba policzyc kazdy krok osobno.",
+          "alternative": "Trzeba policzyć każdy krok osobno.",
           "hint": "Najpierw 9+9=18, zostaje 1899, dalej 1+8=9, itd. Licz operacje."
         },
         {
           "problemId": "kangur-maluch-2012-24",
-          "observation": "Z wyniku 2012 odwracaj kazda operacje.",
+          "observation": "Z wyniku 2012 odwracaj każda operacje.",
           "strategy": "Krok po kroku w odwrotnej kolejnosci.",
           "steps": [
             "2012 : 4 = 503",
@@ -351,7 +351,7 @@
           "difficulty": "3pkt",
           "topic": "arytmetyka",
           "subtopic": "suma wieku rodzenstwa",
-          "statement": "Hela ma 6 lat. Jej siostra jest o 2 lata mlodsza, a brat o 2 lata starszy. Po dodaniu lat tej trojki rodzenstwa otrzymamy:",
+          "statement": "Hela ma 6 lat. Jej siostra jest od niej o dwa lata młodsza, a brat o dwa lata starszy. Po dodaniu do siebie liczb lat tej trójki rodzeństwa otrzymamy",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -374,7 +374,7 @@
           "difficulty": "5pkt",
           "topic": "arytmetyka",
           "subtopic": "rownania z proporcjami",
-          "statement": "Wsrod 496 owocow (gruszek, jablek, mandarynek i sliwek) bylo 3 razy mniej gruszek niz jablek, 5 razy mniej jablek niz mandarynek oraz 7 razy mniej mandarynek niz sliwek. Ile bylo sliwek?",
+          "statement": "Wśród 496 owoców (gruszek, jabłek, mandarynek i śliwek) było trzy razy mniej gruszek niż jabłek, pięć razy mniej jabłek niż mandarynek oraz siedem razy mniej mandarynek niż śliwek. Ile było śliwek?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -394,7 +394,7 @@
           "number": null,
           "difficulty": "5pkt",
           "topic": "arytmetyka",
-          "subtopic": "dluga sekwencja operacji",
+          "subtopic": "długa sekwencja operacji",
           "statement": "Mysle liczbe. Odejmuje 8, mnoze przez 3, dodaje 10. Wynik to 31. Jaka jest moja liczba?",
           "hasImage": false,
           "imageNote": null,
@@ -413,7 +413,7 @@
         {
           "problemId": "gen-l06-v2-w1",
           "observation": "Szukam par do 100.",
-          "strategy": "Lacznosc.",
+          "strategy": "Łączność.",
           "steps": [
             "23 + 27 = 50",
             "19 + 31 = 50",
@@ -461,7 +461,7 @@
         {
           "problemId": "kangur-maluch-2018-3",
           "observation": "Hela 6, siostra o 2 mlodsza, brat o 2 starszy.",
-          "strategy": "Liczenie wieku kazdego.",
+          "strategy": "Liczenie wieku każdego.",
           "steps": [
             "Hela = 6",
             "Siostra = 6 - 2 = 4",
@@ -478,11 +478,11 @@
           "strategy": "Wyrazic wszystko przez liczbe sliwek.",
           "steps": [
             "Mandarynki = sliwki : 7",
-            "Jablka = mandarynki : 5",
-            "Gruszki = jablka : 3",
+            "Jabłka = mandarynki : 5",
+            "Gruszki = jabłka : 3",
             "Suma musi byc 496, liczba sliwek dzielna przez 105",
             "Sprawdz 420: 420 + 60 + 12 + 4 = 496 - pasuje",
-            "Sliwek bylo 420"
+            "Sliwek było 420"
           ],
           "answer": "E",
           "alternative": null,
@@ -515,7 +515,7 @@
           "difficulty": "4pkt",
           "topic": "arytmetyka",
           "subtopic": "wymiana w stosunku, maksymalizacja",
-          "statement": "Tomek ma 16 niebieskich kulek. Może je wymienić tylko tak: za 3 niebieskie kulki otrzymuje 1 czerwoną, a za 2 czerwone - 5 zielonych kulek. Jaką największą liczbę zielonych kulek może otrzymać Tomek?",
+          "statement": "Tomek ma 16 niebieskich kulek. Może je wymienić na inne tylko w następujący sposób: za 3 niebieskie kulki może otrzymać 1 czerwoną, a za 2 czerwone 5 zielonych kulek. Jaką największą liczbę zielonych kulek może otrzymać Tomek?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -536,7 +536,7 @@
           "difficulty": "4pkt",
           "topic": "arytmetyka",
           "subtopic": "liczenie pozostalych lisci",
-          "statement": "Na kazdej z 3 galezi roslo 20 lisci. Z pierwszej koala zjadl kilka lisci. Z drugiej zjadl tyle, ile pozostalo na pierwszej. Z trzeciej zjadl 2 liscie. Ile lisci lacznie pozostalo na trzech galeziach?",
+          "statement": "Na każdej z trzech gałęzi eukaliptusa rosło po 20 liści. Z pierwszej gałęzi koala zjadł kilka liści. Z drugiej gałęzi koala zjadł tyle liści, ile pozostało niezjedzonych na pierwszej gałęzi. Z trzeciej gałęzi zjadł 2 liście. Ile liści łącznie pozostało na tych trzech gałęziach?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -557,7 +557,7 @@
           "difficulty": "4pkt",
           "topic": "arytmetyka",
           "subtopic": "uklad rownan - osoby w samochodach",
-          "statement": "W osmiu samochodach jest 19 osob. W kazdym aucie jest dwoje albo troje ludzi. W ilu samochodach sa dokladnie po 2 osoby?",
+          "statement": "W ośmiu samochodach znajduje się 19 osób. W każdym z tych aut jest dwoje albo troje ludzi. W ilu samochodach są dokładnie po 2 osoby?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -578,7 +578,7 @@
           "difficulty": "5pkt",
           "topic": "arytmetyka",
           "subtopic": "rownanie z wiekiem",
-          "statement": "Za 9 lat Slawek bedzie mial 4 razy wiecej lat niz mial 3 lata temu. Ile lat mial Slawek trzy lata temu?",
+          "statement": "Za 9 lat Sławek będzie miał 4 razy więcej lat niż miał 3 lata temu. Ile lat miał Sławek trzy lata temu?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -597,7 +597,7 @@
         {
           "problemId": "kangur-maluch-2019-11",
           "observation": "Wymiana: 3 nieb -> 1 czer, 2 czer -> 5 ziel. Max zielonych.",
-          "strategy": "Wykorzystaj jak najwiecej kulek na kazdym kroku.",
+          "strategy": "Wykorzystaj jak najwiecej kulek na każdym kroku.",
           "steps": [
             "Z 16 niebieskich: 16 : 3 = 5 reszty 1. Czyli 5 czerwonych, 1 niebieska zostaje.",
             "Z 5 czerwonych: 5 : 2 = 2 reszty 1. Czyli 2 razy po 5 zielonych = 10 zielonych, 1 czerwona zostaje.",
@@ -610,23 +610,23 @@
         },
         {
           "problemId": "kangur-maluch-2021-12",
-          "observation": "3 galezie po 20 lisci. Koala je z kazdej.",
-          "strategy": "Pierwsza i druga galaz powiazane: zjada z drugiej tyle ile zostalo na pierwszej.",
+          "observation": "3 galezie po 20 lisci. Koala je z każdej.",
+          "strategy": "Pierwsza i druga galaz powiazane: zjada z drugiej tyle ile zostało na pierwszej.",
           "steps": [
-            "Niech x = ile koala zjadl z pierwszej.",
-            "Na pierwszej zostalo: 20 - x.",
-            "Z drugiej zjadl: 20 - x. Zostalo: 20 - (20 - x) = x.",
-            "Z trzeciej zjadl 2. Zostalo: 18.",
-            "Lacznie zostalo: (20 - x) + x + 18 = 38.",
+            "Niech x = ile koala zjadł z pierwszej.",
+            "Na pierwszej zostało: 20 - x.",
+            "Z drugiej zjadł: 20 - x. Zostało: 20 - (20 - x) = x.",
+            "Z trzeciej zjadł 2. Zostało: 18.",
+            "Łącznie zostało: (20 - x) + x + 18 = 38.",
             "Wynik nie zalezy od x - zawsze 38."
           ],
           "answer": "A",
           "alternative": null,
-          "hint": "Niech koala zjadl x z pierwszej. Z drugiej zjadl (20-x), z trzeciej 2. Razem zostalo zawsze tyle samo."
+          "hint": "Niech koala zjadł x z pierwszej. Z drugiej zjadł (20-x), z trzeciej 2. Razem zostało zawsze tyle samo."
         },
         {
           "problemId": "kangur-maluch-2023-11",
-          "observation": "8 samochodow, 19 osob, kazdy 2 lub 3 osoby.",
+          "observation": "8 samochodow, 19 osob, każdy 2 lub 3 osoby.",
           "strategy": "Uklad rownan: a aut po 2 + b aut po 3.",
           "steps": [
             "a + b = 8 (8 aut).",
@@ -650,7 +650,7 @@
             "9 + 12 = 4s - s",
             "21 = 3s",
             "s = 7.",
-            "3 lata temu Slawek mial 7 - 3 = 4 lata."
+            "3 lata temu Slawek miał 7 - 3 = 4 lata."
           ],
           "answer": "D",
           "alternative": null,

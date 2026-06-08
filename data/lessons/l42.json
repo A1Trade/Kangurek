@@ -7,8 +7,8 @@
   "topic": "kombinatoryka",
   "estimatedMinutes": 14,
   "theory": {
-    "intro": "Na ile sposobow mozesz ulozyc 3 ksiazki na polce? A na ile sposobow ubierzesz koszulke i spodnie z 4 koszulek i 3 spodni? Kombinatoryka odpowiada na pytania 'ile mozliwosci'. Klucz to liczenie systematyczne.",
-    "tool": "Sztuczka 1: WYPISUJ POCZATEK. Na ile sposobow ulozyc litery A, B, C? Wypisz: ABC, ACB, BAC, BCA, CAB, CBA = 6 sposobow.\n\nSztuczka 2: ILOCZYN MOZLIWOSCI. Jezeli wybierasz koszulke (4 opcje) i spodnie (3 opcje) - razem 4 razy 3 = 12 mozliwosci.\n\nSztuczka 3: ZACZNIJ OD WYBORU. Pierwszy element: ile opcji. Drugi: ile zostalo. Mnozysz.\n\nSztuczka 4: PERMUTACJE. n roznych elementow w rzedzie: n*(n-1)*(n-2)*...*1. Dla 3 elementow: 3*2*1=6.",
+    "intro": "Na ile sposobow mozesz ułożyć 3 książki na polce? A na ile sposobow ubierzesz koszulke i spodnie z 4 koszulek i 3 spodni? Kombinatoryka odpowiada na pytania 'ile mozliwosci'. Klucz to liczenie systematyczne.",
+    "tool": "Sztuczka 1: WYPISUJ POCZATEK. Na ile sposobow ułożyć litery A, B, C? Wypisz: ABC, ACB, BAC, BCA, CAB, CBA = 6 sposobow.\n\nSztuczka 2: ILOCZYN MOZLIWOSCI. Jeżeli wybierasz koszulke (4 opcje) i spodnie (3 opcje) - razem 4 razy 3 = 12 mozliwosci.\n\nSztuczka 3: ZACZNIJ OD WYBORU. Pierwszy element: ile opcji. Drugi: ile zostało. Mnozysz.\n\nSztuczka 4: PERMUTACJE. n różnych elementow w rzedzie: n*(n-1)*(n-2)*...*1. Dla 3 elementow: 3*2*1=6.",
     "trick": "Pulapka Kangurka: 'kolejnosc nie ma znaczenia'. Wybor 2 osob z 4 ZAleznie czy z kolejnoscia (8 par) czy bez (6). Czytaj uwaznie."
   },
   "versions": [
@@ -24,7 +24,7 @@
           "difficulty": "3pkt",
           "topic": "kombinatoryka",
           "subtopic": "permutacje 3",
-          "statement": "Na ile sposobow mozna ustawic w rzedzie 3 osoby?",
+          "statement": "Na ile sposobow można ustawic w rzedzie 3 osoby?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -66,7 +66,7 @@
           "difficulty": "3pkt",
           "topic": "kombinatoryka",
           "subtopic": "wybor 2 z 4",
-          "statement": "Na ile sposobow wybrac 2 osoby z 4 (bez kolejnosci)?",
+          "statement": "Na ile sposobow wybrać 2 osoby z 4 (bez kolejnosci)?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -87,7 +87,7 @@
           "difficulty": "3pkt",
           "topic": "kombinatoryka",
           "subtopic": "wybor 3 z 4 - jedyne ulozenie",
-          "statement": "Ignas ma 4 rozne zetony. Z trzech chce zbudowac wieze tak, by najmniejszy byl na gorze, a najwiekszy na dole. Na ile roznych sposobow moze to zrobic?",
+          "statement": "Ignaś ma 4 różne żetony. Z trzech z nich chce zbudować wieżę, tak aby najmniejszy z wybranych żetonów był na górze, a największy na dole. Na ile różnych sposobów może zbudować wieżę w zaplanowany przez siebie sposób?",
           "hasImage": true,
           "imageNote": "Cztery zetony roznej wielkosci.",
           "choices": {
@@ -108,7 +108,7 @@
           "difficulty": "3pkt",
           "topic": "kombinatoryka",
           "subtopic": "podawanie pilki w kregu",
-          "statement": "11 pilkarzy w kregu. Gracz 1 ma pilke i podaje ja do trzeciego gracza po swojej lewej stronie. Schemat sie powtarza, az pilka trafi do kogos po raz drugi. Jaki numer ma zawodnik, ktory ostatni podal pilke?",
+          "statement": "Piłkarze z numerami od 1 do 11 stoją w kręgu przodem do siebie. Gracz z numerem 1 ma piłkę i podaje ją do trzeciego gracza po swojej lewej stronie. Ten, po otrzymaniu piłki, też podaje ją do trzeciego gracza po swojej lewej stronie (patrz rysunek). Taki schemat podań powtarza się, dopóki piłka nie traﬁdo któregoś z graczy po raz drugi. Jaki jest numer zawodnika, który jako ostatni podał piłkę?",
           "hasImage": true,
           "imageNote": "11 graczy w kregu ponumerowanych 1-11.",
           "choices": {
@@ -130,15 +130,15 @@
           "number": 9,
           "difficulty": "4pkt",
           "topic": "kombinatoryka",
-          "subtopic": "wybor figur o roznych ksztaltach",
-          "statement": "Ania chce wyjac z 5 pudelek 5 figur o roznych ksztaltach, z kazdego pudelka jedna. Ktora figure powinna wyjac z czwartego pudelka?",
+          "subtopic": "wybor figur o różnych ksztaltach",
+          "statement": "Ania chce wyjąć z pudełek 5 ﬁgur — wszystkie o różnych kształtach. Z każdego pudełka może wy- jąć tylko jedną ﬁgurę. Którą ﬁgurę powinna wyjąć z czwartego pudełka?",
           "hasImage": true,
-          "imageNote": "Piec pudelek z figurami roznych ksztaltow.",
+          "imageNote": "Pięć pudelek z figurami różnych ksztaltow.",
           "choices": {
             "A": "gwiazda",
-            "B": "kolo",
+            "B": "koło",
             "C": "pieciokat",
-            "D": "trojkat",
+            "D": "trójkąt",
             "E": "romb"
           },
           "correct": "C",
@@ -152,7 +152,7 @@
           "difficulty": "5pkt",
           "topic": "kombinatoryka",
           "subtopic": "permutacje 4",
-          "statement": "Na ile sposobow ustawic 4 rozne ksiazki na polce?",
+          "statement": "Na ile sposobow ustawic 4 różne książki na polce?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -202,11 +202,11 @@
         },
         {
           "problemId": "kangur-maluch-2023-7",
-          "observation": "4 zetony rozne. Wybor 3 z 4 = 4 sposoby. Kolejnosc malejacy ustalona.",
+          "observation": "4 zetony różne. Wybor 3 z 4 = 4 sposoby. Kolejnosc malejacy ustalona.",
           "strategy": "Liczba sposobow = C(4,3) = 4.",
           "steps": [
             "Wybierasz 3 z 4 zetonow: 4 sposoby.",
-            "Dla kazdego wyboru kolejnosc juz ustalona (malejaca).",
+            "Dla każdego wyboru kolejnosc juz ustalona (malejaca).",
             "Razem: 4."
           ],
           "answer": "C",
@@ -226,18 +226,18 @@
           ],
           "answer": "B",
           "alternative": null,
-          "hint": "Skoki o 3 w przod, 11 graczy. 11 i 3 wzglednie pierwsze - przejdziesz wszystkich."
+          "hint": "Skoki o 3 w przód, 11 graczy. 11 i 3 wzglednie pierwsze - przejdziesz wszystkich."
         },
         {
           "problemId": "kangur-maluch-2021-9",
-          "observation": "5 pudelek z figurami. Wybierz po 1 z kazdego, wszystkie rozne.",
+          "observation": "5 pudelek z figurami. Wybierz po 1 z każdego, wszystkie różne.",
           "strategy": "Identyfikuj jakie figury sa w 4 pudelku.",
           "steps": [
             "Z analizy obrazka odpowiedz: pieciokat."
           ],
           "answer": "C",
           "alternative": null,
-          "hint": "Pudelka maja zbiory figur, kazda po 1 figurze. Z czwartego pudelka jedna nie powtarzajaca z innych."
+          "hint": "Pudelka maja zbiory figur, każda po 1 figurze. Z czwartego pudelka jedna nie powtarzajaca z innych."
         },
         {
           "problemId": "gen-l42-v1-c1",
@@ -285,7 +285,7 @@
           "difficulty": "3pkt",
           "topic": "kombinatoryka",
           "subtopic": "iloczyn 4x3",
-          "statement": "Mam 4 czapki i 3 szaliki. Ile zestawow (czapka + szalik) moge wybrac?",
+          "statement": "Mam 4 czapki i 3 szaliki. Ile zestawow (czapka + szalik) moge wybrać?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -305,8 +305,8 @@
           "number": null,
           "difficulty": "3pkt",
           "topic": "kombinatoryka",
-          "subtopic": "wybor lodow",
-          "statement": "W lodziarni 5 smakow. Na ile sposobow wybrac 1 smak?",
+          "subtopic": "wybor lodów",
+          "statement": "W lodziarni 5 smakow. Na ile sposobow wybrać 1 smak?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -327,9 +327,9 @@
           "difficulty": "4pkt",
           "topic": "kombinatoryka",
           "subtopic": "liczenie kropek na nakladajacych sie kostkach",
-          "statement": "Ile kropek znajduje sie na rysunku (siatka nakladajacych sie wzorow kostek do gry)?",
+          "statement": "Ile kropek znajduje się na rysunku?",
           "hasImage": true,
-          "imageNote": "Siatka nakladajacych sie kwadratow z kropkami jak na kostkach do gry.",
+          "imageNote": "Siatka nakladajacych sie kwadratów z kropkami jak na kostkach do gry.",
           "choices": {
             "A": "180",
             "B": "181",
@@ -348,7 +348,7 @@
           "difficulty": "3pkt",
           "topic": "kombinatoryka",
           "subtopic": "liczba paragow",
-          "statement": "Mam 3 papuga, 2 koty. Na ile sposobow wybrac 1 zwierzakiem (jedno)?",
+          "statement": "Mam 3 papuga, 2 koty. Na ile sposobow wybrać 1 zwierzakiem (jedno)?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -392,7 +392,7 @@
           "difficulty": "5pkt",
           "topic": "kombinatoryka",
           "subtopic": "trzy elementy",
-          "statement": "Mam 4 cyfry: 1, 2, 3, 4. Ile liczb 3-cyfrowych moge utworzyc, uzywajac kazdej cyfry raz?",
+          "statement": "Mam 4 cyfry: 1, 2, 3, 4. Ile liczb 3-cyfrowych moge utworzyc, uzywajac każdej cyfry raz?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -498,9 +498,9 @@
           "difficulty": "4pkt",
           "topic": "kombinatoryka",
           "subtopic": "liczba ulozeń gasienicy z puzzli",
-          "statement": "Julek ma 5 puzzli: glowe, ogon i 3 inne elementy. Buduje gasienice z glowa, ogonem i 1, 2 lub 3 elementami posrodku. Puzzli nie wolno odwracac. Na ile roznych sposobow moze zbudowac gasienice?",
+          "statement": "Julek ma 5 puzzli i chce ułożyć z nich gąsienicę, która ma głowę, ogon i albo jeden, albo dwa, albo trzy inne elementy układanki pomiędzy nimi. Na ile różnych sposobów Julek może zbudować taką gąsienicę? (Puzzli nie wolno odwracać). −→ głowa ←−ogon",
           "hasImage": true,
-          "imageNote": "Piec puzzli: glowa, 3 elementy srodkowe, ogon.",
+          "imageNote": "Pięć puzzli: glowa, 3 elementy srodkowe, ogon.",
           "choices": {
             "A": "3",
             "B": "4",
@@ -516,14 +516,14 @@
       "solutions": [
         {
           "problemId": "kangur-maluch-2024-13",
-          "observation": "5 puzzli: glowa, ogon, 3 srodkowe (rozne). Buduje sie gasienice glowa+srodki+ogon.",
+          "observation": "5 puzzli: glowa, ogon, 3 srodkowe (różne). Buduje sie gasienice glowa+srodki+ogon.",
           "strategy": "Liczba sposobow = sumy permutacji 1,2,3 z 3 elementow.",
           "steps": [
             "1 srodkowy: 3 wybory.",
             "2 srodkowe (kolejnosc waza): 3*2 = 6 wyborow.",
-            "Ale puzzli nie wolno odwracac - chyba ze kazdy ma orientacje.",
+            "Ale puzzli nie wolno odwracac - chyba że każdy ma orientacje.",
             "3 srodkowe: 3! = 6 sposobow.",
-            "Lacznie: 3 + 6 + 6 = 15? Z odpowiedzi 6.",
+            "Łącznie: 3 + 6 + 6 = 15? Z odpowiedzi 6.",
             "Z analizy odpowiedz: 6."
           ],
           "answer": "D",

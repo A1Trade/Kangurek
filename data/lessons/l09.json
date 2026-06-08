@@ -7,9 +7,9 @@
   "topic": "wzory_i_ciagi",
   "estimatedMinutes": 14,
   "theory": {
-    "intro": "Skaczesz po schodach co dwa stopnie: 2, 4, 6, 8... Jaki bedzie nastepny? Latwo - 10. To ciag liczbowy. Kazdy ciag ma swoja regule, a Twoim zadaniem jest ja odkryc i przewidziec, co bedzie dalej.",
-    "tool": "Sztuczka 1: ZNAJDZ ROZNICE. Odejmij sasiednie liczby. W ciagu 3, 7, 11, 15 roznica to zawsze 4. Nastepna liczba: 15 + 4 = 19.\n\nSztuczka 2: SPRAWDZ CZY MNOZYSZ. Jezeli roznice rosna, moze zamiast dodawac - mnozysz. 1, 2, 4, 8, 16 - tu kazda liczba to podwojona poprzednia.\n\nSztuczka 3: ROZNICE MOGA ROSNAC. W ciagu 1, 3, 6, 10 roznice to 2, 3, 4 - rosna o 1. Nastepna roznica to 5, czyli liczba 10 + 5 = 15.\n\nSztuczka 4: SUMA DWOCH POPRZEDNICH. W ciagu 1, 1, 2, 3, 5, 8 kazda liczba to suma dwoch przed nia. To slynny ciag Fibonacciego.",
-    "trick": "Kangur lubi ciagi, gdzie regula nie jest oczywista. Zawsze najpierw policz ROZNICE. Jezeli sa stale - dodajesz. Jezeli rosna - albo mnozysz, albo roznice tworza wlasny ciag. Jezeli liczby szybko rosna - to prawie na pewno mnozenie."
+    "intro": "Skaczesz po schodach co dwa stopnie: 2, 4, 6, 8... Jaki bedzie nastepny? Latwo - 10. To ciag liczbowy. Każdy ciag ma swoja regule, a Twoim zadaniem jest ja odkryc i przewidziec, co bedzie dalej.",
+    "tool": "Sztuczka 1: ZNAJDZ ROZNICE. Odejmij sąsiednie liczby. W ciagu 3, 7, 11, 15 roznica to zawsze 4. Nastepna liczba: 15 + 4 = 19.\n\nSztuczka 2: SPRAWDZ CZY MNOZYSZ. Jeżeli roznice rosna, może zamiast dodawac - mnozysz. 1, 2, 4, 8, 16 - tu każda liczba to podwojona poprzednia.\n\nSztuczka 3: ROZNICE Mogą ROSNAC. W ciagu 1, 3, 6, 10 roznice to 2, 3, 4 - rosna o 1. Nastepna roznica to 5, czyli liczba 10 + 5 = 15.\n\nSztuczka 4: SUMA Dwóch POPRZEDNICH. W ciagu 1, 1, 2, 3, 5, 8 każda liczba to suma dwóch przed nia. To slynny ciag Fibonacciego.",
+    "trick": "Kangur lubi ciagi, gdzie regula nie jest oczywista. Zawsze najpierw policz ROZNICE. Jeżeli sa stale - dodajesz. Jeżeli rosna - albo mnozysz, albo roznice tworza własny ciag. Jeżeli liczby szybko rosna - to prawie na pewno mnozenie."
   },
   "versions": [
     {
@@ -66,7 +66,7 @@
           "difficulty": "3pkt",
           "topic": "wzory_i_ciagi",
           "subtopic": "ciag podwajany",
-          "statement": "W ciagu 1, 2, 4, 8, 16, ? kazda liczba to podwojona poprzednia. Jaka liczba jest nastepna?",
+          "statement": "W ciagu 1, 2, 4, 8, 16, ? każda liczba to podwojona poprzednia. Jaka liczba jest nastepna?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -131,7 +131,7 @@
           "difficulty": "4pkt",
           "topic": "wzory_i_ciagi",
           "subtopic": "regula mnozenie plus jeden",
-          "statement": "W ciagu 2, 5, 11, 23, ? kazda liczba to poprzednia razy 2 plus 1. Jaka jest nastepna?",
+          "statement": "W ciagu 2, 5, 11, 23, ? każda liczba to poprzednia razy 2 plus 1. Jaka jest nastepna?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -152,7 +152,7 @@
           "difficulty": "5pkt",
           "topic": "wzory_i_ciagi",
           "subtopic": "ciag Fibonacciego",
-          "statement": "W ciagu 1, 1, 2, 3, 5, 8, ? kazda liczba to suma dwoch poprzednich. Jaka jest nastepna?",
+          "statement": "W ciagu 1, 1, 2, 3, 5, 8, ? każda liczba to suma dwóch poprzednich. Jaka jest nastepna?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -196,7 +196,7 @@
           "observation": "Liczby szybko rosna - to mnozenie.",
           "strategy": "Sprawdz czy mnozysz.",
           "steps": [
-            "Kazda liczba to poprzednia razy 2",
+            "Każda liczba to poprzednia razy 2",
             "16 razy 2 = 32"
           ],
           "answer": "D",
@@ -208,7 +208,7 @@
           "observation": "Ciag maleje - roznica ujemna.",
           "strategy": "Znajdz roznice.",
           "steps": [
-            "Roznica: 26-30=-4, czyli kazda liczba o 4 mniejsza",
+            "Roznica: 26-30=-4, czyli każda liczba o 4 mniejsza",
             "18 - 4 = 14"
           ],
           "answer": "C",
@@ -218,7 +218,7 @@
         {
           "problemId": "gen-l09-w5",
           "observation": "Roznice rosna: 2, 3, 4.",
-          "strategy": "Roznice tworza wlasny ciag.",
+          "strategy": "Roznice tworza własny ciag.",
           "steps": [
             "Roznice: 3-1=2, 6-3=3, 10-6=4",
             "Nastepna roznica: 5",
@@ -244,7 +244,7 @@
         },
         {
           "problemId": "gen-l09-c2",
-          "observation": "Kazda liczba to suma dwoch przed nia.",
+          "observation": "Każda liczba to suma dwóch przed nia.",
           "strategy": "Reguly Fibonacciego.",
           "steps": [
             "8 to 3 + 5",
@@ -252,7 +252,7 @@
           ],
           "answer": "C",
           "alternative": null,
-          "hint": "Kazda liczba to suma dwoch przed nia."
+          "hint": "Każda liczba to suma dwóch przed nia."
         }
       ]
     },
@@ -310,7 +310,7 @@
           "difficulty": "3pkt",
           "topic": "wzory_i_ciagi",
           "subtopic": "ciag mnozony przez 3",
-          "statement": "W ciagu 1, 3, 9, 27, ? kazda liczba to poprzednia razy 3. Jaka jest nastepna?",
+          "statement": "W ciagu 1, 3, 9, 27, ? każda liczba to poprzednia razy 3. Jaka jest nastepna?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -352,7 +352,7 @@
           "difficulty": "3pkt",
           "topic": "wzory_i_ciagi",
           "subtopic": "ciag co 3 - najwieksza osiagalna liczba",
-          "statement": "Ela stanela na kwadracie z liczba 1 i przeskakiwala na liczbe o 3 wieksza. Dostepne liczby: 1,4,5,7,8,10,11,13,14,16,18,19,20,21,23,24. Jaka najwieksza liczba, na ktorej mogla stanac?",
+          "statement": "Ela narysowała kredą na chodniku kwadraty z liczbami — patrz rysunek. Stanęła na kwadracie z liczbą 1 i przeskakiwała kolejno na liczbę, która jest o 3 większa od tej, na której stała. Jaka jest największa liczba, na której mogła stanąć Ela?",
           "hasImage": true,
           "imageNote": "Kwadraty z liczbami narysowane kreda na chodniku.",
           "choices": {
@@ -374,8 +374,8 @@
           "number": null,
           "difficulty": "4pkt",
           "topic": "wzory_i_ciagi",
-          "subtopic": "ciag kwadratow",
-          "statement": "W ciagu 1, 4, 9, 16, ? kazda liczba to kolejna liczba pomnozona przez sama siebie. Jaka jest nastepna?",
+          "subtopic": "ciag kwadratów",
+          "statement": "W ciagu 1, 4, 9, 16, ? każda liczba to kolejna liczba pomnozona przez sama siebie. Jaka jest nastepna?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -428,7 +428,7 @@
           "observation": "Ciag maleje co 5.",
           "strategy": "Znajdz roznice.",
           "steps": [
-            "Kazda liczba o 5 mniejsza",
+            "Każda liczba o 5 mniejsza",
             "35 - 5 = 30"
           ],
           "answer": "C",
@@ -440,7 +440,7 @@
           "observation": "Liczby szybko rosna - mnozenie.",
           "strategy": "Sprawdz mnozenie.",
           "steps": [
-            "Kazda liczba to poprzednia razy 3",
+            "Każda liczba to poprzednia razy 3",
             "27 razy 3 = 81"
           ],
           "answer": "D",
@@ -465,7 +465,7 @@
           "strategy": "Ciag 1, 4, 7, 10... i sprawdzanie dostepnosci.",
           "steps": [
             "Ciag co 3 od 1: 1, 4, 7, 10, 13, 16, 19, 22...",
-            "Sprawdzamy, ktore liczby sa narysowane",
+            "Sprawdzamy, które liczby sa narysowane",
             "22 nie ma narysowanego, najwieksza osiagalna to 19"
           ],
           "answer": "D",
@@ -487,7 +487,7 @@
         {
           "problemId": "gen-l9-v2-c2",
           "observation": "Roznice rosna o 1.",
-          "strategy": "Roznice tworza wlasny ciag.",
+          "strategy": "Roznice tworza własny ciag.",
           "steps": [
             "Roznice: 1, 2, 3, 4, 5",
             "Nastepna roznica: 6",
@@ -519,7 +519,7 @@
         "C": "Dodaj 18"
       },
       "correct": "B",
-      "explain": "Kazda liczba to poprzednia razy 3. Liczby szybko rosna = mnozenie."
+      "explain": "Każda liczba to poprzednia razy 3. Liczby szybko rosna = mnozenie."
     },
     {
       "q": "W ciagu 2, 4, 7, 11 roznice to:",

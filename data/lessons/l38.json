@@ -7,7 +7,7 @@
   "topic": "logika",
   "estimatedMinutes": 16,
   "theory": {
-    "intro": "Zadanie: 'Trzy dzieci, trzy zabawki - kto co dostal?' Najlepsze narzedzie to tabelka. Wiersze - dzieci, kolumny - zabawki, w komorce TAK lub NIE. Wykluczanie krok po kroku, az zostanie tylko jedna mozliwosc dla kazdego.",
+    "intro": "Zadanie: 'Trzy dzieci, trzy zabawki - kto co dostał?' Najlepsze narzedzie to tabelka. Wiersze - dzieci, kolumny - zabawki, w komorce TAK lub NIE. Wykluczanie krok po kroku, aż zostanie tylko jedna mozliwosc dla każdego.",
     "tool": "Sztuczka 1: NARYSUJ TABELKE. Wiersze - osoby/obiekty. Kolumny - cechy/przedmioty. To pomaga sledzic, co juz ustalone.\n\nSztuczka 2: WYKLUCZAJ. Jezeli wiesz, ze Ola NIE ma misia - wpisz NIE w odpowiednia komorke. Po kazdym wykluczeniu sprawdz, czy nie zostala tylko jedna opcja w wierszu lub kolumnie.\n\nSztuczka 3: UNIKALNOSC. Jezeli wiesz, ze tylko jeden moze miec daną cechę, a wszyscy inni juz ja maja wykluczona - to pewne kto.\n\nSztuczka 4: SPRAWDZAJ WSZYSTKIE WARUNKI. Po wypelnieniu tabelki przejdz przez kazdy warunek i sprawdz spojnosc.",
     "trick": "Pulapka: warunki czesto nie sa wszystkie 'TAK' lub 'NIE'. Niektore to 'jezeli A to B' - czyli warunkowe. Tłumacz na: 'jezeli A nie B - sprzecznosc'."
   },
@@ -24,7 +24,7 @@
           "difficulty": "3pkt",
           "topic": "logika",
           "subtopic": "prosta tabelka",
-          "statement": "Trzy dzieci, kazde ma inne zwierze. Ola nie ma psa. Bartek ma kota. Kto ma psa: Ola, Bartek czy Czarek?",
+          "statement": "Trzy dzieci, każde ma inne zwierzę. Ola nie ma psa. Bartek ma kota. Kto ma psa: Ola, Bartek czy Czarek?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -45,11 +45,11 @@
           "difficulty": "3pkt",
           "topic": "logika",
           "subtopic": "dwie pewne",
-          "statement": "Trzy dzieci: A, B, C. Lubia jablko, gruszke, banan (kazde lubi inny). A nie lubi banana. B lubi gruszke. Co lubi C?",
+          "statement": "Trzy dzieci: A, B, C. Lubia jabłko, gruszke, banan (każde lubi inny). A nie lubi banana. B lubi gruszke. Co lubi C?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
-            "A": "Jablko",
+            "A": "Jabłko",
             "B": "Gruszke",
             "C": "Banan",
             "D": "Nic",
@@ -87,7 +87,7 @@
           "difficulty": "5pkt",
           "topic": "logika",
           "subtopic": "podzial ciastek wedlug cech",
-          "statement": "Troje dzieci bralo ciastka. Jedno wzielo wszystkie serca, jedno wszystkie jasne, jedno wszystkie duze. Liczby wzietych ciastek to 3, 6 i 7. Ktory zestaw ciastek wzielo jedno z dzieci?",
+          "statement": "Troje dzieci jedno po drugim podchodziło do tacy i brało ciastka, niekoniecznie w przedstawionej kolejności. Jedno z dzieci wzięło z tacy wszystkie ciastka w kształcie serca. Inne dziecko zabrało wszystkie jasne ciastka. Jeszcze inne dziecko wzięło wszystkie duże ciastka. Liczba ciastek, które wzięły dzieci, to 3, 6 i 7 (niekoniecznie w tej kolejności). Który z poniższych zestawów ciastek wzięło jedno z dzieci?",
           "hasImage": true,
           "imageNote": "Rzad ciastek roznego ksztaltu, koloru i wielkosci, 5 wariantow zestawow.",
           "choices": {
@@ -108,15 +108,15 @@
           "difficulty": "4pkt",
           "topic": "logika",
           "subtopic": "dopasowanie obrazka do warunkow",
-          "statement": "Dzieci kolorowaly obrazki. Franek: brak krolika. Jozek: jest pilka. Tadzik: rozne zwierzeta. Ala: jedno zwierze. Kajtek: brak zwierzat. Ktory obrazek kolorowal Franek?",
+          "statement": "Dzieci kolorowały obrazki. Na obrazku Franka nie ma królika. Na obrazku Józka jest piłka. Na obrazu Tadzika są zwierzęta różnego rodzaju. Obrazek Ali przedstawia jedno zwierzę. Na obrazku Kajtka nie ma zwierząt. Który obrazek kolorował Franek?",
           "hasImage": true,
-          "imageNote": "Piec obrazkow: A) dwa jeze, B) sama pilka, C) slimak + zolw, D) pilka + ptaki, E) krolik.",
+          "imageNote": "Pięć obrazków: A) dwa jeze, B) sama pilka, C) slimak + zolw, D) pilka + ptaki, E) królik.",
           "choices": {
             "A": "A - dwa jeze",
             "B": "B - pilka",
             "C": "C - slimak i zolw",
             "D": "D - pilka i ptaki",
-            "E": "E - krolik"
+            "E": "E - królik"
           },
           "correct": "A",
           "imageSrc": "/images/orig/2022-12.png"
@@ -131,9 +131,9 @@
           "difficulty": "4pkt",
           "topic": "logika",
           "subtopic": "ulozenie nalepek wedlug warunkow",
-          "statement": "Ewa naklejala 5 nalepek (trojkat, kolo, gwiazda, kwiatek, jablko) na kratki 1-5. Gwiazda nie na kratce 5, jablko na kratce 1, kwiatek dokladnie miedzy kolem a trojkatem. Na ktorej kratce jest kwiatek?",
+          "statement": "Ewa miała 5 nalepek: . Nakleiła je na pokratkowany prostokąt — na każdą kratkę jedną nalepkę: 1 2 3 4 5 . Nalepka nie znalazła się na kwadracie 5, nalepkę nakleiła na kwadrat 1, a znajdował się dokładnie między i . Na którym kwadracie Ewa nakleiła kwiatek?",
           "hasImage": true,
-          "imageNote": "Piec nalepek i prostokat z kratkami 1-5.",
+          "imageNote": "Pięć nalepek i prostokat z kratkami 1-5.",
           "choices": {
             "A": "5",
             "B": "4",
@@ -152,9 +152,9 @@
           "difficulty": "4pkt",
           "topic": "logika",
           "subtopic": "usuwanie zetonow z wiezy",
-          "statement": "Ada ma wieze z 8 zetonow. Usuwa kolejno: 2. zeton od dolu, potem 3. od dolu nowej wiezy, potem 4. od dolu, potem 5. od dolu. Jaka wieze otrzymala na koniec?",
+          "statement": "Ada zbudowała wieżę z ośmiu żetonów — patrz obrazek. Usunęła z niej drugi żeton od dołu. Później usunęła trzeci od dołu żeton nowej wieży. Z otrzymanej wieży usunęła żeton czwarty od dołu. Z tak powstałej wieży usunęła żeton piąty od dołu. Jaką wieżę Ada otrzymała na koniec?",
           "hasImage": true,
-          "imageNote": "Wieza z 8 zetonow w roznych kolorach i 5 wariantow koncowej wiezy.",
+          "imageNote": "Wieza z 8 zetonow w różnych kolorach i 5 wariantow koncowej wiezy.",
           "choices": {
             "A": "wieza A",
             "B": "wieza B",
@@ -172,7 +172,7 @@
           "observation": "Bartek ma kota, Ola nie ma psa - wiec ma cos innego.",
           "strategy": "Wykluczenia w tabelce.",
           "steps": [
-            "Bartek = kot. Ola != pies. Trzy zwierzeta: pies, kot, X. Ola != pies, Ola != kot (Bartek) - Ola ma X. Pozostaje pies dla Czarka."
+            "Bartek = kot. Ola != pies. Trzy zwierzęta: pies, kot, X. Ola != pies, Ola != kot (Bartek) - Ola ma X. Pozostaje pies dla Czarka."
           ],
           "answer": "C",
           "alternative": null,
@@ -180,16 +180,16 @@
         },
         {
           "problemId": "gen-l38-v1-w2",
-          "observation": "B=gruszka. A!=banan, wiec A=jablko. C=banan.",
+          "observation": "B=gruszka. A!=banan, wiec A=jabłko. C=banan.",
           "strategy": "Eliminacja.",
           "steps": [
             "B = gruszka",
-            "A nie banan, A nie gruszka (B), wiec A = jablko",
+            "A nie banan, A nie gruszka (B), wiec A = jabłko",
             "C = banan"
           ],
           "answer": "C",
           "alternative": null,
-          "hint": "B=gruszka. A!=banan, wiec A=jablko. C=banan."
+          "hint": "B=gruszka. A!=banan, wiec A=jabłko. C=banan."
         },
         {
           "problemId": "gen-l38-v1-w3",
@@ -206,57 +206,57 @@
         },
         {
           "problemId": "kangur-maluch-2024-23",
-          "observation": "3 dzieci wzielo ciastka po kategoriach (kszttalt, kolor, rozmiar).",
+          "observation": "3 dzieci wzięło ciastka po kategoriach (kszttalt, kolor, rozmiar).",
           "strategy": "Z 3,6,7 i obrazka rozdziel kategorie.",
           "steps": [
-            "Lacznie 3 + 6 + 7 = 16 ciastek.",
-            "Z analizy obrazka, ktore dziecko ile wzielo - odpowiedz: zestaw D."
+            "Łącznie 3 + 6 + 7 = 16 ciastek.",
+            "Z analizy obrazka, które dziecko ile wzięło - odpowiedz: zestaw D."
           ],
           "answer": "D",
           "alternative": null,
-          "hint": "Liczby ciastek: 3, 6, 7. Jedno wzielo wszystkie serca, jedno wszystkie jasne, jedno duze."
+          "hint": "Liczby ciastek: 3, 6, 7. Jedno wzięło wszystkie serca, jedno wszystkie jasne, jedno duze."
         },
         {
           "problemId": "kangur-maluch-2022-12",
-          "observation": "Franek: brak krolika. Reszta inne warunki.",
+          "observation": "Franek: brak królika. Reszta inne warunki.",
           "strategy": "Wyeliminuj obrazki z krolikiem.",
           "steps": [
-            "Franek: bez krolika.",
-            "Opcje: A (dwa jeze), B (pilka), C (slimak i zolw), D (pilka i ptaki), E (krolik).",
-            "Bez krolika: A, B, C, D.",
+            "Franek: bez królika.",
+            "Opcje: A (dwa jeze), B (pilka), C (slimak i zolw), D (pilka i ptaki), E (królik).",
+            "Bez królika: A, B, C, D.",
             "Jozek: pilka. B i D maja pilke.",
-            "Tadzik: rozne zwierzeta. C ma rozne (slimak, zolw).",
-            "Ala: jedno zwierze.",
-            "Kajtek: brak zwierzat.",
+            "Tadzik: różne zwierzęta. C ma różne (slimak, zolw).",
+            "Ala: jedno zwierzę.",
+            "Kajtek: brak zwierząt.",
             "Franek z eliminacji: A (dwa jeze)."
           ],
           "answer": "A",
           "alternative": null,
-          "hint": "Franek wybiera obrazek BEZ krolika. Sprawdz wszystkie z opcji."
+          "hint": "Franek wybiera obrazek BEZ królika. Sprawdz wszystkie z opcji."
         },
         {
           "problemId": "kangur-maluch-2021-11",
-          "observation": "5 nalepek (trojkat, kolo, gwiazda, kwiatek, jablko) na 5 kratkach.",
-          "strategy": "Jablko na 1. Kwiatek miedzy kolem a trojkatem - kwiatek w srodku 3 sasiadow.",
+          "observation": "5 nalepek (trójkąt, koło, gwiazda, kwiatek, jabłko) na 5 kratkach.",
+          "strategy": "Jabłko na 1. Kwiatek między kolem a trojkatem - kwiatek w srodku 3 sasiadow.",
           "steps": [
-            "Jablko: kratka 1.",
-            "Kwiatek miedzy kolem i trojkatem -> sa one sasiadami kwiatka po przeciwnych stronach.",
+            "Jabłko: kratka 1.",
+            "Kwiatek między kolem i trojkatem -> sa one sasiadami kwiatka po przeciwnych stronach.",
             "Gwiazda nie na kratce 5.",
-            "Mozliwy uklad: Jablko-Kolo-Kwiatek-Trojkat-Gwiazda lub odwrotnie.",
+            "Mozliwy uklad: Jabłko-Koło-Kwiatek-Trójkąt-Gwiazda lub odwrotnie.",
             "Pierwszy nie pasuje (Gwiazda na 5).",
-            "Drugi: Jablko, Trojkat, Kwiatek, Kolo, Gwiazda - Gwiazda na 5, nie pasuje.",
-            "Trzeci: Jablko, Kolo, Kwiatek, Trojkat, Gwiazda - Gwiazda na 5, nie pasuje.",
-            "Czwarty: Jablko, Trojkat, Kwiatek, Kolo, gwiazda - to samo.",
-            "Sprawdz uklad gdzie Gwiazda na 2, 3 lub 4: Jablko-Gwiazda-Kolo-Kwiatek-Trojkat (kwiatek na 4 miedzy kolem i trojkatem - TAK).",
+            "Drugi: Jabłko, Trójkąt, Kwiatek, Koło, Gwiazda - Gwiazda na 5, nie pasuje.",
+            "Trzeci: Jabłko, Koło, Kwiatek, Trójkąt, Gwiazda - Gwiazda na 5, nie pasuje.",
+            "Czwarty: Jabłko, Trójkąt, Kwiatek, Koło, gwiazda - to samo.",
+            "Sprawdz uklad gdzie Gwiazda na 2, 3 lub 4: Jabłko-Gwiazda-Koło-Kwiatek-Trójkąt (kwiatek na 4 między kolem i trojkatem - TAK).",
             "Kwiatek na kratce 4."
           ],
           "answer": "B",
           "alternative": null,
-          "hint": "Jablko na 1. Kwiatek dokladnie miedzy kolem a trojkatem - wymaga 3 sasiednich."
+          "hint": "Jabłko na 1. Kwiatek dokladnie między kolem a trojkatem - wymaga 3 sasiednich."
         },
         {
           "problemId": "kangur-maluch-2024-14",
-          "observation": "Wieza z 8, kolejno usuwasz 2., 3., 4., 5. od dolu.",
+          "observation": "Wieza z 8, kolejno usuwasz 2., 3., 4., 5. od dołu.",
           "strategy": "Sledzic poszczegolne usuniecia.",
           "steps": [
             "Start: 8 zetonow.",
@@ -268,7 +268,7 @@
           ],
           "answer": "B",
           "alternative": null,
-          "hint": "8 zetonow. Usuwasz 2., potem 3. od dolu nowej wiezy, potem 4., potem 5."
+          "hint": "8 zetonow. Usuwasz 2., potem 3. od dołu nowej wiezy, potem 4., potem 5."
         }
       ]
     },
@@ -284,11 +284,11 @@
           "difficulty": "3pkt",
           "topic": "logika",
           "subtopic": "tabelka 3x3",
-          "statement": "3 dzieci, 3 owoce. Ada nie lubi jablek. Beata lubi gruszki. Co lubi Cezary, jezeli kazde lubi inny owoc (jablko, gruszka, banan)?",
+          "statement": "3 dzieci, 3 owoce. Ada nie lubi jabłek. Beata lubi gruszki. Co lubi Cezary, jeżeli każde lubi inny owoc (jabłko, gruszka, banan)?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
-            "A": "Jablko",
+            "A": "Jabłko",
             "B": "Gruszke",
             "C": "Banan",
             "D": "Wszystkie",
@@ -305,7 +305,7 @@
           "difficulty": "3pkt",
           "topic": "logika",
           "subtopic": "wybor zawodu",
-          "statement": "Trzy osoby: lekarz, nauczyciel, fryzjer. Kazda inny zawod. Anka NIE lekarz. Bartek nauczyciel. Czy jest mozliwe zeby Anka byla fryzjerem?",
+          "statement": "Trzy osoby: lekarz, nauczyciel, fryzjer. Każda inny zawod. Anka NIE lekarz. Bartek nauczyciel. Czy jest mozliwe zeby Anka była fryzjerem?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -347,7 +347,7 @@
           "difficulty": "4pkt",
           "topic": "logika",
           "subtopic": "ukladanka z brakujacym fragmentem",
-          "statement": "Na talerzach Helenki, Stasia i Slawka leza kangurkowe ciastka (kazde inny ksztalt). Ktore dwie czesci uzupelnia ukladanke?",
+          "statement": "Na talerzach Helenki, Stasia i Slawka leza kangurkowe ciastka (każde inny ksztalt). Które dwie czesci uzupelnia ukladanke?",
           "hasImage": true,
           "imageNote": "3 talerze z kangurami i 5 par fragmentow do uzupelnienia.",
           "choices": {
@@ -367,10 +367,10 @@
           "number": 8,
           "difficulty": "3pkt",
           "topic": "logika",
-          "subtopic": "zamiana dwoch kart - grupowanie owocow",
-          "statement": "Ignacy ma karty z owocami w 3 rodzajach. Na ktorym z 5 obrazkow NIE moze zamienic dwoch kart miejscami tak, by owoce tego samego rodzaju lezaly obok siebie?",
+          "subtopic": "zamiana dwóch kart - grupowanie owoców",
+          "statement": "Ignacy ma karty z owocami w trzech rodzajach: , , . Na którym z pięciu poniższych obrazków nie może on tak zamienić dwóch kart miejscami, aby wszystkie owoce tego samego rodzaju leżały obok siebie?",
           "hasImage": true,
-          "imageNote": "Piec ukladow kart z owocami.",
+          "imageNote": "Pięć ukladow kart z owocami.",
           "choices": {
             "A": "uklad A",
             "B": "uklad B",
@@ -391,7 +391,7 @@
           "difficulty": "5pkt",
           "topic": "geometria_plaska",
           "subtopic": "zwijanie gasienicy",
-          "statement": "Gasienica Hulajkula sklada sie z kulek zielonych i bialych w okreslonej kolejnosci. Moze sie zwijac, ale kulki sasiednie w rozwinietej musza dotykac sie tez w zwinietej. Ktory obrazek przedstawia zwinieta Hulajkule?",
+          "statement": "Obrazek przedstawia zabawną gąsienicę Hulajkulę . Może ona zwijać się na różne sposoby pod warunkiem, że kulki sąsiadujące ze sobą w rozwiniętej gąsienicy będą dotykać się także w zwiniętej. Który obrazek przedstawia zwiniętą Hulajkulę?",
           "hasImage": true,
           "imageNote": "Rozwinieta gasienica z kulek w okreslonej kolejnosci kolorow + 5 wariantow zwijania.",
           "choices": {
@@ -412,7 +412,7 @@
           "difficulty": "4pkt",
           "topic": "logika",
           "subtopic": "powtarzalna czynnosc - stan kubkow",
-          "statement": "Kostek ma 3 kubki. 10 razy powtarza: bierze lewy kubek, odwraca go i stawia po prawej. Jak wygladaly kubki po 10 czynnosciach (na poczatku wszystkie dnem do dolu)?",
+          "statement": "Kostek ustawił przed sobą 3 kubki. Następnie 10 razy powtórzył taką oto czynność. Brał skrajny kubek z lewej strony, odwracał go i stawiał po prawej stronie pozostałych dwóch kubków, przy czym jeżeli lewy skrajny kubek stał dnem do dołu, to odwracał go dnem do góry, a jeżeli stał dnem do góry, odwracał go dnem do dołu. Jak wyglądały kubki po wykonaniu tych 10 czynności?",
           "hasImage": true,
           "imageNote": "Trzy kubki i 5 wariantow ich stanu po czynnosciach.",
           "choices": {
@@ -420,7 +420,7 @@
             "B": "uklad B",
             "C": "uklad C",
             "D": "uklad D",
-            "E": "uklad E"
+            "E": ""
           },
           "correct": "C",
           "imageSrc": "/images/orig/2021-16.png"
@@ -429,28 +429,28 @@
       "solutions": [
         {
           "problemId": "gen-l38-v2-w1",
-          "observation": "Beata = gruszka. Ada nie jablko, wiec banan. Cezary = jablko.",
+          "observation": "Beata = gruszka. Ada nie jabłko, wiec banan. Cezary = jabłko.",
           "strategy": "Eliminacja.",
           "steps": [
             "Beata = gruszka",
-            "Ada nie jablko, nie gruszka, wiec banan",
-            "Cezary = jablko"
+            "Ada nie jabłko, nie gruszka, wiec banan",
+            "Cezary = jabłko"
           ],
           "answer": "A",
           "alternative": null,
-          "hint": "Beata = gruszka. Ada nie jablko, wiec banan. Cezary = jablko."
+          "hint": "Beata = gruszka. Ada nie jabłko, wiec banan. Cezary = jabłko."
         },
         {
           "problemId": "gen-l38-v2-w2",
-          "observation": "Bartek=nauczyciel. Anka nie lekarz - moze byc fryzjerem.",
+          "observation": "Bartek=nauczyciel. Anka nie lekarz - może byc fryzjerem.",
           "strategy": "Mozliwosc.",
           "steps": [
             "Bartek = nauczyciel",
-            "Anka nie lekarz, nie nauczyciel - moze byc fryzjerem"
+            "Anka nie lekarz, nie nauczyciel - może byc fryzjerem"
           ],
           "answer": "A",
           "alternative": null,
-          "hint": "Bartek=nauczyciel. Anka nie lekarz - moze byc fryzjerem."
+          "hint": "Bartek=nauczyciel. Anka nie lekarz - może byc fryzjerem."
         },
         {
           "problemId": "gen-l38-v2-w3",
@@ -468,7 +468,7 @@
         {
           "problemId": "kangur-maluch-2025-9",
           "observation": "Helenka, Stasiu, Slawek - ksztalt ciastek roznya sie.",
-          "strategy": "Z 5 fragmentow ukladanki wybierz 2 ktore pasuja.",
+          "strategy": "Z 5 fragmentow ukladanki wybierz 2 które pasuja.",
           "steps": [
             "Z analizy obrazka pasuja fragmenty 1 i 2."
           ],
@@ -478,7 +478,7 @@
         },
         {
           "problemId": "kangur-maluch-2021-8",
-          "observation": "3 rodzaje owocow. Zamiana 2 kart - 1 raz.",
+          "observation": "3 rodzaje owoców. Zamiana 2 kart - 1 raz.",
           "strategy": "W 4 z 5 ukladow zamiana 2 kart wystarczy. W ukladzie D - nie.",
           "steps": [
             "Z analizy obrazka odpowiedz: uklad D."
@@ -496,20 +496,20 @@
           ],
           "answer": "A",
           "alternative": null,
-          "hint": "Gasienica zwija sie - kulki sasiednie w rozwinietej tez musza dotykac w zwinietej."
+          "hint": "Gasienica zwija sie - kulki sąsiednie w rozwinietej też muszą dotykac w zwinietej."
         },
         {
           "problemId": "kangur-maluch-2021-16",
           "observation": "3 kubki, 10 powtorzen operacji.",
           "strategy": "Sledz stan kubkow przez 10 krokow.",
           "steps": [
-            "Po kazdej operacji 1 kubek zmienia orientacje i pozycje.",
-            "10 razy - co kubek mial okreslona liczbe ruchow.",
+            "Po każdej operacji 1 kubek zmienia orientacje i pozycje.",
+            "10 razy - co kubek miał okreslona liczbe ruchow.",
             "Analiza wzorca: odpowiedz uklad C."
           ],
           "answer": "C",
           "alternative": null,
-          "hint": "Po kazdej operacji lewy kubek -> odwroc -> postaw po prawej."
+          "hint": "Po każdej operacji lewy kubek -> odwroc -> postaw po prawej."
         }
       ]
     },
@@ -525,14 +525,14 @@
           "difficulty": "4pkt",
           "topic": "logika",
           "subtopic": "zderzenia figur - kumulacja wartosci",
-          "statement": "Piec figur z liczbami 10, 9, 3, 7, 20 porusza sie w jednej linii. Gdy figury jada na siebie, wieksza pozera mniejsza i zwieksza swoja wartosc o liczbe pokonanej. Jaki bedzie wynik zderzenia wszystkich pieciu figur?",
+          "statement": "W pewnej krainie 5 ﬁgur z zapisanymi na nich liczbami wyruszyło do bitwy. Poruszały się one jedna za drugą wzdłuż jednej linii w zaznaczonych strzałkami kierunkach. 3 7 9 10 20 Gdy dwie ﬁgury poruszające się w przeciwnych kierunkach zderzają się, ﬁgura z większą licz- bą pożera ﬁgurę z liczbą mniejszą. Zwycięska ﬁgura zachowuje swój kształt i kierunek ruchu, ale zwiększa swą wartość o liczbę z ﬁgury pokonanej. Oto przykład i wynik zderzenia się dwóch ﬁgur: 4 10 14 =⇒ Jaki będzie wynik zderzenia się tych pięciu ﬁgur?",
           "hasImage": true,
-          "imageNote": "Piec figur z liczbami 10, 9, 3, 7, 20 i strzalkami kierunku.",
+          "imageNote": "Pięć figur z liczbami 10, 9, 3, 7, 20 i strzalkami kierunku.",
           "choices": {
             "A": "50 (kwadrat)",
             "B": "48 (kwadrat)",
             "C": "49 (romb)",
-            "D": "50 (kolo)",
+            "D": "50 (koło)",
             "E": "49 (szesciokat)"
           },
           "correct": "C",
@@ -546,7 +546,7 @@
           "difficulty": "4pkt",
           "topic": "logika",
           "subtopic": "rozmieszczenie motocykli wsrod pojazdow",
-          "statement": "Kostek ustawil 6 autek i 2 motocykle, ponumerowal je 1-8. W kazdej trojce kolejno stojacych pojazdow byl dokladnie jeden motocykl. Ktorym numerem oznaczony jest jeden z motocykli?",
+          "statement": "Kostek ustawił wzdłuż linii 6 autek oraz 2 moto- cykle i ponumerował kolejno wszystkie pojazdy. 1 2 3 4 5 6 7 8 Pośród każdych trzech kolejno stojących pojazdów był dokładnie jeden motocykl. Którym z po- niższych numerów Kostek oznaczył jeden z motocykli?",
           "hasImage": true,
           "imageNote": "Osiem ponumerowanych pojazdow w rzedzie.",
           "choices": {
@@ -567,9 +567,9 @@
           "difficulty": "5pkt",
           "topic": "logika",
           "subtopic": "liczenie wypustek - kto jest Dinkiem",
-          "statement": "Na obrazkach Dinek, jego dwaj bracia i dwaj koledzy (smoki z wypustkami). Bracia Dinka maja lacznie 2 razy wiecej trojkatnych wypustek niz koledzy. Na ktorym obrazku jest Dinek?",
+          "statement": "Na obrazkach jest przedstawiony Dinek, jego dwaj bracia i dwaj koledzy. Na grzbiecie braci Dinka jest w sumie dwa razy więcej trójkątnych wypustek niż łącznie na grzbietach jego kolegów. Na którym obrazku widnieje Dinek?",
           "hasImage": true,
-          "imageNote": "Piec smokow z rozna liczba trojkatnych wypustek na grzbiecie.",
+          "imageNote": "Pięć smokow z różna liczba trojkatnych wypustek na grzbiecie.",
           "choices": {
             "A": "smok A",
             "B": "smok B",
@@ -588,9 +588,9 @@
           "difficulty": "5pkt",
           "topic": "logika",
           "subtopic": "rozpoznanie poprawnego rysunku",
-          "statement": "Stas zacieniował 5 kratek i pokazal rysunek 5 kolegom. Jeden narysowal poprawnie wszystkie 5, czworka pomylila sie w 1 kratce (4 poprawne). Ktory obrazek byl taki sam jak rysunek Stasia?",
+          "statement": "Na pokratkowanej tablicy Staś zacieniował 5 kwadracików, na krótką chwilę pokazał obrazek pięciu kolegom i poprosił, by każdy z nich narysował taki rysunek. Po obejrzeniu rysunków Staś powiedział: „Jeden z was zacieniował kratki poprawnie, pozostała czwórka jedną kratkę zacieniowała błędnie, a cztery poprawnie.” Który z obrazków był taki sam, jak rysunek Stasia?",
           "hasImage": true,
-          "imageNote": "Piec rysunkow z 5 zacieniowanymi kratkami kazdy.",
+          "imageNote": "Pięć rysunkow z 5 zacieniowanymi kratkami każdy.",
           "choices": {
             "A": "rysunek A",
             "B": "rysunek B",
@@ -609,7 +609,7 @@
           "difficulty": "5pkt",
           "topic": "logika",
           "subtopic": "podzielnosc - ile upieczono w piatek",
-          "statement": "Ania upiekla 24 ciastka, Basia 25, Celina 26, Danka 27, Ewa 28. Jedna upiekla lacznie 2 razy tyle co w piatek, jedna 3 razy, jedna 4, jedna 5, jedna 6 razy. Ktora upiekla najwiecej ciastek w piatek?",
+          "statement": "Ania, Basia, Celina, Danka i Ewa piekły w piątek i w sobotę ciastka. Ania upiekła ich w sumie 24, Basia 25, Celina 26, Danka 27, Ewa 28. Ponadto jedna z dziewcząt upiekła ich łącznie 2 razy tyle, ile upiekła w piątek, jedna 3 razy tyle, ile upiekła w piątek, jedna 4 razy tyle, jedna 5 razy tyle, jedna 6 razy tyle. Która z dziewcząt upiekła najwięcej ciastek w piątek?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -641,45 +641,45 @@
         },
         {
           "problemId": "kangur-maluch-2023-16",
-          "observation": "8 pojazdow w rzedzie, w kazdej trojce sasiednich 1 motocykl. 2 motocykle, 6 aut.",
+          "observation": "8 pojazdow w rzedzie, w każdej trojce sasiednich 1 motocykl. 2 motocykle, 6 aut.",
           "strategy": "Z warunku motocykle co 3 pozycje.",
           "steps": [
-            "Z 8 pojazdow, motocykle musza byc co 3 pozycje (bo w kazdej trojce 1).",
+            "Z 8 pojazdow, motocykle muszą byc co 3 pozycje (bo w każdej trojce 1).",
             "Pozycje motocykli: 3 i 6 (np.) lub 1 i 4 i 7... ale tylko 2 motocykle.",
-            "Sprawdz: pozycje 3 i 6: trojki (1,2,3), (2,3,4), (3,4,5), (4,5,6), (5,6,7), (6,7,8) - kazda zawiera 3 lub 6. TAK.",
+            "Sprawdz: pozycje 3 i 6: trojki (1,2,3), (2,3,4), (3,4,5), (4,5,6), (5,6,7), (6,7,8) - każda zawiera 3 lub 6. TAK.",
             "Motocykl na pozycji 3 - jeden z numerow."
           ],
           "answer": "C",
           "alternative": null,
-          "hint": "W kazdej trojce sasiednich pojazdow dokladnie 1 motocykl."
+          "hint": "W każdej trojce sasiednich pojazdow dokladnie 1 motocykl."
         },
         {
           "problemId": "kangur-maluch-2023-19",
-          "observation": "Dinek + 2 bracia + 2 kolegow. Bracia razem 2x kolegow.",
-          "strategy": "Z obrazkow zlicz wypustki i znajdz spojny podzial.",
+          "observation": "Dinek + 2 bracia + 2 kolegów. Bracia razem 2x kolegów.",
+          "strategy": "Z obrazków zlicz wypustki i znajdz spojny podzial.",
           "steps": [
             "Z analizy obrazka odpowiedz: smok C."
           ],
           "answer": "C",
           "alternative": null,
-          "hint": "Bracia Dinka razem maja 2x wypustki kolegow. Sumuj wypustki."
+          "hint": "Bracia Dinka razem maja 2x wypustki kolegów. Sumuj wypustki."
         },
         {
           "problemId": "kangur-maluch-2023-24",
           "observation": "Stas zacieniowal 5 kratek. 1 kolega poprawnie, 4 z 1 bledem (4 poprawne).",
-          "strategy": "Porownaj 5 rysunkow ze soba: ten z najmniejsza odlegloscia od pozostalych.",
+          "strategy": "Porownaj 5 rysunkow że soba: ten z najmniejsza odlegloscia od pozostalych.",
           "steps": [
-            "Patrzymy na kazdy rysunek wzgledem 4 innych.",
+            "Patrzymy na każdy rysunek wzgledem 4 innych.",
             "Z analizy odpowiedz: rysunek C."
           ],
           "answer": "C",
           "alternative": null,
-          "hint": "Wsrod 5 obrazkow 1 poprawny, 4 z dokladnie 1 bledem."
+          "hint": "Wsrod 5 obrazków 1 poprawny, 4 z dokladnie 1 bledem."
         },
         {
           "problemId": "kangur-maluch-2015-24",
-          "observation": "5 dziewczat upieklo w sumie roznych liczb. Razy 2/3/4/5/6 wartosci piatkowych.",
-          "strategy": "Sprobuj rozne przyporzadkowania mnoznikow.",
+          "observation": "5 dziewczat upieklo w sumie różnych liczb. Razy 2/3/4/5/6 wartosci piatkowych.",
+          "strategy": "Sprobuj różne przyporzadkowania mnoznikow.",
           "steps": [
             "Razem upieczone razy mnoznik = liczba calkowita.",
             "24 = 2*12, 3*8, 4*6, 6*4 - dzielniki.",
@@ -711,8 +711,8 @@
     {
       "q": "Wpisujemy NIE w komorke gdy:",
       "choices": {
-        "A": "Wiemy ze X nie ma Y",
-        "B": "Wiemy ze X ma Y",
+        "A": "Wiemy że X nie ma Y",
+        "B": "Wiemy że X ma Y",
         "C": "Nie wiemy"
       },
       "correct": "A",
@@ -721,7 +721,7 @@
     {
       "q": "Gdy w wierszu zostaje tylko jedna opcja:",
       "choices": {
-        "A": "To wlasnie ta",
+        "A": "To właśnie ta",
         "B": "Trzeba zgadywac",
         "C": "Brak rozwiazania"
       },

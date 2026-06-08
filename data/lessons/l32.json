@@ -7,8 +7,8 @@
   "topic": "pomiary_jednostki",
   "estimatedMinutes": 14,
   "theory": {
-    "intro": "W jednym zadaniu masz: 3 m dlugiej tasiemki, 200 g masy, 5 zl ceny i 2 godziny czasu. Trzeba czesto laczyc rozne jednostki: dlugosc + cena (cena za metr), masa + cena (zl za kg), czas + odleglosc (km na godzine). Wyzwanie polega na konsekwentnym uzyciu tych samych jednostek.",
-    "tool": "Sztuczka 1: NAPISZ ZAWSZE JEDNOSTKE. Liczby same w sobie nic nie znacza. '5' to 5 czego? Pisz: 5 cm, 5 kg, 5 zl. To pomaga sprawdzic czy nie pomylisz jednostek.\n\nSztuczka 2: SPROWADZ DO TEJ SAMEJ JEDNOSTKI. Porownujac, dodajac, odejmujac - WSZYSTKO zamien na jedna jednostke. 3 m + 50 cm: zamien na cm, 300+50=350 cm.\n\nSztuczka 3: STAWKA NA JEDNOSTKE. Cena za 1 metr, 1 kg, 1 godzine - to klucz do wielu zadan. Jezeli 5 m kosztuje 25 zl, to 1 m = 5 zl. Wtedy 8 m = 40 zl.\n\nSztuczka 4: CZAS I ODLEGLOSC. Predkosc = ile km na godzine. Idziesz 5 km/h - po 2 godz przejdziesz 10 km. To prosty wzor: odleglosc = predkosc razy czas.",
+    "intro": "W jednym zadaniu masz: 3 m dlugiej tasiemki, 200 g masy, 5 zl ceny i 2 godziny czasu. Trzeba czesto laczyc różne jednostki: długość + cena (cena za metr), masa + cena (zl za kg), czas + odleglosc (km na godzinę). Wyzwanie polega na konsekwentnym uzyciu tych samych jednostek.",
+    "tool": "Sztuczka 1: NAPISZ ZAWSZE JEDNOSTKE. Liczby same w sobie nic nie znacza. '5' to 5 czego? Pisz: 5 cm, 5 kg, 5 zl. To pomaga sprawdzic czy nie pomylisz jednostek.\n\nSztuczka 2: SPROWADZ DO TEJ SAMEJ JEDNOSTKI. Porownujac, dodajac, odejmujac - Wszystko zamien na jedna jednostke. 3 m + 50 cm: zamien na cm, 300+50=350 cm.\n\nSztuczka 3: STAWKA NA JEDNOSTKE. Cena za 1 metr, 1 kg, 1 godzinę - to klucz do wielu zadan. Jeżeli 5 m kosztuje 25 zl, to 1 m = 5 zl. Wtedy 8 m = 40 zl.\n\nSztuczka 4: CZAS I ODLEGLOSC. Predkosc = ile km na godzinę. Idziesz 5 km/h - po 2 godz przejdziesz 10 km. To prosty wzor: odleglosc = predkosc razy czas.",
     "trick": "Pulapka Kangurka: ostroznie z 'kilo'. 1 kilogram = 1000 gramow, ale 1 kilometr = 1000 metrow. 'Kilo' to przedrostek oznaczajacy 1000. Nie myl jednostek - cena za kilo (gramow) to cos innego niz cena za kilometr."
   },
   "versions": [
@@ -28,7 +28,7 @@
           "hasImage": false,
           "imageNote": null,
           "choices": {
-            "A": "Dlugosci",
+            "A": "Długości",
             "B": "Czasu",
             "C": "Masy",
             "D": "Pojemnosci",
@@ -49,7 +49,7 @@
           "hasImage": false,
           "imageNote": null,
           "choices": {
-            "A": "Dlugosci",
+            "A": "Długości",
             "B": "Masy",
             "C": "Czasu",
             "D": "Pojemnosci",
@@ -87,7 +87,7 @@
           "difficulty": "3pkt",
           "topic": "pomiary_jednostki",
           "subtopic": "predkosc",
-          "statement": "Idziesz 4 km na godzine. Ile km przejdziesz w 3 godziny?",
+          "statement": "Idziesz 4 km na godzinę. Ile km przejdziesz w 3 godziny?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -108,7 +108,7 @@
           "difficulty": "3pkt",
           "topic": "czas_kalendarz",
           "subtopic": "roznica wieku w miesiacach",
-          "statement": "Witek ma 1 rok i 3 miesiace. Za ile miesiecy Witek skonczy 3 lata?",
+          "statement": "Witek ma 1 rok i 3 miesiące. Za ile miesięcy Witek skonczy 3 lata?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -131,7 +131,7 @@
           "difficulty": "4pkt",
           "topic": "pomiary_jednostki",
           "subtopic": "cena za kg",
-          "statement": "1 kg jablek kosztuje 4 zl. Ile zl za 2 kg 500 g?",
+          "statement": "1 kg jabłek kosztuje 4 zl. Ile zl za 2 kg 500 g?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -151,8 +151,8 @@
           "number": null,
           "difficulty": "5pkt",
           "topic": "pomiary_jednostki",
-          "subtopic": "czas i dlugosc",
-          "statement": "Sciezka ma 1 km 500 m. Ola idzie 100 m na minute. Ile minut bedzie isc cala sciezke?",
+          "subtopic": "czas i długość",
+          "statement": "Ścieżka ma 1 km 500 m. Ola idzie 100 m na minutę. Ile minut bedzie isc cala sciezke?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -191,14 +191,14 @@
         },
         {
           "problemId": "gen-l32-v1-w3",
-          "observation": "Cena za 1 m = cena lacznie : ilosc metrow.",
+          "observation": "Cena za 1 m = cena łącznie : ilosc metrow.",
           "strategy": "Dzielenie.",
           "steps": [
             "25 : 5 = 5 zl/m"
           ],
           "answer": "C",
           "alternative": null,
-          "hint": "Cena za 1 m = cena lacznie : ilosc metrow."
+          "hint": "Cena za 1 m = cena łącznie : ilosc metrow."
         },
         {
           "problemId": "gen-l32-v1-w4",
@@ -213,7 +213,7 @@
         },
         {
           "problemId": "kangur-maluch-2016-2",
-          "observation": "Witek 1 rok 3 miesiace, do 3 lat ile miesiecy.",
+          "observation": "Witek 1 rok 3 miesiące, do 3 lat ile miesięcy.",
           "strategy": "Roznica wieku w miesiacach.",
           "steps": [
             "1 rok 3 mies = 15 mies",
@@ -222,7 +222,7 @@
           ],
           "answer": "E",
           "alternative": null,
-          "hint": "Witek 1 rok 3 miesiace, do 3 lat ile miesiecy."
+          "hint": "Witek 1 rok 3 miesiące, do 3 lat ile miesięcy."
         },
         {
           "problemId": "gen-l32-v1-c1",
@@ -238,7 +238,7 @@
         },
         {
           "problemId": "gen-l32-v1-c2",
-          "observation": "Sciezka 1500 m, predkosc 100 m/min.",
+          "observation": "Ścieżka 1500 m, predkosc 100 m/min.",
           "strategy": "Czas = odleglosc : predkosc.",
           "steps": [
             "1 km 500 m = 1500 m",
@@ -246,7 +246,7 @@
           ],
           "answer": "B",
           "alternative": null,
-          "hint": "Sciezka 1500 m, predkosc 100 m/min."
+          "hint": "Ścieżka 1500 m, predkosc 100 m/min."
         }
       ]
     },
@@ -266,7 +266,7 @@
           "hasImage": false,
           "imageNote": null,
           "choices": {
-            "A": "Dlugosci",
+            "A": "Długości",
             "B": "Masy",
             "C": "Czasu",
             "D": "Pojemnosci",
@@ -283,7 +283,7 @@
           "difficulty": "3pkt",
           "topic": "pomiary_jednostki",
           "subtopic": "predkosc minutowa",
-          "statement": "Pies biegnie 200 metrow na minute. Ile metrow przebiegnie w 5 minut?",
+          "statement": "Pies biegnie 200 metrow na minutę. Ile metrow przebiegnie w 5 minut?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -325,7 +325,7 @@
           "difficulty": "3pkt",
           "topic": "pomiary_jednostki",
           "subtopic": "jednostka cyfra",
-          "statement": "Stol ma dlugosc 1 metr 50 cm. Ile to centymetrow?",
+          "statement": "Stół ma długość 1 metr 50 cm. Ile to centymetrow?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -368,8 +368,8 @@
           "number": null,
           "difficulty": "4pkt",
           "topic": "pomiary_jednostki",
-          "subtopic": "czas + dlugosc",
-          "statement": "Maraton ma 42 km. Biegacz biegnie 6 km na godzine. Ile godzin (w przyblizeniu) bedzie biegl?",
+          "subtopic": "czas + długość",
+          "statement": "Maraton ma 42 km. Biegacz biegnie 6 km na godzinę. Ile godzin (w przyblizeniu) bedzie biegl?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -390,7 +390,7 @@
           "difficulty": "5pkt",
           "topic": "pomiary_jednostki",
           "subtopic": "zlozone zadanie",
-          "statement": "Mleko kosztuje 4 zl za litr. Mama kupila 2 butelki po 1.5 l. Ile zaplacila?",
+          "statement": "Mleko kosztuje 4 zl za litr. Mama kupiła 2 butelki po 1.5 l. Ile zaplacila?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -490,7 +490,7 @@
     {
       "q": "Kilogramy mierza:",
       "choices": {
-        "A": "Dlugosc",
+        "A": "Długość",
         "B": "Mase",
         "C": "Czas"
       },
@@ -498,7 +498,7 @@
       "explain": "kg to jednostka masy."
     },
     {
-      "q": "1 km na godzine to:",
+      "q": "1 km na godzinę to:",
       "choices": {
         "A": "Predkosc",
         "B": "Mase",

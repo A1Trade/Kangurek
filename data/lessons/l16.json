@@ -3,13 +3,13 @@
   "number": 16,
   "block": "Geometria plaska",
   "blockCode": "C",
-  "title": "Trojkaty i ich rodzaje",
+  "title": "Trójkąty i ich rodzaje",
   "topic": "geometria_plaska",
   "estimatedMinutes": 15,
   "theory": {
-    "intro": "Trojkat to najprostsza figura z bokami - tylko trzy. A jednak kryje mnostwo tajemnic. Trojkat rownoboczny ma wszystkie boki rowne. Rownoramienny ma dwa boki rowne. Prostokatny ma jeden kat prosty. Rozpoznawanie rodzajow trojkatow to podstawa geometrii Kangurka.",
-    "tool": "Sztuczka 1: PATRZ NA BOKI I KATY. Rownoboczny - 3 rowne boki. Rownoramienny - 2 rowne boki. Prostokatny - jeden kat prosty (rog kartki).\n\nSztuczka 2: LICZ TROJKATY SYSTEMATYCZNIE. Na rysunku z liniami szukaj: najpierw male trojkaty, potem zlozone z 2, z 3, z 4 malych. Nie pomijaj duzych.\n\nSztuczka 3: TROJKAT W FIGURZE ZLOZONEJ. Duza figura czesto sklada sie z trojkatow. Podziel ja w mysli na trojkaty - latwiej policzyc pole albo elementy.",
-    "trick": "Pulapka Kangurka: zadanie 'ile trojkatow' wyglada na 4 albo 5, ale poprawna odpowiedz to czesto 10 lub wiecej. Powod: trojkaty zlozone z kilku mniejszych. Zawsze sprawdzaj kombinacje - to one robia roznice."
+    "intro": "Trójkąt to najprostsza figura z bokami - tylko trzy. A jednak kryje mnostwo tajemnic. Trójkąt rownoboczny ma wszystkie boki równe. Rownoramienny ma dwa boki równe. Prostokatny ma jeden kat prosty. Rozpoznawanie rodzajow trójkątów to podstawa geometrii Kangurka.",
+    "tool": "Sztuczka 1: PATRZ NA BOKI I KATY. Rownoboczny - 3 równe boki. Rownoramienny - 2 równe boki. Prostokatny - jeden kat prosty (rog kartki).\n\nSztuczka 2: LICZ Trójkąty SYSTEMATYCZNIE. Na rysunku z liniami szukaj: najpierw małe trójkąty, potem zlozone z 2, z 3, z 4 małych. Nie pomijaj duzych.\n\nSztuczka 3: Trójkąt W FIGURZE ZLOZONEJ. Duza figura czesto sklada sie z trójkątów. Podziel ja w mysli na trójkąty - latwiej policzyć pole albo elementy.",
+    "trick": "Pulapka Kangurka: zadanie 'ile trójkątów' wyglada na 4 albo 5, ale poprawna odpowiedz to czesto 10 lub więcej. Powod: trójkąty zlozone z kilku mniejszych. Zawsze sprawdzaj kombinacje - to one robia roznice."
   },
   "versions": [
     {
@@ -23,8 +23,8 @@
           "number": null,
           "difficulty": "3pkt",
           "topic": "geometria_plaska",
-          "subtopic": "trojkat rownoboczny",
-          "statement": "Trojkat, ktory ma wszystkie trzy boki rownej dlugosci, nazywamy:",
+          "subtopic": "trójkąt rownoboczny",
+          "statement": "Trójkąt, który ma wszystkie trzy boki równej długości, nazywamy:",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -44,8 +44,8 @@
           "number": null,
           "difficulty": "3pkt",
           "topic": "geometria_plaska",
-          "subtopic": "trojkat prostokatny",
-          "statement": "Trojkat prostokatny ma jeden kat:",
+          "subtopic": "trójkąt prostokatny",
+          "statement": "Trójkąt prostokatny ma jeden kat:",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -66,7 +66,7 @@
           "difficulty": "3pkt",
           "topic": "geometria_plaska",
           "subtopic": "liczba bokow",
-          "statement": "Ile bokow ma kazdy trojkat?",
+          "statement": "Ile bokow ma każdy trójkąt?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -86,10 +86,10 @@
           "number": 10,
           "difficulty": "4pkt",
           "topic": "geometria_plaska",
-          "subtopic": "podzial figury na trojkaty",
-          "statement": "Franek pociął figure narysowana na kratkowanym papierze na jednakowe trojkaty. Ile takich trojkatow otrzymal?",
+          "subtopic": "podzial figury na trójkąty",
+          "statement": "Franek pociął narysowaną na kratkowanym papierze ﬁgurę (rysunek 1) na jednakowe trójkąty (rysunek 2). Ile takich trójkątów otrzymał?",
           "hasImage": true,
-          "imageNote": "Figura na kratce pocieta na jednakowe trojkaty.",
+          "imageNote": "Figura na kratce pocieta na jednakowe trójkąty.",
           "choices": {
             "A": "8",
             "B": "12",
@@ -107,10 +107,10 @@
           "number": 3,
           "difficulty": "3pkt",
           "topic": "geometria_plaska",
-          "subtopic": "porownanie zestawow klockow",
-          "statement": "Ktore z 5 domkow skladaja sie z takiego samego zestawu trojkatnych i prostokatnych klockow?",
+          "subtopic": "porownanie zestawow klocków",
+          "statement": "Które z poniższych domków składają się z takiego samego zestawu trójkątnych i prostokątnych klocków? 1 2 3 4 5",
           "hasImage": true,
-          "imageNote": "Piec domkow zbudowanych z trojkatow i prostokatow.",
+          "imageNote": "Pięć domkow zbudowanych z trójkątów i prostokatow.",
           "choices": {
             "A": "3, 4",
             "B": "1, 4, 3",
@@ -131,9 +131,9 @@
           "difficulty": "4pkt",
           "topic": "geometria_plaska",
           "subtopic": "ukladanie figur z kartonikow L",
-          "statement": "Ile z przedstawionych obok figur mozna ulozyc majac do dyspozycji identyczne kartoniki w ksztalcie litery L (z 4 kwadracikow)?",
+          "statement": "Ile z przedstawionych obok ﬁgur można ułożyć mając do dyspozycji identyczne kartoniki, każdy w następującym kształcie: ?",
           "hasImage": true,
-          "imageNote": "Cztery rozne figury do ulozenia z kartonikow L (po 4 kwadraciki).",
+          "imageNote": "Cztery różne figury do ulozenia z kartonikow L (po 4 kwadraciki).",
           "choices": {
             "A": "0",
             "B": "1",
@@ -152,7 +152,7 @@
           "difficulty": "4pkt",
           "topic": "geometria_plaska",
           "subtopic": "liczba różnych figur po usunięciu",
-          "statement": "Franek ułożył figurę z pięciu kwadratowych kartoników. Chce usunąć z niej jeden kartonik. Ile z poniżej narysowanych pięciu figur (czterokwadratowych) może otrzymać Franek?",
+          "statement": "Franek ułożył ﬁgurę z pięciu kwadratowych kartoników (patrz rysunek obok). Chce usunąć z niej jeden kartonik. Ile z poniżej narysowanych ﬁgur może otrzymać Franek?",
           "hasImage": true,
           "imageNote": "Figura z 5 kwadratów. Poniżej 5 tetromin.",
           "choices": {
@@ -169,21 +169,21 @@
       "solutions": [
         {
           "problemId": "gen-l16-v1-w1",
-          "observation": "Wszystkie boki rowne = rownoboczny.",
-          "strategy": "Klasyfikacja trojkatow.",
+          "observation": "Wszystkie boki równe = rownoboczny.",
+          "strategy": "Klasyfikacja trójkątów.",
           "steps": [
-            "Trojkat z 3 rownymi bokami to rownoboczny"
+            "Trójkąt z 3 rownymi bokami to rownoboczny"
           ],
           "answer": "C",
           "alternative": null,
-          "hint": "Wszystkie boki rowne = rownoboczny."
+          "hint": "Wszystkie boki równe = rownoboczny."
         },
         {
           "problemId": "gen-l16-v1-w2",
           "observation": "Prostokatny ma kat prosty.",
           "strategy": "Definicja.",
           "steps": [
-            "Trojkat prostokatny ma jeden kat prosty"
+            "Trójkąt prostokatny ma jeden kat prosty"
           ],
           "answer": "B",
           "alternative": null,
@@ -191,45 +191,45 @@
         },
         {
           "problemId": "gen-l16-v1-w3",
-          "observation": "Trojkat - trzy boki.",
+          "observation": "Trójkąt - trzy boki.",
           "strategy": "Liczba bokow.",
           "steps": [
-            "Kazdy trojkat ma 3 boki"
+            "Każdy trójkąt ma 3 boki"
           ],
           "answer": "B",
           "alternative": null,
-          "hint": "Trojkat - trzy boki."
+          "hint": "Trójkąt - trzy boki."
         },
         {
           "problemId": "kangur-maluch-2015-10",
-          "observation": "Figure dzielimy na jednakowe trojkaty.",
+          "observation": "Figure dzielimy na jednakowe trójkąty.",
           "strategy": "Liczenie identycznych czesci.",
           "steps": [
-            "Figura pocieta na jednakowe trojkaty",
-            "Wychodzi 16 trojkatow"
+            "Figura pocieta na jednakowe trójkąty",
+            "Wychodzi 16 trójkątów"
           ],
           "answer": "E",
           "alternative": null,
-          "hint": "Figure dzielimy na jednakowe trojkaty."
+          "hint": "Figure dzielimy na jednakowe trójkąty."
         },
         {
           "problemId": "kangur-maluch-2014-3",
-          "observation": "Porownujemy zestawy klockow domkow.",
+          "observation": "Porownujemy zestawy klocków domkow.",
           "strategy": "Porownanie zestawow.",
           "steps": [
-            "Domki o tym samym zestawie klockow trojkatnych i prostokatnych",
+            "Domki o tym samym zestawie klocków trojkatnych i prostokatnych",
             "Pasuja domki 1 i 4"
           ],
           "answer": "D",
           "alternative": null,
-          "hint": "Porownujemy zestawy klockow domkow."
+          "hint": "Porownujemy zestawy klocków domkow."
         },
         {
           "problemId": "kangur-maluch-2012-9",
           "observation": "Ukladamy figury z kartonikow L.",
           "strategy": "Sprawdzanie ulozenia.",
           "steps": [
-            "Z kartonikow w ksztalcie L mozna ulozyc 3 z podanych figur"
+            "Z kartonikow w ksztalcie L można ułożyć 3 z podanych figur"
           ],
           "answer": "D",
           "alternative": null,
@@ -237,15 +237,15 @@
         },
         {
           "problemId": "kangur-maluch-2019-10",
-          "observation": "Usuwamy jeden kartonik z figury z 5 kwadratow.",
-          "strategy": "Liczenie roznych figur.",
+          "observation": "Usuwamy jeden kartonik z figury z 5 kwadratów.",
+          "strategy": "Liczenie różnych figur.",
           "steps": [
-            "Usuniecie roznych kartonikow daje rozne figury 4-kwadratowe",
-            "Mozna otrzymac 3 rozne figury"
+            "Usuniecie różnych kartonikow daje różne figury 4-kwadratowe",
+            "Można otrzymac 3 różne figury"
           ],
           "answer": "C",
           "alternative": null,
-          "hint": "Usuwamy jeden kartonik z figury z 5 kwadratow."
+          "hint": "Usuwamy jeden kartonik z figury z 5 kwadratów."
         }
       ]
     },
@@ -260,8 +260,8 @@
           "number": null,
           "difficulty": "3pkt",
           "topic": "geometria_plaska",
-          "subtopic": "trojkat rownoramienny",
-          "statement": "Trojkat, ktory ma dokladnie dwa boki rownej dlugosci, nazywamy:",
+          "subtopic": "trójkąt rownoramienny",
+          "statement": "Trójkąt, który ma dokladnie dwa boki równej długości, nazywamy:",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -282,7 +282,7 @@
           "difficulty": "3pkt",
           "topic": "geometria_plaska",
           "subtopic": "liczba katow",
-          "statement": "Ile katow ma trojkat?",
+          "statement": "Ile katow ma trójkąt?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -302,8 +302,8 @@
           "number": null,
           "difficulty": "3pkt",
           "topic": "geometria_plaska",
-          "subtopic": "liczenie trojkatow prostych",
-          "statement": "Kwadrat przeciety jedna przekatna dzieli sie na ile trojkatow?",
+          "subtopic": "liczenie trójkątów prostych",
+          "statement": "Kwadrat przeciety jedna przekatna dzieli sie na ile trójkątów?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -324,9 +324,9 @@
           "difficulty": "5pkt",
           "topic": "geometria_plaska",
           "subtopic": "polozenie klocka w ukladance",
-          "statement": "Figure ulozono z 4 klockow o roznych ksztaltach. Gdzie lezy konkretny klocek (3-elementowy w ksztalcie L)?",
+          "statement": "Figurę na rysunku obok ułożono z czterech następujących klocków: , , , . Gdzie leży klocek ?",
           "hasImage": true,
-          "imageNote": "Figura zlozona z 4 klockow i 5 wariantow polozenia szukanego klocka.",
+          "imageNote": "Figura zlozona z 4 klocków i 5 wariantow polozenia szukanego klocka.",
           "choices": {
             "A": "polozenie A",
             "B": "polozenie B",
@@ -345,9 +345,9 @@
           "difficulty": "3pkt",
           "topic": "geometria_plaska",
           "subtopic": "3 elementy ulozenia",
-          "statement": "Julek mial 3 elementy ksztaltu jak na obrazku (trojkat, kwadrat, prostokat). Ktory z ponizszych wiatraczkow mogl z nich ulozyc?",
+          "statement": "Julek miał 3 elementy ksztaltu jak na obrazku (trójkąt, kwadrat, prostokat). Który z ponizszych wiatraczkow mogl z nich ułożyć?",
           "hasImage": true,
-          "imageNote": "3 figury - trojkat, kwadrat, prostokat - oraz 5 wariantow wiatraczka.",
+          "imageNote": "3 figury - trójkąt, kwadrat, prostokat - oraz 5 wariantow wiatraczka.",
           "choices": {
             "A": "wzor A",
             "B": "wzor B",
@@ -368,7 +368,7 @@
           "difficulty": "5pkt",
           "topic": "geometria_plaska",
           "subtopic": "ukladanie kwadratu z figur",
-          "statement": "Wiktoria wycieła kilka jednakowych figur (L z 4 kratek). Chce ulozyc z nich jak najmniejszy kwadrat, bez nakladania. Ile figur potrzebuje?",
+          "statement": "Wiktoria wycięła z papieru w kratkę kilka jednakowych ﬁgur, z których jed- na pokazana jest na rysunku obok. Chce ułożyć z nich jak najmniejszy kwadrat, tak aby ﬁgury te nie zachodziły na siebie. Ilu takich ﬁgur potrzebuje Wiktoria?",
           "hasImage": true,
           "imageNote": "Figura L zbudowana z 4 kratek.",
           "choices": {
@@ -388,8 +388,8 @@
           "number": null,
           "difficulty": "5pkt",
           "topic": "geometria_plaska",
-          "subtopic": "liczenie trojkatow w siatce",
-          "statement": "Duzy trojkat podzielono liniami na 4 male jednakowe trojkaty. Ile wszystkich trojkatow (malych i zlozonych) widac na rysunku?",
+          "subtopic": "liczenie trójkątów w siatce",
+          "statement": "Duzy trójkąt podzielono liniami na 4 małe jednakowe trójkąty. Ile wszystkich trójkątów (małych i zlozonych) widac na rysunku?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -406,43 +406,43 @@
       "solutions": [
         {
           "problemId": "gen-l16-v2-w1",
-          "observation": "Dwa rowne boki = rownoramienny.",
+          "observation": "Dwa równe boki = rownoramienny.",
           "strategy": "Klasyfikacja.",
           "steps": [
-            "Trojkat z 2 rownymi bokami to rownoramienny"
+            "Trójkąt z 2 rownymi bokami to rownoramienny"
           ],
           "answer": "B",
           "alternative": null,
-          "hint": "Dwa rowne boki = rownoramienny."
+          "hint": "Dwa równe boki = rownoramienny."
         },
         {
           "problemId": "gen-l16-v2-w2",
-          "observation": "Trojkat ma 3 katy.",
+          "observation": "Trójkąt ma 3 katy.",
           "strategy": "Liczba katow.",
           "steps": [
-            "Kazdy trojkat ma 3 wierzcholki i 3 katy"
+            "Każdy trójkąt ma 3 wierzcholki i 3 katy"
           ],
           "answer": "B",
           "alternative": null,
-          "hint": "Trojkat ma 3 katy."
+          "hint": "Trójkąt ma 3 katy."
         },
         {
           "problemId": "gen-l16-v2-w3",
-          "observation": "Przekatna dzieli kwadrat na 2 trojkaty.",
+          "observation": "Przekatna dzieli kwadrat na 2 trójkąty.",
           "strategy": "Podzial przekatna.",
           "steps": [
-            "Jedna przekatna kwadratu tworzy 2 trojkaty prostokatne"
+            "Jedna przekatna kwadratu tworzy 2 trójkąty prostokatne"
           ],
           "answer": "B",
           "alternative": null,
-          "hint": "Przekatna dzieli kwadrat na 2 trojkaty."
+          "hint": "Przekatna dzieli kwadrat na 2 trójkąty."
         },
         {
           "problemId": "kangur-maluch-2014-17",
           "observation": "Szukamy polozenia konkretnego klocka w figurze.",
           "strategy": "Dopasowanie klocka.",
           "steps": [
-            "Figura ulozona z 4 klockow",
+            "Figura ulozona z 4 klocków",
             "Szukany klocek lezy w polozeniu C"
           ],
           "answer": "C",
@@ -452,7 +452,7 @@
         {
           "problemId": "kangur-maluch-2025-8",
           "observation": "Ukladamy wiatraczek z 3 figur.",
-          "strategy": "Sprawdzanie ulozenia z trojkata, kwadratu i prostokata.",
+          "strategy": "Sprawdzanie ulozenia z trójkąta, kwadratu i prostokata.",
           "steps": [
             "Trzy figury skladaja sie w jeden wzor",
             "Poprawne ulozenie to C"
@@ -475,16 +475,16 @@
         },
         {
           "problemId": "gen-l16-v2-c1",
-          "observation": "Liczymy male trojkaty i duzy zlozony.",
+          "observation": "Liczymy małe trójkąty i duzy zlozony.",
           "strategy": "Systematyczne liczenie.",
           "steps": [
-            "4 male trojkaty",
-            "1 duzy trojkat zlozony ze wszystkich",
-            "Razem 5 trojkatow"
+            "4 małe trójkąty",
+            "1 duzy trójkąt zlozony że wszystkich",
+            "Razem 5 trójkątów"
           ],
           "answer": "B",
           "alternative": null,
-          "hint": "Liczymy male trojkaty i duzy zlozony."
+          "hint": "Liczymy małe trójkąty i duzy zlozony."
         }
       ]
     },
@@ -499,16 +499,16 @@
           "number": 14,
           "difficulty": "4pkt",
           "topic": "geometria_plaska",
-          "subtopic": "ukladanie kwadratu z patyczkow",
-          "statement": "Jurek ma patyczki krotsze (1 cm) i dluzsze (3 cm). Z ktorego zestawu moze ulozyc kwadrat (bez lamania i nakladania patyczkow)?",
+          "subtopic": "ukladanie kwadratu z patyczków",
+          "statement": "Jurek ma dwa rodzaje patyczków — krótsze o długości 1cm i dłuższe o długości 3cm. Z którego z poniższych zestawów takich patyczków Jurek może ułożyć kwadrat? Patyczków nie wolno łamać ani układać jeden na drugim.",
           "hasImage": false,
           "imageNote": null,
           "choices": {
-            "A": "5 krotszych i 2 dluzsze",
-            "B": "3 krotsze i 3 dluzsze",
-            "C": "6 krotszych",
-            "D": "4 krotsze i 2 dluzsze",
-            "E": "6 dluzszych"
+            "A": "5 krótszych i 2 dłuższe.",
+            "B": "3 krótsze i 3 dłuższe.",
+            "C": "6 krótszych.",
+            "D": "4 krótsze i 2 dłuższe.",
+            "E": "6 dłuższych."
           },
           "correct": "B",
           "imageSrc": "/images/orig/2020-14.png"
@@ -518,52 +518,52 @@
       "solutions": [
         {
           "problemId": "kangur-maluch-2020-14",
-          "observation": "Patyczki 1 cm i 3 cm. Trzeba zlozyc kwadrat z 4 rownych bokow.",
-          "strategy": "Kazdy bok kwadratu rownej dlugosci - sprawdz mozliwosci.",
+          "observation": "Patyczki 1 cm i 3 cm. Trzeba zlozyc kwadrat z 4 równych bokow.",
+          "strategy": "Każdy bok kwadratu równej długości - sprawdz mozliwosci.",
           "steps": [
-            "Bok = 1 cm (czterech patyczkow po 1 cm): potrzeba 4 krotszych. Nie ma takiego zestawu.",
-            "Bok = 2 cm (kazdy z 2 krotszych): potrzeba 8 krotszych. Nie ma.",
+            "Bok = 1 cm (czterech patyczków po 1 cm): potrzeba 4 krotszych. Nie ma takiego zestawu.",
+            "Bok = 2 cm (każdy z 2 krotszych): potrzeba 8 krotszych. Nie ma.",
             "Bok = 3 cm (1 dluzszy ALBO 3 krotsze): potrzeba 4 boków po 3 cm.",
-            "Z B: 3 krotsze + 3 dluzsze -> 3 krotsze daja 1 bok (3*1=3cm), 3 dluzsze daja 3 boki. Razem 4 boki po 3 cm.",
-            "Odpowiedz: 3 krotsze i 3 dluzsze."
+            "Z B: 3 krótsze + 3 dłuższe -> 3 krótsze daja 1 bok (3*1=3cm), 3 dłuższe daja 3 boki. Razem 4 boki po 3 cm.",
+            "Odpowiedz: 3 krótsze i 3 dłuższe."
           ],
           "answer": "B",
           "alternative": null,
-          "hint": "Kwadrat ma 4 boki. Patrz ktory zestaw daje 4 rowne dlugosci."
+          "hint": "Kwadrat ma 4 boki. Patrz który zestaw daje 4 równe długości."
         }
       ]
     }
   ],
   "quiz": [
     {
-      "q": "Trojkat z 3 rownymi bokami to:",
+      "q": "Trójkąt z 3 rownymi bokami to:",
       "choices": {
         "A": "Rownoboczny",
         "B": "Prostokatny",
         "C": "Rownoramienny"
       },
       "correct": "A",
-      "explain": "Trzy rowne boki - trojkat rownoboczny."
+      "explain": "Trzy równe boki - trójkąt rownoboczny."
     },
     {
-      "q": "Ile katow prostych ma trojkat prostokatny?",
+      "q": "Ile katow prostych ma trójkąt prostokatny?",
       "choices": {
         "A": "Zero",
         "B": "Jeden",
         "C": "Trzy"
       },
       "correct": "B",
-      "explain": "Trojkat prostokatny ma dokladnie jeden kat prosty."
+      "explain": "Trójkąt prostokatny ma dokladnie jeden kat prosty."
     },
     {
-      "q": "W zadaniu 'ile trojkatow' najczesciej zapominamy o:",
+      "q": "W zadaniu 'ile trójkątów' najczesciej zapominamy o:",
       "choices": {
-        "A": "Malych",
+        "A": "Małych",
         "B": "Zlozonych z kilku",
         "C": "Kolorach"
       },
       "correct": "B",
-      "explain": "Trojkaty zlozone z 2-3 malych latwo przeoczyc."
+      "explain": "Trójkąty zlozone z 2-3 małych latwo przeoczyc."
     }
   ]
 }

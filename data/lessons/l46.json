@@ -7,9 +7,9 @@
   "topic": "lamiglowki",
   "estimatedMinutes": 14,
   "theory": {
-    "intro": "Najczestszy blad w Kangurze: ktos rozwiazuje zadanie poprawnie, ale odpowiada na inne pytanie. 'Ile zostalo?' a uczen liczy 'ile bylo'. Czytanie zadania to klucz - przed liczeniem zatrzymaj sie i sprawdz: czego dokladnie pytaja?",
-    "tool": "Sztuczka 1: PRZECZYTAJ DWA RAZY. Najpierw szybko, potem powoli. Po drugim razie podkresl: co dane, czego szukam.\n\nSztuczka 2: WYPISZ DANE. Z zadania wyciagnij liczby, jednostki, warunki. Latwiej je polaczyc.\n\nSztuczka 3: SPRAWDZ JEDNOSTKE ODPOWIEDZI. Pyta o cm a odpowiedzi w m - moze pulapka. Albo pyta o LICZBE a odpowiedzi to OPISY.\n\nSztuczka 4: POMYSL O SENSIE. Czy mozliwe? Cena 1000 zl za jablko? Prawdopodobnie blad odczytu albo zlepa interpretacja.",
-    "trick": "Pulapka Kangurka: dlugie zadania z 3-4 zdaniami opisu. Czesto pierwsze 2 zdania to OZDOBNIK (postacie, kontekst), a kluczowe info w ostatnim zdaniu. Czytaj do konca - inaczej rozwiazesz inne zadanie."
+    "intro": "Najczestszy blad w Kangurze: ktos rozwiazuje zadanie poprawnie, ale odpowiada na inne pytanie. 'Ile zostało?' a uczeń liczy 'ile było'. Czytanie zadania to klucz - przed liczeniem zatrzymaj sie i sprawdz: czego dokladnie pytaja?",
+    "tool": "Sztuczka 1: PRZECZYTAJ DWA RAZY. Najpierw szybko, potem powoli. Po drugim razie podkresl: co dane, czego szukam.\n\nSztuczka 2: WYPISZ DANE. Z zadania wyciagnij liczby, jednostki, warunki. Latwiej je połączyć.\n\nSztuczka 3: SPRAWDZ JEDNOSTKE ODPOWIEDZI. Pyta o cm a odpowiedzi w m - może pulapka. Albo pyta o LICZBE a odpowiedzi to OPISY.\n\nSztuczka 4: Pomyśl O SENSIE. Czy mozliwe? Cena 1000 zl za jabłko? Prawdopodobnie blad odczytu albo zlepa interpretacja.",
+    "trick": "Pulapka Kangurka: długie zadania z 3-4 zdaniami opisu. Czesto pierwsze 2 zdania to OZDOBNIK (postacie, kontekst), a kluczowe info w ostatnim zdaniu. Czytaj do końca - inaczej rozwiazesz inne zadanie."
   },
   "versions": [
     {
@@ -24,11 +24,11 @@
           "difficulty": "3pkt",
           "topic": "lamiglowki",
           "subtopic": "czego pytaja",
-          "statement": "Zadanie pyta 'Ile bananow zostalo?'. Na poczatku bylo 15, zjedzono 8. Co odpowiadasz?",
+          "statement": "Zadanie pyta 'Ile bananow zostało?'. Na poczatku było 15, zjedzono 8. Co odpowiadasz?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
-            "A": "7 (zostalo)",
+            "A": "7 (zostało)",
             "B": "8 (zjedli)",
             "C": "15 (poczatek)",
             "D": "23 (suma)",
@@ -66,7 +66,7 @@
           "difficulty": "3pkt",
           "topic": "lamiglowki",
           "subtopic": "podkresl kluczowe",
-          "statement": "W zadaniu 'Mama kupila pol kg jablek po 4 zl za kg. Ile zaplacila?', co jest kluczem?",
+          "statement": "W zadaniu 'Mama kupiła pol kg jabłek po 4 zl za kg. Ile zaplacila?', co jest kluczem?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -87,7 +87,7 @@
           "difficulty": "3pkt",
           "topic": "arytmetyka",
           "subtopic": "dzielniki liczby",
-          "statement": "Daniel ma 36 zolnierzykow. Rozdzielil je rowno miedzy kolegow. Ktora z liczb na pewno NIE jest liczba kolegow Daniela?",
+          "statement": "Daniel ma 36 żołnierzyków. Rozdzielił wszystkie pomiędzy swoich kolegów każdemu dając tyle samo. Która z poniższych liczb na pewno nie jest liczbą kolegów Daniela?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -108,14 +108,14 @@
           "difficulty": "3pkt",
           "topic": "arytmetyka",
           "subtopic": "wstawianie cyfry dla najmniejszej liczby",
-          "statement": "Jacek chce dopisac cyfre 3 do liczby 2014 (na poczatku, na koncu lub miedzy cyframi). Gdzie ja wstawic, by otrzymana liczba 5-cyfrowa byla najmniejsza?",
+          "statement": "Jacek chce dopisać cyfrę 3 do liczby 2014, wstawiając ją albo na początku, albo na końcu, albo pomiędzy jej cyfry. Gdzie powinien ją wstawić, aby otrzymana liczba pięciocyfrowa była najmniejszą z możliwych?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
-            "A": "Przed cyfra 2",
-            "B": "Miedzy 2 a 0",
-            "C": "Miedzy 0 a 1",
-            "D": "Miedzy 1 a 4",
+            "A": "Przed cyfrą 2. B) Pomiędzy 2 a 0. C) Pomiędzy 0 a 1. D) Pomiędzy 1 a 4. E) Za cyfrą 4.",
+            "B": "Między 2 a 0",
+            "C": "Między 0 a 1",
+            "D": "Między 1 a 4",
             "E": "Za cyfra 4"
           },
           "correct": "D",
@@ -131,7 +131,7 @@
           "difficulty": "4pkt",
           "topic": "arytmetyka",
           "subtopic": "minimalizacja liczby opakowan",
-          "statement": "Pomarancze sa pakowane po 5, po 9 lub po 10 sztuk. Piotr chce dokladnie 48 pomarancz. Jaka jest najmniejsza liczba opakowan?",
+          "statement": "W pewnym sklepie można kupić pomarańcze pakowane na trzy sposoby: po 5, po 9 oraz po 10 sztuk w opakowaniu. Piotr chce kupić dokładnie 48 pomarańczy. Jaka jest najmniejsza liczba opakowań, jakie musi on zakupić?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -152,7 +152,7 @@
           "difficulty": "4pkt",
           "topic": "arytmetyka",
           "subtopic": "zadanie z reszta i niedoborem",
-          "statement": "Babcia dala kazdemu wnukowi po 4 cukierki i zostaly jej 2. Gdyby dala po 5, zabrakloby jej 2 cukierkow. Ilu wnukow miala babcia?",
+          "statement": "Babcia kupiła swoim wnukom cukierki. Dała każdemu z nich po 4 i zostały jej 2 cukierki. Gdyby chciała dać każdemu po 5, zabrakłoby jej 2 cukierków. Ilu wnuków miała babcia?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -172,7 +172,7 @@
           "observation": "Pytaja o reszte - 15-8=7.",
           "strategy": "Czytanie pytania.",
           "steps": [
-            "Zostalo: 15 - 8 = 7"
+            "Zostało: 15 - 8 = 7"
           ],
           "answer": "A",
           "alternative": null,
@@ -202,8 +202,8 @@
         },
         {
           "problemId": "kangur-maluch-2013-5",
-          "observation": "36 zolnierzykow rowno na kolegow.",
-          "strategy": "Sprawdz ktore liczby NIE dzieli 36.",
+          "observation": "36 zolnierzykow równo na kolegów.",
+          "strategy": "Sprawdz które liczby NIE dzieli 36.",
           "steps": [
             "Dzielniki 36: 1, 2, 3, 4, 6, 9, 12, 18, 36.",
             "Sprawdz: 2 - dzieli, 3 - dzieli, 4 - dzieli, 5 - NIE DZIELI, 6 - dzieli.",
@@ -211,7 +211,7 @@
           ],
           "answer": "D",
           "alternative": null,
-          "hint": "36 podzielone na rowne czesci. Sprawdz dzielniki 36."
+          "hint": "36 podzielone na równe czesci. Sprawdz dzielniki 36."
         },
         {
           "problemId": "kangur-maluch-2014-2",
@@ -219,8 +219,8 @@
           "strategy": "Wypisz 5 mozliwosci i porownaj.",
           "steps": [
             "Pozycje: 32014, 23014, 20314, 20134, 20143.",
-            "Najmniejsza: 20134 (3 miedzy 1 a 4).",
-            "Czyli 'miedzy 1 a 4'."
+            "Najmniejsza: 20134 (3 między 1 a 4).",
+            "Czyli 'między 1 a 4'."
           ],
           "answer": "D",
           "alternative": null,
@@ -270,8 +270,8 @@
           "number": null,
           "difficulty": "3pkt",
           "topic": "lamiglowki",
-          "subtopic": "ile wzielo",
-          "statement": "Pyta: 'Ile dzieci zostalo bez nagrody?'. Bylo 20, nagrody dostalo 15. Odpowiedz?",
+          "subtopic": "ile wzięło",
+          "statement": "Pyta: 'Ile dzieci zostało bez nagrody?'. Było 20, nagrody dostalo 15. Odpowiedz?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -292,7 +292,7 @@
           "difficulty": "3pkt",
           "topic": "lamiglowki",
           "subtopic": "co dane",
-          "statement": "Zadanie: 'Trojkat ma boki 3, 4, 5 cm. Ile wynosi obwod?'. Co liczymy?",
+          "statement": "Zadanie: 'Trójkąt ma boki 3, 4, 5 cm. Ile wynosi obwod?'. Co liczymy?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -313,13 +313,13 @@
           "difficulty": "3pkt",
           "topic": "lamiglowki",
           "subtopic": "ostatnie zdanie",
-          "statement": "Zadanie zaczyna sie 'Bajka o smoku...' i konczy 'Ile lat ma smok?'. Co zwracac uwage?",
+          "statement": "Zadanie zaczyna sie 'Bajka o smoku...' i kończy 'Ile lat ma smok?'. Co zwracac uwage?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
             "A": "Na poczatek (bajke)",
             "B": "Na konkretne pytanie (lat smoka)",
-            "C": "Na imie bohatera",
+            "C": "Na imię bohatera",
             "D": "Na ilosc zdan",
             "E": "Tylko na liczby"
           },
@@ -334,7 +334,7 @@
           "difficulty": "3pkt",
           "topic": "arytmetyka",
           "subtopic": "zmiana wagi i sumowanie",
-          "statement": "Szary kangurek wazyl 17 kg, brazowy 20 kg. Szary przytyl 3 kg, brazowy schudl 4 kg. Ile teraz waza lacznie oba kangurki?",
+          "statement": "Szary kangurek wazyl 17 kg, brazowy 20 kg. Szary przytyl 3 kg, brazowy schudl 4 kg. Ile teraz waza łącznie oba kangurki?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -355,7 +355,7 @@
           "difficulty": "3pkt",
           "topic": "arytmetyka",
           "subtopic": "mnozenie i dzielenie z kontekstem",
-          "statement": "Mama robi kanapki, kazda z 2 kromek chleba. Bochenek to 24 kromki. Ile kanapek zrobi z dwoch i pol bochenkow?",
+          "statement": "Mama przygotowuje kanapki, każdą z nich robiąc z dwóch kromek chleba. Bochenek chleba składa się z 24 kromek. Ile kanapek zrobi mama z dwóch i pół takich bochenków chleba?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -378,7 +378,7 @@
           "difficulty": "4pkt",
           "topic": "arytmetyka",
           "subtopic": "najmniejsza liczba o danej sumie cyfr",
-          "statement": "Suma cyfr liczby 2016 jest rowna 9. Jaka jest najmniejsza liczba wieksza od 2016, ktora ma te sama sume cyfr?",
+          "statement": "Suma cyfr liczby 2016 jest równa 9. Jaka jest najmniejsza liczba wieksza od 2016, która ma te sama sume cyfr?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -399,7 +399,7 @@
           "difficulty": "4pkt",
           "topic": "arytmetyka",
           "subtopic": "odwracanie polowienia",
-          "statement": "W koszyku byly cukierki. Zosia wziela polowe, Tomek polowe reszty, Klara polowe tego co zostalo. W koszyku zostalo 6 cukierkow. Ile bylo na poczatku?",
+          "statement": "W koszyku była pewna liczba cukierków. Zosia wzięła ich połowę, po czym Tomek wziął połowę z tego, co zostało. Następnie Klara wzięła połowę tego co pozostało w koszyku i wówczas okazało się, że w koszyku zostało 6 cukierków. Ile cukierków było w koszyku na początku?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -475,7 +475,7 @@
         {
           "problemId": "kangur-maluch-2016-11",
           "observation": "Suma cyfr 2016 = 9. Szukaj kolejnej liczby z suma 9.",
-          "strategy": "Sprawdz kolejne liczby: 2017, 2018, ..., az suma = 9.",
+          "strategy": "Sprawdz kolejne liczby: 2017, 2018, ..., aż suma = 9.",
           "steps": [
             "2017: 2+0+1+7 = 10. Nie.",
             "2018, 2019, 2020,..., 2025: 2+0+2+5 = 9. TAK.",
@@ -491,13 +491,13 @@
           "strategy": "Odwracaj operacje od wyniku.",
           "steps": [
             "Pozostalo 6 cukierkow.",
-            "Klara wziela polowe -> przed Klara: 12.",
-            "Tomek wziel polowe -> przed Tomkiem: 24.",
-            "Zosia wziela polowe -> na poczatku: 48."
+            "Klara wzięła połowę -> przed Klara: 12.",
+            "Tomek wziel połowę -> przed Tomkiem: 24.",
+            "Zosia wzięła połowę -> na poczatku: 48."
           ],
           "answer": "E",
           "alternative": null,
-          "hint": "Odwracaj od konca: zostalo 6. Klara wziela polowe -> przed klara 12. Tomek -> 24. Zosia -> 48."
+          "hint": "Odwracaj od końca: zostało 6. Klara wzięła połowę -> przed klara 12. Tomek -> 24. Zosia -> 48."
         }
       ]
     }
@@ -514,7 +514,7 @@
       "explain": "Niedokladne czytanie - odpowiadanie na inne pytanie."
     },
     {
-      "q": "Przed liczeniem nalezy:",
+      "q": "Przed liczeniem należy:",
       "choices": {
         "A": "Przeczytac dwa razy",
         "B": "Zgadnac",

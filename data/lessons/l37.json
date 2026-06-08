@@ -7,9 +7,9 @@
   "topic": "logika",
   "estimatedMinutes": 16,
   "theory": {
-    "intro": "W zagadce kilka osob mowi cos o sobie. Wiesz, ze TYLKO jeden klamie (lub tylko jeden mowi prawde). Twoim zadaniem jest znalezc tego klamce. Logika daje narzedzie: zaloz, ze konkretna osoba klamie, sprawdz czy reszta jest spojna.",
-    "tool": "Sztuczka 1: ZALOZ I SPRAWDZ. Po kolei sprawdzaj zalozenie 'X klamie'. Reszta musi byc spojna. Jezeli reszta tworzy sprzecznosc - X nie klamie.\n\nSztuczka 2: DWA SPRZECZNE ZDANIA = JEDNO KLAMSTWO. Jezeli dwie osoby mowia rzeczy, ktore nie moga byc oba prawdziwe (np. 'Ja jadlem' i 'On nie jadl' o tym samym), to jedna z nich klamie.\n\nSztuczka 3: PORZADEK WSPOLNY. Jezeli A wyzszy od B, B wyzszy od C, to A wyzszy od C. Lancuch nierownosci ustawia wszystkich.\n\nSztuczka 4: TABELKA. Dla wielu osob i wielu cech (kto co dostal, kto gdzie mieszka) - rysuj tabelke i wykluczaj.",
-    "trick": "Pulapka: w zagadce 'jeden klamie' - sprawdz KAZDA mozliwosc, kto klamca. Czesto roznia sie subtelnie. Zazwyczaj jeden z 'klamcow' produkuje sprzecznosc - to NIE on klamie. Klamca to ten, ktory daje SPOJNA reszte."
+    "intro": "W zagadce kilka osob mowi cos o sobie. Wiesz, że TYLKO jeden klamie (lub tylko jeden mowi prawde). Twoim zadaniem jest znalezc tego klamce. Logika daje narzedzie: zaloz, że konkretna osoba klamie, sprawdz czy reszta jest spojna.",
+    "tool": "Sztuczka 1: ZALOZ I SPRAWDZ. Po kolei sprawdzaj zalozenie 'X klamie'. Reszta musi byc spojna. Jeżeli reszta tworzy sprzecznosc - X nie klamie.\n\nSztuczka 2: DWA SPRZECZNE ZDANIA = JEDNO KLAMSTWO. Jeżeli dwie osoby mowia rzeczy, które nie mogą byc oba prawdziwe (np. 'Ja jadlem' i 'On nie jadl' o tym samym), to jedna z nich klamie.\n\nSztuczka 3: PORZADEK WSPOLNY. Jeżeli A wyzszy od B, B wyzszy od C, to A wyzszy od C. Lancuch nierownosci ustawia wszystkich.\n\nSztuczka 4: TABELKA. Dla wielu osob i wielu cech (kto co dostał, kto gdzie mieszka) - rysuj tabelke i wykluczaj.",
+    "trick": "Pulapka: w zagadce 'jeden klamie' - sprawdz Każda mozliwosc, kto klamca. Czesto różnią sie subtelnie. Zazwyczaj jeden z 'klamcow' produkuje sprzecznosc - to NIE on klamie. Klamca to ten, który daje SPOJNA reszte."
   },
   "versions": [
     {
@@ -87,15 +87,15 @@
           "difficulty": "5pkt",
           "topic": "logika",
           "subtopic": "zagadka logiczna z warunkami",
-          "statement": "W rodzinie panstwa Kowalskich jest pieciolat dzieci: Adas, Bartek, Cesia, Darek i Ela. Babcia dala im 5 prezentow: lalke, pilke, ksiazke, ukladanke, misia. Najstarsze dziecko dostalo ksiazke, najmlodsze misia. Cesia jest starsza od Bartka i mlodsza od Eli, i nie dostala ukladanki. Adas ma czworo starszego rodzenstwa. Bartek dostal pilke. Darek nie jest najstarszy. Co dostal Darek?",
+          "statement": "W rodzinie państwa Kowalskich jest pięcioro dzieci: Adaś, Bartek, Cesia, Darek i Ela. Babcia przygotowała dla nich pięć następujących prezentów: lalkę, piłkę, książkę, układankę, misia. Każde z dzieci dostało od babci jeden z tych prezentów. Wiemy, że: • Najstarsze dziecko dostało książkę, a najmłodsze misia. • Cesia jest starsza od Bartka i młodsza od Eli, i nie dostała układanki. • Adaś ma czworo starszego rodzeństwa. • Bartek dostał piłkę. • Darek nie jest najstarszy. Co dostał Darek?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
-            "A": "Lalke",
-            "B": "Pilke",
-            "C": "Ksiazke",
-            "D": "Ukladanke",
-            "E": "Misia"
+            "A": "Lalkę.",
+            "B": "Piłkę.",
+            "C": "Książkę.",
+            "D": "Układankę.",
+            "E": "Misia."
           },
           "correct": "D",
           "imageSrc": "/images/orig/2012-22.png"
@@ -108,7 +108,7 @@
           "difficulty": "5pkt",
           "topic": "logika",
           "subtopic": "zagadka kłamcy i prawdomówni",
-          "statement": "Jeden z pięciu krasnoludków zjadł ciastko. Alek: 'Nie zjadłem ciastka'. Bartek: 'Zjadłem ciastko'. Czarek: 'Edek nie zjadł ciastka'. Darek: 'Nie zjadłem ciastka'. Edek: 'Ciastko zjadł Alek'. Skłamał tylko jeden krasnoludek. Który zjadł ciastko?",
+          "statement": "Jeden z pięciu krasnoludków zjadł ciastko. Następnie każdy z nich wypowiedział jedno zdanie. Alek: Nie zjadłem ciastka. Bartek: Zjadłem ciastko. Czarek: Edek nie zjadł ciastka. Darek: Nie zjadłem ciastka. Edek: Ciastko zjadł Alek. Skłamał tylko jeden krasnoludek. Który z nich zjadł ciastko?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -131,15 +131,15 @@
           "difficulty": "5pkt",
           "topic": "logika",
           "subtopic": "zagadka kto gdzie mieszka",
-          "statement": "W zielonym, niebieskim i zoltym domu mieszkaja panie Ania, Zosia i Krysia. Zosia w niedziele wyjezdza na caly dzien. Krysia ma psa i w niedziele zaprasza sasiadke z niebieskiego domu na obiad. Mieszkanka zielonego domu nie ma zwierzat. Ktore zdanie jest prawdziwe?",
+          "statement": "W każdym z trzech domów: zielonym, niebieskim i żółtym mieszka jedna z trzech osób: pani Ania, pani Zosia i pani Krysia. Pani Zosia zawsze w niedzielę wyjeżdża na całodniową wycieczkę. Pani Krysia lubi spacery ze swoim psem, a w każdą niedzielę w południe zaprasza do siebie na obiad sąsiadkę z niebieskiego domu. Mieszkanka zielonego domu nie ma zwierząt. Które zdanie jest prawdziwe?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
-            "A": "Ania niebieski, Krysia zielony, Zosia zolty",
-            "B": "Ania zolty, Krysia zielony, Zosia niebieski",
-            "C": "Ania zielony, Krysia niebieski, Zosia zolty",
-            "D": "Ania niebieski, Krysia zolty, Zosia zielony",
-            "E": "Ania zolty, Krysia niebieski, Zosia zielony"
+            "A": "Pani Ania mieszka w niebieskim domu, pani Krysia w zielonym, a pani Zosia w żółtym.",
+            "B": "Pani Ania mieszka w żółtym domu, pani Krysia w zielonym, a pani Zosia w niebieskim.",
+            "C": "Pani Ania mieszka w zielonym domu, pani Krysia w niebieskim, a pani Zosia w żółtym.",
+            "D": "Pani Ania mieszka w niebieskim domu, pani Krysia w żółtym, a pani Zosia w zielonym.",
+            "E": "Pani Ania mieszka w żółtym domu, pani Krysia w niebieskim, a pani Zosia w zielonym."
           },
           "correct": "D",
           "imageSrc": "/images/orig/2014-19.png"
@@ -152,7 +152,7 @@
           "difficulty": "5pkt",
           "topic": "logika",
           "subtopic": "zagadka kto jakim sportowcem",
-          "statement": "Kacper, Franek i Antek to sportowcy: pilkarz, koszykarz, siatkarz. Pilkarz nie ma rodzenstwa i jest najmlodszy. Antek jest starszy od koszykarza i przyjazni sie z siostra Kacpra. Ktore zdanie jest prawdziwe?",
+          "statement": "Kacper, Franek i Antek to sportowcy: pilkarz, koszykarz, siatkarz. Pilkarz nie ma rodzenstwa i jest najmlodszy. Antek jest starszy od koszykarza i przyjazni sie z siostra Kacpra. Które zdanie jest prawdziwe?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -169,16 +169,16 @@
       "solutions": [
         {
           "problemId": "gen-l37-v1-w1",
-          "observation": "Sprawdzam kazdy przypadek.",
+          "observation": "Sprawdzam każdy przypadek.",
           "strategy": "Zalozenia.",
           "steps": [
-            "Jezeli Adam mowi prawde, to Bartek i Czarek klamia. Ale Czarek 'Ja najwiecej' falsz, Bartek 'Adam najmniej' falsz - czyli Adam NIE najmniej. To pasuje. Ale tylko jeden mowi prawde - tu Adam mowi prawde i to jeden.",
-            "Jezeli Bartek prawde: Adam ma najmniej. Adam mowi 'mam najwiecej' - klamie. Czarek mowi 'ja najwiecej' - musi byc prawda lub klamstwo. Adam najmniej, wiec Czarek mogl byc lub nie. Ale tylko jeden prawde - Bartek. Czarek klamie - 'ja najwiecej' falsz, czyli ktos inny ma najwiecej. Bartek najwyzej? Spojne.",
+            "Jeżeli Adam mowi prawde, to Bartek i Czarek klamia. Ale Czarek 'Ja najwiecej' falsz, Bartek 'Adam najmniej' falsz - czyli Adam NIE najmniej. To pasuje. Ale tylko jeden mowi prawde - tu Adam mowi prawde i to jeden.",
+            "Jeżeli Bartek prawde: Adam ma najmniej. Adam mowi 'mam najwiecej' - klamie. Czarek mowi 'ja najwiecej' - musi byc prawda lub klamstwo. Adam najmniej, wiec Czarek mogl byc lub nie. Ale tylko jeden prawde - Bartek. Czarek klamie - 'ja najwiecej' falsz, czyli ktos inny ma najwiecej. Bartek najwyzej? Spojne.",
             "Najczesciej w tej konfiguracji najwiecej ma Bartek"
           ],
           "answer": "B",
           "alternative": "Wymaga sprawdzania wszystkich kombinacji.",
-          "hint": "Sprawdzam kazdy przypadek."
+          "hint": "Sprawdzam każdy przypadek."
         },
         {
           "problemId": "gen-l37-v1-w2",
@@ -204,16 +204,16 @@
         },
         {
           "problemId": "kangur-maluch-2012-22",
-          "observation": "5 dzieci, prezenty: lalka, pilka, ksiazka, ukladanka, mis. Najstarsze ksiazke, najmlodsze misia.",
-          "strategy": "Adas ma 4 starszych - czyli jest NAJMLODSZY -> mis. Eli jest najstarsza -> ksiazka.",
+          "observation": "5 dzieci, prezenty: lalka, pilka, książka, ukladanka, mis. Najstarsze książkę, najmlodsze misia.",
+          "strategy": "Adas ma 4 starszych - czyli jest NAJMLODSZY -> mis. Eli jest najstarsza -> książka.",
           "steps": [
             "Adas: ma 4 starszych = najmlodszy. Dostaje misia.",
-            "Najstarsze dostalo ksiazke. Cesia mlodsza od Eli -> Eli najstarsza -> ksiazka.",
+            "Najstarsze dostalo książkę. Cesia mlodsza od Eli -> Eli najstarsza -> książka.",
             "Pozostalo: Bartek, Cesia, Darek -> lalka, pilka, ukladanka.",
             "Cesia nie ma ukladanki.",
             "Cesia starsza od Bartka - srodek.",
             "Kolejnosc: Adas, Bartek, Cesia, Darek, Eli (od najmlodszego).",
-            "Wedlug analizy odpowiedz: Darek dostal ukladanke."
+            "Wedlug analizy odpowiedz: Darek dostał ukladanke."
           ],
           "answer": "D",
           "alternative": null,
@@ -221,28 +221,28 @@
         },
         {
           "problemId": "kangur-maluch-2019-22",
-          "observation": "5 zdan, 1 klamca, 1 zjadl ciastko.",
+          "observation": "5 zdan, 1 klamca, 1 zjadł ciastko.",
           "strategy": "Probuj kazdego po kolei: zalóż 'X zjadl' i sprawdz ile osob klamie.",
           "steps": [
-            "Hipoteza: Bartek zjadl. Alek (nie ja) prawda, Bartek (tak, ja) prawda, Czarek (nie Edek) prawda, Darek (nie ja) prawda, Edek (Alek) klamstwo.",
+            "Hipoteza: Bartek zjadł. Alek (nie ja) prawda, Bartek (tak, ja) prawda, Czarek (nie Edek) prawda, Darek (nie ja) prawda, Edek (Alek) klamstwo.",
             "Dokladnie 1 klamca (Edek) - PASUJE!",
-            "Bartek zjadl ciastko."
+            "Bartek zjadł ciastko."
           ],
           "answer": "B",
           "alternative": null,
-          "hint": "Jeden klamie. Sprawdz kazda hipoteze: 'X zjadl' - czy spelnia warunek?"
+          "hint": "Jeden klamie. Sprawdz każda hipoteze: 'X zjadł' - czy spelnia warunek?"
         },
         {
           "problemId": "kangur-maluch-2014-19",
-          "observation": "Ania, Zosia, Krysia. Domy: zielony, niebieski, zolty.",
+          "observation": "Ania, Zosia, Krysia. Domy: zielony, niebieski, żółty.",
           "strategy": "Eliminuj: zielony nie ma psa, krysia ma psa -> Krysia nie w zielonym. Krysia zaprasza z niebieskiego -> nie w niebieskim. Krysia w zoltym.",
           "steps": [
-            "Krysia ma psa - nie mieszka w zielonym (zielony bez zwierzat).",
+            "Krysia ma psa - nie mieszka w zielonym (zielony bez zwierząt).",
             "Krysia zaprasza z niebieskiego - sama nie mieszka w niebieskim.",
             "Krysia w zoltym.",
-            "Zosia w niedziele wyjezdza - musi to byc dom z ktorego nikt nie ma sasiadow.",
+            "Zosia w niedziele wyjezdza - musi to byc dom z którego nikt nie ma sasiadow.",
             "Ania -> niebieski, Zosia -> zielony.",
-            "Odpowiedz: Ania niebieski, Krysia zolty, Zosia zielony."
+            "Odpowiedz: Ania niebieski, Krysia żółty, Zosia zielony."
           ],
           "answer": "D",
           "alternative": null,
@@ -278,7 +278,7 @@
           "difficulty": "3pkt",
           "topic": "logika",
           "subtopic": "klamca prosty",
-          "statement": "Anka mowi: 'Mam jablko'. Beata: 'Anka klamie'. Cyryl: 'Beata mowi prawde'. Jezeli klamie tylko jedna osoba, kto?",
+          "statement": "Anka mowi: 'Mam jabłko'. Beata: 'Anka klamie'. Cyryl: 'Beata mowi prawde'. Jeżeli klamie tylko jedna osoba, kto?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -299,7 +299,7 @@
           "difficulty": "3pkt",
           "topic": "logika",
           "subtopic": "porzadek wagi",
-          "statement": "Tomek wazy wiecej niz Olek. Olek wiecej niz Filip. Kto wazy najmniej?",
+          "statement": "Tomek wazy więcej niz Olek. Olek więcej niz Filip. Kto wazy najmniej?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -341,15 +341,15 @@
           "difficulty": "5pkt",
           "topic": "logika",
           "subtopic": "ustalenie cen z warunkow",
-          "statement": "Cztery zabawki (lala, mis, pilka, ukladanka) maja ceny 10, 20, 30, 40 zl (kazda inna). Mis+Lala > Pilka+Ukladanka. Mis+Ukladanka = Pilka. Ktora zabawka kosztuje 30 zl?",
+          "statement": "Ola ogląda cztery zabawki: lalę, misia, piłkę i układankę. Każda zabawka ma inną cenę. Jedna z tych zabawek kosztuje 10 zł, inna 20 zł, a pozostałe 30 zł i 40 zł. Wiemy, że kupując misia i lalę, zapłacimy więcej niż kupując piłkę i układankę. Miś i układanka łącznie kosztują tyle samo co piłka. Która zabawka kosztuje 30 zł?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
-            "A": "Lala",
-            "B": "Mis",
-            "C": "Pilka",
-            "D": "Ukladanka",
-            "E": "Moze byc lala lub mis"
+            "A": "Lala.",
+            "B": "Miś.",
+            "C": "Piłka.",
+            "D": "Układanka.",
+            "E": "Może być lala lub miś."
           },
           "correct": "C",
           "imageSrc": "/images/orig/2018-22.png"
@@ -362,7 +362,7 @@
           "difficulty": "5pkt",
           "topic": "logika",
           "subtopic": "wieki rodzenstwa - uklad",
-          "statement": "Czworo dzieci dzisiejsza urodziny: Maria ma 11 lat i jest o 5 lat mlodsza niz brat Jozka. Mlodsza siostra Marii jest o 2 lata starsza od Jozka. Wsrod czworki dzieci kazde jest w roznym wieku. O ile lat Jozek jest mlodszy od swego brata?",
+          "statement": "Czworo dzieci dzisiejsza urodziny: Maria ma 11 lat i jest o 5 lat mlodsza niz brat Jozka. Mlodsza siostra Marii jest o 2 lata starsza od Jozka. Wsrod czworki dzieci każde jest w roznym wieku. O ile lat Jozek jest mlodszy od swego brata?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -385,7 +385,7 @@
           "difficulty": "5pkt",
           "topic": "logika",
           "subtopic": "trasa - wnioskowanie z warunkami",
-          "statement": "Koziolek Matolek idzie z Makuszyc do Pacanowa przez wszystkie miasta na mapie i wraca najkrotsza droga. Cala trasa = 100 km. Odleglosc Marianow-Walentynow jest o 9 km krotsza niz Kornelowo-Marianow-Walentynow. Odleglosc Makuszyce-Kornelowo-Marianow rowna sie Marianow-Walentynow. Jak daleko jest z Makuszyc do Pacanowa najkrotsza droga?",
+          "statement": "Koziołek Matołek postanowił przejść z Makuszyc do Pacanowa przez wszystkie miasta zaznaczone na mapie i wrócić do Makuszyc najkrótszą drogą. Długość całej trasy wynosi 100 km. Pewne odległości podane są na mapie – patrz rysunek. Ponadto wiadomo, że: (a) odległość z Marianowa do Walentynowa jest o 9 km krótsza niż odległość z Kornelowa do Walentynowa przez Marianów; (b) odległość z Makuszyc do Marianowa przez Kor- nelowo jest równa odległości z Marianowa do Walentynowa. 26 km 17 km Kornelowo Makuszyce Marianów Pacanów Walentynów Jak daleko jest z Makuszyc do Pacanowa, jeśli idziemy najkrótszą drogą?",
           "hasImage": true,
           "imageNote": "Mapa z 5 miastami: Makuszyce, Kornelowo (17 km), Marianow, Walentynow (26 km), Pacanow.",
           "choices": {
@@ -405,8 +405,8 @@
           "number": 21,
           "difficulty": "5pkt",
           "topic": "logika",
-          "subtopic": "podzial na rowne zestawy - niemozliwosc",
-          "statement": "Krzys ma 7 dzwonkow o wartosci 1, 2, 3, 4, 5, 6, 7 zl. Na ile sposobow moze rozdzielic je na trzy zestawy tak, by kazdy kosztowal tyle samo?",
+          "subtopic": "podzial na równe zestawy - niemozliwosc",
+          "statement": "Krzyś ma do sprzedania 7 szklanych dzwonków o wartości: 1 zł, 2 zł, 3 zł, 4 zł, 5 zł, 6 zł, 7 zł. Na ile sposobów może on rozdzielić te dzwonki na trzy zestawy, tak aby każdy zestaw kosztował tyle samo?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -414,7 +414,7 @@
             "B": "2",
             "C": "3",
             "D": "4",
-            "E": "Taki podzial nie jest mozliwy"
+            "E": "Taki podział nie jest możliwy."
           },
           "correct": "E",
           "imageSrc": "/images/orig/2013-21.png"
@@ -423,15 +423,15 @@
       "solutions": [
         {
           "problemId": "gen-l37-v2-w1",
-          "observation": "Beata i Cyryl mowia spojnie ze soba.",
+          "observation": "Beata i Cyryl mowia spojnie że soba.",
           "strategy": "Analiza spojnosci.",
           "steps": [
-            "Jezeli Anka mowi prawde - ma jablko. Beata mowi ze Anka klamie - Beata klamie. Cyryl mowi ze Beata prawde - Cyryl tez klamie. Dwoch klamcow - sprzecznosc.",
-            "Jezeli Anka klamie - nie ma jablka. Beata mowi prawde. Cyryl mowi prawde. Tylko Anka klamie. OK"
+            "Jeżeli Anka mowi prawde - ma jabłko. Beata mowi że Anka klamie - Beata klamie. Cyryl mowi że Beata prawde - Cyryl też klamie. Dwóch klamcow - sprzecznosc.",
+            "Jeżeli Anka klamie - nie ma jabłka. Beata mowi prawde. Cyryl mowi prawde. Tylko Anka klamie. OK"
           ],
           "answer": "A",
           "alternative": null,
-          "hint": "Beata i Cyryl mowia spojnie ze soba."
+          "hint": "Beata i Cyryl mowia spojnie że soba."
         },
         {
           "problemId": "gen-l37-v2-w2",
@@ -457,14 +457,14 @@
         },
         {
           "problemId": "kangur-maluch-2018-22",
-          "observation": "4 zabawki z cenami 10,20,30,40 (kazda inna).",
+          "observation": "4 zabawki z cenami 10,20,30,40 (każda inna).",
           "strategy": "Z Mis+Ukladanka = Pilka, suma 4 cen = 100. Wiec Lala = 100 - 2*Pilka. Probuj wartosci.",
           "steps": [
             "Mis + Ukladanka = Pilka.",
             "Suma cen: 10+20+30+40 = 100.",
-            "Pilka = 30 lub 40 (suma dwoch mniejszych daje pilke).",
+            "Pilka = 30 lub 40 (suma dwóch mniejszych daje pilke).",
             "Pilka = 40: Mis+Ukladanka = 40 = 10+30. Mis,Ukladanka = 10 i 30, Lala = 20. Sprawdz Mis+Lala > Pilka+Ukladanka: 10+20=30 > 40+30=70? Nie.",
-            "Pilka = 30: Mis+Ukladanka = 30 = 10+20. Lala = 40. Mis+Lala > Pilka+Ukladanka: jezeli Mis=20, Lala=40: 60 > 30+10=40. TAK.",
+            "Pilka = 30: Mis+Ukladanka = 30 = 10+20. Lala = 40. Mis+Lala > Pilka+Ukladanka: jeżeli Mis=20, Lala=40: 60 > 30+10=40. TAK.",
             "Pilka kosztuje 30 zl."
           ],
           "answer": "C",
@@ -473,7 +473,7 @@
         },
         {
           "problemId": "kangur-maluch-2025-18",
-          "observation": "4 dzieci, kazde w innym wieku.",
+          "observation": "4 dzieci, każde w innym wieku.",
           "strategy": "Brat Jozka = 11 + 5 = 16. Mlodsza siostra Marii starsza od Jozka o 2 -> Jozek mlodszy.",
           "steps": [
             "Maria: 11.",
@@ -481,9 +481,9 @@
             "Mlodsza siostra Marii: mlodsza od 11, starsza od Jozka o 2.",
             "Niech siostra = s, Jozek = s - 2, s < 11, s != 11.",
             "Jozek mlodszy od brata o: 16 - Jozek.",
-            "Jezeli s = 10, Jozek = 8. Roznica 16-8 = 8. Ale 8 nie ma w opcjach.",
-            "Jezeli s = 11... nie, Maria.",
-            "Jezeli s = 9, Jozek = 7. Roznica 16-7 = 9.",
+            "Jeżeli s = 10, Jozek = 8. Roznica 16-8 = 8. Ale 8 nie ma w opcjach.",
+            "Jeżeli s = 11... nie, Maria.",
+            "Jeżeli s = 9, Jozek = 7. Roznica 16-7 = 9.",
             "Wedlug zrodla odpowiedz: 7 lat."
           ],
           "answer": "A",
@@ -493,7 +493,7 @@
         {
           "problemId": "kangur-maluch-2018-20",
           "observation": "Trasa Makuszyce-Kornelowo-Marianow-Walentynow + powrot = 100 km.",
-          "strategy": "Niech 3 odcinki to a, b, c. Lacznie z powrotem (po krotszej drodze).",
+          "strategy": "Niech 3 odcinki to a, b, c. Łącznie z powrotem (po krotszej drodze).",
           "steps": [
             "Niech Makuszyce-Kornelowo = a, Kornelowo-Marianow = b, Marianow-Walentynow = c.",
             "Cala trasa tam i z powrotem (najkrotsza) = 100 km.",
@@ -513,13 +513,13 @@
           "strategy": "28 nie dzieli sie przez 3 - niemozliwe.",
           "steps": [
             "Suma: 1+2+3+4+5+6+7 = 28.",
-            "Podzial na 3 zestawy o rownej cenie: kazdy 28/3.",
+            "Podzial na 3 zestawy o równej cenie: każdy 28/3.",
             "28/3 nie jest liczba calkowita.",
             "Podzial nie jest mozliwy."
           ],
           "answer": "E",
           "alternative": null,
-          "hint": "Suma dzwonkow 1+2+...+7 = 28. Podzielic na 3 rowne zestawy - kazdy 28/3."
+          "hint": "Suma dzwonkow 1+2+...+7 = 28. Podzielić na 3 równe zestawy - każdy 28/3."
         }
       ]
     },
@@ -535,7 +535,7 @@
           "difficulty": "5pkt",
           "topic": "logika",
           "subtopic": "układ równań - dwa sposoby wieszania",
-          "statement": "Emilka rozwieszała pranie. W sposobie 1 każdy ręcznik miał 2 osobne klamerki. W sposobie 2 ręczniki dzielą klamerki (n ręczników wymaga n+1 klamerek). Ogółem powiesiła 35 ręczników i użyła 58 klamerek. Ile ręczników powiesiła w sposób 1?",
+          "statement": "Emilka rozwieszała pranie. Na sznurku zaczepiała każdy ręcznik dwiema klamerkami tak jak na rysunku 1. Zauważyła jednak, że zabraknie jej klamerek, więc od pewnego momentu zaczęła rozwieszać ręczniki w sposób przedstawiony na rysunku 2. Ogółem powiesiła 35 ręczników i użyła 58 klamerek. Ile ręczników Emilka powiesiła w sposób przedstawiony na rysunku 1? Rysunek 1 Rysunek 2",
           "hasImage": true,
           "imageNote": "Rysunek 1: każdy ręcznik na 2 osobnych klamerkach. Rysunek 2: wspólne klamerki.",
           "choices": {
@@ -556,7 +556,7 @@
           "difficulty": "5pkt",
           "topic": "logika",
           "subtopic": "minimalna liczba dzieci w rodzinie",
-          "statement": "W rodzinie kazde dziecko ma co najmniej jednego brata i kazde ma wiecej siostr niz braci. Ile co najmniej dzieci jest w tej rodzinie?",
+          "statement": "W pewnej rodzinie każde dziecko ma co najmniej jednego brata i każde dziecko ma więcej sióstr niż braci. Ile co najmniej dzieci jest w tej rodzinie?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -577,7 +577,7 @@
           "difficulty": "5pkt",
           "topic": "logika",
           "subtopic": "dekodowanie bajkowego jezyka",
-          "statement": "Bajkowy jezyk. Tlumaczenia zdan 'Mama lubi banany', 'Tata lubi jablka', 'Brat uwielbia banany', 'Siostra uwielbia banany' (nie w tej kolejnosci) to: 'Ewe tum kete', 'Ato bem kito', 'Awe tum kete', 'Alo tum kito'. Jak brzmi 'Mama uwielbia jablka'?",
+          "statement": "Pani Magdalena podczas zabawy z córeczkami wymyśliła pewien bajkowy język. Tłumaczenia następujących zdań: „Mama lubi banany”, „Tata lubi jabłka”, „Brat uwielbia banany”, „Siostra uwielbia banany” w owym języku, ale niekoniecznie w takiej samej kolejności, brzmią tak: „Ewe tum kete”, „Ato bem kito”, „Awe tum kete”, „Alo tum kito”. Które z poniższych zdań jest tłumaczeniem zdania „Mama uwielbia jabłka” na bajkowy język pani Magdaleny?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -597,10 +597,10 @@
           "number": 20,
           "difficulty": "5pkt",
           "topic": "logika",
-          "subtopic": "polaczenia w ukladance domow",
-          "statement": "Sześciokąt z 6 domami A-F dookola. Ewa chce na srodku polozyc fragment z drogami tak, by dom A byl polaczony z B i E, ale NIE z D. Ktore dwa elementy ukladanki spelniaja warunki?",
+          "subtopic": "polaczenia w ukladance domów",
+          "statement": "Ewa chce na środek układanki położyć taki jej fragment, by dom A był połączony ścieżkami z domami B i E, ale nie był połączony z domem D. Które dwa elementy układanki spełniają te wszystkie warunki? A B C D E F 1 2 3 4 5",
           "hasImage": true,
-          "imageNote": "Szesciokat z 6 domami A-F i 5 wariantami srodka z rozne sciezki.",
+          "imageNote": "Szesciokat z 6 domami A-F i 5 wariantami srodka z różne sciezki.",
           "choices": {
             "A": "1 i 2",
             "B": "2 i 3",
@@ -632,32 +632,32 @@
         },
         {
           "problemId": "kangur-maluch-2020-21",
-          "observation": "Rodzina: liczba braci i siostr dla kazdego dziecka.",
+          "observation": "Rodzina: liczba braci i siostr dla każdego dziecka.",
           "strategy": "Niech b chlopcow, s dziewczyn. Dla chlopca: braci = b-1, siostr = s. Warunki: b-1 >= 1, s > b-1.",
           "steps": [
             "Dla chlopca: braci = b-1, siostr = s. Warunki: b >= 2, s > b-1.",
             "Dla dziewczynki: braci = b, siostr = s-1. Warunki: b >= 1, s-1 > b.",
             "Drugi warunek: s > b+1, czyli s >= b+2.",
             "Pierwszy warunek: s > b-1, czyli s >= b.",
-            "Lacznie: s >= b+2 i b >= 2.",
+            "Łącznie: s >= b+2 i b >= 2.",
             "Minimum: b = 2, s = 4. Razem 6 dzieci."
           ],
           "answer": "A",
           "alternative": null,
-          "hint": "Kazde dziecko: ma >= 1 brata. Ma wiecej siostr niz braci."
+          "hint": "Każde dziecko: ma >= 1 brata. Ma więcej siostr niz braci."
         },
         {
           "problemId": "kangur-maluch-2020-24",
           "observation": "4 zdania w bajkowym jezyku - dopasuj do tlumaczen.",
-          "strategy": "Znajdz wspolne slowa: lubi/uwielbia, banany/jablka.",
+          "strategy": "Znajdz wspolne slowa: lubi/uwielbia, banany/jabłka.",
           "steps": [
-            "Zdania PL: Mama lubi banany, Tata lubi jablka, Brat uwielbia banany, Siostra uwielbia banany.",
+            "Zdania PL: Mama lubi banany, Tata lubi jabłka, Brat uwielbia banany, Siostra uwielbia banany.",
             "Bajk: Ewe tum kete, Ato bem kito, Awe tum kete, Alo tum kito.",
-            "3 zdania majaza 'banany', 1 'jablka' - czyli 1 slowo bajkowe wystepuje raz dla jablek.",
+            "3 zdania majaza 'banany', 1 'jabłka' - czyli 1 slowo bajkowe wystepuje raz dla jabłek.",
             "kete pojawia sie 2 razy, tum 3 razy, kito 2, bem 1, ...",
             "Z analizy: tum = lubi/uwielbia? bem = lubi, tum = uwielbia.",
             "Patrzymy na 'Mama' - 'Mama lubi banany' = 'Ewe ...'. Mama = Ewe.",
-            "'Mama uwielbia jablka' = Ewe tum kito? Ale szukamy 'Mama uwielbia jablka'.",
+            "'Mama uwielbia jabłka' = Ewe tum kito? Ale szukamy 'Mama uwielbia jabłka'.",
             "Z wyboru odpowiedzi - 'Alo bem kete' jest opcja C."
           ],
           "answer": "C",
@@ -666,10 +666,10 @@
         },
         {
           "problemId": "kangur-maluch-2022-20",
-          "observation": "6 domow w szesciokacie, srodek z drogami. Wybierz 2 fragmenty.",
+          "observation": "6 domów w szesciokacie, srodek z drogami. Wybierz 2 fragmenty.",
           "strategy": "Sprawdz polaczenia A-B, A-E (wymagane) i A-D (nie wymagane).",
           "steps": [
-            "Z 5 fragmentow musisz wybrac 2 ktore dadza: A-B, A-E ale NIE A-D.",
+            "Z 5 fragmentow musisz wybrać 2 które dadza: A-B, A-E ale NIE A-D.",
             "Z analizy: fragmenty 1 i 5."
           ],
           "answer": "E",
@@ -708,7 +708,7 @@
         "C": "Oba klamstwa"
       },
       "correct": "A",
-      "explain": "Dwa sprzeczne nie moga byc oba prawda - dokladnie jedno klamstwo."
+      "explain": "Dwa sprzeczne nie mogą byc oba prawda - dokladnie jedno klamstwo."
     }
   ]
 }

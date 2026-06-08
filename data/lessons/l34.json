@@ -7,9 +7,9 @@
   "topic": "czas_kalendarz",
   "estimatedMinutes": 12,
   "theory": {
-    "intro": "Tydzien ma 7 dni: poniedzialek, wtorek, sroda, czwartek, piatek, sobota, niedziela. Po niedzieli wraca poniedzialek. Zadanie 'jaki dzien bedzie za 30 dni' to wlasnie liczenie po dniach tygodnia z 'zawijaniem'.",
-    "tool": "Sztuczka 1: TYDZIEN MA 7 DNI. Po 7 dniach jest ZNOW ten sam dzien. Czwartek + 7 dni = czwartek. Czwartek + 14 dni = czwartek (2 tygodnie).\n\nSztuczka 2: RESZTA Z DZIELENIA PRZEZ 7. Co za 30 dni? 30:7 = 4 reszta 2. Czyli 4 pelne tygodnie + 2 dni. Czwartek + 2 dni = sobota.\n\nSztuczka 3: WSTECZ TAK SAMO. 'Co BYLO X dni temu' tez liczysz reszta z 7. Czwartek - 10 dni: 10:7 = 1 reszta 3. Czwartek - 3 dni = poniedzialek.\n\nSztuczka 4: KIERUNEK LICZENIA. 'Dzisiaj sroda, za 3 dni' to sroda + 3 = sobota. 'Wczoraj byla niedziela, jutro' to niedziela + 2 dni = wtorek.",
-    "trick": "Pulapka: roznica miedzy 'wczoraj' i 'dzisiaj' i 'jutro' to po 1 dniu. 'Pojutrze' = jutro + 1 dzien. 'Wczoraj byla niedziela' znaczy ze dzisiaj poniedzialek, a jutro wtorek. Czytaj uwaznie kierunek czasu."
+    "intro": "Tydzień ma 7 dni: poniedzialek, wtorek, sroda, czwartek, piatek, sobota, niedziela. Po niedzieli wraca poniedzialek. Zadanie 'jaki dzień bedzie za 30 dni' to właśnie liczenie po dniach tygodnia z 'zawijaniem'.",
+    "tool": "Sztuczka 1: Tydzień Ma 7 Dni. Po 7 dniach jest ZNOW ten sam dzień. Czwartek + 7 dni = czwartek. Czwartek + 14 dni = czwartek (2 tygodnie).\n\nSztuczka 2: RESZTA Z DZIELENIA Przez 7. Co za 30 dni? 30:7 = 4 reszta 2. Czyli 4 pelne tygodnie + 2 dni. Czwartek + 2 dni = sobota.\n\nSztuczka 3: WSTECZ TAK SAMO. 'Co Było X dni temu' też liczysz reszta z 7. Czwartek - 10 dni: 10:7 = 1 reszta 3. Czwartek - 3 dni = poniedzialek.\n\nSztuczka 4: KIERUNEK LICZENIA. 'Dzisiaj sroda, za 3 dni' to sroda + 3 = sobota. 'Wczoraj była niedziela, jutro' to niedziela + 2 dni = wtorek.",
+    "trick": "Pulapka: roznica między 'wczoraj' i 'dzisiaj' i 'jutro' to po 1 dniu. 'Pojutrze' = jutro + 1 dzień. 'Wczoraj była niedziela' znaczy że dzisiaj poniedzialek, a jutro wtorek. Czytaj uwaznie kierunek czasu."
   },
   "versions": [
     {
@@ -23,8 +23,8 @@
           "number": null,
           "difficulty": "3pkt",
           "topic": "czas_kalendarz",
-          "subtopic": "prosty + 1 dzien",
-          "statement": "Dzis jest wtorek. Jaki dzien bedzie jutro?",
+          "subtopic": "prosty + 1 dzień",
+          "statement": "Dziś jest wtorek. Jaki dzień bedzie jutro?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -45,7 +45,7 @@
           "difficulty": "3pkt",
           "topic": "czas_kalendarz",
           "subtopic": "+ 7 dni",
-          "statement": "Dzis jest piatek. Jaki dzien bedzie za tydzien (7 dni)?",
+          "statement": "Dziś jest piatek. Jaki dzień bedzie za tydzień (7 dni)?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -66,7 +66,7 @@
           "difficulty": "3pkt",
           "topic": "czas_kalendarz",
           "subtopic": "+ kilka dni",
-          "statement": "Dzis poniedzialek. Jaki dzien za 5 dni?",
+          "statement": "Dziś poniedzialek. Jaki dzień za 5 dni?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -107,14 +107,14 @@
           "number": 8,
           "difficulty": "3pkt",
           "topic": "czas_kalendarz",
-          "subtopic": "dzien tygodnia za N dni",
-          "statement": "Dzis, 19 marca, jest czwartek. Jaki dzien tygodnia bedzie za 30 dni?",
+          "subtopic": "dzień tygodnia za N dni",
+          "statement": "Dziś, 19 marca, jest czwartek. Jaki dzień tygodnia będzie za 30 dni?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
-            "A": "sroda",
+            "A": "środa",
             "B": "czwartek",
-            "C": "piatek",
+            "C": "piątek",
             "D": "sobota",
             "E": "niedziela"
           },
@@ -130,16 +130,16 @@
           "number": 9,
           "difficulty": "4pkt",
           "topic": "czas_kalendarz",
-          "subtopic": "liczenie dni do tylu",
-          "statement": "Krolik Mniam mial 20 marchewek i codziennie zjadal 2. W srode zjadl dwunasta marchewke. W jakim dniu tygodnia ZACZAL je zjadac?",
+          "subtopic": "liczenie dni do tyłu",
+          "statement": "Królik Mniam miał 20 marchewek. Codziennie zjadał po dwie. W środę zjadł dwunastą mar- chewkę. W jakim dniu tygodnia zaczął zjadać swoje marchewki?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
-            "A": "W poniedzialek",
-            "B": "We wtorek",
-            "C": "W srode",
-            "D": "W czwartek",
-            "E": "W piatek"
+            "A": "W poniedziałek.",
+            "B": "We wtorek.",
+            "C": "W środę.",
+            "D": "W czwartek.",
+            "E": "W piątek."
           },
           "correct": "E",
           "imageSrc": "/images/orig/2018-9.png"
@@ -152,7 +152,7 @@
           "difficulty": "5pkt",
           "topic": "czas_kalendarz",
           "subtopic": "duza liczba dni",
-          "statement": "Dzis sroda. Jaki dzien bedzie za 100 dni?",
+          "statement": "Dziś sroda. Jaki dzień bedzie za 100 dni?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -169,25 +169,25 @@
       "solutions": [
         {
           "problemId": "gen-l34-v1-w1",
-          "observation": "Wtorek + 1 dzien = sroda.",
-          "strategy": "Kolejny dzien.",
+          "observation": "Wtorek + 1 dzień = sroda.",
+          "strategy": "Kolejny dzień.",
           "steps": [
             "Po wtorku jest sroda"
           ],
           "answer": "C",
           "alternative": null,
-          "hint": "Wtorek + 1 dzien = sroda."
+          "hint": "Wtorek + 1 dzień = sroda."
         },
         {
           "problemId": "gen-l34-v1-w2",
-          "observation": "+ 7 dni = ten sam dzien.",
-          "strategy": "Tydzien = 7 dni.",
+          "observation": "+ 7 dni = ten sam dzień.",
+          "strategy": "Tydzień = 7 dni.",
           "steps": [
             "Piatek + 7 = piatek"
           ],
           "answer": "A",
           "alternative": null,
-          "hint": "+ 7 dni = ten sam dzien."
+          "hint": "+ 7 dni = ten sam dzień."
         },
         {
           "problemId": "gen-l34-v1-w3",
@@ -202,20 +202,20 @@
         },
         {
           "problemId": "kangur-maluch-2019-1",
-          "observation": "Wczoraj niedziela = dzis poniedzialek = jutro wtorek.",
+          "observation": "Wczoraj niedziela = dziś poniedzialek = jutro wtorek.",
           "strategy": "Liczenie dni od niedzieli.",
           "steps": [
             "Wczoraj niedziela",
-            "Dzis poniedzialek",
+            "Dziś poniedzialek",
             "Jutro wtorek"
           ],
           "answer": "A",
           "alternative": null,
-          "hint": "Wczoraj niedziela = dzis poniedzialek = jutro wtorek."
+          "hint": "Wczoraj niedziela = dziś poniedzialek = jutro wtorek."
         },
         {
           "problemId": "kangur-maluch-2015-8",
-          "observation": "19 marca = czwartek, za 30 dni jaki dzien?",
+          "observation": "19 marca = czwartek, za 30 dni jaki dzień?",
           "strategy": "Reszta z 30:7.",
           "steps": [
             "30 : 7 = 4 reszta 2",
@@ -223,19 +223,19 @@
           ],
           "answer": "D",
           "alternative": null,
-          "hint": "19 marca = czwartek, za 30 dni jaki dzien?"
+          "hint": "19 marca = czwartek, za 30 dni jaki dzień?"
         },
         {
           "problemId": "kangur-maluch-2018-9",
-          "observation": "Krolik 20 marchewek, codziennie 2, w srode 12. dzien.",
+          "observation": "Królik 20 marchewek, codziennie 2, w srode 12. dzień.",
           "strategy": "Liczenie wstecz dni zjadania.",
           "steps": [
-            "12 marchewka = 6 dzien zjadania (12:2=6)",
-            "Srodaa to 6 dzien, zaczal 5 dni wczesniej = piatek"
+            "12 marchewka = 6 dzień zjadania (12:2=6)",
+            "Srodaa to 6 dzień, zaczal 5 dni wcześniej = piatek"
           ],
           "answer": "E",
           "alternative": null,
-          "hint": "Krolik 20 marchewek, codziennie 2, w srode 12. dzien."
+          "hint": "Królik 20 marchewek, codziennie 2, w srode 12. dzień."
         },
         {
           "problemId": "gen-l34-v1-c1",
@@ -262,8 +262,8 @@
           "number": null,
           "difficulty": "3pkt",
           "topic": "czas_kalendarz",
-          "subtopic": "co bylo wczoraj",
-          "statement": "Dzis jest wtorek. Jaki dzien byl wczoraj?",
+          "subtopic": "co było wczoraj",
+          "statement": "Dziś jest wtorek. Jaki dzień był wczoraj?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -284,7 +284,7 @@
           "difficulty": "3pkt",
           "topic": "czas_kalendarz",
           "subtopic": "+ 14 dni",
-          "statement": "Dzis sobota. Jaki dzien bedzie za 2 tygodnie?",
+          "statement": "Dziś sobota. Jaki dzień bedzie za 2 tygodnie?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -305,7 +305,7 @@
           "difficulty": "3pkt",
           "topic": "czas_kalendarz",
           "subtopic": "duza liczba",
-          "statement": "Dzis niedziela. Jaki dzien bedzie za 50 dni?",
+          "statement": "Dziś niedziela. Jaki dzień bedzie za 50 dni?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -326,7 +326,7 @@
           "difficulty": "3pkt",
           "topic": "czas_kalendarz",
           "subtopic": "- 10 dni",
-          "statement": "Dzis czwartek. Jaki dzien byl 10 dni temu?",
+          "statement": "Dziś czwartek. Jaki dzień był 10 dni temu?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -347,7 +347,7 @@
           "difficulty": "3pkt",
           "topic": "czas_kalendarz",
           "subtopic": "jutro i pojutrze",
-          "statement": "Dzis piatek. Jaki dzien jest pojutrze?",
+          "statement": "Dziś piatek. Jaki dzień jest pojutrze?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -370,7 +370,7 @@
           "difficulty": "4pkt",
           "topic": "czas_kalendarz",
           "subtopic": "specjalna data",
-          "statement": "Dzis czwartek 1 marca. Jaki dzien bedzie 1 kwietnia (marzec ma 31 dni)?",
+          "statement": "Dziś czwartek 1 marca. Jaki dzień bedzie 1 kwietnia (marzec ma 31 dni)?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -391,7 +391,7 @@
           "difficulty": "5pkt",
           "topic": "czas_kalendarz",
           "subtopic": "liczenie ujemnie",
-          "statement": "Za 12 dni bedzie poniedzialek. Jaki dzien jest dzisiaj?",
+          "statement": "Za 12 dni bedzie poniedzialek. Jaki dzień jest dzisiaj?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -408,14 +408,14 @@
       "solutions": [
         {
           "problemId": "gen-l34-v2-w1",
-          "observation": "Wtorek - 1 dzien = poniedzialek.",
-          "strategy": "Dzien wczoraj.",
+          "observation": "Wtorek - 1 dzień = poniedzialek.",
+          "strategy": "Dzień wczoraj.",
           "steps": [
             "Pon przed wt"
           ],
           "answer": "A",
           "alternative": null,
-          "hint": "Wtorek - 1 dzien = poniedzialek."
+          "hint": "Wtorek - 1 dzień = poniedzialek."
         },
         {
           "problemId": "gen-l34-v2-w2",
@@ -434,7 +434,7 @@
           "strategy": "Reszta z dzielenia.",
           "steps": [
             "50 : 7 = 7 reszta 1",
-            "7 pelnych tygodni + 1 dzien",
+            "7 pelnych tygodni + 1 dzień",
             "Niedziela + 1 = poniedzialek"
           ],
           "answer": "A",
@@ -494,20 +494,20 @@
   ],
   "quiz": [
     {
-      "q": "Tydzien ma:",
+      "q": "Tydzień ma:",
       "choices": {
         "A": "5 dni",
         "B": "7 dni",
         "C": "10 dni"
       },
       "correct": "B",
-      "explain": "Tydzien = 7 dni."
+      "explain": "Tydzień = 7 dni."
     },
     {
       "q": "Co za 14 dni?",
       "choices": {
-        "A": "Ten sam dzien",
-        "B": "Nastepny dzien",
+        "A": "Ten sam dzień",
+        "B": "Nastepny dzień",
         "C": "Inny"
       },
       "correct": "A",

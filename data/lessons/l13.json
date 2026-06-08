@@ -7,9 +7,9 @@
   "topic": "wzory_i_ciagi",
   "estimatedMinutes": 15,
   "theory": {
-    "intro": "Maszyna dostaje liczbe i wypluwa inna: 2 zamienia w 5, 3 w 7, 4 w 9. Jaka regula? Kazda liczba razy 2 plus 1. Gdy zlapiesz regule - przewidzisz kazdy nastepny krok. To esencja myslenia matematycznego.",
-    "tool": "Sztuczka 1: PORownaj WEJSCIE Z WYJSCIEM. Gdy 2 daje 5, a 3 daje 7 - sprawdz: czy mnozysz? czy dodajesz? 2 razy 2 + 1 = 5, 3 razy 2 + 1 = 7. Regula: razy 2 plus 1.\n\nSztuczka 2: SPRAWDZ HIPOTEZE NA WSZYSTKICH PRZYKLADACH. Znalazles regule? Sprawdz ja na KAZDYM podanym przykladzie. Jezeli pasuje wszedzie - jest dobra.\n\nSztuczka 3: WZORY CYKLICZNE. Jezeli obrazki lub kolory sie powtarzaja (kolo, kwadrat, trojkat, kolo, kwadrat...), uzyj reszty z dzielenia. 10. element: 10 podzielone przez 3 daje reszte 1 - czyli pierwszy w cyklu.\n\nSztuczka 4: KWADRATY LICZB. Ciag 1, 4, 9, 16, 25 to liczby pomnozone przez siebie: 1x1, 2x2, 3x3... Rozpoznasz go, gdy roznice rosna o 2.",
-    "trick": "Najwazniejsze: gdy znajdziesz regule, NIE ufaj jej od razu. Sprawdz ja na wszystkich podanych przykladach. Czesto pierwsza hipoteza pasuje do dwoch przypadkow, ale lamie sie na trzecim - wtedy szukaj dalej."
+    "intro": "Maszyna dostaje liczbe i wypluwa inna: 2 zamienia w 5, 3 w 7, 4 w 9. Jaka regula? Każda liczba razy 2 plus 1. Gdy zlapiesz regule - przewidzisz każdy nastepny krok. To esencja myslenia matematycznego.",
+    "tool": "Sztuczka 1: PORownaj WEJSCIE Z WYJSCIEM. Gdy 2 daje 5, a 3 daje 7 - sprawdz: czy mnozysz? czy dodajesz? 2 razy 2 + 1 = 5, 3 razy 2 + 1 = 7. Regula: razy 2 plus 1.\n\nSztuczka 2: SPRAWDZ HIPOTEZE NA Wszystkich PRZYKLADACH. Znalazles regule? Sprawdz ja na Każdym podanym przykladzie. Jeżeli pasuje wszedzie - jest dobra.\n\nSztuczka 3: WZORY CYKLICZNE. Jeżeli obrazki lub kolory sie powtarzaja (koło, kwadrat, trójkąt, koło, kwadrat...), uzyj reszty z dzielenia. 10. element: 10 podzielone przez 3 daje reszte 1 - czyli pierwszy w cyklu.\n\nSztuczka 4: Kwadraty LICZB. Ciag 1, 4, 9, 16, 25 to liczby pomnozone przez siebie: 1x1, 2x2, 3x3... Rozpoznasz go, gdy roznice rosna o 2.",
+    "trick": "Najwazniejsze: gdy znajdziesz regule, NIE ufaj jej od razu. Sprawdz ja na wszystkich podanych przykladach. Czesto pierwsza hipoteza pasuje do dwóch przypadkow, ale lamie sie na trzecim - wtedy szukaj dalej."
   },
   "versions": [
     {
@@ -66,13 +66,13 @@
           "difficulty": "3pkt",
           "topic": "wzory_i_ciagi",
           "subtopic": "wzor cykliczny",
-          "statement": "Figury powtarzaja sie: kolo, kwadrat, trojkat, kolo, kwadrat, trojkat... Jaka figura jest dziesiata w kolejnosci?",
+          "statement": "Figury powtarzaja sie: koło, kwadrat, trójkąt, koło, kwadrat, trójkąt... Jaka figura jest dziesiata w kolejnosci?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
-            "A": "kolo",
+            "A": "koło",
             "B": "kwadrat",
-            "C": "trojkat",
+            "C": "trójkąt",
             "D": "gwiazda",
             "E": "serce"
           },
@@ -108,9 +108,9 @@
           "difficulty": "3pkt",
           "topic": "geometria_przestrzenna",
           "subtopic": "budowa szescianu 3x3x3 - kolejne etapy",
-          "statement": "Wojtek budowal szescian 3x3x3 dodajac po jednym malym szescianie i nie zdejmujac juz polozonych. W roznych momentach zrobil 5 zdjec. Jak wygladalo zdjecie wykonane jako CZWARTE z kolei?",
+          "statement": "Wojtek budowal szescian 3x3x3 dodajac po jednym malym szescianie i nie zdejmujac juz polozonych. W różnych momentach zrobil 5 zdjec. Jak wygladalo zdjecie wykonane jako CZWARTE z kolei?",
           "hasImage": true,
-          "imageNote": "5 etapow budowy szescianu od mniej do wiecej klockow. Czwarty stan to prawie pelny.",
+          "imageNote": "5 etapow budowy szescianu od mniej do więcej klocków. Czwarty stan to prawie pelny.",
           "choices": {
             "A": "stan A",
             "B": "stan B",
@@ -130,8 +130,8 @@
           "number": null,
           "difficulty": "4pkt",
           "topic": "wzory_i_ciagi",
-          "subtopic": "ciag kwadratow liczb",
-          "statement": "W ciagu 1, 4, 9, 16, 25, ... kazda liczba to kolejna liczba pomnozona przez sama siebie. Jaka liczba jest na siodmym miejscu?",
+          "subtopic": "ciag kwadratów liczb",
+          "statement": "W ciagu 1, 4, 9, 16, 25, ... każda liczba to kolejna liczba pomnozona przez sama siebie. Jaka liczba jest na siodmym miejscu?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -183,7 +183,7 @@
         },
         {
           "problemId": "gen-l13-w2",
-          "observation": "Kazda liczba pomnozona przez sama siebie.",
+          "observation": "Każda liczba pomnozona przez sama siebie.",
           "strategy": "Rozpoznaj kwadraty.",
           "steps": [
             "1x1=1, 2x2=4, 3x3=9, 4x4=16",
@@ -191,16 +191,16 @@
           ],
           "answer": "B",
           "alternative": null,
-          "hint": "Kazda liczba pomnozona przez sama siebie."
+          "hint": "Każda liczba pomnozona przez sama siebie."
         },
         {
           "problemId": "gen-l13-w3",
           "observation": "Cykl ma 3 figury - uzyj reszty z dzielenia.",
           "strategy": "Wzor cykliczny.",
           "steps": [
-            "Cykl: kolo (1), kwadrat (2), trojkat (3)",
+            "Cykl: koło (1), kwadrat (2), trójkąt (3)",
             "10 : 3 = 3 reszta 1",
-            "Reszta 1 = pierwszy w cyklu = kolo"
+            "Reszta 1 = pierwszy w cyklu = koło"
           ],
           "answer": "A",
           "alternative": null,
@@ -208,7 +208,7 @@
         },
         {
           "problemId": "gen-l13-w4",
-          "observation": "Kazda liczba zmniejszona o 2.",
+          "observation": "Każda liczba zmniejszona o 2.",
           "strategy": "Regula odejmowania.",
           "steps": [
             "10 - 2 = 8, 8 - 2 = 6, 6 - 2 = 4",
@@ -216,24 +216,24 @@
           ],
           "answer": "C",
           "alternative": null,
-          "hint": "Kazda liczba zmniejszona o 2."
+          "hint": "Każda liczba zmniejszona o 2."
         },
         {
           "problemId": "kangur-maluch-2025-1",
-          "observation": "Budowa szescianu 3x3x3 - 5 etapow, czwarty od konca.",
+          "observation": "Budowa szescianu 3x3x3 - 5 etapow, czwarty od końca.",
           "strategy": "Etapy budowy to ciag rosnacy.",
           "steps": [
-            "Szescian 3x3x3 ma 27 klockow",
-            "5 zdjec pokazuje rosnaca liczbe klockow",
+            "Szescian 3x3x3 ma 27 klocków",
+            "5 zdjec pokazuje rosnaca liczbe klocków",
             "Czwarte zdjecie to przedostatni, prawie pelny etap"
           ],
           "answer": "D",
           "alternative": null,
-          "hint": "Budowa szescianu 3x3x3 - 5 etapow, czwarty od konca."
+          "hint": "Budowa szescianu 3x3x3 - 5 etapow, czwarty od końca."
         },
         {
           "problemId": "gen-l13-c1",
-          "observation": "Ciag kwadratow: 1x1, 2x2, 3x3...",
+          "observation": "Ciag kwadratów: 1x1, 2x2, 3x3...",
           "strategy": "Rozpoznaj kwadraty liczb.",
           "steps": [
             "1, 4, 9, 16, 25, 36, 49",
@@ -241,12 +241,12 @@
           ],
           "answer": "C",
           "alternative": null,
-          "hint": "Ciag kwadratow: 1x1, 2x2, 3x3..."
+          "hint": "Ciag kwadratów: 1x1, 2x2, 3x3..."
         },
         {
           "problemId": "gen-l13-c2",
           "observation": "Roznice rosna o 1.",
-          "strategy": "Roznice tworza wlasny ciag.",
+          "strategy": "Roznice tworza własny ciag.",
           "steps": [
             "Roznice: 1, 2, 3, 4, 5",
             "Nastepna roznica: 6",
@@ -312,7 +312,7 @@
           "difficulty": "3pkt",
           "topic": "wzory_i_ciagi",
           "subtopic": "wzor cykliczny 4-elementowy",
-          "statement": "Figury powtarzaja sie: A, B, C, D, A, B, C, D... Ktora figura jest pietnasta w kolejnosci?",
+          "statement": "Figury powtarzaja sie: A, B, C, D, A, B, C, D... Która figura jest pietnasta w kolejnosci?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -354,7 +354,7 @@
           "difficulty": "3pkt",
           "topic": "lamiglowki",
           "subtopic": "rownanie z monetami",
-          "statement": "W rownaniu 20 + 10 + 10 + ? + ? + 1 = 50 + 1 jaka jest wartosc kazdej z dwoch jednakowych monet ze znakami zapytania?",
+          "statement": "Jaka jest wartość każdej z dwóch jednakowych monet ze znakami zapytania? 1 1 ? ? 10 10 20 50 + + + + + + =",
           "hasImage": true,
           "imageNote": "Rownanie z monetami i znakami zapytania.",
           "choices": {
@@ -376,10 +376,10 @@
           "number": 17,
           "difficulty": "5pkt",
           "topic": "lamiglowki",
-          "subtopic": "diagram ze strzalkami mniejsza-wieksza",
-          "statement": "W diagram 3x3 Helenka wpisuje liczby 1-9, po jednej w kratke. Strzalki prowadza od liczby mniejszej do wiekszej. Wpisane sa 5 i 7. Jaka liczbe wpisac w miejscu znaku zapytania?",
+          "subtopic": "diagram że strzalkami mniejsza-wieksza",
+          "statement": "W kratki diagramu Helenka wpisuje wszystkie liczby od 1 do 9, w każdą kratkę jedną liczbę. Strzałki prowadzą od liczby mniejszej do większej. Dwie liczby Helenka już wpisała. Jaką liczbę powinna wpisać w miejscu znaku zapytania?",
           "hasImage": true,
-          "imageNote": "Diagram 3x3 ze strzalkami, wpisane liczby 5 i 7, jedna kratka oznaczona ?.",
+          "imageNote": "Diagram 3x3 że strzalkami, wpisane liczby 5 i 7, jedna kratka oznaczona ?.",
           "choices": {
             "A": "2",
             "B": "3",
@@ -398,9 +398,9 @@
           "difficulty": "4pkt",
           "topic": "lamiglowki",
           "subtopic": "diagram z sumami kolek",
-          "statement": "Ala wpisala do kolka liczbe 6. Do pozostalych chce wpisac liczby 1, 2, 3, 4, 5 i 7 tak, by liczby w kolkach DOLNYCH byly rowne sumie dwoch liczb w kolkach polaczonych z nimi GORNYCH. Jaka liczbe Ala wpisze w kolko oznaczone gwiazdka?",
+          "statement": "Ala wpisała do kółka liczbe 6. Do pozostalych chce wpisać liczby 1, 2, 3, 4, 5 i 7 tak, by liczby w kolkach DOLNYCH były równe sumie dwóch liczb w kolkach polaczonych z nimi GORNYCH. Jaka liczbe Ala wpisze w kółko oznaczone gwiazdka?",
           "hasImage": true,
-          "imageNote": "Diagram z kolami - 6 gornie, ? z gwiazdka u dolu z polaczeniami.",
+          "imageNote": "Diagram z kolami - 6 gornie, ? z gwiazdka u dołu z polaczeniami.",
           "choices": {
             "A": "2",
             "B": "3",
@@ -428,7 +428,7 @@
         },
         {
           "problemId": "gen-l13-v2-w2",
-          "observation": "Wyjscie to polowa wejscia.",
+          "observation": "Wyjscie to połowa wejscia.",
           "strategy": "Testuj regule dzielenia.",
           "steps": [
             "10 : 2 = 5, 20 : 2 = 10, 30 : 2 = 15",
@@ -436,7 +436,7 @@
           ],
           "answer": "B",
           "alternative": null,
-          "hint": "Wyjscie to polowa wejscia."
+          "hint": "Wyjscie to połowa wejscia."
         },
         {
           "problemId": "gen-l13-v2-w3",
@@ -479,7 +479,7 @@
         },
         {
           "problemId": "kangur-maluch-2021-17",
-          "observation": "Diagram 3x3 ze strzalkami od liczby mniejszej do wiekszej.",
+          "observation": "Diagram 3x3 że strzalkami od liczby mniejszej do wiekszej.",
           "strategy": "Strzalki pokazuja porzadek liczb.",
           "steps": [
             "Wpisane sa 5 i 7",
@@ -488,20 +488,20 @@
           ],
           "answer": "E",
           "alternative": null,
-          "hint": "Diagram 3x3 ze strzalkami od liczby mniejszej do wiekszej."
+          "hint": "Diagram 3x3 że strzalkami od liczby mniejszej do wiekszej."
         },
         {
           "problemId": "kangur-maluch-2025-12",
-          "observation": "Diagram kol - liczba w kolku dolnym to suma dwoch gornych.",
-          "strategy": "Sumowanie polaczonych kol.",
+          "observation": "Diagram kół - liczba w kolku dolnym to suma dwóch gornych.",
+          "strategy": "Sumowanie polaczonych kół.",
           "steps": [
-            "Ala wpisala 6, pozostale liczby 1-5 i 7",
-            "Kazde dolne kolko = suma dwoch polaczonych gornych",
+            "Ala wpisała 6, pozostale liczby 1-5 i 7",
+            "Każde dolne kółko = suma dwóch polaczonych gornych",
             "Po wyliczeniu w kolku z gwiazdka wychodzi 5"
           ],
           "answer": "D",
           "alternative": null,
-          "hint": "Diagram kol - liczba w kolku dolnym to suma dwoch gornych."
+          "hint": "Diagram kół - liczba w kolku dolnym to suma dwóch gornych."
         }
       ]
     }
@@ -515,10 +515,10 @@
         "C": "Zgadujesz"
       },
       "correct": "A",
-      "explain": "Regula musi pasowac do KAZDEGO przykladu - inaczej szukaj dalej."
+      "explain": "Regula musi pasowac do Każdego przykladu - inaczej szukaj dalej."
     },
     {
-      "q": "Figury w cyklu 4-elementowym. Ktora jest 12. w kolejnosci?",
+      "q": "Figury w cyklu 4-elementowym. Która jest 12. w kolejnosci?",
       "choices": {
         "A": "Pierwsza",
         "B": "Czwarta",

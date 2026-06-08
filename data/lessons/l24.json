@@ -7,9 +7,9 @@
   "topic": "geometria_przestrzenna",
   "estimatedMinutes": 16,
   "theory": {
-    "intro": "Pokazane masz piramide z kostek. Zliczasz te widoczne i wychodzi 12. Ale w srodku moga byc ukryte - nie widac ich, a sa! Liczenie kostek w bryle wymaga uwzglednienia tego, czego nie widac. To wymaga wyobrazni i metody.",
-    "tool": "Sztuczka 1: LICZ WARSTWAMI. Patrz na bryle warstwa po warstwie (poziom po poziomie). Policz kostki w kazdym pietrze osobno, potem dodaj.\n\nSztuczka 2: SPRAWDZ UKRYTE KOSTKI. Kostka 'wisi' tylko jezeli ja ktos podpiera. Jezeli w gornej warstwie jest kostka, w dolnej musi byc pod nia kostka.\n\nSztuczka 3: SZESCIAN PELNY ma N razy N razy N kostek. Szescian 3x3x3 = 27, 2x2x2 = 8. Zapamietaj te liczby.\n\nSztuczka 4: USUWANIE I DODAWANIE. Bryla = pelny szescian minus brakujace kostki. Czasem latwiej policzyc brakujace niz wszystkie.",
-    "trick": "Pulapka klasyczna: uczen liczy tylko widoczne kostki i nie dodaje ukrytych. W piramidzie 3x3x3, wszystkich kostek jest 27, ale widzimy tylko 19 (gorne i boczne). 8 jest ukrytych w srodku. Zawsze sprawdzaj, czy bryla jest 'pelna'."
+    "intro": "Pokazane masz piramide z kostek. Zliczasz te widoczne i wychodzi 12. Ale w srodku mogą byc ukryte - nie widac ich, a sa! Liczenie kostek w bryle wymaga uwzglednienia tego, czego nie widac. To wymaga wyobrazni i metody.",
+    "tool": "Sztuczka 1: LICZ WARSTWAMI. Patrz na bryle warstwa po warstwie (poziom po poziomie). Policz kostki w każdym pietrze osobno, potem dodaj.\n\nSztuczka 2: SPRAWDZ UKRYTE Kostki. Kostka 'wisi' tylko jeżeli ja ktos podpiera. Jeżeli w gornej warstwie jest kostka, w dolnej musi byc pod nia kostka.\n\nSztuczka 3: SZESCIAN PELNY ma N razy N razy N kostek. Szescian 3x3x3 = 27, 2x2x2 = 8. Zapamietaj te liczby.\n\nSztuczka 4: USUWANIE I DODAWANIE. Bryla = pelny szescian minus brakujace kostki. Czasem latwiej policzyć brakujace niz wszystkie.",
+    "trick": "Pulapka klasyczna: uczeń liczy tylko widoczne kostki i nie dodaje ukrytych. W piramidzie 3x3x3, wszystkich kostek jest 27, ale widzimy tylko 19 (gorne i boczne). 8 jest ukrytych w srodku. Zawsze sprawdzaj, czy bryla jest 'pelna'."
   },
   "versions": [
     {
@@ -24,7 +24,7 @@
           "difficulty": "3pkt",
           "topic": "geometria_przestrzenna",
           "subtopic": "pelny szescian 2x2x2",
-          "statement": "Szescian 2x2x2 zbudowany z malych kostek. Ile malych kostek?",
+          "statement": "Szescian 2x2x2 zbudowany z małych kostek. Ile małych kostek?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -45,7 +45,7 @@
           "difficulty": "3pkt",
           "topic": "geometria_przestrzenna",
           "subtopic": "pelny szescian 3x3x3",
-          "statement": "Szescian 3x3x3 zbudowany z malych kostek. Ile malych kostek?",
+          "statement": "Szescian 3x3x3 zbudowany z małych kostek. Ile małych kostek?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -66,7 +66,7 @@
           "difficulty": "3pkt",
           "topic": "geometria_przestrzenna",
           "subtopic": "kolumny i warstwy",
-          "statement": "Bryla zbudowana z 3 warstw po 4 kostki kazda. Ile kostek razem?",
+          "statement": "Bryla zbudowana z 3 warstw po 4 kostki każda. Ile kostek razem?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -87,7 +87,7 @@
           "difficulty": "4pkt",
           "topic": "geometria_przestrzenna",
           "subtopic": "liczenie scian malowanych na sklejonych szescianach",
-          "statement": "Slawek skleil 10 drewnianych szescianow w bryle L i pomalowal ja ze wszystkich stron. Ile z tych 10 klockow ma pomalowane DOKLADNIE 4 sciany?",
+          "statement": "Sławek skleił 10 sześciennych drewnianych klocków, tak jak na rysunku obok. Następnie pomalował otrzymaną bryłę ze wszystkich stron. Ile z tych dziesięciu klocków ma pomalowane dokładnie cztery ściany?",
           "hasImage": true,
           "imageNote": "Bryla zlozona z 10 szescianow ulozonych w ksztalcie L.",
           "choices": {
@@ -108,7 +108,7 @@
           "difficulty": "4pkt",
           "topic": "geometria_przestrzenna",
           "subtopic": "szara czesc budowli",
-          "statement": "Slawek skleil osobno klocki biale, czarne i szare. Z trzech czesci zbudowal prostopadlosc1enna budowle z 18 kostek. Na ktorym obrazku przedstawiona jest szara czesc?",
+          "statement": "Sławek skleił osobno klocki białe (rysunek 1), osobno klocki czarne (rysunek 2) i osobno szare. Z tych trzech części zbudował prostopadłościenną budowlę składającą się z 18 sześciennych kostek (rysunek 3). Na którym obrazku przedstawiona jest szara część budowli Sławka? Rysunek 1 Rysunek 2 Rysunek 3",
           "hasImage": true,
           "imageNote": "Budowla z 18 kostek w 3 kolorach, 5 wariantow szarej czesci.",
           "choices": {
@@ -131,9 +131,9 @@
           "difficulty": "5pkt",
           "topic": "geometria_przestrzenna",
           "subtopic": "liczenie bialych szescianow w bryle",
-          "statement": "Stas zbudowal duzy szescian z 3 rodzajow klockow drewnianych: czarne plaskie, szare ksztalt L, biale male szesciany. Ilu bialych malych szescianow uzyl?",
+          "statement": "Staś zbudował sześcian z trzech rodza- jów drewnianych klocków — patrz obrazek. Ilu białych sześciennych klocków użył Staś?",
           "hasImage": true,
-          "imageNote": "Trzy rodzaje klockow obok siebie + duzy szescian zbudowany z nich.",
+          "imageNote": "Trzy rodzaje klocków obok siebie + duzy szescian zbudowany z nich.",
           "choices": {
             "A": "8",
             "B": "11",
@@ -151,10 +151,10 @@
           "number": 24,
           "difficulty": "5pkt",
           "topic": "geometria_przestrzenna",
-          "subtopic": "minimalna liczba bialych klockow",
-          "statement": "Slawek buduje maly szescian albo z 4 bialych klockow, albo z 1 bialego i 1 szarego. Z malych szescianow zbudowal wiekszy szescian. Jaka jest najmniejsza liczba bialych klockow, ktorych mogl uzyc?",
+          "subtopic": "minimalna liczba bialych klocków",
+          "statement": "Sławek ma dwa rodzaje klocków: białe i szare . Mały sze- ścian buduje albo z czterech białych klocków, albo z jednego białego i jednego szarego klocka. Z małych sześcianów Sławek zbudował większy sześcian — patrz obrazek. Jaka jest najmniejsza liczba białych klocków, których mógł użyć Sła- wek do swej budowli?",
           "hasImage": true,
-          "imageNote": "Duzy szescian zbudowany z malych szescianow bialych i szarych.",
+          "imageNote": "Duzy szescian zbudowany z małych szescianow bialych i szarych.",
           "choices": {
             "A": "8",
             "B": "11",
@@ -203,10 +203,10 @@
         {
           "problemId": "kangur-maluch-2018-14",
           "observation": "Liczymy klocki z dokladnie 4 pomalowanymi scianami.",
-          "strategy": "Sciany pomalowane wedlug polozenia.",
+          "strategy": "Ściany pomalowane wedlug polozenia.",
           "steps": [
-            "Bryla L z 10 klockow pomalowana z zewnatrz",
-            "Klockow z 4 pomalowanymi scianami jest 7"
+            "Bryla L z 10 klocków pomalowana z zewnatrz",
+            "Klocków z 4 pomalowanymi scianami jest 7"
           ],
           "answer": "B",
           "alternative": null,
@@ -217,7 +217,7 @@
           "observation": "Szara czesc budowli z 18 kostek.",
           "strategy": "Rozpoznanie czesci z koloru.",
           "steps": [
-            "Z 3 czesci (biala, czarna, szara) zbudowano budowle",
+            "Z 3 czesci (biała, czarna, szara) zbudowano budowle",
             "Szara czesc to obraz B"
           ],
           "answer": "B",
@@ -227,10 +227,10 @@
         {
           "problemId": "kangur-maluch-2022-17",
           "observation": "Liczba bialych szescianow w bryle.",
-          "strategy": "Liczenie konkretnego rodzaju klockow.",
+          "strategy": "Liczenie konkretnego rodzaju klocków.",
           "steps": [
-            "Szescian z 3 rodzajow klockow",
-            "Bialych malych szescianow uzyto 13"
+            "Szescian z 3 rodzajow klocków",
+            "Bialych małych szescianow uzyto 13"
           ],
           "answer": "C",
           "alternative": null,
@@ -238,15 +238,15 @@
         },
         {
           "problemId": "kangur-maluch-2024-24",
-          "observation": "Minimalna liczba bialych klockow.",
-          "strategy": "Optymalizacja klockow.",
+          "observation": "Minimalna liczba bialych klocków.",
+          "strategy": "Optymalizacja klocków.",
           "steps": [
-            "Maly szescian: 4 biale LUB 1 bialy + 1 szary",
-            "Minimum bialych klockow do budowy duzego: 14"
+            "Mały szescian: 4 białe LUB 1 biały + 1 szary",
+            "Minimum bialych klocków do budowy duzego: 14"
           ],
           "answer": "D",
           "alternative": null,
-          "hint": "Minimalna liczba bialych klockow."
+          "hint": "Minimalna liczba bialych klocków."
         }
       ]
     },
@@ -262,7 +262,7 @@
           "difficulty": "3pkt",
           "topic": "geometria_przestrzenna",
           "subtopic": "pelny szescian 4x4x4",
-          "statement": "Szescian 4x4x4 - ile malych kostek?",
+          "statement": "Szescian 4x4x4 - ile małych kostek?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -325,7 +325,7 @@
           "difficulty": "3pkt",
           "topic": "geometria_przestrzenna",
           "subtopic": "brakujace kostki",
-          "statement": "Pelny szescian 3x3x3 ma 27 kostek. Po usunieciu 5 kostek - ile zostalo?",
+          "statement": "Pelny szescian 3x3x3 ma 27 kostek. Po usunieciu 5 kostek - ile zostało?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -369,7 +369,7 @@
           "difficulty": "4pkt",
           "topic": "geometria_przestrzenna",
           "subtopic": "liczenie z widokiem",
-          "statement": "Z gory widzimy bryle jak prostokat 3x2 (6 kwadratow). Wiemy, ze w kazdej kolumnie sa 2 kostki. Ile kostek lacznie?",
+          "statement": "Z góry widzimy bryle jak prostokat 3x2 (6 kwadratów). Wiemy, że w każdej kolumnie sa 2 kostki. Ile kostek łącznie?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -390,7 +390,7 @@
           "difficulty": "5pkt",
           "topic": "geometria_przestrzenna",
           "subtopic": "zlozony szescian z usunieciem",
-          "statement": "Z pelnego szescianu 4x4x4 usunieto wszystkie kostki z jednego naroznika - usunieto szescian 2x2x2. Ile kostek zostalo?",
+          "statement": "Z pelnego szescianu 4x4x4 usunieto wszystkie kostki z jednego naroznika - usunieto szescian 2x2x2. Ile kostek zostało?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -433,7 +433,7 @@
           "strategy": "Lokalizacja ukrytych.",
           "steps": [
             "Szescian 3x3x3 - srodkowa kostka (1,1,1) jest otoczona przez 6 sasiadow",
-            "Tylko ta jedna jest niewidoczna z kazdej strony"
+            "Tylko ta jedna jest niewidoczna z każdej strony"
           ],
           "answer": "B",
           "alternative": null,
@@ -452,25 +452,25 @@
         },
         {
           "problemId": "gen-l24-v2-w5",
-          "observation": "Z jednego punktu widzimy max 3 sciany.",
+          "observation": "Z jednego punktu widzimy max 3 ściany.",
           "strategy": "Patrzenie na kostke.",
           "steps": [
-            "Patrzac na kostke widzimy gore, przod i bok - 3 sciany. Hmm wracajac do odpowiedzi - 'pojedyncza kostka stojaca na ziemi' moze byc widziana z gory + 4 boki = 5 scian (bez dna)"
+            "Patrzac na kostke widzimy górę, przód i bok - 3 ściany. Hmm wracajac do odpowiedzi - 'pojedyncza kostka stojaca na ziemi' może byc widziana z góry + 4 boki = 5 scian (bez dna)"
           ],
           "answer": "E",
           "alternative": "Z jednego punktu max 3, ale obracajac sie wokol widzimy 5 scian (wszystkie procz dna).",
-          "hint": "Z jednego punktu widzimy max 3 sciany."
+          "hint": "Z jednego punktu widzimy max 3 ściany."
         },
         {
           "problemId": "gen-l24-v2-c1",
-          "observation": "Z gory 6 kolumn, w kazdej 2 kostki.",
+          "observation": "Z góry 6 kolumn, w każdej 2 kostki.",
           "strategy": "Mnozenie warstw.",
           "steps": [
             "6 kolumn razy 2 kostki = 12 kostek"
           ],
           "answer": "D",
           "alternative": null,
-          "hint": "Z gory 6 kolumn, w kazdej 2 kostki."
+          "hint": "Z góry 6 kolumn, w każdej 2 kostki."
         },
         {
           "problemId": "gen-l24-v2-c2",
@@ -479,7 +479,7 @@
           "steps": [
             "Pelny szescian 4x4x4 = 64 kostek",
             "Usuniety naroznik 2x2x2 = 8 kostek",
-            "Zostalo: 64 - 8 = 56"
+            "Zostało: 64 - 8 = 56"
           ],
           "answer": "C",
           "alternative": null,
@@ -497,7 +497,7 @@
         "C": "27 kostek"
       },
       "correct": "C",
-      "explain": "3 razy 3 razy 3 = 27 malych kostek."
+      "explain": "3 razy 3 razy 3 = 27 małych kostek."
     },
     {
       "q": "Liczac kostki w bryle, najlepiej:",
@@ -507,7 +507,7 @@
         "C": "Zgadywac"
       },
       "correct": "B",
-      "explain": "Liczenie warstwami daje pewnosc, ze nic nie pominiemy."
+      "explain": "Liczenie warstwami daje pewnosc, że nic nie pominiemy."
     },
     {
       "q": "W piramidzie kostki sa CZASEM:",
@@ -517,7 +517,7 @@
         "C": "Niemozliwe do policzenia"
       },
       "correct": "B",
-      "explain": "Kostki wewnatrz piramidy moga byc calkowicie ukryte."
+      "explain": "Kostki wewnatrz piramidy mogą byc calkowicie ukryte."
     }
   ]
 }

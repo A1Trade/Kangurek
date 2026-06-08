@@ -7,9 +7,9 @@
   "topic": "arytmetyka",
   "estimatedMinutes": 12,
   "theory": {
-    "intro": "Liczby parzyste mozna ulozyc w pary - 2, 4, 6 cukierkow dziela sie rowno miedzy dwie osoby. Nieparzyste zostawiaja jeden bez pary - 5 cukierkow podzielisz na 2+2 a jeden zostanie. Parzystosc to super narzedzie do szybkich sprawdzen.",
-    "tool": "Sztuczka 1: PARZYSTA = KONCZY SIE NA 0, 2, 4, 6, 8. Patrz tylko na ostatnia cyfre. 1234 jest parzysta, 12345 nieparzysta.\n\nSztuczka 2: WZORY SUMOWANIA.\n- parzysta + parzysta = parzysta\n- nieparzysta + nieparzysta = parzysta\n- parzysta + nieparzysta = nieparzysta\nZapamietaj te trzy zasady - rozwiazuja tysiac zadan.\n\nSztuczka 3: MNOZENIE. Parzysta razy cokolwiek = parzysta. Nieparzysta razy nieparzysta = nieparzysta.",
-    "trick": "W zadaniach typu 'czy mozna otrzymac wynik X?' SAMA PARZYSTOSC eliminuje pol odpowiedzi. Jezeli suma wyjsciowa jest nieparzysta, a kazda dozwolona zmiana zmienia ja o liczbe parzysta - wynik na zawsze pozostaje nieparzysty."
+    "intro": "Liczby parzyste można ułożyć w pary - 2, 4, 6 cukierkow dziela sie równo między dwie osoby. Nieparzyste zostawiaja jeden bez pary - 5 cukierkow podzielisz na 2+2 a jeden zostanie. Parzystosc to super narzedzie do szybkich sprawdzen.",
+    "tool": "Sztuczka 1: PARZYSTA = Kończy SIE NA 0, 2, 4, 6, 8. Patrz tylko na ostatnia cyfre. 1234 jest parzysta, 12345 nieparzysta.\n\nSztuczka 2: WZORY SUMOWANIA.\n- parzysta + parzysta = parzysta\n- nieparzysta + nieparzysta = parzysta\n- parzysta + nieparzysta = nieparzysta\nZapamietaj te trzy zasady - rozwiazuja tysiąc zadan.\n\nSztuczka 3: MNOZENIE. Parzysta razy cokolwiek = parzysta. Nieparzysta razy nieparzysta = nieparzysta.",
+    "trick": "W zadaniach typu 'czy można otrzymac wynik X?' SAMA PARZYSTOSC eliminuje pol odpowiedzi. Jeżeli suma wyjsciowa jest nieparzysta, a każda dozwolona zmiana zmienia ja o liczbe parzysta - wynik na zawsze pozostaje nieparzysty."
   },
   "versions": [
     {
@@ -24,7 +24,7 @@
           "difficulty": "3pkt",
           "topic": "arytmetyka",
           "subtopic": "rozpoznanie parzystej",
-          "statement": "Ktora z liczb jest parzysta: 7, 11, 14, 23, 35?",
+          "statement": "Która z liczb jest parzysta: 7, 11, 14, 23, 35?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -45,7 +45,7 @@
           "difficulty": "3pkt",
           "topic": "arytmetyka",
           "subtopic": "suma parzystych",
-          "statement": "Suma dwoch liczb parzystych jest zawsze:",
+          "statement": "Suma dwóch liczb parzystych jest zawsze:",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -131,7 +131,7 @@
           "difficulty": "4pkt",
           "topic": "arytmetyka",
           "subtopic": "parzystosc w lamiglowce",
-          "statement": "Czy mozna polaczyc piec liczb 1, 2, 3, 4, 5 znakami + i - tak, by otrzymac liczbe PARZYSTA?",
+          "statement": "Czy można połączyć pięć liczb 1, 2, 3, 4, 5 znakami + i - tak, by otrzymac liczbe PARZYSTA?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -139,7 +139,7 @@
             "B": "Tak, da sie wynik 2",
             "C": "Tak, da sie wynik 4",
             "D": "Nie - wynik zawsze nieparzysty",
-            "E": "Nie - wynik zawsze rowny 15"
+            "E": "Nie - wynik zawsze równy 15"
           },
           "correct": "D",
           "imageSrc": null
@@ -152,7 +152,7 @@
           "difficulty": "4pkt",
           "topic": "arytmetyka",
           "subtopic": "wymiary tablicy rzedow x dzieci",
-          "statement": "Dzieci ustawione w kilku rzedach, po tyle samo w kazdym. Kostek widzi 2 rzedy przed soba i 1 za. W jego rzedzie po prawej 5 dzieci, po lewej 3. Ile dzieci ustawiono?",
+          "statement": "Dzieci ustawiono w kilku rzędach, po tyle samo w każdym rzędzie. Kostek zauważył, że przed nim są dwa rzędy dzieci, a za nim jeden rząd. Zauważył też, że w jego rzędzie, po jego prawej stronie stoi pięcioro dzieci, zaś po jego lewej stronie w tym rzędzie jest troje dzieci. Ile dzieci ustawiono?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -169,17 +169,17 @@
       "solutions": [
         {
           "problemId": "gen-l05-w1",
-          "observation": "Parzysta = konczy sie na 0, 2, 4, 6, 8.",
+          "observation": "Parzysta = kończy sie na 0, 2, 4, 6, 8.",
           "strategy": "Sprawdz ostatnia cyfre.",
           "steps": [
             "7 -> nieparzysta",
             "11 -> nieparzysta",
-            "14 -> konczy sie na 4 - parzysta",
+            "14 -> kończy sie na 4 - parzysta",
             "23, 35 -> nieparzyste"
           ],
           "answer": "C",
           "alternative": null,
-          "hint": "Parzysta konczy sie na 0, 2, 4, 6, 8."
+          "hint": "Parzysta kończy sie na 0, 2, 4, 6, 8."
         },
         {
           "problemId": "gen-l05-w2",
@@ -210,13 +210,13 @@
         {
           "problemId": "gen-l05-w4",
           "observation": "Co druga liczba jest parzysta.",
-          "strategy": "Polowa zakresu.",
+          "strategy": "Połowa zakresu.",
           "steps": [
             "Parzyste: 2,4,6,8,10,12,14,16,18,20",
             "Razem 10 sztuk"
           ],
           "answer": "C",
-          "alternative": "Mozna tez: 20 : 2 = 10.",
+          "alternative": "Można też: 20 : 2 = 10.",
           "hint": "Od 1 do 20 co druga jest parzysta."
         },
         {
@@ -242,7 +242,7 @@
             "Wynik zawsze NIEPARZYSTY - parzystej sie nie da"
           ],
           "answer": "D",
-          "alternative": "Klucz: start od 15 (nieparzysta), kazda zmiana znaku to roznica parzysta.",
+          "alternative": "Klucz: start od 15 (nieparzysta), każda zmiana znaku to roznica parzysta.",
           "hint": "Suma 1+2+3+4+5 = 15. Zmiana znaku nie zmienia parzystosci."
         },
         {
@@ -256,7 +256,7 @@
           ],
           "answer": "A",
           "alternative": null,
-          "hint": "Razem 4 rzedy (2 przed + 1 za + jego). Po 9 dzieci w kazdym (po prawej 5 + on + po lewej 3)."
+          "hint": "Razem 4 rzedy (2 przed + 1 za + jego). Po 9 dzieci w każdym (po prawej 5 + on + po lewej 3)."
         }
       ]
     },
@@ -272,7 +272,7 @@
           "difficulty": "3pkt",
           "topic": "arytmetyka",
           "subtopic": "rozpoznanie nieparzystej",
-          "statement": "Ktora z liczb jest nieparzysta: 4, 8, 15, 22, 30?",
+          "statement": "Która z liczb jest nieparzysta: 4, 8, 15, 22, 30?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -293,7 +293,7 @@
           "difficulty": "3pkt",
           "topic": "arytmetyka",
           "subtopic": "nieparzysta + nieparzysta",
-          "statement": "Suma dwoch liczb nieparzystych jest zawsze:",
+          "statement": "Suma dwóch liczb nieparzystych jest zawsze:",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -399,8 +399,8 @@
           "number": 15,
           "difficulty": "4pkt",
           "topic": "arytmetyka",
-          "subtopic": "niemozliwa suma punktow",
-          "statement": "Turniej 3 druzyn pilki noznej, kazda gra z kazda raz (3 mecze). Za wygrana 3 pkt, remis 1, przegrana 0. Ilu punktow nie mogla zdobyc zadna z druzyn po wszystkich meczach?",
+          "subtopic": "niemozliwa suma punktów",
+          "statement": "W turnieju piłki nożnej uczestniczyły trzy drużyny. Każda drużyna grała z każdą z pozostałych jeden raz. Za wygrany mecz drużyna zdobywała 3 punkty, za przegrany — 0, za remis — 1 punkt. Ilu ogółem punktów nie mogła zdobyć żadna z drużyn po rozegraniu wszystkich meczów?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -417,15 +417,15 @@
       "solutions": [
         {
           "problemId": "gen-l05-v2-w1",
-          "observation": "Nieparzysta konczy sie na 1,3,5,7,9.",
+          "observation": "Nieparzysta kończy sie na 1,3,5,7,9.",
           "strategy": "Sprawdz ostatnia cyfre.",
           "steps": [
-            "15 konczy sie na 5 - nieparzysta",
+            "15 kończy sie na 5 - nieparzysta",
             "Pozostale (4,8,22,30) parzyste"
           ],
           "answer": "C",
           "alternative": null,
-          "hint": "Nieparzysta konczy sie na 1, 3, 5, 7, 9."
+          "hint": "Nieparzysta kończy sie na 1, 3, 5, 7, 9."
         },
         {
           "problemId": "gen-l05-v2-w2",
@@ -456,7 +456,7 @@
         {
           "problemId": "gen-l05-v2-w4",
           "observation": "Co druga liczba jest nieparzysta.",
-          "strategy": "Polowa zakresu.",
+          "strategy": "Połowa zakresu.",
           "steps": [
             "Nieparzyste: 1,3,5,...,29",
             "Razem 15 sztuk"
@@ -482,18 +482,18 @@
           "observation": "Suma 1+2+...+10. Policz ja sprytnie.",
           "strategy": "Pary do 11.",
           "steps": [
-            "Pary: 1+10, 2+9, 3+8, 4+7, 5+6 - kazda po 11",
+            "Pary: 1+10, 2+9, 3+8, 4+7, 5+6 - każda po 11",
             "5 par razy 11 = 55",
-            "55 konczy sie na 5 - nieparzysta"
+            "55 kończy sie na 5 - nieparzysta"
           ],
           "answer": "B",
-          "alternative": "Mozna tez liczyc po kolei: 55.",
+          "alternative": "Można też liczyc po kolei: 55.",
           "hint": "Posum w parach: 1+10, 2+9, ..., 5+6. Pieć par po 11."
         },
         {
           "problemId": "kangur-maluch-2022-15",
-          "observation": "3 druzyny, kazda gra 2 mecze. Jakiej sumy nie da sie zdobyc?",
-          "strategy": "Wypisanie mozliwych sum punktow.",
+          "observation": "3 druzyny, każda gra 2 mecze. Jakiej sumy nie da sie zdobyc?",
+          "strategy": "Wypisanie mozliwych sum punktów.",
           "steps": [
             "Mozliwe wyniki 2 meczow: 2W=6, 1W1R=4, 1W1P=3, 2R=2, 1R1P=1, 2P=0",
             "Mozliwe sumy: 0,1,2,3,4,6",
@@ -501,7 +501,7 @@
           ],
           "answer": "D",
           "alternative": null,
-          "hint": "Kazda druzyna gra 2 mecze, wiec max 6 pkt. Sprawdz ktorej sumy nie da sie zlozyc z {0,1,3}."
+          "hint": "Każda druzyna gra 2 mecze, wiec max 6 pkt. Sprawdz której sumy nie da sie zlozyc z {0,1,3}."
         }
       ]
     },
@@ -517,7 +517,7 @@
           "difficulty": "5pkt",
           "topic": "arytmetyka",
           "subtopic": "suma wieku z warunkiem",
-          "statement": "Ola, Ula, Ala i Ela maja dzis urodziny. Ola, Ula i Ala sa w tym samym wieku, a Ela jest starsza od nich o 3 lata. Ktora liczba moze byc suma lat wszystkich czterech dziewczat?",
+          "statement": "Ola, Ula, Ala i Ela maja dziś urodziny. Ola, Ula i Ala sa w tym samym wieku, a Ela jest starsza od nich o 3 lata. Która liczba może byc suma lat wszystkich czterech dziewczat?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -537,8 +537,8 @@
           "number": 18,
           "difficulty": "5pkt",
           "topic": "arytmetyka",
-          "subtopic": "proporcja gruszek do jablek",
-          "statement": "W ogrodzie rosna drzewa dwoch rodzajow: jedne maja 6 gruszek i 3 jablka, drugie 8 gruszek i 4 jablka. Lacznie rosnie 25 jablek. Ile gruszek rosnie w ogrodzie?",
+          "subtopic": "proporcja gruszek do jabłek",
+          "statement": "W ogrodzie rosna drzewa dwóch rodzajow: jedne maja 6 gruszek i 3 jabłka, drugie 8 gruszek i 4 jabłka. Łącznie rosnie 25 jabłek. Ile gruszek rosnie w ogrodzie?",
           "hasImage": true,
           "imageNote": "Dwa drzewa z gruszkami i jablkami.",
           "choices": {
@@ -562,17 +562,17 @@
             "Niech w = wiek Oli (i Uli i Ali).",
             "Ela ma w + 3 lat.",
             "Suma: 3w + (w + 3) = 4w + 3.",
-            "Suma musi byc rownosci 4w + 3 dla calkowitego w.",
+            "Suma musi byc równości 4w + 3 dla calkowitego w.",
             "Sprawdz odpowiedzi: 60 -> 4w = 57 (nie), 29 -> 4w = 26 (nie), 25 -> 4w = 22 (nie), 30 -> 4w = 27 (nie), 27 -> 4w = 24, w = 6 (TAK).",
-            "Odpowiedz: 27 lat (kazda po 6, Ela 9)."
+            "Odpowiedz: 27 lat (każda po 6, Ela 9)."
           ],
           "answer": "E",
           "alternative": null,
-          "hint": "Suma = 3*wiek + (wiek+3) = 4*wiek + 3. Sprawdz ktora odpowiedz pasuje."
+          "hint": "Suma = 3*wiek + (wiek+3) = 4*wiek + 3. Sprawdz która odpowiedz pasuje."
         },
         {
           "problemId": "kangur-maluch-2016-18",
-          "observation": "Drzewa typu A: 6 gruszek, 3 jablka. Typu B: 8 gruszek, 4 jablka. Razem 25 jablek.",
+          "observation": "Drzewa typu A: 6 gruszek, 3 jabłka. Typu B: 8 gruszek, 4 jabłka. Razem 25 jabłek.",
           "strategy": "Niech a drzew typu A, b typu B. 3a + 4b = 25. Szukaj calkowitych.",
           "steps": [
             "3a + 4b = 25. Sprawdz wartosci b:",
@@ -584,8 +584,8 @@
             "Niezaleznie od kombinacji - 50 gruszek."
           ],
           "answer": "D",
-          "alternative": "Zauwaz ze stosunek gruszki/jablka = 2 w obu drzewach. Wiec gruszek = 2 * jablek = 2 * 25 = 50.",
-          "hint": "Jablek 25 = 3a + 4b. Sprawdz pary (a, b) - potem gruszki 6a + 8b."
+          "alternative": "Zauwaz że stosunek gruszki/jabłka = 2 w obu drzewach. Wiec gruszek = 2 * jabłek = 2 * 25 = 50.",
+          "hint": "Jabłek 25 = 3a + 4b. Sprawdz pary (a, b) - potem gruszki 6a + 8b."
         }
       ]
     }
@@ -616,7 +616,7 @@
       "choices": {
         "A": "Tak",
         "B": "Nie",
-        "C": "Trzeba policzyc"
+        "C": "Trzeba policzyć"
       },
       "correct": "A",
       "explain": "Nieparzysta + nieparzysta = parzysta. 23+45=68."

@@ -9,7 +9,7 @@
   "theory": {
     "intro": "Rozetnij pudelko po obwodzie i rozloz na plasko - dostaniesz siatke. Siatka szescianu to 6 kwadratow polaczonych krawedziami, ktore zlozone w 3D daja szescian. Nie kazdy uklad 6 kwadratow jest siatka - tylko takie, ktore sie ladnie zlozą.",
     "tool": "Sztuczka 1: SIATKA TO 6 KWADRATOW POLACZONYCH. Sa 11 roznych siatek szescianu (z dokladnoscia do obrotu). Najczestsza to 'krzyz' - 4 kwadraty w rzedzie plus 1 z gory i 1 z dolu.\n\nSztuczka 2: SCIANY PRZECIWLEGLE NIE STYKAJA SIE W SIATCE. Patrzac na siatke, sciany ktorych w 3D sa naprzeciw siebie - na siatce sa oddalone. Aby je znalezc, popatrz na sciany odlegle.\n\nSztuczka 3: SKLADANIE W MYSLI. Wybierz jedna sciane jako 'podstawe'. Cztery sasiednie zlozą sie do gory jako boki. Ostatnia bedzie 'wieczkiem' (przeciwlegla).\n\nSztuczka 4: 'KOLKO' NIE JEST SIATKA. Jezeli 4 kwadraty otaczaja jeden w srodku i jeden jest poza - to dziala. Ale 4 kwadraty w kwadracie 2x2 plus 2 - czesto nie da sie zlozyc.",
-    "trick": "Kangurek lubi pytac 'ktore sciany sa naprzeciw siebie'. Trick: na siatce 'krzyzowej' sciana w srodku rzedu 4 jest naprzeciw sciany odleglej o 2 pozycje (przeskakujesz przez 2 sciany). Pamietaj o tej zasadzie 'co drugi'."
+    "trick": "Kangurek lubi pytac 'które ściany sa naprzeciw siebie'. Trick: na siatce 'krzyzowej' sciana w srodku rzedu 4 jest naprzeciw ściany odleglej o 2 pozycje (przeskakujesz przez 2 ściany). Pamietaj o tej zasadzie 'co drugi'."
   },
   "versions": [
     {
@@ -24,7 +24,7 @@
           "difficulty": "3pkt",
           "topic": "geometria_przestrzenna",
           "subtopic": "liczba scian w siatce",
-          "statement": "Ile kwadratow ma kazda siatka szescianu?",
+          "statement": "Ile kwadratów ma każda siatka szescianu?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -49,10 +49,10 @@
           "hasImage": false,
           "imageNote": null,
           "choices": {
-            "A": "6 kwadratow w jednym rzedzie",
-            "B": "Krzyz (4 w rzedzie + 1 gora + 1 dol)",
+            "A": "6 kwadratów w jednym rzedzie",
+            "B": "Krzyz (4 w rzedzie + 1 góra + 1 dół)",
             "C": "Kwadrat 3x3",
-            "D": "Trojkat z kwadratow",
+            "D": "Trójkąt z kwadratów",
             "E": "Pierscien"
           },
           "correct": "B",
@@ -65,8 +65,8 @@
           "number": null,
           "difficulty": "3pkt",
           "topic": "geometria_przestrzenna",
-          "subtopic": "sciany przeciwlegle",
-          "statement": "Kostka do gry ma sume oczek na przeciwleglych scianach rowna:",
+          "subtopic": "ściany przeciwlegle",
+          "statement": "Kostka do gry ma sume oczek na przeciwleglych scianach równa:",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -87,7 +87,7 @@
           "difficulty": "3pkt",
           "topic": "geometria_przestrzenna",
           "subtopic": "budowla przed stracenem klocka",
-          "statement": "Ignas zbudowal konstrukcje z klockow. Kot stracil z niej jeden klocek. Jak mogla wygladac ta budowla PRZED straceniem klocka?",
+          "statement": "Ignaś zbudował konstrukcję z klocków. Kot strącił z niej jeden klocek — patrz obrazek. Jak mogła wyglądać ta budowla przed strąceniem klocka?",
           "hasImage": true,
           "imageNote": "Konstrukcja po straceniu klocka i 5 wariantow budowli przed.",
           "choices": {
@@ -108,7 +108,7 @@
           "difficulty": "3pkt",
           "topic": "geometria_przestrzenna",
           "subtopic": "czy to siatka",
-          "statement": "Czy 6 kwadratow ulozonych w prostokat 2x3 (jedna warstwa) tworzy siatke szescianu?",
+          "statement": "Czy 6 kwadratów ulozonych w prostokat 2x3 (jedna warstwa) tworzy siatke szescianu?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -131,7 +131,7 @@
           "difficulty": "5pkt",
           "topic": "geometria_przestrzenna",
           "subtopic": "kolorowanie szescianu - bez wspolnych scian",
-          "statement": "Szescian 3x3x3 z 27 malych klockow, kazdy bialy lub szary. Zadne dwa klocki tego samego koloru nie maja wspolnej sciany. Ilu bialych klockow uzyto?",
+          "statement": "Na rysunku obok widzimy sześcian zbudowany z 27 małych sześcien- nych klocków, z których każdy jest albo biały, albo szary. W sześcianie żadne dwa klocki tego samego koloru nie mają wspólnej ściany. Ilu białych klocków użyto do zbudowania sześcianu?",
           "hasImage": true,
           "imageNote": "Szescian 3x3x3 w kolorach bialym i szarym jak szachownica 3D.",
           "choices": {
@@ -169,21 +169,21 @@
       "solutions": [
         {
           "problemId": "gen-l25-v1-w1",
-          "observation": "Szescian ma 6 scian - siatka tez 6.",
+          "observation": "Szescian ma 6 scian - siatka też 6.",
           "strategy": "Liczba scian.",
           "steps": [
             "Siatka odpowiada 6 scianom szescianu"
           ],
           "answer": "C",
           "alternative": null,
-          "hint": "Szescian ma 6 scian - siatka tez 6."
+          "hint": "Szescian ma 6 scian - siatka też 6."
         },
         {
           "problemId": "gen-l25-v1-w2",
           "observation": "Krzyz to typowa siatka.",
           "strategy": "Typy siatek.",
           "steps": [
-            "Krzyzowa siatka: 4 kwadraty w rzedzie, jeden z gory, jeden z dolu"
+            "Krzyzowa siatka: 4 kwadraty w rzedzie, jeden z góry, jeden z dołu"
           ],
           "answer": "B",
           "alternative": null,
@@ -194,7 +194,7 @@
           "observation": "Standardowa kostka - przeciwlegle daja 7.",
           "strategy": "Wlasnosc kostki.",
           "steps": [
-            "Sciany 1+6, 2+5, 3+4 - kazda para daje 7"
+            "Ściany 1+6, 2+5, 3+4 - każda para daje 7"
           ],
           "answer": "C",
           "alternative": null,
@@ -214,14 +214,14 @@
         },
         {
           "problemId": "gen-l25-v1-w5",
-          "observation": "Prostokat 2x3 z 6 kwadratow - czy mozna zlozyc?",
+          "observation": "Prostokat 2x3 z 6 kwadratów - czy można zlozyc?",
           "strategy": "Sprawdzanie siatki.",
           "steps": [
-            "W prostokacie 2x3 sciany nie polaczone sa krawedzia po zgieciu - nie tworzy szescianu"
+            "W prostokacie 2x3 ściany nie polaczone sa krawedzia po zgieciu - nie tworzy szescianu"
           ],
           "answer": "B",
           "alternative": null,
-          "hint": "Prostokat 2x3 z 6 kwadratow - czy mozna zlozyc?"
+          "hint": "Prostokat 2x3 z 6 kwadratów - czy można zlozyc?"
         },
         {
           "problemId": "kangur-maluch-2015-18",
@@ -229,7 +229,7 @@
           "strategy": "Sachownica 3D.",
           "steps": [
             "Szescian 3x3x3, kolor jak szachownica 3D",
-            "Bialych klockow 14 (i szarych 13)"
+            "Bialych klocków 14 (i szarych 13)"
           ],
           "answer": "D",
           "alternative": null,
@@ -242,7 +242,7 @@
           "steps": [
             "W srode czarny klocek pomalowal sasiadow",
             "W czwartek powtorka",
-            "Po zmianach czarnych klockow jest 12"
+            "Po zmianach czarnych klocków jest 12"
           ],
           "answer": "C",
           "alternative": null,
@@ -309,9 +309,9 @@
           "imageNote": null,
           "choices": {
             "A": "4 kwadraty",
-            "B": "5 kwadratow",
-            "C": "6 kwadratow polaczonych krawedziami",
-            "D": "6 kwadratow w jednym rzedzie",
+            "B": "5 kwadratów",
+            "C": "6 kwadratów polaczonych krawedziami",
+            "D": "6 kwadratów w jednym rzedzie",
             "E": "Kwadrat 3x3"
           },
           "correct": "C",
@@ -324,8 +324,8 @@
           "number": null,
           "difficulty": "3pkt",
           "topic": "geometria_przestrzenna",
-          "subtopic": "sasiednia sciana",
-          "statement": "W siatce sasiednia sciana to:",
+          "subtopic": "sąsiednia sciana",
+          "statement": "W siatce sąsiednia sciana to:",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -346,7 +346,7 @@
           "difficulty": "3pkt",
           "topic": "geometria_przestrzenna",
           "subtopic": "ile siatek szescianu",
-          "statement": "Ile jest roznych siatek szescianu (z dokladnoscia do obrotu)?",
+          "statement": "Ile jest różnych siatek szescianu (z dokladnoscia do obrotu)?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -369,12 +369,12 @@
           "difficulty": "4pkt",
           "topic": "geometria_przestrzenna",
           "subtopic": "przeciwlegle w siatce",
-          "statement": "W siatce krzyzowej (4 w rzedzie + 1 gora + 1 dol) sciany srodkowe rzedu (2 i 4 z lewa) sa naprzeciw siebie?",
+          "statement": "W siatce krzyzowej (4 w rzedzie + 1 góra + 1 dół) ściany srodkowe rzedu (2 i 4 z lewa) sa naprzeciw siebie?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
             "A": "Tak",
-            "B": "Nie - sa sasiednie",
+            "B": "Nie - sa sąsiednie",
             "C": "Sa identyczne",
             "D": "Nie da sie zlozyc",
             "E": "Sa po przekatnej"
@@ -410,7 +410,7 @@
           "observation": "Siatka szescianu zlozona daje szescian.",
           "strategy": "Definicja siatki.",
           "steps": [
-            "Siatka szescianu to plaski zarys, ktory po zlozeniu daje szescian"
+            "Siatka szescianu to plaski zarys, który po zlozeniu daje szescian"
           ],
           "answer": "B",
           "alternative": null,
@@ -430,43 +430,43 @@
         },
         {
           "problemId": "gen-l25-v2-w3",
-          "observation": "Siatka - 6 kwadratow polaczonych krawedziami.",
+          "observation": "Siatka - 6 kwadratów polaczonych krawedziami.",
           "strategy": "Definicja.",
           "steps": [
-            "Siatka to 6 kwadratow, kazda para sasiednich ma wspolna krawedz w siatce"
+            "Siatka to 6 kwadratów, każda para sasiednich ma wspolna krawedz w siatce"
           ],
           "answer": "C",
           "alternative": null,
-          "hint": "Siatka - 6 kwadratow polaczonych krawedziami."
+          "hint": "Siatka - 6 kwadratów polaczonych krawedziami."
         },
         {
           "problemId": "gen-l25-v2-w4",
-          "observation": "Sasiednie - stykaja sie krawedzia.",
+          "observation": "Sąsiednie - stykaja sie krawedzia.",
           "strategy": "Sasiedztwo w siatce.",
           "steps": [
-            "Sasiednie sciany w siatce maja wspolna krawedz"
+            "Sąsiednie ściany w siatce maja wspolna krawedz"
           ],
           "answer": "A",
           "alternative": null,
-          "hint": "Sasiednie - stykaja sie krawedzia."
+          "hint": "Sąsiednie - stykaja sie krawedzia."
         },
         {
           "problemId": "gen-l25-v2-w5",
-          "observation": "Jest 11 roznych siatek szescianu.",
+          "observation": "Jest 11 różnych siatek szescianu.",
           "strategy": "Liczba siatek.",
           "steps": [
-            "Z dokladnoscia do obrotow i odbic jest 11 roznych siatek szescianu"
+            "Z dokladnoscia do obrotow i odbic jest 11 różnych siatek szescianu"
           ],
           "answer": "D",
           "alternative": null,
-          "hint": "Jest 11 roznych siatek szescianu."
+          "hint": "Jest 11 różnych siatek szescianu."
         },
         {
           "problemId": "gen-l25-v2-c1",
           "observation": "W krzyzu 2 i 4 sa naprzeciw siebie po zlozeniu.",
           "strategy": "Identyfikacja przeciwleglych.",
           "steps": [
-            "W siatce krzyzowej (4 w rzedzie) sciany na pozycjach 2 i 4 staja sie przeciwlegle po zlozeniu"
+            "W siatce krzyzowej (4 w rzedzie) ściany na pozycjach 2 i 4 staja sie przeciwlegle po zlozeniu"
           ],
           "answer": "A",
           "alternative": null,
@@ -474,39 +474,39 @@
         },
         {
           "problemId": "gen-l25-v2-c2",
-          "observation": "Polozenie 2 dodatkowych kwadratow decyduje.",
+          "observation": "Polozenie 2 dodatkowych kwadratów decyduje.",
           "strategy": "Sprawdzenie konkretnej konfiguracji.",
           "steps": [
             "Czesc konfiguracji 4+2 daje siatke, czesc nie",
-            "Zalezy od polozenia 2 dodatkowych kwadratow"
+            "Zalezy od polozenia 2 dodatkowych kwadratów"
           ],
           "answer": "B",
           "alternative": null,
-          "hint": "Polozenie 2 dodatkowych kwadratow decyduje."
+          "hint": "Polozenie 2 dodatkowych kwadratów decyduje."
         }
       ]
     }
   ],
   "quiz": [
     {
-      "q": "Ile kwadratow ma siatka szescianu?",
+      "q": "Ile kwadratów ma siatka szescianu?",
       "choices": {
         "A": "4",
         "B": "6",
         "C": "8"
       },
       "correct": "B",
-      "explain": "Szescian ma 6 scian - siatka tez ma 6 kwadratow."
+      "explain": "Szescian ma 6 scian - siatka też ma 6 kwadratów."
     },
     {
-      "q": "Ile jest roznych siatek szescianu?",
+      "q": "Ile jest różnych siatek szescianu?",
       "choices": {
         "A": "6",
         "B": "11",
         "C": "24"
       },
       "correct": "B",
-      "explain": "Z dokladnoscia do obrotu i odbicia - 11 roznych siatek."
+      "explain": "Z dokladnoscia do obrotu i odbicia - 11 różnych siatek."
     },
     {
       "q": "Skladajac siatke szescianu sklejasz:",

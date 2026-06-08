@@ -7,9 +7,9 @@
   "topic": "lamiglowki",
   "estimatedMinutes": 35,
   "theory": {
-    "intro": "Pierwsza polowa pelnego konkursu Kangur Maluch: 12 zadan, 35 minut. Zadania 1-8 za 3 punkty, 9-12 za 4 punkty. To trening pod presja czasu. Nie sprawdzaj odpowiedzi po kazdym zadaniu - rozwiazuj cala czesc, potem sprawdz.",
+    "intro": "Pierwsza połowa pelnego konkursu Kangur Maluch: 12 zadan, 35 minut. Zadania 1-8 za 3 punkty, 9-12 za 4 punkty. To trening pod presja czasu. Nie sprawdzaj odpowiedzi po każdym zadaniu - rozwiazuj cala czesc, potem sprawdz.",
     "tool": "Sztuczka 1: ZARZADZAJ CZASEM. 35 min na 12 zadan = ~3 min na zadanie. Latwiejsze (3pkt) szybciej, na 4pkt mozesz wiecej.\n\nSztuczka 2: NIE UTKNIJ. Jezeli nie wiesz po 3 min - pomiń, idź dalej. Wrocisz na koncu.\n\nSztuczka 3: ZAZNACZAJ OPCJE. Lekko zaznaczaj 'mozliwe' i 'eliminuj'. Latwiej wrocic.\n\nSztuczka 4: SPRAWDZAJ KAZDA ODPOWIEDZ. Po wyborze ABCDE - spojrz jeszcze raz na zadanie. Czy odpowiadasz na to, o co pytaja?",
-    "trick": "W konkursie liczy sie kazda sekunda. Trenuj rozpoznawanie 'typowych' zadan Kangurka - jezeli widzisz cos podobnego do tego, co juz robiles, masz przewage. Symulacja to wlasnie ten trening."
+    "trick": "W konkursie liczy sie każda sekunda. Trenuj rozpoznawanie 'typowych' zadan Kangurka - jeżeli widzisz cos podobnego do tego, co juz robiles, masz przewage. Symulacja to właśnie ten trening."
   },
   "versions": [
     {
@@ -24,7 +24,7 @@
           "difficulty": "3pkt",
           "topic": "logika",
           "subtopic": "zliczanie unikalnych liter",
-          "statement": "Bartek napisal na kartce slowo MATEMATYKA. Rozne litery napisal roznymi kolorami, zas te same litery tym samym kolorem. Ilu roznych kolorow uzyl?",
+          "statement": "Bartek napisał na kartce słowo MATEMATYKA. Różne litery napisał różnymi kolorami, zaś te same litery tym samym kolorem. Ilu różnych kolorów użył?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -45,7 +45,7 @@
           "difficulty": "3pkt",
           "topic": "logika",
           "subtopic": "zamalowanie pol w tabeli",
-          "statement": "W tabeli 4x4 Iza zaciemnila pola: a2, b1, b2, b3, b4, c3, d3 i d4. Ktory z ponizszych obrazkow otrzymala Iza?",
+          "statement": "W przedstawionej obok tabeli Iza zaciemniła ołówkiem pola: a2, b1, b2, b3, b4, c3, d3 i d4. Który z poniższych obrazków otrzymała Iza? a b c d 1 2 3 4",
           "hasImage": true,
           "imageNote": "Tabela 4x4 z zaczernionymi polami.",
           "choices": {
@@ -66,7 +66,7 @@
           "difficulty": "3pkt",
           "topic": "logika",
           "subtopic": "proste odejmowanie z opowiesci",
-          "statement": "Pietnascioro dzieci bawi sie w chowanego. Jedno z nich, Klaudia, szuka pozostalych dzieci. Po pewnym czasie Klaudia znalazla dziesiecioro swoich kolegow. Ile dzieci nie zostalo jeszcze znalezionych?",
+          "statement": "Piętnaścioro dzieci bawi się w chowanego. Jedno z nich, Klaudia, szuka pozostałych dzieci. Po pewnym czasie Klaudia znalazła dziesięcioro swoich kolegów. Ile dzieci nie zostało jeszcze znalezio- nych?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -87,7 +87,7 @@
           "difficulty": "3pkt",
           "topic": "arytmetyka",
           "subtopic": "sekwencja dzialan na chmurkach",
-          "statement": "Pod chmurkami kryja sie liczby. Start: 2, potem -0, potem +1, potem razy 5. Jaka liczba kryje sie pod ostatnia chmurka ze znakiem zapytania?",
+          "statement": "Pod szarymi chmurkami kryją się liczby. Jaka liczba ukrywa się pod chmurką oznaczoną znakiem zapytania? 2 ? −0 + 1 · 5",
           "hasImage": true,
           "imageNote": "Lancuch chmurek z dzialaniami: 2, -0, +1, razy 5, ?.",
           "choices": {
@@ -107,10 +107,10 @@
           "number": 2,
           "difficulty": "3pkt",
           "topic": "geometria_plaska",
-          "subtopic": "porownanie dlugosci paskow",
-          "statement": "Stas mial 10 jednakowych blaszanych paskow. Polaczyl je po dwa i otrzymal 5 dluzszych paskow. Ktory z otrzymanych paskow jest najdluzszy?",
+          "subtopic": "porownanie długości paskow",
+          "statement": "Staś miał 10 jednakowych blaszanych pasków (rysunek 1). Połączył je po dwa i otrzymał 5 dłuższych pasków (rysunek 2). Który z tych pasków jest najdłuższy? Rysunek 1. Rysunek 2.",
           "hasImage": true,
-          "imageNote": "10 paskow polaczonych w 5, oznaczonych A-E, o roznych dlugosciach nakladania.",
+          "imageNote": "10 paskow polaczonych w 5, oznaczonych A-E, o różnych dlugosciach nakladania.",
           "choices": {
             "A": "A",
             "B": "B",
@@ -129,7 +129,7 @@
           "difficulty": "3pkt",
           "topic": "arytmetyka",
           "subtopic": "porownanie ilorazow",
-          "statement": "Ktory z ponizszych ilorazow jest najwiekszy: A) (1000-100):10, B) (1000-10):9, C) (1000-1):9, D) (1000-100):9, E) (1000-10):10?",
+          "statement": "Który z poniższych ilorazów jest największy?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -150,7 +150,7 @@
           "difficulty": "3pkt",
           "topic": "arytmetyka",
           "subtopic": "iloczyn i suma cyfr",
-          "statement": "Iloczyn cyfr pewnej liczby dwucyfrowej jest rowny 15. Ile wynosi suma cyfr tej liczby?",
+          "statement": "Iloczyn cyfr pewnej liczby dwucyfrowej jest równy 15. Ile jest równa suma cyfr tej liczby?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -171,9 +171,9 @@
           "difficulty": "3pkt",
           "topic": "logika",
           "subtopic": "liczenie obiektow w obszarze",
-          "statement": "Rysunek przedstawia wyspe o zawiłej linii brzegowej z palma i zabami. Ile zab siedzi NA wyspie (a nie w wodzie)?",
+          "statement": "Rysunek obok przedstawia wyspę o bardzo zawiłej linii brzegowej z rosnącą na niej palmą oraz żaby. Ile z tych żab siedzi na wyspie?",
           "hasImage": true,
-          "imageNote": "Wyspa o nieregularnym ksztalcie z zabami w roznych miejscach.",
+          "imageNote": "Wyspa o nieregularnym ksztalcie z zabami w różnych miejscach.",
           "choices": {
             "A": "4",
             "B": "6",
@@ -194,7 +194,7 @@
           "difficulty": "4pkt",
           "topic": "logika",
           "subtopic": "zbiory - czesc wspolna",
-          "statement": "Kazdy z 30 uczniow uczy sie angielskiego lub niemieckiego. Niemieckiego uczy sie 15, angielskiego 20. Ilu uczniow uczy sie OBU jezykow?",
+          "statement": "Każdy uczeń 30-osobowej klasy uczy się przynajmniej jednego z dwóch języków: angielskiego lub niemieckiego. Języka niemieckiego uczy się 15 z nich, a angielskiego 20. Ilu uczniów uczy się obu tych języków?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -215,7 +215,7 @@
           "difficulty": "4pkt",
           "topic": "arytmetyka",
           "subtopic": "podzielnosc przez cyfre jednosci",
-          "statement": "Liczba jest 'ciekawa', gdy dzieli sie przez swoja cyfre jednosci (np. 35 dzieli sie przez 5). Ile ciekawych liczb jest wiekszych od 21 i mniejszych od 30?",
+          "statement": "Liczbę nazwiemy ciekawą, gdy dzieli się ona przez swoją cyfrę jedności. Na przykład liczba 35 jest ciekawa, gdyż 35 dzieli się przez 5, a liczba 38 nie jest ciekawa, gdyż 38 nie dzieli się przez 8. Ile jest ciekawych liczb, które są większe od 21 i mniejsze od 30?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -236,7 +236,7 @@
           "difficulty": "4pkt",
           "topic": "logika",
           "subtopic": "minimalna liczba zamian liter",
-          "statement": "Karty z literami ulozone: O A A R G O N K. W jednym ruchu zamienia sie miejscami dwie karty. Ile co najmniej ruchow, by otrzymac slowo KANGAROO?",
+          "statement": "Ewa ułożyła karty z literami w następujący sposób: A A G K N O O R . W każdym ruchu Ewa może zamienić miejscami dwie dowolne karty. Jaka jest najmniejsza liczba ruchów, jakie musi ona wykonać, aby z podanego ułożenia otrzymać angielskie słowo KANGAROO?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -257,7 +257,7 @@
           "difficulty": "4pkt",
           "topic": "logika",
           "subtopic": "miejsce w biegu z warunkiem",
-          "statement": "Bieg ukonczylo 10 zawodnikow. Przed Frankiem przybieglo o 3 zawodnikow mniej niz za nim. Ktore miejsce zajal Franek?",
+          "statement": "Szkolny bieg na 1500 m ukończyło 10 zawodników. Przed Frankiem przybiegło o 3 zawodników mniej niż za nim. Które miejsce w biegu zajął Franek?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -274,7 +274,7 @@
       "solutions": [
         {
           "problemId": "kangur-maluch-2012-1",
-          "observation": "Slowo MATEMATYKA: M, A, T, E, Y, K (M i A powtarzaja sie).",
+          "observation": "Slowo Matematyka: M, A, T, E, Y, K (M i A powtarzaja sie).",
           "strategy": "Lista unikalnych liter.",
           "steps": [
             "Litery: M, A, T, E, M, A, T, Y, K, A.",
@@ -283,7 +283,7 @@
           ],
           "answer": "A",
           "alternative": null,
-          "hint": "MATEMATYKA - policz unikalne litery."
+          "hint": "Matematyka - policz unikalne litery."
         },
         {
           "problemId": "kangur-maluch-2012-4",
@@ -303,11 +303,11 @@
           "steps": [
             "Sie chowa: 15 - 1 = 14.",
             "Znaleziono: 10.",
-            "Zostalo: 14 - 10 = 4."
+            "Zostało: 14 - 10 = 4."
           ],
           "answer": "B",
           "alternative": null,
-          "hint": "15 dzieci, 1 szuka, 14 sie chowa. Znalazlo 10 - zostalo 4."
+          "hint": "15 dzieci, 1 szuka, 14 sie chowa. Znalazlo 10 - zostało 4."
         },
         {
           "problemId": "kangur-maluch-2015-1",
@@ -325,13 +325,13 @@
         {
           "problemId": "kangur-maluch-2015-2",
           "observation": "10 paskow jednakowych polaczonych po 2.",
-          "strategy": "Jezeli wszystkie jednakowe, wszystkie polaczone sa rowne.",
+          "strategy": "Jeżeli wszystkie jednakowe, wszystkie polaczone sa równe.",
           "steps": [
             "Z analizy obrazka odpowiedz: pasek B."
           ],
           "answer": "B",
           "alternative": null,
-          "hint": "Najdluzszy = polaczone 2 najdluzsze paski. Jednak wszystkie rowne."
+          "hint": "Najdluzszy = polaczone 2 najdluzsze paski. Jednak wszystkie równe."
         },
         {
           "problemId": "kangur-maluch-2015-4",
@@ -386,8 +386,8 @@
         },
         {
           "problemId": "kangur-maluch-2013-14",
-          "observation": "22-29: ktore dzielca sie przez ostatnia cyfre.",
-          "strategy": "Dla kazdej liczby sprawdz dzielnosc.",
+          "observation": "22-29: które dzielca sie przez ostatnia cyfre.",
+          "strategy": "Dla każdej liczby sprawdz dzielnosc.",
           "steps": [
             "22: dzieli sie przez 2? TAK (22/2=11).",
             "23: przez 3? Nie (23/3 = 7r2).",
@@ -406,7 +406,7 @@
         {
           "problemId": "kangur-maluch-2014-9",
           "observation": "O A A R G O N K (8 kart) -> K A N G A R O O.",
-          "strategy": "Minimum zamian dwoch kart.",
+          "strategy": "Minimum zamian dwóch kart.",
           "steps": [
             "Pozycje 1-8: O,A,A,R,G,O,N,K -> K,A,N,G,A,R,O,O.",
             "Roznice: poz 1 (O->K), poz 3 (A->N), poz 4 (R->G), poz 5 (G->A), poz 7 (N->O).",
@@ -446,7 +446,7 @@
           "difficulty": "3pkt",
           "topic": "logika",
           "subtopic": "zliczanie unikalnych liter",
-          "statement": "Bartek napisal na kartce slowo MATEMATYKA. Rozne litery napisal roznymi kolorami, zas te same litery tym samym kolorem. Ilu roznych kolorow uzyl?",
+          "statement": "Bartek napisał na kartce słowo MATEMATYKA. Różne litery napisał różnymi kolorami, zaś te same litery tym samym kolorem. Ilu różnych kolorów użył?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -467,7 +467,7 @@
           "difficulty": "3pkt",
           "topic": "logika",
           "subtopic": "zamalowanie pol w tabeli",
-          "statement": "W tabeli 4x4 Iza zaciemnila pola: a2, b1, b2, b3, b4, c3, d3 i d4. Ktory z ponizszych obrazkow otrzymala Iza?",
+          "statement": "W przedstawionej obok tabeli Iza zaciemniła ołówkiem pola: a2, b1, b2, b3, b4, c3, d3 i d4. Który z poniższych obrazków otrzymała Iza? a b c d 1 2 3 4",
           "hasImage": true,
           "imageNote": "Tabela 4x4 z zaczernionymi polami.",
           "choices": {
@@ -488,7 +488,7 @@
           "difficulty": "3pkt",
           "topic": "logika",
           "subtopic": "proste odejmowanie z opowiesci",
-          "statement": "Pietnascioro dzieci bawi sie w chowanego. Jedno z nich, Klaudia, szuka pozostalych dzieci. Po pewnym czasie Klaudia znalazla dziesiecioro swoich kolegow. Ile dzieci nie zostalo jeszcze znalezionych?",
+          "statement": "Piętnaścioro dzieci bawi się w chowanego. Jedno z nich, Klaudia, szuka pozostałych dzieci. Po pewnym czasie Klaudia znalazła dziesięcioro swoich kolegów. Ile dzieci nie zostało jeszcze znalezio- nych?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -509,7 +509,7 @@
           "difficulty": "3pkt",
           "topic": "arytmetyka",
           "subtopic": "sekwencja dzialan na chmurkach",
-          "statement": "Pod chmurkami kryja sie liczby. Start: 2, potem -0, potem +1, potem razy 5. Jaka liczba kryje sie pod ostatnia chmurka ze znakiem zapytania?",
+          "statement": "Pod szarymi chmurkami kryją się liczby. Jaka liczba ukrywa się pod chmurką oznaczoną znakiem zapytania? 2 ? −0 + 1 · 5",
           "hasImage": true,
           "imageNote": "Lancuch chmurek z dzialaniami: 2, -0, +1, razy 5, ?.",
           "choices": {
@@ -529,10 +529,10 @@
           "number": 2,
           "difficulty": "3pkt",
           "topic": "geometria_plaska",
-          "subtopic": "porownanie dlugosci paskow",
-          "statement": "Stas mial 10 jednakowych blaszanych paskow. Polaczyl je po dwa i otrzymal 5 dluzszych paskow. Ktory z otrzymanych paskow jest najdluzszy?",
+          "subtopic": "porownanie długości paskow",
+          "statement": "Staś miał 10 jednakowych blaszanych pasków (rysunek 1). Połączył je po dwa i otrzymał 5 dłuższych pasków (rysunek 2). Który z tych pasków jest najdłuższy? Rysunek 1. Rysunek 2.",
           "hasImage": true,
-          "imageNote": "10 paskow polaczonych w 5, oznaczonych A-E, o roznych dlugosciach nakladania.",
+          "imageNote": "10 paskow polaczonych w 5, oznaczonych A-E, o różnych dlugosciach nakladania.",
           "choices": {
             "A": "A",
             "B": "B",
@@ -551,7 +551,7 @@
           "difficulty": "3pkt",
           "topic": "arytmetyka",
           "subtopic": "porownanie ilorazow",
-          "statement": "Ktory z ponizszych ilorazow jest najwiekszy: A) (1000-100):10, B) (1000-10):9, C) (1000-1):9, D) (1000-100):9, E) (1000-10):10?",
+          "statement": "Który z poniższych ilorazów jest największy?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -572,7 +572,7 @@
           "difficulty": "3pkt",
           "topic": "arytmetyka",
           "subtopic": "iloczyn i suma cyfr",
-          "statement": "Iloczyn cyfr pewnej liczby dwucyfrowej jest rowny 15. Ile wynosi suma cyfr tej liczby?",
+          "statement": "Iloczyn cyfr pewnej liczby dwucyfrowej jest równy 15. Ile jest równa suma cyfr tej liczby?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -593,9 +593,9 @@
           "difficulty": "3pkt",
           "topic": "logika",
           "subtopic": "liczenie obiektow w obszarze",
-          "statement": "Rysunek przedstawia wyspe o zawiłej linii brzegowej z palma i zabami. Ile zab siedzi NA wyspie (a nie w wodzie)?",
+          "statement": "Rysunek obok przedstawia wyspę o bardzo zawiłej linii brzegowej z rosnącą na niej palmą oraz żaby. Ile z tych żab siedzi na wyspie?",
           "hasImage": true,
-          "imageNote": "Wyspa o nieregularnym ksztalcie z zabami w roznych miejscach.",
+          "imageNote": "Wyspa o nieregularnym ksztalcie z zabami w różnych miejscach.",
           "choices": {
             "A": "4",
             "B": "6",
@@ -616,7 +616,7 @@
           "difficulty": "4pkt",
           "topic": "logika",
           "subtopic": "zbiory - czesc wspolna",
-          "statement": "Kazdy z 30 uczniow uczy sie angielskiego lub niemieckiego. Niemieckiego uczy sie 15, angielskiego 20. Ilu uczniow uczy sie OBU jezykow?",
+          "statement": "Każdy uczeń 30-osobowej klasy uczy się przynajmniej jednego z dwóch języków: angielskiego lub niemieckiego. Języka niemieckiego uczy się 15 z nich, a angielskiego 20. Ilu uczniów uczy się obu tych języków?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -637,7 +637,7 @@
           "difficulty": "4pkt",
           "topic": "arytmetyka",
           "subtopic": "podzielnosc przez cyfre jednosci",
-          "statement": "Liczba jest 'ciekawa', gdy dzieli sie przez swoja cyfre jednosci (np. 35 dzieli sie przez 5). Ile ciekawych liczb jest wiekszych od 21 i mniejszych od 30?",
+          "statement": "Liczbę nazwiemy ciekawą, gdy dzieli się ona przez swoją cyfrę jedności. Na przykład liczba 35 jest ciekawa, gdyż 35 dzieli się przez 5, a liczba 38 nie jest ciekawa, gdyż 38 nie dzieli się przez 8. Ile jest ciekawych liczb, które są większe od 21 i mniejsze od 30?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -658,7 +658,7 @@
           "difficulty": "4pkt",
           "topic": "logika",
           "subtopic": "minimalna liczba zamian liter",
-          "statement": "Karty z literami ulozone: O A A R G O N K. W jednym ruchu zamienia sie miejscami dwie karty. Ile co najmniej ruchow, by otrzymac slowo KANGAROO?",
+          "statement": "Ewa ułożyła karty z literami w następujący sposób: A A G K N O O R . W każdym ruchu Ewa może zamienić miejscami dwie dowolne karty. Jaka jest najmniejsza liczba ruchów, jakie musi ona wykonać, aby z podanego ułożenia otrzymać angielskie słowo KANGAROO?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -679,7 +679,7 @@
           "difficulty": "4pkt",
           "topic": "logika",
           "subtopic": "miejsce w biegu z warunkiem",
-          "statement": "Bieg ukonczylo 10 zawodnikow. Przed Frankiem przybieglo o 3 zawodnikow mniej niz za nim. Ktore miejsce zajal Franek?",
+          "statement": "Szkolny bieg na 1500 m ukończyło 10 zawodników. Przed Frankiem przybiegło o 3 zawodników mniej niż za nim. Które miejsce w biegu zajął Franek?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -696,7 +696,7 @@
       "solutions": [
         {
           "problemId": "kangur-maluch-2012-1",
-          "observation": "Slowo MATEMATYKA: M, A, T, E, Y, K (M i A powtarzaja sie).",
+          "observation": "Slowo Matematyka: M, A, T, E, Y, K (M i A powtarzaja sie).",
           "strategy": "Lista unikalnych liter.",
           "steps": [
             "Litery: M, A, T, E, M, A, T, Y, K, A.",
@@ -705,7 +705,7 @@
           ],
           "answer": "A",
           "alternative": null,
-          "hint": "MATEMATYKA - policz unikalne litery."
+          "hint": "Matematyka - policz unikalne litery."
         },
         {
           "problemId": "kangur-maluch-2012-4",
@@ -725,11 +725,11 @@
           "steps": [
             "Sie chowa: 15 - 1 = 14.",
             "Znaleziono: 10.",
-            "Zostalo: 14 - 10 = 4."
+            "Zostało: 14 - 10 = 4."
           ],
           "answer": "B",
           "alternative": null,
-          "hint": "15 dzieci, 1 szuka, 14 sie chowa. Znalazlo 10 - zostalo 4."
+          "hint": "15 dzieci, 1 szuka, 14 sie chowa. Znalazlo 10 - zostało 4."
         },
         {
           "problemId": "kangur-maluch-2015-1",
@@ -747,13 +747,13 @@
         {
           "problemId": "kangur-maluch-2015-2",
           "observation": "10 paskow jednakowych polaczonych po 2.",
-          "strategy": "Jezeli wszystkie jednakowe, wszystkie polaczone sa rowne.",
+          "strategy": "Jeżeli wszystkie jednakowe, wszystkie polaczone sa równe.",
           "steps": [
             "Z analizy obrazka odpowiedz: pasek B."
           ],
           "answer": "B",
           "alternative": null,
-          "hint": "Najdluzszy = polaczone 2 najdluzsze paski. Jednak wszystkie rowne."
+          "hint": "Najdluzszy = polaczone 2 najdluzsze paski. Jednak wszystkie równe."
         },
         {
           "problemId": "kangur-maluch-2015-4",
@@ -808,8 +808,8 @@
         },
         {
           "problemId": "kangur-maluch-2013-14",
-          "observation": "22-29: ktore dzielca sie przez ostatnia cyfre.",
-          "strategy": "Dla kazdej liczby sprawdz dzielnosc.",
+          "observation": "22-29: które dzielca sie przez ostatnia cyfre.",
+          "strategy": "Dla każdej liczby sprawdz dzielnosc.",
           "steps": [
             "22: dzieli sie przez 2? TAK (22/2=11).",
             "23: przez 3? Nie (23/3 = 7r2).",
@@ -828,7 +828,7 @@
         {
           "problemId": "kangur-maluch-2014-9",
           "observation": "O A A R G O N K (8 kart) -> K A N G A R O O.",
-          "strategy": "Minimum zamian dwoch kart.",
+          "strategy": "Minimum zamian dwóch kart.",
           "steps": [
             "Pozycje 1-8: O,A,A,R,G,O,N,K -> K,A,N,G,A,R,O,O.",
             "Roznice: poz 1 (O->K), poz 3 (A->N), poz 4 (R->G), poz 5 (G->A), poz 7 (N->O).",
@@ -859,14 +859,14 @@
   ],
   "quiz": [
     {
-      "q": "Ile zadan w pierwszej polowie konkursu?",
+      "q": "Ile zadan w pierwszej połowie konkursu?",
       "choices": {
         "A": "10",
         "B": "12",
         "C": "24"
       },
       "correct": "B",
-      "explain": "Polowa z 24 zadan = 12."
+      "explain": "Połowa z 24 zadan = 12."
     },
     {
       "q": "Ile czasu na 1 zadanie srednio?",
@@ -882,7 +882,7 @@
       "q": "Co robic gdy utkniesz?",
       "choices": {
         "A": "Pomiń, wroc pozniej",
-        "B": "Siedziec az do konca",
+        "B": "Siedziec aż do końca",
         "C": "Zostawic"
       },
       "correct": "A",

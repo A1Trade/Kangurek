@@ -7,9 +7,9 @@
   "topic": "geometria_plaska",
   "estimatedMinutes": 15,
   "theory": {
-    "intro": "Cztery boki - i juz mamy czworokat. Kwadrat ma wszystkie boki rowne i wszystkie katy proste. Prostokat ma katy proste, ale boki parami rowne. Trapez ma jedna pare bokow rownoleglych. Czworokaty sa wszedzie: kartka, okno, stol, ekran.",
-    "tool": "Sztuczka 1: KWADRAT TO SZCZEGOLNY PROSTOKAT. Kwadrat ma wszystko co prostokat (4 katy proste) plus wszystkie boki rowne. Kazdy kwadrat jest prostokatem, ale nie odwrotnie.\n\nSztuczka 2: SKLADANIE FIGUR. Dwa jednakowe trojkaty prostokatne moga utworzyc kwadrat lub prostokat. Dwa kwadraty obok siebie - prostokat. Cwicz rozkladanie i skladanie.\n\nSztuczka 3: PRZECIWLEGLE BOKI. W prostokacie i kwadracie przeciwlegle boki sa rowne. Znajac dwa sasiednie boki, znasz wszystkie cztery.",
-    "trick": "Kangur czesto pyta o skladanie kwadratu z czesci. Pamietaj: pole sie nie zmienia przy ukladaniu. Jezeli kawalki maja lacznie 16 kratek, zlozony kwadrat ma bok 4 (bo 4 razy 4 = 16). Liczba kratek zdradza bok."
+    "intro": "Cztery boki - i juz mamy czworokat. Kwadrat ma wszystkie boki równe i wszystkie katy proste. Prostokat ma katy proste, ale boki parami równe. Trapez ma jedna pare bokow rownoleglych. Czworokaty sa wszedzie: kartka, okno, stół, ekran.",
+    "tool": "Sztuczka 1: Kwadrat TO SZCZEGOLNY PROSTOKAT. Kwadrat ma wszystko co prostokat (4 katy proste) plus wszystkie boki równe. Każdy kwadrat jest prostokatem, ale nie odwrotnie.\n\nSztuczka 2: SKLADANIE FIGUR. Dwa jednakowe trójkąty prostokatne mogą utworzyc kwadrat lub prostokat. Dwa kwadraty obok siebie - prostokat. Cwicz rozkladanie i skladanie.\n\nSztuczka 3: PRZECIWLEGLE BOKI. W prostokacie i kwadracie przeciwlegle boki sa równe. Znajac dwa sąsiednie boki, znasz wszystkie cztery.",
+    "trick": "Kangur czesto pyta o skladanie kwadratu z czesci. Pamietaj: pole sie nie zmienia przy ukladaniu. Jeżeli kawalki maja łącznie 16 kratek, zlozony kwadrat ma bok 4 (bo 4 razy 4 = 16). Liczba kratek zdradza bok."
   },
   "versions": [
     {
@@ -24,7 +24,7 @@
           "difficulty": "3pkt",
           "topic": "geometria_plaska",
           "subtopic": "wlasnosci kwadratu",
-          "statement": "Kwadrat ma wszystkie boki rowne i wszystkie katy:",
+          "statement": "Kwadrat ma wszystkie boki równe i wszystkie katy:",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -32,7 +32,7 @@
             "B": "Proste",
             "C": "Rozwarte",
             "D": "Polpelne",
-            "E": "Rozne"
+            "E": "Różne"
           },
           "correct": "B",
           "imageSrc": null
@@ -49,11 +49,11 @@
           "hasImage": false,
           "imageNote": null,
           "choices": {
-            "A": "Rozne",
-            "B": "Rowne",
-            "C": "Zawsze dluzsze",
+            "A": "Różne",
+            "B": "Równe",
+            "C": "Zawsze dłuższe",
             "D": "Zakrzywione",
-            "E": "Krotsze"
+            "E": "Krótsze"
           },
           "correct": "B",
           "imageSrc": null
@@ -66,7 +66,7 @@
           "difficulty": "3pkt",
           "topic": "geometria_plaska",
           "subtopic": "liczba bokow czworokata",
-          "statement": "Ile bokow ma kazdy czworokat?",
+          "statement": "Ile bokow ma każdy czworokat?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -86,10 +86,10 @@
           "number": 4,
           "difficulty": "3pkt",
           "topic": "geometria_plaska",
-          "subtopic": "zlozenie kwadratu z dwoch kartonikow",
-          "statement": "Helenka ma 4 kartoniki. Z ktorych dwoch moze ulozyc pokazany kwadrat, tak by kartoniki nie zachodzily na siebie?",
+          "subtopic": "zlozenie kwadratu z dwóch kartonikow",
+          "statement": "Helenka ma cztery kartoniki: 1 2 3 4 Z których dwóch może tak ułożyć pokazany kwadrat, aby kartoniki nie zachodziły na siebie?",
           "hasImage": true,
-          "imageNote": "Cztery kartoniki o roznych ksztaltach.",
+          "imageNote": "Cztery kartoniki o różnych ksztaltach.",
           "choices": {
             "A": "Z 1 i 2",
             "B": "Z 1 i 3",
@@ -108,7 +108,7 @@
           "difficulty": "4pkt",
           "topic": "geometria_plaska",
           "subtopic": "kwadrat z prostokatnych kartonikow - czwarta czesc",
-          "statement": "Z 4 prostokatnych kartonikow Faustyna zbudowala kwadrat. 3 sa pokazane na obrazku. Ktory z ponizszych kartonikow moze byc czwarta czescia tego kwadratu?",
+          "statement": "Z 4 prostokatnych kartonikow Faustyna zbudowala kwadrat. 3 sa pokazane na obrazku. Który z ponizszych kartonikow może byc czwarta czescia tego kwadratu?",
           "hasImage": true,
           "imageNote": "3 prostokatne kartoniki w kwadracie + 5 wariantow 4. czesci.",
           "choices": {
@@ -131,9 +131,9 @@
           "difficulty": "4pkt",
           "topic": "geometria_plaska",
           "subtopic": "podzial figury na czesci",
-          "statement": "Zosia pocieła kartke na dwa rodzaje kawalkow (kwadrat 2x2 i polkwadrat - trapez). Ilu takich kawalkow potrzebuje, by ulozyc figure ksztaltu lodki?",
+          "statement": "Zosia pocięła kartkę w kratkę na dwa rodzaje kawałków: Ilu takich kawałków potrzebuje, by ułożyć z nich ﬁgurę pokazaną na rysunku obok? (Kawałki papieru nie mogą na siebie nachodzić).",
           "hasImage": true,
-          "imageNote": "Dwa rodzaje kawalkow: kwadrat 2x2 i trapez z polowy kwadratu. Figura - lodka.",
+          "imageNote": "Dwa rodzaje kawalkow: kwadrat 2x2 i trapez z połowy kwadratu. Figura - lodka.",
           "choices": {
             "A": "5",
             "B": "6",
@@ -152,7 +152,7 @@
           "difficulty": "4pkt",
           "topic": "geometria_plaska",
           "subtopic": "dopasowanie kawalka ukladanki",
-          "statement": "Ktory z 5 kawalkow ukladanki pasuje do narysowanego tak, by razem utworzyly prostokat?",
+          "statement": "Który z poniższych kawałków układanki pasuje do narysowanego obok, tak aby dało się złożyć z nich prostokąt?",
           "hasImage": true,
           "imageNote": "Czarny kawalek ukladanki i 5 wariantow drugiego kawalka.",
           "choices": {
@@ -169,32 +169,32 @@
       "solutions": [
         {
           "problemId": "gen-l17-v1-w1",
-          "observation": "Kwadrat - rowne boki, kat prosty.",
+          "observation": "Kwadrat - równe boki, kat prosty.",
           "strategy": "Wlasnosci kwadratu.",
           "steps": [
             "Kwadrat ma 4 katy proste"
           ],
           "answer": "B",
           "alternative": null,
-          "hint": "Kwadrat - rowne boki, kat prosty."
+          "hint": "Kwadrat - równe boki, kat prosty."
         },
         {
           "problemId": "gen-l17-v1-w2",
-          "observation": "Przeciwlegle boki prostokata sa rowne.",
+          "observation": "Przeciwlegle boki prostokata sa równe.",
           "strategy": "Wlasnosci prostokata.",
           "steps": [
-            "W prostokacie przeciwlegle boki maja te sama dlugosc"
+            "W prostokacie przeciwlegle boki maja te sama długość"
           ],
           "answer": "B",
           "alternative": null,
-          "hint": "Przeciwlegle boki prostokata sa rowne."
+          "hint": "Przeciwlegle boki prostokata sa równe."
         },
         {
           "problemId": "gen-l17-v1-w3",
           "observation": "Czworokat - cztery boki.",
           "strategy": "Liczba bokow.",
           "steps": [
-            "Kazdy czworokat ma 4 boki"
+            "Każdy czworokat ma 4 boki"
           ],
           "answer": "B",
           "alternative": null,
@@ -202,15 +202,15 @@
         },
         {
           "problemId": "kangur-maluch-2023-4",
-          "observation": "Skladamy kwadrat z dwoch kartonikow.",
+          "observation": "Skladamy kwadrat z dwóch kartonikow.",
           "strategy": "Dopasowanie ksztaltow.",
           "steps": [
-            "Dwa kartoniki musza sie uzupelnic w kwadrat bez nakladania",
+            "Dwa kartoniki muszą sie uzupelnic w kwadrat bez nakladania",
             "Pasuja kartoniki 2 i 4"
           ],
           "answer": "D",
           "alternative": null,
-          "hint": "Skladamy kwadrat z dwoch kartonikow."
+          "hint": "Skladamy kwadrat z dwóch kartonikow."
         },
         {
           "problemId": "kangur-maluch-2025-14",
@@ -229,7 +229,7 @@
           "observation": "Liczymy kawalki potrzebne do ulozenia figury.",
           "strategy": "Liczenie kawalkow.",
           "steps": [
-            "Figura lodki z dwoch rodzajow kawalkow",
+            "Figura lodki z dwóch rodzajow kawalkow",
             "Potrzeba 7 kawalkow"
           ],
           "answer": "C",
@@ -262,12 +262,12 @@
           "difficulty": "3pkt",
           "topic": "geometria_plaska",
           "subtopic": "kwadrat a prostokat",
-          "statement": "Ktore zdanie jest prawdziwe?",
+          "statement": "Które zdanie jest prawdziwe?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
-            "A": "Kazdy prostokat jest kwadratem",
-            "B": "Kazdy kwadrat jest prostokatem",
+            "A": "Każdy prostokat jest kwadratem",
+            "B": "Każdy kwadrat jest prostokatem",
             "C": "Kwadrat nie ma katow prostych",
             "D": "Prostokat ma 3 boki",
             "E": "Kwadrat ma 5 bokow"
@@ -283,15 +283,15 @@
           "difficulty": "3pkt",
           "topic": "geometria_plaska",
           "subtopic": "trapez",
-          "statement": "Trapez to czworokat, ktory ma:",
+          "statement": "Trapez to czworokat, który ma:",
           "hasImage": false,
           "imageNote": null,
           "choices": {
-            "A": "Wszystkie boki rowne",
+            "A": "Wszystkie boki równe",
             "B": "Jedna pare bokow rownoleglych",
             "C": "Trzy boki",
             "D": "Same katy ostre",
-            "E": "Piec wierzcholkow"
+            "E": "Pięć wierzcholkow"
           },
           "correct": "B",
           "imageSrc": null
@@ -325,9 +325,9 @@
           "difficulty": "3pkt",
           "topic": "geometria_plaska",
           "subtopic": "ukladanie figury z kartonikow",
-          "statement": "Franek mial 6 kartonikow (2 kola, 2 trojkaty, prostokat, kreska). Ulozyl z nich jedna z figur. Ktora?",
+          "statement": "Franek miał 6 kartoników — patrz rysunek obok. Ułożył z nich jedną z poniższych ﬁgur. Którą?",
           "hasImage": true,
-          "imageNote": "Szesc kartonikow i 5 figur do ulozenia.",
+          "imageNote": "Sześć kartonikow i 5 figur do ulozenia.",
           "choices": {
             "A": "figura A",
             "B": "figura B",
@@ -346,7 +346,7 @@
           "difficulty": "4pkt",
           "topic": "geometria_plaska",
           "subtopic": "ukladanie wzoru z pieciokatow",
-          "statement": "Zosia uklada wzor w ksztalcie korony z pieciokatnych kartonikow, stykajac trojkaty oznaczone tymi samymi liczbami. Jaka liczba bedzie w szarym trojkacie po skonczeniu wzoru?",
+          "statement": "Zosia ma dużo jednakowych pięciokątnych kartoników: 1 2 3 4 5 Układa z nich wzór w kształcie korony, tak aby kartoniki stykały się ze sobą bokami trójkątów oznaczonych takimi samymi licz- bami. Zosia ułożyła już 4 kartoniki. Jaka liczba będzie w szarym trójkącie, gdy Zosia skończy układać cały wzór?",
           "hasImage": true,
           "imageNote": "Pieciokatny kartonik z liczbami 1-5 w trojkatach i wzor korony.",
           "choices": {
@@ -368,10 +368,10 @@
           "number": 2,
           "difficulty": "3pkt",
           "topic": "geometria_plaska",
-          "subtopic": "rozpoznanie rownych pol",
-          "statement": "Marysia namalowala olowkiem piec obrazkow na bialych kwadratowych kartkach papieru. Tylko na jednym rysunku czesc zamalowana i czesc niezamalowana nie sa rowne. Na ktorym?",
+          "subtopic": "rozpoznanie równych pol",
+          "statement": "Marysia namalowała ołówkiem pięć obrazków na białych kwadratowych kartkach papieru. Tylko na jednym rysunku część zamalowana i część niezamalowana nie są równe. Na którym?",
           "hasImage": true,
-          "imageNote": "Piec kwadratowych obrazkow z roznymi wzorami zamalowania.",
+          "imageNote": "Pięć kwadratowych obrazków z roznymi wzorami zamalowania.",
           "choices": {
             "A": "obrazek A",
             "B": "obrazek B",
@@ -390,7 +390,7 @@
           "difficulty": "5pkt",
           "topic": "geometria_plaska",
           "subtopic": "bok kwadratu z liczby kratek",
-          "statement": "Z czesci o lacznie 36 kratkach ulozono kwadrat. Jaki bok ma ten kwadrat?",
+          "statement": "Z czesci o łącznie 36 kratkach ulozono kwadrat. Jaki bok ma ten kwadrat?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -407,15 +407,15 @@
       "solutions": [
         {
           "problemId": "gen-l17-v2-w1",
-          "observation": "Kwadrat ma wszystko co prostokat i wiecej.",
+          "observation": "Kwadrat ma wszystko co prostokat i więcej.",
           "strategy": "Zaleznosci figur.",
           "steps": [
             "Kwadrat ma 4 katy proste - jak prostokat",
-            "Kazdy kwadrat jest prostokatem"
+            "Każdy kwadrat jest prostokatem"
           ],
           "answer": "B",
           "alternative": null,
-          "hint": "Kwadrat ma wszystko co prostokat i wiecej."
+          "hint": "Kwadrat ma wszystko co prostokat i więcej."
         },
         {
           "problemId": "gen-l17-v2-w2",
@@ -444,7 +444,7 @@
           "observation": "Ukladamy figure z 6 kartonikow.",
           "strategy": "Sprawdzanie ulozenia.",
           "steps": [
-            "Szesc kartonikow tworzy jedna figure",
+            "Sześć kartonikow tworzy jedna figure",
             "Poprawna figura to D"
           ],
           "answer": "D",
@@ -457,7 +457,7 @@
           "strategy": "Sledzenie liczb na trojkatach.",
           "steps": [
             "Kartoniki stykaja sie trojkatami o tych samych liczbach",
-            "W szarym trojkacie wychodzi 2"
+            "W szarym trójkącie wychodzi 2"
           ],
           "answer": "B",
           "alternative": null,
@@ -468,8 +468,8 @@
           "observation": "Szukamy rysunku z nierownymi polami.",
           "strategy": "Porownanie pol zamalowanych.",
           "steps": [
-            "Na czterech rysunkach pola zamalowane i niezamalowane sa rowne",
-            "Na rysunku E nie sa rowne"
+            "Na czterech rysunkach pola zamalowane i niezamalowane sa równe",
+            "Na rysunku E nie sa równe"
           ],
           "answer": "E",
           "alternative": null,
@@ -500,10 +500,10 @@
           "number": 13,
           "difficulty": "4pkt",
           "topic": "geometria_plaska",
-          "subtopic": "rownosc plasterkow pizzy z roznych ciec",
+          "subtopic": "równość plasterkow pizzy z różnych ciec",
           "statement": "Wladek chce przeciac pizze na pol wzdluz jednej z pokazanych prostych. Chce tez, by liczba plasterkow pomidora na kazdej polowie byla taka sama. Zauwazyl, ze swoj zamiar moze zrealizowac na dwa sposoby. Wzdluz ktorych dwoch roznych prostych cieć mogłby to zrobić?",
           "hasImage": true,
-          "imageNote": "Okragla pizza z plasterkami pomidora i 4 prostymi cieciami oznaczonymi 1, 2, 3, 4.",
+          "imageNote": "Okrągła pizza z plasterkami pomidora i 4 prostymi cieciami oznaczonymi 1, 2, 3, 4.",
           "choices": {
             "A": "1 i 3",
             "B": "1 i 4",
@@ -519,24 +519,24 @@
       "solutions": [
         {
           "problemId": "kangur-maluch-2025-13",
-          "observation": "Pizza z plasterkami pomidora. Szukaj 2 prostych dzielacych pomidory na rowne polowy.",
-          "strategy": "Dla kazdej prostej policz pomidory po obu stronach.",
+          "observation": "Pizza z plasterkami pomidora. Szukaj 2 prostych dzielacych pomidory na równe połowy.",
+          "strategy": "Dla każdej prostej policz pomidory po obu stronach.",
           "steps": [
             "Proste sa ponumerowane 1, 2, 3, 4.",
-            "Sprawdz kazda proste: ile pomidorow po lewej, ile po prawej.",
-            "Tylko 2 proste dziela rowno - to proste 2 i 4.",
+            "Sprawdz każda proste: ile pomidorow po lewej, ile po prawej.",
+            "Tylko 2 proste dziela równo - to proste 2 i 4.",
             "Odpowiedz: 2 i 4."
           ],
           "answer": "D",
           "alternative": null,
-          "hint": "Sprawdz dla kazdej z 4 prostych: czy dzieli pomidory na rowne polowy?"
+          "hint": "Sprawdz dla każdej z 4 prostych: czy dzieli pomidory na równe połowy?"
         }
       ]
     }
   ],
   "quiz": [
     {
-      "q": "Czy kazdy kwadrat jest prostokatem?",
+      "q": "Czy każdy kwadrat jest prostokatem?",
       "choices": {
         "A": "Tak",
         "B": "Nie",

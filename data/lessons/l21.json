@@ -7,9 +7,9 @@
   "topic": "geometria_plaska",
   "estimatedMinutes": 16,
   "theory": {
-    "intro": "Tangram to starochinska ukladanka - z kilku prostych ksztaltow ukladasz zwierzeta, ludzi, domy. Geometria ukladanek uczy najwazniejszej rzeczy: jak rozkladac i skladac figury. To umiejetnosc, ktora rozwiazuje setki zadan Kangurka.",
-    "tool": "Sztuczka 1: POLE SIE NIE ZMIENIA. Gdy ukladasz figure z kawalkow, ich laczne pole jest zawsze takie samo. Jezeli kawalki maja 12 kratek, gotowa figura tez ma 12 kratek.\n\nSztuczka 2: OBRACAJ I ODBIJAJ W MYSLI. Kawalek mozna obrocic albo odbic, by pasowal. Wyobraz sobie, jak wyglada po obroceniu, zanim go 'polozysz'.\n\nSztuczka 3: ZACZNIJ OD NAJWIEKSZEGO KAWALKA. Ukladajac, najpierw umiesc najwiekszy element - on najbardziej ogranicza mozliwosci. Mniejsze dopasujesz wokol niego.\n\nSztuczka 4: LICZ KRATKI BRZEGOWE. Sprawdzajac, czy kawalek pasuje, policz kratki wzdluz krawedzi - musza sie zgadzac z luka, ktora wypelniasz.",
-    "trick": "Kangur stawia pulapki w zadaniach 'czy da sie ulozyc'. Sprawdz najpierw POLE - jezeli kawalki maja inne laczne pole niz figura docelowa, odpowiedz brzmi 'nie da sie' bez zadnego ukladania. Pole to pierwszy i najszybszy test."
+    "intro": "Tangram to starochinska ukladanka - z kilku prostych ksztaltow ukladasz zwierzęta, ludzi, domy. Geometria ukladanek uczy najwazniejszej rzeczy: jak rozkladac i skladac figury. To umiejetnosc, która rozwiazuje setki zadan Kangurka.",
+    "tool": "Sztuczka 1: POLE SIE NIE ZMIENIA. Gdy ukladasz figure z kawalkow, ich laczne pole jest zawsze takie samo. Jeżeli kawalki maja 12 kratek, gotowa figura też ma 12 kratek.\n\nSztuczka 2: OBRACAJ I ODBIJAJ W MYSLI. Kawalek można obrocic albo odbic, by pasowal. Wyobraz sobie, jak wyglada po obroceniu, zanim go 'polozysz'.\n\nSztuczka 3: ZACZNIJ OD NAJWIEKSZEGO KAWALKA. Ukladajac, najpierw umiesc najwiekszy element - on najbardziej ogranicza mozliwosci. Mniejsze dopasujesz wokol niego.\n\nSztuczka 4: LICZ KRATKI BRZEGOWE. Sprawdzajac, czy kawalek pasuje, policz kratki wzdłuż krawedzi - muszą sie zgadzac z luka, która wypelniasz.",
+    "trick": "Kangur stawia pulapki w zadaniach 'czy da sie ułożyć'. Sprawdz najpierw POLE - jeżeli kawalki maja inne laczne pole niz figura docelowa, odpowiedz brzmi 'nie da sie' bez zadnego ukladania. Pole to pierwszy i najszybszy test."
   },
   "versions": [
     {
@@ -44,8 +44,8 @@
           "number": null,
           "difficulty": "3pkt",
           "topic": "geometria_plaska",
-          "subtopic": "skladanie kwadratu z trojkatow",
-          "statement": "Ile jednakowych trojkatow prostokatnych potrzeba, by zlozyc jeden kwadrat (najprosciej)?",
+          "subtopic": "skladanie kwadratu z trójkątów",
+          "statement": "Ile jednakowych trójkątów prostokatnych potrzeba, by zlozyc jeden kwadrat (najprosciej)?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -66,7 +66,7 @@
           "difficulty": "3pkt",
           "topic": "geometria_plaska",
           "subtopic": "obracanie kawalka",
-          "statement": "Kawalek ukladanki, ktory nie pasuje, czesto wystarczy:",
+          "statement": "Kawalek ukladanki, który nie pasuje, czesto wystarczy:",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -87,7 +87,7 @@
           "difficulty": "4pkt",
           "topic": "geometria_plaska",
           "subtopic": "rozpoznanie wycinka",
-          "statement": "Przedstawiono kwadratową planszę 4x4 z obrazkami (trefl, pik, karo, kier). Jeden z pięciu prostokątów 1x2 (z dwoma symbolami) został wycięty z tej planszy. Który?",
+          "statement": "Na rysunku obok przedstawiono kwadratową planszę z obrazkami. Jeden z poniższych prostokątów został wycięty z tej planszy. Który?",
           "hasImage": true,
           "imageNote": "Plansza 4x4 z symbolami kart. Wycinek to prostokąt 1x2 z określoną parą symboli.",
           "choices": {
@@ -108,9 +108,9 @@
           "difficulty": "4pkt",
           "topic": "geometria_plaska",
           "subtopic": "maksymalne pokrycie paska kartonikami",
-          "statement": "Kajtek ma 7 kartonikow roznej dlugosci. Uklada je na pasku bez nakladania i bez wystawania poza pasek. Ilu najwiecej kartonikow moze uzyc, by pokryc caly pasek?",
+          "statement": "Kajtek ma 7 kartoników: Kartoniki układa na pasku w taki sposób, że nie mogą one zachodzić na siebie ani wystawać poza pasek. Ilu najwięcej kartoników może użyć Kajtek, by pokryć nimi cały pasek?",
           "hasImage": true,
-          "imageNote": "Siedem kartonikow roznej dlugosci i pasek do pokrycia.",
+          "imageNote": "Siedem kartonikow roznej długości i pasek do pokrycia.",
           "choices": {
             "A": "3",
             "B": "4",
@@ -131,7 +131,7 @@
           "difficulty": "5pkt",
           "topic": "geometria_plaska",
           "subtopic": "podzial figury na 3 identyczne czesci",
-          "statement": "Figure podzielono na trzy identyczne czesci. Ktory z ponizszych ksztaltow moga miec te czesci?",
+          "statement": "Figura przedstawiona na rysunku obok została podzielona na trzy iden- tyczne części. Który z następujących kształtów mogą mieć te części?",
           "hasImage": true,
           "imageNote": "Figura z kwadracikow i 5 wariantow ksztaltu czesci.",
           "choices": {
@@ -151,10 +151,10 @@
           "number": 22,
           "difficulty": "5pkt",
           "topic": "geometria_plaska",
-          "subtopic": "podzial figury na 3 rozne czesci",
-          "statement": "Ktorej z 5 figur NIE da sie pociac na trzy czesci tak, by kazda miala inny ksztalt i kazda byla zlozona z 5 zacieniowanych kratek (ciac tylko wzdluz linii)?",
+          "subtopic": "podzial figury na 3 różne czesci",
+          "statement": "Której z poniższych ﬁgur nie da się tak pociąć na trzy części, by każda część miała inny kształt i każda była utworzona z 5 zacieniowanych kratek (ciąć można tylko wzdłuż linii)?",
           "hasImage": true,
-          "imageNote": "Piec figur zlozonych z 15 zacieniowanych kratek kazda.",
+          "imageNote": "Pięć figur zlozonych z 15 zacieniowanych kratek każda.",
           "choices": {
             "A": "figura A",
             "B": "figura B",
@@ -173,7 +173,7 @@
           "strategy": "Zachowanie pola.",
           "steps": [
             "Kawalki maja 16 kratek",
-            "Zlozony kwadrat tez ma pole 16"
+            "Zlozony kwadrat też ma pole 16"
           ],
           "answer": "D",
           "alternative": null,
@@ -181,21 +181,21 @@
         },
         {
           "problemId": "gen-l21-v1-w2",
-          "observation": "Dwa trojkaty prostokatne tworza kwadrat.",
+          "observation": "Dwa trójkąty prostokatne tworza kwadrat.",
           "strategy": "Skladanie figur.",
           "steps": [
-            "Dwa jednakowe trojkaty prostokatne zlozone wzdluz przeciwprostokatnej daja kwadrat"
+            "Dwa jednakowe trójkąty prostokatne zlozone wzdłuż przeciwprostokatnej daja kwadrat"
           ],
           "answer": "B",
           "alternative": null,
-          "hint": "Dwa trojkaty prostokatne tworza kwadrat."
+          "hint": "Dwa trójkąty prostokatne tworza kwadrat."
         },
         {
           "problemId": "gen-l21-v1-w3",
           "observation": "Obrot lub odbicie czesto dopasowuje kawalek.",
           "strategy": "Obracanie kawalkow.",
           "steps": [
-            "Kawalek mozna obrocic albo odbic, by pasowal"
+            "Kawalek można obrocic albo odbic, by pasowal"
           ],
           "answer": "B",
           "alternative": null,
@@ -219,7 +219,7 @@
           "strategy": "Liczenie kartonikow.",
           "steps": [
             "Kartoniki ukladane bez nakladania i wystawania",
-            "Najwiecej mozna uzyc 4 kartonikow"
+            "Najwiecej można użyć 4 kartonikow"
           ],
           "answer": "B",
           "alternative": null,
@@ -239,15 +239,15 @@
         },
         {
           "problemId": "kangur-maluch-2020-22",
-          "observation": "Figura, ktorej nie da sie pociac na 3 rozne czesci.",
+          "observation": "Figura, której nie da sie pociac na 3 różne czesci.",
           "strategy": "Sprawdzanie mozliwosci podzialu.",
           "steps": [
-            "Cztery figury da sie pociac na 3 rozne czesci po 5 kratek",
+            "Cztery figury da sie pociac na 3 różne czesci po 5 kratek",
             "Figury D nie da sie tak pociac"
           ],
           "answer": "D",
           "alternative": null,
-          "hint": "Figura, ktorej nie da sie pociac na 3 rozne czesci."
+          "hint": "Figura, której nie da sie pociac na 3 różne czesci."
         }
       ]
     },
@@ -263,7 +263,7 @@
           "difficulty": "3pkt",
           "topic": "geometria_plaska",
           "subtopic": "test pola",
-          "statement": "Kawalki maja laczne pole 10 kratek. Czy da sie z nich ulozyc kwadrat 3x3 (9 kratek)?",
+          "statement": "Kawalki maja laczne pole 10 kratek. Czy da sie z nich ułożyć kwadrat 3x3 (9 kratek)?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -288,9 +288,9 @@
           "hasImage": false,
           "imageNote": null,
           "choices": {
-            "A": "Trojkat",
+            "A": "Trójkąt",
             "B": "Prostokat",
-            "C": "Kolo",
+            "C": "Koło",
             "D": "Wieksze kwadrat",
             "E": "Pieciokat"
           },
@@ -325,8 +325,8 @@
           "number": 9,
           "difficulty": "4pkt",
           "topic": "geometria_plaska",
-          "subtopic": "ktory kartonik przykryje punkt",
-          "statement": "Figure nalezy calkowicie przykryc piecioma kartonikami. Ktory kartonik przykryje czarne kolko?",
+          "subtopic": "który kartonik przykryje punkt",
+          "statement": "Figurę z obrazka należy całkowicie przykryć pięcioma kartonikami pokaza- nymi w odpowiedziach. Który kartonik przykryje czarne kółko?",
           "hasImage": true,
           "imageNote": "Figura z czarnym kolkiem i 5 kartonikow do przykrycia.",
           "choices": {
@@ -347,7 +347,7 @@
           "difficulty": "4pkt",
           "topic": "geometria_plaska",
           "subtopic": "ukladanie wzorow z kartonikow",
-          "statement": "Marysia uklada wzory z jednakowych kartonikow (czarno-biale). Ile z ponizszych 5 wzorow moze otrzymac, nie nakladajac kartonikow na siebie?",
+          "statement": "Marysia ma dużo jednakowych kartoników i układa z nich wzory. Jeden taki kartonik wygląda tak: . Ile z następujących wzorów może otrzymać Marysia, nie nakładając kartoników na siebie?",
           "hasImage": true,
           "imageNote": "Pieć wzorow do ukladania z identycznych kartonikow.",
           "choices": {
@@ -370,7 +370,7 @@
           "difficulty": "4pkt",
           "topic": "geometria_plaska",
           "subtopic": "ruch po siatce - skrety",
-          "statement": "Ania idzie wzdluz strzalki, na kazdym skrzyzowaniu skreca w prawo lub lewo: prawo, lewo, lewo, prawo, lewo, lewo, zatrzymuje sie. Przy ktorym obrazku konczy wedrowke?",
+          "statement": "Ania wyrusza w kierunku wyznaczonym przez strzałkę i na każdym skrzyżowaniu albo skręca w prawo, albo skręca w lewo. Najpierw skręciła w prawo, potem dwa razy w lewo, potem w prawo, potem dwa razy w lewo i zatrzymała się na następnym skrzyżowaniu. Ania zakończyła wędrówkę przy",
           "hasImage": true,
           "imageNote": "Siatka ulic z obrazkami na skrzyzowaniach, strzalka startowa Ani.",
           "choices": {
@@ -390,8 +390,8 @@
           "number": 15,
           "difficulty": "4pkt",
           "topic": "geometria_plaska",
-          "subtopic": "ruch po alejkach ze skretami",
-          "statement": "Pawel jezdzi rowerem po alejkach parku. Wyrusza z linii S, na skrzyzowaniach skreca na przemian: prawo, lewo, prawo, lewo... Kolo ktorego znaku NIE przejedzie?",
+          "subtopic": "ruch po alejkach że skretami",
+          "statement": "Paweł jeździ rowerem po alejkach w parku (rysunek obok). Wy- rusza z linii S w kierunku wskazanym strzałką. Na pierwszym skrzy- żowaniu (obok znaku B ) skręca w prawo, na drugim w lewo, na kolejnym w prawo, potem w lewo, i tak dalej. Koło którego znaku nie przejedzie?",
           "hasImage": true,
           "imageNote": "Park z alejkami w ksztalcie kwiatka, znaki A-E, linia startu S.",
           "choices": {
@@ -442,15 +442,15 @@
         },
         {
           "problemId": "kangur-maluch-2023-9",
-          "observation": "Ktory kartonik przykryje czarne kolko.",
+          "observation": "Który kartonik przykryje czarne kółko.",
           "strategy": "Sledzenie polozenia kartonikow.",
           "steps": [
             "Figure przykrywamy 5 kartonikami",
-            "Czarne kolko przykryje kartonik E"
+            "Czarne kółko przykryje kartonik E"
           ],
           "answer": "E",
           "alternative": null,
-          "hint": "Ktory kartonik przykryje czarne kolko."
+          "hint": "Który kartonik przykryje czarne kółko."
         },
         {
           "problemId": "kangur-maluch-2018-10",
@@ -458,7 +458,7 @@
           "strategy": "Sprawdzanie ulozen.",
           "steps": [
             "Wzory ukladane z jednakowych kartonikow bez nakladania",
-            "Da sie ulozyc 3 z 5 wzorow"
+            "Da sie ułożyć 3 z 5 wzorow"
           ],
           "answer": "C",
           "alternative": null,
@@ -466,27 +466,27 @@
         },
         {
           "problemId": "kangur-maluch-2013-12",
-          "observation": "Ruch po siatce ze skretami.",
+          "observation": "Ruch po siatce że skretami.",
           "strategy": "Sledzenie trasy Ani.",
           "steps": [
             "Ania skreca: prawo, lewo, lewo, prawo, lewo, lewo",
-            "Konczy wedrowke przy obrazku B"
+            "Kończy wedrowke przy obrazku B"
           ],
           "answer": "B",
           "alternative": null,
-          "hint": "Ruch po siatce ze skretami."
+          "hint": "Ruch po siatce że skretami."
         },
         {
           "problemId": "kangur-maluch-2015-15",
-          "observation": "Ruch po alejkach parku ze skretami.",
+          "observation": "Ruch po alejkach parku że skretami.",
           "strategy": "Sledzenie trasy roweru.",
           "steps": [
             "Pawel skreca na przemian prawo, lewo...",
-            "Nie przejedzie kolo znaku C"
+            "Nie przejedzie koło znaku C"
           ],
           "answer": "C",
           "alternative": null,
-          "hint": "Ruch po alejkach parku ze skretami."
+          "hint": "Ruch po alejkach parku że skretami."
         }
       ]
     },
@@ -502,7 +502,7 @@
           "difficulty": "5pkt",
           "topic": "geometria_plaska",
           "subtopic": "kolejnosc operacji obrotu i druku",
-          "statement": "Wladek ma urzadzenie O (obraca kartke o cwierc obrotu) i D (drukuje znak trefl). W jakiej kolejnosci uzyl trzech urzadzen, by z kartki z czarnym rogiem otrzymac pokazany rezultat?",
+          "statement": "Władek ma dwa urządzenia. Urządzenie O obraca wkładaną kartkę o ćwierć pełnego obrotu, jak pokazano na pierwszym obrazku. Urządzenie D drukuje na kartce znak ♣. Urządzenie O obrót . Urządzenie D ♣ W jakiej kolejności Władek użył swych maszyn, jeśli po włożeniu kartki widocznej z lewej strony otrzymał następujący rezultat? Urządzenie ? Urządzenie ? Urządzenie ? ♣",
           "hasImage": true,
           "imageNote": "Kartka z czarnym kwadracikiem, urzadzenia O i D, rezultat koncowy.",
           "choices": {
@@ -521,17 +521,17 @@
         {
           "problemId": "kangur-maluch-2023-21",
           "observation": "O = obrot o 90 stopni, D = wydruk trefla. Wynik to pewien ukladd.",
-          "strategy": "Symuluj dzialanie kazdej sekwencji 3 urzadzen.",
+          "strategy": "Symuluj dzialanie każdej sekwencji 3 urzadzen.",
           "steps": [
             "Start: kartka z czarnym rogiem.",
-            "Sekwencja DOO: drukuj trefl (w pozycji obecnej), obroc, obroc -> trefl jest na poczatkowej pozycji rogu.",
-            "Sekwencja ODO: obroc, drukuj, obroc -> trefl po obrocie, potem obrocony.",
-            "Sekwencja OOD: obroc, obroc (czyli obrot o 180), drukuj -> trefl w pozycji przeciwnej do rogu.",
+            "Sekwencja DOO: drukuj trefl (w pozycji obecnej), obróć, obróć -> trefl jest na poczatkowej pozycji rogu.",
+            "Sekwencja ODO: obróć, drukuj, obróć -> trefl po obrocie, potem obrócony.",
+            "Sekwencja OOD: obróć, obróć (czyli obrot o 180), drukuj -> trefl w pozycji przeciwnej do rogu.",
             "Wedlug rysunku rezultatu odpowiedz: OOD."
           ],
           "answer": "D",
           "alternative": null,
-          "hint": "Symulacja - sprobuj kazdej sekwencji na kartce z czarnym rogiem."
+          "hint": "Symulacja - sprobuj każdej sekwencji na kartce z czarnym rogiem."
         }
       ]
     }
@@ -548,14 +548,14 @@
       "explain": "Pole sie nie zmienia - zlozona figura ma 20 kratek."
     },
     {
-      "q": "Pierwszy test 'czy da sie ulozyc' to:",
+      "q": "Pierwszy test 'czy da sie ułożyć' to:",
       "choices": {
         "A": "Sprawdzic pole",
         "B": "Sprawdzic kolory",
         "C": "Zgadnac"
       },
       "correct": "A",
-      "explain": "Jezeli pola sie nie zgadzaja, nie da sie - bez ukladania."
+      "explain": "Jeżeli pola sie nie zgadzaja, nie da sie - bez ukladania."
     },
     {
       "q": "Ukladanie zaczynamy od:",

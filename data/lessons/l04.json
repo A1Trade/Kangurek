@@ -7,8 +7,8 @@
   "topic": "arytmetyka",
   "estimatedMinutes": 15,
   "theory": {
-    "intro": "Kiedy wpiszesz na kalkulatorze 2 + 3 x 4, kalkulator odpowie 14 - a nie 20. Dlaczego? Bo mnozenie idzie pierwsze. Ta zasada ratuje przed pomylkami, ale tylko jak ja znasz. Dzis nauczysz sie kolejnosci dzialan i tego, kiedy nawiasy zmieniaja wszystko.",
-    "tool": "Sztuczka 1: KOLEJNOSC DZIALAN. Najpierw nawiasy, potem mnozenie i dzielenie, na koncu dodawanie i odejmowanie. Ten porzadek to umowa, ktora wszyscy stosuja.\n\nSztuczka 2: NAWIASY ZMIENIAJA WSZYSTKO. (2 + 3) razy 4 = 20, ale 2 + 3 razy 4 = 14. Roznica 6 - tylko przez dwa znaki nawiasu. Zawsze patrz, czy w zadaniu sa nawiasy.\n\nSztuczka 3: PRZY UKLADANIU WSTAW ZNAKI TAK BY WYNIK BYL ZADANY. Gdy Kangur prosi: wstaw znaki by wyszlo 8 - sprawdzaj kolejne kombinacje znakow systematycznie.",
+    "intro": "Kiedy wpiszesz na kalkulatorze 2 + 3 x 4, kalkulator odpowie 14 - a nie 20. Dlaczego? Bo mnozenie idzie pierwsze. Ta zasada ratuje przed pomylkami, ale tylko jak ja znasz. Dziś nauczysz sie kolejnosci dzialan i tego, kiedy nawiasy zmieniaja wszystko.",
+    "tool": "Sztuczka 1: KOLEJNOSC DZIALAN. Najpierw nawiasy, potem mnozenie i dzielenie, na koncu dodawanie i odejmowanie. Ten porzadek to umowa, która wszyscy stosuja.\n\nSztuczka 2: NAWIASY ZMIENIAJA Wszystko. (2 + 3) razy 4 = 20, ale 2 + 3 razy 4 = 14. Roznica 6 - tylko przez dwa znaki nawiasu. Zawsze patrz, czy w zadaniu sa nawiasy.\n\nSztuczka 3: PRZY UKLADANIU WSTAW ZNAKI TAK BY WYNIK Był ZADANY. Gdy Kangur prosi: wstaw znaki by wyszlo 8 - sprawdzaj kolejne kombinacje znakow systematycznie.",
     "trick": "W zadaniach 'wstaw nawiasy' albo 'wstaw znaki' praca jest detektywistyczna. Spojrz na wynik, potem cofaj sie. Czesto wystarczy zauwazyc PARZYSTOSC wyniku lub jego ostatnia cyfre - to natychmiast eliminuje czesc odpowiedzi."
   },
   "versions": [
@@ -66,7 +66,7 @@
           "difficulty": "3pkt",
           "topic": "arytmetyka",
           "subtopic": "mnozenie i odejmowanie",
-          "statement": "W koszu bylo 30 jablek. Wladek wzial 2 razy po 4 jablka. Ile zostalo?",
+          "statement": "W koszu było 30 jabłek. Wladek wziął 2 razy po 4 jabłka. Ile zostało?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -87,7 +87,7 @@
           "difficulty": "3pkt",
           "topic": "arytmetyka",
           "subtopic": "maksymalizacja wyniku - kolejnosc cyfr",
-          "statement": "Dominika chce wpisac cztery liczby 2, 0, 2, 5 w schemat _ + _ - _ + _ . W jakiej kolejnosci wpisac, by po wykonaniu dzialan otrzymac NAJWIEKSZY wynik?",
+          "statement": "Dominika chce wpisać cztery liczby 2, 0, 2, 5 w schemat _ + _ - _ + _ . W jakiej kolejnosci wpisać, by po wykonaniu dzialan otrzymac NAJWIEKSZY wynik?",
           "hasImage": true,
           "imageNote": "Schemat z czterema pustymi kratkami i znakami +, -, +.",
           "choices": {
@@ -108,7 +108,7 @@
           "difficulty": "3pkt",
           "topic": "arytmetyka",
           "subtopic": "krzyżówka liczbowa",
-          "statement": "W krzyżówce działania wykonujemy tylko poziomo lub pionowo. Jaką liczbę otrzymamy w polu oznaczonym znakiem zapytania w poprawnie uzupełnionej krzyżówce?",
+          "statement": "W krzyżówce obok działania wykonujemy tylko poziomo lub pio- nowo. Jaką liczbę otrzymamy w polu oznaczonym znakiem zapytania w poprawnie uzupełnionej krzyżówce?",
           "hasImage": true,
           "imageNote": "Krzyżówka z liczbami 0, 2, 1, 9 oraz znakami +, -, =. Po rozwiązaniu w polu ? wychodzi 7.",
           "choices": {
@@ -131,7 +131,7 @@
           "difficulty": "4pkt",
           "topic": "arytmetyka",
           "subtopic": "wstawianie znakow",
-          "statement": "Wstaw znaki + lub - miedzy liczby 9 _ 3 _ 2 tak, by otrzymac wynik 8. Ktory zestaw znakow jest poprawny?",
+          "statement": "Wstaw znaki + lub - między liczby 9 _ 3 _ 2 tak, by otrzymac wynik 8. Który zestaw znakow jest poprawny?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -151,8 +151,8 @@
           "number": 17,
           "difficulty": "5pkt",
           "topic": "arytmetyka",
-          "subtopic": "maksymalizacja sumy dwoch liczb",
-          "statement": "Gres zbudowal dwie liczby trzycyfrowe uzywajac cyfr 1, 2, 3, 4, 5 i 6 - kazdej dokladnie raz. Nastepnie dodal obie liczby. Jaka jest najwieksza mozliwa suma?",
+          "subtopic": "maksymalizacja sumy dwóch liczb",
+          "statement": "Grześ zbudował dwie liczby trzycyfrowe używając cyfr 1, 2, 3, 4, 5 i 6. Każdej z tych cyfr użył dokładnie raz. Następnie Grześ dodał do siebie obie liczby. Ile jest równa największa suma jaką mógł w ten sposób uzyskać?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -188,7 +188,7 @@
             "Potem 5 razy 4 = 20"
           ],
           "answer": "B",
-          "alternative": "Bez nawiasow byloby 14, z nawiasami 20 - 6 wiecej.",
+          "alternative": "Bez nawiasow byloby 14, z nawiasami 20 - 6 więcej.",
           "hint": "Nawias zmienia kolejnosc - najpierw 2+3."
         },
         {
@@ -200,8 +200,8 @@
             "30 - 8 = 22"
           ],
           "answer": "B",
-          "alternative": "Mozna tez liczyc po 4: 30 - 4 = 26, 26 - 4 = 22.",
-          "hint": "Najpierw policz ile wzial (2 razy 4), potem odejmij."
+          "alternative": "Można też liczyc po 4: 30 - 4 = 26, 26 - 4 = 22.",
+          "hint": "Najpierw policz ile wziął (2 razy 4), potem odejmij."
         },
         {
           "problemId": "kangur-maluch-2025-7",
@@ -209,19 +209,19 @@
           "strategy": "Najwieksze do plusowych, najmniejsze do minus.",
           "steps": [
             "Wynik = a + b - c + d",
-            "Maksymalny gdy a, b, d duze i c male",
+            "Maksymalny gdy a, b, d duze i c małe",
             "Liczby: 0, 2, 2, 5. Daj 0 jako c (odejmowane)",
             "Pozostale: 5 + 2 + 2 = 9",
             "Najwiekszy: 5 + 2 - 0 + 2 = 9"
           ],
           "answer": "A",
-          "alternative": "Kazda kolejnosc z 0 jako odejmowane daje 9.",
-          "hint": "Wynik = +a +b -c +d. Ktora liczbe oplaca sie odjac, a ktore dodac?"
+          "alternative": "Każda kolejnosc z 0 jako odejmowane daje 9.",
+          "hint": "Wynik = +a +b -c +d. Która liczbe oplaca sie odjac, a które dodac?"
         },
         {
           "problemId": "kangur-maluch-2019-5",
           "observation": "Krzyzowka z dzialaniami - trzeba znalezc spojny uklad.",
-          "strategy": "Sprawdzanie warunkow w roznych polach.",
+          "strategy": "Sprawdzanie warunkow w różnych polach.",
           "steps": [
             "Z ukladu krzyzowki cyfry 0, 2, 1, 9 i znaki +, -, =",
             "Po rozwiazaniu wszystkich rownan w polu z ? wychodzi 7"
@@ -232,7 +232,7 @@
         },
         {
           "problemId": "gen-l04-c1",
-          "observation": "Cel: wynik 8. Sprawdz kazdy zestaw znakow.",
+          "observation": "Cel: wynik 8. Sprawdz każdy zestaw znakow.",
           "strategy": "Sprawdzanie wynikow.",
           "steps": [
             "9 + 3 + 2 = 14, nie",
@@ -242,11 +242,11 @@
           ],
           "answer": "C",
           "alternative": "Z 5 odpowiedzi tylko jedna daje 8.",
-          "hint": "Wypisz wartosc dla kazdego zestawu znakow i porownaj z 8."
+          "hint": "Wypisz wartosc dla każdego zestawu znakow i porownaj z 8."
         },
         {
           "problemId": "kangur-maluch-2012-17",
-          "observation": "Maksymalna suma dwoch liczb 3-cyfrowych z 6 cyfr.",
+          "observation": "Maksymalna suma dwóch liczb 3-cyfrowych z 6 cyfr.",
           "strategy": "Wieksze cyfry do setek, mniejsze do jednosci.",
           "steps": [
             "Cyfry 1-6 trafiaja na pozycje setek, dziesiatek, jednosci",
@@ -356,10 +356,10 @@
           "number": 7,
           "difficulty": "3pkt",
           "topic": "arytmetyka",
-          "subtopic": "suma punktow na tarczy",
-          "statement": "Franek strzelal do tarczy 3 razy. W pierwszej probie zdobyl 27 punktow (3 strzaly), w drugiej 23 (3 strzaly). Ile zdobyl w trzeciej probie (rowniez 3 strzaly)?",
+          "subtopic": "suma punktów na tarczy",
+          "statement": "Franek strzelał do tarczy (patrz rysunek). W pierwszej próbie uzyskał trzema strzałami 27 punktów. W drugiej uzy- skał 23 punkty. Ile punktów uzyskał w trzeciej próbie?",
           "hasImage": true,
-          "imageNote": "Trzy tarcze koliste z roznymi trafieniami strzal. Tarcza ma pierscienie o roznych wartosciach punktowych.",
+          "imageNote": "Trzy tarcze koliste z roznymi trafieniami strzal. Tarcza ma pierscienie o różnych wartosciach punktowych.",
           "choices": {
             "A": "15",
             "B": "19",
@@ -380,7 +380,7 @@
           "difficulty": "4pkt",
           "topic": "arytmetyka",
           "subtopic": "wstawianie nawiasu",
-          "statement": "Gdzie wstawic nawias w dzialaniu 12 - 4 - 2, by wynik byl rowny 10?",
+          "statement": "Gdzie wstawic nawias w dzialaniu 12 - 4 - 2, by wynik był równy 10?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -401,15 +401,15 @@
           "difficulty": "5pkt",
           "topic": "arytmetyka",
           "subtopic": "ukladu rownan w zagadce",
-          "statement": "Piec dzieci jadlo sliwki. Kinga = Magda + 2. Emilka = Kinga - 3. Jola = Emilka + 1 = Wladek - 3. Ktore dzieci zjadly po tyle samo?",
+          "statement": "Pięcioro dzieci jadło śliwki. Kinga zjadła o dwie śliwki więcej niż Magda. Emilka zjadła o trzy śliwki mniej niż Kinga. Jola zjadła o jedną śliwkę więcej niż Emilka, ale o trzy mniej niż Władek. Które dzieci zjadły po tyle samo śliwek?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
-            "A": "Jola i Kinga",
-            "B": "Kinga i Wladek",
-            "C": "Magda i Wladek",
-            "D": "Wladek i Emilka",
-            "E": "Jola i Magda"
+            "A": "Jola i Kinga.",
+            "B": "Kinga i Władek.",
+            "C": "Magda i Władek.",
+            "D": "Władek i Emilka.",
+            "E": "Jola i Magda."
           },
           "correct": "E",
           "imageSrc": "/images/orig/2022-21.png"
@@ -467,14 +467,14 @@
         {
           "problemId": "kangur-maluch-2018-7",
           "observation": "Trzy proby po 3 strzaly, znane sumy 27 i 23.",
-          "strategy": "Analiza punktow na tarczy.",
+          "strategy": "Analiza punktów na tarczy.",
           "steps": [
-            "Tarcza ma pierscienie o roznych wartosciach",
+            "Tarcza ma pierscienie o różnych wartosciach",
             "Z ukladu strzal w probie 3 suma wynosi 19"
           ],
           "answer": "B",
           "alternative": "Wymaga odczytania wartosci trafien z rysunku.",
-          "hint": "Po 3 strzaly to po 9 punktow srednio. Patrz na sume tarcz, nie 'srednia'."
+          "hint": "Po 3 strzaly to po 9 punktów srednio. Patrz na sume tarcz, nie 'srednia'."
         },
         {
           "problemId": "gen-l04-v2-c1",
@@ -491,7 +491,7 @@
         },
         {
           "problemId": "kangur-maluch-2022-21",
-          "observation": "Uklad zaleznosci miedzy dziecmi.",
+          "observation": "Uklad zaleznosci między dziećmi.",
           "strategy": "Wyrazic wszystko przez Magde.",
           "steps": [
             "Magda = m",
@@ -499,7 +499,7 @@
             "Emilka = Kinga - 3 = m - 1",
             "Jola = Emilka + 1 = m",
             "Wladek = Jola + 3 = m + 3",
-            "Magda = m, Jola = m - rowne!"
+            "Magda = m, Jola = m - równe!"
           ],
           "answer": "E",
           "alternative": null,
@@ -518,8 +518,8 @@
           "number": 12,
           "difficulty": "4pkt",
           "topic": "arytmetyka",
-          "subtopic": "podzial ryb miedzy pisklenta",
-          "statement": "Pingwin przynosi 9 ryb dziennie dwojgu pisklatom: pierwszemu napotkanemu 5 ryb, drugiemu 4. Przez kilka dni jedno pisklę dostalo 26 ryb. Ile ryb dostalo w tym czasie drugie pisklę?",
+          "subtopic": "podzial ryb między pisklenta",
+          "statement": "Pingwin Czarnuś codziennie przynosi 9 ryb swoim dwojgu pisklętom. Każdego dnia daje pierw- szemu napotkanemu pisklęciu 5 ryb, a drugiemu 4 ryby. W ciągu ostatnich kilku dni jedno z piskląt otrzymało 26 ryb. Ile ryb dostało w tym czasie drugie pisklę?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -540,7 +540,7 @@
           "difficulty": "4pkt",
           "topic": "arytmetyka",
           "subtopic": "rozkład ciasteczek na talerze",
-          "statement": "Obok stoja 3 talerze z 15 ciasteczkami rozlozonymi na nie. Helenka rozlozyla je na 3 talerze tak, by teraz na kazdym byla taka sama liczba ciastek. Ile ciastek dolozyla na swoj talerz?",
+          "statement": "Obok stoją 3 talerze z 15 ciasteczkami rozlozonymi na nie. Helenka rozlozyla je na 3 talerze tak, by teraz na każdym była taka sama liczba ciastek. Ile ciastek dolozyla na swój talerz?",
           "hasImage": true,
           "imageNote": "Trzy talerze z roznymi liczbami kangurkowych ciastek.",
           "choices": {
@@ -567,7 +567,7 @@
             "Wartosci 4n: 4, 8, 12, 16, 20, 24, 28... - nie ma 26 dokladnie.",
             "Czyli czasem pierwsze i czasem drugie dostawalo 5 (najpierw napotkany).",
             "Sprobuj: w niektore dni pisklę X bylo pierwsze (5) a w inne drugie (4).",
-            "Niech X dostal a*5 + b*4 = 26 (a dni jako pierwszy, b dni jako drugi).",
+            "Niech X dostał a*5 + b*4 = 26 (a dni jako pierwszy, b dni jako drugi).",
             "a=2, b=4: 10 + 16 = 26. OK. Razem 6 dni.",
             "Drugie pisklę: bylo pierwsze 4 razy i drugie 2 razy: 4*5 + 2*4 = 20 + 8 = 28."
           ],
@@ -577,21 +577,21 @@
         },
         {
           "problemId": "kangur-maluch-2025-10",
-          "observation": "Pierwotnie 15 ciastek na 3 talerzach. Po dolozeniu - po rowno.",
-          "strategy": "Sprawdz ile musi byc na kazdym po wyrownaniu.",
+          "observation": "Pierwotnie 15 ciastek na 3 talerzach. Po dolozeniu - po równo.",
+          "strategy": "Sprawdz ile musi byc na każdym po wyrownaniu.",
           "steps": [
             "Na rysunku na talerzach pewnie po: 4, 5, 6 (suma 15).",
-            "Helenka dolozyla TYLKO na swoj. Po dolozeniu wszystkie talerze maja po tyle samo.",
-            "Po dolozeniu kazdy ma N ciastek, razem 3N. Helenka dolozyla 3N - 15.",
-            "Zakladajac ze talerz Helenki mial najmniej (4 ciastka), po dolozeniu pasuje N = max z pozostalych talerzy.",
-            "Jezeli inne talerze maja 5 i 6, Helenka musi miec 6 - czyli dolozyc 6 - 4 = 2... nie pasuje.",
-            "Inna interpretacja: na 2 pozostalych talerzach po 5 i 4, na talerzu Helenki 6 - lacznie 15. Helenka dokladala by zrownac do najwyzszego (6). Ale wtedy nie dokladala na swoj.",
-            "Z odpowiedzi C=6: po dolozeniu kazdy ma (15+6)/3 = 7. Mialo byc 4, 5, 7 (Helenka miala 1 talerz). Dolozyla 6 -> 7. Inne juz mialy 7? Nie.",
-            "Wlasciwa interpretacja: na kazdym po wyrownaniu = 7, dolozyla 6."
+            "Helenka dolozyla TYLKO na swój. Po dolozeniu wszystkie talerze maja po tyle samo.",
+            "Po dolozeniu każdy ma N ciastek, razem 3N. Helenka dolozyla 3N - 15.",
+            "Zakladajac że talerz Helenki miał najmniej (4 ciastka), po dolozeniu pasuje N = max z pozostalych talerzy.",
+            "Jeżeli inne talerze maja 5 i 6, Helenka musi mieć 6 - czyli dolozyc 6 - 4 = 2... nie pasuje.",
+            "Inna interpretacja: na 2 pozostalych talerzach po 5 i 4, na talerzu Helenki 6 - łącznie 15. Helenka dokladala by zrownac do najwyzszego (6). Ale wtedy nie dokladala na swój.",
+            "Z odpowiedzi C=6: po dolozeniu każdy ma (15+6)/3 = 7. Miało byc 4, 5, 7 (Helenka miała 1 talerz). Dolozyla 6 -> 7. Inne juz miały 7? Nie.",
+            "Właściwa interpretacja: na każdym po wyrownaniu = 7, dolozyla 6."
           ],
           "answer": "C",
           "alternative": null,
-          "hint": "Razem 15 ciastek, ma byc po rowno na 3 talerze. Ile musi byc na kazdym?"
+          "hint": "Razem 15 ciastek, ma byc po równo na 3 talerze. Ile musi byc na każdym?"
         }
       ]
     }

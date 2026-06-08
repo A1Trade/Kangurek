@@ -7,8 +7,8 @@
   "topic": "logika",
   "estimatedMinutes": 14,
   "theory": {
-    "intro": "Kangur daje 5 opcji A-E. Jedna jest poprawna. Zamiast szukac jej od zera, mozna ELIMINOWAC - wyrzucac te, ktore na pewno NIE moga byc poprawne. Czasem zostaje 1-2 odpowiedzi i wybor jest oczywisty.",
-    "tool": "Sztuczka 1: SPRAWDZ ZA DUZE I ZA MALE. Jezeli wynik powinien byc okolo 50, odpowiedzi 5 i 500 mozna wyrzucic.\n\nSztuczka 2: SPRAWDZ PARZYSTOSC. Jezeli wynik MUSI byc parzysty (np. suma parzystych), wyrzuc wszystkie nieparzyste odpowiedzi.\n\nSztuczka 3: SPRAWDZ OSTATNIA CYFRE. 27 razy 4 - ostatnia cyfra to ostatnia cyfra 7*4=28, czyli 8. Z odpowiedzi szukaj tylko konczacych sie na 8.\n\nSztuczka 4: SPRAWDZ JEDNOSTKI. Pytanie o cm a odpowiedzi w m - prawdopodobnie pulapka. Sprawdz jednostki.",
+    "intro": "Kangur daje 5 opcji A-E. Jedna jest poprawna. Zamiast szukac jej od zera, można ELIMINOWAC - wyrzucac te, które na pewno NIE mogą byc poprawne. Czasem zostaje 1-2 odpowiedzi i wybor jest oczywisty.",
+    "tool": "Sztuczka 1: SPRAWDZ ZA DUZE I ZA Małe. Jeżeli wynik powinien byc okolo 50, odpowiedzi 5 i 500 można wyrzucic.\n\nSztuczka 2: SPRAWDZ PARZYSTOSC. Jeżeli wynik Musi byc parzysty (np. suma parzystych), wyrzuc wszystkie nieparzyste odpowiedzi.\n\nSztuczka 3: SPRAWDZ OSTATNIA CYFRE. 27 razy 4 - ostatnia cyfra to ostatnia cyfra 7*4=28, czyli 8. Z odpowiedzi szukaj tylko konczacych sie na 8.\n\nSztuczka 4: SPRAWDZ JEDNOSTKI. Pytanie o cm a odpowiedzi w m - prawdopodobnie pulapka. Sprawdz jednostki.",
     "trick": "Pulapka: czasem 2-3 odpowiedzi przezyja eliminacje. Wtedy sprawdz dokladniej te 2-3, a nie wszystkie 5. To oszczedza czas i zmniejsza ryzyko bledu."
   },
   "versions": [
@@ -24,7 +24,7 @@
           "difficulty": "3pkt",
           "topic": "logika",
           "subtopic": "eliminacja parzystosci",
-          "statement": "Suma trzech liczb parzystych. Ktora odpowiedz NIE moze byc poprawna?",
+          "statement": "Suma trzech liczb parzystych. Która odpowiedz NIE może byc poprawna?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -45,7 +45,7 @@
           "difficulty": "3pkt",
           "topic": "logika",
           "subtopic": "eliminacja przez ostatnia cyfre",
-          "statement": "23 razy 5 - ktora odpowiedz jest poprawna (sprawdz ostatnia cyfre)?",
+          "statement": "23 razy 5 - która odpowiedz jest poprawna (sprawdz ostatnia cyfre)?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -66,7 +66,7 @@
           "difficulty": "3pkt",
           "topic": "logika",
           "subtopic": "eliminacja wielkosci",
-          "statement": "Pole prostokata 5x4 cm. Ktora odpowiedz NIE moze byc poprawna?",
+          "statement": "Pole prostokata 5x4 cm. Która odpowiedz NIE może byc poprawna?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -87,9 +87,9 @@
           "difficulty": "3pkt",
           "topic": "logika",
           "subtopic": "rozpoznanie najkrotszego wkretu",
-          "statement": "Na rysunku widzisz 5 wkretow wkreconych w drewno. Cztery sa rownej dlugosci, jeden krotszy. Ktory jest krotszy?",
+          "statement": "Na rysunku widzisz pięć wkrętów wkręconych w kawałek drewna. Cztery z tych wkrętów są równej długości, a jeden jest krótszy. Który?",
           "hasImage": true,
-          "imageNote": "Piec wkretow ponumerowanych 1-5 wkreconych w drewno - widoczne sa rozne dlugosci wystajacych czesci.",
+          "imageNote": "Pięć wkretow ponumerowanych 1-5 wkreconych w drewno - widoczne sa różne długości wystajacych czesci.",
           "choices": {
             "A": "1",
             "B": "2",
@@ -108,9 +108,9 @@
           "difficulty": "3pkt",
           "topic": "logika",
           "subtopic": "rozpoznanie wezla sznurka",
-          "statement": "Na ktorym sznurku powstanie wezel, gdy pociagniemy za konce sznurka?",
+          "statement": "Na którym sznurku powstanie wezel, gdy pociagniemy za konce sznurka?",
           "hasImage": true,
-          "imageNote": "Piec sznurkow w roznych konfiguracjach skrzyzowan.",
+          "imageNote": "Pięć sznurkow w różnych konfiguracjach skrzyzowan.",
           "choices": {
             "A": "sznurek A",
             "B": "sznurek B",
@@ -131,7 +131,7 @@
           "difficulty": "3pkt",
           "topic": "logika",
           "subtopic": "kombinacje muszli i zetonow",
-          "statement": "Ela i Ewa bawia sie zetonami i muszelkami. Kazda muszelka ma wartosc 6, kazdy zeton 1. Ktory z zestawow przedstawia wartosc rowna 16?",
+          "statement": "Ela i Ewa bawia sie zetonami i muszelkami. Każda muszelka ma wartosc 6, każdy zeton 1. Który z zestawow przedstawia wartosc równa 16?",
           "hasImage": true,
           "imageNote": "5 zestawow z roznymi kombinacjami muszli i zetonow.",
           "choices": {
@@ -152,9 +152,9 @@
           "difficulty": "5pkt",
           "topic": "logika",
           "subtopic": "wybor kodu z unikalnymi symbolami",
-          "statement": "Kod tworza 4 symbole na 4 pozycjach. Poprawny kod ma te wlasnosc, ze kazdy jego symbol na danej pozycji nie wystepuje w zadnym innym kodzie na tej pozycji. Ktorego kodu uzyc?",
+          "statement": "By wyjść z pokoju zagadek, dzieci muszą wybrać jeden z pięciu poniższych kodów, przy użyciu którego otworzą drzwi. Kod tworzą cztery symbole ustawione na czterech pozycjach. Kod otwiera- jący drzwi ma tę własność, że każdy symbol występujący w nim na danej pozycji, w żadnym innym kodzie na tej pozycji nie występuje. Którego kodu muszą użyć dzieci, by opuścić pokój zagadek?",
           "hasImage": true,
-          "imageNote": "Piec kodow A-E zlozonych z 4 symboli (kolo, trojkat, kwadrat, gwiazda).",
+          "imageNote": "Pięć kodow A-E zlozonych z 4 symboli (koło, trójkąt, kwadrat, gwiazda).",
           "choices": {
             "A": "kod A",
             "B": "kod B",
@@ -185,7 +185,7 @@
           "strategy": "Ostatnia cyfra.",
           "steps": [
             "3 razy 5 = 15, ostatnia cyfra 5",
-            "Tylko 115 konczy sie na 5"
+            "Tylko 115 kończy sie na 5"
           ],
           "answer": "D",
           "alternative": null,
@@ -205,8 +205,8 @@
         },
         {
           "problemId": "kangur-maluch-2018-6",
-          "observation": "5 wkretow, 4 rownej dlugosci, 1 krotszy.",
-          "strategy": "Krotszy = mniej widocznej czesci (gleboko wkrecony przy tej samej dlugosci wystajacej) lub ta krotsza calkowita.",
+          "observation": "5 wkretow, 4 równej długości, 1 krótszy.",
+          "strategy": "Krótszy = mniej widocznej czesci (gleboko wkrecony przy tej samej długości wystajacej) lub ta krotsza calkowita.",
           "steps": [
             "Z analizy obrazka odpowiedz: wkret 3."
           ],
@@ -240,13 +240,13 @@
         {
           "problemId": "kangur-maluch-2020-20",
           "observation": "Wiele kodow z 4 symbolami. Szukamy unikalnego.",
-          "strategy": "Dla kazdego kodu sprawdz czy zaden inny ma ten sam symbol na tej samej pozycji.",
+          "strategy": "Dla każdego kodu sprawdz czy zaden inny ma ten sam symbol na tej samej pozycji.",
           "steps": [
             "Z analizy odpowiedz: kod D."
           ],
           "answer": "D",
           "alternative": null,
-          "hint": "Poprawny kod: kazdy jego symbol na danej pozycji unikalny wsrod wszystkich kodow."
+          "hint": "Poprawny kod: każdy jego symbol na danej pozycji unikalny wsrod wszystkich kodow."
         }
       ]
     },
@@ -262,7 +262,7 @@
           "difficulty": "3pkt",
           "topic": "logika",
           "subtopic": "eliminacja parzystosci",
-          "statement": "Suma dwoch nieparzystych liczb. Ktora odpowiedz na pewno NIE pasuje?",
+          "statement": "Suma dwóch nieparzystych liczb. Która odpowiedz na pewno NIE pasuje?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -283,7 +283,7 @@
           "difficulty": "3pkt",
           "topic": "logika",
           "subtopic": "ostatnia cyfra mnozenia",
-          "statement": "47 razy 3 - ktora odpowiedz pasuje (sprawdz ostatnia cyfre)?",
+          "statement": "47 razy 3 - która odpowiedz pasuje (sprawdz ostatnia cyfre)?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -304,7 +304,7 @@
           "difficulty": "3pkt",
           "topic": "logika",
           "subtopic": "wielkosc szacowana",
-          "statement": "Mama kupila 4 jablka po okolo 2 zl. Ile zaplacila (mniej wiecej)?",
+          "statement": "Mama kupiła 4 jabłka po okolo 2 zl. Ile zaplacila (mniej więcej)?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -325,7 +325,7 @@
           "difficulty": "3pkt",
           "topic": "logika",
           "subtopic": "zliczanie unikalnych cyfr",
-          "statement": "Ala odbila piecz atkami date konkursu Kangur Matematyczny: 15 03 2018. Ilu pieczatek uzyla (kazda cyfra to jedna pieczatka, takie same cyfry to ta sama pieczatka)?",
+          "statement": "Ala ma 10 pieczątek z cyframi: 0 , 1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 . Używając tych pieczątek, odbiła datę konkursu „Kangur Matematyczny”: 1 5 0 3 2 0 1 8 . Ilu pieczątek użyła?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -346,9 +346,9 @@
           "difficulty": "3pkt",
           "topic": "logika",
           "subtopic": "dopasowanie wzoru kodu",
-          "statement": "Bilety na loterii maja kody (wzory czarno-biale): cyrk, kino, pokoj zagadek, zoo, basen. Dokad pojdzie Tadzio z wylosowanym biletem?",
+          "statement": "Na loterii można wygrać bilety wstępu z następującymi kodami: cyrk kino zoo pokój zagadek basen Dokąd może pójść Tadzio, jeżeli wylosował taki oto bilet: ?",
           "hasImage": true,
-          "imageNote": "Piec wzorow kodow i wylosowany bilet.",
+          "imageNote": "Pięć wzorow kodow i wylosowany bilet.",
           "choices": {
             "A": "Do cyrku",
             "B": "Do kina",
@@ -368,8 +368,8 @@
           "number": 3,
           "difficulty": "3pkt",
           "topic": "logika",
-          "subtopic": "liczba elementow do zdjecia ze stosu",
-          "statement": "W pudelkach lezace zabawki. Co najmniej ile pudelek powinien zdjac Slawek, by moc otworzyc szare pudelko z napisem 'pociag'? Pozostale nie moga byc poruszone.",
+          "subtopic": "liczba elementow do zdjecia że stosu",
+          "statement": "W pudełkach otwieranych z góry leżą zabawki. Co najmniej ile pudełek powinien zdjąć Sławek, by móc otworzyć szare pudełko z napisem „po- ciąg”? Pozostałe pudełka nie mogą być poruszo- ne.",
           "hasImage": true,
           "imageNote": "Stos 9 pudelek z napisami (plyty, ukladanka, puzzle, samochody, klocki, lalki, tory, pociag-szare, pluszaki, gry).",
           "choices": {
@@ -390,15 +390,15 @@
           "difficulty": "3pkt",
           "topic": "logika",
           "subtopic": "sekwencja krokow na siatce",
-          "statement": "Pszczola przemieszcza sie o jedna kratke w prawo (klawisz strzalka w prawo) lub w dol (strzalka w dol). Ktorej sekwencji powinna uzyc Ania, by pszczola trafila z lewej gory na kwiatek w prawej dolnej czesci siatki?",
+          "statement": "Gdy Ania wciska klawisz ze znakiem ⇒, pszczoła przemieszcza się o jedną kratkę w prawo, gdy wciska klawisz ⇓— o jedną kratkę w dół. Której z poniż- szych kombinacji klawiszy powinna użyć Ania, by pszczoła traﬁła na kwiatek?",
           "hasImage": true,
-          "imageNote": "Siatka 6x5 z pszczola w lewym gornym rogu i kwiatkiem w prawym dolnym (3 kratki w prawo, 3 w dol).",
+          "imageNote": "Siatka 6x5 z pszczola w lewym gornym rogu i kwiatkiem w prawym dolnym (3 kratki w prawo, 3 w dół).",
           "choices": {
-            "A": "prawo dol prawo dol dol prawo",
-            "B": "dol dol prawo dol dol",
-            "C": "prawo dol prawo dol prawo",
-            "D": "prawo prawo dol dol dol",
-            "E": "dol prawo prawo dol dol dol"
+            "A": "prawo dół prawo dół dół prawo",
+            "B": "dół dół prawo dół dół",
+            "C": "prawo dół prawo dół prawo",
+            "D": "prawo prawo dół dół dół",
+            "E": "dół prawo prawo dół dół dół"
           },
           "correct": "A",
           "imageSrc": "/images/orig/2022-1.png"
@@ -423,7 +423,7 @@
           "strategy": "Ostatnia cyfra.",
           "steps": [
             "47 razy 3: 7*3=21, ost. 1",
-            "Tylko 141 konczy sie na 1"
+            "Tylko 141 kończy sie na 1"
           ],
           "answer": "B",
           "alternative": null,
@@ -461,7 +461,7 @@
           ],
           "answer": "D",
           "alternative": null,
-          "hint": "Dopasuj kod (czarno-bialy wzor) do biletu Tadzia."
+          "hint": "Dopasuj kod (czarno-biały wzor) do biletu Tadzia."
         },
         {
           "problemId": "kangur-maluch-2022-3",
@@ -476,14 +476,14 @@
         },
         {
           "problemId": "kangur-maluch-2022-1",
-          "observation": "Pszczola: prawo (R) lub dol (D). Z lewej gory na kwiatek w prawej dolnej.",
-          "strategy": "Z obrazka policz pola: ile prawo i ile dol.",
+          "observation": "Pszczola: prawo (R) lub dół (D). Z lewej góry na kwiatek w prawej dolnej.",
+          "strategy": "Z obrazka policz pola: ile prawo i ile dół.",
           "steps": [
-            "Z analizy odpowiedz: 'prawo dol prawo dol dol prawo' (3 prawo + 3 dol = 6 ruchow)."
+            "Z analizy odpowiedz: 'prawo dół prawo dół dół prawo' (3 prawo + 3 dół = 6 ruchow)."
           ],
           "answer": "A",
           "alternative": null,
-          "hint": "Lewa gora -> prawa dolna w siatce. Policz ile ruchow w prawo i ile w dol."
+          "hint": "Lewa góra -> prawa dolna w siatce. Policz ile ruchow w prawo i ile w dół."
         }
       ]
     },
@@ -499,15 +499,15 @@
           "difficulty": "3pkt",
           "topic": "logika",
           "subtopic": "wybor strzalki wg przedzialu numerow",
-          "statement": "Tablica w cyrku pokazuje strzalki: miejsca 1-20 gora, 21-40 prawo, 41-60 lewo, 61-80 ukosnie gora-prawo, 81-100 ukosnie. Gres ma miejsca 71 i 72. Ktora strzalka?",
+          "statement": "Tablica w cyrku pokazuje strzalki: miejsca 1-20 góra, 21-40 prawo, 41-60 lewo, 61-80 ukosnie góra-prawo, 81-100 ukosnie. Gres ma miejsca 71 i 72. Która strzalka?",
           "hasImage": true,
           "imageNote": "Tablica z 5 strzalkami i przypisanymi przedzialami miejsc.",
           "choices": {
-            "A": "gora",
+            "A": "góra",
             "B": "prawo",
             "C": "lewo",
-            "D": "ukosna gora-prawo",
-            "E": "ukosna dol"
+            "D": "ukosna góra-prawo",
+            "E": "ukosna dół"
           },
           "correct": "D",
           "imageSrc": "/images/orig/2016-page1.png"
@@ -519,8 +519,8 @@
           "number": 19,
           "difficulty": "5pkt",
           "topic": "logika",
-          "subtopic": "mozliwy uklad rzutow kostka",
-          "statement": "W pieciu rzutach kostka suma oczek wynosi 10. Ktore z ponizszych zdan moze opisywac te sytuacje?",
+          "subtopic": "mozliwy uklad rzutów kostka",
+          "statement": "W pięciu rzutach kostka suma oczek wynosi 10. Które z ponizszych zdan może opisywac te sytuacje?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -541,7 +541,7 @@
           "difficulty": "3pkt",
           "topic": "logika",
           "subtopic": "ukladanka 1-5 - bez sasiednich powtorzen",
-          "statement": "Ktory z 5 elementow ukladanki nalezy polozyc na srodku, by kwadraciki oznaczone ta sama liczba nie sasiadowaly ze soba?",
+          "statement": "Który z poniższych elementów należy położyć na środku układanki, by kwadraciki oznaczone taką samą liczbą nie sąsiadowały ze sobą?",
           "hasImage": true,
           "imageNote": "Ukladanka z liczbami 1-5 z dziurka w srodku, oraz 5 wariantow elementu do wstawienia.",
           "choices": {
@@ -562,7 +562,7 @@
           "difficulty": "3pkt",
           "topic": "logika",
           "subtopic": "ukladanie pionkow na planszy",
-          "statement": "Plansza 4x4 z 5 pionkami. Ktory pionek nalezy przestawic, by w kazdym rzedzie i kazdej kolumnie byly dokladnie dwa pionki?",
+          "statement": "Który pionek na planszy należy przestawić, by w każdym rzędzie i w każ- dej kolumnie planszy były dokładnie dwa pionki?",
           "hasImage": true,
           "imageNote": "Plansza 4x4 z 5 pionkami oznaczonymi A, B, C, D, E.",
           "choices": {
@@ -582,10 +582,10 @@
           "number": 19,
           "difficulty": "5pkt",
           "topic": "logika",
-          "subtopic": "ktory balonik na pewno trafiony",
-          "statement": "Stas rzucal lotkami do balonikow z punktami 3, 9, 13, 14, 18. Lacznie zdobyl 30 punktow. W balonik z jaka liczba NA PEWNO trafil?",
+          "subtopic": "który balonik na pewno trafiony",
+          "statement": "Staś rzucał lotkami do baloników z zapisanymi na nich punktami. W su- mie zdobył 30 punktów. W balonik z jaką liczbą na pewno traﬁł Staś?",
           "hasImage": true,
-          "imageNote": "Piec balonikow z liczbami 3, 9, 13, 14, 18.",
+          "imageNote": "Pięć balonikow z liczbami 3, 9, 13, 14, 18.",
           "choices": {
             "A": "3",
             "B": "9",
@@ -603,10 +603,10 @@
           "number": 1,
           "difficulty": "3pkt",
           "topic": "logika",
-          "subtopic": "porownanie czasu palenia swiec",
-          "statement": "Jednoczesnie zapalono 5 identycznych swiec. Kazda zgasla o innej porze. Ktora swieca zgasla pierwsza (wypalila sie najszybciej)?",
+          "subtopic": "porownanie czasu palenia świec",
+          "statement": "Jednocześnie zapalono pięć identycznych świec. Każda świeca zgasła o innej porze — patrz obrazek. Która świeca zgasła pierwsza?",
           "hasImage": true,
-          "imageNote": "Piec swiec A-E o roznej pozostalej wysokosci.",
+          "imageNote": "Pięć świec A-E o roznej pozostalej wysokosci.",
           "choices": {
             "A": "A",
             "B": "B",
@@ -625,17 +625,17 @@
           "observation": "Tablica z mapowaniem miejsc na strzalki.",
           "strategy": "71 i 72 oba w zakresie 61-80.",
           "steps": [
-            "Mapowanie: 61-80 -> ukosna gora-prawo.",
+            "Mapowanie: 61-80 -> ukosna góra-prawo.",
             "71, 72 oba w tym zakresie.",
-            "Strzalka: ukosna gora-prawo."
+            "Strzalka: ukosna góra-prawo."
           ],
           "answer": "D",
           "alternative": null,
-          "hint": "Miejsca 61-80 = strzalka ukosna gora-prawo. 71 i 72 sa w tym zakresie."
+          "hint": "Miejsca 61-80 = strzalka ukosna góra-prawo. 71 i 72 sa w tym zakresie."
         },
         {
           "problemId": "kangur-maluch-2016-19",
-          "observation": "5 rzutow, suma 10. Sredia 2/rzut.",
+          "observation": "5 rzutów, suma 10. Sredia 2/rzut.",
           "strategy": "Sprawdz mozliwosci.",
           "steps": [
             "A: 4 rzuty po 2 + 1 rzut x = 8 + x = 10, x = 2. Czyli wszystkie 5 to 2. Ale A mowi 'tylko' 4 po 2 - falsz.",
@@ -647,31 +647,31 @@
           ],
           "answer": "E",
           "alternative": null,
-          "hint": "Kostka ma oczka 1-6. Suma 5 rzutow = 10. Sredio 2 na rzut."
+          "hint": "Kostka ma oczka 1-6. Suma 5 rzutów = 10. Sredio 2 na rzut."
         },
         {
           "problemId": "kangur-maluch-2022-7",
           "observation": "5 elementow ukladanki, wybierz dla srodka.",
-          "strategy": "Sprawdz dla kazdego elementu czy psuje warunek.",
+          "strategy": "Sprawdz dla każdego elementu czy psuje warunek.",
           "steps": [
             "Z analizy odpowiedz: wzor E."
           ],
           "answer": "E",
           "alternative": null,
-          "hint": "Ukladanka - srodek nie moze miec sasiadow tej samej liczby."
+          "hint": "Ukladanka - srodek nie może mieć sasiadow tej samej liczby."
         },
         {
           "problemId": "kangur-maluch-2022-2",
           "observation": "Plansza 4x4, 5 pionkow, warunek 2 na rzad/kolumne.",
-          "strategy": "Policz pionki w kazdym rzedzie i kolumnie.",
+          "strategy": "Policz pionki w każdym rzedzie i kolumnie.",
           "steps": [
             "5 pionkow nie da rownego rozkladu (rzedy potrzebuja 4+4 = 8 pionkow).",
             "Z analizy: trzeba przeniesc 1 pionek.",
-            "Z 5 opcji ten ktory psuje rownowage to D."
+            "Z 5 opcji ten który psuje rownowage to D."
           ],
           "answer": "D",
           "alternative": null,
-          "hint": "W kazdym rzedzie i kolumnie ma byc po 2 pionki. Sprawdz ktory rzad/kolumna ma blad."
+          "hint": "W każdym rzedzie i kolumnie ma byc po 2 pionki. Sprawdz który rzad/kolumna ma blad."
         },
         {
           "problemId": "kangur-maluch-2021-19",
@@ -683,7 +683,7 @@
             "13 + 9 + 3 + 5 - brak 5.",
             "Dwie kombinacje: {18,9,3} i {14,13,3}.",
             "Wspolny element: 3.",
-            "Stas NA PEWNO trafil w 3."
+            "Stas NA PEWNO trafił w 3."
           ],
           "answer": "A",
           "alternative": null,
@@ -691,12 +691,12 @@
         },
         {
           "problemId": "kangur-maluch-2023-1",
-          "observation": "5 identycznych swiec, kazda zgasla w innym czasie.",
+          "observation": "5 identycznych świec, każda zgasla w innym czasie.",
           "strategy": "Najszybsza = ta o najkrotszym czasie palenia.",
           "steps": [
-            "Identyczne swiece - czas palenia ten sam.",
-            "Jezeli zgasla pierwsza, to musi byc krotsza widocznie.",
-            "Z analizy obrazka odpowiedz: swieca A."
+            "Identyczne świecę - czas palenia ten sam.",
+            "Jeżeli zgasla pierwsza, to musi byc krotsza widocznie.",
+            "Z analizy obrazka odpowiedz: świeca A."
           ],
           "answer": "A",
           "alternative": null,
@@ -714,7 +714,7 @@
         "C": "Pomijasz"
       },
       "correct": "A",
-      "explain": "Jezeli wynik musi byc parzysty, nieparzyste odpadaja."
+      "explain": "Jeżeli wynik musi byc parzysty, nieparzyste odpadaja."
     },
     {
       "q": "27 razy 4 - ostatnia cyfra wyniku to:",
@@ -734,7 +734,7 @@
         "C": "Pierwsze"
       },
       "correct": "A",
-      "explain": "Eliminujemy te, ktore na pewno nie moga byc poprawne."
+      "explain": "Eliminujemy te, które na pewno nie mogą byc poprawne."
     }
   ]
 }

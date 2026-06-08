@@ -7,8 +7,8 @@
   "topic": "arytmetyka",
   "estimatedMinutes": 12,
   "theory": {
-    "intro": "W sklepie widzisz cene 4 zl 87 gr. Pewnie myslisz - 'okolo 5 zl'. To zaokraglanie. Nie musisz znac dokladnej liczby, by miec wyobrazenie. W Kangurku zaokraglanie pomoze Ci ELIMINOWAC zle odpowiedzi w 5 sekund zamiast 5 minut.",
-    "tool": "Sztuczka 1: ZAOKRAGLAJ DO DZIESIATEK. Cyfra jednosci 0-4 w dol, 5-9 w gore. 47 -> 50, 23 -> 20.\n\nSztuczka 2: ZAOKRAGLAJ DO SETEK. Cyfra dziesiatek 0-4 w dol, 5-9 w gore. 347 -> 300, 165 -> 200.\n\nSztuczka 3: SZACUJ SUME LUB PRODUKT. 198 + 405 - zamiast liczyc, zrob 200 + 400 = 600.\n\nSztuczka 4: ELIMINACJA ODPOWIEDZI. Szybkie oszacowanie pozwala odrzucic odpowiedzi za duze lub za male.",
+    "intro": "W sklepie widzisz cene 4 zl 87 gr. Pewnie myslisz - 'okolo 5 zl'. To zaokraglanie. Nie musisz znac dokladnej liczby, by mieć wyobrazenie. W Kangurku zaokraglanie pomoze Ci ELIMINOWAC zle odpowiedzi w 5 sekund zamiast 5 minut.",
+    "tool": "Sztuczka 1: ZAOKRAGLAJ DO DZIESIATEK. Cyfra jednosci 0-4 w dół, 5-9 w górę. 47 -> 50, 23 -> 20.\n\nSztuczka 2: ZAOKRAGLAJ DO SETEK. Cyfra dziesiatek 0-4 w dół, 5-9 w górę. 347 -> 300, 165 -> 200.\n\nSztuczka 3: SZACUJ SUME LUB PRODUKT. 198 + 405 - zamiast liczyc, zrob 200 + 400 = 600.\n\nSztuczka 4: ELIMINACJA ODPOWIEDZI. Szybkie oszacowanie pozwala odrzucic odpowiedzi za duze lub za małe.",
     "trick": "Najprostsza sztuczka eliminacji: spojrz na cyfre koncowa wyniku. 17 razy 8 - cyfra koncowa to ostatnia cyfra 7*8=56, czyli 6. Z odpowiedzi szukaj tylko konczacych sie na 6."
   },
   "versions": [
@@ -87,7 +87,7 @@
           "difficulty": "3pkt",
           "topic": "arytmetyka",
           "subtopic": "eliminacja zlej odpowiedzi",
-          "statement": "Ola kupila 12 jablek po 3 zl. Bez dokladnego liczenia - ktora suma NIE moze byc poprawna?",
+          "statement": "Ola kupiła 12 jabłek po 3 zl. Bez dokladnego liczenia - która suma NIE może byc poprawna?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -108,7 +108,7 @@
           "difficulty": "4pkt",
           "topic": "arytmetyka",
           "subtopic": "rownanie z proporcjami plci",
-          "statement": "Krzys uczestniczyl w konkursie recytatorskim. Wsrod jego RYWALI bylo dwa razy wiecej dziewczat niz chlopcow. Ktora z liczb moze oznaczac liczbe WSZYSTKICH uczniow biorących udzial w konkursie?",
+          "statement": "Krzyś uczestniczył w szkolnym konkursie recytatorskim. Wśród jego rywali było dwa razy więcej dziewcząt niż chłopców. Która z poniższych liczb może oznaczać liczbę wszystkich uczniów biorących udział w tym konkursie?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -131,7 +131,7 @@
           "difficulty": "4pkt",
           "topic": "arytmetyka",
           "subtopic": "szacowanie i sprawdzenie",
-          "statement": "Filip pomnozyl 198 przez 5. Ktory z ponizszych wynikow jest najblizszy poprawnego?",
+          "statement": "Filip pomnozyl 198 przez 5. Który z ponizszych wynikow jest najblizszy poprawnego?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -151,10 +151,10 @@
           "number": 11,
           "difficulty": "4pkt",
           "topic": "arytmetyka",
-          "subtopic": "rownanie z dwoma typami zwierzat",
-          "statement": "W ZOO jest 5 duzych owiec i jedna mala. Dzieci daly im 210 g karmy. Kazda duza owca dostala tyle samo, a mala dwa razy tyle co duza. Ile gramow karmy dostala mala owca?",
+          "subtopic": "rownanie z dwoma typami zwierząt",
+          "statement": "W ZOO jest 5 duzych owiec i jedna mała. Dzieci daly im 210 g karmy. Każda duza owca dostała tyle samo, a mała dwa razy tyle co duza. Ile gramow karmy dostała mała owca?",
           "hasImage": true,
-          "imageNote": "5 duzych i 1 mala owca.",
+          "imageNote": "5 duzych i 1 mała owca.",
           "choices": {
             "A": "55",
             "B": "60",
@@ -169,27 +169,27 @@
       "solutions": [
         {
           "problemId": "gen-l07-w1",
-          "observation": "47 jest miedzy 40 a 50. Cyfra jednosci 7 (>=5) - w gore.",
+          "observation": "47 jest między 40 a 50. Cyfra jednosci 7 (>=5) - w górę.",
           "strategy": "Zasada zaokraglania.",
           "steps": [
             "Cyfra jednosci to 7 (>=5)",
-            "Zaokraglamy w gore: 47 -> 50"
+            "Zaokraglamy w górę: 47 -> 50"
           ],
           "answer": "C",
           "alternative": null,
-          "hint": "Cyfra jednosci to 7 - zaokraglamy w gore."
+          "hint": "Cyfra jednosci to 7 - zaokraglamy w górę."
         },
         {
           "problemId": "gen-l07-w2",
-          "observation": "234 jest miedzy 200 a 300. Cyfra dziesiatek 3 (<5) - w dol.",
+          "observation": "234 jest między 200 a 300. Cyfra dziesiatek 3 (<5) - w dół.",
           "strategy": "Zaokraglenie do setek - patrz cyfre dziesiatek.",
           "steps": [
             "Cyfra dziesiatek to 3 (<5)",
-            "Zaokraglamy w dol: 234 -> 200"
+            "Zaokraglamy w dół: 234 -> 200"
           ],
           "answer": "B",
           "alternative": null,
-          "hint": "Cyfra dziesiatek to 3 - zaokraglamy w dol."
+          "hint": "Cyfra dziesiatek to 3 - zaokraglamy w dół."
         },
         {
           "problemId": "gen-l07-w3",
@@ -216,12 +216,12 @@
           ],
           "answer": "C",
           "alternative": null,
-          "hint": "12 razy 3 = 36 - jest dokladnie. Ktora odpowiedz nie ma sensu?"
+          "hint": "12 razy 3 = 36 - jest dokladnie. Która odpowiedz nie ma sensu?"
         },
         {
           "problemId": "kangur-maluch-2012-16",
           "observation": "Rywale = chlopcy + dziewczyny = x + 2x = 3x. Wszyscy = 1 + 3x.",
-          "strategy": "Sprawdzanie ktora odpowiedz daje calkowite x.",
+          "strategy": "Sprawdzanie która odpowiedz daje calkowite x.",
           "steps": [
             "Wszyscy = 1 (Krzys) + 3x",
             "25: 1+3x=25, 3x=24, x=8 - TAK",
@@ -247,17 +247,17 @@
         },
         {
           "problemId": "kangur-maluch-2025-11",
-          "observation": "5 duzych + 1 mala = 210 g. Mala je 2x duza.",
+          "observation": "5 duzych + 1 mała = 210 g. Mała je 2x duza.",
           "strategy": "Rownanie z proporcjami.",
           "steps": [
-            "Niech duza = d, mala = 2d",
+            "Niech duza = d, mała = 2d",
             "5d + 2d = 210",
             "7d = 210, d = 30",
-            "Mala = 2 razy 30 = 60 g"
+            "Mała = 2 razy 30 = 60 g"
           ],
           "answer": "B",
           "alternative": null,
-          "hint": "5 duzych po x, mala 2x. Razem 5x + 2x = 7x = 210. Mala dostala 2x."
+          "hint": "5 duzych po x, mała 2x. Razem 5x + 2x = 7x = 210. Mała dostała 2x."
         }
       ]
     },
@@ -356,8 +356,8 @@
           "number": 6,
           "difficulty": "3pkt",
           "topic": "arytmetyka",
-          "subtopic": "powtarzajacy sie zestaw skokow",
-          "statement": "Kangur wykonal skok 2 m, potem dwa skoki po 1 m (w tym samym kierunku). Kilkukrotnie powtarzal ten zestaw 3 skokow. Ile skokow wykonal, jezeli przebyl 16 m?",
+          "subtopic": "powtarzajacy sie zestaw skoków",
+          "statement": "Kangur najpierw wykonał skok o długości dwóch metrów, póź- niej w tym samym kierunku dwa skoki metrowe. Następnie kilka- krotnie powtórzył ten zestaw trzech skoków. Ile skoków wykonał kangur, jeżeli przebył w taki sposób 16 metrów?",
           "hasImage": true,
           "imageNote": "Os liczbowa z kangurem skaczacym o 2, potem 1, potem 1.",
           "choices": {
@@ -380,7 +380,7 @@
           "difficulty": "4pkt",
           "topic": "arytmetyka",
           "subtopic": "eliminacja przez ostatnia cyfre",
-          "statement": "Filip obliczyl 48 razy 7. Wie, ze 48 to okolo 50, wiec wynik to okolo 350. Ktora odpowiedz jest poprawna?",
+          "statement": "Filip obliczył 48 razy 7. Wie, że 48 to okolo 50, wiec wynik to okolo 350. Która odpowiedz jest poprawna?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -400,16 +400,16 @@
           "number": 17,
           "difficulty": "5pkt",
           "topic": "arytmetyka",
-          "subtopic": "dlugosc trasy ze skokami przod/tyl",
-          "statement": "Kangur Skoczek wykonuje skoki po 2 m: po kazdych 3 skokach do przodu wykonuje 1 skok do tylu. Pokonal trase wykonujac lacznie 14 skokow. Ile metrow liczyla ta trasa?",
+          "subtopic": "długość trasy że skokami przód/tył",
+          "statement": "Kangur Skoczek wykonuje tylko skoki o długości 2 m i porusza się według następującej zasa- dy: po każdych trzech skokach do przodu wykonuje jeden skok do tyłu. Pokonał on pewną trasę wykonując w ten sposób łącznie czternaście skoków. Ile metrów liczyła ta trasa?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
-            "A": "8 metrow",
-            "B": "16 metrow",
-            "C": "15 metrow",
+            "A": "8 metrów",
+            "B": "16 metrów",
+            "C": "15 metrów",
             "D": "24 metry",
-            "E": "10 metrow"
+            "E": "10 metrów"
           },
           "correct": "B",
           "imageSrc": "/images/orig/2018-17.png"
@@ -418,27 +418,27 @@
       "solutions": [
         {
           "problemId": "gen-l07-v2-w1",
-          "observation": "Cyfra jednosci 3 (<5) - w dol.",
+          "observation": "Cyfra jednosci 3 (<5) - w dół.",
           "strategy": "Zaokraglanie do dziesiatek.",
           "steps": [
             "Cyfra jednosci to 3 (<5)",
-            "Zaokraglamy w dol: 73 -> 70"
+            "Zaokraglamy w dół: 73 -> 70"
           ],
           "answer": "A",
           "alternative": null,
-          "hint": "Cyfra jednosci 3 - w dol."
+          "hint": "Cyfra jednosci 3 - w dół."
         },
         {
           "problemId": "gen-l07-v2-w2",
-          "observation": "Cyfra dziesiatek 5 (>=5) - w gore.",
+          "observation": "Cyfra dziesiatek 5 (>=5) - w górę.",
           "strategy": "Zaokraglanie do setek.",
           "steps": [
             "Cyfra dziesiatek to 5 (>=5)",
-            "Zaokraglamy w gore: 651 -> 700"
+            "Zaokraglamy w górę: 651 -> 700"
           ],
           "answer": "C",
           "alternative": null,
-          "hint": "Cyfra dziesiatek 5 - w gore."
+          "hint": "Cyfra dziesiatek 5 - w górę."
         },
         {
           "problemId": "gen-l07-v2-w3",
@@ -467,16 +467,16 @@
         },
         {
           "problemId": "kangur-maluch-2022-6",
-          "observation": "Zestaw 3 skokow: 2m + 1m + 1m = 4m.",
-          "strategy": "Liczba zestawow i skokow.",
+          "observation": "Zestaw 3 skoków: 2m + 1m + 1m = 4m.",
+          "strategy": "Liczba zestawow i skoków.",
           "steps": [
             "Jeden zestaw = 2 + 1 + 1 = 4 m, 3 skoki",
             "16 m : 4 m = 4 zestawy",
-            "4 zestawy razy 3 skoki = 12 skokow"
+            "4 zestawy razy 3 skoki = 12 skoków"
           ],
           "answer": "E",
           "alternative": null,
-          "hint": "Zestaw 3 skokow = 4m. 16m to 4 zestawy. Razem skokow = 4 razy 3."
+          "hint": "Zestaw 3 skoków = 4m. 16m to 4 zestawy. Razem skoków = 4 razy 3."
         },
         {
           "problemId": "gen-l07-v2-c1",
@@ -494,18 +494,18 @@
         },
         {
           "problemId": "kangur-maluch-2018-17",
-          "observation": "Po 3 skokach przod 1 skok tyl, kazdy skok 2m.",
-          "strategy": "Liczenie postepu na zestaw skokow.",
+          "observation": "Po 3 skokach przód 1 skok tył, każdy skok 2m.",
+          "strategy": "Liczenie postepu na zestaw skoków.",
           "steps": [
-            "14 skokow = 3 grupy po 4 skoki (3 przod + 1 tyl) + 2 dodatkowe przod",
-            "Kazda grupa: 3 przod - 1 tyl = 2 skoki postepu = 4 m",
+            "14 skoków = 3 grupy po 4 skoki (3 przód + 1 tył) + 2 dodatkowe przód",
+            "Każda grupa: 3 przód - 1 tył = 2 skoki postepu = 4 m",
             "3 grupy razy 4 m = 12 m",
-            "2 dodatkowe skoki przod razy 2 m = 4 m",
+            "2 dodatkowe skoki przód razy 2 m = 4 m",
             "Razem 12 + 4 = 16 m"
           ],
           "answer": "B",
           "alternative": null,
-          "hint": "Co 4 skoki (3 przod + 1 tyl) = 4m. 14 skokow = 3 zestawy + 2. Policz drogi."
+          "hint": "Co 4 skoki (3 przód + 1 tył) = 4m. 14 skoków = 3 zestawy + 2. Policz drogi."
         }
       ]
     },
@@ -520,8 +520,8 @@
           "number": 13,
           "difficulty": "4pkt",
           "topic": "arytmetyka",
-          "subtopic": "rownanie z liczby nog",
-          "statement": "W szkole zwierzat ucza sie 3 pieski, 4 kaczuszki, 2 gaski i kilka owieczek. Pani Sowa policzyla, ze wszyscy uczniowie maja lacznie 44 nogi. Ile owieczek uczy sie w tej szkole?",
+          "subtopic": "rownanie z liczby nóg",
+          "statement": "W szkole dla zwierząt uczą się 3 pieski, 4 kaczuszki, 2 gąski i kilka owieczek. Pani Sowa policzyła, że wszyscy jej uczniowie mają łącznie 44 nogi. Ile owieczek uczy się w tej szkole?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -542,7 +542,7 @@
           "difficulty": "3pkt",
           "topic": "arytmetyka",
           "subtopic": "rownanie z roznica grzybow",
-          "statement": "Dziadek zebral 20 grzybow: kozlarze i borowiki. Borowikow bylo o 6 wiecej niz kozlarzy. Ile borowikow zebral dziadek?",
+          "statement": "Dziadek Mieczysław podczas spaceru zebrał 20 grzybów. Były to koźlarze i borowiki, przy czym borowików było o 6 więcej niż koźlarzy. Ile borowików zebrał dziadek?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -563,7 +563,7 @@
           "difficulty": "5pkt",
           "topic": "arytmetyka",
           "subtopic": "dzielniki i reszta",
-          "statement": "W pudelku jest mniej niz 50 ciastek. Mozna je podzielic rowno miedzy 2, 3 i 4 dzieci. Przy dzieleniu miedzy 7 dzieci brakuje 6 ciastek. Ile ciastek jest w pudelku?",
+          "statement": "W pudełku jest mniej niż 50 ciastek. Można je podzielić po równo między dwoje, troje i czworo dzieci. Gdybyśmy chcieli te ciastka podzielić po równo pomiędzy siedmioro dzieci, to zabrakłoby nam 6 ciastek. Ile ciastek jest w pudełku?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -584,7 +584,7 @@
           "difficulty": "3pkt",
           "topic": "arytmetyka",
           "subtopic": "porownanie sum",
-          "statement": "Ktora z sum jest najwieksza: A) 202+4, B) 20+24, C) 2+0+2+4, D) 20+2+4, E) 2+0+24?",
+          "statement": "Która z następujących sum jest największa?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -603,13 +603,13 @@
         {
           "problemId": "kangur-maluch-2012-13",
           "observation": "Pieski (4 nogi), kaczki (2), gaski (2), owieczki (4). Razem 44 nogi.",
-          "strategy": "Suma nog = 3*4 + 4*2 + 2*2 + 4*x = 44.",
+          "strategy": "Suma nóg = 3*4 + 4*2 + 2*2 + 4*x = 44.",
           "steps": [
-            "Pieski: 3 * 4 = 12 nog.",
-            "Kaczuszki: 4 * 2 = 8 nog.",
+            "Pieski: 3 * 4 = 12 nóg.",
+            "Kaczuszki: 4 * 2 = 8 nóg.",
             "Gaski: 2 * 2 = 4 nogi.",
             "Razem bez owieczek: 12 + 8 + 4 = 24 nogi.",
-            "Owieczki: 44 - 24 = 20 nog.",
+            "Owieczki: 44 - 24 = 20 nóg.",
             "Liczba owieczek: 20 : 4 = 5."
           ],
           "answer": "B",
@@ -618,7 +618,7 @@
         },
         {
           "problemId": "kangur-maluch-2021-6",
-          "observation": "Kozlarze i borowiki, razem 20. Borowikow o 6 wiecej.",
+          "observation": "Kozlarze i borowiki, razem 20. Borowikow o 6 więcej.",
           "strategy": "Rownania: k + b = 20, b = k + 6.",
           "steps": [
             "Podstaw b = k + 6 do pierwszego: k + (k + 6) = 20.",
@@ -645,7 +645,7 @@
           ],
           "answer": "D",
           "alternative": null,
-          "hint": "Liczba dzieli sie przez 2, 3 i 4 (czyli przez 12). Mniejsze niz 50: 12, 24, 36, 48. Sprawdz ktora daje reszte 1 przy /7 (bo brakuje 6)."
+          "hint": "Liczba dzieli sie przez 2, 3 i 4 (czyli przez 12). Mniejsze niz 50: 12, 24, 36, 48. Sprawdz która daje reszte 1 przy /7 (bo brakuje 6)."
         },
         {
           "problemId": "kangur-maluch-2024-2",
@@ -675,7 +675,7 @@
         "C": "680"
       },
       "correct": "B",
-      "explain": "Cyfra dziesiatek 8 (>=5), w gore: 700."
+      "explain": "Cyfra dziesiatek 8 (>=5), w górę: 700."
     },
     {
       "q": "Najszybciej oszacujesz 489 razy 6:",

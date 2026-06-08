@@ -8,8 +8,8 @@
   "estimatedMinutes": 15,
   "theory": {
     "intro": "Ile plytek pokrywa podloge? Ile kratek miesci sie w figurze? To pytania o pole. Pole mowi, jak duzo miejsca zajmuje figura w srodku. Obwod to droga dookola, a pole to powierzchnia wewnatrz.",
-    "tool": "Sztuczka 1: POLE PROSTOKATA = DLUGOSC RAZY SZEROKOSC. Prostokat 5 na 3: pole = 5 razy 3 = 15 kratek.\n\nSztuczka 2: POLE KWADRATU = BOK RAZY BOK. Kwadrat o boku 4: pole = 4 razy 4 = 16.\n\nSztuczka 3: LICZ KRATKI - CALE I POLOWKI. W figurze na kratce policz cale kratki, potem polowki. Dwie polowki to jedna cala kratka.\n\nSztuczka 4: ROZKLADAJ FIGURE. Skomplikowana figura? Podziel ja na prostokaty, policz pole kazdego i dodaj. Albo: domysl prostokat i odejmij to, czego brakuje.",
-    "trick": "Kangur lubi mieszac pole z obwodem. Zapamietaj roznice: obwod liczysz w jednostkach dlugosci (cm), pole w kratkach lub cm kwadratowych. Dwie figury moga miec ten sam obwod, ale rozne pola - i odwrotnie."
+    "tool": "Sztuczka 1: POLE PROSTOKATA = Długość RAZY SZEROKOSC. Prostokat 5 na 3: pole = 5 razy 3 = 15 kratek.\n\nSztuczka 2: POLE KWADRATU = BOK RAZY BOK. Kwadrat o boku 4: pole = 4 razy 4 = 16.\n\nSztuczka 3: LICZ KRATKI - CALE I POLOWKI. W figurze na kratce policz cale kratki, potem polowki. Dwie polowki to jedna cala kratka.\n\nSztuczka 4: ROZKLADAJ FIGURE. Skomplikowana figura? Podziel ja na prostokaty, policz pole każdego i dodaj. Albo: domysl prostokat i odejmij to, czego brakuje.",
+    "trick": "Kangur lubi mieszac pole z obwodem. Zapamietaj roznice: obwod liczysz w jednostkach długości (cm), pole w kratkach lub cm kwadratowych. Dwie figury mogą mieć ten sam obwod, ale różne pola - i odwrotnie."
   },
   "versions": [
     {
@@ -66,7 +66,7 @@
           "difficulty": "3pkt",
           "topic": "geometria_plaska",
           "subtopic": "pole z polowek",
-          "statement": "Figura sklada sie z 6 calych kratek i 4 polowek kratki. Ile wynosi jej pole?",
+          "statement": "Figura sklada sie z 6 całych kratek i 4 polowek kratki. Ile wynosi jej pole?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -87,9 +87,9 @@
           "difficulty": "3pkt",
           "topic": "geometria_plaska",
           "subtopic": "porownanie pol zamalowanych",
-          "statement": "Na ktorym z 5 rysunkow (siatki 4x4) obszar zamalowany na szaro jest najwiekszy?",
+          "statement": "Na którym rysunku obszar zamalowany na szaro jest największy?",
           "hasImage": true,
-          "imageNote": "Piec siatek 4x4 z roznymi zamalowanymi obszarami.",
+          "imageNote": "Pięć siatek 4x4 z roznymi zamalowanymi obszarami.",
           "choices": {
             "A": "rysunek A",
             "B": "rysunek B",
@@ -108,7 +108,7 @@
           "difficulty": "3pkt",
           "topic": "geometria_plaska",
           "subtopic": "zliczanie pol po pokolorowaniu",
-          "statement": "Tabelka ma 28 pol (4 wiersze, 7 kolumn). Dominika pokolorowala wszystkie pola w dwoch wierszach i wszystkie w jednej kolumnie. Ile pol pozostalo niezamalowanych?",
+          "statement": "Tabelka składa się z 28 pól. Dominika pokolorowała wszystkie pola znaj- dujące się w dwóch wierszach i wszystkie pola w jednej kolumnie tej tabelki. Ile pól pozostało niezamalowanych?",
           "hasImage": true,
           "imageNote": "Tabelka 4x7.",
           "choices": {
@@ -130,8 +130,8 @@
           "number": 12,
           "difficulty": "4pkt",
           "topic": "geometria_plaska",
-          "subtopic": "rownosc pol zamalowanego i niezamalowanego",
-          "statement": "Ktorym z 5 kwadracikow uzupelnic figure, by w otrzymanym kwadracie bylo tyle samo powierzchni zamalowanej co niezamalowanej?",
+          "subtopic": "równość pol zamalowanego i niezamalowanego",
+          "statement": "Którym z poniższych kwadracików należy uzupełnić ﬁgurę pokazaną na rysunku, aby w otrzymanym kwadracie było tyle samo powierzchni zamalowanej, co nie zamalowanej?",
           "hasImage": true,
           "imageNote": "Figura czesciowo zamalowana z brakujacym polem ? i 5 wariantow kwadracika.",
           "choices": {
@@ -152,9 +152,9 @@
           "difficulty": "5pkt",
           "topic": "geometria_plaska",
           "subtopic": "maksymalne zamalowanie bez kwadratu 2x2",
-          "statement": "Basia chce zamalowac male kwadraciki w figurze tak, by nie dalo sie z niej wyciac calego zamalowanego kwadratu 2x2. Jaka najwieksza liczba malych kwadracikow moze zamalowac?",
+          "statement": "Basia chce zamalować małe kwadraciki w ﬁgurze przedstawionej na rysunku obok, tak aby nie dało się z niej wyciąć zamalowanego kwadratu . Jaką największą liczbę małych kwadracików może ona zamalować?",
           "hasImage": true,
-          "imageNote": "Figura w ksztalcie krzyza zlozona z malych kwadracikow.",
+          "imageNote": "Figura w ksztalcie krzyza zlozona z małych kwadracikow.",
           "choices": {
             "A": "18",
             "B": "19",
@@ -169,14 +169,14 @@
       "solutions": [
         {
           "problemId": "gen-l19-v1-w1",
-          "observation": "Pole prostokata = dlugosc razy szerokosc.",
+          "observation": "Pole prostokata = długość razy szerokosc.",
           "strategy": "Wzor na pole.",
           "steps": [
             "Pole = 6 razy 4 = 24 kratki"
           ],
           "answer": "C",
           "alternative": null,
-          "hint": "Pole prostokata = dlugosc razy szerokosc."
+          "hint": "Pole prostokata = długość razy szerokosc."
         },
         {
           "problemId": "gen-l19-v1-w2",
@@ -192,9 +192,9 @@
         {
           "problemId": "gen-l19-v1-w3",
           "observation": "Dwie polowki to jedna cala kratka.",
-          "strategy": "Liczenie calych i polowek.",
+          "strategy": "Liczenie całych i polowek.",
           "steps": [
-            "6 calych kratek",
+            "6 całych kratek",
             "4 polowki = 2 cale kratki",
             "Razem 6 + 2 = 8"
           ],
@@ -207,7 +207,7 @@
           "observation": "Porownujemy pola zamalowane na 5 rysunkach.",
           "strategy": "Liczenie zamalowanych kratek.",
           "steps": [
-            "Na kazdym rysunku liczymy zamalowane kratki",
+            "Na każdym rysunku liczymy zamalowane kratki",
             "Najwiekszy obszar ma rysunek E"
           ],
           "answer": "E",
@@ -230,7 +230,7 @@
         {
           "problemId": "kangur-maluch-2014-12",
           "observation": "Uzupelniamy figure do rownego podzialu pola.",
-          "strategy": "Rownosc pol zamalowanego i niezamalowanego.",
+          "strategy": "Równość pol zamalowanego i niezamalowanego.",
           "steps": [
             "Kwadracik musi wyrownac pole zamalowane i niezamalowane",
             "Pasuje kwadracik D"
@@ -241,16 +241,16 @@
         },
         {
           "problemId": "kangur-maluch-2014-23",
-          "observation": "Maksymalne zamalowanie bez calego kwadratu 2x2.",
+          "observation": "Maksymalne zamalowanie bez całego kwadratu 2x2.",
           "strategy": "Unikanie pelnego kwadratu 2x2.",
           "steps": [
             "Zamalowujemy jak najwiecej kratek",
-            "Nie moze powstac caly kwadrat 2x2",
+            "Nie może powstac cały kwadrat 2x2",
             "Maksymalnie 20 kratek"
           ],
           "answer": "C",
           "alternative": null,
-          "hint": "Maksymalne zamalowanie bez calego kwadratu 2x2."
+          "hint": "Maksymalne zamalowanie bez całego kwadratu 2x2."
         }
       ]
     },
@@ -308,7 +308,7 @@
           "difficulty": "3pkt",
           "topic": "geometria_plaska",
           "subtopic": "pole figury zlozonej",
-          "statement": "Figura sklada sie z dwoch prostokatow: jeden 3 na 2 kratki, drugi 4 na 2 kratki. Ile wynosi jej pole razem?",
+          "statement": "Figura sklada sie z dwóch prostokatow: jeden 3 na 2 kratki, drugi 4 na 2 kratki. Ile wynosi jej pole razem?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -329,7 +329,7 @@
           "difficulty": "3pkt",
           "topic": "geometria_plaska",
           "subtopic": "liczenie plytek pod plakatem",
-          "statement": "Sciana wylozona naprzemiennie bialymi i szarymi plytkami. Marysia nakleila prostokatny plakat. Ile szarych plytek przykryl plakat?",
+          "statement": "Ściana kuchni była wyłożona naprzemiennie białymi i szarymi płytkami. Marysia nakleiła na niej prostokątny plakat konkursu Kangur — patrz obrazek. Ile szarych płytek przykrył ten plakat? Kangur Matematyczny 2024",
           "hasImage": true,
           "imageNote": "Sciana z szachownica plytek i prostokatny plakat.",
           "choices": {
@@ -350,7 +350,7 @@
           "difficulty": "3pkt",
           "topic": "geometria_plaska",
           "subtopic": "liczenie wzoru szachownicy",
-          "statement": "Na scianie wykonano regularny wzor z naprzemiennie ulozonych plytek czarnych i bialych. Niektore odpadly odslaniajac szary tynk. Ile czarnych plytek odpadlo?",
+          "statement": "Na ścianie wykonano regularny wzór z naprzemiennie ułożonych płytek w dwóch kolorach – białym i czarnym. Niektóre płytki odpadły od ściany odsłaniając szary tynk (patrz rysunek). Ile czarnych płytek odpadło?",
           "hasImage": true,
           "imageNote": "Sciana z szachownica i kilkoma odpadnietymi plytkami.",
           "choices": {
@@ -373,7 +373,7 @@
           "difficulty": "4pkt",
           "topic": "geometria_plaska",
           "subtopic": "liczenie kropek na kwadratowym dywanie",
-          "statement": "Dywan w ksztalcie kwadratu, wzdluz kazdego boku znajduje sie tyle samo kropek w 2 rzedach. Dywan zagiety. Ile jest wszystkich kropek na tym dywanie?",
+          "statement": "Dywan Aladyna ma kształt kwadratu. Wzdłuż każdego jego boku znaj- duje się po tyle samo kropek, które są rozmieszczone w dwóch rzędach. Dywan zagiął się, jak na obrazku. Ile jest wszystkich kropek na tym dy- wanie?",
           "hasImage": true,
           "imageNote": "Czerwone kropki na kwadracie z lekkim zagieciem rogu.",
           "choices": {
@@ -394,7 +394,7 @@
           "difficulty": "5pkt",
           "topic": "geometria_plaska",
           "subtopic": "liczenie elementow wzoru na dywanie",
-          "statement": "Dywan 36 dm na 60 dm, czesciowo zwiniety. Wzor to male kwadraty naprzemiennie z ksiezycem lub sloncem. Ile ksiezycow jest na calym dywanie?",
+          "statement": "Na rysunku obok przedstawiony jest dywan o szerokości 36 dm i długości 60 dm, który został częściowo zwinięty. Wzór na całym dywanie jest taki, jak widać na rysunku: składa się z małych naprzemiennie ułożonych kwadratów z księżycem lub słońcem. Ile księżyców jest na całym dywanie?",
           "hasImage": true,
           "imageNote": "Czesciowo zwiniety dywan z naprzemiennym wzorem ksiezycow i sloncow.",
           "choices": {
@@ -411,14 +411,14 @@
       "solutions": [
         {
           "problemId": "gen-l19-v2-w1",
-          "observation": "Pole = dlugosc razy szerokosc.",
+          "observation": "Pole = długość razy szerokosc.",
           "strategy": "Wzor na pole prostokata.",
           "steps": [
             "Pole = 7 razy 3 = 21 kratek"
           ],
           "answer": "C",
           "alternative": null,
-          "hint": "Pole = dlugosc razy szerokosc."
+          "hint": "Pole = długość razy szerokosc."
         },
         {
           "problemId": "gen-l19-v2-w2",
@@ -433,7 +433,7 @@
         },
         {
           "problemId": "gen-l19-v2-w3",
-          "observation": "Dwa prostokaty - liczymy pole kazdego.",
+          "observation": "Dwa prostokaty - liczymy pole każdego.",
           "strategy": "Rozkladanie figury.",
           "steps": [
             "Pierwszy: 3 razy 2 = 6",
@@ -442,7 +442,7 @@
           ],
           "answer": "C",
           "alternative": null,
-          "hint": "Dwa prostokaty - liczymy pole kazdego."
+          "hint": "Dwa prostokaty - liczymy pole każdego."
         },
         {
           "problemId": "kangur-maluch-2024-4",
@@ -458,7 +458,7 @@
         },
         {
           "problemId": "kangur-maluch-2012-7",
-          "observation": "Liczymy czarne plytki, ktore odpadly.",
+          "observation": "Liczymy czarne plytki, które odpadly.",
           "strategy": "Liczenie elementow wzoru.",
           "steps": [
             "Z regularnego wzoru szachownicy odpadlo kilka plytek",
@@ -466,14 +466,14 @@
           ],
           "answer": "A",
           "alternative": null,
-          "hint": "Liczymy czarne plytki, ktore odpadly."
+          "hint": "Liczymy czarne plytki, które odpadly."
         },
         {
           "problemId": "kangur-maluch-2022-13",
           "observation": "Liczymy kropki na zagietym dywanie.",
           "strategy": "Liczenie elementow przy zagieciu.",
           "steps": [
-            "Dywan kwadratowy z kropkami w 2 rzedach przy kazdym boku",
+            "Dywan kwadratowy z kropkami w 2 rzedach przy każdym boku",
             "Wszystkich kropek jest 44"
           ],
           "answer": "D",
@@ -506,7 +506,7 @@
           "difficulty": "5pkt",
           "topic": "geometria_plaska",
           "subtopic": "wycinanka - dwa zgiecia i ciecie",
-          "statement": "Ela zlozyla kwadratowa kartke (dol na gore), potem prostokat (lewa na prawa), odcieła lewy dolny rog i rozlozyla. Jaka wycinanke otrzymala?",
+          "statement": "Ela złożyła kwadratową kartkę papieru na połowę, układając dolną część kwadratu na górnej. Następnie otrzymany prostokąt złożyła na połowę, układając lewą jego część na prawej. Na koniec odcięła lewy dolny róg otrzymanego kwadratu i rozłożyła kartkę. Jaką wycinankę otrzymała Ela?",
           "hasImage": true,
           "imageNote": "Schemat skladania kartki i 5 wariantow wycinanki.",
           "choices": {
@@ -525,7 +525,7 @@
         {
           "problemId": "kangur-maluch-2023-17",
           "observation": "Kartka zgieta na cwiartki, odciety lewy dolny rog.",
-          "strategy": "Odgiecia tworza symetrie - rog w cwiartce odbija sie na 4 rogi w calej kartce.",
+          "strategy": "Odgiecia tworza symetrie - rog w cwiartce odbija sie na 4 rogi w całej kartce.",
           "steps": [
             "Po zlozeniu kartki na 4 czesci.",
             "Odciecie lewego dolnego rogu - usuwa fragment z naroznika.",

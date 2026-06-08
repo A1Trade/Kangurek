@@ -7,8 +7,8 @@
   "topic": "lamiglowki",
   "estimatedMinutes": 18,
   "theory": {
-    "intro": "Detektyw matematyczny szuka brakujacej cyfry. A + 5 = 12 gdzie A jest zagadka. To kryptarytm - rozumowanie ktore daje wiecej radosci niz dokladne liczenie. Kangur uwielbia takie zadania, bo trzeba myslec, a nie tylko liczyc.",
-    "tool": "Sztuczka 1: ODWRACAJ OPERACJE. Jezeli A + 5 = 12, to A = 12 - 5 = 7. Brakujaca liczba wychodzi z odejmowania.\n\nSztuczka 2: PATRZ NA OSTATNIA CYFRE. Cyfra koncowa wyniku zalezy tylko od cyfr koncowych skladnikow.\n\nSztuczka 3: SYSTEMATYCZNIE SPRAWDZAJ. Gdy odpowiedz nie jest oczywista, podstawiaj kolejne mozliwosci. Z 5 odpowiedzi zwykle mozesz wykluczyc 2-3 szybko.\n\nSztuczka 4: UKLAD ROWNAN W FIGURACH. Trzy figury, trzy sumy - to uklad rownan. Dodaj wszystko, znajdz wartosci po kolei.",
+    "intro": "Detektyw matematyczny szuka brakujacej cyfry. A + 5 = 12 gdzie A jest zagadka. To kryptarytm - rozumowanie które daje więcej radosci niz dokladne liczenie. Kangur uwielbia takie zadania, bo trzeba myslec, a nie tylko liczyc.",
+    "tool": "Sztuczka 1: ODWRACAJ OPERACJE. Jeżeli A + 5 = 12, to A = 12 - 5 = 7. Brakujaca liczba wychodzi z odejmowania.\n\nSztuczka 2: PATRZ NA OSTATNIA CYFRE. Cyfra koncowa wyniku zalezy tylko od cyfr koncowych skladnikow.\n\nSztuczka 3: SYSTEMATYCZNIE SPRAWDZAJ. Gdy odpowiedz nie jest oczywista, podstawiaj kolejne mozliwosci. Z 5 odpowiedzi zwykle mozesz wykluczyc 2-3 szybko.\n\nSztuczka 4: UKLAD ROWNAN W FIGURACH. Trzy figury, trzy sumy - to uklad rownan. Dodaj wszystko, znajdz wartosci po kolei.",
     "trick": "W kryptarytmach z DUZYMI liczbami zacznij od KOLUMNY JEDNOSCI - tam zwykle jest pierwsza wskazowka. Przeniesienia z kolumny do kolumny daja kolejne. Idz krok po kroku, nie probuj wszystkiego naraz."
   },
   "versions": [
@@ -45,7 +45,7 @@
           "difficulty": "3pkt",
           "topic": "lamiglowki",
           "subtopic": "wstawianie znakow",
-          "statement": "Wstaw znaki + lub - miedzy liczby 1 _ 2 _ 3 _ 4 _ 5 tak, by wynik byl rowny 1. Ktory zestaw dziala?",
+          "statement": "Wstaw znaki + lub - między liczby 1 _ 2 _ 3 _ 4 _ 5 tak, by wynik był równy 1. Który zestaw dziala?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -87,7 +87,7 @@
           "difficulty": "4pkt",
           "topic": "logika",
           "subtopic": "zbiory - inkluzja-ekskluzja",
-          "statement": "Babcia upiekla 20 ciastek dla wnukow. Udekorowala 15 ciastek rodzynkami i 15 ciastek orzechami tak, zeby liczba ciastek udekorowanych zarowno rodzynkami jak i orzechami byla najmniejsza z mozliwych. Ta liczba ciastek to:",
+          "statement": "Babcia upiekła 20 ciastek dla swoich wnucząt. Udekorowała 15 ciastek rodzynkami i 15 ciastek orzechami w taki sposób, że liczba ciastek udekorowanych zarówno rodzynkami, jak i orzechami była najmniejsza z możliwych. Tą liczbą ciastek jest",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -108,9 +108,9 @@
           "difficulty": "4pkt",
           "topic": "arytmetyka",
           "subtopic": "rownanie z plamą atramentu",
-          "statement": "Michal zapisal liczby owocow: 2 mango, jakies jablka, 1 gruszka, jakies banany, 30 sliwek - razem 106 owocow. Pamietal, ze owocow dwoch rodzajow bylo po tyle samo, owocow drugich dwoch po tyle samo, a pewnego rodzaju bylo ponad 10 wiecej niz innego, ale zadnego wiecej niz 106. Ile bananow mial Michal?",
+          "statement": "Michal zapisał liczby owoców: 2 mango, jakies jabłka, 1 gruszka, jakies banany, 30 sliwek - razem 106 owoców. Pamietal, że owoców dwóch rodzajow było po tyle samo, owoców drugich dwóch po tyle samo, a pewnego rodzaju było ponad 10 więcej niz innego, ale zadnego więcej niz 106. Ile bananow miał Michal?",
           "hasImage": true,
-          "imageNote": "Lista owocow z dwoma zatartymi liczbami (jablka i banany).",
+          "imageNote": "Lista owoców z dwoma zatartymi liczbami (jabłka i banany).",
           "choices": {
             "A": "9",
             "B": "10",
@@ -131,7 +131,7 @@
           "difficulty": "5pkt",
           "topic": "arytmetyka",
           "subtopic": "uklad rownan z figurami",
-          "statement": "Kwadrat 3x3 z figurami (trojkat, gwiazda, kolko). Sumy wierszy: 34, 32, 26. Wiersz 1: trojkat, gwiazda, gwiazda. Wiersz 2: trojkat, gwiazda, kolko. Wiersz 3: gwiazda, trojkat, trojkat. Jaka liczba jest ukryta pod kolkiem?",
+          "statement": "W polach kwadratu pod taką samą ﬁgurą ukryta jest taka sama liczba. Suma trzech liczb wiersza jest wpisana obok każdego z nich. Jaka liczba ukryta jest pod kółkiem?",
           "hasImage": true,
           "imageNote": "Tabela 3x3 z trzema rodzajami figur i sumami wierszy 34, 32, 26.",
           "choices": {
@@ -152,7 +152,7 @@
           "difficulty": "5pkt",
           "topic": "arytmetyka",
           "subtopic": "zliczanie wystąpień cyfry w numeracji stron",
-          "statement": "Wszystkie strony książki są ponumerowane kolejnymi liczbami: 1, 2, 3, 4, 5, ... Cyfra 5 pojawia się w numerach stron dokładnie 16 razy. Ile co najwyżej stron może mieć ta książka?",
+          "statement": "Wszystkie strony książki są ponumerowane kolejnymi liczbami: 1, 2, 3, 4, 5, . . . Cyfra 5 pojawia się w numerach stron dokładnie 16 razy. Ile co najwyżej stron może mieć ta książka?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -180,7 +180,7 @@
         },
         {
           "problemId": "gen-l08-w2",
-          "observation": "Sprawdzam kazdy zestaw znakow.",
+          "observation": "Sprawdzam każdy zestaw znakow.",
           "strategy": "Sprawdzanie wynikow.",
           "steps": [
             "1+2+3+4+5 = 15, nie",
@@ -189,7 +189,7 @@
           ],
           "answer": "B",
           "alternative": "Z 5 odpowiedzi tylko jedna daje wynik 1.",
-          "hint": "Wypisz wynik dla kazdego zestawu - tylko jeden daje 1."
+          "hint": "Wypisz wynik dla każdego zestawu - tylko jeden daje 1."
         },
         {
           "problemId": "gen-l08-w3",
@@ -217,23 +217,23 @@
         },
         {
           "problemId": "kangur-maluch-2025-16",
-          "observation": "Owoce: 2 mango, jablka, 1 gruszka, banany, 30 sliwek - razem 106. Warunki o rownych liczbach.",
+          "observation": "Owoce: 2 mango, jabłka, 1 gruszka, banany, 30 sliwek - razem 106. Warunki o równych liczbach.",
           "strategy": "Uklad warunkow z ograniczeniami.",
           "steps": [
             "Suma znanych bez zatartych: 2 + 1 + 30 = 33",
-            "Jablka + banany = 106 - 33 = 73",
+            "Jabłka + banany = 106 - 33 = 73",
             "Po analizie warunkow (dwa rodzaje po tyle samo, jeden o ponad 10 wiekszy) wychodzi: banany = 23"
           ],
           "answer": "E",
-          "alternative": "Wymaga precyzyjnej analizy warunkow rownosci.",
-          "hint": "Dwie pary po rowno + osobna liczba. Suma 2+1+30+2x+2y+z = 106, czyli 2x+2y+z = 73."
+          "alternative": "Wymaga precyzyjnej analizy warunkow równości.",
+          "hint": "Dwie pary po równo + osobna liczba. Suma 2+1+30+2x+2y+z = 106, czyli 2x+2y+z = 73."
         },
         {
           "problemId": "kangur-maluch-2022-23",
           "observation": "3 rodzaje figur w 3x3 z sumami wierszy 34, 32, 26.",
           "strategy": "Uklad rownan.",
           "steps": [
-            "Niech trojkat=a, gwiazda=b, kolo=c",
+            "Niech trójkąt=a, gwiazda=b, koło=c",
             "Wiersz 1 (a,b,b): a + 2b = 34",
             "Wiersz 3 (b,a,a): 2a + b = 26",
             "Dodaj W1+W3: 3a + 3b = 60, czyli a+b = 20",
@@ -242,7 +242,7 @@
           ],
           "answer": "D",
           "alternative": null,
-          "hint": "Suma wierszy = 34, 32, 26. Roznice mowia o roznych figurach. trojkat+gwiazda+gwiazda=34 itd."
+          "hint": "Suma wierszy = 34, 32, 26. Roznice mowia o różnych figurach. trójkąt+gwiazda+gwiazda=34 itd."
         },
         {
           "problemId": "kangur-maluch-2019-18",
@@ -250,11 +250,11 @@
           "strategy": "Licz pojawienia 5 w jednosciach (5, 15, 25, ...) i dziesiatkach (50-59).",
           "steps": [
             "Cyfra 5 w jednosciach: strony 5, 15, 25, 35, 45 -> 5 wystapien do strony 49.",
-            "Strony 50-59: kazda ma 5 w dziesiatkach (10 razy) + 55 ma dodatkowo 5 w jednosciach.",
-            "Lacznie do strony 59: 5 (jednosci wczesniej) + 10 (dziesiatki 50-59) + 1 (jednosci 55) = 16. OK!",
-            "Maksymalna liczba stron: musimy uwazac, kolejna 5 w jednosciach to 65.",
+            "Strony 50-59: każda ma 5 w dziesiatkach (10 razy) + 55 ma dodatkowo 5 w jednosciach.",
+            "Łącznie do strony 59: 5 (jednosci wcześniej) + 10 (dziesiatki 50-59) + 1 (jednosci 55) = 16. OK!",
+            "Maksymalna liczba stron: musimy uważać, kolejna 5 w jednosciach to 65.",
             "Czyli do 64 dokladnie 16 wystapien? Po stronie 59 nastepna 5 to 65 (jednosci).",
-            "Wiec ksiazka moze miec maks 64 stron z dokladnie 16 piatkami.",
+            "Wiec książka może mieć maks 64 stron z dokladnie 16 piatkami.",
             "Z odpowiedzi: 59. Sprawdz: po stronie 59 mamy juz 16, dalej do 64 nie ma 5 - mozemy do 64."
           ],
           "answer": "A",
@@ -317,7 +317,7 @@
           "difficulty": "3pkt",
           "topic": "lamiglowki",
           "subtopic": "wstawianie znakow",
-          "statement": "Wstaw znaki + lub - miedzy liczby 5 _ 5 _ 5, by otrzymac 15. Ktory zestaw dziala?",
+          "statement": "Wstaw znaki + lub - między liczby 5 _ 5 _ 5, by otrzymac 15. Który zestaw dziala?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -338,7 +338,7 @@
           "difficulty": "4pkt",
           "topic": "lamiglowki",
           "subtopic": "domino - znajdz brakujace oczka",
-          "statement": "Franek ulozyl weza z 7 kamieni domino tak, ze sasiadujace pola maja po tyle samo oczek. Waz mial lacznie 33 oczka. Mlodszy brat zabral 2 kamienie. Ile oczek bylo na polu oznaczonym znakiem zapytania?",
+          "statement": "Franek ułożył węża z siedmiu kamieni domino. Ułożył go w taki sposób, że sąsiadujące ze sobą pola mają po ty- le samo oczek. Wąż ułożony przez Franka miał łącznie 33 oczka. Młodszy brat Franka zabrał dwa kamienie, co poka- zano na rysunku obok. ? Ile oczek było na polu oznaczonym znakiem zapytania?",
           "hasImage": true,
           "imageNote": "Waz z domina - czesc widoczna, dwa kamienie usuniete, pole '?' oznaczone.",
           "choices": {
@@ -358,16 +358,16 @@
           "number": 6,
           "difficulty": "3pkt",
           "topic": "arytmetyka",
-          "subtopic": "suma punktow w rzutkach",
-          "statement": "Michal i Kuba graja w rzutki. Kazdy wykonal 3 rzuty. Wygrywa ten o wiekszej sumie. Ktory wygral i o ile punktow?",
+          "subtopic": "suma punktów w rzutkach",
+          "statement": "Michał i Kuba grają w rzutki. Każdy z nich wykonał trzy rzuty. Uzyskali wyniki przedstawione na poniższym rysunku. Wygrywa ten, u którego suma wszystkich traﬁonych liczb jest większa. Który z chłopców wygrał i o ile punktów więcej od rywala zdobył zwycięzca? 1 1 1 1 3 3 4 4 5 5 6 6 7 7 8 8 9 9 10 10 15 15 20 20 25 25 30 30 35 35 40 40 45 45 50 50 55 55 60 60 60 60 65 65 70 70 75 75 100 100 Michał Kuba",
           "hasImage": true,
-          "imageNote": "Dwie tarcze rzutek z trzema trafieniami u kazdego gracza.",
+          "imageNote": "Dwie tarcze rzutek z trzema trafieniami u każdego gracza.",
           "choices": {
-            "A": "Wygral Michal o 3",
-            "B": "Wygral Kuba o 4",
-            "C": "Wygral Michal o 2",
-            "D": "Wygral Kuba o 2",
-            "E": "Wygral Michal o 4"
+            "A": "Wygrał Michał i zdobył o 3 punkty więcej od Kuby.",
+            "B": "Wygrał Kuba i zdobył o 4 punkty więcej od Michała.",
+            "C": "Wygrał Michał i zdobył o 2 punkty więcej od Kuby.",
+            "D": "Wygrał Kuba i zdobył o 2 punkty więcej od Michała.",
+            "E": "Wygrał Michał i zdobył o 4 punkty więcej od Kuby."
           },
           "correct": "C",
           "imageSrc": "/images/orig/2012-6.png"
@@ -381,8 +381,8 @@
           "number": 23,
           "difficulty": "5pkt",
           "topic": "lamiglowki",
-          "subtopic": "kola z liczbami 1-12, rowne sumy na prostej",
-          "statement": "Kazda z liczb 1-12 wpisana do kolka diagramu tak, by suma czterech liczb na kazdej prostej byla taka sama. Niektore liczby juz wpisane: 8, 11, 2, 1, 7, 12, 6. Jaka liczbe wpisac w miejscu znaku zapytania?",
+          "subtopic": "koła z liczbami 1-12, równe sumy na prostej",
+          "statement": "Każda z liczb 1-12 wpisana do kółka diagramu tak, by suma czterech liczb na każdej prostej była taka sama. Niektore liczby juz wpisane: 8, 11, 2, 1, 7, 12, 6. Jaka liczbe wpisać w miejscu znaku zapytania?",
           "hasImage": true,
           "imageNote": "Diagram heksagonalny z kolami, czesc liczb wypelniona.",
           "choices": {
@@ -403,7 +403,7 @@
           "difficulty": "5pkt",
           "topic": "arytmetyka",
           "subtopic": "liczba dwucyfrowa z warunkami",
-          "statement": "Dana jest pewna liczba dwucyfrowa. Po dodaniu 11 wynik jest trzycyfrowy. Po odjeciu 11 wynik jest iloczynem dwoch jednakowych liczb jednocyfrowych. Ta liczba to:",
+          "statement": "Dana jest pewna liczba dwucyfrowa. Jeśli dodamy do niej 11, to wynik będzie liczbą trzycy- frową, jeśli zaś odejmiemy od niej 11, to wynik będzie równy iloczynowi dwóch jednakowych liczb jednocyfrowych. Daną liczbą dwucyfrową jest",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -455,20 +455,20 @@
         },
         {
           "problemId": "kangur-maluch-2012-14",
-          "observation": "Waz z 7 kamieni domino, lacznie 33 oczka, 2 kamienie zabrane.",
-          "strategy": "Sasiednie pola maja po tyle samo oczek.",
+          "observation": "Waz z 7 kamieni domino, łącznie 33 oczka, 2 kamienie zabrane.",
+          "strategy": "Sąsiednie pola maja po tyle samo oczek.",
           "steps": [
-            "Sasiadujace pola domina maja rowne oczka",
+            "Sasiadujace pola domina maja równe oczka",
             "Z lacznej sumy 33 i widocznych kamieni",
             "Po analizie na polu ? jest 4 oczka"
           ],
           "answer": "C",
           "alternative": "Wymaga sledzenia regul ukladania domina.",
-          "hint": "Suma oczek 33. Sasiednie pola po tyle samo - kazda para 'styka sie' rowna liczba."
+          "hint": "Suma oczek 33. Sąsiednie pola po tyle samo - każda para 'styka sie' równa liczba."
         },
         {
           "problemId": "kangur-maluch-2012-6",
-          "observation": "Dwie tarcze rzutek, kazdy gracz 3 strzaly.",
+          "observation": "Dwie tarcze rzutek, każdy gracz 3 strzaly.",
           "strategy": "Sumowanie trafien.",
           "steps": [
             "Sumujemy 3 trafienia Michala i 3 trafienia Kuby",
@@ -480,24 +480,24 @@
         },
         {
           "problemId": "kangur-maluch-2025-23",
-          "observation": "12 kol z liczbami 1-12, rowne sumy na prostych.",
-          "strategy": "Uklad rownan z czesciowo wypelnionych kol.",
+          "observation": "12 kół z liczbami 1-12, równe sumy na prostych.",
+          "strategy": "Uklad rownan z czesciowo wypelnionych kół.",
           "steps": [
             "Suma wszystkich liczb 1-12 = 78",
-            "Z warunkow rownych sum na prostych liniach",
+            "Z warunkow równych sum na prostych liniach",
             "Po wyliczeniu w miejscu ? wpada liczba 5"
           ],
           "answer": "C",
-          "alternative": "Wymaga sledzenia kazdej prostej linii diagramu.",
+          "alternative": "Wymaga sledzenia każdej prostej linii diagramu.",
           "hint": "Suma 1-12 = 78. Podzielona na 4 proste po 3 nowe liczby - oblicz sume jednej prostej."
         },
         {
           "problemId": "kangur-maluch-2018-19",
-          "observation": "Liczba dwucyfrowa: +11 daje trzycyfrowa, -11 daje iloczyn rownych cyfr.",
+          "observation": "Liczba dwucyfrowa: +11 daje trzycyfrowa, -11 daje iloczyn równych cyfr.",
           "strategy": "Sprawdzanie warunkow.",
           "steps": [
             "+11 trzycyfrowa: liczba >= 89",
-            "-11 iloczyn rownych jednocyfrowych: wynik z {1,4,9,16,25,36,49,64,81}",
+            "-11 iloczyn równych jednocyfrowych: wynik z {1,4,9,16,25,36,49,64,81}",
             "Liczba - 11 >= 78, wiec wynik = 81",
             "Liczba = 81 + 11 = 92"
           ],
@@ -519,7 +519,7 @@
           "difficulty": "3pkt",
           "topic": "lamiglowki",
           "subtopic": "kryptarytm - zakryte jednakowe cyfry",
-          "statement": "Ala zapisala prawidlowe dzialanie, potem zakryla dwie jednakowe cyfry i otrzymala: 4X + 5X = 104, gdzie X to zakryta cyfra. Jaka cyfra to X?",
+          "statement": "Ala zapisała prawidłowo wykonane działanie. Następnie zakryła dwie jednakowe cyfry i otrzy- mała 4■+ 5■= 104. Jakie cyfry zakryła Ala?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -540,9 +540,9 @@
           "difficulty": "5pkt",
           "topic": "lamiglowki",
           "subtopic": "podzial paska na czesci w stosunku 1:2",
-          "statement": "Marek zbudowal pasek z 27 klockow. Dzieli go na dwa krotsze tak, ze jeden jest 2 razy dluzszy od drugiego. Potem dzieli jeden z otrzymanych tak samo i tak dalej. Ktorego z paskow na pewno NIE mogl otrzymac?",
+          "statement": "Marek zbudowal pasek z 27 klocków. Dzieli go na dwa krótsze tak, że jeden jest 2 razy dłuższy od drugiego. Potem dzieli jeden z otrzymanych tak samo i tak dalej. Którego z paskow na pewno NIE mogl otrzymac?",
           "hasImage": true,
-          "imageNote": "Pasek 27 klockow i 5 wariantow krotszych paskow.",
+          "imageNote": "Pasek 27 klocków i 5 wariantow krotszych paskow.",
           "choices": {
             "A": "pasek A",
             "B": "pasek B",
@@ -561,7 +561,7 @@
           "difficulty": "4pkt",
           "topic": "lamiglowki",
           "subtopic": "rozmieszczenie cyfr aby maksymalizować sumę",
-          "statement": "Kuba chce tak wpisać cyfry 2, 0, 1 i 9 w cztery kratki diagramu (trzy kratki tworzą liczbę 3-cyfrową, a czwarta to osobna 1-cyfrowa liczba dodawana), aby w każdej kratce była inna cyfra i aby wynik dodawania był jak największy. Jaką cyfrę powinien wpisać w kratkę ze znakiem zapytania (osobna kratka po prawej)?",
+          "statement": "Kuba chce tak wpisać cyfry 2, 0, 1 i 9 w kratki diagramu obok, aby w każdej kratce była inna cyfra i aby wynik dodawania był największy z możliwych. Jaką cyfrę powinien wpisać w kratkę ze znakiem zapytania? + ?",
           "hasImage": true,
           "imageNote": "Diagram: [_][_][_] + [?].",
           "choices": {
@@ -582,7 +582,7 @@
           "difficulty": "5pkt",
           "topic": "lamiglowki",
           "subtopic": "kryptarytm - maksymalizacja wyniku",
-          "statement": "W lamiglowce NAR - RAC + JA pod kazda litera ukryta jest cyfra 1-9 (takie same litery = ta sama cyfra, rozne litery = rozne cyfry). Jaki najwiekszy wynik mozna otrzymac?",
+          "statement": "W łamigłówce arytmetycznej NAR −RAC + JA pod każdą literą jest ukryta jedna z cyfr od 1 do 9. Takim samym literom odpowiada taka sama cyfra, różnym literom — różne cyfry. Jaki największy wynik można otrzymać po wykonaniu działań w tej łamigłówce?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -603,7 +603,7 @@
           "difficulty": "5pkt",
           "topic": "lamiglowki",
           "subtopic": "diagram z sumami sasiednich par",
-          "statement": "W kratki diagramu (rzad 9 kratek) wpisujemy liczby 1-9. Nad i pod diagramem podano sumy dwoch sasiednich pol. Jaka liczbe wpisac w kratce ze znakiem zapytania?",
+          "statement": "W kratki diagramu należy wpisać wszystkie liczby od 1 do 9, w każdą kratkę jedną liczbę. Nad i pod diagramem zapisano, ile powinny wynosić sumy liczb z dwóch zazna- czonych sąsiednich pól. Jaką liczbę należy wpisać w kratkę ze znakiem zapytania?",
           "hasImage": true,
           "imageNote": "Rzad 9 kratek z sumami par sasiednich pol nad i pod.",
           "choices": {
@@ -624,7 +624,7 @@
           "difficulty": "5pkt",
           "topic": "lamiglowki",
           "subtopic": "minimalna suma - dodawanie 3-cyfrowych",
-          "statement": "W dzialaniu (trzycyfrowa) + (trzycyfrowa) = (trzycyfrowa) trzeba wpisac 9 roznych cyfr (kazda kratka inna cyfra), tak by wynik byl poprawny. Jaka najmniejsza sume mozna uzyskac?",
+          "statement": "Do następujących kratek + = należy tak wpisać trzy liczby trzycyfrowe, aby w każdej z dziewięciu kratek była inna cyfra i wynik był poprawny. Oto przykład takiego wypełnienia diagramu: + = 0 1 2 3 4 5 6 7 8 . Jaką najmniejszą sumę można uzyskać w ten sposób?",
           "hasImage": true,
           "imageNote": "Diagram dodawania pisemnego trzech liczb trzycyfrowych.",
           "choices": {
@@ -645,9 +645,9 @@
           "difficulty": "4pkt",
           "topic": "lamiglowki",
           "subtopic": "wartosc gwiazdki z trzech skrzyn",
-          "statement": "W trzech skrzyniach sa jednakowe zlote kule, sztabki i gwiazdki. Skarb w kazdej skrzyni wart jest 40 dukatow. Ile dukatow warta jest zlota gwiazdka?",
+          "statement": "W trzech skrzyniach znajdują się jednakowe złote kule, jednakowe złote sztabki i jednakowe złote gwiazdki. Skarb w każdej skrzyni jest wart 40 dukatów. Ile dukatów jest warta złota gwiazdka?",
           "hasImage": true,
-          "imageNote": "Trzy skrzynie z rozna liczba kul, sztabek i gwiazdek.",
+          "imageNote": "Trzy skrzynie z różna liczba kul, sztabek i gwiazdek.",
           "choices": {
             "A": "1",
             "B": "2",
@@ -665,10 +665,10 @@
           "number": 23,
           "difficulty": "5pkt",
           "topic": "lamiglowki",
-          "subtopic": "kolka z sumami na odcinkach",
-          "statement": "W kolka pierscienia wpisujemy liczby 1-7 tak, by suma w sasiednich kolkach polaczonych odcinkiem rownala sie liczbie przy odcinku (7, 8, 9, 6, 9, 8, 9). Jaka liczbe wpisac w zamalowane kolko?",
+          "subtopic": "kółka z sumami na odcinkach",
+          "statement": "Do kółek należy wpisać każdą z liczb od 1 do 7 w taki sposób, by suma liczb w sąsiednich kółkach połączonych odcinkiem była równa liczbie zapisanej przy tym odcinku. Jaką liczbę należy wpisać w za- malowane kółko?",
           "hasImage": true,
-          "imageNote": "Siedem kolek w pierscieniu z liczbami przy odcinkach, jedno kolko zamalowane.",
+          "imageNote": "Siedem kolek w pierscieniu z liczbami przy odcinkach, jedno kółko zamalowane.",
           "choices": {
             "A": "1",
             "B": "2",
@@ -686,8 +686,8 @@
           "number": 15,
           "difficulty": "4pkt",
           "topic": "lamiglowki",
-          "subtopic": "karty w okregach o rownej sumie",
-          "statement": "Siedem kart z liczbami 1-7 ulozono w czterech okregach. Odkryto karty 6 i 3. Suma liczb w kazdym okregu wynosi 10. Jaka liczba jest na karcie ze znakiem zapytania?",
+          "subtopic": "karty w okregach o równej sumie",
+          "statement": "Siedem kart z liczbami od 1 do 7 ułożono w czterech okrę- gach. Dwie karty odkryto — patrz rysunek. Suma liczb w każ- dym okręgu wynosi 10. Jaka liczba jest na karcie ze znakiem zapytania?",
           "hasImage": true,
           "imageNote": "Siedem kart w rzedzie objetych czterema okregami, odkryte 6 i 3.",
           "choices": {
@@ -707,16 +707,16 @@
           "number": 16,
           "difficulty": "4pkt",
           "topic": "lamiglowki",
-          "subtopic": "liczby na dwoch stronach pocietej kartki",
-          "statement": "Ania zapisala 4 liczby (1,2,4,3) na zacieniowanej stronie kartki, odwrocila ja i zapisala 4 inne (6,7,8,5) na bialej. Pocieła kartke na 4 czesci. W rzedzie czesci widac 5 i 6, dwie inne maja znaki zapytania. Ile wynosi suma liczb ukrytych pod znakami zapytania?",
+          "subtopic": "liczby na dwóch stronach pocietej kartki",
+          "statement": "Na zacieniowanej stronie kartki Ania zapisała cztery liczby. Następnie, wzdłuż krawędzi przechodzącej przez przerywaną linię, odwróciła kartkę na białą stronę. Zapisała na niej cztery inne liczby — patrz obrazek. Na koniec przecięła kartkę na cztery równe części 5 6 ? ? Ile wynosi suma liczb ukrytych pod znakami zapytania?",
           "hasImage": true,
-          "imageNote": "Kartka z liczbami po dwoch stronach, pocieta na 4 czesci.",
+          "imageNote": "Kartka z liczbami po dwóch stronach, pocieta na 4 czesci.",
           "choices": {
             "A": "3",
             "B": "4",
             "C": "5",
             "D": "6",
-            "E": "7"
+            "E": "7 1 2 3 4 5 6 7 8"
           },
           "correct": "B",
           "imageSrc": "/images/orig/2024-16.png"
@@ -729,7 +729,7 @@
           "difficulty": "5pkt",
           "topic": "lamiglowki",
           "subtopic": "kryptarytm - suma zaslonięt­ych cyfr",
-          "statement": "Kostek dodal trzy liczby trzycyfrowe: 2_3 + 1_4 + 41_ = 782 (trzy cyfry zachlapane atramentem). Jaka jest suma cyfr pod trzema kleksami?",
+          "statement": "Kostek dodał trzy liczby trzycyfrowe i zapisał ich sumę 782. Niestety, zachlapał atramentem trzy cyfry: 243 + 124 + 415 = 782 Jaka jest suma cyfr pod trzema kleksami?",
           "hasImage": true,
           "imageNote": "Dzialanie z trzema zachlapanymi cyframi.",
           "choices": {
@@ -750,7 +750,7 @@
           "difficulty": "5pkt",
           "topic": "lamiglowki",
           "subtopic": "uklad rownan z figurami - iloczyn",
-          "statement": "Pod taka sama figura ukryta jest ta sama cyfra. trojkat + trojkat = (kwadrat)(kolko), kolko + trojkat = (kwadrat)(kwadrat). Ile wynosi iloczyn trojkat razy kolko razy kwadrat?",
+          "statement": "Na diagramie obok pod taką samą ﬁgurą jest ukryta taka sama cyfra, pod różnymi ﬁgurami różne cyfry. Ile wynosi wynik mnożenia ? · ·",
           "hasImage": true,
           "imageNote": "Diagram z trojkatami, kolkami i kwadratami w rownaniach.",
           "choices": {
@@ -769,27 +769,27 @@
         {
           "problemId": "kangur-maluch-2013-2",
           "observation": "4X + 5X = 104. X to jedna cyfra (od 0 do 9).",
-          "strategy": "Patrz na jednosci: X + X konczy sie na 4. Czyli 2X konczy sie na 4.",
+          "strategy": "Patrz na jednosci: X + X kończy sie na 4. Czyli 2X kończy sie na 4.",
           "steps": [
-            "2X konczy sie na 4: X = 2 (2*2=4) lub X = 7 (2*7=14, przeniesienie).",
+            "2X kończy sie na 4: X = 2 (2*2=4) lub X = 7 (2*7=14, przeniesienie).",
             "Sprawdz X = 2: 42 + 52 = 94. Nie 104.",
             "Sprawdz X = 7: 47 + 57 = 104. TAK!",
             "X = 7."
           ],
           "answer": "D",
           "alternative": null,
-          "hint": "4X + 5X = 104. Dziesiatki: 4+5 = 9 (+ przeniesienie). Jednosci: X+X konczy sie na 4."
+          "hint": "4X + 5X = 104. Dziesiatki: 4+5 = 9 (+ przeniesienie). Jednosci: X+X kończy sie na 4."
         },
         {
           "problemId": "kangur-maluch-2016-20",
-          "observation": "Pasek 27 klockow dzielony na czesci w stosunku 1:2 wielokrotnie.",
-          "strategy": "Sprawdz mozliwe dlugosci podzialow.",
+          "observation": "Pasek 27 klocków dzielony na czesci w stosunku 1:2 wielokrotnie.",
+          "strategy": "Sprawdz mozliwe długości podzialow.",
           "steps": [
             "27 dzielimy na 1:2 -> 9 i 18.",
             "Z 18: 6 i 12. Z 12: 4 i 8. Z 9: 3 i 6.",
             "Z 6: 2 i 4. Z 4: ... ale 4 nie dzieli sie na 1:2 calkowicie (nie ma 4/3).",
-            "Dostepne dlugosci: 27, 18, 12, 9, 8, 6, 4, 3, 2.",
-            "Patrzymy na odpowiedzi - pasek E ma dlugosc nie z tej listy.",
+            "Dostepne długości: 27, 18, 12, 9, 8, 6, 4, 3, 2.",
+            "Patrzymy na odpowiedzi - pasek E ma długość nie z tej listy.",
             "Odpowiedz: pasek E."
           ],
           "answer": "E",
@@ -799,12 +799,12 @@
         {
           "problemId": "kangur-maluch-2019-12",
           "observation": "Cyfry 2,0,1,9. 3-cyfrowa + 1-cyfrowa = najmniejszy wynik.",
-          "strategy": "Aby wynik byl maly: 3-cyfrowa mala (nie zaczyna sie 0). 1-cyfrowa duza? Nie - moze byc duza ale ujmijmy z wiedzy: najmniejsza ostatnia cyfra to 0 lub 1.",
+          "strategy": "Aby wynik był mały: 3-cyfrowa mała (nie zaczyna sie 0). 1-cyfrowa duza? Nie - może byc duza ale ujmijmy z wiedzy: najmniejsza ostatnia cyfra to 0 lub 1.",
           "steps": [
             "Najmniejsza 3-cyfrowa: 102. Dodaj 9: 111.",
             "Inna: 109 + 2 = 111.",
             "Inna: 120 + 9 = 129.",
-            "Sprawdz konczace na 0: 192 + 1 = 193, 219 + 0 - ale 0 nie moze byc samodzielne. 210 + 9 = 219.",
+            "Sprawdz konczace na 0: 192 + 1 = 193, 219 + 0 - ale 0 nie może byc samodzielne. 210 + 9 = 219.",
             "Wyniki: 111, 129, 192, ... Najmniejsze koncowki: 0 lub 1."
           ],
           "answer": "A",
@@ -813,10 +813,10 @@
         },
         {
           "problemId": "kangur-maluch-2020-23",
-          "observation": "NAR - RAC + JA. Cyfry 1-9, rozne litery to rozne cyfry.",
+          "observation": "NAR - RAC + JA. Cyfry 1-9, różne litery to różne cyfry.",
           "strategy": "Maksymalizuj NAR + JA, minimalizuj RAC. Cyfry 1-9 (bez 0).",
           "steps": [
-            "Aby wynik byl maksymalny: N i J wysokie (setki/dziesiatki), R i A male.",
+            "Aby wynik był maksymalny: N i J wysokie (setki/dziesiatki), R i A małe.",
             "Sprobuj N=9, A=8, R=1: NAR = 981, RAC = 18C, JA = J8.",
             "JA: J!=9,8,1; J wysokie. J = 7, JA = 78.",
             "RAC: C nieuzyte. C = 2 (najmniejsze). RAC = 182.",
@@ -830,13 +830,13 @@
         },
         {
           "problemId": "kangur-maluch-2021-20",
-          "observation": "9 kratek z liczbami 1-9. Sumy dwoch sasiednich znane.",
+          "observation": "9 kratek z liczbami 1-9. Sumy dwóch sasiednich znane.",
           "strategy": "Wybierz kratke z jedna sasiadka, podstaw, propaguj.",
           "steps": [
             "Wedlug zadania kratki z polem ? sa w srodku.",
             "Uklad rozwiazuj wedlug podanego rozkladu sum.",
             "Krok po kroku odejmuj sume sasiada od znanej kratki.",
-            "Wynik dla kratki ze znakiem ?: 4."
+            "Wynik dla kratki że znakiem ?: 4."
           ],
           "answer": "D",
           "alternative": null,
@@ -844,18 +844,18 @@
         },
         {
           "problemId": "kangur-maluch-2021-24",
-          "observation": "ABC + DEF = GHI. 9 roznych cyfr 1-9. Suma najmniejsza.",
-          "strategy": "Cyfry setek powinne byc male (1, 2). Suma najmniejsza wyniku.",
+          "observation": "ABC + DEF = GHI. 9 różnych cyfr 1-9. Suma najmniejsza.",
+          "strategy": "Cyfry setek powinne byc małe (1, 2). Suma najmniejsza wyniku.",
           "steps": [
             "Setki: 1 i 2 -> 3 setki w wyniku (lub 4 z przeniesieniem).",
             "Probuj: 124 + 358 = 482, ale brakuje 6,7,9.",
-            "Probuj: 247 + 138 = 385, cyfry uzyte: 2,4,7,1,3,8,3,8,5 - nie wszystkie rozne.",
+            "Probuj: 247 + 138 = 385, cyfry uzyte: 2,4,7,1,3,8,3,8,5 - nie wszystkie różne.",
             "Wedlug zrodla optymalny wynik = 356.",
             "Odpowiedz: 356."
           ],
           "answer": "E",
           "alternative": null,
-          "hint": "9 roznych cyfr. Suma najmniejsza - daj male cyfry w setki (>=1)."
+          "hint": "9 różnych cyfr. Suma najmniejsza - daj małe cyfry w setki (>=1)."
         },
         {
           "problemId": "kangur-maluch-2023-13",
@@ -863,22 +863,22 @@
           "strategy": "Z zawartosci skrzyn ulóż rownania.",
           "steps": [
             "Niech k = wartosc kuli, s = sztabki, g = gwiazdki.",
-            "Z rysunku zadania kazda skrzynia ma inne kombinacje, kazda warta 40.",
+            "Z rysunku zadania każda skrzynia ma inne kombinacje, każda warta 40.",
             "Typowe rozwiazanie z konkursu: gwiazdka = 2 dukaty."
           ],
           "answer": "B",
           "alternative": null,
-          "hint": "3 skrzynie po 40 dukatow = 120 dukatow. Sklad: kule, sztabki, gwiazdki w roznych proporcjach."
+          "hint": "3 skrzynie po 40 dukatow = 120 dukatow. Sklad: kule, sztabki, gwiazdki w różnych proporcjach."
         },
         {
           "problemId": "kangur-maluch-2023-23",
           "observation": "7 kolek tworzy pierscien, sumy sasiednich par dane.",
-          "strategy": "Suma sasiednich znana - dla kazdego kolka mozesz wyliczyc sasiada.",
+          "strategy": "Suma sasiednich znana - dla każdego kółka mozesz wyliczyc sasiada.",
           "steps": [
-            "Suma wszystkich par = suma kazdej liczby liczona 2 razy = 2 * (1+2+...+7) = 56.",
+            "Suma wszystkich par = suma każdej liczby liczona 2 razy = 2 * (1+2+...+7) = 56.",
             "Sumy podane: 7+8+9+6+9+8+9 = 56. OK.",
-            "Wybierz dowolne kolko z polaczeniem o znanej sumie i propaguj.",
-            "Wynik dla zamalowanego kolka: 4."
+            "Wybierz dowolne kółko z polaczeniem o znanej sumie i propaguj.",
+            "Wynik dla zamalowanego kółka: 4."
           ],
           "answer": "D",
           "alternative": null,
@@ -886,12 +886,12 @@
         },
         {
           "problemId": "kangur-maluch-2024-15",
-          "observation": "7 kart 1-7 w 4 okregach, suma w kazdym = 10. Odkryte 6 i 3.",
+          "observation": "7 kart 1-7 w 4 okregach, suma w każdym = 10. Odkryte 6 i 3.",
           "strategy": "Suma wszystkich kart = 28. 4 okregi po 10 = 40. Roznica 12 = karty wspolne.",
           "steps": [
             "Suma 1+2+...+7 = 28.",
             "Suma okregow razem: 4 * 10 = 40.",
-            "Roznica 40 - 28 = 12 - tyle nadwyzki, czyli niektore karty sa w wiecej niz jednym okregu.",
+            "Roznica 40 - 28 = 12 - tyle nadwyzki, czyli niektore karty sa w więcej niz jednym okregu.",
             "Sprawdz mozliwe ukladki - karta '?' to 4 (z odpowiedzi)."
           ],
           "answer": "C",
@@ -905,20 +905,20 @@
           "steps": [
             "Mapowanie: 1<->6, 2<->7, 3<->5, 4<->8.",
             "Widzisz 5 i 6 - po drugiej stronie sa 3 i 1.",
-            "Druga czesc ma znak ? - patrz ktora karta zostala.",
+            "Druga czesc ma znak ? - patrz która karta zostala.",
             "Z analizy odpowiedz: 4."
           ],
           "answer": "B",
           "alternative": null,
-          "hint": "Na bialej stronie naprzeciw 1 jest 5, naprzeciw 2 jest 6, itd. Jezeli widzisz 5, na drugiej stronie tej czesci jest 1."
+          "hint": "Na bialej stronie naprzeciw 1 jest 5, naprzeciw 2 jest 6, itd. Jeżeli widzisz 5, na drugiej stronie tej czesci jest 1."
         },
         {
           "problemId": "kangur-maluch-2024-18",
           "observation": "Trzy 3-cyfrowe liczby: 2_3, 1_4, 41_ daja w sumie 782.",
           "strategy": "Dodawaj od jednosci, patrz na przeniesienia.",
           "steps": [
-            "Jednosci: 3 + 4 + ? konczy sie na 2. 3+4 = 7, wiec ? = 5 (przeniesienie 1).",
-            "Dziesiatki: _ + _ + 1 + (przeniesienie 1) konczy sie na 8. Czyli suma dwoch ? = 6 lub 16.",
+            "Jednosci: 3 + 4 + ? kończy sie na 2. 3+4 = 7, wiec ? = 5 (przeniesienie 1).",
+            "Dziesiatki: _ + _ + 1 + (przeniesienie 1) kończy sie na 8. Czyli suma dwóch ? = 6 lub 16.",
             "Setki: 2 + 1 + 4 + (przeniesienie) = 7. Bez przeniesienia.",
             "Dwie cyfry dziesiatek sumuja sie do 6.",
             "Suma trzech cyfr pod kleksami: ? jednosci + dwie ? dziesiatek = 5 + 6 = 11."
@@ -929,20 +929,20 @@
         },
         {
           "problemId": "kangur-maluch-2024-20",
-          "observation": "trojkat + trojkat = (kwadrat)(kolko), kolko + trojkat = (kwadrat)(kwadrat).",
-          "strategy": "Dwie cyfry w wyniku trojkat+trojkat: trojkat <= 9, max 18, wiec kwadrat = 1.",
+          "observation": "trójkąt + trójkąt = (kwadrat)(kółko), kółko + trójkąt = (kwadrat)(kwadrat).",
+          "strategy": "Dwie cyfry w wyniku trójkąt+trójkąt: trójkąt <= 9, max 18, wiec kwadrat = 1.",
           "steps": [
-            "trojkat + trojkat = 1_kolko, wiec 2*trojkat = 10 + kolko.",
-            "kolko + trojkat = 11, wiec kolko = 11 - trojkat.",
-            "Podstaw: 2*trojkat = 10 + 11 - trojkat = 21 - trojkat.",
-            "3*trojkat = 21, trojkat = 7.",
-            "kolko = 11 - 7 = 4.",
+            "trójkąt + trójkąt = 1_kolko, wiec 2*trójkąt = 10 + kółko.",
+            "kółko + trójkąt = 11, wiec kółko = 11 - trójkąt.",
+            "Podstaw: 2*trójkąt = 10 + 11 - trójkąt = 21 - trójkąt.",
+            "3*trójkąt = 21, trójkąt = 7.",
+            "kółko = 11 - 7 = 4.",
             "kwadrat = 1.",
             "Iloczyn: 7 * 4 * 1 = 28."
           ],
           "answer": "D",
           "alternative": null,
-          "hint": "trojkat+trojkat to 2 cyfry, max 2*9=18. Wiec kwadrat=1. Z drugiego: kolko+trojkat=11."
+          "hint": "trójkąt+trójkąt to 2 cyfry, max 2*9=18. Wiec kwadrat=1. Z drugiego: kółko+trójkąt=11."
         }
       ]
     }

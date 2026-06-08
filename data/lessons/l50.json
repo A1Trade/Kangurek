@@ -7,8 +7,8 @@
   "topic": "lamiglowki",
   "estimatedMinutes": 40,
   "theory": {
-    "intro": "Druga polowa konkursu - 12 zadan, 40 minut. Zadania 13-16 za 4 punkty, 17-24 za 5 punktow. To najtrudniejsza czesc - ale tez najwiecej punktow. Po skonczeniu - sprawdz, omow z nauczycielem, naucz sie na bledach. To OSTATNIA lekcja kursu.",
-    "tool": "Sztuczka 1: 5 PUNKTOW = WARTO SIE POTRUDZIC. Na 5 pkt zadania moga zajac 5-7 min - czas dobrze zainwestowany.\n\nSztuczka 2: NIE BOJ SIE POMINAC. Jezeli zadanie wyglada na 'beznadziejne' - lepiej zrobic 3 inne na 5 pkt = 15 pkt, niz utkac.\n\nSztuczka 3: SPRAWDZ STRATEGIE Z POPRZEDNICH LEKCJI. Eliminacja ABCDE, szukanie wzoru, parzystosc - to wszystko teraz sluzy.\n\nSztuczka 4: PO SYMULACJI - OMOW BLEDY. Najwazniejsza nauka to zrozumienie, GDZIE poszlo nie tak. Nie tylko 'co byla poprawna odpowiedz', ale 'jakim sposobem dojsc do niej'.",
+    "intro": "Druga połowa konkursu - 12 zadan, 40 minut. Zadania 13-16 za 4 punkty, 17-24 za 5 punktów. To najtrudniejsza czesc - ale też najwiecej punktów. Po skonczeniu - sprawdz, omow z nauczycielem, naucz sie na bledach. To OSTATNIA lekcja kursu.",
+    "tool": "Sztuczka 1: 5 Punktów = WARTO SIE POTRUDZIC. Na 5 pkt zadania mogą zajac 5-7 min - czas dobrze zainwestowany.\n\nSztuczka 2: NIE BOJ SIE POMINAC. Jeżeli zadanie wyglada na 'beznadziejne' - lepiej zrobic 3 inne na 5 pkt = 15 pkt, niz utkac.\n\nSztuczka 3: SPRAWDZ STRATEGIE Z POPRZEDNICH LEKCJI. Eliminacja ABCDE, szukanie wzoru, parzystosc - to wszystko teraz sluzy.\n\nSztuczka 4: PO SYMULACJI - OMOW BLEDY. Najwazniejsza nauka to zrozumienie, GDZIE poszlo nie tak. Nie tylko 'co była poprawna odpowiedz', ale 'jakim sposobem dojsc do niej'.",
     "trick": "Po pelnej symulacji wiesz, gdzie sa Twoje slabe punkty. Wroc do tych blokow w kursie. Powtorz wersje 2 lekcji w slabych obszarach. Powtorka 2-3 razy ZNACZNIE poprawia wyniki. Sukces w Kangurku to praca, nie talent."
   },
   "versions": [
@@ -24,9 +24,9 @@
           "difficulty": "4pkt",
           "topic": "logika",
           "subtopic": "liczenie polaczen wg roznicy kropek",
-          "statement": "Na krzaku mieszka 5 biedronek. Dwie biedronki przyjaznia sie, gdy liczby ich kropek roznia sie o 1. Kazda biedronka wyslala SMS do kazdej przyjaciolki. Ile SMS-ow wyslano lacznie?",
+          "statement": "Na krzaku porzeczek mieszka 5 biedronek (rysunek obok). Dwie biedronki przyjaźnią się, o ile liczby ich kropek różnią się o 1. W dniu konkursu „Kangur Matematyczny” każda biedronka wysłała swojej przyjaciółce okolicznościowy SMS. Ile SMS-ów wysłały łącznie wszystkie biedronki?",
           "hasImage": true,
-          "imageNote": "Piec biedronek z roznymi liczbami kropek.",
+          "imageNote": "Pięć biedronek z roznymi liczbami kropek.",
           "choices": {
             "A": "3",
             "B": "4",
@@ -45,7 +45,7 @@
           "difficulty": "4pkt",
           "topic": "arytmetyka",
           "subtopic": "rownanie z roznica lap i nosow",
-          "statement": "Laczna liczba lap moich psow jest o 18 wieksza niz laczna liczba ich nosow. Ile mam psow?",
+          "statement": "Łączna liczba lap moich psów jest o 18 wieksza niz łączna liczba ich nosow. Ile mam psów?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -65,8 +65,8 @@
           "number": 13,
           "difficulty": "4pkt",
           "topic": "logika",
-          "subtopic": "ktore miejsce na pewno zajete",
-          "statement": "Wzdluz ulicy jest 11 miejsc parkingowych ponumerowanych 1-11. Przyjechalo 8 samochodow i zajelo 8 KOLEJNYCH miejsc (nie wiadomo ktorych). Ktore miejsce na pewno zostalo zajete?",
+          "subtopic": "które miejsce na pewno zajete",
+          "statement": "Wzdłuż ulicy jest 11 miejsc parkingowych ponumerowanych 1-11. Przyjechalo 8 samochodow i zajelo 8 KOLEJNYCH miejsc (nie wiadomo których). Które miejsce na pewno zostało zajete?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -86,8 +86,8 @@
           "number": 14,
           "difficulty": "4pkt",
           "topic": "lamiglowki",
-          "subtopic": "liczby na dwoch stronach kart",
-          "statement": "Zosia ma dwie karty, na obu stronach kazdej zapisana jest liczba. Suma liczb na karcie 1 rowna sie sumie na karcie 2. Suma wszystkich czterech liczb to 32. Widoczne sa 5 i 12. Jakie liczby sa na niewidocznych stronach?",
+          "subtopic": "liczby na dwóch stronach kart",
+          "statement": "Zosia ma dwie karty, na obu stronach każdej zapisana jest liczba. Suma liczb na karcie 1 równa sie sumie na karcie 2. Suma wszystkich czterech liczb to 32. Widoczne sa 5 i 12. Jakie liczby sa na niewidocznych stronach?",
           "hasImage": true,
           "imageNote": "Dwie karty z widocznymi liczbami 5 i 12.",
           "choices": {
@@ -110,7 +110,7 @@
           "difficulty": "5pkt",
           "topic": "logika",
           "subtopic": "minimalizacja krokow - skoki +3/-4",
-          "statement": "Pchla pokonuje schody. Umie wykonywac tylko dwa rodzaje skokow: +3 stopnie w gore lub -4 stopnie w dol. Jaka jest najmniejsza liczba skokow, aby z poziomu podlogi znalezc sie na 22. stopniu?",
+          "statement": "Pchła chce pokonać schody z wieloma stopniami. Umie wykony- wać tylko dwa rodzaje skoków: skok o 3 stopnie w górę oraz skok o 4 stopnie w dół. Jaka jest najmniejsza liczba skoków, które musi wyko- nać, aby znaleźć się na 22. stopniu, zakładając, że zaczyna z poziomu podłogi?",
           "hasImage": true,
           "imageNote": "Schody z pchlą u podlogi, strzalki +3 w gore i -4 w dol.",
           "choices": {
@@ -118,7 +118,7 @@
             "B": "9",
             "C": "10",
             "D": "12",
-            "E": "15"
+            "E": "15 1 2 3 Podłoga"
           },
           "correct": "D",
           "imageSrc": "/images/orig/2012-18.png"
@@ -131,7 +131,7 @@
           "difficulty": "5pkt",
           "topic": "geometria_plaska",
           "subtopic": "algorytm Euklidesa - kwadraty z prostokata",
-          "statement": "Prostokatna kartka 192 mm na 84 mm. Tnac wzdluz linii prostej odcinamy kwadrat, potem powtarzamy z pozostala czescia i tak dalej. Jaka jest dlugosc boku najmniejszego kwadratu jaki mozemy w ten sposob otrzymac?",
+          "statement": "Prostokątna kartka papieru ma wymiary 192 mm na 84 mm. Tnąc taką kartkę wzdłuż jednej linii prostej odcinamy kwadrat, a następnie powtarzamy to samo z pozostałą częścią kartki, i tak dalej. Jaka jest długość boku najmniejszego kwadratu jaki możemy w ten sposób otrzymać?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -152,7 +152,7 @@
           "difficulty": "5pkt",
           "topic": "logika",
           "subtopic": "maksymalizacja porazek - punktacja meczowa",
-          "statement": "W meczu pilki noznej zwyciezca zdobywa 3 punkty, przegrany 0. Remis to po 1 punkcie. Druzyna rozegrala 38 meczow i zdobyla lacznie 80 punktow. Ile co najwyzej razy ta druzyna mogla przegrac?",
+          "statement": "W meczu piłki nożnej zwycięzca zdobywa 3 punkty, zaś przegrany 0 punktów. Remis oznacza po 1 punkcie dla każdej drużyny. Pewna drużyna rozegrała 38 meczów zdobywając łącznie 80 punktów. Ile co najwyżej razy drużyna ta mogła przegrać?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -173,7 +173,7 @@
           "difficulty": "5pkt",
           "topic": "lamiglowki",
           "subtopic": "domino - najdluzszy rzad",
-          "statement": "Bartek ma 7 kamieni domino. Chce ulozyc je w rzad tak, by sasiednie pola mialy te sama liczbe oczek. Z ilu kamieni sklada sie najdluzszy taki rzad?",
+          "statement": "Bartek ma siedem kamieni domino (patrz rysunek). Chce ułożyć je w jeden rząd, tak aby obok siebie znajdo- wały się pola z tą samą liczbą oczek. Z ilu kamieni składa się najdłuższy taki rząd?",
           "hasImage": true,
           "imageNote": "Siedem kamieni domino z roznymi ukladami oczek.",
           "choices": {
@@ -194,7 +194,7 @@
           "difficulty": "5pkt",
           "topic": "arytmetyka",
           "subtopic": "suma liczb zlozonych z cyfr 0 i 1",
-          "statement": "Ula tworzy liczby uzywajac tylko cyfr 0 lub 1 (np. 1, 101, 1111). Co najmniej ile takich liczb musi dodac, aby otrzymac 2013?",
+          "statement": "Ula tworzy liczby używając tylko cyfr 0 lub 1 (np. 0, 101, 1111). Co najmniej ile takich liczb musi ona dodać, aby otrzymać 2013?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -215,15 +215,15 @@
           "difficulty": "5pkt",
           "topic": "logika",
           "subtopic": "ulozenie szuflad wedlug warunkow",
-          "statement": "Komoda ma 4 szuflady. Rekawiczki lezą nizej niz szaliki. Parasolki lezą nizej niz czapki i nizej niz rekawiczki. Szaliki nie lezą najwyzej. Ktora to komoda (od gory)?",
+          "statement": "W komodzie w przedpokoju są cztery szuﬂady (patrz rysunek). W każdej z nich leżą albo czapki, albo szaliki, albo rękawiczki, albo parasolki. Rękawicz- ki leżą niżej niż szaliki. Parasolki leżą niżej niż czapki i niżej niż rękawiczki. Szaliki nie leżą najwyżej. Która to komoda? • • • •",
           "hasImage": true,
-          "imageNote": "Piec wariantow komody z roznym ulozeniem czapek, szalikow, rekawiczek, parasolek.",
+          "imageNote": "Pięć wariantow komody z roznym ulozeniem czapek, szalikow, rekawiczek, parasolek.",
           "choices": {
-            "A": "Szaliki, Rekawiczki, Czapki, Parasolki",
-            "B": "Czapki, Parasolki, Szaliki, Rekawiczki",
-            "C": "Czapki, Szaliki, Rekawiczki, Parasolki",
-            "D": "Szaliki, Czapki, Rekawiczki, Parasolki",
-            "E": "Czapki, Szaliki, Parasolki, Rekawiczki"
+            "A": "Szaliki Rękawiczki Czapki Parasolki",
+            "B": "Czapki Parasolki Szaliki Rękawiczki",
+            "C": "Czapki Szaliki Rękawiczki Parasolki",
+            "D": "Szaliki Czapki Rękawiczki Parasolki",
+            "E": "Czapki Szaliki Parasolki Rękawiczki c⃝Kangourou Sans Fronti`eres www.math-ksf.org c⃝Towarzystwo Upowszechniania Wiedzy i Nauk Matematycznych"
           },
           "correct": "C",
           "imageSrc": "/images/orig/2013-24.png"
@@ -236,7 +236,7 @@
           "difficulty": "5pkt",
           "topic": "lamiglowki",
           "subtopic": "tabelka 3x3 z warunkami na sasiadow",
-          "statement": "Nikodem wpisal liczby 1-9 w tabelke 3x3, rogi to 1, 2, 4, 3. Dla liczby 5 suma sasiadow (pol o wspolnym boku) wynosi 13. To samo dla liczby 6. Jaka liczbe wpisal w szare pole (srodek)?",
+          "statement": "Nikodem wpisał każdą z liczb od 1 do 9 w pola tabelki, przy czym cztery z nich są pokazane (patrz rysunek). Sąsiednimi polami w tabelce nazwiemy te, które mają wspólny bok. Nikodem zauważył, że dla liczby 5 suma liczb z sąsiednich pól jest równa 13. Tę samą własność zauważył dla liczby 6. Którą liczbę wpisał on w szare pole? 1 2 3 4",
           "hasImage": true,
           "imageNote": "Tabelka 3x3 z liczbami w rogach 1, 2, 4, 3 i szarym polem w srodku.",
           "choices": {
@@ -257,9 +257,9 @@
           "difficulty": "5pkt",
           "topic": "logika",
           "subtopic": "rownania z symbolami",
-          "statement": "W pewnym jezyku symbole A, B, C, D, E oznaczaja liczby 1, 2, 3, 4, 5 (kazdy inna). Wiadomo: C+C=E, B+B=C, B+E=D. Ktory symbol oznacza liczbe 3?",
+          "statement": "W pewnym starożytnym języku każdy z symboli oznacza jedną z liczb 1, 2, 3, 4, 5, przy czym każdy symbol oznacza inną liczbę. Wiadomo, że + = + = + = Który symbol oznacza liczbę 3?",
           "hasImage": true,
-          "imageNote": "Piec symboli (oko, slonce, kwiatek, ryba, grzbiet) i trzy rownania.",
+          "imageNote": "Pięć symboli (oko, slonce, kwiatek, ryba, grzbiet) i trzy rownania.",
           "choices": {
             "A": "oko",
             "B": "slonce",
@@ -275,10 +275,10 @@
         {
           "problemId": "kangur-maluch-2015-16",
           "observation": "5 biedronek, kropki rozniajace o 1.",
-          "strategy": "Jezeli liczby kropek to k, k+1, k+2, k+3, k+4 -> 4 par przyjacielskich.",
+          "strategy": "Jeżeli liczby kropek to k, k+1, k+2, k+3, k+4 -> 4 par przyjacielskich.",
           "steps": [
             "Pary roznicacy 1: (k,k+1), (k+1,k+2), (k+2,k+3), (k+3,k+4) = 4 par.",
-            "Kazda para = 2 SMS-y (oboje pisza).",
+            "Każda para = 2 SMS-y (oboje pisza).",
             "Razem: 4 * 2 = 8 SMS-ow."
           ],
           "answer": "D",
@@ -287,12 +287,12 @@
         },
         {
           "problemId": "kangur-maluch-2016-9",
-          "observation": "n psow. Lap = 4n, nosow = n. 4n - n = 18.",
+          "observation": "n psów. Lap = 4n, nosow = n. 4n - n = 18.",
           "strategy": "3n = 18 -> n = 6.",
           "steps": [
             "Lapy: 4n. Nosy: n.",
             "Roznica: 4n - n = 3n = 18.",
-            "n = 6 psow."
+            "n = 6 psów."
           ],
           "answer": "C",
           "alternative": null,
@@ -330,12 +330,12 @@
         {
           "problemId": "kangur-maluch-2012-18",
           "observation": "Skok +3 lub -4. Wejscie na 22 stopien.",
-          "strategy": "Iloczyn skokow 3a - 4b = 22.",
+          "strategy": "Iloczyn skoków 3a - 4b = 22.",
           "steps": [
             "3a - 4b = 22.",
-            "a = 10, b = 2: 30 - 8 = 22. TAK. Razem 12 skokow.",
-            "a = 6, b = -1: -4 dol nie ma sensu jezeli mowimy minimalna.",
-            "Min skokow 12."
+            "a = 10, b = 2: 30 - 8 = 22. TAK. Razem 12 skoków.",
+            "a = 6, b = -1: -4 dół nie ma sensu jeżeli mowimy minimalna.",
+            "Min skoków 12."
           ],
           "answer": "D",
           "alternative": null,
@@ -365,7 +365,7 @@
             "3x + y = 80.",
             "Odejmij: 2x - z = 42.",
             "z = 2x - 42 >= 0 -> x >= 21.",
-            "Max z gdy max x. Ale tez: y >= 0, czyli y = 80 - 3x >= 0 -> x <= 26.",
+            "Max z gdy max x. Ale też: y >= 0, czyli y = 80 - 3x >= 0 -> x <= 26.",
             "x = 26: y = 80 - 78 = 2, z = 38 - 26 - 2 = 10.",
             "Maks przegranych: 10."
           ],
@@ -382,7 +382,7 @@
           ],
           "answer": "D",
           "alternative": null,
-          "hint": "Domino sasiednie pola te same oczka. Z 7 kamieni jaki najdluzszy lancuch?"
+          "hint": "Domino sąsiednie pola te same oczka. Z 7 kamieni jaki najdluzszy lancuch?"
         },
         {
           "problemId": "kangur-maluch-2013-23",
@@ -393,8 +393,8 @@
             "Kolejne: 111, 11, 1, 1010, 1001, ...",
             "Sprobuj 1111 + 1001 = 2112. Za duzo.",
             "1111 + 111 = 1222. Brakuje 791.",
-            "Sprobuj 1110 - nie, tylko 0/1 jako cyfry, ale liczba moze miec 0.",
-            "1110 ma 0. Mozna! 1110.",
+            "Sprobuj 1110 - nie, tylko 0/1 jako cyfry, ale liczba może mieć 0.",
+            "1110 ma 0. Można! 1110.",
             "1111 + 1111 = 2222. Za duzo.",
             "Probuj 1110 + 110 + 1100 = 2320. Nie.",
             "Z odpowiedzi: 3 liczby. Np. 1011+1001+1=2013? 1011+1001+1=2013. TAK!",
@@ -412,7 +412,7 @@
             "Rekawiczki nizej (mlodsze numerki) niz szaliki: R < S.",
             "Parasolki nizej niz czapki i nizej niz rekawiczki: P < C, P < R.",
             "Szaliki nie najwyzej -> czapki najwyzej.",
-            "Od gory (najwyzej): czapki, szaliki, rekawiczki, parasolki.",
+            "Od góry (najwyzej): czapki, szaliki, rekawiczki, parasolki.",
             "C, S, R, P -> opcja C."
           ],
           "answer": "C",
@@ -464,9 +464,9 @@
           "difficulty": "4pkt",
           "topic": "logika",
           "subtopic": "liczenie polaczen wg roznicy kropek",
-          "statement": "Na krzaku mieszka 5 biedronek. Dwie biedronki przyjaznia sie, gdy liczby ich kropek roznia sie o 1. Kazda biedronka wyslala SMS do kazdej przyjaciolki. Ile SMS-ow wyslano lacznie?",
+          "statement": "Na krzaku porzeczek mieszka 5 biedronek (rysunek obok). Dwie biedronki przyjaźnią się, o ile liczby ich kropek różnią się o 1. W dniu konkursu „Kangur Matematyczny” każda biedronka wysłała swojej przyjaciółce okolicznościowy SMS. Ile SMS-ów wysłały łącznie wszystkie biedronki?",
           "hasImage": true,
-          "imageNote": "Piec biedronek z roznymi liczbami kropek.",
+          "imageNote": "Pięć biedronek z roznymi liczbami kropek.",
           "choices": {
             "A": "3",
             "B": "4",
@@ -485,7 +485,7 @@
           "difficulty": "4pkt",
           "topic": "arytmetyka",
           "subtopic": "rownanie z roznica lap i nosow",
-          "statement": "Laczna liczba lap moich psow jest o 18 wieksza niz laczna liczba ich nosow. Ile mam psow?",
+          "statement": "Łączna liczba lap moich psów jest o 18 wieksza niz łączna liczba ich nosow. Ile mam psów?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -505,8 +505,8 @@
           "number": 13,
           "difficulty": "4pkt",
           "topic": "logika",
-          "subtopic": "ktore miejsce na pewno zajete",
-          "statement": "Wzdluz ulicy jest 11 miejsc parkingowych ponumerowanych 1-11. Przyjechalo 8 samochodow i zajelo 8 KOLEJNYCH miejsc (nie wiadomo ktorych). Ktore miejsce na pewno zostalo zajete?",
+          "subtopic": "które miejsce na pewno zajete",
+          "statement": "Wzdłuż ulicy jest 11 miejsc parkingowych ponumerowanych 1-11. Przyjechalo 8 samochodow i zajelo 8 KOLEJNYCH miejsc (nie wiadomo których). Które miejsce na pewno zostało zajete?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -526,8 +526,8 @@
           "number": 14,
           "difficulty": "4pkt",
           "topic": "lamiglowki",
-          "subtopic": "liczby na dwoch stronach kart",
-          "statement": "Zosia ma dwie karty, na obu stronach kazdej zapisana jest liczba. Suma liczb na karcie 1 rowna sie sumie na karcie 2. Suma wszystkich czterech liczb to 32. Widoczne sa 5 i 12. Jakie liczby sa na niewidocznych stronach?",
+          "subtopic": "liczby na dwóch stronach kart",
+          "statement": "Zosia ma dwie karty, na obu stronach każdej zapisana jest liczba. Suma liczb na karcie 1 równa sie sumie na karcie 2. Suma wszystkich czterech liczb to 32. Widoczne sa 5 i 12. Jakie liczby sa na niewidocznych stronach?",
           "hasImage": true,
           "imageNote": "Dwie karty z widocznymi liczbami 5 i 12.",
           "choices": {
@@ -550,7 +550,7 @@
           "difficulty": "5pkt",
           "topic": "logika",
           "subtopic": "minimalizacja krokow - skoki +3/-4",
-          "statement": "Pchla pokonuje schody. Umie wykonywac tylko dwa rodzaje skokow: +3 stopnie w gore lub -4 stopnie w dol. Jaka jest najmniejsza liczba skokow, aby z poziomu podlogi znalezc sie na 22. stopniu?",
+          "statement": "Pchła chce pokonać schody z wieloma stopniami. Umie wykony- wać tylko dwa rodzaje skoków: skok o 3 stopnie w górę oraz skok o 4 stopnie w dół. Jaka jest najmniejsza liczba skoków, które musi wyko- nać, aby znaleźć się na 22. stopniu, zakładając, że zaczyna z poziomu podłogi?",
           "hasImage": true,
           "imageNote": "Schody z pchlą u podlogi, strzalki +3 w gore i -4 w dol.",
           "choices": {
@@ -558,7 +558,7 @@
             "B": "9",
             "C": "10",
             "D": "12",
-            "E": "15"
+            "E": "15 1 2 3 Podłoga"
           },
           "correct": "D",
           "imageSrc": "/images/orig/2012-18.png"
@@ -571,7 +571,7 @@
           "difficulty": "5pkt",
           "topic": "geometria_plaska",
           "subtopic": "algorytm Euklidesa - kwadraty z prostokata",
-          "statement": "Prostokatna kartka 192 mm na 84 mm. Tnac wzdluz linii prostej odcinamy kwadrat, potem powtarzamy z pozostala czescia i tak dalej. Jaka jest dlugosc boku najmniejszego kwadratu jaki mozemy w ten sposob otrzymac?",
+          "statement": "Prostokątna kartka papieru ma wymiary 192 mm na 84 mm. Tnąc taką kartkę wzdłuż jednej linii prostej odcinamy kwadrat, a następnie powtarzamy to samo z pozostałą częścią kartki, i tak dalej. Jaka jest długość boku najmniejszego kwadratu jaki możemy w ten sposób otrzymać?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -592,7 +592,7 @@
           "difficulty": "5pkt",
           "topic": "logika",
           "subtopic": "maksymalizacja porazek - punktacja meczowa",
-          "statement": "W meczu pilki noznej zwyciezca zdobywa 3 punkty, przegrany 0. Remis to po 1 punkcie. Druzyna rozegrala 38 meczow i zdobyla lacznie 80 punktow. Ile co najwyzej razy ta druzyna mogla przegrac?",
+          "statement": "W meczu piłki nożnej zwycięzca zdobywa 3 punkty, zaś przegrany 0 punktów. Remis oznacza po 1 punkcie dla każdej drużyny. Pewna drużyna rozegrała 38 meczów zdobywając łącznie 80 punktów. Ile co najwyżej razy drużyna ta mogła przegrać?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -613,7 +613,7 @@
           "difficulty": "5pkt",
           "topic": "lamiglowki",
           "subtopic": "domino - najdluzszy rzad",
-          "statement": "Bartek ma 7 kamieni domino. Chce ulozyc je w rzad tak, by sasiednie pola mialy te sama liczbe oczek. Z ilu kamieni sklada sie najdluzszy taki rzad?",
+          "statement": "Bartek ma siedem kamieni domino (patrz rysunek). Chce ułożyć je w jeden rząd, tak aby obok siebie znajdo- wały się pola z tą samą liczbą oczek. Z ilu kamieni składa się najdłuższy taki rząd?",
           "hasImage": true,
           "imageNote": "Siedem kamieni domino z roznymi ukladami oczek.",
           "choices": {
@@ -634,7 +634,7 @@
           "difficulty": "5pkt",
           "topic": "arytmetyka",
           "subtopic": "suma liczb zlozonych z cyfr 0 i 1",
-          "statement": "Ula tworzy liczby uzywajac tylko cyfr 0 lub 1 (np. 1, 101, 1111). Co najmniej ile takich liczb musi dodac, aby otrzymac 2013?",
+          "statement": "Ula tworzy liczby używając tylko cyfr 0 lub 1 (np. 0, 101, 1111). Co najmniej ile takich liczb musi ona dodać, aby otrzymać 2013?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -655,15 +655,15 @@
           "difficulty": "5pkt",
           "topic": "logika",
           "subtopic": "ulozenie szuflad wedlug warunkow",
-          "statement": "Komoda ma 4 szuflady. Rekawiczki lezą nizej niz szaliki. Parasolki lezą nizej niz czapki i nizej niz rekawiczki. Szaliki nie lezą najwyzej. Ktora to komoda (od gory)?",
+          "statement": "W komodzie w przedpokoju są cztery szuﬂady (patrz rysunek). W każdej z nich leżą albo czapki, albo szaliki, albo rękawiczki, albo parasolki. Rękawicz- ki leżą niżej niż szaliki. Parasolki leżą niżej niż czapki i niżej niż rękawiczki. Szaliki nie leżą najwyżej. Która to komoda? • • • •",
           "hasImage": true,
-          "imageNote": "Piec wariantow komody z roznym ulozeniem czapek, szalikow, rekawiczek, parasolek.",
+          "imageNote": "Pięć wariantow komody z roznym ulozeniem czapek, szalikow, rekawiczek, parasolek.",
           "choices": {
-            "A": "Szaliki, Rekawiczki, Czapki, Parasolki",
-            "B": "Czapki, Parasolki, Szaliki, Rekawiczki",
-            "C": "Czapki, Szaliki, Rekawiczki, Parasolki",
-            "D": "Szaliki, Czapki, Rekawiczki, Parasolki",
-            "E": "Czapki, Szaliki, Parasolki, Rekawiczki"
+            "A": "Szaliki Rękawiczki Czapki Parasolki",
+            "B": "Czapki Parasolki Szaliki Rękawiczki",
+            "C": "Czapki Szaliki Rękawiczki Parasolki",
+            "D": "Szaliki Czapki Rękawiczki Parasolki",
+            "E": "Czapki Szaliki Parasolki Rękawiczki c⃝Kangourou Sans Fronti`eres www.math-ksf.org c⃝Towarzystwo Upowszechniania Wiedzy i Nauk Matematycznych"
           },
           "correct": "C",
           "imageSrc": "/images/orig/2013-24.png"
@@ -676,7 +676,7 @@
           "difficulty": "5pkt",
           "topic": "lamiglowki",
           "subtopic": "tabelka 3x3 z warunkami na sasiadow",
-          "statement": "Nikodem wpisal liczby 1-9 w tabelke 3x3, rogi to 1, 2, 4, 3. Dla liczby 5 suma sasiadow (pol o wspolnym boku) wynosi 13. To samo dla liczby 6. Jaka liczbe wpisal w szare pole (srodek)?",
+          "statement": "Nikodem wpisał każdą z liczb od 1 do 9 w pola tabelki, przy czym cztery z nich są pokazane (patrz rysunek). Sąsiednimi polami w tabelce nazwiemy te, które mają wspólny bok. Nikodem zauważył, że dla liczby 5 suma liczb z sąsiednich pól jest równa 13. Tę samą własność zauważył dla liczby 6. Którą liczbę wpisał on w szare pole? 1 2 3 4",
           "hasImage": true,
           "imageNote": "Tabelka 3x3 z liczbami w rogach 1, 2, 4, 3 i szarym polem w srodku.",
           "choices": {
@@ -697,9 +697,9 @@
           "difficulty": "5pkt",
           "topic": "logika",
           "subtopic": "rownania z symbolami",
-          "statement": "W pewnym jezyku symbole A, B, C, D, E oznaczaja liczby 1, 2, 3, 4, 5 (kazdy inna). Wiadomo: C+C=E, B+B=C, B+E=D. Ktory symbol oznacza liczbe 3?",
+          "statement": "W pewnym starożytnym języku każdy z symboli oznacza jedną z liczb 1, 2, 3, 4, 5, przy czym każdy symbol oznacza inną liczbę. Wiadomo, że + = + = + = Który symbol oznacza liczbę 3?",
           "hasImage": true,
-          "imageNote": "Piec symboli (oko, slonce, kwiatek, ryba, grzbiet) i trzy rownania.",
+          "imageNote": "Pięć symboli (oko, slonce, kwiatek, ryba, grzbiet) i trzy rownania.",
           "choices": {
             "A": "oko",
             "B": "slonce",
@@ -715,10 +715,10 @@
         {
           "problemId": "kangur-maluch-2015-16",
           "observation": "5 biedronek, kropki rozniajace o 1.",
-          "strategy": "Jezeli liczby kropek to k, k+1, k+2, k+3, k+4 -> 4 par przyjacielskich.",
+          "strategy": "Jeżeli liczby kropek to k, k+1, k+2, k+3, k+4 -> 4 par przyjacielskich.",
           "steps": [
             "Pary roznicacy 1: (k,k+1), (k+1,k+2), (k+2,k+3), (k+3,k+4) = 4 par.",
-            "Kazda para = 2 SMS-y (oboje pisza).",
+            "Każda para = 2 SMS-y (oboje pisza).",
             "Razem: 4 * 2 = 8 SMS-ow."
           ],
           "answer": "D",
@@ -727,12 +727,12 @@
         },
         {
           "problemId": "kangur-maluch-2016-9",
-          "observation": "n psow. Lap = 4n, nosow = n. 4n - n = 18.",
+          "observation": "n psów. Lap = 4n, nosow = n. 4n - n = 18.",
           "strategy": "3n = 18 -> n = 6.",
           "steps": [
             "Lapy: 4n. Nosy: n.",
             "Roznica: 4n - n = 3n = 18.",
-            "n = 6 psow."
+            "n = 6 psów."
           ],
           "answer": "C",
           "alternative": null,
@@ -770,12 +770,12 @@
         {
           "problemId": "kangur-maluch-2012-18",
           "observation": "Skok +3 lub -4. Wejscie na 22 stopien.",
-          "strategy": "Iloczyn skokow 3a - 4b = 22.",
+          "strategy": "Iloczyn skoków 3a - 4b = 22.",
           "steps": [
             "3a - 4b = 22.",
-            "a = 10, b = 2: 30 - 8 = 22. TAK. Razem 12 skokow.",
-            "a = 6, b = -1: -4 dol nie ma sensu jezeli mowimy minimalna.",
-            "Min skokow 12."
+            "a = 10, b = 2: 30 - 8 = 22. TAK. Razem 12 skoków.",
+            "a = 6, b = -1: -4 dół nie ma sensu jeżeli mowimy minimalna.",
+            "Min skoków 12."
           ],
           "answer": "D",
           "alternative": null,
@@ -805,7 +805,7 @@
             "3x + y = 80.",
             "Odejmij: 2x - z = 42.",
             "z = 2x - 42 >= 0 -> x >= 21.",
-            "Max z gdy max x. Ale tez: y >= 0, czyli y = 80 - 3x >= 0 -> x <= 26.",
+            "Max z gdy max x. Ale też: y >= 0, czyli y = 80 - 3x >= 0 -> x <= 26.",
             "x = 26: y = 80 - 78 = 2, z = 38 - 26 - 2 = 10.",
             "Maks przegranych: 10."
           ],
@@ -822,7 +822,7 @@
           ],
           "answer": "D",
           "alternative": null,
-          "hint": "Domino sasiednie pola te same oczka. Z 7 kamieni jaki najdluzszy lancuch?"
+          "hint": "Domino sąsiednie pola te same oczka. Z 7 kamieni jaki najdluzszy lancuch?"
         },
         {
           "problemId": "kangur-maluch-2013-23",
@@ -833,8 +833,8 @@
             "Kolejne: 111, 11, 1, 1010, 1001, ...",
             "Sprobuj 1111 + 1001 = 2112. Za duzo.",
             "1111 + 111 = 1222. Brakuje 791.",
-            "Sprobuj 1110 - nie, tylko 0/1 jako cyfry, ale liczba moze miec 0.",
-            "1110 ma 0. Mozna! 1110.",
+            "Sprobuj 1110 - nie, tylko 0/1 jako cyfry, ale liczba może mieć 0.",
+            "1110 ma 0. Można! 1110.",
             "1111 + 1111 = 2222. Za duzo.",
             "Probuj 1110 + 110 + 1100 = 2320. Nie.",
             "Z odpowiedzi: 3 liczby. Np. 1011+1001+1=2013? 1011+1001+1=2013. TAK!",
@@ -852,7 +852,7 @@
             "Rekawiczki nizej (mlodsze numerki) niz szaliki: R < S.",
             "Parasolki nizej niz czapki i nizej niz rekawiczki: P < C, P < R.",
             "Szaliki nie najwyzej -> czapki najwyzej.",
-            "Od gory (najwyzej): czapki, szaliki, rekawiczki, parasolki.",
+            "Od góry (najwyzej): czapki, szaliki, rekawiczki, parasolki.",
             "C, S, R, P -> opcja C."
           ],
           "answer": "C",

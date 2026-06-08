@@ -7,9 +7,9 @@
   "topic": "kombinatoryka",
   "estimatedMinutes": 14,
   "theory": {
-    "intro": "Drzewo mozliwosci to graficzny sposob liczenia 'na ile sposobow'. Wybor pierwszej rzeczy daje galezie, z kazdej galezi wychodza dalsze. Liczba lisci na koncu = liczba wszystkich mozliwosci.",
-    "tool": "Sztuczka 1: RYSUJ DRZEWO. Pierwszy wybor: galezie. Z kazdej galezi: nastepny wybor. Na koncu: liscie - to wszystkie mozliwosci.\n\nSztuczka 2: LICZ LISCIE. Suma lisci = liczba wszystkich konfiguracji. Mozna policzyc bezposrednio lub przez iloczyn (liczba galezi w kazdej rundzie).\n\nSztuczka 3: WYKLUCZANIE GALEZI. Niektore galezie nie sa dozwolone (warunek). Pomijaj je przy liczeniu.\n\nSztuczka 4: WYKORZYSTAJ SYMETRIE. Czesto galezie sa podobne - policz jedna, pomnoz przez liczbe galezi.",
-    "trick": "Pulapka Kangurka: 'rozne smaki' lub 'kazda kombinacja inna' - kazda mozliwosc to unikalne ulozenie. Sprawdzaj, czy zadanie nie ma DODATKOWYCH ogranicen (np. 'najpierw zielony, potem czerwony')."
+    "intro": "Drzewo mozliwosci to graficzny sposob liczenia 'na ile sposobow'. Wybor pierwszej rzeczy daje galezie, z każdej galezi wychodza dalsze. Liczba lisci na koncu = liczba wszystkich mozliwosci.",
+    "tool": "Sztuczka 1: RYSUJ Drzewo. Pierwszy wybor: galezie. Z każdej galezi: nastepny wybor. Na koncu: liscie - to wszystkie mozliwosci.\n\nSztuczka 2: LICZ LISCIE. Suma lisci = liczba wszystkich konfiguracji. Można policzyć bezposrednio lub przez iloczyn (liczba galezi w każdej rundzie).\n\nSztuczka 3: WYKLUCZANIE GALEZI. Niektore galezie nie sa dozwolone (warunek). Pomijaj je przy liczeniu.\n\nSztuczka 4: WYKORZYSTAJ SYMETRIE. Czesto galezie sa podobne - policz jedna, pomnoz przez liczbe galezi.",
+    "trick": "Pulapka Kangurka: 'różne smaki' lub 'każda kombinacja inna' - każda mozliwosc to unikalne ulozenie. Sprawdzaj, czy zadanie nie ma DODATKOWYCH ogranicen (np. 'najpierw zielony, potem czerwony')."
   },
   "versions": [
     {
@@ -45,7 +45,7 @@
           "difficulty": "3pkt",
           "topic": "kombinatoryka",
           "subtopic": "drzewo 3x2",
-          "statement": "Mam 3 owoce (jablko, gruszka, banan) i 2 napoje (woda, sok). Ile par owoc+napoj?",
+          "statement": "Mam 3 owoce (jabłko, gruszka, banan) i 2 napoje (woda, sok). Ile par owoc+napoj?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -87,15 +87,15 @@
           "difficulty": "5pkt",
           "topic": "kombinatoryka",
           "subtopic": "przyporzadkowanie smakow i dodatkow",
-          "statement": "Szescioro dzieci: 3 lody waniliowe, 2 czekoladowe, 1 cytrynowy. Dodatki: 1 posypka, 2 ciasteczka, 3 wisnie. Zadne dwoje nie ma tej samej kombinacji. Jakich lodow NIE kupilo zadne dziecko?",
+          "statement": "Każde z sześciorga dzieci kupiło po gałce lodów. Troje z nich wybrało smak waniliowy, dwoje czekoladowy i jedno cytrynowy. Jako dodatek do lodów jedno dziecko wybrało posypkę czekoladową, dwoje ciasteczka, troje zaś — wiśnie. Żadne dwoje dzieci nie kupiło lodów o takim samym smaku i z takim samym dodatkiem. Jakich lodów nie kupiło żadne z tych dzieci?",
           "hasImage": true,
-          "imageNote": "Lody o roznych smakach i dodatkach.",
+          "imageNote": "Lody o różnych smakach i dodatkach.",
           "choices": {
-            "A": "Czekoladowych z wisniami",
-            "B": "Waniliowych z wisniami",
-            "C": "Cytrynowych z ciastkiem",
-            "D": "Czekoladowych z ciastkiem",
-            "E": "Waniliowych z posypka"
+            "A": "Czekoladowych z wiśniami.",
+            "B": "Waniliowych z wiśniami.",
+            "C": "Cytrynowych z ciastkiem.",
+            "D": "Czekoladowych z ciastkiem.",
+            "E": "Waniliowych z posypką czekoladową."
           },
           "correct": "C",
           "imageSrc": "/images/orig/2020-19.png"
@@ -108,9 +108,9 @@
           "difficulty": "5pkt",
           "topic": "kombinatoryka",
           "subtopic": "minimalna liczba elementow spelniajacych warunki",
-          "statement": "Helenka wybrala figury z zestawu (maly biały kwadrat, duzy rozowy kwadrat, maly rozowy trojkat, duzy bialy trojkat, duze biale kolo, male rozowe kolo). Wsrod wybranych sa: 2 zacieniowane, 2 duze, 2 okragle. Co najmniej ile figur wybrala?",
+          "statement": "Spośród przedstawionych niżej ﬁgur Helenka wybrała pewne ﬁgury i powiedziała: Wśród wybranych ﬁgur są dwie zacieniowane. Wśród wybranych ﬁgur są dwie duże. Wśród wybranych ﬁgur są dwie okrągłe. Co najmniej ile ﬁgur wybrała Helenka?",
           "hasImage": true,
-          "imageNote": "Szesc figur o roznych rozmiarach, ksztaltach i kolorach.",
+          "imageNote": "Sześć figur o różnych rozmiarach, ksztaltach i kolorach.",
           "choices": {
             "A": "2",
             "B": "3",
@@ -152,7 +152,7 @@
           "difficulty": "5pkt",
           "topic": "kombinatoryka",
           "subtopic": "drzewo z warunkiem",
-          "statement": "5 osob staje w rzedzie. Ile mozliwosci ustawienia, jezeli Anka MUSI stac pierwsza?",
+          "statement": "5 osob staje w rzedzie. Ile mozliwosci ustawienia, jeżeli Anka Musi stac pierwsza?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -202,18 +202,18 @@
         },
         {
           "problemId": "kangur-maluch-2020-19",
-          "observation": "3 typy lodow x 3 dodatki = 9 kombinacji. Wybrali 6 roznych.",
-          "strategy": "Sprawdz ktora kombinacja NIE wystepuje.",
+          "observation": "3 typy lodów x 3 dodatki = 9 kombinacji. Wybrali 6 różnych.",
+          "strategy": "Sprawdz która kombinacja NIE wystepuje.",
           "steps": [
             "Liczby ladn dla typow: wanilia 3, czekolada 2, cytryna 1.",
             "Dodatki: posypka 1, ciasteczka 2, wisnie 3.",
             "Mozliwe kombinacje: (typ, dodatek). 6 z 9.",
             "Z opisu zadania - cytrynowy ma dodatek wisnie.",
-            "Cytrynowych z ciastkiem NIE bylo."
+            "Cytrynowych z ciastkiem NIE było."
           ],
           "answer": "C",
           "alternative": null,
-          "hint": "6 dzieci, lody + dodatek. Roznych kombinacji = 3*3 = 9, ale 6 dzieci - rozne."
+          "hint": "6 dzieci, lody + dodatek. Różnych kombinacji = 3*3 = 9, ale 6 dzieci - różne."
         },
         {
           "problemId": "kangur-maluch-2022-19",
@@ -222,14 +222,14 @@
           "steps": [
             "Wybierz figury z najwiecej atrybutami.",
             "Duzy rozowy kwadrat: zacieniowany (rozowy = zacieniowany), duzy. Liczy do 2 warunkow.",
-            "Duze biale kolo: duze, okragle. 2 warunki.",
-            "Male rozowe kolo: zacieniowane, okragle. 2 warunki.",
-            "3 figury razem: 2 zacieniowane (rozowy kwadrat, rozowe kolo), 2 duze (kwadrat, biale kolo), 2 okragle (biale kolo, rozowe kolo).",
+            "Duze białe koło: duze, okrągłe. 2 warunki.",
+            "Małe rozowe koło: zacieniowane, okrągłe. 2 warunki.",
+            "3 figury razem: 2 zacieniowane (rozowy kwadrat, rozowe koło), 2 duze (kwadrat, białe koło), 2 okrągłe (białe koło, rozowe koło).",
             "Minimum 3 figury."
           ],
           "answer": "B",
           "alternative": null,
-          "hint": "2 zacieniowane, 2 duze, 2 okragle. Moga sie nakladac (1 figura liczy sie do wielu)."
+          "hint": "2 zacieniowane, 2 duze, 2 okrągłe. Mogą sie nakladac (1 figura liczy sie do wielu)."
         },
         {
           "problemId": "gen-l43-v1-c1",
@@ -309,8 +309,8 @@
           "number": null,
           "difficulty": "3pkt",
           "topic": "kombinatoryka",
-          "subtopic": "ile drog",
-          "statement": "Z miasta A do B sa 3 drogi, z B do C - 2 drogi. Ile drog z A do C przez B?",
+          "subtopic": "ile dróg",
+          "statement": "Z miasta A do B sa 3 drogi, z B do C - 2 drogi. Ile dróg z A do C przez B?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -331,7 +331,7 @@
           "difficulty": "3pkt",
           "topic": "kombinatoryka",
           "subtopic": "wybor 2 cech",
-          "statement": "Mam 4 kolory i 3 wzory. Ile roznych ubran (kolor + wzor)?",
+          "statement": "Mam 4 kolory i 3 wzory. Ile różnych ubran (kolor + wzor)?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -352,7 +352,7 @@
           "difficulty": "3pkt",
           "topic": "kombinatoryka",
           "subtopic": "prosty wybor",
-          "statement": "5 ksiazek na polce, biore 1. Ile mozliwosci?",
+          "statement": "5 książek na polce, biore 1. Ile mozliwosci?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -396,7 +396,7 @@
           "difficulty": "5pkt",
           "topic": "kombinatoryka",
           "subtopic": "drzewo z dwoma warunkami",
-          "statement": "Robot wybiera trase: 2 mozliwosci w kazdym z 4 kroku (lewo lub prawo). Ile roznych tras?",
+          "statement": "Robot wybiera trase: 2 mozliwosci w każdym z 4 kroku (lewo lub prawo). Ile różnych tras?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -436,7 +436,7 @@
         {
           "problemId": "gen-l43-v2-w3",
           "observation": "3*2=6.",
-          "strategy": "Iloczyn drog.",
+          "strategy": "Iloczyn dróg.",
           "steps": [
             "3*2=6"
           ],
@@ -482,7 +482,7 @@
         {
           "problemId": "gen-l43-v2-c2",
           "observation": "2^4 = 16.",
-          "strategy": "Drzewo dwie galezie kazdy krok.",
+          "strategy": "Drzewo dwie galezie każdy krok.",
           "steps": [
             "2*2*2*2=16"
           ],
@@ -515,7 +515,7 @@
       "explain": "Drzewo pokazuje wszystkie mozliwosci wizualnie."
     },
     {
-      "q": "3 etapy, w kazdym 2 wybory:",
+      "q": "3 etapy, w każdym 2 wybory:",
       "choices": {
         "A": "6",
         "B": "8",

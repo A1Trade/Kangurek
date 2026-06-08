@@ -7,9 +7,9 @@
   "topic": "arytmetyka",
   "estimatedMinutes": 15,
   "theory": {
-    "intro": "Babcia piecze tace z ciastkami. Na kazdej tacy uklada 8 ciastek, a tac jest 6. Liczysz po kolei: 8, 16, 24... Albo robisz 6 razy 8 i wychodzi 48 - jednym ruchem. Mnozenie to skrot dla wielokrotnego dodawania. Im pewniej znasz tabliczke, tym szybciej rozwiazesz polowe zadan Kangurka, bez liczenia na palcach.",
-    "tool": "Sztuczka 1: MNOZ PRZEZ 10 I 100. Mnozac przez 10 dopisujesz jedno zero. Mnozac przez 100 - dwa zera. 47 razy 10 = 470, 23 razy 100 = 2300. Bezbledne.\n\nSztuczka 2: ROZBIJAJ DUZE LICZBY. Nie znasz 7 razy 12? Rozbij 12 na 10 + 2: 7 razy 10 = 70, 7 razy 2 = 14, razem 84. Tak samo 8 razy 13 = 8 razy 10 + 8 razy 3 = 80 + 24 = 104.\n\nSztuczka 3: PRZEMIENNOSC. 8 razy 7 to to samo co 7 razy 8. Wybieraj wygodniejszy kierunek. Czesto latwiej myslec '7 grup po 8' niz '8 grup po 7'.\n\nSztuczka 4: PODWAJANIE. Mnozenie przez 4 to podwojenie dwa razy. 17 razy 4 = 17 podwojone = 34, 34 podwojone = 68.",
-    "trick": "Kangur uwielbia zadania, gdzie cos jest 'po tyle samo' - rzedy w sadzie, kostki na tacy, dni w tygodniach. Gdy widzisz w zadaniu 'po', 'na kazdym', 'rownych' - to prawie zawsze sygnal do mnozenia. Drugi sygnal: jak liczby w odpowiedziach roznia sie o tabliczkowe wielokrotnosci (np. 36, 42, 48, 54), to wybor sprowadza sie do dobrego mnozenia."
+    "intro": "Babcia piecze tace z ciastkami. Na każdej tacy uklada 8 ciastek, a tac jest 6. Liczysz po kolei: 8, 16, 24... Albo robisz 6 razy 8 i wychodzi 48 - jednym ruchem. Mnozenie to skrot dla wielokrotnego dodawania. Im pewniej znasz tabliczke, tym szybciej rozwiazesz połowę zadan Kangurka, bez liczenia na palcach.",
+    "tool": "Sztuczka 1: MNOZ Przez 10 I 100. Mnozac przez 10 dopisujesz jedno zero. Mnozac przez 100 - dwa zera. 47 razy 10 = 470, 23 razy 100 = 2300. Bezbledne.\n\nSztuczka 2: ROZBIJAJ DUZE LICZBY. Nie znasz 7 razy 12? Rozbij 12 na 10 + 2: 7 razy 10 = 70, 7 razy 2 = 14, razem 84. Tak samo 8 razy 13 = 8 razy 10 + 8 razy 3 = 80 + 24 = 104.\n\nSztuczka 3: PRZEMIENNOSC. 8 razy 7 to to samo co 7 razy 8. Wybieraj wygodniejszy kierunek. Czesto latwiej myslec '7 grup po 8' niz '8 grup po 7'.\n\nSztuczka 4: PODWAJANIE. Mnozenie przez 4 to podwojenie dwa razy. 17 razy 4 = 17 podwojone = 34, 34 podwojone = 68.",
+    "trick": "Kangur uwielbia zadania, gdzie cos jest 'po tyle samo' - rzedy w sadzie, kostki na tacy, dni w tygodniach. Gdy widzisz w zadaniu 'po', 'na każdym', 'równych' - to prawie zawsze sygnal do mnozenia. Drugi sygnal: jak liczby w odpowiedziach różnią sie o tabliczkowe wielokrotnosci (np. 36, 42, 48, 54), to wybor sprowadza sie do dobrego mnozenia."
   },
   "versions": [
     {
@@ -24,7 +24,7 @@
           "difficulty": "3pkt",
           "topic": "arytmetyka",
           "subtopic": "tabliczka mnozenia",
-          "statement": "W szkolnym sadzie rosnie 7 rzedow drzew. W kazdym rzedzie jest 8 drzew. Ile drzew rosnie w sadzie?",
+          "statement": "W szkolnym sadzie rosnie 7 rzedow drzew. W każdym rzedzie jest 8 drzew. Ile drzew rosnie w sadzie?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -45,7 +45,7 @@
           "difficulty": "3pkt",
           "topic": "arytmetyka",
           "subtopic": "mnozenie przez 10",
-          "statement": "Pajak ma 8 nog. Ile nog ma 10 pajakow?",
+          "statement": "Pająk ma 8 nóg. Ile nóg ma 10 pająków?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -66,7 +66,7 @@
           "difficulty": "3pkt",
           "topic": "arytmetyka",
           "subtopic": "mnozenie liczby dwucyfrowej przez jednocyfrowa",
-          "statement": "Ucze sie tabliczki 12 minut dziennie. Ile minut ucze sie przez tydzien (7 dni)?",
+          "statement": "Ucze sie tabliczki 12 minut dziennie. Ile minut ucze sie przez tydzień (7 dni)?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -108,7 +108,7 @@
           "difficulty": "3pkt",
           "topic": "arytmetyka",
           "subtopic": "podwajanie wielokrotne",
-          "statement": "Bakteria dzieli sie na dwie kazda godzine. Na poczatku byla 1. Ile bakterii bedzie po 4 godzinach?",
+          "statement": "Bakteria dzieli sie na dwie każda godzinę. Na poczatku była 1. Ile bakterii bedzie po 4 godzinach?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -130,8 +130,8 @@
           "number": null,
           "difficulty": "4pkt",
           "topic": "arytmetyka",
-          "subtopic": "mnozenie i odejmowanie dwoch grup",
-          "statement": "W sali jest 6 stolow okraglych po 6 osob i 4 stoly prostokatne po 8 osob. Ile osob moze usiasc w sali?",
+          "subtopic": "mnozenie i odejmowanie dwóch grup",
+          "statement": "W sali jest 6 stołów okraglych po 6 osob i 4 stoły prostokatne po 8 osob. Ile osob może usiasc w sali?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -175,7 +175,7 @@
             "7 razy 8 = 56"
           ],
           "answer": "C",
-          "alternative": "Mozna jako 8 razy 7 (przemiennosc) - to samo.",
+          "alternative": "Można jako 8 razy 7 (przemiennosc) - to samo.",
           "hint": "7 razy 8 - klasyczna tabliczka."
         },
         {
@@ -186,7 +186,7 @@
             "8 razy 10 = 80"
           ],
           "answer": "D",
-          "alternative": "Mozna policzyc 10 razy 8 = 80 - to samo.",
+          "alternative": "Można policzyć 10 razy 8 = 80 - to samo.",
           "hint": "Mnozysz przez 10 - tylko dopisz zero na koncu."
         },
         {
@@ -210,12 +210,12 @@
             "4 razy 9 = 36"
           ],
           "answer": "D",
-          "alternative": "Mozna 9 razy 4 = 36 (przemiennosc).",
+          "alternative": "Można 9 razy 4 = 36 (przemiennosc).",
           "hint": "Prostokat 4 na 9 to 4 razy 9 z tabliczki."
         },
         {
           "problemId": "gen-l02-w5",
-          "observation": "Po kazdej godzinie liczba sie podwaja.",
+          "observation": "Po każdej godzinie liczba sie podwaja.",
           "strategy": "Podwajanie kilka razy.",
           "steps": [
             "Po 1h: 1 razy 2 = 2",
@@ -229,16 +229,16 @@
         },
         {
           "problemId": "gen-l02-c1",
-          "observation": "Dwie grupy stolow do dodania osobno.",
-          "strategy": "Mnozenie dla kazdej grupy, potem dodanie.",
+          "observation": "Dwie grupy stołów do dodania osobno.",
+          "strategy": "Mnozenie dla każdej grupy, potem dodanie.",
           "steps": [
-            "Stoly okragle: 6 razy 6 = 36 osob",
-            "Stoly prostokatne: 4 razy 8 = 32 osoby",
+            "Stoły okrągłe: 6 razy 6 = 36 osob",
+            "Stoły prostokatne: 4 razy 8 = 32 osoby",
             "Razem: 36 + 32 = 68 osob"
           ],
           "answer": "D",
-          "alternative": "Mozna sprawdzic: 36 + 32 = 68 (dodawanie z rozbijaniem 30+30+6+2).",
-          "hint": "Policz dwie grupy osobno (6 stolow po 6, 4 stoly po 8), potem dodaj."
+          "alternative": "Można sprawdzic: 36 + 32 = 68 (dodawanie z rozbijaniem 30+30+6+2).",
+          "hint": "Policz dwie grupy osobno (6 stołów po 6, 4 stoły po 8), potem dodaj."
         },
         {
           "problemId": "gen-l02-c2",
@@ -267,7 +267,7 @@
           "difficulty": "3pkt",
           "topic": "arytmetyka",
           "subtopic": "tabliczka mnozenia",
-          "statement": "Florysta robi bukiety. W kazdym jest 6 tulipanow, a bukietow jest 9. Ile tulipanow uzyl?",
+          "statement": "Florysta robi bukiety. W każdym jest 6 tulipanow, a bukietow jest 9. Ile tulipanow użył?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -309,7 +309,7 @@
           "difficulty": "3pkt",
           "topic": "arytmetyka",
           "subtopic": "rozbicie duzej liczby",
-          "statement": "Na polce jest 8 pudelek po 11 olowkow. Ile olowkow razem?",
+          "statement": "Na polce jest 8 pudelek po 11 ołówków. Ile ołówków razem?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -351,7 +351,7 @@
           "difficulty": "3pkt",
           "topic": "arytmetyka",
           "subtopic": "potegowanie/podwajanie",
-          "statement": "Kazda galaz drzewa codziennie zamienia sie w 2 nowe galezie. Pierwszego dnia byla 1 galaz. Ile galezi bedzie piatego dnia?",
+          "statement": "Każda galaz drzewa codziennie zamienia sie w 2 nowe galezie. Pierwszego dnia była 1 galaz. Ile galezi bedzie piatego dnia?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -373,7 +373,7 @@
           "number": null,
           "difficulty": "4pkt",
           "topic": "arytmetyka",
-          "subtopic": "suma dwoch produktow",
+          "subtopic": "suma dwóch produktow",
           "statement": "W kinie jest 5 rzedow po 8 foteli i 3 rzedy po 12 foteli. Ile foteli w kinie razem?",
           "hasImage": false,
           "imageNote": null,
@@ -395,7 +395,7 @@
           "difficulty": "5pkt",
           "topic": "arytmetyka",
           "subtopic": "mnozenie przez 11",
-          "statement": "Wiedzac ze 7 razy 11 = 77 i 8 razy 11 = 88, ile wynosi 25 razy 11?",
+          "statement": "Wiedząc że 7 razy 11 = 77 i 8 razy 11 = 88, ile wynosi 25 razy 11?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -429,7 +429,7 @@
             "12 razy 10 = 120"
           ],
           "answer": "D",
-          "alternative": "Mozna 10 razy 12 = 120 (przemiennosc).",
+          "alternative": "Można 10 razy 12 = 120 (przemiennosc).",
           "hint": "Mnozenie przez 10 - dopisz zero."
         },
         {
@@ -461,11 +461,11 @@
           "observation": "Codzienne podwajanie liczby galezi.",
           "strategy": "Podwajanie 4 razy (od dnia 1 do dnia 5 mijaja 4 noce).",
           "steps": [
-            "Dzien 1: 1",
-            "Dzien 2: 1 razy 2 = 2",
-            "Dzien 3: 2 razy 2 = 4",
-            "Dzien 4: 4 razy 2 = 8",
-            "Dzien 5: 8 razy 2 = 16"
+            "Dzień 1: 1",
+            "Dzień 2: 1 razy 2 = 2",
+            "Dzień 3: 2 razy 2 = 4",
+            "Dzień 4: 4 razy 2 = 8",
+            "Dzień 5: 8 razy 2 = 16"
           ],
           "answer": "D",
           "alternative": "To 2 razy 2 razy 2 razy 2 = 16 (cztery podwojenia).",
@@ -476,7 +476,7 @@
           "observation": "Dwa rodzaje rzedow - dwa mnozenia, potem dodaj.",
           "strategy": "Mnozenie i dodawanie.",
           "steps": [
-            "Male rzedy: 5 razy 8 = 40",
+            "Małe rzedy: 5 razy 8 = 40",
             "Duze rzedy: 3 razy 12 = 36",
             "Razem: 40 + 36 = 76"
           ],
@@ -511,7 +511,7 @@
           "difficulty": "4pkt",
           "topic": "arytmetyka",
           "subtopic": "odtworzenie liczb z roznicy",
-          "statement": "Helena zapisala trzy liczby o sumie 50. Od kazdej odjela te sama liczbe i otrzymala wyniki 24, 13 i 7. Ktora z liczb byla jedna z poczatkowych?",
+          "statement": "Helena zapisała na kartce trzy liczby. Ich suma wynosi 50. Od każdej z tych liczb Helena odjęła pewną, tę samą liczbę i otrzymała następujące wyniki: 24, 13 i 7. Która z poniższych liczb jest jedną z tych, które Helena zapisała na początku?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -532,7 +532,7 @@
           "difficulty": "4pkt",
           "topic": "arytmetyka",
           "subtopic": "LCM obwodow - kiedy ponowne spotkanie",
-          "statement": "Hanik chodzi wokol kwadratu 5x5m. Gerszon wokol prostokata 5x10m. Obaj zaczynaja w tym samym punkcie A z ta sama predkoscia, w przeciwnych kierunkach. Co najmniej ile razy Hanik musi obejsc kwadrat, by ponownie sie spotkac?",
+          "statement": "Hanik i Gerszon wyszli z punktu A z taką samą prędko- ścią w przeciwnych kierunkach wskazanych przez strzałki. Hanik spacerował dookoła kwadratowej rabatki o boku 5 metrów, Ger- szon dookoła prostokątnej rabatki o bokach 5 i 10 metrów. Co najmniej ile razy Hanik powinien obejść dookoła kwadrat, by ponownie spotkać się z Gerszonem?",
           "hasImage": true,
           "imageNote": "Kwadrat 5x5 obok prostokata 5x10, punkt A w narozniku ich styku.",
           "choices": {
@@ -553,7 +553,7 @@
           "difficulty": "5pkt",
           "topic": "arytmetyka",
           "subtopic": "podzial pilek wedlug warunkow",
-          "statement": "Marysia i Jozek mieli po 9 pilek. Lacznie 8 niebieskich i 10 bialych. Marysia miala dwa razy wiecej bialych niz niebieskich. Ile bialych pilek mial Jozek?",
+          "statement": "Marysia i Józek mieli po 9 piłek w dwóch kolorach. Ogółem mieli 8 niebieskich i 10 białych piłek. Marysia miała dwa razy więcej piłek białych niż niebieskich. Ile białych piłek miał Józek?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -571,13 +571,13 @@
       "solutions": [
         {
           "problemId": "kangur-maluch-2020-12",
-          "observation": "Helena odjela ta sama liczbe od kazdej z trzech liczb. Suma malala.",
-          "strategy": "Suma odjeta = roznica miedzy sumami przed i po.",
+          "observation": "Helena odjela ta sama liczbe od każdej z trzech liczb. Suma malala.",
+          "strategy": "Suma odjeta = roznica między sumami przed i po.",
           "steps": [
             "Suma przed: 50.",
             "Suma po: 24 + 13 + 7 = 44.",
             "Odjeto razem: 50 - 44 = 6.",
-            "Odjeto od kazdej tej samej liczby: 6 : 3 = 2.",
+            "Odjeto od każdej tej samej liczby: 6 : 3 = 2.",
             "Liczby poczatkowe: 24+2 = 26, 13+2 = 15, 7+2 = 9.",
             "Wsrod odpowiedzi pasuje 9."
           ],
@@ -588,13 +588,13 @@
         {
           "problemId": "kangur-maluch-2022-14",
           "observation": "Hanik chodzi obwodem 20m, Gerszon obwodem 30m. W przeciwnych kierunkach.",
-          "strategy": "Spotkaja sie ponownie w punkcie A gdy obaj zrobia pelne okrazenia.",
+          "strategy": "Spotkaja sie ponownie w punkcie A gdy obaj zrobia pelne okrążenia.",
           "steps": [
             "Obwod kwadratu Hanika: 4 * 5 = 20m.",
             "Obwod prostokata Gerszona: 2*(5+10) = 30m.",
             "Najmniejsza wspolna wielokrotnosc 20 i 30 to 60m.",
-            "Hanik musi przejsc 60m, czyli 60 : 20 = 3 okrazenia.",
-            "Gerszon musi przejsc 60m, czyli 60 : 30 = 2 okrazenia.",
+            "Hanik musi przejsc 60m, czyli 60 : 20 = 3 okrążenia.",
+            "Gerszon musi przejsc 60m, czyli 60 : 30 = 2 okrążenia.",
             "Hanik musi obejsc kwadrat co najmniej 3 razy."
           ],
           "answer": "C",
@@ -603,7 +603,7 @@
         },
         {
           "problemId": "kangur-maluch-2023-20",
-          "observation": "Marysia i Jozek maja po 9 pilek. Lacznie 8 niebieskich i 10 bialych.",
+          "observation": "Marysia i Jozek maja po 9 pilek. Łącznie 8 niebieskich i 10 bialych.",
           "strategy": "Najpierw rozwiaz pilki Marysi: b = 2n, b + n = 9.",
           "steps": [
             "Marysia: bialych = 2 * niebieskich, razem 9. Czyli 2n + n = 9, n = 3, b = 6.",
@@ -630,7 +630,7 @@
       "explain": "6 razy 7 = 42 - klasyczna tabliczka mnozenia."
     },
     {
-      "q": "Jak najszybciej obliczyc 8 razy 13?",
+      "q": "Jak najszybciej obliczyć 8 razy 13?",
       "choices": {
         "A": "Dodawac 13 osiem razy",
         "B": "Rozbic 13 na 10 i 3: 80 + 24 = 104",

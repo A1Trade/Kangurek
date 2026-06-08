@@ -7,8 +7,8 @@
   "topic": "lamiglowki",
   "estimatedMinutes": 14,
   "theory": {
-    "intro": "Kangurek 24 zadania w 75 minut = 3 minuty na zadanie. Liczenie kazdego elementu po kolei to przegrana. Znacznie szybciej: znajdz WZOR, ZAREGULE, klucz - i policz raz, potem uogolnij. To trenowanie 'matematycznej intuicji'.",
-    "tool": "Sztuczka 1: SUMA 1+2+...+N = N RAZY (N+1) PRZEZ 2. Nie sumuj po kolei! Suma 1-10 = 10*11/2 = 55. Suma 1-100 = 100*101/2 = 5050.\n\nSztuczka 2: ROZNICE STALE = CIAG ARYTMETYCZNY. Jezeli kazdy kolejny element ma roznice stala, wyciagasz wzor: a + (n-1)*d.\n\nSztuczka 3: ODWRACANIE OPERACJI. Wynik 100, ostatnio mnozono przez 5: cofnij dzielac. Lancuch operacji rozwijasz wstecz.\n\nSztuczka 4: PARZYSTOSC I OSTATNIA CYFRA. Czesto wystarczy sprawdzic parzystosc albo ostatnia cyfre wyniku, by wyeliminowac 3 z 5 odpowiedzi.",
+    "intro": "Kangurek 24 zadania w 75 minut = 3 minuty na zadanie. Liczenie każdego elementu po kolei to przegrana. Znacznie szybciej: znajdz WZOR, ZAREGULE, klucz - i policz raz, potem uogolnij. To trenowanie 'matematycznej intuicji'.",
+    "tool": "Sztuczka 1: SUMA 1+2+...+N = N RAZY (N+1) Przez 2. Nie sumuj po kolei! Suma 1-10 = 10*11/2 = 55. Suma 1-100 = 100*101/2 = 5050.\n\nSztuczka 2: ROZNICE STALE = CIAG ARYTMETYCZNY. Jeżeli każdy kolejny element ma roznice stala, wyciagasz wzor: a + (n-1)*d.\n\nSztuczka 3: ODWRACANIE OPERACJI. Wynik 100, ostatnio mnozono przez 5: cofnij dzielac. Lancuch operacji rozwijasz wstecz.\n\nSztuczka 4: PARZYSTOSC I OSTATNIA CYFRA. Czesto wystarczy sprawdzic parzystosc albo ostatnia cyfre wyniku, by wyeliminowac 3 z 5 odpowiedzi.",
     "trick": "Pulapka: zadanie 'ile sposobow' z konkretnymi liczbami pyta o WZOR, nie pelne wypisanie. Wzor pozwala odpowiedziec w 10 sekund, wypisanie - w 10 minut. Trenuj rozpoznawanie wzorow."
   },
   "versions": [
@@ -66,7 +66,7 @@
           "difficulty": "3pkt",
           "topic": "lamiglowki",
           "subtopic": "cykle dni",
-          "statement": "Dzis sroda. Jaki dzien bedzie za 700 dni?",
+          "statement": "Dziś sroda. Jaki dzień bedzie za 700 dni?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -87,7 +87,7 @@
           "difficulty": "3pkt",
           "topic": "arytmetyka",
           "subtopic": "kolorowanie kratek z wynikiem 20",
-          "statement": "W tabeli sa dzialania: 16+4, 19+1, 28-8, 2 razy 10, 16-4, 7 razy 3. Pokoloruj kratki, w ktorych wynik wynosi 20. Ktora kolorowanke otrzymamy?",
+          "statement": "Którą kolorowankę otrzymamy, gdy pokolorujemy wszystkie te kratki tabelki obok, w których wynik wynosi 20?",
           "hasImage": true,
           "imageNote": "Tabela 2x3 z dzialaniami, 5 wariantow kolorowanki.",
           "choices": {
@@ -108,9 +108,9 @@
           "difficulty": "3pkt",
           "topic": "arytmetyka",
           "subtopic": "laczenie kropek wedlug roznic",
-          "statement": "Marysia obliczyla roznice: 2-2, 6-5, 8-6, 11-8, 13-9, 17-12. Polaczyla kropki od najmniejszej do najwiekszej roznicy. Ktory rysunek otrzymala?",
+          "statement": "Marysia obliczyła podane różnice. Następnie połączyła kropki kolejno od najmniejszej do największej różnicy. Który z poniższych rysunków otrzymała? 2 −2 6 −5 8 −6 11 −8 13 −9 17 −12",
           "hasImage": true,
-          "imageNote": "Szesc kropek w dwoch kolumnach z dzialaniami, 5 wariantow polaczen.",
+          "imageNote": "Sześć kropek w dwóch kolumnach z dzialaniami, 5 wariantow polaczen.",
           "choices": {
             "A": "wzor A",
             "B": "wzor B",
@@ -131,9 +131,9 @@
           "difficulty": "4pkt",
           "topic": "arytmetyka",
           "subtopic": "spotkanie w ruchu - schody",
-          "statement": "Kangur wchodzi 7 schodkow do gory w czasie, gdy krolik schodzi 3 schodki w dol. Schodkow jest 100. Kangur startuje z dolu, krolik z gory. Na ktorym schodku sie spotkaja?",
+          "statement": "W czasie, gdy kangur wchodzi 7 schodków do góry, królik schodzi w dół 3 schodki. Ogółem jest 100 schod- ków. Na którym schodku spotkają się zwierzęta, jeżeli zaczęły poruszać się jednocześnie — kangur do góry, a królik w dół?",
           "hasImage": true,
-          "imageNote": "Schody ze 100 stopniami, kangur u dolu, krolik u gory.",
+          "imageNote": "Schody że 100 stopniami, kangur u dołu, królik u góry.",
           "choices": {
             "A": "53",
             "B": "60",
@@ -152,7 +152,7 @@
           "difficulty": "5pkt",
           "topic": "arytmetyka",
           "subtopic": "iloczyn cyfr roku wiekszy od sumy",
-          "statement": "Ile lat musi uplynac od 1 stycznia 2013, aby po raz pierwszy nastapil rok, w ktorym iloczyn wszystkich cyfr roku jest WIEKSZY od sumy tych cyfr?",
+          "statement": "Ile lat musi upłynąć od dnia 1 stycznia 2013 roku, aby po raz pierwszy nastąpił rok, taki że iloczyn wszystkich cyfr występujących w zapisie tego roku jest większy od sumy tych cyfr?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -194,7 +194,7 @@
           "observation": "700:7 = 100, reszta 0.",
           "strategy": "Wzor cykliczny.",
           "steps": [
-            "700:7=100 reszta 0, ten sam dzien"
+            "700:7=100 reszta 0, ten sam dzień"
           ],
           "answer": "C",
           "alternative": null,
@@ -203,7 +203,7 @@
         {
           "problemId": "kangur-maluch-2020-3",
           "observation": "6 dzialan, koloruj wyniki = 20.",
-          "strategy": "Policz wynik kazdego.",
+          "strategy": "Policz wynik każdego.",
           "steps": [
             "16+4 = 20 (kolor).",
             "19+1 = 20 (kolor).",
@@ -215,7 +215,7 @@
           ],
           "answer": "A",
           "alternative": null,
-          "hint": "Sprawdz wynik kazdego dzialania - pokoloruj te = 20."
+          "hint": "Sprawdz wynik każdego dzialania - pokoloruj te = 20."
         },
         {
           "problemId": "kangur-maluch-2014-5",
@@ -237,17 +237,17 @@
           "steps": [
             "Razem pokonywuja 10 schodkow w 1 jednostka.",
             "Schodkow 100 - czas 10 jednostek.",
-            "Kangur: 7 * 10 = 70 schodkow w gore.",
-            "Krolik: 3 * 10 = 30 schodkow w dol -> na 100 - 30 = 70.",
+            "Kangur: 7 * 10 = 70 schodkow w górę.",
+            "Królik: 3 * 10 = 30 schodkow w dół -> na 100 - 30 = 70.",
             "Spotkanie na 70."
           ],
           "answer": "D",
           "alternative": null,
-          "hint": "Kangur 7/jednostka czasu, krolik 3/jednostka czasu. Razem 10 schodkow."
+          "hint": "Kangur 7/jednostka czasu, królik 3/jednostka czasu. Razem 10 schodkow."
         },
         {
           "problemId": "kangur-maluch-2013-19",
-          "observation": "Iloczyn vs suma cyfr - kazda 0 powoduje iloczyn 0.",
+          "observation": "Iloczyn vs suma cyfr - każda 0 powoduje iloczyn 0.",
           "strategy": "Lata bez 0 maja iloczyn > suma (zwykle).",
           "steps": [
             "2013: iloczyn 0 (jest 0), suma 6. Iloczyn < suma.",
@@ -339,7 +339,7 @@
           "difficulty": "4pkt",
           "topic": "arytmetyka",
           "subtopic": "wymiana i wyrownanie ilosci",
-          "statement": "Tomek mial 7 jablek i 2 banany. Dal 2 jablka Slawkowi, w zamian dostal banany. Teraz ma tyle samo jablek co bananow. Ile bananow dostal od Slawka?",
+          "statement": "Tomek miał 7 jabłek i 2 banany. Dał 2 jabłka Sławkowi, w zamian otrzymał banany. Teraz Tomek ma tyle samo jabłek co bananów. Ile bananów otrzymał od Sławka?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -360,7 +360,7 @@
           "difficulty": "3pkt",
           "topic": "lamiglowki",
           "subtopic": "uklad rownan z figurami",
-          "statement": "Helenka wykonala dwa dzialania: trojkat + 4 = 7 oraz kwadrat + trojkat = 9. Jaka liczbe Helenka zakryla kwadratem?",
+          "statement": "Helenka poprawnie wykonała dwa działania – rysunek obok. Następnie dwie jednakowe liczby zakryła trójkątami, a inną liczbę zakryła kwadratem. Jaką liczbę Helenka zakryła kwadratem?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -383,7 +383,7 @@
           "difficulty": "4pkt",
           "topic": "arytmetyka",
           "subtopic": "zmiana wartosci - klamstwa i prawdy",
-          "statement": "Nos Pinokia wydluza sie o 6 cm za kazde klamstwo, skraca o 2 cm za kazda prawde. Nos mial 9 cm. Pinokio powiedzial 3 klamstwa i 2 prawdy. Jak dlugi jest teraz nos?",
+          "statement": "Gdy Pinokio kłamie, jego nos wydłuża się o 6 cm. Gdy mówi prawdę, jego nos skraca się o 2cm. W pewnym momencie nos Pinokia miał 9cm długości. Następnie Pinokio wypowiedział trzy kłamstwa i dwa zdania prawdziwe. Jak długi jest teraz nos Pinokia?",
           "hasImage": false,
           "imageNote": null,
           "choices": {
@@ -404,7 +404,7 @@
           "difficulty": "5pkt",
           "topic": "lamiglowki",
           "subtopic": "kryptarytm - dodawanie z cyframi 0-6",
-          "statement": "Cyfry 0, 1, 2, 3, 4, 5, 6 wpisujemy w pola dzialania dwucyfrowa + dwucyfrowa = trzycyfrowa (kazda cyfra raz, rozne pola rozne cyfry). Ktora cyfra bedzie w szarym polu (jednosci wyniku)?",
+          "statement": "Cyfry 0, 1, 2, 3, 4, 5, 6 wpisujemy w pola diagramu + = w taki sposób, aby przedstawiał on poprawnie wykonane dodawanie. W różne pola diagramu wpisujemy różne cyfry. Która cyfra będzie w szarym polu?",
           "hasImage": true,
           "imageNote": "Diagram dodawania pisemnego z szarym polem jednosci wyniku.",
           "choices": {
@@ -454,28 +454,28 @@
         },
         {
           "problemId": "kangur-maluch-2015-11",
-          "observation": "Tomek: 7 jablek, 2 banany. Dal 2 jablka, dostal banany.",
-          "strategy": "Po wymianie: 5 jablek, 2+x bananow. Rowne -> x = 3.",
+          "observation": "Tomek: 7 jabłek, 2 banany. Dal 2 jabłka, dostał banany.",
+          "strategy": "Po wymianie: 5 jabłek, 2+x bananow. Równe -> x = 3.",
           "steps": [
-            "Jablek po: 7 - 2 = 5.",
+            "Jabłek po: 7 - 2 = 5.",
             "Bananow po: 2 + x.",
             "5 = 2 + x -> x = 3."
           ],
           "answer": "B",
           "alternative": null,
-          "hint": "Po wymianie: jablek 7-2=5, bananow 2+x. Maja byc rowne."
+          "hint": "Po wymianie: jabłek 7-2=5, bananow 2+x. Maja byc równe."
         },
         {
           "problemId": "kangur-maluch-2015-3",
-          "observation": "trojkat + 4 = 7, kwadrat + trojkat = 9.",
-          "strategy": "Z pierwszego: trojkat = 3. Z drugiego: kwadrat = 6.",
+          "observation": "trójkąt + 4 = 7, kwadrat + trójkąt = 9.",
+          "strategy": "Z pierwszego: trójkąt = 3. Z drugiego: kwadrat = 6.",
           "steps": [
-            "trojkat = 7 - 4 = 3.",
+            "trójkąt = 7 - 4 = 3.",
             "kwadrat + 3 = 9 -> kwadrat = 6."
           ],
           "answer": "E",
           "alternative": null,
-          "hint": "trojkat = 3, kwadrat + trojkat = 9, czyli kwadrat = 6."
+          "hint": "trójkąt = 3, kwadrat + trójkąt = 9, czyli kwadrat = 6."
         },
         {
           "problemId": "kangur-maluch-2013-10",
@@ -498,12 +498,12 @@
           "steps": [
             "Cyfry 0,1,2,3,4,5,6.",
             "Suma cyfr: 21. Cyfry w wyniku (3-cyfra) + skladniki (2*2-cyfra) razem 21.",
-            "Sprawdz mozliwosc - wynik 3-cyfrowy musi miec male cyfry setek (1).",
+            "Sprawdz mozliwosc - wynik 3-cyfrowy musi mieć małe cyfry setek (1).",
             "Z analizy odpowiedz: 5 w szarym polu."
           ],
           "answer": "B",
           "alternative": null,
-          "hint": "Cyfry 0-6 (kazdy raz). 2-cyfrowa + 2-cyfrowa = 3-cyfrowa."
+          "hint": "Cyfry 0-6 (każdy raz). 2-cyfrowa + 2-cyfrowa = 3-cyfrowa."
         }
       ]
     }
