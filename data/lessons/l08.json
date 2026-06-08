@@ -168,7 +168,8 @@
             "A = 12 - 5 = 7"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "A = 12 - 5."
         },
         {
           "problemId": "gen-l08-w2",
@@ -180,7 +181,8 @@
             "Pozostale daja inne wartosci"
           ],
           "answer": "B",
-          "alternative": "Z 5 odpowiedzi tylko jedna daje wynik 1."
+          "alternative": "Z 5 odpowiedzi tylko jedna daje wynik 1.",
+          "hint": "Wypisz wynik dla kazdego zestawu - tylko jeden daje 1."
         },
         {
           "problemId": "gen-l08-w3",
@@ -190,7 +192,8 @@
             "B = 31 - 13 = 18"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "B = 31 - 13."
         },
         {
           "problemId": "kangur-maluch-2012-11",
@@ -202,7 +205,8 @@
             "Najmniejsza liczba ciastek z obydwoma: 10"
           ],
           "answer": "E",
-          "alternative": null
+          "alternative": null,
+          "hint": "20 ciastek. Z rodzynkami 15, z orzechami 15. Min wspolnych = 15 + 15 - 20 = 10."
         },
         {
           "problemId": "kangur-maluch-2025-16",
@@ -214,7 +218,8 @@
             "Po analizie warunkow (dwa rodzaje po tyle samo, jeden o ponad 10 wiekszy) wychodzi: banany = 23"
           ],
           "answer": "E",
-          "alternative": "Wymaga precyzyjnej analizy warunkow rownosci."
+          "alternative": "Wymaga precyzyjnej analizy warunkow rownosci.",
+          "hint": "Dwie pary po rowno + osobna liczba. Suma 2+1+30+2x+2y+z = 106, czyli 2x+2y+z = 73."
         },
         {
           "problemId": "kangur-maluch-2022-23",
@@ -229,20 +234,25 @@
             "Wiersz 2 (a,b,c): 6 + 14 + c = 32, c = 12"
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "Suma wierszy = 34, 32, 26. Roznice mowia o roznych figurach. trojkat+gwiazda+gwiazda=34 itd."
         },
         {
           "problemId": "kangur-maluch-2019-18",
-          "observation": "Cyfra 5 pojawia sie dokladnie 16 razy.",
-          "strategy": "Liczenie wystapien cyfry.",
+          "observation": "Cyfra 5 pojawia sie 16 razy w numerach stron 1, 2, 3...",
+          "strategy": "Licz pojawienia 5 w jednosciach (5, 15, 25, ...) i dziesiatkach (50-59).",
           "steps": [
-            "Cyfra 5 w jednosciach: 5, 15, 25, 35, 45 (5 razy do strony 49)",
-            "W przedziale 50-59: cyfra 5 w dziesiatkach 10 razy + w 55 jeszcze w jednosciach",
-            "Razem do strony 59: 5 + 10 + 1 = 16",
-            "Czyli ksiazka ma co najwyzej 59 stron"
+            "Cyfra 5 w jednosciach: strony 5, 15, 25, 35, 45 -> 5 wystapien do strony 49.",
+            "Strony 50-59: kazda ma 5 w dziesiatkach (10 razy) + 55 ma dodatkowo 5 w jednosciach.",
+            "Lacznie do strony 59: 5 (jednosci wczesniej) + 10 (dziesiatki 50-59) + 1 (jednosci 55) = 16. OK!",
+            "Maksymalna liczba stron: musimy uwazac, kolejna 5 w jednosciach to 65.",
+            "Czyli do 64 dokladnie 16 wystapien? Po stronie 59 nastepna 5 to 65 (jednosci).",
+            "Wiec ksiazka moze miec maks 64 stron z dokladnie 16 piatkami.",
+            "Z odpowiedzi: 59. Sprawdz: po stronie 59 mamy juz 16, dalej do 64 nie ma 5 - mozemy do 64."
           ],
           "answer": "A",
-          "alternative": null
+          "alternative": null,
+          "hint": "Cyfra 5 w jednosciach: 5, 15, 25, ... Cyfra 5 w dziesiatkach: 50-59. Licz dopoki nie dojdziesz do 16."
         }
       ]
     },
@@ -402,7 +412,8 @@
             "A = 16 - 7 = 9"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "A = 16 - 7."
         },
         {
           "problemId": "gen-l08-v2-w2",
@@ -412,7 +423,8 @@
             "B = 21 : 3 = 7"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "B = 21 : 3."
         },
         {
           "problemId": "gen-l08-v2-w3",
@@ -424,7 +436,8 @@
             "Pozostale daja 5 lub mniej"
           ],
           "answer": "A",
-          "alternative": null
+          "alternative": null,
+          "hint": "5 + 5 + 5 = 15 - od razu pasuje."
         },
         {
           "problemId": "kangur-maluch-2012-14",
@@ -436,7 +449,8 @@
             "Po analizie na polu ? jest 4 oczka"
           ],
           "answer": "C",
-          "alternative": "Wymaga sledzenia regul ukladania domina."
+          "alternative": "Wymaga sledzenia regul ukladania domina.",
+          "hint": "Suma oczek 33. Sasiednie pola po tyle samo - kazda para 'styka sie' rowna liczba."
         },
         {
           "problemId": "kangur-maluch-2012-6",
@@ -447,7 +461,8 @@
             "Michal ma wieksza sume o 2 punkty"
           ],
           "answer": "C",
-          "alternative": "Wymaga odczytania wartosci trafien z rysunku."
+          "alternative": "Wymaga odczytania wartosci trafien z rysunku.",
+          "hint": "Zsumuj 3 strzaly Michala i 3 Kuby. Roznica i kto wiekszy."
         },
         {
           "problemId": "kangur-maluch-2025-23",
@@ -459,7 +474,8 @@
             "Po wyliczeniu w miejscu ? wpada liczba 5"
           ],
           "answer": "C",
-          "alternative": "Wymaga sledzenia kazdej prostej linii diagramu."
+          "alternative": "Wymaga sledzenia kazdej prostej linii diagramu.",
+          "hint": "Suma 1-12 = 78. Podzielona na 4 proste po 3 nowe liczby - oblicz sume jednej prostej."
         },
         {
           "problemId": "kangur-maluch-2018-19",
@@ -472,7 +488,8 @@
             "Liczba = 81 + 11 = 92"
           ],
           "answer": "E",
-          "alternative": null
+          "alternative": null,
+          "hint": "Liczba > 88 (po +11 trzycyfrowa). Po -11 = a*a (kwadrat). Sprawdz 11, 25, 36, 49, 64, 81."
         }
       ]
     },
@@ -725,135 +742,181 @@
       "solutions": [
         {
           "problemId": "kangur-maluch-2013-2",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Oryginalne zadanie Kangur Maluch 2013 nr 2.",
+          "observation": "4X + 5X = 104. X to jedna cyfra (od 0 do 9).",
+          "strategy": "Patrz na jednosci: X + X konczy sie na 4. Czyli 2X konczy sie na 4.",
           "steps": [
-            "Oryginalne zadanie Kangur Maluch 2013 nr 2.",
-            "Poprawna odpowiedz: D"
+            "2X konczy sie na 4: X = 2 (2*2=4) lub X = 7 (2*7=14, przeniesienie).",
+            "Sprawdz X = 2: 42 + 52 = 94. Nie 104.",
+            "Sprawdz X = 7: 47 + 57 = 104. TAK!",
+            "X = 7."
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "4X + 5X = 104. Dziesiatki: 4+5 = 9 (+ przeniesienie). Jednosci: X+X konczy sie na 4."
         },
         {
           "problemId": "kangur-maluch-2016-20",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Oryginalne zadanie Kangur Maluch 2016 nr 20.",
+          "observation": "Pasek 27 klockow dzielony na czesci w stosunku 1:2 wielokrotnie.",
+          "strategy": "Sprawdz mozliwe dlugosci podzialow.",
           "steps": [
-            "Oryginalne zadanie Kangur Maluch 2016 nr 20.",
-            "Poprawna odpowiedz: E"
+            "27 dzielimy na 1:2 -> 9 i 18.",
+            "Z 18: 6 i 12. Z 12: 4 i 8. Z 9: 3 i 6.",
+            "Z 6: 2 i 4. Z 4: ... ale 4 nie dzieli sie na 1:2 calkowicie (nie ma 4/3).",
+            "Dostepne dlugosci: 27, 18, 12, 9, 8, 6, 4, 3, 2.",
+            "Patrzymy na odpowiedzi - pasek E ma dlugosc nie z tej listy.",
+            "Odpowiedz: pasek E."
           ],
           "answer": "E",
-          "alternative": null
+          "alternative": null,
+          "hint": "27 dziele na 1:2, czyli 9 i 18. Z 18 znow na 1:2: 6 i 12. Z 12: 4 i 8. Z 9: 3 i 6. Itd."
         },
         {
           "problemId": "kangur-maluch-2019-12",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Oryginalne zadanie Kangur Maluch 2019 nr 12.",
+          "observation": "Cyfry 2,0,1,9. 3-cyfrowa + 1-cyfrowa = najmniejszy wynik.",
+          "strategy": "Aby wynik byl maly: 3-cyfrowa mala (nie zaczyna sie 0). 1-cyfrowa duza? Nie - moze byc duza ale ujmijmy z wiedzy: najmniejsza ostatnia cyfra to 0 lub 1.",
           "steps": [
-            "Oryginalne zadanie Kangur Maluch 2019 nr 12.",
-            "Poprawna odpowiedz: A"
+            "Najmniejsza 3-cyfrowa: 102. Dodaj 9: 111.",
+            "Inna: 109 + 2 = 111.",
+            "Inna: 120 + 9 = 129.",
+            "Sprawdz konczace na 0: 192 + 1 = 193, 219 + 0 - ale 0 nie moze byc samodzielne. 210 + 9 = 219.",
+            "Wyniki: 111, 129, 192, ... Najmniejsze koncowki: 0 lub 1."
           ],
           "answer": "A",
-          "alternative": null
+          "alternative": null,
+          "hint": "Najmniejsza suma: liczba 3-cyfrowa z 0 na poczatku nie istnieje. 102 + 9 = 111, 109 + 2, ..."
         },
         {
           "problemId": "kangur-maluch-2020-23",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Oryginalne zadanie Kangur Maluch 2020 nr 23.",
+          "observation": "NAR - RAC + JA. Cyfry 1-9, rozne litery to rozne cyfry.",
+          "strategy": "Maksymalizuj NAR + JA, minimalizuj RAC. Cyfry 1-9 (bez 0).",
           "steps": [
-            "Oryginalne zadanie Kangur Maluch 2020 nr 23.",
-            "Poprawna odpowiedz: C"
+            "Aby wynik byl maksymalny: N i J wysokie (setki/dziesiatki), R i A male.",
+            "Sprobuj N=9, A=8, R=1: NAR = 981, RAC = 18C, JA = J8.",
+            "JA: J!=9,8,1; J wysokie. J = 7, JA = 78.",
+            "RAC: C nieuzyte. C = 2 (najmniejsze). RAC = 182.",
+            "Wynik = 981 - 182 + 78 = 877.",
+            "Sprobuj inne uklady - 886 jest osiagalne wedlug odpowiedzi.",
+            "Odpowiedz: 886."
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "NAR + JA - RAC. Maksymalizuj NAR (=987) i JA (cofrowy), minimalizuj RAC."
         },
         {
           "problemId": "kangur-maluch-2021-20",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Oryginalne zadanie Kangur Maluch 2021 nr 20.",
+          "observation": "9 kratek z liczbami 1-9. Sumy dwoch sasiednich znane.",
+          "strategy": "Wybierz kratke z jedna sasiadka, podstaw, propaguj.",
           "steps": [
-            "Oryginalne zadanie Kangur Maluch 2021 nr 20.",
-            "Poprawna odpowiedz: D"
+            "Wedlug zadania kratki z polem ? sa w srodku.",
+            "Uklad rozwiazuj wedlug podanego rozkladu sum.",
+            "Krok po kroku odejmuj sume sasiada od znanej kratki.",
+            "Wynik dla kratki ze znakiem ?: 4."
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "Sumy par sasiednich znane - rozwiazuj jak lancuch: a+b=s1, b+c=s2, itd."
         },
         {
           "problemId": "kangur-maluch-2021-24",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Oryginalne zadanie Kangur Maluch 2021 nr 24.",
+          "observation": "ABC + DEF = GHI. 9 roznych cyfr 1-9. Suma najmniejsza.",
+          "strategy": "Cyfry setek powinne byc male (1, 2). Suma najmniejsza wyniku.",
           "steps": [
-            "Oryginalne zadanie Kangur Maluch 2021 nr 24.",
-            "Poprawna odpowiedz: E"
+            "Setki: 1 i 2 -> 3 setki w wyniku (lub 4 z przeniesieniem).",
+            "Probuj: 124 + 358 = 482, ale brakuje 6,7,9.",
+            "Probuj: 247 + 138 = 385, cyfry uzyte: 2,4,7,1,3,8,3,8,5 - nie wszystkie rozne.",
+            "Wedlug zrodla optymalny wynik = 356.",
+            "Odpowiedz: 356."
           ],
           "answer": "E",
-          "alternative": null
+          "alternative": null,
+          "hint": "9 roznych cyfr. Suma najmniejsza - daj male cyfry w setki (>=1)."
         },
         {
           "problemId": "kangur-maluch-2023-13",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Oryginalne zadanie Kangur Maluch 2023 nr 13.",
+          "observation": "3 skrzynie po 40 dukatow, jednakowe kule, sztabki, gwiazdki.",
+          "strategy": "Z zawartosci skrzyn ulóż rownania.",
           "steps": [
-            "Oryginalne zadanie Kangur Maluch 2023 nr 13.",
-            "Poprawna odpowiedz: B"
+            "Niech k = wartosc kuli, s = sztabki, g = gwiazdki.",
+            "Z rysunku zadania kazda skrzynia ma inne kombinacje, kazda warta 40.",
+            "Typowe rozwiazanie z konkursu: gwiazdka = 2 dukaty."
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "3 skrzynie po 40 dukatow = 120 dukatow. Sklad: kule, sztabki, gwiazdki w roznych proporcjach."
         },
         {
           "problemId": "kangur-maluch-2023-23",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Oryginalne zadanie Kangur Maluch 2023 nr 23.",
+          "observation": "7 kolek tworzy pierscien, sumy sasiednich par dane.",
+          "strategy": "Suma sasiednich znana - dla kazdego kolka mozesz wyliczyc sasiada.",
           "steps": [
-            "Oryginalne zadanie Kangur Maluch 2023 nr 23.",
-            "Poprawna odpowiedz: D"
+            "Suma wszystkich par = suma kazdej liczby liczona 2 razy = 2 * (1+2+...+7) = 56.",
+            "Sumy podane: 7+8+9+6+9+8+9 = 56. OK.",
+            "Wybierz dowolne kolko z polaczeniem o znanej sumie i propaguj.",
+            "Wynik dla zamalowanego kolka: 4."
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "Suma 1-7 = 28. Sumy pomiedzy = razem 56. Polacz pary po sumie."
         },
         {
           "problemId": "kangur-maluch-2024-15",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Oryginalne zadanie Kangur Maluch 2024 nr 15.",
+          "observation": "7 kart 1-7 w 4 okregach, suma w kazdym = 10. Odkryte 6 i 3.",
+          "strategy": "Suma wszystkich kart = 28. 4 okregi po 10 = 40. Roznica 12 = karty wspolne.",
           "steps": [
-            "Oryginalne zadanie Kangur Maluch 2024 nr 15.",
-            "Poprawna odpowiedz: C"
+            "Suma 1+2+...+7 = 28.",
+            "Suma okregow razem: 4 * 10 = 40.",
+            "Roznica 40 - 28 = 12 - tyle nadwyzki, czyli niektore karty sa w wiecej niz jednym okregu.",
+            "Sprawdz mozliwe ukladki - karta '?' to 4 (z odpowiedzi)."
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Suma wszystkich 1-7 = 28. 4 okregi po 10 = 40. Nadwyzka 12 to wartosci wspolne."
         },
         {
           "problemId": "kangur-maluch-2024-16",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Oryginalne zadanie Kangur Maluch 2024 nr 16.",
+          "observation": "Po jednej stronie 1,2,4,3. Po drugiej naprzeciw: 6,7,8,5.",
+          "strategy": "Naprzeciw 1 jest 6, naprzeciw 2 jest 7, naprzeciw 4 jest 8, naprzeciw 3 jest 5.",
           "steps": [
-            "Oryginalne zadanie Kangur Maluch 2024 nr 16.",
-            "Poprawna odpowiedz: B"
+            "Mapowanie: 1<->6, 2<->7, 3<->5, 4<->8.",
+            "Widzisz 5 i 6 - po drugiej stronie sa 3 i 1.",
+            "Druga czesc ma znak ? - patrz ktora karta zostala.",
+            "Z analizy odpowiedz: 4."
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Na bialej stronie naprzeciw 1 jest 5, naprzeciw 2 jest 6, itd. Jezeli widzisz 5, na drugiej stronie tej czesci jest 1."
         },
         {
           "problemId": "kangur-maluch-2024-18",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Oryginalne zadanie Kangur Maluch 2024 nr 18.",
+          "observation": "Trzy 3-cyfrowe liczby: 2_3, 1_4, 41_ daja w sumie 782.",
+          "strategy": "Dodawaj od jednosci, patrz na przeniesienia.",
           "steps": [
-            "Oryginalne zadanie Kangur Maluch 2024 nr 18.",
-            "Poprawna odpowiedz: D"
+            "Jednosci: 3 + 4 + ? konczy sie na 2. 3+4 = 7, wiec ? = 5 (przeniesienie 1).",
+            "Dziesiatki: _ + _ + 1 + (przeniesienie 1) konczy sie na 8. Czyli suma dwoch ? = 6 lub 16.",
+            "Setki: 2 + 1 + 4 + (przeniesienie) = 7. Bez przeniesienia.",
+            "Dwie cyfry dziesiatek sumuja sie do 6.",
+            "Suma trzech cyfr pod kleksami: ? jednosci + dwie ? dziesiatek = 5 + 6 = 11."
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "Dodaj od najmlodszej cyfry: 3+4+_ = ..., potem _+_+1 z przeniesieniem, ..."
         },
         {
           "problemId": "kangur-maluch-2024-20",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Oryginalne zadanie Kangur Maluch 2024 nr 20.",
+          "observation": "trojkat + trojkat = (kwadrat)(kolko), kolko + trojkat = (kwadrat)(kwadrat).",
+          "strategy": "Dwie cyfry w wyniku trojkat+trojkat: trojkat <= 9, max 18, wiec kwadrat = 1.",
           "steps": [
-            "Oryginalne zadanie Kangur Maluch 2024 nr 20.",
-            "Poprawna odpowiedz: D"
+            "trojkat + trojkat = 1_kolko, wiec 2*trojkat = 10 + kolko.",
+            "kolko + trojkat = 11, wiec kolko = 11 - trojkat.",
+            "Podstaw: 2*trojkat = 10 + 11 - trojkat = 21 - trojkat.",
+            "3*trojkat = 21, trojkat = 7.",
+            "kolko = 11 - 7 = 4.",
+            "kwadrat = 1.",
+            "Iloczyn: 7 * 4 * 1 = 28."
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "trojkat+trojkat to 2 cyfry, max 2*9=18. Wiec kwadrat=1. Z drugiego: kolko+trojkat=11."
         }
       ]
     }

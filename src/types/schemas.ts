@@ -44,6 +44,7 @@ export type Problem = z.infer<typeof Problem>;
 
 export const Solution = z.object({
   problemId: z.string(),
+  hint: z.string().nullable().default(null).describe("krotka podpowiedz (1 zdanie) - pokazywana przed rozwiazaniem"),
   observation: z.string().describe("co od razu widac w zadaniu (1 zdanie)"),
   strategy: z.string().describe("ktora technika z teorii pasuje"),
   steps: z.array(z.string()).describe("krok po kroku, kazdy krok osobno"),

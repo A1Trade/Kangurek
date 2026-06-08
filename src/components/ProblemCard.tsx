@@ -52,6 +52,12 @@ export function ProblemCard({ problem, solution, showNumber, lessonId, versionId
   };
 
   const requestHint = async () => {
+    // 1) jezeli mamy statyczny hint w solution - pokaz go natychmiast (zero API)
+    if (!hint && solution?.hint) {
+      setHint(solution.hint);
+      return;
+    }
+    // 2) drugi klik lub brak statycznego - sprobuj API
     setLoadingHint(true);
     try {
       const r = await fetch("/api/podpowiedz", {
@@ -60,13 +66,19 @@ export function ProblemCard({ problem, solution, showNumber, lessonId, versionId
         body: JSON.stringify({ problem, level: hint ? 2 : 1 }),
       });
       if (!r.ok) {
-        setHint("Podpowiedz AI niedostepna - brak klucza API w .env.local.");
+        setHint(
+          hint
+            ? hint + "\n\n(Dalsza podpowiedz AI niedostepna - brak klucza API.)"
+            : "Podpowiedz AI niedostepna - brak klucza API w .env.local.",
+        );
       } else {
         const data = await r.json();
-        setHint(data.hint ?? "(brak podpowiedzi)");
+        setHint((prev) =>
+          prev ? prev + "\n\nJeszcze: " + (data.hint ?? "") : data.hint ?? "(brak podpowiedzi)",
+        );
       }
     } catch {
-      setHint("Nie udalo sie pobrac podpowiedzi.");
+      setHint(hint ?? "Nie udalo sie pobrac podpowiedzi.");
     } finally {
       setLoadingHint(false);
     }
@@ -173,7 +185,7 @@ export function ProblemCard({ problem, solution, showNumber, lessonId, versionId
           <div className="font-semibold mb-1 flex items-center gap-1.5">
             <span aria-hidden>💡</span> Podpowiedz
           </div>
-          <div>{hint}</div>
+          <div className="whitespace-pre-wrap">{hint}</div>
         </div>
       )}
 

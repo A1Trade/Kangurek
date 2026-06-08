@@ -169,7 +169,8 @@
             "Zaokraglamy w gore: 47 -> 50"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Cyfra jednosci to 7 - zaokraglamy w gore."
         },
         {
           "problemId": "gen-l07-w2",
@@ -180,7 +181,8 @@
             "Zaokraglamy w dol: 234 -> 200"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Cyfra dziesiatek to 3 - zaokraglamy w dol."
         },
         {
           "problemId": "gen-l07-w3",
@@ -192,7 +194,8 @@
             "Suma ~ 600"
           ],
           "answer": "A",
-          "alternative": "Dokladnie 198+405=603, oszacowanie 600 jest blisko."
+          "alternative": "Dokladnie 198+405=603, oszacowanie 600 jest blisko.",
+          "hint": "Zaokraglij oba: 200 + 400."
         },
         {
           "problemId": "gen-l07-w4",
@@ -205,7 +208,8 @@
             "Eliminuje 60"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "12 razy 3 = 36 - jest dokladnie. Ktora odpowiedz nie ma sensu?"
         },
         {
           "problemId": "kangur-maluch-2012-16",
@@ -218,7 +222,8 @@
             "Odpowiedz: 25 osob"
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "Rywale = 3x (x chlopcow + 2x dziewczat). Wszyscy = 3x + 1 (Krzys). Sprawdz odpowiedzi."
         },
         {
           "problemId": "gen-l07-c1",
@@ -230,7 +235,8 @@
             "Najblizsza odpowiedz: 1000"
           ],
           "answer": "C",
-          "alternative": "Dokladnie: 198 razy 5 = 990."
+          "alternative": "Dokladnie: 198 razy 5 = 990.",
+          "hint": "200 razy 5 = 1000 - to twoje przyblizenie."
         },
         {
           "problemId": "kangur-maluch-2025-11",
@@ -243,7 +249,8 @@
             "Mala = 2 razy 30 = 60 g"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "5 duzych po x, mala 2x. Razem 5x + 2x = 7x = 210. Mala dostala 2x."
         }
       ]
     },
@@ -404,7 +411,8 @@
             "Zaokraglamy w dol: 73 -> 70"
           ],
           "answer": "A",
-          "alternative": null
+          "alternative": null,
+          "hint": "Cyfra jednosci 3 - w dol."
         },
         {
           "problemId": "gen-l07-v2-w2",
@@ -415,7 +423,8 @@
             "Zaokraglamy w gore: 651 -> 700"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Cyfra dziesiatek 5 - w gore."
         },
         {
           "problemId": "gen-l07-v2-w3",
@@ -427,7 +436,8 @@
             "Suma ~ 900"
           ],
           "answer": "B",
-          "alternative": "Dokladnie 312+589=901 - blisko 900."
+          "alternative": "Dokladnie 312+589=901 - blisko 900.",
+          "hint": "300 + 600 = 900."
         },
         {
           "problemId": "gen-l07-v2-w4",
@@ -438,7 +448,8 @@
             "3 razy 4 = 12, ostatnia cyfra 2"
           ],
           "answer": "B",
-          "alternative": "Dokladnie 23 razy 4 = 92."
+          "alternative": "Dokladnie 23 razy 4 = 92.",
+          "hint": "Mnozysz cyfre jednosci 3 przez 4 i bierzesz ostatnia cyfre."
         },
         {
           "problemId": "kangur-maluch-2022-6",
@@ -450,7 +461,8 @@
             "4 zestawy razy 3 skoki = 12 skokow"
           ],
           "answer": "E",
-          "alternative": null
+          "alternative": null,
+          "hint": "Zestaw 3 skokow = 4m. 16m to 4 zestawy. Razem skokow = 4 razy 3."
         },
         {
           "problemId": "gen-l07-v2-c1",
@@ -463,7 +475,8 @@
             "Dokladnie: 48 razy 7 = 336"
           ],
           "answer": "C",
-          "alternative": "8 razy 7 = 56, ostatnia cyfra 6 - pasuje do 336."
+          "alternative": "8 razy 7 = 56, ostatnia cyfra 6 - pasuje do 336.",
+          "hint": "Wynik powinien byc blisko 350. Wybierz odpowiedz blisko."
         },
         {
           "problemId": "kangur-maluch-2018-17",
@@ -477,7 +490,8 @@
             "Razem 12 + 4 = 16 m"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Co 4 skoki (3 przod + 1 tyl) = 4m. 14 skokow = 3 zestawy + 2. Policz drogi."
         }
       ]
     },
@@ -570,47 +584,66 @@
       "solutions": [
         {
           "problemId": "kangur-maluch-2012-13",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Oryginalne zadanie Kangur Maluch 2012 nr 13.",
+          "observation": "Pieski (4 nogi), kaczki (2), gaski (2), owieczki (4). Razem 44 nogi.",
+          "strategy": "Suma nog = 3*4 + 4*2 + 2*2 + 4*x = 44.",
           "steps": [
-            "Oryginalne zadanie Kangur Maluch 2012 nr 13.",
-            "Poprawna odpowiedz: B"
+            "Pieski: 3 * 4 = 12 nog.",
+            "Kaczuszki: 4 * 2 = 8 nog.",
+            "Gaski: 2 * 2 = 4 nogi.",
+            "Razem bez owieczek: 12 + 8 + 4 = 24 nogi.",
+            "Owieczki: 44 - 24 = 20 nog.",
+            "Liczba owieczek: 20 : 4 = 5."
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Pieski po 4 nogi, kaczki po 2, gaski po 2, owce po 4. 3*4 + 4*2 + 2*2 + 4*x = 44."
         },
         {
           "problemId": "kangur-maluch-2021-6",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Oryginalne zadanie Kangur Maluch 2021 nr 6.",
+          "observation": "Kozlarze i borowiki, razem 20. Borowikow o 6 wiecej.",
+          "strategy": "Rownania: k + b = 20, b = k + 6.",
           "steps": [
-            "Oryginalne zadanie Kangur Maluch 2021 nr 6.",
-            "Poprawna odpowiedz: D"
+            "Podstaw b = k + 6 do pierwszego: k + (k + 6) = 20.",
+            "2k + 6 = 20.",
+            "2k = 14, k = 7.",
+            "b = 7 + 6 = 13.",
+            "Borowikow: 13."
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": "Odejmij 6 od 20: 20 - 6 = 14. Podziel na pol: 7. To kozlarze. Borowiki 7 + 6 = 13.",
+          "hint": "kozlarzy x, borowikow x+6. x + (x+6) = 20."
         },
         {
           "problemId": "kangur-maluch-2021-18",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Oryginalne zadanie Kangur Maluch 2021 nr 18.",
+          "observation": "Liczba < 50, dzieli sie przez 2, 3, 4. Przez 7 zostaje 6 (brakuje 1).",
+          "strategy": "Wielokrotnosc lcm(2,3,4) = 12. Mniej niz 50: 12, 24, 36, 48. Sprawdz reszte przy /7.",
           "steps": [
-            "Oryginalne zadanie Kangur Maluch 2021 nr 18.",
-            "Poprawna odpowiedz: D"
+            "Wielokrotnosci 12 mniejsze od 50: 12, 24, 36, 48.",
+            "12 : 7 = 1 reszty 5 (brakuje 2 do pelnego).",
+            "24 : 7 = 3 reszty 3 (brakuje 4 do pelnego).",
+            "36 : 7 = 5 reszty 1 (brakuje 6 do pelnego). OK!",
+            "48 : 7 = 6 reszty 6 (brakuje 1 do pelnego).",
+            "Odpowiedz: 36 ciastek."
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "Liczba dzieli sie przez 2, 3 i 4 (czyli przez 12). Mniejsze niz 50: 12, 24, 36, 48. Sprawdz ktora daje reszte 1 przy /7 (bo brakuje 6)."
         },
         {
           "problemId": "kangur-maluch-2024-2",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Oryginalne zadanie Kangur Maluch 2024 nr 2.",
+          "observation": "Porownaj 5 sum z tymi samymi cyframi 2, 0, 2, 4.",
+          "strategy": "Najwieksza suma to ta, gdzie najwieksze cyfry trafiaja na pozycje setek/dziesiatek.",
           "steps": [
-            "Oryginalne zadanie Kangur Maluch 2024 nr 2.",
-            "Poprawna odpowiedz: A"
+            "A: 202 + 4 = 206.",
+            "B: 20 + 24 = 44.",
+            "C: 2 + 0 + 2 + 4 = 8.",
+            "D: 20 + 2 + 4 = 26.",
+            "E: 2 + 0 + 24 = 26.",
+            "Najwieksza: A = 206."
           ],
           "answer": "A",
-          "alternative": null
+          "alternative": null,
+          "hint": "Najwieksza to ta z najwiekszym skladnikiem - 202 dominuje."
         }
       ]
     }

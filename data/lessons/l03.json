@@ -169,7 +169,8 @@
             "Wiec 36 podzielone na 4 daje 9 talerzykow"
           ],
           "answer": "D",
-          "alternative": "Mozna odejmowac: 36 - 4 - 4 - 4... - dziewiec razy."
+          "alternative": "Mozna odejmowac: 36 - 4 - 4 - 4... - dziewiec razy.",
+          "hint": "36 podzielic przez 4 - prosta tabliczka."
         },
         {
           "problemId": "gen-l03-w2",
@@ -181,7 +182,8 @@
             "Czyli 6 pelnych dni, na siodmy nie wystarczy"
           ],
           "answer": "B",
-          "alternative": "Sprawdzenie: 20 : 3 = 6 reszta 2."
+          "alternative": "Sprawdzenie: 20 : 3 = 6 reszta 2.",
+          "hint": "20 podzielic przez 3 to 6 reszty 2. Pelnych dni: 6."
         },
         {
           "problemId": "gen-l03-w3",
@@ -192,7 +194,8 @@
             "Cztery pelne druzyny po 6 + 1 dziecko zostanie"
           ],
           "answer": "A",
-          "alternative": "25 : 6 = 4 reszta 1."
+          "alternative": "25 : 6 = 4 reszta 1.",
+          "hint": "25 podzielic przez 6: ile pelnych grup, jaka reszta?"
         },
         {
           "problemId": "gen-l03-w4",
@@ -204,7 +207,8 @@
             "Potrzebna jest 10. lawka dla pozostalych 2 osob"
           ],
           "answer": "C",
-          "alternative": "Liczba lawek to zawsze pelna liczba dzielenia + 1 jesli jest reszta."
+          "alternative": "Liczba lawek to zawsze pelna liczba dzielenia + 1 jesli jest reszta.",
+          "hint": "Reszta tez musi miec lawke - wiec zaokraglaj w gore."
         },
         {
           "problemId": "gen-l03-w5",
@@ -214,7 +218,8 @@
             "90 : 10 = 9"
           ],
           "answer": "B",
-          "alternative": "10 razy 9 = 90, czyli 90:10=9."
+          "alternative": "10 razy 9 = 90, czyli 90:10=9.",
+          "hint": "Dzielenie przez 10 - skresl jedno zero."
         },
         {
           "problemId": "gen-l03-c1",
@@ -231,7 +236,8 @@
             "Poprawna odpowiedz to A) 17"
           ],
           "answer": "A",
-          "alternative": "Mozna szukac: liczby dajace r.3 przy dzieleniu przez 7 to 3, 10, 17, 24, 31, 38, 45. Ktora z nich daje reszte 2 przy dzieleniu przez 5? Konce na 2 lub 7: 17, 27, 37, 47. Wspolne: tylko 17."
+          "alternative": "Mozna szukac: liczby dajace r.3 przy dzieleniu przez 7 to 3, 10, 17, 24, 31, 38, 45. Ktora z nich daje reszte 2 przy dzieleniu przez 5? Konce na 2 lub 7: 17, 27, 37, 47. Wspolne: tylko 17.",
+          "hint": "Sprawdz odpowiedzi po kolei: ktora daje reszte 3 przy /7 i reszte 2 przy /5?"
         },
         {
           "problemId": "gen-l03-c2",
@@ -242,7 +248,8 @@
             "Ostatnia cyfra liczby 112 to 2"
           ],
           "answer": "C",
-          "alternative": "Wzor cyfr koncowych wielokrotnosci 7: 7, 4, 1, 8, 5, 2, 9, 6, 3, 0, 7, 4, 1, 8, 5, 2... 16. cyfra w cyklu (cykl ma dlugosc 10): 16 mod 10 = 6, czyli szosta cyfra = 2."
+          "alternative": "Wzor cyfr koncowych wielokrotnosci 7: 7, 4, 1, 8, 5, 2, 9, 6, 3, 0, 7, 4, 1, 8, 5, 2... 16. cyfra w cyklu (cykl ma dlugosc 10): 16 mod 10 = 6, czyli szosta cyfra = 2.",
+          "hint": "Cyfra jednosci 16 razy 7 zalezy tylko od cyfr jednosci 6 razy 7."
         }
       ]
     },
@@ -402,7 +409,8 @@
             "6 razy 8 = 48, wiec 48 : 6 = 8"
           ],
           "answer": "C",
-          "alternative": "6 razy ile = 48? Osiem."
+          "alternative": "6 razy ile = 48? Osiem.",
+          "hint": "48 podzielic na 6 - klasyczna tabliczka."
         },
         {
           "problemId": "gen-l03-v2-w2",
@@ -414,7 +422,8 @@
             "Czyli 7 pelnych dni"
           ],
           "answer": "B",
-          "alternative": "30 : 4 = 7 reszta 2."
+          "alternative": "30 : 4 = 7 reszta 2.",
+          "hint": "30 podzielic na 4 z reszta. Liczba pelnych dni."
         },
         {
           "problemId": "gen-l03-v2-w3",
@@ -425,7 +434,8 @@
             "Trzy pelne druzyny + 4 dzieci bez druzyny"
           ],
           "answer": "D",
-          "alternative": "19 : 5 = 3 reszta 4."
+          "alternative": "19 : 5 = 3 reszta 4.",
+          "hint": "19 podzielic na 5: pelne grupy i reszta."
         },
         {
           "problemId": "gen-l03-v2-w4",
@@ -437,7 +447,8 @@
             "Potrzeba 7. pudelka"
           ],
           "answer": "C",
-          "alternative": "Pelna liczba pudelek = iloraz + 1 jesli jest reszta."
+          "alternative": "Pelna liczba pudelek = iloraz + 1 jesli jest reszta.",
+          "hint": "50 / 8 z reszta - reszta tez potrzebuje pudelka."
         },
         {
           "problemId": "gen-l03-v2-w5",
@@ -447,7 +458,8 @@
             "100 : 10 = 10"
           ],
           "answer": "C",
-          "alternative": "10 razy 10 = 100."
+          "alternative": "10 razy 10 = 100.",
+          "hint": "100 / 10 - skresl zero."
         },
         {
           "problemId": "gen-l03-v2-c1",
@@ -462,7 +474,8 @@
             "38 : 6 = 6 r.2 OK; 38 : 5 = 7 r.3 OK - PASUJE"
           ],
           "answer": "E",
-          "alternative": "Liczby dajace r.2 przy /6 w zakresie 30-40: 32, 38. Z tych daje r.3 przy /5: 38 (bo 38=35+3)."
+          "alternative": "Liczby dajace r.2 przy /6 w zakresie 30-40: 32, 38. Z tych daje r.3 przy /5: 38 (bo 38=35+3).",
+          "hint": "Liczba w przedziale 31-39. Sprawdz reszte po kolei."
         },
         {
           "problemId": "gen-l03-v2-c2",
@@ -474,7 +487,8 @@
             "Czyli ostatnia cyfra 23 razy 4 = 2"
           ],
           "answer": "C",
-          "alternative": "Mozna obliczyc: 23 razy 4 = 92, ostatnia cyfra 2."
+          "alternative": "Mozna obliczyc: 23 razy 4 = 92, ostatnia cyfra 2.",
+          "hint": "Ostatnia cyfra zalezy tylko od jednosci: 3 razy 4."
         }
       ]
     },
@@ -527,25 +541,34 @@
       "solutions": [
         {
           "problemId": "kangur-maluch-2020-16",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Oryginalne zadanie Kangur Maluch 2020 nr 16.",
+          "observation": "Drużyny po 5 lub 6 osob, lacznie 43 uczestnikow.",
+          "strategy": "Znajdz a, b takie ze 5a + 6b = 43 (a, b nieujemne calkowite).",
           "steps": [
-            "Oryginalne zadanie Kangur Maluch 2020 nr 16.",
-            "Poprawna odpowiedz: B"
+            "Sprawdz odpowiedzi: dla a+b drużyn rozpisz mozliwe sumy.",
+            "Probuj b = 3 (drużyn po 6): 18. Zostaje 25 = 5*5. Czyli a=5, b=3 -> 8 drużyn.",
+            "Sprawdzenie: 5*5 + 6*3 = 25 + 18 = 43. OK.",
+            "Razem drużyn: 5 + 3 = 8."
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": "Probuj inne kombinacje: b=8 daje 48 (za duzo), b=2 daje 12, zostaje 31 (5 nie dzieli).",
+          "hint": "Sprawdz odpowiedzi: dla kazdej liczby druzyn rozpisz mozliwe sumy 5a + 6b = 43."
         },
         {
           "problemId": "kangur-maluch-2024-5",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Oryginalne zadanie Kangur Maluch 2024 nr 5.",
+          "observation": "Trzy kolejne liczby 4-cyfrowe. Czesc cyfr zakryta: '...7', '...898', '48...'.",
+          "strategy": "Liczby roznia sie o 1. Z '48...' wiadomo ze 3-cia liczba zaczyna sie 48.",
           "steps": [
-            "Oryginalne zadanie Kangur Maluch 2024 nr 5.",
-            "Poprawna odpowiedz: E"
+            "3-cia liczba: 48?? (np. 4899, 4898, ...).",
+            "2-ga liczba: konczy sie ...898. 3-cia = 2-ga + 1. Czyli 3-cia konczy sie ...899.",
+            "Wiec 3-cia liczba to 4899. Sprawdz: 4899 zaczyna sie na 48 - OK.",
+            "2-ga liczba: konczy ...898. 2-ga = 4899 - 1 = 4898.",
+            "1-sza liczba: konczy sie ...7. 1-sza = 4898 - 1 = 4897.",
+            "Zakryte cyfry: 1-sza: '489' (przed 7), 2-ga: '4' (przed 898), 3-cia: '99' (po 48).",
+            "Odpowiedz: 489, 4, 99."
           ],
           "answer": "E",
-          "alternative": null
+          "alternative": null,
+          "hint": "To trzy kolejne liczby. Pomysl czego nie widac w ...7, ...898, 48... - liczby rosna o 1."
         }
       ]
     }

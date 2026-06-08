@@ -170,7 +170,8 @@
             "Suma: 500 + 104 = 604"
           ],
           "answer": "C",
-          "alternative": "Mozna tez: 348 + 256 = 348 + 250 + 6 = 598 + 6 = 604."
+          "alternative": "Mozna tez: 348 + 256 = 348 + 250 + 6 = 598 + 6 = 604.",
+          "hint": "Zaokraglij obie liczby do pelnych setek i poprawiaj resztke."
         },
         {
           "problemId": "gen-l01-w2",
@@ -182,7 +183,8 @@
             "Wynik: 550 + 3 = 553"
           ],
           "answer": "B",
-          "alternative": "Klasycznie kolumnowo: 800 - 247 = 553 (z pozyczaniem)."
+          "alternative": "Klasycznie kolumnowo: 800 - 247 = 553 (z pozyczaniem).",
+          "hint": "Pomysl: od 800 najlatwiej odjac liczbe blisko 250."
         },
         {
           "problemId": "gen-l01-w3",
@@ -194,7 +196,8 @@
             "Razem: 100 + 100 = 200"
           ],
           "answer": "B",
-          "alternative": "Liczenie po kolei dalo by ten sam wynik, ale wolniej."
+          "alternative": "Liczenie po kolei dalo by ten sam wynik, ale wolniej.",
+          "hint": "Szukaj par, ktore daja okragla liczbe (np. 37 + 63)."
         },
         {
           "problemId": "gen-l01-w4",
@@ -206,7 +209,8 @@
             "500 + 300 = 800"
           ],
           "answer": "D",
-          "alternative": "Bezposrednio: 498 + 302 = 800."
+          "alternative": "Bezposrednio: 498 + 302 = 800.",
+          "hint": "Obie liczby sa blisko pelnych setek - zaokraglij i popraw."
         },
         {
           "problemId": "gen-l01-w5",
@@ -217,7 +221,8 @@
             "Odejmij jeszcze 34: 900 - 34 = 866"
           ],
           "answer": "C",
-          "alternative": "Albo: 1000 - 134 = 999 - 134 + 1 = 865 + 1 = 866 (trik: -134 od 999 jest latwy bo nie ma pozyczania)."
+          "alternative": "Albo: 1000 - 134 = 999 - 134 + 1 = 865 + 1 = 866 (trik: -134 od 999 jest latwy bo nie ma pozyczania).",
+          "hint": "Brakuje 134, wiec szukasz 1000 minus 134."
         },
         {
           "problemId": "gen-l01-c1",
@@ -230,7 +235,8 @@
             "Wynik: 900 - 6 = 894"
           ],
           "answer": "B",
-          "alternative": "Liczenie po kolei tez dziala: 199 + 298 = 497, 497 + 397 = 894."
+          "alternative": "Liczenie po kolei tez dziala: 199 + 298 = 497, 497 + 397 = 894.",
+          "hint": "Kazda liczba to prawie pelna setka. Dodaj setki, potem popraw o brakujace."
         },
         {
           "problemId": "gen-l01-c2",
@@ -242,7 +248,8 @@
             "Po prezencie od mamy: 49 + 150 = 199 zl"
           ],
           "answer": "C",
-          "alternative": "Mozna zsumowac wszystko: 500 + 247 - 698 + 150 = (500 + 247 + 150) - 698 = 897 - 698 = 199."
+          "alternative": "Mozna zsumowac wszystko: 500 + 247 - 698 + 150 = (500 + 247 + 150) - 698 = 897 - 698 = 199.",
+          "hint": "Rob krok po kroku: dodaj/odejmij i zapisuj wynik po kazdej operacji."
         }
       ]
     },
@@ -404,7 +411,8 @@
             "Suma: 500 + 105 = 605"
           ],
           "answer": "D",
-          "alternative": "247 + 358 = 247 + 350 + 8 = 597 + 8 = 605."
+          "alternative": "247 + 358 = 247 + 350 + 8 = 597 + 8 = 605.",
+          "hint": "Zaokraglij obie liczby do setek, potem popraw."
         },
         {
           "problemId": "gen-l01-v2-w2",
@@ -415,7 +423,8 @@
             "Odjac jeszcze 23: 600 - 23 = 577"
           ],
           "answer": "C",
-          "alternative": "1000 - 423 = 999 - 423 + 1 = 576 + 1 = 577 (bez pozyczania)."
+          "alternative": "1000 - 423 = 999 - 423 + 1 = 576 + 1 = 577 (bez pozyczania).",
+          "hint": "1000 minus liczba blisko 400 - rob to przez zaokraglenie."
         },
         {
           "problemId": "gen-l01-v2-w3",
@@ -427,7 +436,8 @@
             "Razem: 100 + 40 = 140"
           ],
           "answer": "C",
-          "alternative": "Bezposrednio po kolei tez wyjdzie 140."
+          "alternative": "Bezposrednio po kolei tez wyjdzie 140.",
+          "hint": "Szukaj par: 48+52 i 27+13."
         },
         {
           "problemId": "gen-l01-v2-w4",
@@ -439,7 +449,8 @@
             "600 + 400 = 1000"
           ],
           "answer": "D",
-          "alternative": "599 + 401 = 1000 (mozna zauwazyc bezposrednio)."
+          "alternative": "599 + 401 = 1000 (mozna zauwazyc bezposrednio).",
+          "hint": "599 i 401 to prawie 600 i 400 - razem 1000."
         },
         {
           "problemId": "gen-l01-v2-w5",
@@ -450,7 +461,8 @@
             "Odjelismy o 13 za duzo, dodaj 13: 300 + 13 = 313"
           ],
           "answer": "C",
-          "alternative": "600 - 287 = 600 - 287. Klasycznie kolumnowo tez 313."
+          "alternative": "600 - 287 = 600 - 287. Klasycznie kolumnowo tez 313.",
+          "hint": "600 minus 287 - mozesz odjac 300 i dodac 13."
         },
         {
           "problemId": "gen-l01-v2-c1",
@@ -463,7 +475,8 @@
             "Wynik: 600 - 4 = 596"
           ],
           "answer": "C",
-          "alternative": "Po kolei: 99 + 198 = 297, 297 + 299 = 596."
+          "alternative": "Po kolei: 99 + 198 = 297, 297 + 299 = 596.",
+          "hint": "Kazde z 99, 198, 299 to setka minus 1. Razem to 600 minus 3."
         },
         {
           "problemId": "gen-l01-v2-c2",
@@ -474,7 +487,8 @@
             "1150 - 599 = ? Trik: 1150 - 600 = 550, dodaj 1 (bo za duzo odjelismy): 550 + 1 = 551"
           ],
           "answer": "D",
-          "alternative": "800 + 350 - 599 = 1150 - 599 = 551."
+          "alternative": "800 + 350 - 599 = 1150 - 599 = 551.",
+          "hint": "Idz po kolei: 800, +350, -599."
         }
       ]
     },
@@ -507,14 +521,17 @@
       "solutions": [
         {
           "problemId": "kangur-maluch-2020-1",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Oryginalne zadanie Kangur Maluch 2020 nr 1.",
+          "observation": "Ciag liczb rosnie i potem maleje symetrycznie wokol 5.",
+          "strategy": "Pary symetryczne: 1+1, 2+2, 3+3, 4+4 plus srodek 5.",
           "steps": [
-            "Oryginalne zadanie Kangur Maluch 2020 nr 1.",
-            "Poprawna odpowiedz: D"
+            "Lewa polowa: 1, 2, 3, 4, 5.",
+            "Prawa polowa: 4, 3, 2, 1.",
+            "Pary: (1+1) + (2+2) + (3+3) + (4+4) = 2 + 4 + 6 + 8 = 20.",
+            "Dodaj srodek 5: 20 + 5 = 25."
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": "Mozna policzyc liniowo: 1+2+3+4+5 = 15, 4+3+2+1 = 10, razem 25.",
+          "hint": "Sumuj pary symetryczne: 1+1, 2+2, 3+3, 4+4 i sam srodek 5."
         }
       ]
     }

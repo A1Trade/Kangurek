@@ -171,7 +171,8 @@
             "23, 35 -> nieparzyste"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Parzysta konczy sie na 0, 2, 4, 6, 8."
         },
         {
           "problemId": "gen-l05-w2",
@@ -183,7 +184,8 @@
             "Czyli parzysta"
           ],
           "answer": "A",
-          "alternative": "Np. 4+6=10, 8+12=20 - wszystkie parzyste."
+          "alternative": "Np. 4+6=10, 8+12=20 - wszystkie parzyste.",
+          "hint": "Parzysta + parzysta = ZAWSZE parzysta."
         },
         {
           "problemId": "gen-l05-w3",
@@ -195,7 +197,8 @@
             "Wzor: parzysta + nieparzysta = nieparzysta"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Parzysta + nieparzysta = ZAWSZE nieparzysta."
         },
         {
           "problemId": "gen-l05-w4",
@@ -206,7 +209,8 @@
             "Razem 10 sztuk"
           ],
           "answer": "C",
-          "alternative": "Mozna tez: 20 : 2 = 10."
+          "alternative": "Mozna tez: 20 : 2 = 10.",
+          "hint": "Od 1 do 20 co druga jest parzysta."
         },
         {
           "problemId": "gen-l05-w5",
@@ -217,7 +221,8 @@
             "5 + 8 = 13 - nieparzysta"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "5 + 8 = 13. Czy 13 jest parzyste czy nieparzyste?"
         },
         {
           "problemId": "gen-l05-c1",
@@ -230,7 +235,8 @@
             "Wynik zawsze NIEPARZYSTY - parzystej sie nie da"
           ],
           "answer": "D",
-          "alternative": "Klucz: start od 15 (nieparzysta), kazda zmiana znaku to roznica parzysta."
+          "alternative": "Klucz: start od 15 (nieparzysta), kazda zmiana znaku to roznica parzysta.",
+          "hint": "Suma 1+2+3+4+5 = 15. Zmiana znaku nie zmienia parzystosci."
         },
         {
           "problemId": "kangur-maluch-2022-11",
@@ -242,7 +248,8 @@
             "Razem: 4 razy 9 = 36"
           ],
           "answer": "A",
-          "alternative": null
+          "alternative": null,
+          "hint": "Razem 4 rzedy (2 przed + 1 za + jego). Po 9 dzieci w kazdym (po prawej 5 + on + po lewej 3)."
         }
       ]
     },
@@ -403,7 +410,8 @@
             "Pozostale (4,8,22,30) parzyste"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Nieparzysta konczy sie na 1, 3, 5, 7, 9."
         },
         {
           "problemId": "gen-l05-v2-w2",
@@ -415,7 +423,8 @@
             "Zawsze parzysta"
           ],
           "answer": "A",
-          "alternative": null
+          "alternative": null,
+          "hint": "Nieparzysta + nieparzysta = parzysta."
         },
         {
           "problemId": "gen-l05-v2-w3",
@@ -427,7 +436,8 @@
             "Zawsze parzysty"
           ],
           "answer": "A",
-          "alternative": null
+          "alternative": null,
+          "hint": "Parzysta razy cokolwiek = parzysta."
         },
         {
           "problemId": "gen-l05-v2-w4",
@@ -438,7 +448,8 @@
             "Razem 15 sztuk"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Od 1 do 30 co druga liczba jest nieparzysta."
         },
         {
           "problemId": "gen-l05-v2-w5",
@@ -449,7 +460,8 @@
             "Suma parzystych zawsze parzysta"
           ],
           "answer": "A",
-          "alternative": null
+          "alternative": null,
+          "hint": "Suma parzystych to znow parzysta."
         },
         {
           "problemId": "gen-l05-v2-c1",
@@ -461,7 +473,8 @@
             "55 konczy sie na 5 - nieparzysta"
           ],
           "answer": "B",
-          "alternative": "Mozna tez liczyc po kolei: 55."
+          "alternative": "Mozna tez liczyc po kolei: 55.",
+          "hint": "Posum w parach: 1+10, 2+9, ..., 5+6. Pieć par po 11."
         },
         {
           "problemId": "kangur-maluch-2022-15",
@@ -473,7 +486,8 @@
             "Brakuje: 5"
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "Kazda druzyna gra 2 mecze, wiec max 6 pkt. Sprawdz ktorej sumy nie da sie zlozyc z {0,1,3}."
         }
       ]
     },
@@ -526,25 +540,36 @@
       "solutions": [
         {
           "problemId": "kangur-maluch-2016-17",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Oryginalne zadanie Kangur Maluch 2016 nr 17.",
+          "observation": "Trzy dziewczyny w jednym wieku, czwarta o 3 lata starsza.",
+          "strategy": "Suma wiekow = 3w + (w+3) = 4w + 3.",
           "steps": [
-            "Oryginalne zadanie Kangur Maluch 2016 nr 17.",
-            "Poprawna odpowiedz: E"
+            "Niech w = wiek Oli (i Uli i Ali).",
+            "Ela ma w + 3 lat.",
+            "Suma: 3w + (w + 3) = 4w + 3.",
+            "Suma musi byc rownosci 4w + 3 dla calkowitego w.",
+            "Sprawdz odpowiedzi: 60 -> 4w = 57 (nie), 29 -> 4w = 26 (nie), 25 -> 4w = 22 (nie), 30 -> 4w = 27 (nie), 27 -> 4w = 24, w = 6 (TAK).",
+            "Odpowiedz: 27 lat (kazda po 6, Ela 9)."
           ],
           "answer": "E",
-          "alternative": null
+          "alternative": null,
+          "hint": "Suma = 3*wiek + (wiek+3) = 4*wiek + 3. Sprawdz ktora odpowiedz pasuje."
         },
         {
           "problemId": "kangur-maluch-2016-18",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Oryginalne zadanie Kangur Maluch 2016 nr 18.",
+          "observation": "Drzewa typu A: 6 gruszek, 3 jablka. Typu B: 8 gruszek, 4 jablka. Razem 25 jablek.",
+          "strategy": "Niech a drzew typu A, b typu B. 3a + 4b = 25. Szukaj calkowitych.",
           "steps": [
-            "Oryginalne zadanie Kangur Maluch 2016 nr 18.",
-            "Poprawna odpowiedz: D"
+            "3a + 4b = 25. Sprawdz wartosci b:",
+            "b = 1: 3a = 21, a = 7. OK.",
+            "b = 4: 3a = 9, a = 3. OK.",
+            "b = 7: 3a = -3. Nie.",
+            "Dla a=7, b=1: gruszki = 6*7 + 8*1 = 42 + 8 = 50.",
+            "Dla a=3, b=4: gruszki = 6*3 + 8*4 = 18 + 32 = 50.",
+            "Niezaleznie od kombinacji - 50 gruszek."
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": "Zauwaz ze stosunek gruszki/jablka = 2 w obu drzewach. Wiec gruszek = 2 * jablek = 2 * 25 = 50.",
+          "hint": "Jablek 25 = 3a + 4b. Sprawdz pary (a, b) - potem gruszki 6a + 8b."
         }
       ]
     }

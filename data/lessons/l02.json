@@ -168,7 +168,8 @@
             "7 razy 8 = 56"
           ],
           "answer": "C",
-          "alternative": "Mozna jako 8 razy 7 (przemiennosc) - to samo."
+          "alternative": "Mozna jako 8 razy 7 (przemiennosc) - to samo.",
+          "hint": "7 razy 8 - klasyczna tabliczka."
         },
         {
           "problemId": "gen-l02-w2",
@@ -178,7 +179,8 @@
             "8 razy 10 = 80"
           ],
           "answer": "D",
-          "alternative": "Mozna policzyc 10 razy 8 = 80 - to samo."
+          "alternative": "Mozna policzyc 10 razy 8 = 80 - to samo.",
+          "hint": "Mnozysz przez 10 - tylko dopisz zero na koncu."
         },
         {
           "problemId": "gen-l02-w3",
@@ -190,7 +192,8 @@
             "Razem: 70 + 14 = 84"
           ],
           "answer": "D",
-          "alternative": "Albo: 7 razy 12 = 7 razy 6 razy 2 = 42 razy 2 = 84."
+          "alternative": "Albo: 7 razy 12 = 7 razy 6 razy 2 = 42 razy 2 = 84.",
+          "hint": "12 to 10 + 2, wiec 12 razy 7 = 70 + 14."
         },
         {
           "problemId": "gen-l02-w4",
@@ -200,7 +203,8 @@
             "4 razy 9 = 36"
           ],
           "answer": "D",
-          "alternative": "Mozna 9 razy 4 = 36 (przemiennosc)."
+          "alternative": "Mozna 9 razy 4 = 36 (przemiennosc).",
+          "hint": "Prostokat 4 na 9 to 4 razy 9 z tabliczki."
         },
         {
           "problemId": "gen-l02-w5",
@@ -213,7 +217,8 @@
             "Po 4h: 8 razy 2 = 16"
           ],
           "answer": "E",
-          "alternative": "To 2 razy 2 razy 2 razy 2 = 16 (cztery razy po 2)."
+          "alternative": "To 2 razy 2 razy 2 razy 2 = 16 (cztery razy po 2).",
+          "hint": "Co godzina podwajamy: 1 -> 2 -> 4 -> 8 -> ..."
         },
         {
           "problemId": "gen-l02-c1",
@@ -225,7 +230,8 @@
             "Razem: 36 + 32 = 68 osob"
           ],
           "answer": "D",
-          "alternative": "Mozna sprawdzic: 36 + 32 = 68 (dodawanie z rozbijaniem 30+30+6+2)."
+          "alternative": "Mozna sprawdzic: 36 + 32 = 68 (dodawanie z rozbijaniem 30+30+6+2).",
+          "hint": "Policz dwie grupy osobno (6 stolow po 6, 4 stoly po 8), potem dodaj."
         },
         {
           "problemId": "gen-l02-c2",
@@ -237,7 +243,8 @@
             "Sprawdzenie: 13 razy 10 = 130, plus 13 razy 1 = 13, razem 143"
           ],
           "answer": "D",
-          "alternative": "Rozbij: 13 razy 11 = 13 razy 10 + 13 = 130 + 13 = 143."
+          "alternative": "Rozbij: 13 razy 11 = 13 razy 10 + 13 = 130 + 13 = 143.",
+          "hint": "Mnozenie 2-cyfrowej przez 11: cyfre pierwsza, suma cyfr, cyfre druga."
         }
       ]
     },
@@ -397,7 +404,8 @@
             "6 razy 9 = 54"
           ],
           "answer": "C",
-          "alternative": "6 razy 10 = 60, minus 6 = 54."
+          "alternative": "6 razy 10 = 60, minus 6 = 54.",
+          "hint": "6 razy 9 - tabliczka."
         },
         {
           "problemId": "gen-l02-v2-w2",
@@ -407,7 +415,8 @@
             "12 razy 10 = 120"
           ],
           "answer": "D",
-          "alternative": "Mozna 10 razy 12 = 120 (przemiennosc)."
+          "alternative": "Mozna 10 razy 12 = 120 (przemiennosc).",
+          "hint": "Mnozenie przez 10 - dopisz zero."
         },
         {
           "problemId": "gen-l02-v2-w3",
@@ -419,7 +428,8 @@
             "Razem: 80 + 8 = 88"
           ],
           "answer": "D",
-          "alternative": "Sztuczka z 11: dla 1-cyfrowej liczby zapisz ja dwa razy: 8 -> 88."
+          "alternative": "Sztuczka z 11: dla 1-cyfrowej liczby zapisz ja dwa razy: 8 -> 88.",
+          "hint": "Rozbij 11 na 10+1: 8 razy 11 = 80 + 8."
         },
         {
           "problemId": "gen-l02-v2-w4",
@@ -429,7 +439,8 @@
             "5 razy 7 = 35"
           ],
           "answer": "C",
-          "alternative": "7 razy 5 = 35 (przemiennosc)."
+          "alternative": "7 razy 5 = 35 (przemiennosc).",
+          "hint": "5 razy 7 - prosta tabliczka."
         },
         {
           "problemId": "gen-l02-v2-w5",
@@ -443,7 +454,8 @@
             "Dzien 5: 8 razy 2 = 16"
           ],
           "answer": "D",
-          "alternative": "To 2 razy 2 razy 2 razy 2 = 16 (cztery podwojenia)."
+          "alternative": "To 2 razy 2 razy 2 razy 2 = 16 (cztery podwojenia).",
+          "hint": "Codziennie razy 2: 1, 2, 4, 8, ..."
         },
         {
           "problemId": "gen-l02-v2-c1",
@@ -455,7 +467,8 @@
             "Razem: 40 + 36 = 76"
           ],
           "answer": "D",
-          "alternative": "Sprawdz: 76 = 40 + 36 OK."
+          "alternative": "Sprawdz: 76 = 40 + 36 OK.",
+          "hint": "Dwa mnozenia osobno i dodaj na koniec."
         },
         {
           "problemId": "gen-l02-v2-c2",
@@ -467,7 +480,8 @@
             "Wynik: 2-7-5 = 275"
           ],
           "answer": "C",
-          "alternative": "Rozbicie: 25 razy 11 = 25 razy 10 + 25 = 250 + 25 = 275."
+          "alternative": "Rozbicie: 25 razy 11 = 25 razy 10 + 25 = 250 + 25 = 275.",
+          "hint": "25 razy 11: dodaj 250 + 25 albo zapisz 2_(2+5)_5."
         }
       ]
     },
@@ -540,36 +554,49 @@
       "solutions": [
         {
           "problemId": "kangur-maluch-2020-12",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Oryginalne zadanie Kangur Maluch 2020 nr 12.",
+          "observation": "Helena odjela ta sama liczbe od kazdej z trzech liczb. Suma malala.",
+          "strategy": "Suma odjeta = roznica miedzy sumami przed i po.",
           "steps": [
-            "Oryginalne zadanie Kangur Maluch 2020 nr 12.",
-            "Poprawna odpowiedz: A"
+            "Suma przed: 50.",
+            "Suma po: 24 + 13 + 7 = 44.",
+            "Odjeto razem: 50 - 44 = 6.",
+            "Odjeto od kazdej tej samej liczby: 6 : 3 = 2.",
+            "Liczby poczatkowe: 24+2 = 26, 13+2 = 15, 7+2 = 9.",
+            "Wsrod odpowiedzi pasuje 9."
           ],
           "answer": "A",
-          "alternative": null
+          "alternative": null,
+          "hint": "Suma odjeta trzy razy: 50 - 24 - 13 - 7 = 6, wiec odjeto 3 razy po 2. Liczby to 24+2, 13+2, 7+2."
         },
         {
           "problemId": "kangur-maluch-2022-14",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Oryginalne zadanie Kangur Maluch 2022 nr 14.",
+          "observation": "Hanik chodzi obwodem 20m, Gerszon obwodem 30m. W przeciwnych kierunkach.",
+          "strategy": "Spotkaja sie ponownie w punkcie A gdy obaj zrobia pelne okrazenia.",
           "steps": [
-            "Oryginalne zadanie Kangur Maluch 2022 nr 14.",
-            "Poprawna odpowiedz: C"
+            "Obwod kwadratu Hanika: 4 * 5 = 20m.",
+            "Obwod prostokata Gerszona: 2*(5+10) = 30m.",
+            "Najmniejsza wspolna wielokrotnosc 20 i 30 to 60m.",
+            "Hanik musi przejsc 60m, czyli 60 : 20 = 3 okrazenia.",
+            "Gerszon musi przejsc 60m, czyli 60 : 30 = 2 okrazenia.",
+            "Hanik musi obejsc kwadrat co najmniej 3 razy."
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Obwod kwadratu = 20m, obwod prostokata = 30m. Szukaj wspolnej wielokrotnosci."
         },
         {
           "problemId": "kangur-maluch-2023-20",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Oryginalne zadanie Kangur Maluch 2023 nr 20.",
+          "observation": "Marysia i Jozek maja po 9 pilek. Lacznie 8 niebieskich i 10 bialych.",
+          "strategy": "Najpierw rozwiaz pilki Marysi: b = 2n, b + n = 9.",
           "steps": [
-            "Oryginalne zadanie Kangur Maluch 2023 nr 20.",
-            "Poprawna odpowiedz: B"
+            "Marysia: bialych = 2 * niebieskich, razem 9. Czyli 2n + n = 9, n = 3, b = 6.",
+            "Marysia ma 6 bialych i 3 niebieskie.",
+            "Jozek: bialych = 10 - 6 = 4.",
+            "Sprawdzenie: Jozek niebieskich = 8 - 3 = 5, razem 4 + 5 = 9. OK."
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Marysia ma 9 pilek (b + n = 9, b = 2n). Wyjdz od tego ile bialych ma Marysia."
         }
       ]
     }

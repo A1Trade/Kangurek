@@ -169,7 +169,8 @@
             "50 + 26 = 76"
           ],
           "answer": "B",
-          "alternative": "Mozna tez po kolei: 17+26=43, 43+33=76."
+          "alternative": "Mozna tez po kolei: 17+26=43, 43+33=76.",
+          "hint": "Szukaj par do okraglej liczby: 17 + 33 = 50."
         },
         {
           "problemId": "gen-l06-w2",
@@ -179,7 +180,8 @@
             "25 razy 4 + 25 razy 6 = 25 razy (4+6) = 25 razy 10 = 250"
           ],
           "answer": "C",
-          "alternative": "Bezposrednio: 100 + 150 = 250."
+          "alternative": "Bezposrednio: 100 + 150 = 250.",
+          "hint": "Wyciagnij 25 przed nawias: 25 * (4+6)."
         },
         {
           "problemId": "gen-l06-w3",
@@ -190,7 +192,8 @@
             "100 + 17 = 117"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "99 + 1 = 100, dodaj 17."
         },
         {
           "problemId": "gen-l06-w4",
@@ -200,7 +203,8 @@
             "8 razy 25 = 4 razy (2 razy 25) = 4 razy 50 = 200"
           ],
           "answer": "C",
-          "alternative": "Albo: 25 razy 4 razy 2 = 100 razy 2 = 200."
+          "alternative": "Albo: 25 razy 4 razy 2 = 100 razy 2 = 200.",
+          "hint": "8 razy 25 = 4 razy 50 = 2 razy 100."
         },
         {
           "problemId": "kangur-maluch-2018-11",
@@ -211,7 +215,8 @@
             "Liczba operacji: 8"
           ],
           "answer": "E",
-          "alternative": "Trzeba policzyc kazdy krok osobno."
+          "alternative": "Trzeba policzyc kazdy krok osobno.",
+          "hint": "Najpierw 9+9=18, zostaje 1899, dalej 1+8=9, itd. Licz operacje."
         },
         {
           "problemId": "kangur-maluch-2012-24",
@@ -225,7 +230,8 @@
             "49 = 7 razy 7, czyli Michal ma 7 lat"
           ],
           "answer": "D",
-          "alternative": "Odwracanie: minus to plus, mnozenie to dzielenie."
+          "alternative": "Odwracanie: minus to plus, mnozenie to dzielenie.",
+          "hint": "Odwracaj: 2012:4 = 503, -3 = 500, :10 = 50, -1 = 49, pierwiastek z 49 = 7."
         },
         {
           "problemId": "gen-l06-c2",
@@ -237,7 +243,8 @@
             "Przedtem dodano 5: 12-5=7"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Odwracaj od wyniku: 20 + 4 = 24, : 2 = 12, - 5 = 7."
         }
       ]
     },
@@ -399,7 +406,8 @@
             "50 + 50 = 100"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Szukaj par do 50 lub 100: 23+27, 19+31."
         },
         {
           "problemId": "gen-l06-v2-w2",
@@ -409,7 +417,8 @@
             "50 razy 7 + 50 razy 3 = 50 razy 10 = 500"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Wyciagnij 50: 50 * (7+3) = 50 * 10."
         },
         {
           "problemId": "gen-l06-v2-w3",
@@ -420,7 +429,8 @@
             "100 razy 17 = 1700"
           ],
           "answer": "A",
-          "alternative": null
+          "alternative": null,
+          "hint": "4 razy 25 = 100, dalej razy 17."
         },
         {
           "problemId": "gen-l06-v2-w4",
@@ -431,7 +441,8 @@
             "Przedtem mnozono przez 4: 28 : 4 = 7"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "Odwracaj: 25 + 3 = 28, : 4 = 7."
         },
         {
           "problemId": "kangur-maluch-2018-3",
@@ -444,7 +455,8 @@
             "Suma: 6 + 4 + 8 = 18"
           ],
           "answer": "C",
-          "alternative": null
+          "alternative": null,
+          "hint": "6 + 4 + 8 - dodaj wszystkie wieki."
         },
         {
           "problemId": "kangur-maluch-2012-20",
@@ -459,7 +471,8 @@
             "Sliwek bylo 420"
           ],
           "answer": "E",
-          "alternative": null
+          "alternative": null,
+          "hint": "Sliwki najwiecej: g:j:m:s = 1:3:15:105. Razem 124 czesci = 496."
         },
         {
           "problemId": "gen-l06-v2-c2",
@@ -471,7 +484,8 @@
             "Przedtem odjeto 8: 7 + 8 = 15"
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Odwracaj: 31 - 10 = 21, : 3 = 7, + 8 = 15."
         }
       ]
     },
@@ -564,47 +578,65 @@
       "solutions": [
         {
           "problemId": "kangur-maluch-2019-11",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Oryginalne zadanie Kangur Maluch 2019 nr 11.",
+          "observation": "Wymiana: 3 nieb -> 1 czer, 2 czer -> 5 ziel. Max zielonych.",
+          "strategy": "Wykorzystaj jak najwiecej kulek na kazdym kroku.",
           "steps": [
-            "Oryginalne zadanie Kangur Maluch 2019 nr 11.",
-            "Poprawna odpowiedz: B"
+            "Z 16 niebieskich: 16 : 3 = 5 reszty 1. Czyli 5 czerwonych, 1 niebieska zostaje.",
+            "Z 5 czerwonych: 5 : 2 = 2 reszty 1. Czyli 2 razy po 5 zielonych = 10 zielonych, 1 czerwona zostaje.",
+            "Razem 10 zielonych.",
+            "Sprawdz inne strategie - max 10."
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": null,
+          "hint": "Z 3 nieb. -> 1 czer. Z 16 nieb. -> 5 czer. (zostaje 1 nieb.). Z 2 czer. -> 5 ziel."
         },
         {
           "problemId": "kangur-maluch-2021-12",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Oryginalne zadanie Kangur Maluch 2021 nr 12.",
+          "observation": "3 galezie po 20 lisci. Koala je z kazdej.",
+          "strategy": "Pierwsza i druga galaz powiazane: zjada z drugiej tyle ile zostalo na pierwszej.",
           "steps": [
-            "Oryginalne zadanie Kangur Maluch 2021 nr 12.",
-            "Poprawna odpowiedz: A"
+            "Niech x = ile koala zjadl z pierwszej.",
+            "Na pierwszej zostalo: 20 - x.",
+            "Z drugiej zjadl: 20 - x. Zostalo: 20 - (20 - x) = x.",
+            "Z trzeciej zjadl 2. Zostalo: 18.",
+            "Lacznie zostalo: (20 - x) + x + 18 = 38.",
+            "Wynik nie zalezy od x - zawsze 38."
           ],
           "answer": "A",
-          "alternative": null
+          "alternative": null,
+          "hint": "Niech koala zjadl x z pierwszej. Z drugiej zjadl (20-x), z trzeciej 2. Razem zostalo zawsze tyle samo."
         },
         {
           "problemId": "kangur-maluch-2023-11",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Oryginalne zadanie Kangur Maluch 2023 nr 11.",
+          "observation": "8 samochodow, 19 osob, kazdy 2 lub 3 osoby.",
+          "strategy": "Uklad rownan: a aut po 2 + b aut po 3.",
           "steps": [
-            "Oryginalne zadanie Kangur Maluch 2023 nr 11.",
-            "Poprawna odpowiedz: B"
+            "a + b = 8 (8 aut).",
+            "2a + 3b = 19 (19 osob).",
+            "Z pierwszego: a = 8 - b.",
+            "Podstaw: 2(8-b) + 3b = 19, 16 - 2b + 3b = 19, b = 3.",
+            "a = 8 - 3 = 5.",
+            "5 samochodow ma po 2 osoby."
           ],
           "answer": "B",
-          "alternative": null
+          "alternative": "Gdyby wszystkie po 2 osoby = 16 osob. Trzeba 19, czyli 3 auta dolozyly po 1 = 3 auta po 3. Pozostale 5 po 2.",
+          "hint": "Niech a aut po 2 osoby i b aut po 3 osoby. a+b=8, 2a+3b=19."
         },
         {
           "problemId": "kangur-maluch-2023-22",
-          "observation": "Oryginalne zadanie Kangurka.",
-          "strategy": "Oryginalne zadanie Kangur Maluch 2023 nr 22.",
+          "observation": "Za 9 lat Slawek = 4 * (3 lata temu).",
+          "strategy": "Niech s = obecny wiek. Rownanie: s + 9 = 4(s - 3).",
           "steps": [
-            "Oryginalne zadanie Kangur Maluch 2023 nr 22.",
-            "Poprawna odpowiedz: D"
+            "s + 9 = 4(s - 3)",
+            "s + 9 = 4s - 12",
+            "9 + 12 = 4s - s",
+            "21 = 3s",
+            "s = 7.",
+            "3 lata temu Slawek mial 7 - 3 = 4 lata."
           ],
           "answer": "D",
-          "alternative": null
+          "alternative": null,
+          "hint": "Za 9 lat (s+9), 3 lata temu (s-3). Rownanie: s+9 = 4(s-3)."
         }
       ]
     }
