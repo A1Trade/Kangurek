@@ -45,11 +45,6 @@ export default function RootLayout({
           </div>
         </header>
         <main className="flex-1 max-w-5xl mx-auto w-full px-4 py-8">{children}</main>
-        <footer className="mt-16 pb-6">
-          <div className="max-w-5xl mx-auto px-4 text-center text-[11px] text-slate-400">
-            Materialy generowane przez Claude AI · Arkusze historyczne tylko jako referencja stylu
-          </div>
-        </footer>
       </body>
     </html>
   );
