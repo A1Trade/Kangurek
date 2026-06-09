@@ -119,7 +119,7 @@
             "E": "23"
           },
           "correct": "E",
-          "imageSrc": "/images/orig/2025-page3.png"
+          "imageSrc": "/images/orig/2025-16.png"
         }
       ],
       "challenge": [
@@ -393,7 +393,7 @@
             "E": "10"
           },
           "correct": "C",
-          "imageSrc": "/images/orig/2025-page4.png"
+          "imageSrc": "/images/orig/2025-23.png"
         },
         {
           "id": "kangur-maluch-2018-19",
@@ -551,7 +551,7 @@
             "E": "pasek E"
           },
           "correct": "E",
-          "imageSrc": "/images/orig/2016-page4.png"
+          "imageSrc": "/images/orig/2016-20.png"
         },
         {
           "id": "kangur-maluch-2019-12",

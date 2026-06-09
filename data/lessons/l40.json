@@ -163,7 +163,7 @@
             "E": "Najlzejszy koło, najciezszy trójkąt"
           },
           "correct": "B",
-          "imageSrc": "/images/orig/2016-page4.png"
+          "imageSrc": "/images/orig/2016-21.png"
         }
       ],
       "solutions": [
@@ -389,7 +389,7 @@
             "E": "5"
           },
           "correct": "C",
-          "imageSrc": "/images/orig/2025-page4.png"
+          "imageSrc": "/images/orig/2025-21.png"
         },
         {
           "id": "kangur-maluch-2025-19",
@@ -410,7 +410,7 @@
             "E": "5"
           },
           "correct": "A",
-          "imageSrc": "/images/orig/2025-page4.png"
+          "imageSrc": "/images/orig/2025-19.png"
         }
       ],
       "solutions": [
@@ -526,7 +526,7 @@
             "E": "Edek"
           },
           "correct": "E",
-          "imageSrc": "/images/orig/2016-page4.png"
+          "imageSrc": "/images/orig/2016-22.png"
         },
         {
           "id": "kangur-maluch-2018-24",

@@ -142,7 +142,7 @@
             "E": "rysunek E"
           },
           "correct": "E",
-          "imageSrc": "/images/orig/2016-page2.png"
+          "imageSrc": "/images/orig/2016-10.png"
         },
         {
           "id": "gen-l15-v1-c1",
@@ -358,7 +358,7 @@
             "E": "wzor E"
           },
           "correct": "B",
-          "imageSrc": "/images/orig/2025-page1.png"
+          "imageSrc": "/images/orig/2025-2.png"
         }
       ],
       "challenge": [
@@ -512,7 +512,7 @@
             "E": "E"
           },
           "correct": "B",
-          "imageSrc": "/images/orig/2025-page1.png"
+          "imageSrc": "/images/orig/2025-3.png"
         }
       ],
       "challenge": [],
