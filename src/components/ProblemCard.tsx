@@ -10,6 +10,7 @@ type Props = {
   showNumber?: number;
   lessonId?: string;
   versionId?: string;
+  blockCode?: string;
 };
 
 const DIFF_LABEL: Record<string, string> = { "3pkt": "3 pkt", "4pkt": "4 pkt", "5pkt": "5 pkt" };
@@ -32,7 +33,7 @@ function problemOrigin(p: Problem): { label: string; cls: string } {
   return { label: "📝 Zadanie autorskie", cls: "kbadge kbadge-blue" };
 }
 
-export function ProblemCard({ problem, solution, showNumber, lessonId, versionId }: Props) {
+export function ProblemCard({ problem, solution, showNumber, lessonId, versionId, blockCode }: Props) {
   const [selected, setSelected] = useState<string | null>(null);
   const [revealed, setRevealed] = useState(false);
   const [showSolution, setShowSolution] = useState(false);
@@ -45,7 +46,10 @@ export function ProblemCard({ problem, solution, showNumber, lessonId, versionId
     if (!selected || revealed) return;
     setRevealed(true);
     if (lessonId && versionId) {
-      recordProblemAttempt(lessonId, versionId, problem.id, selected, selected === problem.correct);
+      recordProblemAttempt(lessonId, versionId, problem.id, selected, selected === problem.correct, {
+        topic: problem.topic,
+        block: blockCode,
+      });
     }
   };
 

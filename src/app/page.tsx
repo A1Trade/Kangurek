@@ -2,6 +2,7 @@ import Link from "next/link";
 import { getPlanWithStatus } from "@/lib/data/lessons";
 import { BLOCKS } from "@/lib/lesson-plan";
 import { ProgressBar, LessonDoneBadge } from "@/components/ProgressBar";
+import { HomeWidget } from "@/components/HomeWidget";
 
 const BLOCK_ICON: Record<string, string> = {
   A: "🧮", B: "🔀", C: "📐", D: "🧊", E: "📏",
@@ -40,6 +41,8 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      <HomeWidget />
 
       <ProgressBar total={plan.length} />
 

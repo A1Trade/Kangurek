@@ -94,6 +94,7 @@ export function LessonView({ lesson }: { lesson: Lesson }) {
             showNumber={i + 1}
             lessonId={lesson.id}
             versionId={versionId}
+            blockCode={lesson.blockCode}
           />
         ))}
       </section>
@@ -111,6 +112,7 @@ export function LessonView({ lesson }: { lesson: Lesson }) {
             showNumber={current.warmup.length + i + 1}
             lessonId={lesson.id}
             versionId={versionId}
+            blockCode={lesson.blockCode}
           />
         ))}
       </section>

@@ -31,9 +31,18 @@ export default function RootLayout({
                 </span>
               </div>
             </Link>
-            <nav className="flex gap-1 text-sm">
+            <nav className="flex gap-1 text-sm flex-wrap">
               <Link href="/" className="kbtn kbtn-ghost kbtn-sm">
                 Lekcje
+              </Link>
+              <Link href="/powtorka" className="kbtn kbtn-ghost kbtn-sm">
+                Powtorka
+              </Link>
+              <Link href="/bledy" className="kbtn kbtn-ghost kbtn-sm">
+                Bledy
+              </Link>
+              <Link href="/odznaki" className="kbtn kbtn-ghost kbtn-sm">
+                Odznaki
               </Link>
               <Link href="/dziennik" className="kbtn kbtn-ghost kbtn-sm">
                 Dziennik

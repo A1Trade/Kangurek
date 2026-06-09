@@ -31,7 +31,12 @@ function fmtDateTime(iso?: string) {
 }
 
 export function DziennikClient({ index }: { index: LessonIndexEntry[] }) {
-  const [progress, setProgress] = useState<Progress>({ lessons: {} });
+  const [progress, setProgress] = useState<Progress>({
+    lessons: {},
+    reviews: {},
+    streak: { current: 0, longest: 0, lastActivityDate: "" },
+    badges: [],
+  });
   const [summary, setSummary] = useState({
     lessonsTotal: 0,
     lessonsCompleted: 0,
